@@ -179,12 +179,22 @@ function mediaSession(v) {
 function Progress({ big }) {
   const c = useClock();
   const [t] = useT();
+  // seconds under the finger or mouse while the bar is held: the whole bar responds, not only the handle
+  // (iOS Safari ignores taps on the track), and the seek happens on release so playback doesn't pull the handle back
+  const [drag, setDrag] = useState(null);
   const max = Math.max(1, Math.floor(c.duration));
+  const at = (e) => { const r = e.currentTarget.getBoundingClientRect(); return Math.round(max * Math.min(1, Math.max(0, (e.clientX - r.left) / r.width))); };
+  const shown = drag ?? Math.min(max, c.time);
   return (
     <div class={'progress-row' + (big ? ' big' : '')}>
-      <span class="time">{fmtTime(c.time)}</span>
-      <input type="range" min="0" max={max} step="1" value={Math.min(max, Math.floor(c.time))} aria-label={t.seek}
-        style={{ '--p': `${(100 * c.time) / max}%` }} onInput={(e) => seekTo(+e.currentTarget.value)} />
+      <span class="time">{fmtTime(shown)}</span>
+      <input type="range" min="0" max={max} step="1" value={Math.floor(shown)} aria-label={t.seek}
+        style={{ '--p': `${(100 * shown) / max}%` }}
+        onPointerDown={(e) => { e.currentTarget.setPointerCapture(e.pointerId); setDrag(at(e)); }}
+        onPointerMove={(e) => drag != null && setDrag(at(e))}
+        onPointerUp={(e) => { if (drag != null) seekTo(at(e)); setDrag(null); }}
+        onPointerCancel={() => setDrag(null)}
+        onInput={(e) => drag == null && seekTo(+e.currentTarget.value)} />
       <span class="time">{fmtTime(c.duration)}</span>
     </div>
   );

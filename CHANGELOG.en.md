@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.2.3] - 2026-11-22
+
+### Changed
+- Phones now show the player's **Back 15 seconds** and **Forward 30 seconds** buttons too.
+
+### Fixed
+- The player's seek bar works with a finger on iPhone and iPad as well: tap anywhere on it to jump there, or drag it. It is thicker and easier to see, and it no longer jumps back while your finger is on it.
+
 ## [1.2.2] - 2026-11-22
 
 ### Changed

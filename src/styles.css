@@ -443,16 +443,21 @@ dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
 @keyframes pulse { 50% { opacity: .6; } }
 .progress-row { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
 .time { font-size: 13px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 36px; text-align: center; }
+/* 44px tall so a finger can catch it; touch-action keeps a sideways drag on the bar from turning into a page gesture */
 input[type='range'] {
-  flex: 1; min-width: 0; height: 28px; background: none; -webkit-appearance: none; appearance: none; cursor: pointer;
-  --track: linear-gradient(to right, var(--primary) var(--p, 0%), var(--surface-2) var(--p, 0%));
+  flex: 1; min-width: 0; height: 44px; background: none; -webkit-appearance: none; appearance: none; cursor: pointer; touch-action: none;
+  --track: linear-gradient(to right, var(--primary) var(--p, 0%), color-mix(in srgb, var(--ink) 18%, transparent) var(--p, 0%));
 }
-input[type='range']::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: var(--track); }
-input[type='range']::-moz-range-track { height: 6px; border-radius: 3px; background: var(--track); }
-input[type='range']::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: var(--primary); margin-top: -6px; border: 3px solid var(--surface); box-shadow: 0 1px 4px rgb(0 0 0 / 25%); }
-input[type='range']::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--primary); border: 3px solid var(--surface); }
+input[type='range']::-webkit-slider-runnable-track { height: 8px; border-radius: 4px; background: var(--track); }
+input[type='range']::-moz-range-track { height: 8px; border-radius: 4px; background: var(--track); }
+input[type='range']::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; border-radius: 50%; background: var(--primary); margin-top: -7px; border: 3px solid var(--surface); box-shadow: 0 1px 4px rgb(0 0 0 / 25%); }
+input[type='range']::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: var(--primary); border: 3px solid var(--surface); }
+@media (pointer: coarse) {
+  input[type='range']::-webkit-slider-thumb { width: 28px; height: 28px; margin-top: -10px; }
+  input[type='range']::-moz-range-thumb { width: 22px; height: 22px; }
+}
 .sleep-chip { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 800; background: var(--surface-2); padding: 4px 8px; border-radius: 999px; font-variant-numeric: tabular-nums; }
-@media (min-width: 560px) { .controls .skip { display: inline-grid; } }
+@media (min-width: 360px) { .controls .skip { display: inline-grid; } }
 @media (min-width: 900px) {
   body:has(.dock.open) { --dock-h: 96px; }
   .dock-bar { grid-template-columns: minmax(220px, 1fr) minmax(360px, 1.6fr) auto; grid-template-areas: 'info main side'; padding-inline: 24px; align-items: center; }

@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.2.3] - 2026-11-22
+
+### Changed
+- Pe telefon apar acum și butoanele **Înapoi 15 secunde** și **Înainte 30 de secunde** din player.
+
+### Fixed
+- Bara de derulare din player merge cu degetul și pe iPhone și iPad: apeși oriunde pe ea ca să sari acolo, sau o tragi. E mai groasă și mai ușor de văzut, iar cât ții degetul pe ea nu mai sare înapoi.
+
 ## [1.2.2] - 2026-11-22
 
 ### Changed
