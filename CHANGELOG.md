@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.2.2] - 2026-11-22
+
+### Changed
+- Pe prima pagină, **Explorează** stă acum lângă **Surprinde-mă!** și **Noapte bună**, ca să ajungi la toate poveștile și filtrele dintr-o apăsare.
+
 ## [1.2.1] - 2026-11-22
 
 ### Changed

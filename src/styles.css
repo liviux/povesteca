@@ -153,6 +153,9 @@ img { display: block; max-width: 100%; }
 .hero .lead { margin-top: 12px; color: inherit; opacity: .85; }
 .hero-box { display: grid; gap: 14px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+/* the accent button gets a row of its own; the others share the next row equally, or stack when they don't fit */
+.hero-actions .btn { flex: 1 1 0; }
+.hero-actions .btn.accent { flex-basis: 100%; }
 .search { display: flex; align-items: center; gap: 8px; background: var(--surface); color: var(--ink); border: 2px solid var(--line); border-radius: var(--btn-radius); padding: 4px 4px 4px 14px; box-shadow: var(--shadow); }
 .search:focus-within { border-color: var(--primary); }
 .search .icon { color: var(--muted); }

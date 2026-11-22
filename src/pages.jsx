@@ -63,6 +63,7 @@ export function Home() {
             <SearchForm />
             <div class="hero-actions">
               <button type="button" class="btn accent" onClick={() => surprise(applyFilters(versions, s.filters))}><Icon n="shuffle" />{t.surprise}</button>
+              <a class="btn ghost" href="/explorare"><Icon n="filter" />{t.explore}</a>
               <button type="button" class="btn ghost" onClick={() => set({ player: { ...state.player, night: true } })}><Icon n="moon" />{t.night}</button>
             </div>
           </div>

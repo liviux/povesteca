@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.2.2] - 2026-11-22
+
+### Changed
+- On the home page, **Browse** now sits next to **Surprise me!** and **Good night**, so every story and filter is one tap away.
+
 ## [1.2.1] - 2026-11-22
 
 ### Changed
