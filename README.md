@@ -36,7 +36,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
 - **Ale mele**: favorite, lista „De ascultat” și istoricul.
 - **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
-- **Trei teme** (Clasică, Băieți, Fete), care schimbă și culorile, și așezarea paginii.
+- **Trei teme** (Clasică, Băieți, Fete), care schimbă și culorile, și așezarea paginii. Fiecare are o variantă întunecată, care pornește singură când dispozitivul e pe modul întunecat sau când folosești Dark Reader.
 - **Surse**: o pagină cu arhivele și canalele de unde vin înregistrările și cu regulile catalogului.
 
 Interfața e în română sau în engleză. Titlurile, numele și înregistrările rămân în română.

@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.3.0] - 2026-11-22
+
+### Added
+- O **variantă întunecată** pentru toate cele trei teme. Pornește singură când telefonul sau tableta e pe modul întunecat, sau când folosești extensia Dark Reader, care atunci lasă pagina în pace în loc s-o recoloreze.
+
+### Fixed
+- Cu modul întunecat al browserului sau cu Dark Reader, culorile, bara de derulare și butoanele nu mai arată stricat.
+
 ## [1.2.3] - 2026-11-22
 
 ### Changed

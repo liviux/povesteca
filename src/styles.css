@@ -26,6 +26,26 @@
   --shadow-hover: 0 2px 4px rgb(74 36 51 / 8%), 0 14px 32px rgb(195 51 95 / 16%);
   --cover-bg: linear-gradient(135deg, #ffc2cf, #ff9a8a);
 }
+:root { color-scheme: light; }
+
+/* Dark versions of the three themes. The script in index.html sets data-dark when the device is in dark
+   mode or Dark Reader runs, and then asks Dark Reader to leave the page alone. */
+:root[data-dark] {
+  color-scheme: dark;
+  --bg: #0f1b2b; --surface: #182739; --surface-2: #22344c; --ink: #f3ead9; --muted: #a7b2c2; --line: #2e4361;
+  --primary: #f3ead9; --primary-ink: #10203a; --accent: #f6a457; --accent-ink: #16324f; --focus: #f6a457;
+  --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px rgb(0 0 0 / 28%);
+  --shadow-hover: 0 2px 4px rgb(0 0 0 / 32%), 0 14px 32px rgb(0 0 0 / 38%);
+}
+[data-dark][data-theme='baieti'] {
+  --bg: #0b1724; --surface: #13233a; --surface-2: #1b3150; --ink: #e8f1fa; --muted: #9fb3c8; --line: #27426a;
+  --primary: #5fb0ea; --primary-ink: #0b1724; --accent: #ffc23d; --accent-ink: #0e2a47; --focus: #ffc23d;
+  --hero-bg: linear-gradient(160deg, #134e85 0%, #0b2d52 100%);
+}
+[data-dark][data-theme='fete'] {
+  --bg: #1d1217; --surface: #2a1a22; --surface-2: #3a2430; --ink: #fbe9ee; --muted: #c9a7b3; --line: #4a2f3c;
+  --primary: #ff8fb0; --primary-ink: #2a0f1a; --accent: #ffb48c; --accent-ink: #4a2433; --focus: #ff8fb0;
+}
 
 /* ============ Base ============ */
 *, *::before, *::after { box-sizing: border-box; }
@@ -35,6 +55,11 @@ body {
   font: 400 17px/1.55 Nunito, system-ui, sans-serif; -webkit-font-smoothing: antialiased;
 }
 [data-theme='fete'] body { background: radial-gradient(90% 640px at 50% 0, #ffd6de 0%, transparent 100%) no-repeat, var(--bg); }
+[data-dark][data-theme='fete'] body { background: radial-gradient(90% 640px at 50% 0, #3d1a2a 0%, transparent 100%) no-repeat, var(--bg); }
+/* the logo is drawn in dark navy: in dark mode the moon-and-book mark gets a light tile and the wordmark turns light */
+[data-dark] .brand img:first-child, [data-dark] .hero-mark { background: #fef5ea; border-radius: 14px; padding: 4px; }
+[data-dark] .hero-mark { padding: 8px; }
+[data-dark] .wordmark { filter: brightness(0) invert(.92); }
 body:has(.dock.open) { --dock-h: 132px; padding-bottom: var(--dock-h); }
 body:has(dialog[open]) { overflow: hidden; }
 body.no-scroll { overflow: hidden; }
@@ -362,7 +387,7 @@ select:hover { border-color: var(--ink); }
 .col-list a { display: flex; gap: 10px; align-items: center; min-height: 52px; padding: 8px 14px; background: var(--surface); border-radius: var(--radius-sm); text-decoration: none; box-shadow: var(--shadow); flex-wrap: wrap; }
 .col-list a:hover { box-shadow: var(--shadow-hover); }
 .removable { position: relative; display: grid; }
-.removable .remove { position: absolute; top: 10px; left: 10px; z-index: 2; width: 36px; height: 36px; border-radius: 50%; border: 0; background: rgb(255 255 255 / 92%); color: var(--ink); display: grid; place-items: center; box-shadow: var(--shadow); }
+.removable .remove { position: absolute; top: 10px; left: 10px; z-index: 2; width: 36px; height: 36px; border-radius: 50%; border: 0; background: color-mix(in srgb, var(--surface) 92%, transparent); color: var(--ink); display: grid; place-items: center; box-shadow: var(--shadow); }
 .removable .remove::after { content: ''; position: absolute; inset: -4px; }
 [data-theme='baieti'] .removable .remove { left: auto; right: 64px; top: 50%; transform: translateY(-50%); }
 .empty-page { text-align: center; display: grid; justify-items: center; gap: 18px; padding-block: 80px; }

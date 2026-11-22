@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Povesteca · povești audio pentru copii</title>
     <meta name="description" content="Teatru radiofonic și discuri de povești în limba română, jucate de actori. Alegi o poveste și o asculți pe loc." />
-    <meta name="theme-color" content="#fef5ea" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#fef5ea" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1b2b" media="(prefers-color-scheme: dark)" />
     <meta property="og:title" content="Povesteca" />
     <meta property="og:description" content="Teatru radiofonic și discuri de povești în limba română, jucate de actori." />
     <meta property="og:image" content="/icon-192.png" />
@@ -16,6 +18,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" />
     <script>
       try { var p = JSON.parse(localStorage.getItem('povesteca:v1')) || {}; if (p.theme) document.documentElement.dataset.theme = p.theme; if (p.lang) document.documentElement.lang = p.lang; } catch (e) {}
+      // Dark mode: the device asks for it, or Dark Reader runs (it marks the page with <meta name="darkreader">).
+      // Then the page uses its own dark colours and adds <meta name="darkreader-lock">, Dark Reader's documented
+      // signal for a site with its own dark theme, so the extension stops recolouring it.
+      (function () {
+        var root = document.documentElement, mq = matchMedia('(prefers-color-scheme: dark)'), reader = false;
+        function apply() {
+          reader = reader || !!document.querySelector('meta[name="darkreader"]');
+          var dark = mq.matches || reader;
+          root.toggleAttribute('data-dark', dark);
+          if (dark && !document.querySelector('meta[name="darkreader-lock"]')) {
+            var m = document.createElement('meta'); m.name = 'darkreader-lock'; document.head.appendChild(m);
+          }
+        }
+        apply();
+        mq.addEventListener('change', apply);
+        new MutationObserver(apply).observe(document.head, { childList: true });
+      })();
     </script>
   </head>
   <body>

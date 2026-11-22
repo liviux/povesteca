@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.3.0] - 2026-11-22
+
+### Added
+- A **dark version** of all three themes. It turns on by itself when your phone or tablet is in dark mode, or when you use the Dark Reader extension, which then leaves the page alone instead of recolouring it.
+
+### Fixed
+- With the browser's dark mode or Dark Reader, colours, the seek bar and buttons no longer look broken.
+
 ## [1.2.3] - 2026-11-22
 
 ### Changed
