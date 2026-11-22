@@ -50,6 +50,7 @@ for (const v of versions) {
   if (v.age != null && !(Number.isInteger(v.age) && v.age >= 0 && v.age <= 18)) err(`${at}: age`);
   if (v.quality != null && !(Number.isInteger(v.quality) && v.quality >= 1 && v.quality <= 5)) err(`${at}: quality must be 1-5`);
   if (v.start != null && v.end != null && v.end <= v.start) err(`${at}: end before start`);
+  if ('cover' in v && v.cover !== false) err(`${at}: cover can only be false (no picture at the source)`);
   if (!v.links?.length) err(`${at}: needs at least one link`);
   for (const l of v.links || []) {
     const key = l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : `url:${l.url}`;

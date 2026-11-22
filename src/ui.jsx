@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks';
-import { storyById, cover, storyCover, versionsByStory, bestVersion } from './data.js';
+import { storyById, cover, storyCover, bestVersion } from './data.js';
 import { label, fmtDur } from './i18n.js';
 import { useStore, useT, toggleIn } from './store.js';
 import { play, toggle } from './player.jsx';
@@ -28,16 +28,18 @@ const P = {
   right: <path d="M9.5 5.5L16 12l-6.5 6.5" />,
   disc: <g><circle cx="12" cy="12" r="8.5" /><circle cx="12" cy="12" r="2.3" /></g>,
   filter: <path d="M4 6h16M7 12h10M10 18h4" />,
+  library: <g><path d="M5 4.5v15M9.5 4.5v15M14 5.5l4.3 14" /><path d="M3 19.5h18" /></g>,
 };
 export const Icon = ({ n, size = 22, ...p }) => (
   <svg class="icon" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" {...p}>{P[n]}</svg>
 );
 
 export function Cover({ src, title, size = 180 }) {
-  const [broken, setBroken] = useState(!src);
+  // remember which src failed, so the same Cover showing a new picture tries again
+  const [failed, setFailed] = useState(null);
   return (
     <div class="cover" data-initial={title?.[0]}>
-      {!broken && <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" onError={() => setBroken(true)} />}
+      {src && failed !== src && <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" onError={() => setFailed(src)} />}
     </div>
   );
 }
@@ -46,10 +48,13 @@ export function PlayButton({ v, cls = 'play-btn', label: text, from }) {
   const s = useStore();
   const [t] = useT();
   const story = storyById.get(v.storyId);
-  const active = s.player.id === v.id && ['playing', 'loading'].includes(s.player.status);
+  // a "from the start" button always restarts; only the main button turns into Pause
+  const active = from == null && s.player.id === v.id && ['playing', 'loading'].includes(s.player.status);
+  const own = s.player.id === v.id && !['ended', 'error'].includes(s.player.status);
   return (
-    <button type="button" class={cls} aria-label={active ? t.pause : t.listen(story.title)}
-      onClick={() => (s.player.id === v.id && s.player.status !== 'ended' && from == null ? toggle() : play(v.id, from))}>
+    // a button with visible text is named by that text; an icon-only one gets the story title
+    <button type="button" class={cls} aria-label={text ? null : active ? t.pause : t.listen(story.title)}
+      onClick={() => (own && from == null ? toggle() : play(v.id, from))}>
       <Icon n={active ? 'pause' : 'play'} />
       {text && <span>{active ? t.pause : text}</span>}
     </button>
@@ -61,7 +66,7 @@ export function FavButton({ list, id, title, withText }) {
   const [t] = useT();
   const on = s[list].includes(id);
   return (
-    <button type="button" class={'fav-btn' + (on ? ' on' : '')} aria-pressed={on} aria-label={on ? t.unsaveA(title) : t.saveA(title)} onClick={() => toggleIn(list, id)}>
+    <button type="button" class={'fav-btn' + (on ? ' on' : '')} aria-pressed={on} aria-label={withText ? null : t.saveA(title)} onClick={() => toggleIn(list, id)}>
       <Icon n="heart" />{withText && <span>{on ? t.saved : t.save}</span>}
     </button>
   );
@@ -116,18 +121,17 @@ export function VersionCard({ v, progress, badge }) {
 }
 
 export function StoryCard({ s: story }) {
-  const [t] = useT();
+  const [, lang] = useT();
   const st = useStore();
-  const n = versionsByStory.get(story.id)?.length || 0;
   const best = bestVersion(story.id, st.ratings);
   return (
     <article class="card">
       <a class="card-link" href={`/poveste/${story.id}`}>
         <Cover src={storyCover(story)} title={story.title} />
         <div class="card-body">
+          <p class="card-kind">{label('genre', story.genre, lang)}</p>
           <h3 class="card-title">{story.title}</h3>
           <p class="card-sub">{story.author}</p>
-          <p class="card-sub muted">{t.nRec(n)}</p>
         </div>
       </a>
       {best && <PlayButton v={best} cls="card-play" />}

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { versionById, storyById, cover, audioUrl, linkUrl, versions, shuffle } from './data.js';
 import { fmtTime } from './i18n.js';
 import { state, set, setPlayer, useStore, useT, addHistory } from './store.js';
@@ -242,11 +242,22 @@ export function Night() {
   const [t] = useT();
   const p = s.player;
   const v = versionById.get(p.id);
+  const ref = useRef();
   useEffect(() => {
     const onKey = (e) => e.key === 'Escape' && setPlayer({ night: false });
     addEventListener('keydown', onKey);
     document.body.classList.add('no-scroll');
-    return () => { removeEventListener('keydown', onKey); document.body.classList.remove('no-scroll'); };
+    // modal: the page behind can't be tabbed into; the dock stays live because a YouTube video
+    // has to remain visible (it shows above this screen, see .night in the CSS)
+    const behind = [...ref.current.parentNode.children].filter((el) => !el.matches('.night, .dock'));
+    behind.forEach((el) => { el.inert = true; });
+    const back = document.activeElement;
+    ref.current.querySelector('button')?.focus();
+    return () => {
+      removeEventListener('keydown', onKey); document.body.classList.remove('no-scroll');
+      behind.forEach((el) => { el.inert = false; });
+      back?.focus?.();
+    };
   }, []);
   const last = s.history.find((h) => versionById.has(h.id) && h.id !== p.id);
   const sleepy = [
@@ -257,7 +268,7 @@ export function Night() {
   const controllable = v && ['archive', 'youtube'].includes(v.links[p.link]?.type) && p.status !== 'error';
   const timers = [10, 20, 30];
   return (
-    <div class="night" role="dialog" aria-modal="true" aria-label={t.nightH}>
+    <div class="night" ref={ref} role="dialog" aria-modal="true" aria-label={t.nightH}>
       <div class="night-inner">
         <header class="night-head">
           <h2><Icon n="moon" /> {t.nightH}</h2>

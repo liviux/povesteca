@@ -20,15 +20,18 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 ## Ce poți face
 
 - **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
-- **Filtrezi** după tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă, disc și calitate, apoi ordonezi rezultatele.
+- **Filtrezi** după tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă și disc, apoi ordonezi rezultatele.
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas.
 - **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
 - **Ale mele**: favorite, lista „De ascultat” și istoricul.
 - **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
 - **Trei teme** (Clasică, Băieți, Fete), care schimbă și culorile, și așezarea paginii.
+- **Surse**: o pagină cu arhivele și canalele de unde vin înregistrările și cu regulile catalogului.
 
 Interfața e în română sau în engleză. Titlurile, numele și înregistrările rămân în română.
+
+Ce s-a schimbat de la o versiune la alta e în [CHANGELOG.md](CHANGELOG.md) (în engleză, [CHANGELOG.en.md](CHANGELOG.en.md)). Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii.
 
 ## Cum funcționează redarea
 
@@ -93,7 +96,8 @@ Reguli:
 - **Ce nu știi, lași gol.** Câmpurile lipsă nu apar în pagină.
 - **Ce e ghicit se trece în `estimated`.** Pagina arată un „≈” lângă valoarea respectivă.
 - `duration` e în secunde. `start` și `end` (tot în secunde) sunt pentru povești aflate în mijlocul unei înregistrări mai lungi.
-- `quality` (1–5) arată cât de bogată e producția (distribuție, muzică, regie), nu cât de populară e.
+- `quality` (1–5) arată cât de bogată e producția (distribuție, muzică, regie), nu cât de populară e. Nu apare în pagină; ajută doar la ordinea „Recomandate”.
+- `"cover": false` e pentru înregistrările care n-au copertă la sursă. Fără el, archive.org arată în loc de copertă o formă de undă neagră; cu el, aplicația pune inițiala poveștii pe un fundal colorat.
 - Valorile permise pentru `kind`, `voices`, `sfx`, `music`, `moods` și `genre` sunt în `scripts/check-catalog.js`.
 
 Numele fișierului audio și durata unei înregistrări de pe archive.org le găsești la `https://archive.org/metadata/IDENTIFICATOR` (câmpul `length`). Înainte să trimiți un pull request, rulează `npm run check`: verifică legăturile dintre fișiere, valorile permise și linkurile care apar la două înregistrări.

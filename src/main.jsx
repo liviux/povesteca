@@ -1,10 +1,12 @@
 import { render } from 'preact';
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { useRoute, useStore, useT, set, setPlayer, loadRatings } from './store.js';
-import { Home, Explore, StoryPage, VersionPage, SourcePage, CollectionPage, Mine, NotFound } from './pages.jsx';
+import { Home, Explore, StoryPage, VersionPage, SourcesPage, SourcePage, CollectionPage, Mine, NotFound } from './pages.jsx';
 import { Dock, Night } from './player.jsx';
 import { Icon } from './ui.jsx';
-import { sources } from './data.js';
+import { Changelog } from './changelog.jsx';
+import { REPO } from './data.js';
+import { version } from '../package.json';
 import './styles.css';
 
 const THEMES = ['clasic', 'baieti', 'fete'];
@@ -32,15 +34,24 @@ function ThemeMenu() {
               <i /><span>{t.themes[x]}</span>
             </button>
           ))}
+          {/* on narrow phones the language switch moves in here, the header has no room for it */}
+          <button type="button" class="swatch lang-in-menu" lang={s.lang === 'ro' ? 'en' : 'ro'} onClick={() => { set({ lang: s.lang === 'ro' ? 'en' : 'ro' }); setOpen(false); }}>
+            <i aria-hidden="true">{s.lang === 'ro' ? 'EN' : 'RO'}</i><span>{t.otherLang}</span>
+          </button>
         </div>
       )}
     </div>
   );
 }
 
-function Header() {
+function Header({ path }) {
   const s = useStore();
   const [t] = useT();
+  const link = (href, icon, text, also) => (
+    <a class="nav-link" href={href} aria-current={path === href || also?.test(path) ? 'page' : null}>
+      <Icon n={icon} /><span class="nav-txt">{text}</span>
+    </a>
+  );
   return (
     <header class="site-head">
       <div class="wrap head-inner">
@@ -49,8 +60,9 @@ function Header() {
           <img class="wordmark" src="/wordmark.webp" alt="Povesteca" width="148" height="31" />
         </a>
         <nav class="head-nav" aria-label="Meniu">
-          <a class="nav-link" href="/explorare"><Icon n="search" /><span class="nav-txt">{t.explore}</span></a>
-          <a class="nav-link" href="/ale-mele"><Icon n="heart" /><span class="nav-txt">{t.mine}</span></a>
+          {link('/explorare', 'search', t.explore)}
+          {link('/surse', 'library', t.sources, /^\/sursa\//)}
+          {link('/ale-mele', 'heart', t.mine)}
           <button type="button" class="nav-link" onClick={() => setPlayer({ night: true })}><Icon n="moon" /><span class="nav-txt">{t.night}</span></button>
           <ThemeMenu />
           <button type="button" class="nav-link lang" lang={s.lang === 'ro' ? 'en' : 'ro'} onClick={() => set({ lang: s.lang === 'ro' ? 'en' : 'ro' })}>
@@ -64,12 +76,17 @@ function Header() {
 
 function Footer() {
   const [t] = useT();
+  const [log, setLog] = useState(false);
   return (
     <footer class="site-foot">
       <div class="wrap">
         <p>{t.footer}</p>
-        <p>{t.sources}: {sources.map((x, i) => <>{i ? ' · ' : ''}<a href={`/sursa/${x.id}`}>{x.name}</a></>)}</p>
+        <p class="foot-links">
+          <button type="button" class="link-btn" title={t.version(version)} onClick={() => setLog(true)}>v{version} · {t.news}</button>
+          <a href={REPO} target="_blank" rel="noopener">{t.code}<Icon n="ext" size={14} /></a>
+        </p>
       </div>
+      {log && <Changelog onClose={() => setLog(false)} />}
     </footer>
   );
 }
@@ -84,12 +101,19 @@ function App() {
     document.documentElement.lang = s.lang;
   }, [s.theme, s.lang]);
   const [path, query = ''] = url.split('?');
+  // after moving to another page, put keyboard and screen reader focus at its start
+  const first = useRef(true);
+  useEffect(() => {
+    if (first.current) { first.current = false; return; }
+    document.getElementById('main')?.focus({ preventScroll: true });
+  }, [path]);
   const seg = path.split('/').filter(Boolean).map(decodeURIComponent);
   const page =
     !seg.length ? <Home />
     : seg[0] === 'explorare' ? <Explore query={query} />
     : seg[0] === 'poveste' && seg[1] ? <StoryPage id={seg[1]} />
     : seg[0] === 'inregistrare' && seg[1] ? <VersionPage id={seg[1]} />
+    : seg[0] === 'surse' && !seg[1] ? <SourcesPage />
     : seg[0] === 'sursa' && seg[1] ? <SourcePage id={seg[1]} />
     : seg[0] === 'colectie' && seg[1] ? <CollectionPage id={seg[1]} />
     : seg[0] === 'ale-mele' ? <Mine />
@@ -97,7 +121,7 @@ function App() {
   return (
     <>
       <a class="skip-link" href="#main">{t.skip}</a>
-      <Header />
+      <Header path={path} />
       {page}
       <Footer />
       <Dock />

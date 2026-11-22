@@ -1,12 +1,12 @@
 {
   "name": "povesteca",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "check": "node scripts/check-catalog.js",
-    "build": "node scripts/check-catalog.js && vite build",
+    "check": "node scripts/check-catalog.js && node scripts/check-changelog.js",
+    "build": "npm run check && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

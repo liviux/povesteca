@@ -5,6 +5,7 @@ import collections from '../catalog/collections.json';
 import { label, ENUMS } from './i18n.js';
 
 export { stories, versions, sources, collections };
+export const REPO = 'https://github.com/liviux/povesteca';
 
 const map = (list) => new Map(list.map((x) => [x.id, x]));
 export const storyById = map(stories);
@@ -26,7 +27,8 @@ export const authors = [...new Set(stories.map((s) => s.author))].sort((a, b) =>
 
 export function cover(v) {
   const l = v?.links?.[0];
-  if (!l) return null;
+  // "cover": false in the catalog = the archive has no picture (archive.org would show a sound wave)
+  if (!l || v.cover === false) return null;
   return l.type === 'archive' ? `https://archive.org/services/img/${l.id}` : l.type === 'youtube' ? `https://i.ytimg.com/vi/${l.id}/mqdefault.jpg` : null;
 }
 export const storyCover = (s) => cover(bestVersion(s.id));
@@ -137,11 +139,10 @@ export function applyFilters(list, f, ratings = {}) {
     if (f.source && v.sourceId !== f.source) return false;
     if (f.col && !collectionById.get(f.col)?.items.includes(v.id)) return false;
     if (f.person && !people(v).includes(f.person)) return false;
-    if (f.quality && !((v.quality || 0) >= +f.quality)) return false;
     return true;
   });
 }
-export const FILTER_KEYS = ['kind', 'voices', 'sfx', 'music', 'mood', 'age', 'dur', 'author', 'source', 'col', 'person', 'quality'];
+export const FILTER_KEYS = ['kind', 'voices', 'sfx', 'music', 'mood', 'age', 'dur', 'author', 'source', 'col', 'person'];
 
 export function sortVersions(list, sort, ratings = {}, rel) {
   const by = {
@@ -150,7 +151,6 @@ export function sortVersions(list, sort, ratings = {}, rel) {
     rating: (a, b) => score(ratings[b.id]) - score(ratings[a.id]),
     scurte: (a, b) => a.duration - b.duration,
     lungi: (a, b) => b.duration - a.duration,
-    calitate: (a, b) => (b.quality || 0) - (a.quality || 0),
     titlu: (a, b) => storyById.get(a.storyId).title.localeCompare(storyById.get(b.storyId).title, 'ro'),
     recente: (a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''),
   }[sort] || byRecommended(ratings);

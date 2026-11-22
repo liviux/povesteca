@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  collectionOf, authors, cover, storyCover, linkUrl, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames,
+  collectionOf, authors, cover, storyCover, linkUrl, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -37,26 +37,27 @@ export function Home() {
   const [seed, setSeed] = useState(0);
   const discover = useMemo(() => shuffle(stories).slice(0, 8), [seed]);
   useEffect(() => title(''), []);
-  if (!versions.length) return <main id="main" class="wrap page"><p class="empty">{t.empty}</p></main>;
+  if (!versions.length) return <main id="main" tabindex="-1" class="wrap page"><p class="empty">{t.empty}</p></main>;
 
   const cont = s.history.map((h) => versionById.get(h.id)).filter((v) => v && (s.pos[v.id] || 0) > 10).slice(0, 10);
   const R = s.ratings;
   const rows = [
     ['continue', cont, null],
-    ['tonight', sortVersions(versions.filter((v) => (v.moods.includes('somn') || v.moods.includes('linistitoare')) && v.duration <= 1800), 'recomandate', R), '/explorare?mood=linistitoare&dur=mediu'],
+    // shelf and "See all" use the same filter and order, so "See all" starts with the same cards
+    ['tonight', sortVersions(versions.filter((v) => v.moods.includes('linistitoare')), 'scurte', R).slice(0, 12), '/explorare?mood=linistitoare&sort=scurte'],
     ['radio', sortVersions(versions.filter((v) => v.kind === 'teatru-radiofonic'), 'recomandate', R).slice(0, 12), '/explorare?kind=teatru-radiofonic'],
-    ['cast', [...versions].filter((v) => (v.credits?.cast?.length || 0) >= 8).sort((a, b) => b.credits.cast.length - a.credits.cast.length).slice(0, 12), '/explorare?voices=distributie&sort=calitate'],
+    ['cast', [...versions].filter((v) => (v.credits?.cast?.length || 0) >= 8).sort((a, b) => b.credits.cast.length - a.credits.cast.length).slice(0, 12), '/explorare?voices=distributie'],
     ['short', sortVersions(versions.filter((v) => v.duration < 900), 'scurte', R), '/explorare?dur=scurt&sort=scurte'],
     ['top', sortVersions(versions.filter((v) => R[v.id]?.[1]), 'rating', R).slice(0, 12), '/explorare?sort=rating'],
   ];
   return (
-    <main id="main">
+    <main id="main" tabindex="-1">
       <section class="hero">
         <div class="wrap hero-inner">
           <div class="hero-text">
             <img class="hero-mark" src="/mark.webp" alt="" width="112" height="95" />
             <h1>{t.heroTitle}</h1>
-            <p class="lead">{t.heroSub(stories.length, versions.length)}</p>
+            <p class="lead">{t.heroSub}</p>
           </div>
           <div class="hero-box">
             <SearchForm />
@@ -85,7 +86,13 @@ export function Home() {
 function SearchForm({ value = '', onInput }) {
   const [t] = useT();
   return (
-    <form class="search" role="search" onSubmit={(e) => { e.preventDefault(); const q = new FormData(e.currentTarget).get('q').trim(); navigate('/explorare' + (q ? '?q=' + encodeURIComponent(q) : '')); }}>
+    <form class="search" role="search" onSubmit={(e) => {
+      e.preventDefault();
+      // on Explore the results already follow the typing; Enter only closes the phone keyboard
+      if (onInput) return e.currentTarget.q.blur();
+      const q = new FormData(e.currentTarget).get('q').trim();
+      navigate('/explorare' + (q ? '?q=' + encodeURIComponent(q) : ''));
+    }}>
       <Icon n="search" />
       <input name="q" type="search" value={value} onInput={onInput} placeholder={t.searchPh} aria-label={t.searchPh} autocomplete="off" enterkeyhint="search" />
       {!onInput && <button type="submit" class="btn primary">{t.search}</button>}
@@ -100,7 +107,6 @@ export function Explore({ query }) {
   const p = new URLSearchParams(query);
   const f = Object.fromEntries(FILTER_KEYS.filter((k) => p.get(k)).map((k) => [k, p.get(k)]));
   const q = p.get('q') || '';
-  const view = p.get('view') || 'rec';
   const [open, setOpen] = useState(false);
   const rel = useMemo(() => search(q), [q]);
   const sort = p.get('sort') || (rel ? 'relevanta' : 'recomandate');
@@ -112,7 +118,6 @@ export function Explore({ query }) {
     navigate('/explorare' + (n.toString() ? '?' + n : ''), true);
   };
   const list = sortVersions(applyFilters(rel ? versions.filter((v) => rel.has(v.id)) : versions, f, s.ratings), sort, s.ratings, rel);
-  const storyList = [...new Set(list.map((v) => v.storyId))].map((id) => storyById.get(id));
   const active = Object.entries(f);
 
   const opt = (k, v, txt) => {
@@ -135,10 +140,10 @@ export function Explore({ query }) {
   );
   const activeLabel = (k, v) => k === 'mood' ? v.split(',').map((m) => label('moods', m, lang)).join(', ')
     : k === 'age' ? t.ageOpt(v) : k === 'dur' ? t.durOpt[v] : k === 'source' ? sourceById.get(v)?.name : k === 'col' ? collectionById.get(v)?.title
-    : k === 'quality' ? t.qualityOpt : ENUMS[k]?.[v] ? label(k, v, lang) : v;
+    : ENUMS[k]?.[v] ? label(k, v, lang) : v;
 
   return (
-    <main id="main" class="wrap page explore">
+    <main id="main" tabindex="-1" class="wrap page explore">
       <h1 class="sr-only">{t.explore}</h1>
       <div class="explore-top">
         <SearchForm value={q} onInput={(e) => update('q', e.currentTarget.value)} />
@@ -164,15 +169,10 @@ export function Explore({ query }) {
           {select('author', authors.map((a) => [a, a]))}
           {select('source', sources.map((x) => [x.id, x.name]))}
           {select('col', collections.map((c) => [c.id, `${c.code} · ${c.title}`]))}
-          <fieldset class="fgroup"><legend>{t.f.quality}</legend><div class="chips">{opt('quality', '4', t.qualityOpt)}</div></fieldset>
         </aside>
-        <section class="results" aria-live="polite">
+        <section class="results">
           <div class="results-head">
-            <div class="seg" role="group">
-              <button type="button" aria-pressed={view === 'rec'} onClick={() => update('view', '')}>{t.recordings}</button>
-              <button type="button" aria-pressed={view === 'story'} onClick={() => update('view', 'story')}>{t.stories}</button>
-            </div>
-            <p class="count">{view === 'story' ? t.nStory(storyList.length) : t.nRec(list.length)}</p>
+            <p class="count" aria-live="polite">{t.nRes(list.length)}</p>
             <label class="sort"><span class="sr-only">{t.sortBy}</span>
               <select value={sort} onChange={(e) => update('sort', e.currentTarget.value)}>
                 {Object.entries(t.sorts).filter(([k]) => k !== 'relevanta' || rel).map(([k, txt]) => <option value={k}>{txt}</option>)}
@@ -181,7 +181,7 @@ export function Explore({ query }) {
             <button type="button" class="btn small accent" disabled={!list.length} onClick={() => surprise(list)}><Icon n="shuffle" size={16} />{t.surprise}</button>
           </div>
           {list.length === 0 ? <p class="empty">{t.noResults}</p>
-            : <div class="shelf grid">{view === 'story' ? storyList.map((x) => <StoryCard s={x} />) : list.map((v) => <VersionCard v={v} />)}</div>}
+            : <div class="shelf grid">{list.map((v) => <VersionCard v={v} />)}</div>}
         </section>
       </div>
     </main>
@@ -199,7 +199,7 @@ export function StoryPage({ id }) {
   const vs = sortVersions(versionsByStory.get(id) || [], sort, s.ratings);
   const best = bestVersion(id, s.ratings);
   return (
-    <main id="main" class="wrap page">
+    <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
         <Cover src={storyCover(story)} title={story.title} />
         <div class="detail-text">
@@ -223,7 +223,7 @@ export function StoryPage({ id }) {
           {vs.length > 1 && (
             <label class="sort"><span class="sr-only">{t.sortBy}</span>
               <select value={sort} onChange={(e) => setSort(e.currentTarget.value)}>
-                {['recomandate', 'rating', 'scurte', 'lungi', 'calitate'].map((k) => <option value={k}>{t.sorts[k]}</option>)}
+                {['recomandate', 'rating', 'scurte', 'lungi'].map((k) => <option value={k}>{t.sorts[k]}</option>)}
               </select>
             </label>
           )}
@@ -281,7 +281,7 @@ export function VersionPage({ id }) {
   const person = (n) => <a href={`/explorare?person=${encodeURIComponent(n)}`}>{n}</a>;
   const others = (versionsByStory.get(story.id) || []).filter((x) => x.id !== v.id);
   return (
-    <main id="main" class="wrap page">
+    <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
         <Cover src={cover(v)} title={story.title} />
         <div class="detail-text">
@@ -311,7 +311,6 @@ export function VersionPage({ id }) {
             <dt>{t.facts.sfx}</dt><dd>{label('sfx', v.sfx, lang)}{est('sfx')}</dd>
             <dt>{t.facts.moods}</dt><dd>{v.moods.map((m) => label('moods', m, lang)).join(', ')}{est('moods')}</dd>
             <dt>{t.facts.age}</dt><dd>{t.ageFrom(v.age)}{est('age')}</dd>
-            {v.quality && <><dt>{t.facts.quality}</dt><dd><span class="dots" aria-label={t.qualityTxt(v.quality)}>{[1, 2, 3, 4, 5].map((n) => <i class={n <= v.quality ? 'on' : ''} />)}</span>{est('quality')}</dd></>}
             <dt>{t.facts.play}</dt><dd>{t.playIn[v.links[0].type]}{v.links[0].type === 'youtube' && <small class="muted block">{t.ytNote}</small>}</dd>
             <dt>{t.facts.source}</dt><dd><a href={`/sursa/${src.id}`}>{src.name}</a></dd>
             {col && <><dt>{t.facts.disc}</dt><dd><a href={`/colectie/${col.c.id}`}>{col.c.code}</a> · {col.c.title}</dd></>}
@@ -382,6 +381,43 @@ function Rate({ id }) {
   );
 }
 
+// ---------- Sources ----------
+export function SourcesPage() {
+  const [t, lang] = useT();
+  useEffect(() => title(t.sources), []);
+  return (
+    <main id="main" tabindex="-1" class="wrap page">
+      <header class="page-head">
+        <h1>{t.sources}</h1>
+        <p class="lead">{t.sourcesLead}</p>
+      </header>
+      <ul class="src-list">
+        {sources.map((src) => {
+          const vs = versionsBySource.get(src.id) || [];
+          return (
+            <li class="src-card">
+              <div class="src-body">
+                <p class="eyebrow">{t.platform[src.type] || src.type} · {t.nRec(vs.length)}</p>
+                <h2><a href={`/sursa/${src.id}`}>{src.name}</a></h2>
+                <p>{src.description[lang] || src.description.ro}</p>
+                <div class="actions">
+                  <a class="btn primary" href={`/sursa/${src.id}`}>{t.seeRecs}</a>
+                  <a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a>
+                </div>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+      <section class="rules" aria-labelledby="rules-h">
+        <h2 id="rules-h">{t.rulesH}</h2>
+        <p>{t.rules}</p>
+        <p>{t.suggest} <a href={`${REPO}/issues`} target="_blank" rel="noopener">{t.suggestLink}</a>.</p>
+      </section>
+    </main>
+  );
+}
+
 // ---------- Source & collection ----------
 export function SourcePage({ id }) {
   const [t, lang] = useT();
@@ -391,9 +427,9 @@ export function SourcePage({ id }) {
   const vs = sortVersions(versionsBySource.get(id) || [], 'titlu');
   const cols = collections.filter((c) => c.sourceId === id);
   return (
-    <main id="main" class="wrap page">
+    <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
-        <p class="eyebrow">{t.sources}</p>
+        <p class="eyebrow"><a href="/surse">{t.sources}</a> · {t.platform[src.type] || src.type}</p>
         <h1>{src.name}</h1>
         <p class="lead">{src.description[lang] || src.description.ro}</p>
         <p><a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a> <span class="muted">{t.nRec(vs.length)}</span></p>
@@ -419,14 +455,17 @@ export function CollectionPage({ id }) {
   if (!c) return <NotFound />;
   const src = sourceById.get(c.sourceId);
   return (
-    <main id="main" class="wrap page">
+    <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
         <p class="eyebrow"><Icon n="disc" size={16} /> {c.code} · <a href={`/sursa/${src.id}`}>{src.name}</a></p>
         <h1>{c.title}</h1>
         <p class="lead">{c.description[lang] || c.description.ro}</p>
         {c.url && <p><a class="btn ghost" href={c.url} target="_blank" rel="noopener">Discogs<Icon n="ext" size={16} /></a></p>}
       </header>
-      <ol class="compare">{c.items.map((vid) => <li><VersionRow v={versionById.get(vid)} /></li>)}</ol>
+      <section class="shelf-section" aria-labelledby="on-disc">
+        <div class="shelf-head"><h2 id="on-disc">{t.onDisc}</h2></div>
+        <ol class="compare">{c.items.map((vid) => <li><VersionRow v={versionById.get(vid)} /></li>)}</ol>
+      </section>
     </main>
   );
 }
@@ -436,30 +475,35 @@ export function Mine() {
   const s = useStore();
   const [t] = useT();
   useEffect(() => title(t.mine), []);
-  const block = (key, heading, items, render, extra) => items.length > 0 && (
-    <section class="shelf-section" aria-labelledby={'m-' + key}>
-      <div class="shelf-head"><h2 id={'m-' + key}>{heading}</h2>{extra}</div>
+  // items: [{ key, title, card, remove }]
+  const block = (id, heading, items, extra) => items.length > 0 && (
+    <section class="shelf-section" aria-labelledby={'m-' + id}>
+      <div class="shelf-head"><h2 id={'m-' + id}>{heading}</h2>{extra}</div>
       <div class="shelf grid">{items.map((x) => (
-        <div class="removable">{render(x)}
-          <button type="button" class="remove" aria-label={t.removeA(storyById.get(x.storyId || x.id)?.title || '')}
-            onClick={() => key === 'history' ? set({ history: s.history.filter((h) => h.id !== x.id) }) : toggleIn(key, x.id)}><Icon n="close" size={16} /></button>
+        <div class="removable" key={x.key}>{x.card}
+          <button type="button" class="remove" aria-label={t.removeA(x.title)} onClick={x.remove}><Icon n="close" size={16} /></button>
         </div>
       ))}</div>
     </section>
   );
-  const favS = s.favStories.map((id) => storyById.get(id)).filter(Boolean);
-  const favV = s.favVersions.map((id) => versionById.get(id)).filter(Boolean);
-  const queue = s.queue.map((id) => versionById.get(id)).filter(Boolean);
-  const hist = s.history.map((h) => versionById.get(h.id)).filter(Boolean);
-  const none = !favS.length && !favV.length && !queue.length && !hist.length;
+  const rec = (list, remove, progress) => list.map((id) => versionById.get(id)).filter(Boolean).map((v) => ({
+    key: v.id, title: storyById.get(v.storyId).title, remove: () => remove(v.id),
+    card: <VersionCard v={v} progress={progress ? (s.pos[v.id] || 0) / v.duration : null} />,
+  }));
+  const saved = [
+    ...s.favStories.map((id) => storyById.get(id)).filter(Boolean).map((x) => ({ key: x.id, title: x.title, remove: () => toggleIn('favStories', x.id), card: <StoryCard s={x} /> })),
+    ...rec(s.favVersions, (id) => toggleIn('favVersions', id)),
+  ];
+  const queue = rec(s.queue, (id) => toggleIn('queue', id));
+  const hist = rec(s.history.map((h) => h.id), (id) => set({ history: s.history.filter((h) => h.id !== id) }), true);
+  const none = !saved.length && !queue.length && !hist.length;
   return (
-    <main id="main" class="wrap page">
+    <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head"><h1>{t.mine}</h1><p class="muted">{t.mineSub}</p></header>
       {none && <p class="empty">{t.mineEmpty}</p>}
-      {block('favStories', t.favStories, favS, (x) => <StoryCard s={x} />)}
-      {block('favVersions', t.favVersions, favV, (v) => <VersionCard v={v} />)}
-      {block('queue', t.queue, queue, (v) => <VersionCard v={v} />)}
-      {block('history', t.history, hist, (v) => <VersionCard v={v} progress={(s.pos[v.id] || 0) / v.duration} />,
+      {block('saved', t.savedH, saved)}
+      {block('queue', t.queue, queue)}
+      {block('history', t.history, hist,
         <button type="button" class="link-btn" onClick={() => set({ history: [], pos: {} })}>{t.clearHistory}</button>)}
     </main>
   );
@@ -469,7 +513,7 @@ export function NotFound() {
   const [t] = useT();
   useEffect(() => title(t.notFound), []);
   return (
-    <main id="main" class="wrap page empty-page">
+    <main id="main" tabindex="-1" class="wrap page empty-page">
       <img src="/mark.webp" alt="" width="112" height="95" />
       <h1>{t.notFound}</h1>
       <a class="btn primary" href="/">{t.home}</a>

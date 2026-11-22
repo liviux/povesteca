@@ -2303,6 +2303,7 @@
     "file": "Fratii Grimm - Muzicantii din Bremen regia Cornel Todea.mp3"
    }
   ],
+  "cover": false,
   "duration": 3391,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
@@ -3044,6 +3045,7 @@
     "file": "Hans_Christian_Andersen_-_Mica_Sirena.Mp3"
    }
   ],
+  "cover": false,
   "duration": 3135,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
@@ -3895,6 +3897,7 @@
     "file": "Alice in tara minunilor - Lewis Caroll 2010 regia Vasile Neagu.mp3"
    }
   ],
+  "cover": false,
   "duration": 3479,
   "year": 2010,
   "kind": "teatru-radiofonic",

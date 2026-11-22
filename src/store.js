@@ -17,13 +17,22 @@ const subs = new Set();
 const PERSIST = Object.keys(DEFAULTS);
 let saveTimer;
 
-export function set(patch) {
-  Object.assign(state, typeof patch === 'function' ? patch(state) : patch);
-  subs.forEach((f) => f());
+function save() {
   clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    try { localStorage.setItem(KEY, JSON.stringify(Object.fromEntries(PERSIST.map((k) => [k, state[k]])))); } catch {}
-  }, 300);
+  saveTimer = null;
+  try { localStorage.setItem(KEY, JSON.stringify(Object.fromEntries(PERSIST.map((k) => [k, state[k]])))); } catch {}
+}
+// writes are batched; a change made just before the tab closes or reloads is still saved.
+// Only a pending change: an idle tab must not overwrite what another tab saved meanwhile.
+addEventListener('pagehide', () => saveTimer && save());
+
+export function set(patch) {
+  if (typeof patch === 'function') patch = patch(state);
+  Object.assign(state, patch);
+  subs.forEach((f) => f());
+  if (!Object.keys(patch).some((k) => PERSIST.includes(k))) return; // ratings, player: nothing to save
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(save, 300);
 }
 export const setPlayer = (patch) => set({ player: { ...state.player, ...patch } });
 
