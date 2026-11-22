@@ -20,6 +20,66 @@
   }
  },
  {
+  "id": "arhiva-povesti-vinil",
+  "name": "Povești Audio Vinil (Internet Archive)",
+  "type": "archive",
+  "url": "https://archive.org/search?query=%22Povesti+Audio+Vinil%22",
+  "description": {
+   "ro": "Înregistrări de teatru radiofonic și discuri vechi păstrate pe Internet Archive în seriile „Povești Audio Vinil” și „Povești Vinil Audio”, fără reclame.",
+   "en": "Ad-free radio drama and vintage vinyl transfers uploaded to the Internet Archive under “Povești Audio Vinil” and “Povești Vinil Audio”."
+  }
+ },
+ {
+  "id": "eteatru",
+  "name": "eTeatru (Teatrul Național Radiofonic)",
+  "type": "audio",
+  "url": "https://eteatru.ro/spectacole/povesti/",
+  "description": {
+   "ro": "Secțiunea oficială de povești a Teatrului Național Radiofonic pe eteatru.ro: spectacole integrale cu distribuție completă, regie muzicală și ascultare directă, fără reclame.",
+   "en": "The official stories section of Romania’s National Radio Theatre on eteatru.ro: full productions with complete cast credits, musical score and ad-free direct streaming."
+  }
+ },
+ {
+  "id": "radio-arhive",
+  "name": "Arhiva Radio România",
+  "type": "audio",
+  "url": "https://radio-arhive.ro/category/emisiuni/noapte-buna-copii/3",
+  "description": {
+   "ro": "Înregistrări istorice din Fonoteca de Aur Radio România (anii ’50–’60): primele ediții „Noapte bună, copii!” păstrate pe bandă magnetică și spectacole clasice pentru copii.",
+   "en": "Historic recordings from Radio România’s Golden Archive (1950s–1960s): early tape broadcasts of “Noapte bună, copii!” and classic children’s radio plays."
+  }
+ },
+ {
+  "id": "culturalia-pe-unde",
+  "name": "Arhiva deschisă Culturalia („Pe unde”)",
+  "type": "audio",
+  "url": "https://mariuscomper.uk/pe-unde/",
+  "description": {
+   "ro": "Arhiva deschisă Radio România publicată sub licență liberă pe Culturalia și indexată prin proiectul „Pe unde”, cu sute de ediții „Noapte bună, copii!” din anii ’50–2000.",
+   "en": "Radio România’s open-license archive published on Culturalia and indexed by “Pe unde”, featuring historic “Noapte bună, copii!” bedtime broadcasts from the 1950s–2000s."
+  }
+ },
+ {
+  "id": "afostodata",
+  "name": "A Fost Odată",
+  "type": "audio",
+  "url": "https://afostodata.ro/",
+  "description": {
+   "ro": "Proiect românesc independent și gratuit de povești audio cu naratori expresivi, muzică și efecte sonore: basme clasice, legende, „Patrimoniu” și seria „Români de poveste”.",
+   "en": "A free, independent Romanian audio-story project with expressive narrators, music and sound design: classic tales, legends, Heritage episodes and “Români de poveste”."
+  }
+ },
+ {
+  "id": "oameni-mici-si-mari",
+  "name": "Oameni mici și mari",
+  "type": "audio",
+  "url": "https://podcasters.spotify.com/pod/show/oamenimicisimari",
+  "description": {
+   "ro": "Podcast gratuit realizat de actori ai Teatrului Național Cluj-Napoca și colaboratori din teatre independente, cu povești clasice și contemporane, muzică și efecte sonore.",
+   "en": "A free podcast narrated by actors of the Cluj-Napoca National Theatre and independent stages, with classic and modern stories accompanied by music and sound effects."
+  }
+ },
+ {
   "id": "yt-teatru-radiofonic",
   "name": "Teatru Radiofonic",
   "type": "youtube",
@@ -37,6 +97,36 @@
   "description": {
    "ro": "Canalul oficial al casei de discuri Electrecord, cu albume de povești reeditate.",
    "en": "The official channel of the Electrecord record label, with reissued story albums."
+  }
+ },
+ {
+  "id": "yt-teatru-subtitrat",
+  "name": "Teatru Subtitrat",
+  "type": "youtube",
+  "url": "https://www.youtube.com/playlist?list=PLPr2UQwCNy3kz-JkNoXZoKXcb3K0lW34h",
+  "description": {
+   "ro": "Canal YouTube cu înregistrări clasice de teatru radiofonic din anii ’50–’70 și povești pentru copii, însoțite de subtitrare îngrijită.",
+   "en": "A YouTube channel sharing 1950s–1970s Romanian radio drama and children’s tales with carefully prepared Romanian subtitles."
+  }
+ },
+ {
+  "id": "yt-teatru-pe-vinil",
+  "name": "Teatru pe Vinil",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@TeatruPeVinil",
+  "description": {
+   "ro": "Arhivă YouTube de discuri de povești și piese de teatru radiofonic cu distribuțiile complete și liste dedicate pe teme și colecții.",
+   "en": "A YouTube archive of digitized vinyl stories and radio drama recordings with cast credits and curated playlists."
+  }
+ },
+ {
+  "id": "yt-itsy-bitsy",
+  "name": "Itsy Bitsy & Leon Magdan",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@ItsyBitsyFM",
+  "description": {
+   "ro": "Povești radiofonice moderne pe roluri, cu efecte sonore și muzică: serialul „Misiunile lui Itsy și ale lui Bitsy” și povești de seară scrise și spuse de Leon Magdan.",
+   "en": "Modern acted radio adventures and bedtime stories with music and rich sound design: “Misiunile lui Itsy și ale lui Bitsy” and Leon Magdan’s evening tales."
   }
  }
 ]

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { versionById, storyById, cover, audioUrl, linkUrl, versions, shuffle } from './data.js';
+import { versionById, storyById, sourceById, cover, audioUrl, linkUrl, linkLabel, versions, shuffle } from './data.js';
 import { fmtTime } from './i18n.js';
 import { state, set, setPlayer, useStore, useT, addHistory } from './store.js';
 import { Icon, Cover } from './ui.jsx';
@@ -22,7 +22,7 @@ function tick(time, duration) {
   const p = state.player, v = versionById.get(p.id);
   if (v?.end && time >= v.end) return finish();
   if (Date.now() - lastSave > 5000 && time > 5) { lastSave = Date.now(); set({ pos: { ...state.pos, [p.id]: Math.floor(time) } }); }
-  if (p.sleepAt && audio && engineType() === 'archive') audio.volume = Math.max(0, Math.min(1, (p.sleepAt - Date.now()) / 10000));
+  if (p.sleepAt && audio && isAudio(engineType())) audio.volume = Math.max(0, Math.min(1, (p.sleepAt - Date.now()) / 10000));
 }
 export function useClock() {
   const [, f] = useState(0);
@@ -30,26 +30,38 @@ export function useClock() {
   return clock;
 }
 
+const isAudio = (t) => t === 'archive' || t === 'audio';
 const engineType = () => versionById.get(state.player.id)?.links[state.player.link]?.type;
 
-export function play(id, from) {
+export function play(id, from, linkIdx = 0) {
   const v = versionById.get(id);
   if (!v) return;
   stopEngines();
   const saved = state.pos[id] || 0;
   const start = from === 'start' ? v.start || 0 : typeof from === 'number' ? from
     : saved > 10 && saved < v.duration - 20 ? saved : v.start || 0;
-  setPlayer({ id, status: 'loading', link: 0, error: false });
+  const idx = Math.max(0, Math.min(linkIdx, (v.links?.length || 1) - 1));
+  setPlayer({ id, status: 'loading', link: idx, error: false });
   tick(start, v.duration);
   addHistory(id);
-  startLink(v, 0, start);
+  startLink(v, idx, start);
+}
+export function switchLink(idx) {
+  const v = versionById.get(state.player.id);
+  if (!v || v.links.length < 2) return;
+  const next = typeof idx === 'number' ? idx : (state.player.link + 1) % v.links.length;
+  const at = clock.time;
+  stopEngines();
+  setPlayer({ status: 'loading', link: next, error: false });
+  tick(at, v.duration);
+  startLink(v, next, at);
 }
 
 function startLink(v, i, at) {
   const l = v.links[i];
-  if (!l || !['archive', 'youtube'].includes(l.type)) return setPlayer({ status: 'error' });
+  if (!l || !['archive', 'audio', 'youtube'].includes(l.type)) return setPlayer({ status: 'error' });
   setPlayer({ link: i, status: 'loading' });
-  (l.type === 'archive' ? startAudio : startYouTube)(v, l, at);
+  (isAudio(l.type) ? startAudio : startYouTube)(v, l, at);
   mediaSession(v);
 }
 function nextLink() {
@@ -132,10 +144,10 @@ export function toggle() {
   if (p.status === 'error') return;
   if (p.status === 'ended') return play(p.id, 'start');
   if (p.status === 'playing' || p.status === 'loading') return pauseEngines();
-  if (engineType() === 'archive') { audio.volume = 1; audio.play().catch(() => {}); } else yt?.playVideo?.();
+  if (isAudio(engineType())) { audio.volume = 1; audio.play().catch(() => {}); } else yt?.playVideo?.();
 }
 export function seekTo(t) {
-  if (engineType() === 'archive' && audio) audio.currentTime = t; else yt?.seekTo?.(t, true);
+  if (isAudio(engineType()) && audio) audio.currentTime = t; else yt?.seekTo?.(t, true);
   tick(t);
 }
 export const seekBy = (d) => seekTo(Math.max(0, Math.min(clock.duration || 1e9, clock.time + d)));
@@ -157,7 +169,8 @@ export function setSleep(min) {
 function mediaSession(v) {
   if (!('mediaSession' in navigator)) return;
   const s = storyById.get(v.storyId);
-  navigator.mediaSession.metadata = new MediaMetadata({ title: s.title, artist: v.title, album: 'Povesteca', artwork: [{ src: cover(v), sizes: '180x180', type: 'image/jpeg' }] });
+  const pic = cover(v);
+  navigator.mediaSession.metadata = new MediaMetadata({ title: s.title, artist: v.title, album: 'Povesteca', artwork: pic ? [{ src: pic, sizes: '180x180', type: 'image/jpeg' }] : [] });
   const h = { play: toggle, pause: toggle, seekbackward: () => seekBy(-15), seekforward: () => seekBy(30), stop: closePlayer };
   for (const k in h) try { navigator.mediaSession.setActionHandler(k, h[k]); } catch {}
 }
@@ -211,6 +224,7 @@ export function Dock() {
   const p = s.player;
   const v = versionById.get(p.id);
   const link = v?.links[p.link];
+  const mirrorName = link && v.links.length > 1 ? linkLabel(link, sourceById.get(v.sourceId)) : null;
   return (
     <div class={'dock' + (v ? ' open' : '') + (link?.type === 'youtube' ? ' has-video' : '')} aria-hidden={!v}>
       <div class="yt-frame" ref={(el) => { ytHost = el; }} />
@@ -220,13 +234,23 @@ export function Dock() {
             <Cover src={cover(v)} title={storyById.get(v.storyId).title} size={56} />
             <span class="dock-text">
               <strong>{storyById.get(v.storyId).title}</strong>
-              <small>{p.status === 'loading' ? t.loading : p.status === 'error' ? t.playErr : v.title}</small>
+              <small>{p.status === 'loading' ? t.loading : p.status === 'error' ? t.playErr : mirrorName ? `${v.title} · ${mirrorName}` : v.title}</small>
             </span>
           </a>
           {p.status === 'error'
-            ? <a class="btn" href={linkUrl(v.links[0])} target="_blank" rel="noopener">{t.openAt}<Icon n="ext" size={16} /></a>
+            ? (
+              <div class="dock-err-actions">
+                {v.links.length > 1 && <button type="button" class="btn primary small" onClick={() => switchLink()}>{`${t.switchSource} (${((p.link + 1) % v.links.length) + 1}/${v.links.length})`}</button>}
+                <a class="btn ghost small" href={linkUrl(link || v.links[0])} target="_blank" rel="noopener">{t.openAt}<Icon n="ext" size={16} /></a>
+              </div>
+            )
             : <div class="dock-main"><Controls /><Progress /></div>}
           <div class="dock-side">
+            {v.links.length > 1 && (
+              <button type="button" class="dock-switch" title={`${t.switchSource} (${mirrorName})`} aria-label={`${t.switchSource} (${p.link + 1}/${v.links.length})`} onClick={() => switchLink()}>
+                {`${p.link + 1}/${v.links.length} · ${t.switchShort}`}
+              </button>
+            )}
             <SleepChip />
             <button type="button" class="icon-btn" aria-label={t.night} onClick={() => setPlayer({ night: true })}><Icon n="moon" /></button>
             <button type="button" class="icon-btn" aria-label={t.closePlayer} onClick={closePlayer}><Icon n="close" /></button>
@@ -265,7 +289,7 @@ export function Night() {
     ...versions.filter((x) => x.moods.includes('somn')),
   ].filter((x, i, a) => x.id !== p.id && a.indexOf(x) === i);
   const [picks] = useState(() => shuffle(sleepy).slice(0, 4));
-  const controllable = v && ['archive', 'youtube'].includes(v.links[p.link]?.type) && p.status !== 'error';
+  const controllable = v && ['archive', 'audio', 'youtube'].includes(v.links[p.link]?.type) && p.status !== 'error';
   const timers = [10, 20, 30];
   return (
     <div class="night" ref={ref} role="dialog" aria-modal="true" aria-label={t.nightH}>
@@ -279,6 +303,12 @@ export function Night() {
             <Cover src={cover(v)} title={storyById.get(v.storyId).title} />
             <h3>{storyById.get(v.storyId).title}</h3>
             <p class="muted">{v.title}</p>
+            {v.links.length > 1 && (
+              <p class="night-source">
+                <span>{linkLabel(v.links[p.link], sourceById.get(v.sourceId))}</span>
+                <button type="button" class="chip" onClick={() => switchLink()}>{`${t.switchShort} (${p.link + 1}/${v.links.length})`}</button>
+              </p>
+            )}
             {p.status !== 'error' && <><Controls big /><Progress big /></>}
             <div class="night-timer">
               <p class="label">{t.stopAfter}</p>

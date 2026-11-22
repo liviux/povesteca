@@ -2,6 +2,24 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.2.0] - 2026-11-22
+
+### Added
+- **New stories:** expanded the catalogue to 931 stories and 1,070 recordings across 13 free, ad-free archives and curated YouTube channels, adding eTeatru (National Radio Theatre), Arhiva Radio România, Culturalia (“Pe unde”), digitized Electrecord and Povești Audio Vinil records, A Fost Odată, Oameni mici și mari, Teatru Subtitrat, Teatru pe Vinil and Itsy Bitsy & Leon Magdan.
+- **Direct MP3 playback** inside the in-app player for streams from eTeatru, Radio România, Culturalia, A Fost Odată and Oameni mici și mari, with seeking, saved progress and fade-out sleep timer.
+- **Author pages**: tap any author's name on a story or recording page to see all of their stories in one place.
+- **New genres and filters** in **Browse**: **Legend**, **Biography** and **Origin** (Romanian, German, French, Arabian Nights, etc.).
+- **Story publication year** shown alongside **Recording year**, distinguishing when a work was written from when the radio drama was recorded.
+- **New collections** for multi-story Electrecord vinyls and series (*Zeii din Olimp*, *Andilandi*, *Cartea cu jucării*, *Noapte bună, copii!*, *Români de poveste*, *Patrimoniu*, *Jules Verne – Teatru Radiofonic*, *Misiunile lui Itsy și ale lui Bitsy*).
+
+### Changed
+- **Browse** and source pages now reveal results in batches of 48 so scrolling stays responsive across the expanded library.
+- Identical productions found across multiple platforms (eTeatru, Internet Archive, Radio România and YouTube) keep all mirror links visible and individually playable, add an in-player source switcher for instant fallback, and mark likely separate cross-source uploads as possible duplicates.
+
+### Fixed
+- Corrected Romanian diacritics and cast credits on existing records, and filled in missing cast lists for 1958–2003 radio plays.
+- Story pages safely handle entries that omit optional character lists.
+
 ## [1.1.0] - 2026-11-22
 
 ### Added

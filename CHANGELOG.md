@@ -2,6 +2,24 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.2.0] - 2026-11-22
+
+### Added
+- **Povești noi:** catalogul ajunge la 931 de povești și 1070 de înregistrări din 13 surse gratuite și fără reclame (plus canalele YouTube selectate), acoperind eTeatru (Teatrul Național Radiofonic), Arhiva Radio România, arhiva deschisă Culturalia („Pe unde”), discuri Electrecord și Povești Audio Vinil de pe Internet Archive, A Fost Odată, Oameni mici și mari, Teatru Subtitrat, Teatru pe Vinil și Itsy Bitsy & Leon Magdan.
+- **Redare audio directă** în playerul aplicației pentru fișiere MP3 de la eTeatru, Radio România, Culturalia, A Fost Odată și Oameni mici și mari, cu derulare, reluare de unde ai rămas și temporizator cu stingere treptată.
+- **Pagină de autor**: poți apăsa pe numele autorului pe pagina unei povești sau a unei înregistrări ca să vezi toate poveștile lui într-un loc.
+- **Genuri și filtre noi** în **Explorează**: **Legendă**, **Biografie** și filtrul de **Origine** (românească, germană, franceză, orientală și altele).
+- **Anul poveștii** lângă **Anul înregistrării**, ca să vezi separat când a fost scrisă povestea și când a fost jucată la radio.
+- **Colecții noi** de discuri Electrecord și serii complete (*Zeii din Olimp*, *Andilandi*, *Cartea cu jucării*, *Noapte bună, copii!*, *Români de poveste*, *Patrimoniu*, *Jules Verne – Teatru Radiofonic*, *Misiunile lui Itsy și ale lui Bitsy*).
+
+### Changed
+- **Explorează** și paginile surselor încarcă rezultatele în tranșe de câte 48, ca răsfoirea să rămână rapidă și după extinderea catalogului.
+- Când aceeași înregistrare apare pe mai multe surse (eTeatru, Internet Archive, Radio România sau YouTube), toate oglinzile rămân vizibile și pot fi pornite cu un click, cu buton „Altă sursă” direct în player în caz că una nu merge; eventualele dubluri încărcate separat primesc marcajul „Posibil duplicat”.
+
+### Fixed
+- Corectări de diacritice și distribuții pe înregistrările existente, completate cu distribuțiile originale pentru spectacolele din 1958–2003.
+- Verificarea paginilor de poveste nu mai presupune existența obligatorie a listei de personaje atunci când o poveste nu o are.
+
 ## [1.1.0] - 2026-11-22
 
 ### Added

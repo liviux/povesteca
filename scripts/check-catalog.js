@@ -13,7 +13,7 @@ const ENUM = {
   sfx: ['fara', 'discrete', 'bogate'],
   music: ['fara', 'ambientala', 'importanta'],
   moods: ['linistitoare', 'amuzanta', 'aventuroasa', 'magica', 'misterioasa', 'educativa', 'somn', 'intensa'],
-  genre: ['basm', 'poveste', 'roman', 'poveste-muzicala'],
+  genre: ['basm', 'poveste', 'roman', 'poveste-muzicala', 'legenda', 'biografie'],
   estimated: ['kind', 'voices', 'sfx', 'music', 'moods', 'age', 'quality'],
 };
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -33,6 +33,7 @@ ids(collections, 'collections');
 for (const s of stories) {
   if (!s.title || !s.author) err(`story ${s.id}: title and author are required`);
   if (!s.summary?.ro) err(`story ${s.id}: summary.ro is required`);
+  if (s.year != null && (!Number.isInteger(s.year) || s.year < 0 || s.year > 2100)) err(`story ${s.id}: bad year "${s.year}"`);
   if (s.genre && !ENUM.genre.includes(s.genre)) err(`story ${s.id}: genre "${s.genre}"`);
   if (!versions.some((v) => v.storyId === s.id)) warn(`story ${s.id} has no recordings`);
 }
@@ -44,19 +45,21 @@ for (const v of versions) {
   if (!SRC.has(v.sourceId)) err(`${at}: unknown sourceId "${v.sourceId}"`);
   if (!v.title) err(`${at}: title is required`);
   if (!Number.isInteger(v.duration) || v.duration <= 0) err(`${at}: duration must be seconds (integer > 0)`);
+  if (v.year != null && (!Number.isInteger(v.year) || v.year < 1900 || v.year > 2100)) err(`${at}: bad year "${v.year}"`);
   for (const k of ['kind', 'voices', 'sfx', 'music']) if (v[k] != null && !ENUM[k].includes(v[k])) err(`${at}: ${k} "${v[k]}"`);
   for (const m of v.moods || []) if (!ENUM.moods.includes(m)) err(`${at}: mood "${m}"`);
   for (const e of v.estimated || []) if (!ENUM.estimated.includes(e)) err(`${at}: estimated "${e}"`);
   if (v.age != null && !(Number.isInteger(v.age) && v.age >= 0 && v.age <= 18)) err(`${at}: age`);
   if (v.quality != null && !(Number.isInteger(v.quality) && v.quality >= 1 && v.quality <= 5)) err(`${at}: quality must be 1-5`);
   if (v.start != null && v.end != null && v.end <= v.start) err(`${at}: end before start`);
-  if ('cover' in v && v.cover !== false) err(`${at}: cover can only be false (no picture at the source)`);
+  if ('cover' in v && v.cover !== false && (typeof v.cover !== 'string' || !/^https?:\/\//.test(v.cover))) err(`${at}: cover can only be false or an image URL`);
   if (!v.links?.length) err(`${at}: needs at least one link`);
   for (const l of v.links || []) {
-    const key = l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : `url:${l.url}`;
+    const key = l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : l.type === 'audio' ? `audio:${l.url}` : `url:${l.url}`;
     if (l.type === 'archive' && (!l.id || !l.file)) err(`${at}: archive link needs id and file`);
+    if (l.type === 'audio' && (!l.url || !/^https?:\/\//.test(l.url))) err(`${at}: audio link needs url`);
     if (l.type === 'youtube' && !/^[\w-]{11}$/.test(l.id || '')) err(`${at}: bad YouTube id "${l.id}"`);
-    if (!['archive', 'youtube', 'link'].includes(l.type)) err(`${at}: link type "${l.type}"`);
+    if (!['archive', 'audio', 'youtube', 'link'].includes(l.type)) err(`${at}: link type "${l.type}"`);
     // the same file or video in two versions means one production was entered twice
     if (linkOwner.has(key) && linkOwner.get(key) !== v.id) err(`${at}: ${key} is already used by ${linkOwner.get(key)} (merge them as one recording with several links)`);
     linkOwner.set(key, v.id);

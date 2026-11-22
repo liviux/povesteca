@@ -1,11 +1,11 @@
 import { useMemo, useState, useEffect } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  collectionOf, authors, cover, storyCover, linkUrl, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO,
+  storiesByAuthor, collectionOf, authors, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
-import { play } from './player.jsx';
+import { play, toggle } from './player.jsx';
 import { Icon, Cover, PlayButton, FavButton, Rating, Traits, VersionCard, StoryCard } from './ui.jsx';
 
 const title = (txt) => { document.title = txt ? `${txt} · Povesteca` : 'Povesteca · povești audio pentru copii'; };
@@ -47,7 +47,7 @@ export function Home() {
     ['tonight', sortVersions(versions.filter((v) => v.moods.includes('linistitoare')), 'scurte', R).slice(0, 12), '/explorare?mood=linistitoare&sort=scurte'],
     ['radio', sortVersions(versions.filter((v) => v.kind === 'teatru-radiofonic'), 'recomandate', R).slice(0, 12), '/explorare?kind=teatru-radiofonic'],
     ['cast', [...versions].filter((v) => (v.credits?.cast?.length || 0) >= 8).sort((a, b) => b.credits.cast.length - a.credits.cast.length).slice(0, 12), '/explorare?voices=distributie'],
-    ['short', sortVersions(versions.filter((v) => v.duration < 900), 'scurte', R), '/explorare?dur=scurt&sort=scurte'],
+    ['short', sortVersions(versions.filter((v) => v.duration < 900), 'scurte', R).slice(0, 12), '/explorare?dur=scurt&sort=scurte'],
     ['top', sortVersions(versions.filter((v) => R[v.id]?.[1]), 'rating', R).slice(0, 12), '/explorare?sort=rating'],
   ];
   return (
@@ -100,6 +100,8 @@ function SearchForm({ value = '', onInput }) {
   );
 }
 
+const PAGE_SIZE = 48;
+
 // ---------- Explore ----------
 export function Explore({ query }) {
   const s = useStore();
@@ -108,9 +110,10 @@ export function Explore({ query }) {
   const f = Object.fromEntries(FILTER_KEYS.filter((k) => p.get(k)).map((k) => [k, p.get(k)]));
   const q = p.get('q') || '';
   const [open, setOpen] = useState(false);
+  const [limit, setLimit] = useState(PAGE_SIZE);
   const rel = useMemo(() => search(q), [q]);
   const sort = p.get('sort') || (rel ? 'relevanta' : 'recomandate');
-  useEffect(() => { title(t.explore); set({ filters: f }); }, [query]);
+  useEffect(() => { title(t.explore); set({ filters: f }); setLimit(PAGE_SIZE); }, [query]);
 
   const update = (k, v) => {
     const n = new URLSearchParams(query);
@@ -118,6 +121,7 @@ export function Explore({ query }) {
     navigate('/explorare' + (n.toString() ? '?' + n : ''), true);
   };
   const list = sortVersions(applyFilters(rel ? versions.filter((v) => rel.has(v.id)) : versions, f, s.ratings), sort, s.ratings, rel);
+  const shown = list.slice(0, limit);
   const active = Object.entries(f);
 
   const opt = (k, v, txt) => {
@@ -127,7 +131,11 @@ export function Explore({ query }) {
   };
   const chips = (k, group = k) => (
     <fieldset class="fgroup"><legend>{t.f[k]}</legend>
-      <div class="chips">{Object.keys(ENUMS[group]).filter((v) => versions.some((x) => k === 'mood' ? x.moods.includes(v) : x[k] === v)).map((v) => opt(k, v, label(group, v, lang)))}</div>
+      <div class="chips">{Object.keys(ENUMS[group]).filter((v) => versions.some((x) => {
+        if (k === 'mood') return x.moods.includes(v);
+        if (k === 'genre') return storyById.get(x.storyId)?.genre === v;
+        return x[k] === v;
+      })).map((v) => opt(k, v, label(group, v, lang)))}</div>
     </fieldset>
   );
   const select = (k, items) => (
@@ -158,17 +166,19 @@ export function Explore({ query }) {
               <span class="muted">{t.f[k]}:</span> {activeLabel(k, v)} <Icon n="close" size={14} />
             </button>
           ))}
+          {f.author && <a class="link-btn" href={`/autor/${encodeURIComponent(f.author)}`}>{t.allByAuthor(f.author)}</a>}
           <button type="button" class="link-btn" onClick={() => navigate('/explorare' + (q ? '?q=' + encodeURIComponent(q) : ''), true)}>{t.clear}</button>
         </div>
       )}
       <div class="explore-grid">
         <aside class={'filters' + (open ? ' open' : '')} aria-label={t.filters}>
-          {chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
+          {chips('genre')}{chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>
-          {select('age', [3, 4, 5, 6, 7, 8, 9, 10].map((n) => [String(n), t.ageOpt(n)]))}
+          {select('age', [3, 4, 5, 6, 7, 8, 9, 10, 12].map((n) => [String(n), t.ageOpt(n)]))}
+          {select('origin', origins.map((o) => [o, label('origin', o, lang)]))}
           {select('author', authors.map((a) => [a, a]))}
           {select('source', sources.map((x) => [x.id, x.name]))}
-          {select('col', collections.map((c) => [c.id, `${c.code} · ${c.title}`]))}
+          {select('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title]))}
         </aside>
         <section class="results">
           <div class="results-head">
@@ -181,7 +191,14 @@ export function Explore({ query }) {
             <button type="button" class="btn small accent" disabled={!list.length} onClick={() => surprise(list)}><Icon n="shuffle" size={16} />{t.surprise}</button>
           </div>
           {list.length === 0 ? <p class="empty">{t.noResults}</p>
-            : <div class="shelf grid">{list.map((v) => <VersionCard v={v} />)}</div>}
+            : <>
+                <div class="shelf grid">{shown.map((v) => <VersionCard v={v} />)}</div>
+                {list.length > limit && (
+                  <p class="results-more">
+                    <button type="button" class="btn ghost" onClick={() => setLimit(limit + PAGE_SIZE)}>{t.showMore(list.length - limit)}</button>
+                  </p>
+                )}
+              </>}
         </section>
       </div>
     </main>
@@ -198,6 +215,7 @@ export function StoryPage({ id }) {
   if (!story) return <NotFound />;
   const vs = sortVersions(versionsByStory.get(id) || [], sort, s.ratings);
   const best = bestVersion(id, s.ratings);
+  const dups = duplicateMap(vs);
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
@@ -205,15 +223,17 @@ export function StoryPage({ id }) {
         <div class="detail-text">
           <p class="eyebrow">{label('genre', story.genre, lang)}</p>
           <h1>{story.title}</h1>
-          <p class="byline">{t.by} <a href={`/explorare?author=${encodeURIComponent(story.author)}`}>{story.author}</a></p>
+          <p class="byline">{t.by} <a href={`/autor/${encodeURIComponent(story.author)}`}>{story.author}</a>{story.year ? ` · ${story.year}` : ''}</p>
           <p class="lead">{story.summary[lang] || story.summary.ro}</p>
           <div class="actions">
             {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
             <FavButton list="favStories" id={story.id} title={story.title} withText />
           </div>
           <dl class="tags">
-            <dt>{t.characters}</dt><dd>{story.characters.join(', ')}</dd>
-            <dt>{t.themesH}</dt><dd>{story.themes.map((x) => <a class="tag" href={`/explorare?q=${encodeURIComponent(label('themes', x, lang))}`}>{label('themes', x, lang)}</a>)}</dd>
+            {story.origin && <><dt>{t.facts.origin}</dt><dd><a class="tag" href={`/explorare?origin=${encodeURIComponent(story.origin)}`}>{label('origin', story.origin, lang)}</a></dd></>}
+            {story.year && <><dt>{t.facts.storyYear}</dt><dd>{story.year}</dd></>}
+            {story.characters?.length > 0 && <><dt>{t.characters}</dt><dd>{story.characters.join(', ')}</dd></>}
+            {story.themes?.length > 0 && <><dt>{t.themesH}</dt><dd>{story.themes.map((x) => <a class="tag" href={`/explorare?q=${encodeURIComponent(label('themes', x, lang))}`}>{label('themes', x, lang)}</a>)}</dd></>}
           </dl>
         </div>
       </section>
@@ -228,7 +248,7 @@ export function StoryPage({ id }) {
             </label>
           )}
         </div>
-        <div class="compare">{vs.map((v) => <VersionRow v={v} best={vs.length > 1 && v.id === best.id} />)}</div>
+        <div class="compare">{vs.map((v) => <VersionRow v={v} best={vs.length > 1 && v.id === best.id} dupOf={dups.get(v.id)} />)}</div>
       </section>
     </main>
   );
@@ -241,20 +261,43 @@ function names(v, t) {
   return uniq.length ? uniq.slice(0, 3).join(', ') + (uniq.length > 3 ? ` ${t.more(uniq.length - 3)}` : '') : null;
 }
 
-function VersionRow({ v, best }) {
+function VersionRow({ v, best, dupOf }) {
   const s = useStore();
   const [t, lang] = useT();
   const who = names(v, t);
   const later = s.queue.includes(v.id);
+  const p = s.player;
+  const src = sourceById.get(v.sourceId);
   return (
     <article class={'vrow' + (best ? ' best' : '')}>
       <Cover src={cover(v)} title={storyById.get(v.storyId).title} size={96} />
       <div class="vrow-body">
-        {best && <span class="badge">{t.recommended}</span>}
+        {(best || dupOf) && (
+          <div class="vrow-badges">
+            {best && <span class="badge">{t.recommended}</span>}
+            {dupOf && <span class="badge dup">{t.possibleDup(sourceById.get(dupOf.sourceId).name)}</span>}
+          </div>
+        )}
         <h3><a href={`/inregistrare/${v.id}`}>{v.title}</a></h3>
-        <p class="card-sub">{label('kind', v.kind, lang)} · {fmtDur(v.duration)}{v.year ? ` · ${v.year}` : ''} · {sourceById.get(v.sourceId).name}</p>
+        <p class="card-sub">{label('kind', v.kind, lang)} · {fmtDur(v.duration)}{v.year ? ` · ${v.year}` : ''} · {src.name}</p>
         {who && <p class="who"><Icon n={v.voices === 'narator' ? 'mic' : 'cast'} size={16} />{who}</p>}
         <div class="card-foot"><Traits v={v} /><Rating id={v.id} compact /></div>
+        {v.links.length > 1 && (
+          <div class="vrow-mirrors">
+            <span class="muted">{t.otherMirrors}:</span>
+            {v.links.map((l, i) => {
+              const active = p.id === v.id && p.link === i && p.status !== 'ended';
+              const playing = active && ['playing', 'loading'].includes(p.status);
+              return (
+                <button type="button" class="mirror-btn" aria-pressed={active}
+                  onClick={() => (playing ? toggle() : play(v.id, undefined, i))}>
+                  <Icon n={playing ? 'pause' : 'play'} size={12} />
+                  <span>{linkLabel(l, src)}</span>
+                </button>
+              );
+            })}
+          </div>
+        )}
       </div>
       <div class="vrow-actions">
         <PlayButton v={v} cls="btn primary" label={t.play} />
@@ -280,6 +323,9 @@ export function VersionPage({ id }) {
   const later = s.queue.includes(v.id);
   const person = (n) => <a href={`/explorare?person=${encodeURIComponent(n)}`}>{n}</a>;
   const others = (versionsByStory.get(story.id) || []).filter((x) => x.id !== v.id);
+  const p = s.player;
+  const activeIdx = p.id === v.id ? p.link : 0;
+  const activeLink = v.links[activeIdx] || v.links[0];
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
@@ -287,7 +333,7 @@ export function VersionPage({ id }) {
         <div class="detail-text">
           <p class="eyebrow"><a href={`/poveste/${story.id}`}>{t.story}: {story.title}</a></p>
           <h1>{v.title}</h1>
-          <p class="byline">{story.author} · {label('kind', v.kind, lang)} · {fmtDur(v.duration)}</p>
+          <p class="byline"><a href={`/autor/${encodeURIComponent(story.author)}`}>{story.author}</a> · {label('kind', v.kind, lang)} · {fmtDur(v.duration)}</p>
           <div class="actions">
             {pos > 10 && pos < v.duration - 20
               ? <><PlayButton v={v} cls="btn primary big" label={t.resume(fmtTime(pos))} /><PlayButton v={v} cls="btn ghost" label={t.fromStart} from="start" /></>
@@ -304,20 +350,36 @@ export function VersionPage({ id }) {
           <h2 id="ab">{t.about}</h2>
           <dl class="facts">
             <dt>{t.facts.duration}</dt><dd>{fmtDur(v.duration)}</dd>
-            {v.year && <><dt>{t.facts.year}</dt><dd>{v.year}</dd></>}
+            {story.year && <><dt>{t.facts.storyYear}</dt><dd>{story.year}</dd></>}
+            {v.year && <><dt>{t.facts.recYear}</dt><dd>{v.year}</dd></>}
+            {story.origin && <><dt>{t.facts.origin}</dt><dd><a href={`/explorare?origin=${encodeURIComponent(story.origin)}`}>{label('origin', story.origin, lang)}</a></dd></>}
             <dt>{t.facts.kind}</dt><dd>{label('kind', v.kind, lang)}{est('kind')}</dd>
             <dt>{t.facts.voices}</dt><dd>{label('voices', v.voices, lang)}{est('voices')}</dd>
             <dt>{t.facts.music}</dt><dd>{label('music', v.music, lang)}{est('music')}</dd>
             <dt>{t.facts.sfx}</dt><dd>{label('sfx', v.sfx, lang)}{est('sfx')}</dd>
             <dt>{t.facts.moods}</dt><dd>{v.moods.map((m) => label('moods', m, lang)).join(', ')}{est('moods')}</dd>
             <dt>{t.facts.age}</dt><dd>{t.ageFrom(v.age)}{est('age')}</dd>
-            <dt>{t.facts.play}</dt><dd>{t.playIn[v.links[0].type]}{v.links[0].type === 'youtube' && <small class="muted block">{t.ytNote}</small>}</dd>
+            <dt>{t.facts.play}</dt><dd>{t.playIn[activeLink.type]}{v.links.length > 1 && <span class="muted"> ({t.moreMirrors(v.links.length - 1)})</span>}{activeLink.type === 'youtube' && <small class="muted block">{t.ytNote}</small>}</dd>
             <dt>{t.facts.source}</dt><dd><a href={`/sursa/${src.id}`}>{src.name}</a></dd>
-            {col && <><dt>{t.facts.disc}</dt><dd><a href={`/colectie/${col.c.id}`}>{col.c.code}</a> · {col.c.title}</dd></>}
+            {col && <><dt>{t.facts.disc}</dt><dd>{col.c.code ? <><a href={`/colectie/${col.c.id}`}>{col.c.code}</a> · {col.c.title}</> : <a href={`/colectie/${col.c.id}`}>{col.c.title}</a>}</dd></>}
             <dt>{t.facts.links}</dt>
-            <dd><ul class="links">{v.links.map((l) => (
-              <li><a href={linkUrl(l)} target="_blank" rel="noopener">{l.type === 'youtube' ? 'YouTube' : 'Internet Archive'}{l.via ? ` · ${l.via}` : ''}<Icon n="ext" size={14} /></a></li>
-            ))}</ul></dd>
+            <dd><ul class="links">{v.links.map((l, i) => {
+              const active = p.id === v.id && p.link === i && p.status !== 'ended';
+              const playing = active && ['playing', 'loading'].includes(p.status);
+              const lbl = linkLabel(l, src);
+              return (
+                <li class="link-row">
+                  <button type="button" class="mirror-btn" aria-pressed={active}
+                    onClick={() => (playing ? toggle() : play(v.id, undefined, i))}>
+                    <Icon n={playing ? 'pause' : 'play'} size={12} />
+                    <span>{lbl}</span>
+                  </button>
+                  <a class="mirror-ext" href={linkUrl(l)} target="_blank" rel="noopener" aria-label={`${lbl} · ${t.openAt}`}>
+                    <Icon n="ext" size={14} />
+                  </a>
+                </li>
+              );
+            })}</ul></dd>
           </dl>
         </section>
         {(c.cast || c.director || c.narrator) && (
@@ -333,8 +395,8 @@ export function VersionPage({ id }) {
       </div>
 
       {col && (
-        <nav class="disc-nav" aria-label={t.fromDisc}>
-          <p><Icon n="disc" size={18} />{t.fromDisc} <a href={`/colectie/${col.c.id}`}>{col.c.title}</a></p>
+        <nav class="disc-nav" aria-label={col.c.type === 'disc' ? t.fromDisc : t.fromCol}>
+          <p><Icon n="disc" size={18} />{col.c.type === 'disc' ? t.fromDisc : t.fromCol} <a href={`/colectie/${col.c.id}`}>{col.c.title}</a></p>
           <div>
             {col.i > 0 && <a class="btn ghost small" href={`/inregistrare/${col.c.items[col.i - 1]}`}><Icon n="left" size={16} />{storyById.get(versionById.get(col.c.items[col.i - 1]).storyId).title}</a>}
             {col.i < col.c.items.length - 1 && <a class="btn ghost small" href={`/inregistrare/${col.c.items[col.i + 1]}`}>{storyById.get(versionById.get(col.c.items[col.i + 1]).storyId).title}<Icon n="right" size={16} /></a>}
@@ -418,13 +480,49 @@ export function SourcesPage() {
   );
 }
 
+// ---------- Author ----------
+export function AuthorPage({ author }) {
+  const [t] = useT();
+  const list = storiesByAuthor.get(author);
+  const [limit, setLimit] = useState(PAGE_SIZE);
+  useEffect(() => { author && title(author); setLimit(PAGE_SIZE); }, [author]);
+  if (!list?.length) return <NotFound />;
+  const sorted = [...list].sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.title.localeCompare(b.title, 'ro'));
+  const allVs = sorted.flatMap((st) => versionsByStory.get(st.id) || []);
+  const shown = sorted.slice(0, limit);
+  return (
+    <main id="main" tabindex="-1" class="wrap page">
+      <header class="page-head">
+        <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {t.author}</p>
+        <h1>{author}</h1>
+        <p class="lead muted">{t.nStories(sorted.length)} · {t.nRec(allVs.length)}</p>
+        <div class="actions">
+          <button type="button" class="btn accent" disabled={!allVs.length} onClick={() => surprise(allVs)}><Icon n="shuffle" size={16} />{t.surprise}</button>
+          <a class="btn ghost" href={`/explorare?author=${encodeURIComponent(author)}`}>{t.filterInExplore}</a>
+        </div>
+      </header>
+      <section class="shelf-section" aria-labelledby="auth-st">
+        <div class="shelf-head"><h2 id="auth-st">{t.storiesH}</h2></div>
+        <div class="shelf grid">{shown.map((st) => <StoryCard s={st} />)}</div>
+        {sorted.length > limit && (
+          <p class="results-more">
+            <button type="button" class="btn ghost" onClick={() => setLimit(limit + PAGE_SIZE)}>{t.showMore(sorted.length - limit)}</button>
+          </p>
+        )}
+      </section>
+    </main>
+  );
+}
+
 // ---------- Source & collection ----------
 export function SourcePage({ id }) {
   const [t, lang] = useT();
   const src = sourceById.get(id);
-  useEffect(() => src && title(src.name), [id]);
+  const [limit, setLimit] = useState(PAGE_SIZE);
+  useEffect(() => { src && title(src.name); setLimit(PAGE_SIZE); }, [id]);
   if (!src) return <NotFound />;
   const vs = sortVersions(versionsBySource.get(id) || [], 'titlu');
+  const shown = vs.slice(0, limit);
   const cols = collections.filter((c) => c.sourceId === id);
   return (
     <main id="main" tabindex="-1" class="wrap page">
@@ -437,12 +535,17 @@ export function SourcePage({ id }) {
       {cols.length > 0 && (
         <section class="shelf-section" aria-labelledby="cols">
           <div class="shelf-head"><h2 id="cols">{t.collections}</h2></div>
-          <ul class="col-list">{cols.map((c) => <li><a href={`/colectie/${c.id}`}><Icon n="disc" size={18} /><strong>{c.title}</strong><span class="muted">{c.code}</span></a></li>)}</ul>
+          <ul class="col-list">{cols.map((c) => <li><a href={`/colectie/${c.id}`}><Icon n="disc" size={18} /><strong>{c.title}</strong>{c.code && <span class="muted">{c.code}</span>}</a></li>)}</ul>
         </section>
       )}
       <section class="shelf-section" aria-labelledby="recs">
         <div class="shelf-head"><h2 id="recs">{t.recordings}</h2></div>
-        <div class="shelf grid">{vs.map((v) => <VersionCard v={v} />)}</div>
+        <div class="shelf grid">{shown.map((v) => <VersionCard v={v} />)}</div>
+        {vs.length > limit && (
+          <p class="results-more">
+            <button type="button" class="btn ghost" onClick={() => setLimit(limit + PAGE_SIZE)}>{t.showMore(vs.length - limit)}</button>
+          </p>
+        )}
       </section>
     </main>
   );
@@ -457,13 +560,13 @@ export function CollectionPage({ id }) {
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
-        <p class="eyebrow"><Icon n="disc" size={16} /> {c.code} · <a href={`/sursa/${src.id}`}>{src.name}</a></p>
+        <p class="eyebrow"><Icon n="disc" size={16} /> {c.code && <>{c.code} · </>}<a href={`/sursa/${src.id}`}>{src.name}</a></p>
         <h1>{c.title}</h1>
         <p class="lead">{c.description[lang] || c.description.ro}</p>
-        {c.url && <p><a class="btn ghost" href={c.url} target="_blank" rel="noopener">Discogs<Icon n="ext" size={16} /></a></p>}
+        {c.url && <p><a class="btn ghost" href={c.url} target="_blank" rel="noopener">{c.url.includes('discogs.com') ? 'Discogs' : t.sourceSite}<Icon n="ext" size={16} /></a></p>}
       </header>
       <section class="shelf-section" aria-labelledby="on-disc">
-        <div class="shelf-head"><h2 id="on-disc">{t.onDisc}</h2></div>
+        <div class="shelf-head"><h2 id="on-disc">{c.type === 'disc' ? t.onDisc : t.inCol}</h2></div>
         <ol class="compare">{c.items.map((vid) => <li><VersionRow v={versionById.get(vid)} /></li>)}</ol>
       </section>
     </main>

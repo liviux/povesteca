@@ -20,25 +20,37 @@ const group = (list, key) => {
 };
 export const versionsByStory = group(versions, 'storyId');
 export const versionsBySource = group(versions, 'sourceId');
+export const storiesByAuthor = group(stories, 'author');
 export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
 
-export const authors = [...new Set(stories.map((s) => s.author))].sort((a, b) => a.localeCompare(b, 'ro'));
+export const authors = [...new Set(stories.map((s) => s.author).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ro'));
+export const origins = [...new Set(stories.map((s) => s.origin).filter(Boolean))].sort((a, b) => label('origin', a, 'ro').localeCompare(label('origin', b, 'ro'), 'ro'));
 
 export function cover(v) {
-  const l = v?.links?.[0];
-  // "cover": false in the catalog = the archive has no picture (archive.org would show a sound wave)
-  if (!l || v.cover === false) return null;
-  return l.type === 'archive' ? `https://archive.org/services/img/${l.id}` : l.type === 'youtube' ? `https://i.ytimg.com/vi/${l.id}/mqdefault.jpg` : null;
+  if (!v || v.cover === false) return null;
+  if (typeof v.cover === 'string') return v.cover;
+  for (const l of v.links || []) {
+    if (l.type === 'archive') return `https://archive.org/services/img/${l.id}`;
+    if (l.type === 'youtube') return `https://i.ytimg.com/vi/${l.id}/mqdefault.jpg`;
+  }
+  return null;
 }
 export const storyCover = (s) => cover(bestVersion(s.id));
 
 export function linkUrl(l) {
   if (l.type === 'archive') return `https://archive.org/details/${l.id}`;
   if (l.type === 'youtube') return `https://www.youtube.com/watch?v=${l.id}`;
+  if (l.type === 'audio') return l.page || l.url;
   return l.url;
 }
-export const audioUrl = (l) => `https://archive.org/download/${l.id}/${encodeURIComponent(l.file)}`;
+export function linkLabel(l, src) {
+  if (!l) return '';
+  const host = l.type === 'youtube' ? 'YouTube' : l.type === 'archive' ? 'Internet Archive' : (l.via || src?.name || 'Audio');
+  const via = l.via && l.via !== host ? ` · ${l.via}` : '';
+  return host + via;
+}
+export const audioUrl = (l) => (l.type === 'archive' ? `https://archive.org/download/${l.id}/${encodeURIComponent(l.file)}` : l.url);
 
 export const splitNames = (x) => (x ? x.split(/; |, | si | și /) : []);
 export const people = (v) => {
@@ -57,10 +69,11 @@ export function bestVersion(storyId, ratings = {}) {
   const vs = versionsByStory.get(storyId) || [];
   return [...vs].sort(byRecommended(ratings))[0];
 }
+const isDirect = (v) => (v.links[0].type === 'archive' || v.links[0].type === 'audio' ? -1 : 0);
 export const byRecommended = (ratings) => (a, b) =>
   ((ratings[b.id]?.[1] || 0) >= 3 ? score(ratings[b.id]) : 0) - ((ratings[a.id]?.[1] || 0) >= 3 ? score(ratings[a.id]) : 0) ||
   (b.quality || 0) - (a.quality || 0) ||
-  (a.links[0].type === 'archive' ? -1 : 0) - (b.links[0].type === 'archive' ? -1 : 0);
+  isDirect(a) - isDirect(b);
 
 // --- search: no AI, no service. Diacritics, case and one-letter typos don't matter.
 export const norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -75,9 +88,9 @@ const index = versions.map((v) => {
     v,
     fields: [
       [10, [s.title, ...(s.altTitles || []), v.title].join(' ')],
-      [6, [s.author, ...s.characters, ...people(v)].join(' ')],
-      [4, [sourceById.get(v.sourceId)?.name, col?.title, col?.code, v.year].join(' ')],
-      [2, [s.summary.ro, s.summary.en, ...s.themes.map((t) => enumText('themes', t)), ...v.moods.map((m) => enumText('moods', m)),
+      [6, [s.author, ...(s.characters || []), ...people(v)].join(' ')],
+      [4, [sourceById.get(v.sourceId)?.name, col?.title, col?.code, s.year, v.year, label('origin', s.origin, 'ro'), label('origin', s.origin, 'en')].join(' ')],
+      [2, [s.summary.ro, s.summary.en, ...(s.themes || []).map((t) => enumText('themes', t)), ...(v.moods || []).map((m) => enumText('moods', m)),
         enumText('kind', v.kind), enumText('voices', v.voices), enumText('sfx', v.sfx), enumText('music', v.music), enumText('genre', s.genre)].join(' ')],
     ].map(([w, t]) => [w, words(t)]),
   };
@@ -135,6 +148,8 @@ export function applyFilters(list, f, ratings = {}) {
     if (f.mood && !f.mood.split(',').every((m) => v.moods.includes(m))) return false;
     if (f.age && v.age > +f.age) return false;
     if (f.dur) { const [a, b] = DURATIONS[f.dur] || [0, 1e9]; if (v.duration < a || v.duration >= b) return false; }
+    if (f.genre && s.genre !== f.genre) return false;
+    if (f.origin && s.origin !== f.origin) return false;
     if (f.author && s.author !== f.author) return false;
     if (f.source && v.sourceId !== f.source) return false;
     if (f.col && !collectionById.get(f.col)?.items.includes(v.id)) return false;
@@ -142,7 +157,7 @@ export function applyFilters(list, f, ratings = {}) {
     return true;
   });
 }
-export const FILTER_KEYS = ['kind', 'voices', 'sfx', 'music', 'mood', 'age', 'dur', 'author', 'source', 'col', 'person'];
+export const FILTER_KEYS = ['kind', 'voices', 'sfx', 'music', 'mood', 'age', 'dur', 'genre', 'origin', 'author', 'source', 'col', 'person'];
 
 export function sortVersions(list, sort, ratings = {}, rel) {
   const by = {
@@ -162,3 +177,34 @@ export const shuffle = (list) => {
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
 };
+
+const ORIGINAL_MODERN = new Set(['afostodata', 'oameni-mici-si-mari']);
+const creditSet = (v) => new Set(people(v).map((n) => norm(n)).filter((n) => n.length >= 4));
+
+/** Finds separate Version entries under the same story that are likely cross-source duplicates. */
+export function duplicateMap(vs) {
+  const out = new Map();
+  const seen = [];
+  for (const v of vs) {
+    const cV = creditSet(v);
+    for (const { u, cU } of seen) {
+      if (u.sourceId === v.sourceId) continue;
+      if (ORIGINAL_MODERN.has(u.sourceId) || ORIGINAL_MODERN.has(v.sourceId)) continue;
+      const durDiff = Math.abs((u.duration || 0) - (v.duration || 0));
+      let shared = 0;
+      for (const p of cV) if (cU.has(p)) shared++;
+      const sameYear = Boolean(u.year && v.year && u.year === v.year);
+      const sameVoice = u.voices === v.voices || (u.voices !== 'narator' && v.voices !== 'narator');
+      if (
+        (shared >= 2 && durDiff <= 180) ||
+        (sameYear && sameVoice && durDiff <= 90) ||
+        (sameVoice && Math.min(u.duration || 0, v.duration || 0) >= 180 && durDiff <= 20)
+      ) {
+        out.set(v.id, u);
+        break;
+      }
+    }
+    seen.push({ u: v, cU: cV });
+  }
+  return out;
+}

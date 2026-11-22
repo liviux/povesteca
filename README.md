@@ -8,19 +8,29 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog.
 
-Acum sunt 62 de povești și 73 de înregistrări, din patru surse:
+Acum sunt 931 de povești și 1070 de înregistrări, din 13 surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
+- [Povești Audio Vinil](https://archive.org/search?query=%22Povesti+Audio+Vinil%22) (Internet Archive)
+- [eTeatru (Teatrul Național Radiofonic)](https://eteatru.ro/spectacole/povesti/) (audio direct MP3)
+- [Arhiva Radio România](https://radio-arhive.ro/category/emisiuni/noapte-buna-copii/3) (audio direct MP3, „Noapte bună, copii!” și Teatrul Național Radiofonic pentru Copii)
+- [Arhiva deschisă Culturalia („Pe unde”)](https://mariuscomper.uk/pe-unde/) (audio direct MP3)
+- [A Fost Odată](https://afostodata.ro/) (audio direct MP3, inclusiv „Români de poveste” și „Patrimoniu”)
+- [Oameni mici și mari](https://podcasters.spotify.com/pod/show/oamenimicisimari) (audio direct MP3, actori clujeni)
 - [Teatru Radiofonic](https://www.youtube.com/@teatruradiofonic6362) (YouTube)
 - [Electrecord](https://www.youtube.com/@Electrecord-Romania) (YouTube)
+- [Teatru Subtitrat](https://www.youtube.com/playlist?list=PLPr2UQwCNy3kz-JkNoXZoKXcb3K0lW34h) (YouTube)
+- [Teatru pe Vinil](https://www.youtube.com/@TeatruPeVinil) (YouTube)
+- [Itsy Bitsy & Leon Magdan](https://www.youtube.com/@ItsyBitsyFM) (YouTube)
 
 O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compari după durată, tip de producție și distribuție. Micul Prinț, de exemplu, are două montări diferite. Unele detalii, cum ar fi vârsta potrivită, atmosfera sau cât de multe efecte sonore are o înregistrare, sunt estimate și apar cu semnul „≈”.
 
 ## Ce poți face
 
 - **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
-- **Filtrezi** după tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă și disc, apoi ordonezi rezultatele.
+- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă și disc sau colecție, apoi ordonezi rezultatele.
+- **Pagină pentru fiecare autor**: apasă pe numele autorului pe pagina poveștii sau a înregistrării ca să îi vezi toate poveștile.
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas.
 - **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
@@ -37,7 +47,7 @@ Ce s-a schimbat de la o versiune la alta e în [CHANGELOG.md](CHANGELOG.md) (în
 
 | Sursa | Ce merge |
 |---|---|
-| Internet Archive | Redare directă din fișier: pauză, derulare, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
+| Internet Archive & Audio direct | Redare directă din fișier MP3/MP4: pauză, derulare, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
 | YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul. E regula lor și aplicația n-o ocolește. |
 | Altă sursă | Buton „Deschide la sursă”. |
 
