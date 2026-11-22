@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.2.1] - 2026-11-22
+
+### Changed
+- The catalogue rules are now written down for everyone working on the project too: only recordings performed by actors, with checked links and no made-up details.
+
 ## [1.2.0] - 2026-11-22
 
 ### Added

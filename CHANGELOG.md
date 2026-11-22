@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.2.1] - 2026-11-22
+
+### Changed
+- Regulile catalogului sunt scrise acum și pentru cine lucrează la proiect: intră doar înregistrări jucate de actori, cu linkuri verificate și fără date inventate.
+
 ## [1.2.0] - 2026-11-22
 
 ### Added
