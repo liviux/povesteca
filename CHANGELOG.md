@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.4.1] - 2026-11-22
+
+### Changed
+- Regulă nouă pentru catalog: aceeași înregistrare găsită și pe altă platformă se adaugă ca sursă în plus, ca povestea să pornească și când un link dispare. Primul vine linkul fără reclame.
+
 ## [1.4.0] - 2026-11-22
 
 ### Added

@@ -104,7 +104,7 @@ O poveste nouă, cu o înregistrare de pe Internet Archive:
 
 Reguli:
 
-- **O producție înseamnă o singură înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`, iar playerul trece la următorul dacă primul nu mai merge.
+- **O producție înseamnă o singură înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`, iar playerul trece la următorul dacă primul nu mai merge. O sursă în plus e binevenită, pentru că povestea pornește și când una dispare. Primul vine linkul direct, fără reclame (Internet Archive sau fișier audio), apoi YouTube.
 - **Ce nu știi, lași gol.** Câmpurile lipsă nu apar în pagină.
 - **Ce e ghicit se trece în `estimated`.** Pagina arată un „≈” lângă valoarea respectivă.
 - `duration` e în secunde. `start` și `end` (tot în secunde) sunt pentru povești aflate în mijlocul unei înregistrări mai lungi.

@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.4.1] - 2026-11-22
+
+### Changed
+- New catalogue rule: the same recording found on another platform is added as an extra source, so the story still plays when one link disappears. The ad-free link comes first.
+
 ## [1.4.0] - 2026-11-22
 
 ### Added
