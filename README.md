@@ -1,39 +1,61 @@
 # Povesteca
 
-Bibliotecă de povești audio în limba română, pentru copii și pentru părinții care le aleg. Adună teatru radiofonic și discuri de povești publicate deja pe Internet Archive și YouTube, le ordonează pe povești și lasă copilul să asculte direct în pagină.
+Povesteca e o bibliotecă de povești audio în limba română, pentru copii și pentru părinții care le aleg. Adună teatru radiofonic și discuri de povești publicate deja pe Internet Archive și YouTube, le așază pe povești și le poți asculta direct în pagină.
 
-Aplicația nu găzduiește fișiere audio, nu are conturi și nu folosește AI. Favoritele, istoricul și preferințele stau în browserul fiecăruia.
+Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
-## Ce conține acum
+## Ce fel de povești găsești
 
-- 62 de povești și 73 de înregistrări reale. Pentru fiecare link am verificat că există și că se poate reda în altă pagină.
-- Sursa principală: colecția „Romanian Vinyl” de pe Internet Archive, cu discuri Electrecord digitizate. Fiecare fișă vine cu regia, distribuția, muzica, anul și codul discului, așa cum sunt trecute pe disc.
-- Câteva producții de teatru radiofonic de pe YouTube (canalele „Teatru Radiofonic” și Electrecord), mai ales acolo unde o poveste are și o altă montare.
-- 10 discuri cu câte două povești, păstrate ca „colecții”, în ordinea de pe disc.
+Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog.
 
-## Rulare locală
+Acum sunt 62 de povești și 73 de înregistrări, din patru surse:
 
-Ai nevoie de Node.js 20 sau mai nou.
+- [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
+- [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
+- [Teatru Radiofonic](https://www.youtube.com/@teatruradiofonic6362) (YouTube)
+- [Electrecord](https://www.youtube.com/@Electrecord-Romania) (YouTube)
 
-```bash
-npm install
-npm run dev        # http://localhost:5173, cu voturi ținute în memorie
-npm run build      # verifică catalogul, apoi construiește în dist/
-npm run check      # doar verificarea catalogului
-```
+O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compari după durată, tip de producție și distribuție. Micul Prinț, de exemplu, are două montări diferite. Unele detalii, cum ar fi vârsta potrivită, atmosfera sau cât de multe efecte sonore are o înregistrare, sunt estimate și apar cu semnul „≈”.
 
-## Publicare pe Vercel
+## Ce poți face
 
-1. Pune proiectul într-un repository GitHub.
-2. În Vercel: **Add New → Project**, alege repository-ul. Vercel recunoaște Vite singur (build `npm run build`, output `dist`).
-3. Pentru voturi: în proiectul Vercel, **Storage → Create / Connect → Upstash for Redis** (planul gratuit ajunge). Integrarea adaugă singură `KV_REST_API_URL` și `KV_REST_API_TOKEN`. Apoi un **Redeploy**.
-4. Opțional, `RATING_SALT`: un text oarecare, folosit la amestecarea IP-urilor înainte de salvare.
+- **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
+- **Filtrezi** după tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă, disc și calitate, apoi ordonezi rezultatele.
+- **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas.
+- **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.
+- **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
+- **Ale mele**: favorite, lista „De ascultat” și istoricul.
+- **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
+- **Trei teme** (Clasică, Băieți, Fete), care schimbă și culorile, și așezarea paginii.
 
-Fără Redis, site-ul merge normal; doar zona de vot afișează „Voturile nu merg acum”.
+Interfața e în română sau în engleză. Titlurile, numele și înregistrările rămân în română.
 
-## Cum adaugi povești
+## Cum funcționează redarea
 
-Catalogul e format din patru fișiere JSON în `catalog/`. Nu trebuie modificată nicio pagină.
+| Sursa | Ce merge |
+|---|---|
+| Internet Archive | Redare directă din fișier: pauză, derulare, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
+| YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul. E regula lor și aplicația n-o ocolește. |
+| Altă sursă | Buton „Deschide la sursă”. |
+
+Dacă un link nu mai pornește, playerul încearcă alt link al aceleiași înregistrări. Când nu mai are niciunul, arată butonul spre sursă.
+
+## Ce date se păstrează
+
+- Favoritele, istoricul, poziția din fiecare poveste, filtrele, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
+- Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
+- Nu există conturi, cookie-uri proprii sau statistici de trafic.
+- Pagina încarcă fonturile de la Google Fonts, iar copertele, sunetul și playerul video de la Internet Archive și YouTube.
+
+## Voturi
+
+Ordinea după voturi folosește o medie ponderată, ca un singur vot de 5 să nu treacă înaintea multor voturi de 4. Poți vota aceeași înregistrare o dată la 24 de ore și poți da un vot la 20 de minute. Fără conturi, limitele opresc abuzurile obișnuite, nu pe cineva hotărât să voteze de pe mai multe rețele.
+
+## Propune o poveste
+
+Știi o înregistrare bună care lipsește, sau ai dat de un link care nu mai merge? Deschide un [issue](../../issues) cu linkul.
+
+Dacă vrei s-o adaugi tu, nu trebuie să modifici nicio pagină. Catalogul e format din patru fișiere JSON în `catalog/`:
 
 | Fișier | Ce ține |
 |---|---|
@@ -42,7 +64,7 @@ Catalogul e format din patru fișiere JSON în `catalog/`. Nu trebuie modificat�
 | `sources.json` | de unde vin înregistrările (o colecție, un canal) |
 | `collections.json` | discuri, serii sau playlisturi, cu ordinea lor |
 
-O poveste nouă cu o înregistrare de pe Internet Archive:
+O poveste nouă, cu o înregistrare de pe Internet Archive:
 
 ```jsonc
 // stories.json
@@ -67,47 +89,34 @@ O poveste nouă cu o înregistrare de pe Internet Archive:
 
 Reguli:
 
-- **O producție = o înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`. Playerul îl încearcă pe următorul dacă primul nu mai merge. `npm run check` oprește build-ul dacă același fișier sau video apare la două înregistrări.
+- **O producție înseamnă o singură înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`, iar playerul trece la următorul dacă primul nu mai merge.
 - **Ce nu știi, lași gol.** Câmpurile lipsă nu apar în pagină.
 - **Ce e ghicit se trece în `estimated`.** Pagina arată un „≈” lângă valoarea respectivă.
 - `duration` e în secunde. `start` și `end` (tot în secunde) sunt pentru povești aflate în mijlocul unei înregistrări mai lungi.
-- `quality` (1–5) e o estimare a cât de bogată e producția (distribuție, muzică, regie), nu a popularității. În catalogul actual e calculată din fișa discului și marcată estimată.
-- Valorile permise pentru `kind`, `voices`, `sfx`, `music`, `moods`, `genre` sunt în `scripts/check-catalog.js`.
+- `quality` (1–5) arată cât de bogată e producția (distribuție, muzică, regie), nu cât de populară e.
+- Valorile permise pentru `kind`, `voices`, `sfx`, `music`, `moods` și `genre` sunt în `scripts/check-catalog.js`.
 
-Pentru o înregistrare de pe archive.org, `https://archive.org/metadata/IDENTIFICATOR` dă numele fișierului audio și durata (`length`).
+Numele fișierului audio și durata unei înregistrări de pe archive.org le găsești la `https://archive.org/metadata/IDENTIFICATOR` (câmpul `length`). Înainte să trimiți un pull request, rulează `npm run check`: verifică legăturile dintre fișiere, valorile permise și linkurile care apar la două înregistrări.
 
-## Cum funcționează redarea
+## Rulare locală
 
-| Sursa | Ce merge |
-|---|---|
-| Internet Archive | Redare directă din fișier: pauză, derulare, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
-| YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul; asta e regula lor și nu încercăm s-o ocolim. |
-| Altceva | Buton „Deschide la sursă”. |
+Ai nevoie de Node.js 20.19 sau mai nou.
 
-Dacă un link nu mai pornește, playerul trece la următorul link al aceleiași înregistrări, iar dacă nu mai are niciunul arată butonul spre sursă.
-
-Modul „Noapte bună” are ecran închis la culoare, temporizator de 10, 20 sau 30 de minute, oprire la final și o listă de povești liniștite. Nu pornește singur povestea următoare.
-
-## Voturi
-
-Note de la 1 la 5 pentru fiecare înregistrare, comune tuturor vizitatorilor și păstrate în Redis. Ordonarea folosește o medie ponderată, ca un singur vot de 5 să nu treacă peste multe voturi de 4.
-
-Limite: un vot pe aceeași înregistrare în 24 de ore și un vot la 20 de minute, după IP (salvat doar ca hash) și după browser. Fără conturi, cine vrea neapărat poate vota de mai multe ori schimbând rețeaua; limitele opresc doar abuzurile obișnuite.
-
-## Teme și limbă
-
-Trei teme, alese din butonul „Temă”: Clasică (culorile logo-ului), Băieți și Fete. Diferă și culorile, și așezarea: rafturi orizontale, carduri pe rând cu coperta în stânga, sau grilă cu carduri mari și antet centrat.
-
-Interfața e în română sau engleză (butonul EN/RO). Titlurile, numele și înregistrările rămân în română.
+```bash
+npm install
+npm run dev     # pornește site-ul local; voturile se țin în memorie
+npm run check   # verifică doar catalogul
+npm run build   # verifică catalogul, apoi construiește site-ul în dist/
+```
 
 ## Structura codului
 
 ```
 catalog/            datele (JSON)
-api/ratings.js      funcția Vercel pentru voturi
+api/ratings.js      funcția serverless pentru voturi (Redis)
 scripts/            verificarea catalogului
 src/data.js         indexuri, căutare, filtre, sortare
-src/player.jsx      playerul (archive + YouTube), modul Noapte bună
+src/player.jsx      playerul (Internet Archive + YouTube), modul Noapte bună
 src/pages.jsx       paginile
 src/ui.jsx          carduri, butoane, iconițe
 src/i18n.js         textele RO/EN
@@ -115,8 +124,8 @@ src/store.js        preferințe locale, rutare, voturi
 src/styles.css      cele trei teme
 ```
 
-Stack: Vite + Preact, fără alte dependențe.
+Vite + Preact, fără alte dependențe.
 
 ## Drepturi
 
-Povesteca nu copiază și nu găzduiește înregistrări. Trimite la paginile originale și folosește playerele publice ale platformelor. Dacă o sursă scoate o înregistrare, ea dispare și din player; linkul se poate scoate din `versions.json`.
+Povesteca nu copiază și nu găzduiește înregistrări. Trimite la paginile originale și folosește playerele publice ale platformelor. Dacă o sursă scoate o înregistrare, ea nu mai pornește nici aici, iar linkul se scoate din catalog. Dacă deții drepturile asupra unei înregistrări și vrei să fie scoasă, deschide un issue.
