@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  storiesByAuthor, collectionOf, authors, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO,
+  storiesByAuthor, collectionOf, authors, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -167,7 +167,7 @@ export function Explore({ query }) {
               <span class="muted">{t.f[k]}:</span> {activeLabel(k, v)} <Icon n="close" size={14} />
             </button>
           ))}
-          {f.author && <a class="link-btn" href={`/autor/${encodeURIComponent(f.author)}`}>{t.allByAuthor(f.author)}</a>}
+          {f.author && <a class="link-btn" href={personUrl(f.author)}>{t.allByAuthor(f.author)}</a>}
           <button type="button" class="link-btn" onClick={() => navigate('/explorare' + (q ? '?q=' + encodeURIComponent(q) : ''), true)}>{t.clear}</button>
         </div>
       )}
@@ -217,6 +217,7 @@ export function StoryPage({ id }) {
   const vs = sortVersions(versionsByStory.get(id) || [], sort, s.ratings);
   const best = bestVersion(id, s.ratings);
   const dups = duplicateMap(vs);
+  const book = storyLinks(story.id);
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
@@ -224,7 +225,7 @@ export function StoryPage({ id }) {
         <div class="detail-text">
           <p class="eyebrow">{label('genre', story.genre, lang)}</p>
           <h1>{story.title}</h1>
-          <p class="byline">{t.by} <a href={`/autor/${encodeURIComponent(story.author)}`}>{story.author}</a>{story.year ? ` · ${story.year}` : ''}</p>
+          <p class="byline">{t.by} <PersonLink name={story.author} />{story.year ? ` · ${story.year}` : ''}</p>
           <p class="lead">{story.summary[lang] || story.summary.ro}</p>
           <div class="actions">
             {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
@@ -234,6 +235,7 @@ export function StoryPage({ id }) {
             {story.origin && <><dt>{t.facts.origin}</dt><dd><a class="tag" href={`/explorare?origin=${encodeURIComponent(story.origin)}`}>{label('origin', story.origin, lang)}</a></dd></>}
             {story.year && <><dt>{t.facts.storyYear}</dt><dd>{story.year}</dd></>}
             {story.characters?.length > 0 && <><dt>{t.characters}</dt><dd>{story.characters.join(', ')}</dd></>}
+            {book && <><dt>{t.aboutBook}</dt><dd>{ext(book.wikipedia, 'Wikipedia', 'tag')}{ext(book.goodreads, 'Goodreads', 'tag')}</dd></>}
             {story.themes?.length > 0 && <><dt>{t.themesH}</dt><dd>{story.themes.map((x) => <a class="tag" href={`/explorare?q=${encodeURIComponent(label('themes', x, lang))}`}>{label('themes', x, lang)}</a>)}</dd></>}
           </dl>
         </div>
@@ -322,7 +324,7 @@ export function VersionPage({ id }) {
   const est = (k) => v.estimated?.includes(k) && <abbr class="est" title={t.estimated}>≈</abbr>;
   const pos = s.pos[v.id] || 0;
   const later = s.queue.includes(v.id);
-  const person = (n) => <a href={`/explorare?person=${encodeURIComponent(n)}`}>{n}</a>;
+  const person = (n) => <PersonLink name={n} />;
   const others = (versionsByStory.get(story.id) || []).filter((x) => x.id !== v.id);
   const p = s.player;
   const activeIdx = p.id === v.id ? p.link : 0;
@@ -334,7 +336,7 @@ export function VersionPage({ id }) {
         <div class="detail-text">
           <p class="eyebrow"><a href={`/poveste/${story.id}`}>{t.story}: {story.title}</a></p>
           <h1>{v.title}</h1>
-          <p class="byline"><a href={`/autor/${encodeURIComponent(story.author)}`}>{story.author}</a> · {label('kind', v.kind, lang)} · {fmtDur(v.duration)}</p>
+          <p class="byline"><PersonLink name={story.author} /> · {label('kind', v.kind, lang)} · {fmtDur(v.duration)}</p>
           <div class="actions">
             {pos > 10 && pos < v.duration - 20
               ? <><PlayButton v={v} cls="btn primary big" label={t.resume(fmtTime(pos))} /><PlayButton v={v} cls="btn ghost" label={t.fromStart} from="start" /></>
@@ -481,36 +483,66 @@ export function SourcesPage() {
   );
 }
 
-// ---------- Author ----------
-export function AuthorPage({ author }) {
+// ---------- People: authors and everyone in the credits ----------
+// an outside link (Wikipedia, Goodreads), shown only when it exists
+const ext = (href, txt, cls = 'btn ghost') => href && <a class={cls} href={href} target="_blank" rel="noopener">{txt}<Icon n="ext" size={14} /></a>;
+
+// a name with its photo, when there is one; the photo's credit is on the person's page
+function PersonLink({ name }) {
+  const photo = personInfo(name)?.photo;
+  return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={photo.src} alt="" width="32" height="32" loading="lazy" />}{name}</a>;
+}
+
+function More({ total, shown, onMore }) {
   const [t] = useT();
-  const list = storiesByAuthor.get(author);
-  const [limit, setLimit] = useState(PAGE_SIZE);
-  useEffect(() => { author && title(author); setLimit(PAGE_SIZE); }, [author]);
-  if (!list?.length) return <NotFound />;
-  const sorted = [...list].sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.title.localeCompare(b.title, 'ro'));
-  const allVs = sorted.flatMap((st) => versionsByStory.get(st.id) || []);
-  const shown = sorted.slice(0, limit);
+  return total > shown && <p class="results-more"><button type="button" class="btn ghost" onClick={onMore}>{t.showMore(total - shown)}</button></p>;
+}
+
+export function PersonPage({ name }) {
+  const [t] = useT();
+  const written = storiesByAuthor.get(name) || [];
+  const performed = useMemo(() => versions.filter((v) => rolesIn(v, name).length), [name]);
+  const [limit, setLimit] = useState({ s: PAGE_SIZE, v: PAGE_SIZE });
+  useEffect(() => { name && title(name); setLimit({ s: PAGE_SIZE, v: PAGE_SIZE }); }, [name]);
+  if (!written.length && !performed.length) return <NotFound />;
+  const w = personInfo(name);
+  const sorted = [...written].sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.title.localeCompare(b.title, 'ro'));
+  const allVs = [...new Set([...sorted.flatMap((st) => versionsByStory.get(st.id) || []), ...performed])];
+  const roles = [...new Set([...(written.length ? ['author'] : []), ...performed.flatMap((v) => rolesIn(v, name))])];
   return (
     <main id="main" tabindex="-1" class="wrap page">
-      <header class="page-head">
-        <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {t.author}</p>
-        <h1>{author}</h1>
-        <p class="lead muted">{t.nStories(sorted.length)} · {t.nRec(allVs.length)}</p>
-        <div class="actions">
-          <button type="button" class="btn accent" disabled={!allVs.length} onClick={() => surprise(allVs)}><Icon n="shuffle" size={16} />{t.surprise}</button>
-          <a class="btn ghost" href={`/explorare?author=${encodeURIComponent(author)}`}>{t.filterInExplore}</a>
+      <header class={'page-head' + (w?.photo ? ' person-head' : '')}>
+        {w?.photo && <img class="person-photo" src={w.photo.src} alt="" width="160" height="160" />}
+        <div class="person-text">
+          <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {roles.map((r) => t.roleNames[r]).join(' · ')}</p>
+          <h1>{name}</h1>
+          <p class="lead muted">{[written.length && t.nStories(written.length), t.nRec(allVs.length)].filter(Boolean).join(' · ')}</p>
+          <div class="actions">
+            <button type="button" class="btn accent" disabled={!allVs.length} onClick={() => surprise(allVs)}><Icon n="shuffle" size={16} />{t.surprise}</button>
+            <a class="btn ghost" href={`/explorare?${written.length ? 'author' : 'person'}=${encodeURIComponent(name)}`}>{t.filterInExplore}</a>
+            {ext(w?.wikipedia, 'Wikipedia')}{ext(w?.goodreads, 'Goodreads')}
+          </div>
         </div>
       </header>
-      <section class="shelf-section" aria-labelledby="auth-st">
-        <div class="shelf-head"><h2 id="auth-st">{t.storiesH}</h2></div>
-        <div class="shelf grid">{shown.map((st) => <StoryCard s={st} />)}</div>
-        {sorted.length > limit && (
-          <p class="results-more">
-            <button type="button" class="btn ghost" onClick={() => setLimit(limit + PAGE_SIZE)}>{t.showMore(sorted.length - limit)}</button>
-          </p>
-        )}
-      </section>
+      {sorted.length > 0 && (
+        <section class="shelf-section" aria-labelledby="pers-st">
+          <div class="shelf-head"><h2 id="pers-st">{t.storiesH}</h2></div>
+          <div class="shelf grid">{sorted.slice(0, limit.s).map((st) => <StoryCard s={st} />)}</div>
+          <More total={sorted.length} shown={limit.s} onMore={() => setLimit({ ...limit, s: limit.s + PAGE_SIZE })} />
+        </section>
+      )}
+      {performed.length > 0 && (
+        <section class="shelf-section" aria-labelledby="pers-rec">
+          <div class="shelf-head"><h2 id="pers-rec">{t.recordings}</h2></div>
+          <div class="shelf grid">{performed.slice(0, limit.v).map((v) => <VersionCard v={v} />)}</div>
+          <More total={performed.length} shown={limit.v} onMore={() => setLimit({ ...limit, v: limit.v + PAGE_SIZE })} />
+        </section>
+      )}
+      {w?.photo && (
+        <p class="photo-credit">
+          {t.photo}: {w.photo.by && <>{w.photo.by} · </>}{/^public domain$/i.test(w.photo.license) ? t.publicDomain : w.photo.license} · <a href={w.photo.page} target="_blank" rel="noopener">Wikimedia Commons</a>
+        </p>
+      )}
     </main>
   );
 }

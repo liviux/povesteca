@@ -2,6 +2,16 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.4.0] - 2026-11-22
+
+### Added
+- A page for everyone in the catalogue: authors, actors, narrators, directors. It shows the stories they wrote and the recordings they're in, and where possible a freely licensed photo and links to Wikipedia and Goodreads.
+- Small photos next to the names in the cast.
+- Links to the book (Wikipedia, Goodreads) on the page of stories that have one.
+
+### Changed
+- The author page became the person's page: it also shows recordings the author performs in or directs.
+
 ## [1.3.0] - 2026-11-22
 
 ### Added

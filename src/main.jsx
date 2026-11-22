@@ -1,7 +1,7 @@
 import { render } from 'preact';
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { useRoute, useStore, useT, set, setPlayer, loadRatings } from './store.js';
-import { Home, Explore, StoryPage, VersionPage, AuthorPage, SourcesPage, SourcePage, CollectionPage, Mine, NotFound } from './pages.jsx';
+import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourcePage, CollectionPage, Mine, NotFound } from './pages.jsx';
 import { Dock, Night } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
@@ -113,7 +113,7 @@ function App() {
     : seg[0] === 'explorare' ? <Explore query={query} />
     : seg[0] === 'poveste' && seg[1] ? <StoryPage id={seg[1]} />
     : seg[0] === 'inregistrare' && seg[1] ? <VersionPage id={seg[1]} />
-    : seg[0] === 'autor' && seg[1] ? <AuthorPage author={seg.slice(1).join('/')} />
+    : (seg[0] === 'persoana' || seg[0] === 'autor') && seg[1] ? <PersonPage name={seg.slice(1).join('/')} />
     : seg[0] === 'surse' && !seg[1] ? <SourcesPage />
     : seg[0] === 'sursa' && seg[1] ? <SourcePage id={seg[1]} />
     : seg[0] === 'colectie' && seg[1] ? <CollectionPage id={seg[1]} />

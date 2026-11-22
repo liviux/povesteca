@@ -126,7 +126,7 @@ img { display: block; max-width: 100%; }
 .chip[aria-pressed='true'], .chip.on { background: var(--primary); border-color: var(--primary); color: var(--primary-ink); }
 .chip.on .muted { color: inherit; opacity: .8; }
 .badge { justify-self: start; display: inline-block; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 13px; padding: 2px 10px; border-radius: 999px; margin-bottom: 6px; }
-.tag { display: inline-flex; align-items: center; min-height: 44px; margin: 0 6px 6px 0; padding: 0 14px; background: var(--surface-2); border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 15px; }
+.tag { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; margin: 0 6px 6px 0; padding: 0 14px; background: var(--surface-2); border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 15px; }
 .tag:hover { background: var(--line); }
 
 /* ============ Header ============ */
@@ -364,6 +364,15 @@ select:hover { border-color: var(--ink); }
 .mirror-ext:hover { color: var(--ink); background: var(--surface-2); }
 /* names in the credits are text links: a taller hit area without moving the text */
 .facts dd > a, .cast a, .src-body h2 a, .vrow h3 a, .eyebrow a, .byline a { display: inline-block; padding-block: 12px; margin-block: -12px; }
+/* people: a small photo next to the name, a bigger one on their page, the photo credit at the end */
+:is(.byline, .facts dd, .cast) a.person-link { display: inline-flex; align-items: center; gap: 8px; vertical-align: middle; }
+.avatar { width: 32px; height: 32px; flex: none; border-radius: 50%; object-fit: cover; object-position: 50% 20%; background: var(--surface-2); }
+.person-head { grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 28px; }
+.person-text { display: grid; gap: 12px; }
+.person-photo { width: 168px; height: 168px; border-radius: var(--cover-radius); object-fit: cover; object-position: 50% 20%; box-shadow: var(--shadow); background: var(--surface-2); }
+@media (max-width: 599px) { .person-head { grid-template-columns: minmax(0, 1fr); gap: 16px; } .person-photo { width: 128px; height: 128px; } }
+[data-theme='fete'] .person-head { grid-template-columns: minmax(0, 1fr); }
+.photo-credit { margin-top: 48px; font-size: 13px; color: var(--muted); }
 .cast { list-style: none; padding: 0; margin: 16px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
 .cast li { background: var(--surface); border-radius: var(--radius-sm); padding: 10px 14px; display: grid; box-shadow: var(--shadow); }
 .cast li .muted { font-size: 14px; font-weight: 700; }

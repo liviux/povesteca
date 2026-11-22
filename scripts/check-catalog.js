@@ -30,6 +30,14 @@ function ids(list, name) {
 const S = ids(stories, 'stories'), V = ids(versions, 'versions'), SRC = ids(sources, 'sources');
 ids(collections, 'collections');
 
+// catalog/wiki.json comes from scripts/wiki.js: photos from Wikimedia, under a license that allows reuse with credit
+const wiki = load('wiki');
+for (const [name, p] of Object.entries(wiki.people)) {
+  if (!p.photo) continue;
+  if (!/^https:\/\/(upload|thumb)\.wikimedia\.org\//.test(p.photo.src) || !p.photo.page) err(`wiki ${name}: photo needs a Wikimedia address and its file page`);
+  if (!/^(public domain|cc0|cc by(-nc)?(-sa)? \d)/i.test(p.photo.license || '')) err(`wiki ${name}: photo license "${p.photo.license}" is not one the project can use`);
+}
+
 for (const s of stories) {
   if (!s.title || !s.author) err(`story ${s.id}: title and author are required`);
   if (!s.summary?.ro) err(`story ${s.id}: summary.ro is required`);

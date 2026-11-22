@@ -10,8 +10,17 @@ Rules for every AI agent working in this repository (Claude, Codex, Copilot, Cur
 ## Catalog
 
 - Only productions made to be listened to and performed by actors join the catalog: radio plays, story records, stories told by an actor. Synthetic or AI voices don't, and neither do channels that mass-upload recordings of unclear origin.
+- Only the sound has to be made by people: no AI voices, narration or music. Covers and pictures of a story or recording can be anything, AI-made images included.
 - Check every link before it goes in (the archive.org metadata API, YouTube oEmbed or the page itself): it has to open and play the recording it claims to be.
-- Never invent data. Take duration, year, director and cast from the source, or leave the field empty. Anything guessed goes in `estimated`.
+- Fill in the metadata of every story and recording you add, not only the required fields: summary (Romanian and English), genre, themes, characters, origin and year for the story; kind, voices, sound effects, music, moods, age, credits and year for the recording. Work from the source's description, the recording itself and reliable references.
+- Never invent data. Facts (duration, years, director, cast, other credits) come only from the source or a reliable reference; what you can't find stays empty. Judgements you make from listening or from the description (kind, voices, sound effects, music, moods, age) go in `estimated`, so the page marks them with “≈”.
+
+## People and books
+
+- Every person in the catalog (authors, cast, narrators, directors, composers) gets a photo and links when they exist, and every story gets links to its book. `node scripts/wiki.js` fills `catalog/wiki.json` from Wikidata; run it after adding stories or credits.
+- A photo can come from anywhere, as long as its license allows reuse with credit in a non-commercial project: public domain, CC0, CC BY, CC BY-SA, CC BY-NC or CC BY-NC-SA. The person's page ends with the photo's author, license and a link to its source.
+- Wikipedia: the Romanian article for Romanians, the English one for everyone else, and the other language when that one is missing. Goodreads: the author's page for people, the book's page for stories.
+- Only add what is certainly that person or that book: the occupation fits the role, people in the credits are Romanian, and a book has the same author and title. When unsure, leave it out. A name the script matched to the wrong person goes in `WRONG` in `scripts/wiki.js`.
 
 ## Sources and privacy
 

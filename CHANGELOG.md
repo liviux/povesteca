@@ -2,6 +2,16 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.4.0] - 2026-11-22
+
+### Added
+- O pagină pentru fiecare om din catalog: autori, actori, naratori, regizori. Arată poveștile scrise și înregistrările în care apare, iar unde se poate, o fotografie cu licență liberă și linkuri spre Wikipedia și Goodreads.
+- Fotografii mici lângă numele din distribuție.
+- Linkuri spre carte (Wikipedia, Goodreads) pe pagina poveștilor care au una.
+
+### Changed
+- Pagina autorului a devenit pagina omului: arată și înregistrările în care autorul joacă sau regizează.
+
 ## [1.3.0] - 2026-11-22
 
 ### Added

@@ -2,6 +2,7 @@ import stories from '../catalog/stories.json';
 import versions from '../catalog/versions.json';
 import sources from '../catalog/sources.json';
 import collections from '../catalog/collections.json';
+import wiki from '../catalog/wiki.json';
 import { label, ENUMS } from './i18n.js';
 
 export { stories, versions, sources, collections };
@@ -53,6 +54,18 @@ export function linkLabel(l, src) {
 export const audioUrl = (l) => (l.type === 'archive' ? `https://archive.org/download/${l.id}/${encodeURIComponent(l.file)}` : l.url);
 
 export const splitNames = (x) => (x ? x.split(/; |, | si | și /) : []);
+// photo, Wikipedia and Goodreads for a person or a story, from scripts/wiki.js
+export const personInfo = (name) => wiki.people[name];
+export const storyLinks = (id) => wiki.stories[id];
+export const personUrl = (name) => `/persoana/${encodeURIComponent(name)}`;
+// the roles (keys of t.credits) a person has in one recording
+export function rolesIn(v, name) {
+  const c = v.credits || {};
+  return [
+    c.narrator?.includes(name) && 'narrator', c.cast?.some((x) => x.name === name) && 'cast',
+    ...['director', 'adaptation', 'music', 'songs'].map((k) => splitNames(c[k]).includes(name) && k),
+  ].filter(Boolean);
+}
 export const people = (v) => {
   const c = v.credits || {};
   return [...(c.narrator || []), ...(c.cast || []).map((x) => x.name), ...[c.director, c.adaptation, c.music, c.songs].flatMap(splitNames)];

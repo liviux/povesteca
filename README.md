@@ -38,6 +38,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 - **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
 - **Trei teme** (Clasică, Băieți, Fete), care schimbă și culorile, și așezarea paginii. Fiecare are o variantă întunecată, care pornește singură când dispozitivul e pe modul întunecat sau când folosești Dark Reader.
 - **Surse**: o pagină cu arhivele și canalele de unde vin înregistrările și cu regulile catalogului.
+- **Oameni și cărți**: fiecare autor, actor sau regizor are o pagină cu poveștile și înregistrările lui. Unde se poate, are o fotografie cu licență liberă și linkuri spre Wikipedia și Goodreads. Poveștile au linkuri spre cartea lor.
 
 Interfața e în română sau în engleză. Titlurile, numele și înregistrările rămân în română.
 
@@ -58,7 +59,7 @@ Dacă un link nu mai pornește, playerul încearcă alt link al aceleiași înre
 - Favoritele, istoricul, poziția din fiecare poveste, filtrele, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
 - Nu există conturi, cookie-uri proprii sau statistici de trafic.
-- Pagina încarcă fonturile de la Google Fonts, iar copertele, sunetul și playerul video de la Internet Archive și YouTube.
+- Pagina încarcă fonturile de la Google Fonts, copertele, sunetul și playerul video de la Internet Archive și YouTube, iar fotografiile oamenilor de la Wikimedia Commons.
 
 ## Voturi
 
@@ -76,6 +77,7 @@ Dacă vrei s-o adaugi tu, nu trebuie să modifici nicio pagină. Catalogul e for
 | `versions.json` | o înregistrare anume a unei povești: linkuri, durată, distribuție, tip, vârstă |
 | `sources.json` | de unde vin înregistrările (o colecție, un canal) |
 | `collections.json` | discuri, serii sau playlisturi, cu ordinea lor |
+| `wiki.json` | fotografii și linkuri spre Wikipedia și Goodreads pentru oameni și cărți; nu se scrie de mână, îl face `node scripts/wiki.js` din Wikidata |
 
 O poveste nouă, cu o înregistrare de pe Internet Archive:
 
@@ -109,6 +111,8 @@ Reguli:
 - `quality` (1–5) arată cât de bogată e producția (distribuție, muzică, regie), nu cât de populară e. Nu apare în pagină; ajută doar la ordinea „Recomandate”.
 - `"cover": false` e pentru înregistrările care n-au copertă la sursă. Fără el, archive.org arată în loc de copertă o formă de undă neagră; cu el, aplicația pune inițiala poveștii pe un fundal colorat.
 - Valorile permise pentru `kind`, `voices`, `sfx`, `music`, `moods` și `genre` sunt în `scripts/check-catalog.js`.
+- **Copertele pot fi orice, inclusiv imagini făcute cu AI. Sunetul nu**: vocile, narațiunea și muzica sunt ale unor oameni.
+- După ce adaugi povești sau nume în distribuție, rulează `node scripts/wiki.js`. Caută pe Wikidata fiecare om și fiecare carte și păstrează doar potrivirile sigure: aceeași meserie, aceeași carte de la același autor. Fotografiile au doar licențe care permit refolosirea cu menționarea autorului.
 
 Numele fișierului audio și durata unei înregistrări de pe archive.org le găsești la `https://archive.org/metadata/IDENTIFICATOR` (câmpul `length`). Înainte să trimiți un pull request, rulează `npm run check`: verifică legăturile dintre fișiere, valorile permise și linkurile care apar la două înregistrări.
 
@@ -128,7 +132,7 @@ npm run build   # verifică catalogul, apoi construiește site-ul în dist/
 ```
 catalog/            datele (JSON)
 api/ratings.js      funcția serverless pentru voturi (Redis)
-scripts/            verificarea catalogului
+scripts/            verificarea catalogului, fotografiile și linkurile din Wikidata
 src/data.js         indexuri, căutare, filtre, sortare
 src/player.jsx      playerul (Internet Archive + YouTube), modul Noapte bună
 src/pages.jsx       paginile
