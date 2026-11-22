@@ -1,0 +1,5185 @@
+[
+ {
+  "id": "capra-cu-trei-iezi-disc",
+  "storyId": "capra-cu-trei-iezi",
+  "title": "Capra cu trei iezi, dramatizare de Ștefan Gheorghiu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274175027",
+    "file": "274175027.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "274274231",
+    "file": "274274231.mp4"
+   }
+  ],
+  "duration": 522,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "intensa"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Ștefan Gheorghiu",
+   "narrator": [
+    "Constantin Moruzan"
+   ],
+   "cast": [
+    {
+     "role": "Capra",
+     "name": "Mia Macri"
+    },
+    {
+     "role": "Lupul",
+     "name": "Boris Ciornei"
+    },
+    {
+     "role": "Iedul Mic",
+     "name": "Liliana Păpușoiu-Constantinescu"
+    },
+    {
+     "role": "Iedul Mare",
+     "name": "D.Tanasescu"
+    },
+    {
+     "role": "Iedul Mijlociu",
+     "name": "Ileana Șerban"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02065",
+   "title": "Basme de Ion Creanga",
+   "url": "https://www.discogs.com/release/4006304"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "punguta-cu-doi-bani-radio",
+  "storyId": "punguta-cu-doi-bani",
+  "title": "Punguța cu doi bani",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "XIJ5pgoQH5c"
+   },
+   {
+    "type": "youtube",
+    "id": "8sJlQOXfPb0",
+    "via": "Costi Filip"
+   }
+  ],
+  "duration": 578,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 3,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "ursul-pacalit-de-vulpe-radio",
+  "storyId": "ursul-pacalit-de-vulpe",
+  "title": "Ursul păcălit de vulpe",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "qp3-Ylbauq0"
+   },
+   {
+    "type": "youtube",
+    "id": "awitnDdvRMc",
+    "via": "Costi Filip"
+   }
+  ],
+  "duration": 597,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 3,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "povestea-porcului-disc",
+  "storyId": "povestea-porcului",
+  "title": "Povestea porcului, dramatizare de Emil Gonciu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274182236",
+    "file": "274182236.mp4"
+   }
+  ],
+  "duration": 1611,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Elena Negreanu",
+   "adaptation": "Emil Gonciu",
+   "narrator": [
+    "Dumitru Furdui"
+   ],
+   "cast": [
+    {
+     "role": "Moșul",
+     "name": "N.N.Matei"
+    },
+    {
+     "role": "Baba",
+     "name": "Maria Voluntaru"
+    },
+    {
+     "role": "Flacaul-porcul",
+     "name": "Nicolae Pomoje"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Jean Reder"
+    },
+    {
+     "role": "Fata împăratului",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Mehmet Ismail"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Alexandrina Ionescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Atena Demetriad"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01166",
+   "title": "Povestea porcului/Fata mosului cea cuminte",
+   "url": "https://www.discogs.com/release/2783169"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "fata-mosului-cea-cuminte-disc",
+  "storyId": "fata-mosului-cea-cuminte",
+  "title": "Fata moșului cea cuminte, dramatizare de Virgil Stoenescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274182828",
+    "file": "274182828.mp4"
+   },
+   {
+    "type": "youtube",
+    "id": "hnUNdjqzvl8",
+    "via": "Teatru Radiofonic"
+   }
+  ],
+  "duration": 1413,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "director": "Paul Stratilat",
+   "adaptation": "Virgil Stoenescu",
+   "cast": [
+    {
+     "role": "Moșul",
+     "name": "N.N.Matei"
+    },
+    {
+     "role": "Baba",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Ilenuta, fată cuminte a moșului",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Fata babei cea rea",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Zâna",
+     "name": "Eva Pătrășcanu"
+    },
+    {
+     "role": "Greierașul",
+     "name": "Luminița Chiorpec"
+    },
+    {
+     "role": "Pomul",
+     "name": "Mihai Velcescu"
+    },
+    {
+     "role": "Cuptorul",
+     "name": "Gheorghe Lascu"
+    },
+    {
+     "role": "Cățelușa",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Fântâna",
+     "name": "Ruxandra Sireteanu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01166",
+   "title": "Povestea porcului/Fata mosului cea cuminte",
+   "url": "https://www.discogs.com/release/2783169"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "danila-prepeleac-disc",
+  "storyId": "danila-prepeleac",
+  "title": "Dănilă Prepeleac, dramatizare de Constantin Paiu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274178049",
+    "file": "274178049.mp4"
+   }
+  ],
+  "duration": 2919,
+  "year": 1969,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "director": "Constantin Puiu si Virgil Raiciu",
+   "music": "]-Cornel Popescu",
+   "adaptation": "Constantin Paiu",
+   "cast": [
+    {
+     "role": "Danila Prepeleac",
+     "name": "George Macovei"
+    },
+    {
+     "role": "Smaranda",
+     "name": "Lidia Nicolau"
+    },
+    {
+     "role": "Ispas",
+     "name": "Puiu Vasiliu"
+    },
+    {
+     "role": "Anisia",
+     "name": "Virginia Raiciu"
+    },
+    {
+     "role": "Cotirlic",
+     "name": "Petru Ciubotaru"
+    },
+    {
+     "role": "Jupan Marcu",
+     "name": "Ștefan Dănciulescu"
+    },
+    {
+     "role": "Onofrei Birliba",
+     "name": "Virgil Costin"
+    },
+    {
+     "role": "Costea Conovat",
+     "name": "Adrian Țuca"
+    },
+    {
+     "role": "Istrate Carlig",
+     "name": "Valeriu Burlacu"
+    },
+    {
+     "role": "Vasilica",
+     "name": "Silvia Popa"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02624",
+   "title": "Danila Prepeleac",
+   "url": "https://www.discogs.com/release/5102101"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-unui-om-lenes-disc",
+  "storyId": "povestea-unui-om-lenes",
+  "title": "Povestea unui om leneș, citește Ion Caramitru",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302214676",
+    "file": "302214676.mp4"
+   }
+  ],
+  "duration": 267,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "fara",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Ion Caramitru"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02910",
+   "title": "Povestiri pentru copii",
+   "url": "https://www.discogs.com/release/15268133"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "harap-alb-1964",
+  "storyId": "harap-alb",
+  "title": "Harap-Alb (1964)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "K4puPnROakc"
+   }
+  ],
+  "duration": 3381,
+  "year": 1964,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 7,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "greuceanu-disc",
+  "storyId": "greuceanu",
+  "title": "Greuceanu, prelucrare și dramatizare de Călin Gruia",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274208499",
+    "file": "274208499.mp4"
+   }
+  ],
+  "duration": 1516,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Călin Gruia",
+   "narrator": [
+    "Octavian Cotescu"
+   ],
+   "cast": [
+    {
+     "role": "Greuceanu",
+     "name": "Vasile Gheorghiu"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Marcel Gingulescu"
+    },
+    {
+     "role": "Vrăjitorul",
+     "name": "Matei Alexandru"
+    },
+    {
+     "role": "Mincinosul",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Zmeul",
+     "name": "Titus Laptes"
+    },
+    {
+     "role": "Corbul",
+     "name": "Sorin Gabor"
+    },
+    {
+     "role": "Zmeoaica",
+     "name": "Victoria Corciov"
+    },
+    {
+     "role": "Făurarul",
+     "name": "Boris Ciornei"
+    },
+    {
+     "role": "Fratele lui Greuceanu",
+     "name": "Sebastian Radovici"
+    },
+    {
+     "role": "Fiica împăratului",
+     "name": "Valeria Gagialov"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01093",
+   "title": "Greuceanu/Doi copii cu parul de aur",
+   "url": "https://www.discogs.com/release/19286269"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "praslea-cel-voinic-disc",
+  "storyId": "praslea-cel-voinic",
+  "title": "Prâslea cel voinic și merele de aur, dramatizare de Lucian Belcea",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274216637",
+    "file": "274216637.mp4"
+   }
+  ],
+  "duration": 1656,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Mihai Pascal",
+   "adaptation": "Lucian Belcea",
+   "narrator": [
+    "Ion Manta"
+   ],
+   "cast": [
+    {
+     "role": "Prâslea cel viteaz",
+     "name": "Alexandru Azoitei"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Nicolae Botez-Luchian"
+    },
+    {
+     "role": "Fiul cel mare",
+     "name": "Sebastian Radovici"
+    },
+    {
+     "role": "Fiul mijlociu",
+     "name": "Nicolae Scarlat"
+    },
+    {
+     "role": "Fata",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Sora fetei",
+     "name": "Alexandrina Polizu"
+    },
+    {
+     "role": "Zmeul",
+     "name": "Marius Pepino"
+    },
+    {
+     "role": "Argintarul",
+     "name": "George Buznea"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01204",
+   "title": "Tinerete fara batranete si viata fara de moarte/Praslea cel voinic si merele de aur",
+   "url": "https://www.discogs.com/release/1089997"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "praslea-cel-voinic-radio",
+  "storyId": "praslea-cel-voinic",
+  "title": "Prâslea cel voinic și merele de aur",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "_ZyqSOHQyHU"
+   }
+  ],
+  "duration": 2892,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "tinerete-fara-batranete-disc",
+  "storyId": "tinerete-fara-batranete",
+  "title": "Tinerețe fără bătrânețe și viață fără de moarte, dramatizare de Călin Gruia",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274216143",
+    "file": "274216143.mp4"
+   }
+  ],
+  "duration": 1651,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "misterioasa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "adaptation": "Călin Gruia",
+   "cast": [
+    {
+     "role": "Făt Frumos",
+     "name": "Ion Caramitru"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Mircea Basta"
+    },
+    {
+     "role": "Împărăteasa",
+     "name": "Cristina Tacoi"
+    },
+    {
+     "role": "Gheonoaia",
+     "name": "Maria Voluntaru"
+    },
+    {
+     "role": "Scorpia",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Zâna cea mică",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Zâna cea mare",
+     "name": "Lucia Mureșan"
+    },
+    {
+     "role": "Calul",
+     "name": "Mihai Heroveanu"
+    },
+    {
+     "role": "Un drumeț",
+     "name": "Sandu Sticlaru"
+    },
+    {
+     "role": "Un copil",
+     "name": "Maria Dichter"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01204",
+   "title": "Tinerete fara batranete si viata fara de moarte/Praslea cel voinic si merele de aur",
+   "url": "https://www.discogs.com/release/1089997"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "pasarea-maiastra-disc",
+  "storyId": "pasarea-maiastra",
+  "title": "Pasărea măiastră, dramatizare de Grigore Băjenaru",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274203422",
+    "file": "274203422.mp4"
+   }
+  ],
+  "duration": 1555,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Grigore Băjenaru",
+   "narrator": [
+    "Dinu Ianculescu"
+   ],
+   "cast": [
+    {
+     "role": "Împăratul",
+     "name": "Nicolae Neamtu-Ottonel"
+    },
+    {
+     "role": "Marele Sfetnic",
+     "name": "Mihai Mereuță"
+    },
+    {
+     "role": "Vulpoiul",
+     "name": "George Oancea"
+    },
+    {
+     "role": "Fiul cel mare",
+     "name": "Mihai Cruceanu"
+    },
+    {
+     "role": "Fiul cel mic",
+     "name": "Sebastian Radovici"
+    },
+    {
+     "role": "Găinăreasa",
+     "name": "Stela Popescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Minel Klepper"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Dan Damian"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Chirita Dumitrescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Alexandru Manolescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Pompiliu Radulescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01033",
+   "title": "Sarea in bucate/Pasarea maiastra",
+   "url": "https://www.discogs.com/release/5089738"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "tugulea-disc",
+  "storyId": "tugulea",
+  "title": "Țugulea, fiul unchiașului și al mătușei, dramatizare de Grigore Băjenaru",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274211268",
+    "file": "274211268.mp4"
+   }
+  ],
+  "duration": 1580,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Grigore Băjenaru",
+   "narrator": [
+    "Matei Alexandru"
+   ],
+   "cast": [
+    {
+     "role": "Țugulea",
+     "name": "Gheorghe Oancea"
+    },
+    {
+     "role": "Zmeoaica bătrână",
+     "name": "Jenny Moruzan"
+    },
+    {
+     "role": "Zmeul",
+     "name": "Titus Laptes"
+    },
+    {
+     "role": "Frații lui Țugulea",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Frații lui Țugulea",
+     "name": "Sebastian Radovici"
+    },
+    {
+     "role": "Împăratul Vârtej",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Flămânzilă",
+     "name": "Ovid Teodorescu"
+    },
+    {
+     "role": "Setosul",
+     "name": "Petru Asan"
+    },
+    {
+     "role": "Frigurosul",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Fiica împăratului",
+     "name": "Rodica Suciu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 0972",
+   "title": "O judecata inteleapta/Tugulea tatii",
+   "url": "https://www.discogs.com/release/6254355"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "doi-copii-cu-parul-de-aur-disc",
+  "storyId": "doi-copii-cu-parul-de-aur",
+  "title": "Doi copii cu părul de aur, dramatizare de Lucian Belcea",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274208898",
+    "file": "274208898.mp4"
+   }
+  ],
+  "duration": 1304,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Constantin Moruzan",
+   "adaptation": "Lucian Belcea",
+   "narrator": [
+    "Constantin Moruzan"
+   ],
+   "cast": [
+    {
+     "role": "Împăratul",
+     "name": "Șerban Cantacuzino"
+    },
+    {
+     "role": "Floriana",
+     "name": "Ilinca Tomoroveanu"
+    },
+    {
+     "role": "Ileana",
+     "name": "Elena Sereda"
+    },
+    {
+     "role": "Maria",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Vrăjitoarea",
+     "name": "Ina Otilia Ghiulea"
+    },
+    {
+     "role": "Paznicii",
+     "name": "Sorin Gabor"
+    },
+    {
+     "role": "Paznicii",
+     "name": "Mihai Mereuță"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01093",
+   "title": "Greuceanu/Doi copii cu parul de aur",
+   "url": "https://www.discogs.com/release/19286269"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "ileana-sanziana-disc",
+  "storyId": "ileana-sanziana",
+  "title": "Ileana Sânziana, dramatizare de Carmen Constantinescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274204794",
+    "file": "274204794.mp4"
+   }
+  ],
+  "duration": 1574,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Carmen Constantinescu",
+   "narrator": [
+    "Eugenia Eftimie"
+   ],
+   "cast": [
+    {
+     "role": "Ileana Sânziana",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Craiul, tatal ei",
+     "name": "Constantin Guriță"
+    },
+    {
+     "role": "Fetita",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Calul Șoiman",
+     "name": "Dorin Moga"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Sorin Gabor"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01618",
+   "title": "Ileana Sanziana/Porcul cel fermecat",
+   "url": "https://www.discogs.com/release/9509638"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "sarea-in-bucate-disc",
+  "storyId": "sarea-in-bucate",
+  "title": "Sarea în bucate, dramatizare de Grigore Băjenaru",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274202853",
+    "file": "274202853.mp4"
+   }
+  ],
+  "duration": 1623,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "somn"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Paul Stratilat",
+   "adaptation": "Grigore Băjenaru",
+   "narrator": [
+    "Ștefan Ciubotărașu"
+   ],
+   "cast": [
+    {
+     "role": "Împăratul",
+     "name": "Nicolae Gărdescu"
+    },
+    {
+     "role": "Împărăteasa",
+     "name": "Agepsina Macri-Eftimiu"
+    },
+    {
+     "role": "Sora Mare",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Sora Mijlocie",
+     "name": "Angela Chiuaru"
+    },
+    {
+     "role": "Sora Mica",
+     "name": "Tina Ionescu"
+    },
+    {
+     "role": "Chelareasa",
+     "name": "Nelly Dordea"
+    },
+    {
+     "role": "Împăratul al doilea",
+     "name": "Ion Manu"
+    },
+    {
+     "role": "Feciorul sau",
+     "name": "Ion Caramitru"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01033",
+   "title": "Sarea in bucate/Pasarea maiastra",
+   "url": "https://www.discogs.com/release/5089738"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "o-judecata-inteleapta-disc",
+  "storyId": "o-judecata-inteleapta",
+  "title": "O judecată înțeleaptă, dramatizare de Grigore Băjenaru",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274210241",
+    "file": "274210241.mp4"
+   }
+  ],
+  "duration": 1409,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "educativa",
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Paul Stratilat",
+   "adaptation": "Grigore Băjenaru",
+   "narrator": [
+    "Irina Rachiteanu"
+   ],
+   "cast": [
+    {
+     "role": "Omul",
+     "name": "Adrian Georgescu"
+    },
+    {
+     "role": "Șarpele",
+     "name": "Petre Dinuliu"
+    },
+    {
+     "role": "Târgovețul I",
+     "name": "Ion Punea"
+    },
+    {
+     "role": "Târgovețul II",
+     "name": "Sorin Stratilat"
+    },
+    {
+     "role": "Judecătorul",
+     "name": "Ștefan Niculescu Cadet"
+    },
+    {
+     "role": "Copii",
+     "name": "Eugen Cristea"
+    },
+    {
+     "role": "Copii",
+     "name": "Gabriel Marinescu"
+    },
+    {
+     "role": "Copii",
+     "name": "Marian Staicu"
+    },
+    {
+     "role": "Copii",
+     "name": "Gabriela Toma"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 0972",
+   "title": "O judecata inteleapta/Tugulea tatii",
+   "url": "https://www.discogs.com/release/6254355"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "fat-frumos-din-lacrima-disc",
+  "storyId": "fat-frumos-din-lacrima",
+  "title": "Făt-Frumos din lacrimă, dramatizare de Mircea Stefanescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274170633",
+    "file": "274170633.mp4"
+   }
+  ],
+  "duration": 2811,
+  "year": 1964,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "director": "Constantin Moruzan",
+   "adaptation": "Mircea Stefanescu",
+   "narrator": [
+    "Constantin Moruzan"
+   ],
+   "cast": [
+    {
+     "role": "Făt-Frumos",
+     "name": "Ion Dichiseanu"
+    },
+    {
+     "role": "Mama",
+     "name": "Sandina Stan"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Silviu Stănculescu"
+    },
+    {
+     "role": "Ileana Cosânzeana",
+     "name": "Magda Popovici"
+    },
+    {
+     "role": "Genarul",
+     "name": "Sorin Gabor"
+    },
+    {
+     "role": "Fata genarului",
+     "name": "Andreea Năstăsescu"
+    },
+    {
+     "role": "Calul genarului",
+     "name": "Dem Savu"
+    },
+    {
+     "role": "Calul lui Făt Frumos",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Muma Pădurii",
+     "name": "Maria Burbea"
+    },
+    {
+     "role": "Stăpâna cailor",
+     "name": "Dida Solomon-Calimachi"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Alexandrina Polizu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Mircea Medianu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Margareta Tutoveanu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ina Otilia Ghiulea"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 0450",
+   "title": "Fat Frumos din lacrima",
+   "url": "https://www.discogs.com/release/9050158"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "mos-craciun-delavrancea-disc",
+  "storyId": "mos-craciun-delavrancea",
+  "title": "Moș Crăciun, dramatizare de Carmen Focsa",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274288608",
+    "file": "274288608.mp4"
+   }
+  ],
+  "duration": 1379,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "linistitoare",
+   "magica",
+   "somn"
+  ],
+  "age": 5,
+  "quality": 5,
+  "credits": {
+   "director": "Leonard Popovici",
+   "music": "Romeo Chelaru",
+   "adaptation": "Carmen Focsa",
+   "cast": [
+    {
+     "role": "Mos Crăciun",
+     "name": "George Oancea"
+    },
+    {
+     "role": "Băiatul",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Morarul",
+     "name": "Ion Marinescu"
+    },
+    {
+     "role": "Negustorul",
+     "name": "Boris Petrof"
+    },
+    {
+     "role": "Țăranca",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Popa",
+     "name": "George Oprina"
+    },
+    {
+     "role": "Femeia",
+     "name": "Elena Sereda"
+    },
+    {
+     "role": "Pescarul",
+     "name": "Dumitru Chesa"
+    },
+    {
+     "role": "Un țăran",
+     "name": "Gheorghe Pufulete"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 04000",
+   "title": "Mos Craciun/In ajun de Craciun",
+   "url": "https://www.discogs.com/release/7247418"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "neghinita-disc",
+  "storyId": "neghinita",
+  "title": "Neghiniță, adaptare și dramatizare de Virgil Stoenescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274190499",
+    "file": "274190499.mp4"
+   }
+  ],
+  "duration": 1646,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Mihai Pascal",
+   "adaptation": "Virgil Stoenescu",
+   "narrator": [
+    "Mihai Stoenescu"
+   ],
+   "cast": [
+    {
+     "role": "Baba",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Moșul",
+     "name": "George Trestian"
+    },
+    {
+     "role": "Neghiniță",
+     "name": "Elisabeta Voiculescu"
+    },
+    {
+     "role": "Negustorul",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Sfetnicii",
+     "name": "Florin Scărlătescu"
+    },
+    {
+     "role": "Sfetnicii",
+     "name": "N.N.Matei"
+    },
+    {
+     "role": "Sfetnicii",
+     "name": "Haralambie Polizu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01135",
+   "title": "Neghinita/Bunicul/Bunica",
+   "url": "https://www.discogs.com/release/3654554"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "palatul-de-clestar-disc",
+  "storyId": "palatul-de-clestar",
+  "title": "Palatul de cleștar, dramatizare de Mihai Jemăneanu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274218341",
+    "file": "274218341.mp4"
+   }
+  ],
+  "duration": 1574,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "educativa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "adaptation": "Mihai Jemăneanu",
+   "narrator": [
+    "Valentin Platareanu"
+   ],
+   "cast": [
+    {
+     "role": "Împăratul",
+     "name": "Ion Marinescu"
+    },
+    {
+     "role": "Sora lui",
+     "name": "Adela Mărculescu"
+    },
+    {
+     "role": "Tatăl împăratului",
+     "name": "Nicolae Luchian-Botez"
+    },
+    {
+     "role": "Sfetnicul",
+     "name": "Emil Liptac"
+    },
+    {
+     "role": "Namila",
+     "name": "Victor Strengaru"
+    },
+    {
+     "role": "Fetele",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Fetele",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Fetele",
+     "name": "Rodica Sanda-Tutuianu"
+    },
+    {
+     "role": "Băieții",
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "role": "Băieții",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Băieții",
+     "name": "Boris Petrof"
+    },
+    {
+     "role": "Flăcăul",
+     "name": "Florian Pittiș"
+    },
+    {
+     "role": "Domnița",
+     "name": "Adina Popescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02980",
+   "title": "Palatul de clestar/Pacala in satul lui",
+   "url": "https://www.discogs.com/release/6256630"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "fram-ursul-polar-disc",
+  "storyId": "fram-ursul-polar",
+  "title": "Fram, ursul polar, adaptare de Adriana Kisseleff",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274267374",
+    "file": "274267374.mp4"
+   }
+  ],
+  "duration": 1754,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Mihai Zirra",
+   "adaptation": "Adriana Kisseleff",
+   "cast": [
+    {
+     "role": "Fram, Ursul polar (Ursul Mic)",
+     "name": "Silvia Chicoș"
+    },
+    {
+     "role": "Fram, Ursul Polar",
+     "name": "Dinu Dumitrescu"
+    },
+    {
+     "role": "Ursoaica mama",
+     "name": "Cleo Pan Cernateanu"
+    },
+    {
+     "role": "Un vânător",
+     "name": "George Oancea"
+    },
+    {
+     "role": "Miss Elian",
+     "name": "Beate Fredanov"
+    },
+    {
+     "role": "Toto",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Toni, bătrânul dresor",
+     "name": "Jean Reder"
+    },
+    {
+     "role": "Ursulețul orfan",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Paul Nasolski"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ion Punea"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "George Demetru"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Vasile Lupu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01390",
+   "title": "Fram ursul polar/Ulciorul cu omenie",
+   "url": "https://www.discogs.com/release/21013255"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "cartea-cu-jucarii-disc",
+  "storyId": "cartea-cu-jucarii",
+  "title": "Cartea cu jucării, dramatizare de Mitzura Arghezi",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274243811",
+    "file": "274243811.mp4"
+   },
+   {
+    "type": "youtube",
+    "id": "l1irXCEVIqo",
+    "via": "Teatru Radiofonic"
+   }
+  ],
+  "duration": 3123,
+  "year": 1967,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 5,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "music": "Timuș Alexandrescu",
+   "adaptation": "Mitzura Arghezi",
+   "cast": [
+    {
+     "role": "Mama",
+     "name": "Mitzura Arghezi"
+    },
+    {
+     "role": "Tata",
+     "name": "Ludovic Antal"
+    },
+    {
+     "role": "Mitu",
+     "name": "Camelia Stanescu"
+    },
+    {
+     "role": "Pisica",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Magarul",
+     "name": "George Groner"
+    },
+    {
+     "role": "Împărăteasa",
+     "name": "Tina Ionescu"
+    },
+    {
+     "role": "Baciul",
+     "name": "N.N.Matei"
+    },
+    {
+     "role": "Sitarul",
+     "name": "Adrian Lupu"
+    },
+    {
+     "role": "Barutu",
+     "name": "Sorin Stefanescu"
+    },
+    {
+     "role": "O voce",
+     "name": "Pompiliu Radulescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02490",
+   "title": "Caertea cu jucarii",
+   "url": "https://www.discogs.com/release/5388666"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cocoselul-neascultator-disc",
+  "storyId": "cocoselul-neascultator",
+  "title": "Cocoșelul neascultător",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302188811",
+    "file": "302188811.mp4"
+   }
+  ],
+  "duration": 2880,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 4,
+  "quality": 5,
+  "credits": {
+   "director": "Ion Lucian",
+   "music": "Niculita Teodoru si Timuș Alexandrescu",
+   "narrator": [
+    "Tilda Radovici-Lucian"
+   ],
+   "cast": [
+    {
+     "role": "Cocoșelul",
+     "name": "Luluca Bălălău"
+    },
+    {
+     "role": "Ursul",
+     "name": "Gheorghe Oprina"
+    },
+    {
+     "role": "Motanul",
+     "name": "Mișu Andriescu"
+    },
+    {
+     "role": "Vulpoiul",
+     "name": "Ion Anghel"
+    },
+    {
+     "role": "Corbul",
+     "name": "Tudorel Popa"
+    },
+    {
+     "role": "Iepurașii",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Iepurașii",
+     "name": "Tatiana Tereblecea"
+    },
+    {
+     "role": "Iepurașii",
+     "name": "Ileana Șerban"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02625",
+   "title": "Cocoselul neascultator",
+   "url": "https://www.discogs.com/release/5100472"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "familia-chit-chit-disc",
+  "storyId": "familia-chit-chit",
+  "title": "Familia Chit-Chit",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302211761",
+    "file": "302211761.mp4"
+   }
+  ],
+  "duration": 2929,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 4,
+  "quality": 5,
+  "credits": {
+   "director": "Paul Stratilat",
+   "music": "Elly Roman",
+   "narrator": [
+    "Val Săndulescu"
+   ],
+   "cast": [
+    {
+     "role": "Șobolanul",
+     "name": "George Groner"
+    },
+    {
+     "role": "Motanul",
+     "name": "Octavian Cotescu"
+    },
+    {
+     "role": "Stăpânul casei",
+     "name": "Nicolae Gr.Balanescu"
+    },
+    {
+     "role": "Șoricioaica bătrână",
+     "name": "Ina Otilia Ghiulea"
+    },
+    {
+     "role": "Vulpea",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Vecinul stăpânului motanului",
+     "name": "Vasile Lupu"
+    },
+    {
+     "role": "Corbul",
+     "name": "Petre Asan"
+    },
+    {
+     "role": "Trei șoricei",
+     "name": "Ioana Radoslav"
+    },
+    {
+     "role": "Trei șoricei",
+     "name": "Veronica Strugaru"
+    },
+    {
+     "role": "Trei șoricei",
+     "name": "Alexandrina Halic"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 0440",
+   "title": "Familia Chit-Chit",
+   "url": "https://www.discogs.com/release/6183203"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "scufita-rosie-disc",
+  "storyId": "scufita-rosie",
+  "title": "Scufița Roșie, dramatizare de Călin Gruia",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304114329",
+    "file": "304114329.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "ScufitaRosieDeFratiiGrimmMuzicalInregistrareVinilCuIurieDarie1911min",
+    "file": "Scufita Rosie  -de- Fratii Grimm   - muzical  -  Inregistrare vinil - cu Iurie Darie -(19-11min)-.mp3"
+   }
+  ],
+  "duration": 1134,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "intensa"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "director": "Dan Puican",
+   "music": "Aurel Giroveanu",
+   "songs": "Mihaela Istrate si Iurie Darie",
+   "adaptation": "Călin Gruia",
+   "narrator": [
+    "Dinu Ianculescu"
+   ],
+   "cast": [
+    {
+     "role": "Scufita Rosie",
+     "name": "Florența Cioromela"
+    },
+    {
+     "role": "Lupul",
+     "name": "George Ionescu-Gion"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02911",
+   "title": "Basme de Fratii Grimm",
+   "url": "https://www.discogs.com/release/3916090"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "scufita-rosie-radio",
+  "storyId": "scufita-rosie",
+  "title": "Scufița Roșie (după Charles Perrault)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "taGWRHPbndo"
+   }
+  ],
+  "duration": 469,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "intensa"
+  ],
+  "age": 4,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "alba-ca-zapada-disc",
+  "storyId": "alba-ca-zapada",
+  "title": "Albă ca Zăpada și cei șapte pitici, dramatizare de Catinca Muscan",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304135308",
+    "file": "304135308.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "304157433",
+    "file": "304157433.mp4"
+   }
+  ],
+  "duration": 1962,
+  "year": 1964,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Mihai Zirra",
+   "adaptation": "Catinca Muscan",
+   "narrator": [
+    "Dinu Ianculescu",
+    "Cleo Pan Cernateanu"
+   ],
+   "cast": [
+    {
+     "role": "Albă ca Zapada",
+     "name": "Mihaela Cotaru"
+    },
+    {
+     "role": "Regina, mama vitregă",
+     "name": "Marietta Anca"
+    },
+    {
+     "role": "Prințul",
+     "name": "Constantin Lungeanu"
+    },
+    {
+     "role": "Piticii",
+     "name": "George Groner"
+    },
+    {
+     "role": "Piticii",
+     "name": "Nicolae Gărdescu"
+    },
+    {
+     "role": "Piticii",
+     "name": "Dan Demetrescu"
+    },
+    {
+     "role": "Piticii",
+     "name": "Al.Giovanni"
+    },
+    {
+     "role": "Doica",
+     "name": "Marga Chicoș"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01136",
+   "title": "Alba ca Zapada si cei sapte pitici/Casuta din padure",
+   "url": "https://www.discogs.com/release/11606160"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "hansel-si-gretel-disc",
+  "storyId": "hansel-si-gretel",
+  "title": "Hänsel și Gretel, dramatizare de Mariela Oțoiu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304161466",
+    "file": "304161466.mp4"
+   }
+  ],
+  "duration": 838,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "intensa",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Mariela Oțoiu",
+   "narrator": [
+    "Corado Negreanu"
+   ],
+   "cast": [
+    {
+     "role": "Hansel",
+     "name": "Paula Radulescu"
+    },
+    {
+     "role": "Gretel",
+     "name": "Valeria Ogășanu"
+    },
+    {
+     "role": "Tatăl",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Vrăjitoarea",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Dana Cosma"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03701",
+   "title": "Pazitoarea de gaste/Hansel si Gretel",
+   "url": "https://www.discogs.com/release/25192849"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "cenusareasa-disc",
+  "storyId": "cenusareasa",
+  "title": "Cenușăreasa, adaptare de Gheorghe Ștefan",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304131063",
+    "file": "304131063.mp4"
+   }
+  ],
+  "duration": 1642,
+  "year": 1964,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Paul Stratilat",
+   "adaptation": "Gheorghe Ștefan",
+   "narrator": [
+    "Constantin Moruzan"
+   ],
+   "cast": [
+    {
+     "role": "Cenusareasa",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Mama vitregă",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Surorile vitrege",
+     "name": "Rodica Tapalagă"
+    },
+    {
+     "role": "Surorile vitrege",
+     "name": "Elena Nica Dumitrescu"
+    },
+    {
+     "role": "Prințul",
+     "name": "Gheorghe Cozorici"
+    },
+    {
+     "role": "Sfetnicul",
+     "name": "Nicolae Luchian-Botez"
+    },
+    {
+     "role": "Crainicul palatului",
+     "name": "Sorin Gabor"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02984",
+   "title": "Cenusareasa/Dansul spiridusilor",
+   "url": "https://www.discogs.com/release/2784842"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "muzicantii-din-bremen-electrecord",
+  "storyId": "muzicantii-din-bremen",
+  "title": "Muzicanții din Brema",
+  "sourceId": "yt-electrecord",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "XQtw-W4LQoE"
+   }
+  ],
+  "duration": 900,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 4,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "muzicantii-din-bremen-radio",
+  "storyId": "muzicantii-din-bremen",
+  "title": "Muzicanții din Bremen, regia Cornel Todea",
+  "sourceId": "arhiva-maia-martin",
+  "links": [
+   {
+    "type": "archive",
+    "id": "FratiiGrimmMuzicantiiDinBremenRegiaCornelTodea",
+    "file": "Fratii Grimm - Muzicantii din Bremen regia Cornel Todea.mp3"
+   }
+  ],
+  "duration": 3391,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "credits": {
+   "director": "Cornel Todea"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "music"
+  ]
+ },
+ {
+  "id": "pazitoarea-de-gaste-disc",
+  "storyId": "pazitoarea-de-gaste",
+  "title": "Păzitoarea de gâște, dramatizare de Mariela Oțoiu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304164161",
+    "file": "304164161.mp4"
+   }
+  ],
+  "duration": 1008,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Titel Constantinescu",
+   "adaptation": "Mariela Oțoiu",
+   "narrator": [
+    "Corado Negreanu"
+   ],
+   "cast": [
+    {
+     "role": "Flăcăul",
+     "name": "Constantin Fugașin"
+    },
+    {
+     "role": "Bătrâna",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Craiul",
+     "name": "Nicolae Pomoje"
+    },
+    {
+     "role": "Crăiasa",
+     "name": "Rodica Sanda-Tutuianu"
+    },
+    {
+     "role": "Mezina",
+     "name": "Daniela Anencov"
+    },
+    {
+     "role": "Fata mijlocie",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Fata cea mare",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Un slujitor",
+     "name": "Nicolae Călugărița"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03701",
+   "title": "Pazitoarea de gaste/Hansel si Gretel",
+   "url": "https://www.discogs.com/release/25192849"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "motanul-incaltat-disc",
+  "storyId": "motanul-incaltat",
+  "title": "Motanul încălțat, dramatizare de Marin Traian",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303905223",
+    "file": "303905223.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "304098791",
+    "file": "304098791.mp4"
+   },
+   {
+    "type": "youtube",
+    "id": "pN2okff-tns",
+    "via": "Electrecord"
+   },
+   {
+    "type": "youtube",
+    "id": "v1XAcVVUdLQ",
+    "via": "Electrecord"
+   }
+  ],
+  "duration": 1384,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Marin Traian",
+   "narrator": [
+    "Octavian Cotescu"
+   ],
+   "cast": [
+    {
+     "role": "Motanul",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Prâslea",
+     "name": "Dumitru Furdui"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Gheorghe Trestian"
+    },
+    {
+     "role": "Fiica împăratului",
+     "name": "Rodica Tapalagă"
+    },
+    {
+     "role": "Căpcăunul",
+     "name": "George Groner"
+    },
+    {
+     "role": "Un Curtean",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Bufonul",
+     "name": "Sandu Sticlaru"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Mihai Stoenescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "George Buznea"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01167",
+   "title": "Motanul incaltat/Povestea boabelor de diamant",
+   "url": "https://www.discogs.com/release/6683925"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "motanul-incaltat-1993",
+  "storyId": "motanul-incaltat",
+  "title": "Motanul încălțat, după Ludwig Tieck (1993)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "-c8OT_NPi7U"
+   }
+  ],
+  "duration": 3229,
+  "year": 1993,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 7,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "povestea-boabelor-de-diamant-disc",
+  "storyId": "povestea-boabelor-de-diamant",
+  "title": "Povestea boabelor de diamant, dramatizare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303905551",
+    "file": "303905551.mp4"
+   },
+   {
+    "type": "youtube",
+    "id": "H5GXQcjYSCA",
+    "via": "Electrecord"
+   }
+  ],
+  "duration": 1205,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Constantin Moruzan",
+   "adaptation": "Silvia Kerim",
+   "narrator": [
+    "Ludovic Antal"
+   ],
+   "cast": [
+    {
+     "role": "Bălaioara",
+     "name": "Mariana Mihuț"
+    },
+    {
+     "role": "Oacheșa",
+     "name": "Mariela Petrescu"
+    },
+    {
+     "role": "Mama lor vitregă",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Zâna bătrână",
+     "name": "Maria Voluntaru"
+    },
+    {
+     "role": "Zâna Tânără",
+     "name": "Tina Ionescu"
+    },
+    {
+     "role": "Prințul",
+     "name": "George Oancea"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01167",
+   "title": "Motanul incaltat/Povestea boabelor de diamant",
+   "url": "https://www.discogs.com/release/6683925"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "frumoasa-din-padurea-adormita-disc",
+  "storyId": "frumoasa-din-padurea-adormita",
+  "title": "Frumoasa din pădurea adormită, dramatizare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303911754",
+    "file": "303911754.mp4"
+   }
+  ],
+  "duration": 2368,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "linistitoare",
+   "somn"
+  ],
+  "age": 5,
+  "quality": 5,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "music": "din baletul lui Piotr Ilici Ceaikovsky; Piotr Ilici Ceaikovsky",
+   "adaptation": "Silvia Kerim",
+   "narrator": [
+    "Mihai Dogaru"
+   ],
+   "cast": [
+    {
+     "role": "Prințesa",
+     "name": "Mariana Mihuţ"
+    },
+    {
+     "role": "Prințul",
+     "name": "Ion Caramitru"
+    },
+    {
+     "role": "Zâna cea bătrână",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Zâna mezina",
+     "name": "Magda Popovici"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Ion Marinescu"
+    },
+    {
+     "role": "Împărăteasa",
+     "name": "Gina Petrini"
+    },
+    {
+     "role": "Zânele",
+     "name": "Cristina Deleanu"
+    },
+    {
+     "role": "Zânele",
+     "name": "Mariana Velcescu"
+    },
+    {
+     "role": "Zânele",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Zânele",
+     "name": "Elena Nicolescu"
+    },
+    {
+     "role": "Zânele",
+     "name": "Dana Cosma"
+    },
+    {
+     "role": "Zânele",
+     "name": "Ioana Casetti"
+    },
+    {
+     "role": "O fată",
+     "name": "Ioana Casetti"
+    },
+    {
+     "role": "O bătrână",
+     "name": "Magda Chicoș"
+    },
+    {
+     "role": "O femeie",
+     "name": "Elena Nicolescu"
+    },
+    {
+     "role": "Vestitori",
+     "name": "Jean Reder"
+    },
+    {
+     "role": "Vestitori",
+     "name": "Paul Nadolski"
+    },
+    {
+     "role": "Vanatori",
+     "name": "Paul Nadolski"
+    },
+    {
+     "role": "Vanatori",
+     "name": "Mugur Arvunescu"
+    },
+    {
+     "role": "Un slujitor",
+     "name": "Ion Popa"
+    }
+   ]
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "frumoasa-din-padurea-adormita-radio",
+  "storyId": "frumoasa-din-padurea-adormita",
+  "title": "Frumoasa din pădurea adormită (variantă scurtă)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "IYcBJ8jI_Ho"
+   }
+  ],
+  "duration": 472,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 4,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "pinocchio-disc",
+  "storyId": "pinocchio",
+  "title": "Aventurile lui Pinocchio, prelucrare de Marin Traian",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303615106",
+    "file": "303615106.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "303875484",
+    "file": "303875484.mp4"
+   }
+  ],
+  "duration": 1584,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Ion Vova",
+   "adaptation": "Marin Traian",
+   "narrator": [
+    "Dinu Ianculescu"
+   ],
+   "cast": [
+    {
+     "role": "Pinocchio",
+     "name": "Silvia Chicoș"
+    },
+    {
+     "role": "Greierașul Gimini",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Gepetto, maestrul păpușar",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Zâna",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Cotoiul Gideon",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Vulpoiul",
+     "name": "Gheorghe Trestian"
+    },
+    {
+     "role": "Stromboli, patronul circului",
+     "name": "Cezar Rovintescu"
+    },
+    {
+     "role": "Cârciumarul",
+     "name": "George Groner"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01094",
+   "title": "Pinocchio/Tom Degetel",
+   "url": "https://www.discogs.com/release/17418961"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "pinocchio-2003",
+  "storyId": "pinocchio",
+  "title": "Aventurile lui Pinocchio (2003)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "z-p6f3m1HMg"
+   },
+   {
+    "type": "youtube",
+    "id": "EQ3hG9DMnR8",
+    "via": "Ady Magdici"
+   }
+  ],
+  "duration": 3263,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 6,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "tom-degetel-disc",
+  "storyId": "tom-degetel",
+  "title": "Tom Degețel, dramatizare de Nadia Gârleșteanu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303615461",
+    "file": "303615461.mp4"
+   }
+  ],
+  "duration": 1509,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "adaptation": "Nadia Gârleșteanu",
+   "cast": [
+    {
+     "role": "John pădurarul",
+     "name": "Sandu Sticlaru"
+    },
+    {
+     "role": "Ana, soția sa",
+     "name": "Ana Barcan"
+    },
+    {
+     "role": "Zâna copacilor",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Tom Degețel",
+     "name": "Felicia Petrescu"
+    },
+    {
+     "role": "Hoții",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Hoții",
+     "name": "George Oprina"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01094",
+   "title": "Pinocchio/Tom Degetel",
+   "url": "https://www.discogs.com/release/17418961"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "mica-sirena-disc",
+  "storyId": "mica-sirena",
+  "title": "Mica sirenă, dramatizare de Alexandra Teodoriu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303811301",
+    "file": "303811301.mp4"
+   }
+  ],
+  "duration": 1378,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Alexandra Teodoriu",
+   "cast": [
+    {
+     "role": "Zâna cea mica, fiica mării",
+     "name": "Magda Popovici"
+    },
+    {
+     "role": "Bunica ei",
+     "name": "Eugenia Eftimie"
+    },
+    {
+     "role": "Prințul",
+     "name": "Sebastian Radovici"
+    },
+    {
+     "role": "Vrăjitoarea",
+     "name": "Telly Barbu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Fotinia Savin"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Laurentiu Toma"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Virgil Popescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ion Pascu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01718",
+   "title": "Zana cea mica/Hainele imparatului",
+   "url": "https://www.discogs.com/release/3457324"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "mica-sirena-radio",
+  "storyId": "mica-sirena",
+  "title": "Mica sirenă (teatru radiofonic)",
+  "sourceId": "arhiva-maia-martin",
+  "links": [
+   {
+    "type": "archive",
+    "id": "HansChristianAndersenMicaSirena",
+    "file": "Hans_Christian_Andersen_-_Mica_Sirena.Mp3"
+   }
+  ],
+  "duration": 3135,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 7,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "music"
+  ]
+ },
+ {
+  "id": "degetica-disc",
+  "storyId": "degetica",
+  "title": "Degețica, dramatizare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303827073",
+    "file": "303827073.mp4"
+   }
+  ],
+  "duration": 1630,
+  "year": 1984,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica",
+   "somn"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Silvia Kerim",
+   "narrator": [
+    "Silviu Stănculescu"
+   ],
+   "cast": [
+    {
+     "role": "Degetica",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Femeia",
+     "name": "Monica Ghiuță"
+    },
+    {
+     "role": "Broasca",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Broscoiul",
+     "name": "Virgil Ogășanu"
+    },
+    {
+     "role": "Peștișorul",
+     "name": "Valeria Ogășanu"
+    },
+    {
+     "role": "Fluturele",
+     "name": "Florian Pittiș"
+    },
+    {
+     "role": "Șoarecele",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Sobolul",
+     "name": "Radu Panamarenco"
+    },
+    {
+     "role": "Rândunica",
+     "name": "Mariana Buruiană"
+    },
+    {
+     "role": "Vara",
+     "name": "Diana Lupescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02766",
+   "title": "Randunica spune o poveste/Tovaras de drum",
+   "url": "https://www.discogs.com/release/4012453"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "degetica-1960",
+  "storyId": "degetica",
+  "title": "Degețica (1960)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "sJdhTG_SIzQ"
+   }
+  ],
+  "duration": 1791,
+  "year": 1960,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 4,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "soldatul-de-plumb-disc",
+  "storyId": "soldatul-de-plumb",
+  "title": "Soldatul de plumb, dramatizare de Octavian Mandruț",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303809043",
+    "file": "303809043.mp4"
+   }
+  ],
+  "duration": 1462,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Titel Constantinescu",
+   "adaptation": "Octavian Mandruț",
+   "cast": [
+    {
+     "role": "Soldatul",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Mama",
+     "name": "Rodica Sanda-Tutuianu"
+    },
+    {
+     "role": "Copiii",
+     "name": "Valeria Ogășanu"
+    },
+    {
+     "role": "Copiii",
+     "name": "Daniela Anencov"
+    },
+    {
+     "role": "Copiii",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ion Chelaru"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03359",
+   "title": "Soldatul de plumb/Ib si Cristina",
+   "url": "https://www.discogs.com/release/9322045"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "hainele-imparatului-disc",
+  "storyId": "hainele-imparatului",
+  "title": "Hainele cele noi ale împăratului, dramatizare de Alexandra Teodoriu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303811711",
+    "file": "303811711.mp4"
+   }
+  ],
+  "duration": 1603,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Alexandra Teodoriu",
+   "cast": [
+    {
+     "role": "Împăratul",
+     "name": "Gheorghe Trestian"
+    },
+    {
+     "role": "Las-pe-mine",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Vin-de-hac",
+     "name": "Mihai Mereuță"
+    },
+    {
+     "role": "Marele dregător",
+     "name": "Florin Scărlătescu"
+    },
+    {
+     "role": "O fată din popor",
+     "name": "Camelia Stanescu"
+    },
+    {
+     "role": "Cizmarul",
+     "name": "Gheorghe Oprina"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ilrana Șerban"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Laurentiu Toma"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Constanta Ionașcu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Virgil Popescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Fotinia Savin"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01718",
+   "title": "Zana cea mica/Hainele imparatului",
+   "url": "https://www.discogs.com/release/3457324"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "privighetoarea-disc",
+  "storyId": "privighetoarea",
+  "title": "Privighetoarea, dramatizare de Dumitru Petrescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303804641",
+    "file": "303804641.mp4"
+   }
+  ],
+  "duration": 1657,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "somn"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Mihai Zirra",
+   "adaptation": "Dumitru Petrescu",
+   "narrator": [
+    "Dinu Ianculescu"
+   ],
+   "cast": [
+    {
+     "role": "Privighetoarea",
+     "name": "Camelia Stanescu"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Florin Vasiliu"
+    },
+    {
+     "role": "Slujitorul",
+     "name": "Mihai Mereuță"
+    },
+    {
+     "role": "Slujitorul",
+     "name": "Mihai Stoenescu"
+    },
+    {
+     "role": "Bucătăreasa",
+     "name": "Liliana Păpușoiu"
+    },
+    {
+     "role": "Sfetnicul",
+     "name": "Nicolae Botez-Luchian"
+    },
+    {
+     "role": "Sfetnicul",
+     "name": "Florin Scărlătescu"
+    },
+    {
+     "role": "Sfetnicul",
+     "name": "Arcadie Donos"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Mircea Medianu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "N.N.Matei"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Victoria Medeea"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Petre Asan"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ion Anastasiad"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02135",
+   "title": "Povestiri de Hans Christian Andersen",
+   "url": "https://www.discogs.com/release/3259595"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "micul-muck-disc",
+  "storyId": "micul-muck",
+  "title": "Micul Muck, dramatizare de Titel Constantinescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303603811",
+    "file": "303603811.mp4"
+   }
+  ],
+  "duration": 1664,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "director": "Titel Constantinescu",
+   "adaptation": "Titel Constantinescu",
+   "narrator": [
+    "Paul Sava"
+   ],
+   "cast": [
+    {
+     "role": "Muck",
+     "name": "Gheorghe Trestian"
+    },
+    {
+     "role": "Micul Muck",
+     "name": "Silvia Chicoș"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Pisicuța",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Sfetnicii",
+     "name": "Sandu Sticlaru"
+    },
+    {
+     "role": "Sfetnicii",
+     "name": "Dem Savu"
+    },
+    {
+     "role": "Sfetnicii",
+     "name": "Petru Assan"
+    },
+    {
+     "role": "Bucătarul",
+     "name": "Petrica Popa"
+    },
+    {
+     "role": "Voci de copii",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Voci de copii",
+     "name": "Dana Cosma"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01519",
+   "title": "Micul Muck/Mateias gascarul",
+   "url": "https://www.discogs.com/release/10173920"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "micul-muck-1993",
+  "storyId": "micul-muck",
+  "title": "Muck cel mic (1993)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "nE6tPr9gnzQ"
+   }
+  ],
+  "duration": 3005,
+  "year": 1993,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 6,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "califul-barza-disc",
+  "storyId": "califul-barza",
+  "title": "Califul barză, dramatizare de Mihai Ionescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304106589",
+    "file": "304106589.mp4"
+   }
+  ],
+  "duration": 1504,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Mihai Ionescu",
+   "narrator": [
+    "Alfred Demetriu"
+   ],
+   "cast": [
+    {
+     "role": "Califul Harun al Rașid",
+     "name": "Gheorghe Cozorici"
+    },
+    {
+     "role": "Marele Vizir",
+     "name": "Jean Reder"
+    },
+    {
+     "role": "Selim cel invatat",
+     "name": "Nicolae Botez-Luchian"
+    },
+    {
+     "role": "Ghenghiz",
+     "name": "Mișu Stoenescu"
+    },
+    {
+     "role": "Mizra",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ion Pascu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Virgil Popescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Laurentiu Toma"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Gheorghe Pufulete"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01890",
+   "title": "Inima rece/Califul barza",
+   "url": "https://www.discogs.com/release/10174069"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "vrajitorul-din-oz-disc",
+  "storyId": "vrajitorul-din-oz",
+  "title": "Vrăjitorul din Oz, adaptare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304402226",
+    "file": "304402226.mp4"
+   }
+  ],
+  "duration": 4887,
+  "year": 1976,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "director": "Titel Constantinescu",
+   "music": "Timuș Alexandrescu",
+   "adaptation": "Silvia Kerim",
+   "cast": [
+    {
+     "role": "Dorothy",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Unchiul Henry (Vrajitorul din Oz)",
+     "name": "Fory Etterle"
+    },
+    {
+     "role": "Mătușa Em.",
+     "name": "Ica Matache"
+    },
+    {
+     "role": "Cățelul Toto",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Piticul Tic-Tic",
+     "name": "Ioana Casetti"
+    },
+    {
+     "role": "Zang-Zig, Zâna Albă",
+     "name": "Clody Berthola"
+    },
+    {
+     "role": "Sperie-Ciori",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Omul de tinichea",
+     "name": "Tudorel Popa"
+    },
+    {
+     "role": "Leul cel fricos",
+     "name": "George Oprina"
+    },
+    {
+     "role": "Vrăjitoarea Zug-Zeg",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Paznicul",
+     "name": "Victor Strengaru"
+    },
+    {
+     "role": "Lupul",
+     "name": "Mitică Popescu"
+    },
+    {
+     "role": "Piticii",
+     "name": "Janine Stavarache"
+    },
+    {
+     "role": "Piticii",
+     "name": "Marina Maican"
+    },
+    {
+     "role": "Piticii",
+     "name": "Dana Cosma"
+    },
+    {
+     "role": "Capetenia corbilor",
+     "name": "Boris Petrov"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01831",
+   "title": "Vrajitorul din Oz",
+   "url": "https://www.discogs.com/release/4013217"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "alice-in-tara-minunilor-disc",
+  "storyId": "alice-in-tara-minunilor",
+  "title": "Alice în Țara Minunilor, dramatizare de Felicia Mărgineanu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304285346",
+    "file": "304285346.mp4"
+   }
+  ],
+  "duration": 3255,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "director": "Mihai Pascal",
+   "music": "Timuș Alexandrescu; Aurel Giroveanu",
+   "adaptation": "Felicia Mărgineanu",
+   "cast": [
+    {
+     "role": "Alice",
+     "name": "Dana Toma"
+    },
+    {
+     "role": "Alice",
+     "name": "Mihaela Istrate"
+    },
+    {
+     "role": "Iepurele",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Omida",
+     "name": "Sandu Sticlaru"
+    },
+    {
+     "role": "Șoarecele",
+     "name": "Dumitru Furdui"
+    },
+    {
+     "role": "Bucătăreasa",
+     "name": "Zizi Șerban"
+    },
+    {
+     "role": "Pisica",
+     "name": "Rodica Tapalagă"
+    },
+    {
+     "role": "Regina",
+     "name": "Nineta Gusti"
+    },
+    {
+     "role": "Regele",
+     "name": "Nicolae Gărdescu"
+    },
+    {
+     "role": "Ducesa",
+     "name": "Nelly Sterian"
+    },
+    {
+     "role": "Pălărierul",
+     "name": "Marius Pepino"
+    },
+    {
+     "role": "Câinele",
+     "name": "Cornel Elefterescu"
+    },
+    {
+     "role": "Grădinarii",
+     "name": "Gheorghe Trestian"
+    },
+    {
+     "role": "Grădinarii",
+     "name": "George Groner"
+    },
+    {
+     "role": "Valetul",
+     "name": "Val Moldoveanu"
+    },
+    {
+     "role": "Broasca",
+     "name": "Petre Assan"
+    },
+    {
+     "role": "Prajitura",
+     "name": "Elena Nicolescu"
+    },
+    {
+     "role": "Charles",
+     "name": "Mircea Șeptilici"
+    },
+    {
+     "role": "Al doilea iepure",
+     "name": "Emil Popescu"
+    },
+    {
+     "role": "O voce",
+     "name": "Elisabeta Voiculescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02492",
+   "title": "Alice in tara minunilor",
+   "url": "https://www.discogs.com/release/4250326"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "alice-in-tara-minunilor-radio",
+  "storyId": "alice-in-tara-minunilor",
+  "title": "Alice în Țara Minunilor (2010), regia Vasile Neagu",
+  "sourceId": "arhiva-maia-martin",
+  "links": [
+   {
+    "type": "archive",
+    "id": "AliceInTaraMinunilorLewisCaroll2010RegiaVasileNeagu",
+    "file": "Alice in tara minunilor - Lewis Caroll 2010 regia Vasile Neagu.mp3"
+   }
+  ],
+  "duration": 3479,
+  "year": 2010,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 7,
+  "credits": {
+   "director": "Vasile Neagu"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "music"
+  ]
+ },
+ {
+  "id": "mary-poppins-disc",
+  "storyId": "mary-poppins",
+  "title": "Mary Poppins, dramatizare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304415371",
+    "file": "304415371.mp4"
+   },
+   {
+    "type": "youtube",
+    "id": "k7JotuYD1cE",
+    "via": "Teatru Radiofonic"
+   }
+  ],
+  "duration": 3120,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 5,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "music": "Timuș Alexandrescu",
+   "adaptation": "Silvia Kerim",
+   "cast": [
+    {
+     "role": "Mary Poppins",
+     "name": "Rodica Tapalagă"
+    },
+    {
+     "role": "Bert",
+     "name": "Florian Pittiș"
+    },
+    {
+     "role": "Domnul Banks",
+     "name": "Matei Alexandru"
+    },
+    {
+     "role": "Michael",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Jane",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Bătrâna",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Chelnerul",
+     "name": "Mircea Șeptilici"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01946",
+   "title": "Mary Poppins",
+   "url": "https://www.discogs.com/release/9075571"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "micul-print-disc",
+  "storyId": "micul-print",
+  "title": "Micul Prinț, adaptare de George Radu Chirovici",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303976758",
+    "file": "303976758.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "304094876",
+    "file": "304094876.mp4"
+   }
+  ],
+  "duration": 1916,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "somn"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "director": "Elena Negreanu",
+   "adaptation": "George Radu Chirovici",
+   "narrator": [
+    "Vasile Gheorghiu"
+   ],
+   "cast": [
+    {
+     "role": "Micul Print",
+     "name": "Vasile Manta"
+    },
+    {
+     "role": "Floarea",
+     "name": "Ruxandra Demetrescu"
+    },
+    {
+     "role": "Vulpea",
+     "name": "Sanda Toma"
+    },
+    {
+     "role": "Șarpele",
+     "name": "Constantin Rautchi"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02364",
+   "title": "Micul print",
+   "url": "https://www.discogs.com/release/4118473"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "micul-print-1994",
+  "storyId": "micul-print",
+  "title": "Micul Prinț (1994)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "SDWok5Q70PU"
+   }
+  ],
+  "duration": 3264,
+  "year": 1994,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 8,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "petrica-si-lupul-disc",
+  "storyId": "petrica-si-lupul",
+  "title": "Petrică și lupul, povestește Costache Antoniu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303891821",
+    "file": "303891821.mp4"
+   }
+  ],
+  "duration": 1671,
+  "kind": "muzicala",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "importanta",
+  "moods": [
+   "educativa",
+   "amuzanta"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Costache Antoniu"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXD 36",
+   "title": "Petrica si lupul",
+   "url": "https://www.discogs.com/release/15007773"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "spargatorul-de-nuci-disc",
+  "storyId": "spargatorul-de-nuci",
+  "title": "Omulețul cu haine de lemn (Spărgătorul de nuci), dramatizare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304105121",
+    "file": "304105121.mp4"
+   }
+  ],
+  "duration": 3056,
+  "year": 1982,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "somn"
+  ],
+  "age": 5,
+  "quality": 5,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "music": "Timuș Alexandrescu; Piotr Ilici Ceaikovski",
+   "adaptation": "Silvia Kerim",
+   "narrator": [
+    "Val Săndulescu"
+   ],
+   "cast": [
+    {
+     "role": "Marie",
+     "name": "Valeria Ogășanu"
+    },
+    {
+     "role": "Fritz",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Mama",
+     "name": "Valeria Gagialov"
+    },
+    {
+     "role": "Tatăl",
+     "name": "Matei Alexandru"
+    },
+    {
+     "role": "Trudchen",
+     "name": "Rodica Sanda Tutuianu"
+    },
+    {
+     "role": "Vrăjitorul (Unchiul Drosselmeyer)",
+     "name": "Fory Etterle"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Omulețul",
+     "name": "Mihai Mălaimare"
+    },
+    {
+     "role": "Împărăteasa",
+     "name": "Dorina Lazar"
+    },
+    {
+     "role": "Gunda",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Invitata",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Invitații",
+     "name": "Cristian Molfeta"
+    },
+    {
+     "role": "Invitații",
+     "name": "Pompiliu Radulescu"
+    },
+    {
+     "role": "Slujitorul",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "Crainic",
+     "name": "Constantin Botez"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02276",
+   "title": "Omuletul cu haine de lemn",
+   "url": "https://www.discogs.com/release/13132151"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "calutul-cocosat-disc",
+  "storyId": "calutul-cocosat",
+  "title": "Căluțul cocoșat, dramatizare de Eugen Frunză",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303837714",
+    "file": "303837714.mp4"
+   }
+  ],
+  "duration": 1558,
+  "year": 1964,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "director": "Dan Puican",
+   "music": "Timuș Alexandrescu",
+   "adaptation": "Eugen Frunză",
+   "cast": [
+    {
+     "role": "Ivanușca",
+     "name": "Dumitru Furdui"
+    },
+    {
+     "role": "Împăratul",
+     "name": "Nicolae Gărdescu"
+    },
+    {
+     "role": "Căluțul",
+     "name": "Vasile Manta"
+    },
+    {
+     "role": "Crăiasa",
+     "name": "Atena Demetriad"
+    },
+    {
+     "role": "Luna",
+     "name": "Gina Petrini"
+    },
+    {
+     "role": "Împărăteasa mării",
+     "name": "Mimi Enaceanu"
+    },
+    {
+     "role": "Moșul",
+     "name": "N.N.Matei"
+    },
+    {
+     "role": "Fratele",
+     "name": "Petre Gheorghiu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Mihai Stoenescu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Traian Danceanu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Laurentiu Toma"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Ion Pascu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02009",
+   "title": "Calutul cocosat/Ladita de aur",
+   "url": "https://www.discogs.com/release/19264936"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "rikki-tikki-tavi-disc",
+  "storyId": "rikki-tikki-tavi",
+  "title": "Rikki-Tikki-Tavi, dramatizare de Vasile Manta",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304250671",
+    "file": "304250671.mp4"
+   }
+  ],
+  "duration": 940,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "director": "Vasile Manta",
+   "music": "Romeo Chelaru",
+   "adaptation": "Vasile Manta",
+   "cast": [
+    {
+     "role": "Tatăl",
+     "name": "Eugen Cristea"
+    },
+    {
+     "role": "Mama și Șerpoaica",
+     "name": "Cristina Deleanu"
+    },
+    {
+     "role": "Rikki",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Teddy",
+     "name": "Mihai Stoian"
+    },
+    {
+     "role": "Pasărea Darsee",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Șarpele Nag",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Șoricelul",
+     "name": "Violeta Berbiuc"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 04055",
+   "title": "Povestiri din Cartile Junglei",
+   "url": "https://www.discogs.com/release/8018086"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "trompa-elefantului-disc",
+  "storyId": "trompa-elefantului",
+  "title": "O poveste cu o trompă de elefant, dramatizare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304249113",
+    "file": "304249113.mp4"
+   }
+  ],
+  "duration": 820,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 4,
+  "quality": 5,
+  "credits": {
+   "director": "Dan Puican",
+   "music": "Romeo Chelaru",
+   "adaptation": "Silvia Kerim",
+   "narrator": [
+    "Cornel Vulpe"
+   ],
+   "cast": [
+    {
+     "role": "Rinocerul",
+     "name": "Gheorghe Oprina"
+    },
+    {
+     "role": "Elefănțelul",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Hipopotamul",
+     "name": "Ion Henter"
+    },
+    {
+     "role": "Girafa",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Struțul",
+     "name": "Nicolae Gărdescu"
+    },
+    {
+     "role": "Șarpele",
+     "name": "Ion Marinescu"
+    },
+    {
+     "role": "Crocodilul",
+     "name": "Jean Lorin Florescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 04055",
+   "title": "Povestiri din Cartile Junglei",
+   "url": "https://www.discogs.com/release/8018086"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cipollino-disc",
+  "storyId": "cipollino",
+  "title": "Aventurile lui Cipollino, adaptare de Dan Tărchilă",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303886426",
+    "file": "303886426.mp4"
+   }
+  ],
+  "duration": 2779,
+  "year": 1961,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "director": "Paul Stratilat",
+   "music": "Mihai Roman; Titi Acs Orchestra Gelu Solomonescu",
+   "adaptation": "Dan Tărchilă",
+   "narrator": [
+    "Cornel Vulpe"
+   ],
+   "cast": [
+    {
+     "role": "Cipollino",
+     "name": "Silvia Chicoș"
+    },
+    {
+     "role": "Prințul Lămâie",
+     "name": "Ion Manu"
+    },
+    {
+     "role": "Tărtăcuța",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Ciorchina",
+     "name": "Silviu Gurau"
+    },
+    {
+     "role": "Senior Pătlăgea",
+     "name": "George Groner"
+    },
+    {
+     "role": "Dulăul Mastino",
+     "name": "Nucu Păunescu"
+    },
+    {
+     "role": "Contesa Vișina",
+     "name": "Elvira Petreanu"
+    },
+    {
+     "role": "Vișinel",
+     "name": "Vasile Manta"
+    },
+    {
+     "role": "Căpșunica",
+     "name": "Ioana Georgescu-Masariu"
+    },
+    {
+     "role": "Pară-Pară",
+     "name": "Tony Buiacici"
+    },
+    {
+     "role": "Profesorul",
+     "name": "Paul Nadolski"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03757",
+   "title": "Aventurile lui Cippolino",
+   "url": "https://www.discogs.com/release/3921511"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "poveste-de-craciun-disc",
+  "storyId": "poveste-de-craciun",
+  "title": "Poveste de Crăciun, dramatizare de Silvia Kerim",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304399773",
+    "file": "304399773.mp4"
+   }
+  ],
+  "duration": 3269,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "misterioasa",
+   "intensa"
+  ],
+  "age": 8,
+  "quality": 5,
+  "credits": {
+   "director": "Cristian Pepino",
+   "music": "Simona Tudor",
+   "adaptation": "Silvia Kerim",
+   "cast": [
+    {
+     "role": "Scrooge",
+     "name": "Boris Petrof"
+    },
+    {
+     "role": "Duhul Crăciunului",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Cratchit",
+     "name": "Candid Stoica"
+    },
+    {
+     "role": "Nepotul lui Scrooge",
+     "name": "Petre Lupu"
+    },
+    {
+     "role": "Fantoma lui Marley",
+     "name": "Mitică Popescu"
+    },
+    {
+     "role": "Doamna Fezziwig",
+     "name": "Elena Nica-Dumitrescu"
+    },
+    {
+     "role": "Doamna de la comitet",
+     "name": "Monica Ghiuță"
+    },
+    {
+     "role": "Femeia sărmană",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Mos Crăciun",
+     "name": "Gheorghe Oprina"
+    },
+    {
+     "role": "Soția nepotului lui Scrooge",
+     "name": "Rodica Sanda-Tutuianu"
+    },
+    {
+     "role": "Copiii",
+     "name": "Oana Rasuceanu"
+    },
+    {
+     "role": "Copiii",
+     "name": "Claudia Manciu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Dan Bobe"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Nicolae Crisu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "lampa-lui-aladin-disc",
+  "storyId": "lampa-lui-aladin",
+  "title": "Lampa lui Aladin, dramatizare de Mihai Drumes",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303843114",
+    "file": "303843114.mp4"
+   }
+  ],
+  "duration": 1660,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Paul Stratilat",
+   "adaptation": "Mihai Drumes",
+   "cast": [
+    {
+     "role": "Aladin",
+     "name": "Ion Caramitru"
+    },
+    {
+     "role": "Vrăjitorul",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Bredel Budur",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Sultanul",
+     "name": "Fory Etterle"
+    },
+    {
+     "role": "Zobeida",
+     "name": "Marcela Demetriad"
+    },
+    {
+     "role": "Uriașul",
+     "name": "Petre Dragoman"
+    },
+    {
+     "role": "Moșul",
+     "name": "Gheorghe Buliga"
+    },
+    {
+     "role": "Vizirul",
+     "name": "Haralambie Polizu"
+    },
+    {
+     "role": "Însoțitoarea Bredelei",
+     "name": "Luiza Marinescu"
+    },
+    {
+     "role": "O voce",
+     "name": "Ștefan Florescu"
+    },
+    {
+     "role": "Crainic",
+     "name": "Ion Anghel"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01254",
+   "title": "Basme din 1001 nopti: Abu Hassan/Lampa lui Alladin",
+   "url": "https://www.discogs.com/release/7490333"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "bucle-de-aur-disc",
+  "storyId": "bucle-de-aur",
+  "title": "Bucle de aur, dramatizare de Mariela Oțoiu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303801916",
+    "file": "303801916.mp4"
+   }
+  ],
+  "duration": 898,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "director": "Titel Constantinescu",
+   "adaptation": "Mariela Oțoiu",
+   "narrator": [
+    "Nicolae Pomoje"
+   ],
+   "cast": [
+    {
+     "role": "Cristina",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Axel",
+     "name": "Constantin Fugașin"
+    },
+    {
+     "role": "Barza",
+     "name": "Rodica Sanda-Tutuianu"
+    },
+    {
+     "role": "Bucle de aur",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Vecina",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Copiii",
+     "name": "Paula Radulescu"
+    },
+    {
+     "role": "Copiii",
+     "name": "Genoveva Preda"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03547",
+   "title": "Basme scandinave",
+   "url": "https://www.discogs.com/release/10172966"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "peter-pan-1983",
+  "storyId": "peter-pan",
+  "title": "Peter Pan și Wendy (1983)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "xPFmdGJtTqY"
+   }
+  ],
+  "duration": 3274,
+  "year": 1983,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "nils-holgersson-1958",
+  "storyId": "nils-holgersson",
+  "title": "Nils Holgersson (1958)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "mT2BWbzvSwY"
+   }
+  ],
+  "duration": 3190,
+  "year": 1958,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 7,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "printul-fericit-radio",
+  "storyId": "printul-fericit",
+  "title": "Prințul fericit",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "5D82b5aQ1pw"
+   }
+  ],
+  "duration": 1844,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 7,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "hobbitul-1981",
+  "storyId": "hobbitul",
+  "title": "Hobbitul (1981)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "OZwlQY8RKuU"
+   }
+  ],
+  "duration": 3427,
+  "year": 1981,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 9,
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "voices",
+   "kind",
+   "music"
+  ]
+ },
+ {
+  "id": "prichindelul-disc",
+  "storyId": "prichindelul",
+  "title": "Prichindelul, dramatizare de Mariela Oțoiu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304148913",
+    "file": "304148913.mp4"
+   }
+  ],
+  "duration": 3193,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Vasile Manta",
+   "adaptation": "Mariela Oțoiu",
+   "cast": [
+    {
+     "role": "Maxchen Prichindelul",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Jokus von Pokus",
+     "name": "Petre Lupu"
+    },
+    {
+     "role": "Roza",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Brausewetter directorul circului",
+     "name": "Cornel Vulpe"
+    },
+    {
+     "role": "Camerista și doamna în vârstă",
+     "name": "Cristina Deleanu"
+    },
+    {
+     "role": "Grăsanul",
+     "name": "George Oprina"
+    },
+    {
+     "role": "Comisarul Steinbeiss",
+     "name": "Boris Petroff"
+    },
+    {
+     "role": "Bernhard",
+     "name": "Liviu Craciun"
+    },
+    {
+     "role": "Galopinski",
+     "name": "Paul Chiributa"
+    },
+    {
+     "role": "Vânzătorul și Otto",
+     "name": "Eugen Cristea"
+    },
+    {
+     "role": "Chelnerul",
+     "name": "Mircea Rusu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Nicolae Crisu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Catinca Lupu"
+    },
+    {
+     "role": "În alte roluri",
+     "name": "Oana Rasuceanu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 04201",
+   "title": "Prichindelul",
+   "url": "https://www.discogs.com/release/13760682"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ },
+ {
+  "id": "comoara-din-insula-disc",
+  "storyId": "comoara-din-insula",
+  "title": "Comoara din insulă, dramatizare de Mariela Oțoiu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304452618",
+    "file": "304452618.mp4"
+   }
+  ],
+  "duration": 3134,
+  "year": 1990,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 9,
+  "quality": 4,
+  "credits": {
+   "director": "Titel Constantinescu",
+   "adaptation": "Mariela Oțoiu",
+   "cast": [
+    {
+     "role": "Doctorul Livesey",
+     "name": "Ion Marinescu"
+    },
+    {
+     "role": "Billy Bones",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Jim Howkins",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Domnul Howkins",
+     "name": "Corado Negreanu"
+    },
+    {
+     "role": "Doamna Howkins",
+     "name": "Rodica Sanda-Tutuianu"
+    },
+    {
+     "role": "Orbul",
+     "name": "Mitică Popescu"
+    },
+    {
+     "role": "Silver",
+     "name": "Radu Panamarenco"
+    },
+    {
+     "role": "Inspectorul Dance",
+     "name": "Ion Punea"
+    },
+    {
+     "role": "Trelawney",
+     "name": "Nicolae Pomoje"
+    },
+    {
+     "role": "Căpitanul Smolett",
+     "name": "Constantin Dinulescu"
+    },
+    {
+     "role": "Morgan",
+     "name": "Ion Chelaru"
+    },
+    {
+     "role": "Hands",
+     "name": "Valentin Teodosiu"
+    },
+    {
+     "role": "Dick",
+     "name": "Doru Ana"
+    },
+    {
+     "role": "Ben Gunn",
+     "name": "Boris Petrof"
+    },
+    {
+     "role": "O'Brien",
+     "name": "Constantin Fugașin"
+    },
+    {
+     "role": "Servitorul",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Papagalul",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Un marinar",
+     "name": "Gheorghe Pufulete"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 04058",
+   "title": "Comoara din insula",
+   "url": "https://www.discogs.com/release/7023584"
+  },
+  "addedAt": "2026-11-22",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality",
+   "music"
+  ]
+ }
+]

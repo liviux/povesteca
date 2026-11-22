@@ -1,0 +1,42 @@
+[
+ {
+  "id": "arhiva-discuri-electrecord",
+  "name": "Discuri Electrecord digitizate",
+  "type": "archive",
+  "url": "https://archive.org/details/romanianvinyl",
+  "description": {
+   "ro": "Colecția „Romanian Vinyl” de pe Internet Archive: discuri de povești Electrecord, mai ales înregistrări de teatru radiofonic din anii ’60–’80. Fiecare fișă are regia și distribuția trecute pe disc.",
+   "en": "The “Romanian Vinyl” collection on the Internet Archive: Electrecord story records, mostly radio drama recordings from the 1960s to the 1980s. Each entry lists the director and cast printed on the record."
+  }
+ },
+ {
+  "id": "arhiva-maia-martin",
+  "name": "Biblioteca Maia Martin",
+  "type": "archive",
+  "url": "https://archive.org/details/bibliotecamaiamartin",
+  "description": {
+   "ro": "Colecție de pe Internet Archive cu teatru radiofonic, povești și lecturi în limba română.",
+   "en": "An Internet Archive collection of Romanian radio drama, stories and readings."
+  }
+ },
+ {
+  "id": "yt-teatru-radiofonic",
+  "name": "Teatru Radiofonic",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@teatruradiofonic6362",
+  "description": {
+   "ro": "Canal YouTube cu peste două mii de înregistrări din arhiva teatrului radiofonic românesc, multe cu anul producției în titlu.",
+   "en": "A YouTube channel with more than two thousand recordings from the Romanian radio drama archive, many with the production year in the title."
+  }
+ },
+ {
+  "id": "yt-electrecord",
+  "name": "Electrecord",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@Electrecord-Romania",
+  "description": {
+   "ro": "Canalul oficial al casei de discuri Electrecord, cu albume de povești reeditate.",
+   "en": "The official channel of the Electrecord record label, with reissued story albums."
+  }
+ }
+]

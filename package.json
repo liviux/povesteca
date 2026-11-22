@@ -1,0 +1,19 @@
+{
+  "name": "povesteca",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "node scripts/check-catalog.js",
+    "build": "node scripts/check-catalog.js && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^11.2.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "vite": "^8.3.8"
+  }
+}

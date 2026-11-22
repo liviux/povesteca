@@ -1,0 +1,137 @@
+import { useState } from 'preact/hooks';
+import { storyById, cover, storyCover, versionsByStory, bestVersion } from './data.js';
+import { label, fmtDur } from './i18n.js';
+import { useStore, useT, toggleIn } from './store.js';
+import { play, toggle } from './player.jsx';
+
+const P = {
+  play: <path d="M8 5.2v13.6a.8.8 0 0 0 1.2.7l10.6-6.8a.8.8 0 0 0 0-1.4L9.2 4.5A.8.8 0 0 0 8 5.2z" fill="currentColor" stroke="none" />,
+  pause: <g fill="currentColor" stroke="none"><rect x="6" y="4.5" width="4.2" height="15" rx="1.2" /><rect x="13.8" y="4.5" width="4.2" height="15" rx="1.2" /></g>,
+  heart: <path d="M12 20.3s-7.6-4.5-7.6-10.3A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.6 10c0 5.8-7.6 10.3-7.6 10.3z" />,
+  moon: <path d="M20 14.6A8.2 8.2 0 1 1 9.4 4a6.6 6.6 0 0 0 10.6 10.6z" />,
+  search: <g><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></g>,
+  clock: <g><circle cx="12" cy="12" r="8.5" /><path d="M12 7.5V12l3 2" /></g>,
+  music: <g><path d="M9 17.5V5.5l10-2v12" /><circle cx="6.5" cy="17.5" r="2.5" /><circle cx="16.5" cy="15.5" r="2.5" /></g>,
+  sfx: <g><path d="M11 4l1.7 4.3L17 10l-4.3 1.7L11 16l-1.7-4.3L5 10l4.3-1.7z" /><path d="M18 15l.8 1.7 1.7.8-1.7.8L18 20l-.8-1.7-1.7-.8 1.7-.8z" /></g>,
+  cast: <g><circle cx="9" cy="8" r="3.3" /><path d="M3 19.5a6 6 0 0 1 12 0" /><path d="M15.5 4.8a3.3 3.3 0 0 1 0 6.4M17.5 13.8a6 6 0 0 1 3.5 5.7" /></g>,
+  mic: <g><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21" /></g>,
+  star: <path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.7-5.1-2.7-5.1 2.7 1-5.7-4.1-4 5.7-.8z" />,
+  back: <g><path d="M4 12a8 8 0 1 0 2.4-5.7" /><path d="M4 4v4.5h4.5" /></g>,
+  fwd: <g><path d="M20 12a8 8 0 1 1-2.4-5.7" /><path d="M20 4v4.5h-4.5" /></g>,
+  close: <path d="M6 6l12 12M18 6L6 18" />,
+  shuffle: <g><path d="M16 4h4v4M4 19L20 4M20 16v4h-4M14.5 14.5L20 20M4 5l5 5" /></g>,
+  later: <g><path d="M4 6.5h11M4 12h11M4 17.5h6" /><path d="M18 14v7M14.5 17.5h7" /></g>,
+  check: <path d="M5 12.5l4.5 4.5L19 7.5" />,
+  ext: <g><path d="M14 4h6v6M20 4l-8.5 8.5" /><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10" /></g>,
+  palette: <g><path d="M12 3.5a8.5 8.5 0 1 0 0 17c1 0 1.6-.7 1.6-1.5 0-1.1-1-1.5-1-2.5 0-.9.7-1.5 1.6-1.5h2.3a4 4 0 0 0 4-4c0-4.2-3.8-7.5-8.5-7.5z" /><circle cx="7.8" cy="11" r="1" /><circle cx="10.5" cy="7.3" r="1" /><circle cx="15" cy="7.8" r="1" /></g>,
+  left: <path d="M14.5 5.5L8 12l6.5 6.5" />,
+  right: <path d="M9.5 5.5L16 12l-6.5 6.5" />,
+  disc: <g><circle cx="12" cy="12" r="8.5" /><circle cx="12" cy="12" r="2.3" /></g>,
+  filter: <path d="M4 6h16M7 12h10M10 18h4" />,
+};
+export const Icon = ({ n, size = 22, ...p }) => (
+  <svg class="icon" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" {...p}>{P[n]}</svg>
+);
+
+export function Cover({ src, title, size = 180 }) {
+  const [broken, setBroken] = useState(!src);
+  return (
+    <div class="cover" data-initial={title?.[0]}>
+      {!broken && <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" onError={() => setBroken(true)} />}
+    </div>
+  );
+}
+
+export function PlayButton({ v, cls = 'play-btn', label: text, from }) {
+  const s = useStore();
+  const [t] = useT();
+  const story = storyById.get(v.storyId);
+  const active = s.player.id === v.id && ['playing', 'loading'].includes(s.player.status);
+  return (
+    <button type="button" class={cls} aria-label={active ? t.pause : t.listen(story.title)}
+      onClick={() => (s.player.id === v.id && s.player.status !== 'ended' && from == null ? toggle() : play(v.id, from))}>
+      <Icon n={active ? 'pause' : 'play'} />
+      {text && <span>{active ? t.pause : text}</span>}
+    </button>
+  );
+}
+
+export function FavButton({ list, id, title, withText }) {
+  const s = useStore();
+  const [t] = useT();
+  const on = s[list].includes(id);
+  return (
+    <button type="button" class={'fav-btn' + (on ? ' on' : '')} aria-pressed={on} aria-label={on ? t.unsaveA(title) : t.saveA(title)} onClick={() => toggleIn(list, id)}>
+      <Icon n="heart" />{withText && <span>{on ? t.saved : t.save}</span>}
+    </button>
+  );
+}
+
+export function Rating({ id, compact }) {
+  const s = useStore();
+  const [t, lang] = useT();
+  const r = s.ratings[id];
+  if (!r?.[1]) return compact ? null : <span class="rating muted">{t.noVotes}</span>;
+  const avg = (r[0] / r[1]).toLocaleString(lang, { maximumFractionDigits: 1 });
+  return compact
+    ? <span class="rating"><Icon n="star" size={15} />{avg}<span class="muted">({r[1]})</span></span>
+    : <span class="rating"><Icon n="star" size={18} />{t.votes(avg, r[1])}</span>;
+}
+
+/** Small icons that describe the production, readable at a glance */
+export function Traits({ v }) {
+  const [t, lang] = useT();
+  const items = [
+    v.voices === 'distributie' ? ['cast', label('voices', v.voices, lang)] : ['mic', label('voices', v.voices, lang)],
+    v.music === 'importanta' && ['music', label('music', v.music, lang)],
+    v.sfx === 'bogate' && ['sfx', label('sfx', v.sfx, lang)],
+  ].filter(Boolean);
+  return (
+    <ul class="traits">
+      {items.map(([n, txt]) => <li title={txt}><Icon n={n} size={16} /><span class="sr-only">{txt}</span></li>)}
+      <li class="age" title={t.ageFrom(v.age)}>{v.age}+</li>
+    </ul>
+  );
+}
+
+export function VersionCard({ v, progress, badge }) {
+  const [t, lang] = useT();
+  const s = storyById.get(v.storyId);
+  return (
+    <article class="card">
+      <a class="card-link" href={`/inregistrare/${v.id}`}>
+        <Cover src={cover(v)} title={s.title} />
+        <div class="card-body">
+          {badge && <span class="badge">{badge}</span>}
+          <p class="card-kind">{label('kind', v.kind, lang)}</p>
+          <h3 class="card-title">{s.title}</h3>
+          <p class="card-sub">{fmtDur(v.duration)}{v.year ? ` · ${v.year}` : ''}</p>
+          <div class="card-foot"><Traits v={v} /><Rating id={v.id} compact /></div>
+          {progress != null && <div class="progress" role="presentation"><i style={{ width: `${Math.min(100, progress * 100)}%` }} /></div>}
+        </div>
+      </a>
+      <PlayButton v={v} cls="card-play" />
+    </article>
+  );
+}
+
+export function StoryCard({ s: story }) {
+  const [t] = useT();
+  const st = useStore();
+  const n = versionsByStory.get(story.id)?.length || 0;
+  const best = bestVersion(story.id, st.ratings);
+  return (
+    <article class="card">
+      <a class="card-link" href={`/poveste/${story.id}`}>
+        <Cover src={storyCover(story)} title={story.title} />
+        <div class="card-body">
+          <h3 class="card-title">{story.title}</h3>
+          <p class="card-sub">{story.author}</p>
+          <p class="card-sub muted">{t.nRec(n)}</p>
+        </div>
+      </a>
+      {best && <PlayButton v={best} cls="card-play" />}
+    </article>
+  );
+}
+

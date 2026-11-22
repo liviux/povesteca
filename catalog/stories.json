@@ -1,0 +1,1265 @@
+[
+ {
+  "id": "capra-cu-trei-iezi",
+  "title": "Capra cu trei iezi",
+  "author": "Ion Creangă",
+  "genre": "basm",
+  "themes": [
+   "animale",
+   "familie",
+   "istetime"
+  ],
+  "characters": [
+   "Capra",
+   "Lupul",
+   "Iedul cel mic"
+  ],
+  "summary": {
+   "ro": "Capra pleacă de acasă și le spune iezilor să nu deschidă nimănui. Lupul se dă drept mama lor, iar doar iedul cel mic scapă.",
+   "en": "A mother goat warns her three kids not to open the door. The wolf pretends to be her, and only the youngest kid escapes."
+  }
+ },
+ {
+  "id": "punguta-cu-doi-bani",
+  "title": "Punguța cu doi bani",
+  "author": "Ion Creangă",
+  "genre": "basm",
+  "themes": [
+   "animale",
+   "istetime",
+   "curaj"
+  ],
+  "characters": [
+   "Cocoșul",
+   "Moșul",
+   "Baba",
+   "Boierul"
+  ],
+  "summary": {
+   "ro": "Cocoșul moșului găsește o pungă cu doi bani, iar boierul i-o ia. Cocoșul nu se lasă până nu și-o recapătă, cu tot cu averea boierului.",
+   "en": "The old man's rooster finds a purse with two coins and a nobleman takes it. The rooster keeps at him until he wins it back, along with the nobleman's riches."
+  }
+ },
+ {
+  "id": "ursul-pacalit-de-vulpe",
+  "title": "Ursul păcălit de vulpe",
+  "author": "Ion Creangă",
+  "genre": "basm",
+  "themes": [
+   "animale",
+   "istetime",
+   "iarna"
+  ],
+  "characters": [
+   "Vulpea",
+   "Ursul"
+  ],
+  "summary": {
+   "ro": "O vulpe flămândă fură pește de la un om, apoi îl convinge pe urs să pescuiască iarna cu coada în copca înghețată.",
+   "en": "A hungry fox steals fish from a man, then talks the bear into fishing through the ice with his tail."
+  }
+ },
+ {
+  "id": "povestea-porcului",
+  "title": "Povestea porcului",
+  "author": "Ion Creangă",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "familie",
+   "curaj"
+  ],
+  "characters": [
+   "Moșul",
+   "Baba",
+   "Porcul fermecat",
+   "Fata împăratului"
+  ],
+  "summary": {
+   "ro": "Doi bătrâni fără copii cresc un purcel care se dovedește a fi un fecior fermecat. Fata împăratului trebuie să treacă prin multe ca să-l găsească.",
+   "en": "An old childless couple raise a piglet who turns out to be an enchanted young man. The emperor's daughter must go through a lot to find him again."
+  }
+ },
+ {
+  "id": "fata-mosului-cea-cuminte",
+  "title": "Fata moșului cea cuminte",
+  "author": "Ion Creangă",
+  "genre": "basm",
+  "themes": [
+   "bunatate",
+   "harnicie",
+   "magie"
+  ],
+  "characters": [
+   "Fata moșului",
+   "Fata babei",
+   "Baba",
+   "Sfânta Duminică"
+  ],
+  "summary": {
+   "ro": "Fata harnică a moșului ajută pe toți cei întâlniți în drum și e răsplătită. Fata leneșă a babei face pe dos și primește ce merită.",
+   "en": "The old man's hard-working daughter helps everyone she meets and is rewarded. The old woman's lazy daughter does the opposite and gets what she deserves."
+  }
+ },
+ {
+  "id": "danila-prepeleac",
+  "title": "Dănilă Prepeleac",
+  "author": "Ion Creangă",
+  "genre": "basm",
+  "themes": [
+   "umor",
+   "istetime"
+  ],
+  "characters": [
+   "Dănilă Prepeleac",
+   "Fratele său",
+   "Dracul"
+  ],
+  "summary": {
+   "ro": "Dănilă face numai târguri proaste, dar ajunge să-i păcălească pe draci cu prostia lui.",
+   "en": "Dănilă makes one bad trade after another, yet ends up outsmarting the devils through his own foolishness."
+  }
+ },
+ {
+  "id": "povestea-unui-om-lenes",
+  "title": "Povestea unui om leneș",
+  "author": "Ion Creangă",
+  "genre": "poveste",
+  "themes": [
+   "umor",
+   "harnicie"
+  ],
+  "characters": [
+   "Omul leneș",
+   "Cucoana"
+  ],
+  "summary": {
+   "ro": "Un om e atât de leneș încât nici pesmeții nu vrea să-i înmoaie singur.",
+   "en": "A man is so lazy that he won't even soak his own rusks."
+  }
+ },
+ {
+  "id": "harap-alb",
+  "title": "Povestea lui Harap-Alb",
+  "author": "Ion Creangă",
+  "genre": "basm",
+  "themes": [
+   "calatorie",
+   "curaj",
+   "prietenie",
+   "magie"
+  ],
+  "characters": [
+   "Harap-Alb",
+   "Spânul",
+   "Împăratul Roș",
+   "Gerilă",
+   "Flămânzilă",
+   "Setilă",
+   "Ochilă",
+   "Păsări-Lăți-Lungilă"
+  ],
+  "summary": {
+   "ro": "Fiul craiului pleacă spre împărăția unchiului său, e păcălit de Spân și devine sluga lui. Cu ajutorul unor prieteni ciudați trece toate încercările.",
+   "en": "The king's youngest son sets off for his uncle's kingdom, is tricked by the Beardless Man and becomes his servant. With help from some odd friends he passes every trial."
+  }
+ },
+ {
+  "id": "greuceanu",
+  "title": "Greuceanu",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "curaj",
+   "zmei",
+   "calatorie"
+  ],
+  "characters": [
+   "Greuceanu",
+   "Zmeii",
+   "Zmeoaica",
+   "Făurarul"
+  ],
+  "summary": {
+   "ro": "Zmeii au furat soarele și luna. Greuceanu pornește să le aducă înapoi și se luptă cu zmeii și cu soțiile lor.",
+   "en": "Dragons have stolen the sun and the moon. Greuceanu sets out to bring them back and fights the dragons and their wives."
+  }
+ },
+ {
+  "id": "praslea-cel-voinic",
+  "title": "Prâslea cel voinic și merele de aur",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "curaj",
+   "zmei",
+   "familie"
+  ],
+  "characters": [
+   "Prâslea",
+   "Frații lui",
+   "Zmeul",
+   "Împăratul"
+  ],
+  "summary": {
+   "ro": "Cineva fură în fiecare noapte merele de aur ale împăratului. Doar mezinul, Prâslea, rămâne treaz și pornește după hoț pe tărâmul celălalt.",
+   "en": "Every night someone steals the emperor's golden apples. Only the youngest son, Prâslea, stays awake and follows the thief into the other world."
+  }
+ },
+ {
+  "id": "tinerete-fara-batranete",
+  "title": "Tinerețe fără bătrânețe și viață fără de moarte",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "calatorie",
+   "magie",
+   "dor"
+  ],
+  "characters": [
+   "Făt-Frumos",
+   "Calul năzdrăvan",
+   "Gheonoaia",
+   "Scorpia",
+   "Zânele"
+  ],
+  "summary": {
+   "ro": "Făt-Frumos cere de la tatăl său ce i s-a promis înainte să se nască: tinerețe fără bătrânețe. Găsește tărâmul acela, dar dorul de casă îl cheamă înapoi.",
+   "en": "Făt-Frumos asks his father for what he was promised before birth: youth without old age. He finds that land, but longing for home calls him back."
+  }
+ },
+ {
+  "id": "pasarea-maiastra",
+  "title": "Pasărea măiastră",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "curaj",
+   "frati"
+  ],
+  "characters": [
+   "Fiul cel mic",
+   "Vulpoiul",
+   "Împăratul"
+  ],
+  "summary": {
+   "ro": "Fiul cel mic al împăratului pornește după o pasăre fermecată, ajutat de un vulpoi isteț.",
+   "en": "The emperor's youngest son goes after an enchanted bird, helped by a clever fox."
+  }
+ },
+ {
+  "id": "tugulea",
+  "title": "Țugulea, fiul unchiașului și al mătușei",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "curaj",
+   "umor",
+   "zmei"
+  ],
+  "characters": [
+   "Țugulea",
+   "Zmeul",
+   "Zmeoaica"
+  ],
+  "summary": {
+   "ro": "Țugulea e mic de stat, dar foarte voinic. Pleacă în lume și dă de zmei pe care îi învinge cu putere și cu șiretenie.",
+   "en": "Țugulea is small but very strong. He goes out into the world and beats a family of dragons with strength and cunning."
+  }
+ },
+ {
+  "id": "doi-copii-cu-parul-de-aur",
+  "title": "Doi copii cu părul de aur",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "familie",
+   "dreptate"
+  ],
+  "characters": [
+   "Împăratul",
+   "Floriana",
+   "Vrăjitoarea"
+  ],
+  "summary": {
+   "ro": "O fată săracă se mărită cu împăratul, dar o vrăjitoare îi ascunde copiii cu păr de aur. Adevărul iese la iveală până la urmă.",
+   "en": "A poor girl marries the emperor, but a witch hides away her golden-haired children. The truth comes out in the end."
+  }
+ },
+ {
+  "id": "ileana-sanziana",
+  "title": "Ileana Sânziana",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "curaj",
+   "magie"
+  ],
+  "characters": [
+   "Ileana Sânziana",
+   "Calul Șoiman",
+   "Împăratul"
+  ],
+  "summary": {
+   "ro": "Ileana, fata craiului, se îmbracă în haine bărbătești și pleacă la oaste. Calul ei năzdrăvan o ajută să treacă încercările unui împărat bănuitor.",
+   "en": "Ileana, the king's daughter, dresses as a young man and goes to war. Her magic horse helps her pass a suspicious emperor's tests."
+  }
+ },
+ {
+  "id": "sarea-in-bucate",
+  "title": "Sarea în bucate",
+  "author": "Petre Ispirescu",
+  "genre": "basm",
+  "themes": [
+   "familie",
+   "intelepciune"
+  ],
+  "characters": [
+   "Împăratul",
+   "Fata cea mică"
+  ],
+  "summary": {
+   "ro": "Fata cea mică îi spune împăratului că îl iubește ca sarea în bucate. El se supără și o alungă, până află ce înseamnă mâncarea fără sare.",
+   "en": "The youngest daughter tells the emperor she loves him like salt in food. He is offended and sends her away, until he learns what food without salt tastes like."
+  }
+ },
+ {
+  "id": "o-judecata-inteleapta",
+  "title": "O judecată înțeleaptă",
+  "author": "Petre Ispirescu",
+  "genre": "poveste",
+  "themes": [
+   "intelepciune",
+   "dreptate"
+  ],
+  "characters": [
+   "Omul",
+   "Șarpele",
+   "Judecătorul"
+  ],
+  "summary": {
+   "ro": "Un om scapă un șarpe din necaz, iar șarpele vrea să-l muște. Un judecător isteț găsește dezlegarea.",
+   "en": "A man saves a snake, and the snake wants to bite him. A clever judge finds a way out."
+  }
+ },
+ {
+  "id": "fat-frumos-din-lacrima",
+  "title": "Făt-Frumos din lacrimă",
+  "author": "Mihai Eminescu",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "curaj",
+   "prietenie"
+  ],
+  "characters": [
+   "Făt-Frumos",
+   "Ileana Cosânzeana",
+   "Genarul",
+   "Muma Pădurii"
+  ],
+  "summary": {
+   "ro": "Făt-Frumos se naște dintr-o lacrimă a mamei sale. Se prinde frate de cruce cu un împărat dușman și pleacă să o elibereze pe Ileana Cosânzeana.",
+   "en": "Făt-Frumos is born from his mother's tear. He becomes blood brother to an enemy emperor and goes off to free Ileana Cosânzeana."
+  }
+ },
+ {
+  "id": "mos-craciun-delavrancea",
+  "title": "Moș Crăciun",
+  "author": "Barbu Ștefănescu Delavrancea",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "craciun",
+   "bunatate"
+  ],
+  "characters": [
+   "Moș Crăciun",
+   "Băiatul"
+  ],
+  "summary": {
+   "ro": "Un băiat află cine e Moș Crăciun și de unde vin darurile de iarnă.",
+   "en": "A boy finds out who Santa Claus is and where the winter presents come from."
+  }
+ },
+ {
+  "id": "neghinita",
+  "title": "Neghiniță",
+  "author": "Barbu Ștefănescu Delavrancea",
+  "genre": "basm",
+  "themes": [
+   "istetime",
+   "umor"
+  ],
+  "characters": [
+   "Neghiniță",
+   "Moșul",
+   "Baba",
+   "Negustorul"
+  ],
+  "summary": {
+   "ro": "Neghiniță e un băiat cât un bob de neghină, dar mai isteț decât toți oamenii mari din jurul lui.",
+   "en": "Neghiniță is a boy no bigger than a seed, and smarter than all the grown-ups around him."
+  }
+ },
+ {
+  "id": "palatul-de-clestar",
+  "title": "Palatul de cleștar",
+  "author": "Barbu Ștefănescu Delavrancea",
+  "genre": "basm",
+  "themes": [
+   "intelepciune",
+   "dreptate"
+  ],
+  "characters": [
+   "Împăratul",
+   "Sfetnicul",
+   "Domnița"
+  ],
+  "summary": {
+   "ro": "Un împărat tânăr vrea să afle ce e în sufletul supușilor săi, iar un palat de cleștar îi arată mai mult decât s-ar fi așteptat.",
+   "en": "A young emperor wants to know what his subjects really think, and a crystal palace shows him more than he expected."
+  }
+ },
+ {
+  "id": "fram-ursul-polar",
+  "title": "Fram, ursul polar",
+  "author": "Cezar Petrescu",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "dor",
+   "circ"
+  ],
+  "characters": [
+   "Fram",
+   "Toto",
+   "Toni dresorul"
+  ],
+  "summary": {
+   "ro": "Fram e vedeta circului, dar într-o zi nu mai vrea să facă numere. Se întoarce printre ghețurile din nord, unde trebuie să învețe să fie urs.",
+   "en": "Fram is the star of the circus until one day he refuses to perform. He returns to the northern ice, where he has to learn how to be a bear."
+  }
+ },
+ {
+  "id": "cartea-cu-jucarii",
+  "title": "Cartea cu jucării",
+  "author": "Tudor Arghezi",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "animale",
+   "umor"
+  ],
+  "characters": [
+   "Mitu",
+   "Mama",
+   "Tata",
+   "Pisica"
+  ],
+  "summary": {
+   "ro": "Întâmplări din casa poetului, cu copii, animale și jucării, spuse cu mult haz.",
+   "en": "Funny stories from the poet's home, about children, animals and toys."
+  }
+ },
+ {
+  "id": "cocoselul-neascultator",
+  "title": "Cocoșelul neascultător",
+  "author": "Ion Lucian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "ascultare",
+   "muzica"
+  ],
+  "characters": [
+   "Cocoșelul",
+   "Ursul",
+   "Motanul",
+   "Vulpoiul",
+   "Corbul"
+  ],
+  "summary": {
+   "ro": "Un cocoșel nu ascultă de nimeni și pleacă singur în pădure, unde dă peste vulpoi. O comedie cu cântece pentru copii.",
+   "en": "A little rooster won't listen to anyone and wanders into the forest, where he meets the fox. A comedy with songs."
+  }
+ },
+ {
+  "id": "familia-chit-chit",
+  "title": "Familia Chit-Chit",
+  "author": "Ion Pas",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "umor",
+   "muzica"
+  ],
+  "characters": [
+   "Motanul",
+   "Șobolanul",
+   "Șoriceii",
+   "Vulpea"
+  ],
+  "summary": {
+   "ro": "Familia de șoricei Chit-Chit trăiește cu frica motanului și pune la cale tot felul de planuri ca să scape de el.",
+   "en": "The Chit-Chit mouse family lives in fear of the cat and keeps hatching plans to get rid of him."
+  }
+ },
+ {
+  "id": "scufita-rosie",
+  "title": "Scufița Roșie",
+  "author": "Frații Grimm",
+  "genre": "basm",
+  "themes": [
+   "animale",
+   "ascultare",
+   "padure"
+  ],
+  "characters": [
+   "Scufița Roșie",
+   "Lupul",
+   "Bunica",
+   "Vânătorul"
+  ],
+  "summary": {
+   "ro": "Scufița Roșie îi duce bunicii un coș cu bunătăți. În pădure îl întâlnește pe lup, care ajunge înaintea ei la casa bunicii.",
+   "en": "Little Red Riding Hood takes a basket of treats to her grandmother. In the woods she meets the wolf, who gets to grandmother's house first."
+  }
+ },
+ {
+  "id": "alba-ca-zapada",
+  "title": "Albă ca Zăpada și cei șapte pitici",
+  "author": "Frații Grimm",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "prietenie",
+   "invidie"
+  ],
+  "characters": [
+   "Albă ca Zăpada",
+   "Regina",
+   "Piticii",
+   "Prințul"
+  ],
+  "summary": {
+   "ro": "Regina vrea să fie cea mai frumoasă și o alungă pe Albă ca Zăpada. Fata își găsește adăpost la șapte pitici.",
+   "en": "The queen wants to be the fairest of all and drives Snow White away. The girl finds shelter with seven dwarfs."
+  }
+ },
+ {
+  "id": "hansel-si-gretel",
+  "title": "Hänsel și Gretel",
+  "author": "Frații Grimm",
+  "genre": "basm",
+  "themes": [
+   "frati",
+   "curaj",
+   "padure"
+  ],
+  "characters": [
+   "Hänsel",
+   "Gretel",
+   "Vrăjitoarea"
+  ],
+  "summary": {
+   "ro": "Doi frați se rătăcesc în pădure și dau de o căsuță din turtă dulce. Locuiește acolo o vrăjitoare.",
+   "en": "A brother and sister get lost in the forest and find a gingerbread house. A witch lives there."
+  }
+ },
+ {
+  "id": "cenusareasa",
+  "title": "Cenușăreasa",
+  "author": "Frații Grimm",
+  "genre": "basm",
+  "themes": [
+   "bunatate",
+   "magie"
+  ],
+  "characters": [
+   "Cenușăreasa",
+   "Mama vitregă",
+   "Surorile vitrege",
+   "Prințul"
+  ],
+  "summary": {
+   "ro": "Cenușăreasa muncește pentru mama vitregă și surorile ei, până când ajunge la balul prințului.",
+   "en": "Cinderella works for her stepmother and stepsisters until she gets to the prince's ball."
+  }
+ },
+ {
+  "id": "muzicantii-din-bremen",
+  "title": "Muzicanții din Bremen",
+  "author": "Frații Grimm",
+  "genre": "basm",
+  "themes": [
+   "animale",
+   "prietenie",
+   "muzica"
+  ],
+  "characters": [
+   "Măgarul",
+   "Câinele",
+   "Pisica",
+   "Cocoșul"
+  ],
+  "summary": {
+   "ro": "Patru animale bătrâne, alungate de stăpâni, pleacă la Bremen să se facă muzicanți. Pe drum dau peste o casă de tâlhari.",
+   "en": "Four old animals, sent away by their owners, set off for Bremen to become musicians. On the way they come across a robbers' house."
+  }
+ },
+ {
+  "id": "pazitoarea-de-gaste",
+  "title": "Păzitoarea de gâște",
+  "author": "Frații Grimm",
+  "genre": "basm",
+  "themes": [
+   "bunatate",
+   "magie"
+  ],
+  "characters": [
+   "Bătrâna",
+   "Flăcăul",
+   "Craiul",
+   "Mezina"
+  ],
+  "summary": {
+   "ro": "Un tânăr ajută o bătrână ciudată care păzește gâște. Află că în spatele ei se ascunde povestea unei prințese.",
+   "en": "A young man helps a strange old woman who keeps geese. He learns that she hides the story of a princess."
+  }
+ },
+ {
+  "id": "motanul-incaltat",
+  "title": "Motanul încălțat",
+  "author": "Charles Perrault",
+  "genre": "basm",
+  "themes": [
+   "animale",
+   "istetime"
+  ],
+  "characters": [
+   "Motanul",
+   "Fiul morarului",
+   "Împăratul",
+   "Căpcăunul"
+  ],
+  "summary": {
+   "ro": "Fiul cel mic al morarului moștenește doar un motan. Motanul cere o pereche de cizme și îl face pe stăpânul lui marchiz.",
+   "en": "The miller's youngest son inherits only a cat. The cat asks for a pair of boots and turns his master into a marquis."
+  }
+ },
+ {
+  "id": "povestea-boabelor-de-diamant",
+  "title": "Povestea boabelor de diamant",
+  "author": "Charles Perrault",
+  "genre": "basm",
+  "themes": [
+   "bunatate",
+   "magie"
+  ],
+  "characters": [
+   "Fata cea bună",
+   "Sora ei",
+   "Zâna"
+  ],
+  "summary": {
+   "ro": "O fată bună îi dă apă unei zâne și de atunci îi cad din gură flori și diamante. Sora ei cea rea primește alt dar.",
+   "en": "A kind girl gives a fairy some water, and from then on flowers and diamonds fall from her lips. Her unkind sister gets a different gift."
+  }
+ },
+ {
+  "id": "frumoasa-din-padurea-adormita",
+  "title": "Frumoasa din pădurea adormită",
+  "author": "Charles Perrault",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "printese"
+  ],
+  "characters": [
+   "Prințesa",
+   "Prințul",
+   "Zânele"
+  ],
+  "summary": {
+   "ro": "O zână supărată blestemă o prințesă să adoarmă o sută de ani, cu tot castelul ei.",
+   "en": "An angry fairy curses a princess to sleep for a hundred years, together with her whole castle."
+  }
+ },
+ {
+  "id": "pinocchio",
+  "title": "Aventurile lui Pinocchio",
+  "author": "Carlo Collodi",
+  "genre": "roman",
+  "themes": [
+   "aventura",
+   "ascultare",
+   "prietenie"
+  ],
+  "characters": [
+   "Pinocchio",
+   "Geppetto",
+   "Greierașul",
+   "Zâna",
+   "Vulpoiul",
+   "Cotoiul"
+  ],
+  "summary": {
+   "ro": "Geppetto cioplește o păpușă de lemn care prinde viață. Pinocchio intră în tot felul de necazuri până învață să spună adevărul.",
+   "en": "Geppetto carves a wooden puppet that comes to life. Pinocchio gets into all kinds of trouble before he learns to tell the truth."
+  }
+ },
+ {
+  "id": "tom-degetel",
+  "title": "Tom Degețel",
+  "author": "basm popular englez",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "curaj"
+  ],
+  "characters": [
+   "Tom Degețel",
+   "Pădurarul",
+   "Zâna copacilor"
+  ],
+  "summary": {
+   "ro": "Un pădurar și soția lui primesc de la o zână un copil cât degetul mare. Tom e mic, dar descurcăreț.",
+   "en": "A woodcutter and his wife are given a child no bigger than a thumb by a fairy. Tom is tiny but resourceful."
+  }
+ },
+ {
+  "id": "mica-sirena",
+  "title": "Mica sirenă",
+  "author": "Hans Christian Andersen",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "dor",
+   "sacrificiu"
+  ],
+  "characters": [
+   "Mica sirenă",
+   "Bunica",
+   "Prințul",
+   "Vrăjitoarea mării"
+  ],
+  "summary": {
+   "ro": "Cea mai mică dintre fiicele regelui mării se îndrăgostește de un prinț și renunță la vocea ei ca să trăiască pe uscat.",
+   "en": "The sea king's youngest daughter falls in love with a prince and gives up her voice to live on land."
+  }
+ },
+ {
+  "id": "degetica",
+  "title": "Degețica",
+  "author": "Hans Christian Andersen",
+  "genre": "basm",
+  "themes": [
+   "natura",
+   "animale",
+   "calatorie"
+  ],
+  "characters": [
+   "Degețica",
+   "Broasca",
+   "Cărăbușul",
+   "Șoarecele",
+   "Cârtița",
+   "Rândunica"
+  ],
+  "summary": {
+   "ro": "O fetiță cât un deget e luată de acasă de o broască. Trece prin multe până o duce o rândunică spre țările calde.",
+   "en": "A girl no bigger than a thumb is carried off by a toad. She goes through a lot before a swallow takes her to warmer lands."
+  }
+ },
+ {
+  "id": "soldatul-de-plumb",
+  "title": "Soldatul de plumb",
+  "author": "Hans Christian Andersen",
+  "genre": "basm",
+  "themes": [
+   "curaj",
+   "jucarii"
+  ],
+  "characters": [
+   "Soldatul de plumb",
+   "Balerina"
+  ],
+  "summary": {
+   "ro": "Un soldat de plumb cu un singur picior se îndrăgostește de o balerină de hârtie și pornește într-o călătorie neașteptată.",
+   "en": "A one-legged tin soldier falls for a paper ballerina and is swept off on an unexpected journey."
+  }
+ },
+ {
+  "id": "hainele-imparatului",
+  "title": "Hainele cele noi ale împăratului",
+  "author": "Hans Christian Andersen",
+  "genre": "basm",
+  "themes": [
+   "umor",
+   "adevar"
+  ],
+  "characters": [
+   "Împăratul",
+   "Țesătorii",
+   "Copilul"
+  ],
+  "summary": {
+   "ro": "Doi șarlatani îi promit împăratului haine pe care nu le pot vedea proștii. Toată curtea se preface că le vede.",
+   "en": "Two swindlers promise the emperor clothes that fools cannot see. The whole court pretends to see them."
+  }
+ },
+ {
+  "id": "privighetoarea",
+  "title": "Privighetoarea",
+  "author": "Hans Christian Andersen",
+  "genre": "basm",
+  "themes": [
+   "muzica",
+   "natura",
+   "prietenie"
+  ],
+  "characters": [
+   "Privighetoarea",
+   "Împăratul Chinei"
+  ],
+  "summary": {
+   "ro": "Împăratul Chinei află că cea mai frumoasă minune din țara lui e cântecul unei păsărele cenușii.",
+   "en": "The Emperor of China learns that the finest wonder in his land is the song of a plain little grey bird."
+  }
+ },
+ {
+  "id": "micul-muck",
+  "title": "Micul Muck",
+  "author": "Wilhelm Hauff",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "curaj",
+   "istetime"
+  ],
+  "characters": [
+   "Micul Muck",
+   "Împăratul",
+   "Pisicuța"
+  ],
+  "summary": {
+   "ro": "Micul Muck e un orfan de care râd toți. Găsește niște papuci fermecați și un toiag care îi schimbă viața.",
+   "en": "Little Muck is an orphan everyone laughs at. He finds magic slippers and a cane that change his life."
+  }
+ },
+ {
+  "id": "califul-barza",
+  "title": "Califul barză",
+  "author": "Wilhelm Hauff",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "umor"
+  ],
+  "characters": [
+   "Califul",
+   "Marele vizir",
+   "Vrăjitorul"
+  ],
+  "summary": {
+   "ro": "Califul și vizirul lui se transformă în berze cu o pulbere fermecată, dar uită cuvântul care i-ar face din nou oameni.",
+   "en": "The caliph and his vizier turn into storks with a magic powder, then forget the word that would turn them back."
+  }
+ },
+ {
+  "id": "vrajitorul-din-oz",
+  "title": "Vrăjitorul din Oz",
+  "author": "L. Frank Baum",
+  "genre": "roman",
+  "themes": [
+   "calatorie",
+   "prietenie",
+   "magie"
+  ],
+  "characters": [
+   "Dorothy",
+   "Sperietoarea",
+   "Omul de tinichea",
+   "Leul cel fricos",
+   "Toto"
+  ],
+  "summary": {
+   "ro": "O tornadă o duce pe Dorothy într-o țară fermecată. Ca să ajungă acasă, pornește spre Orașul de Smarald cu trei prieteni noi.",
+   "en": "A tornado carries Dorothy to a magic land. To get home she sets off for the Emerald City with three new friends."
+  }
+ },
+ {
+  "id": "alice-in-tara-minunilor",
+  "title": "Alice în Țara Minunilor",
+  "author": "Lewis Carroll",
+  "genre": "roman",
+  "themes": [
+   "aventura",
+   "umor",
+   "vis"
+  ],
+  "characters": [
+   "Alice",
+   "Iepurele alb",
+   "Pălărierul",
+   "Regina de cupă",
+   "Pisica"
+  ],
+  "summary": {
+   "ro": "Alice cade prin vizuina unui iepure într-o lume unde nimic nu are logică.",
+   "en": "Alice falls down a rabbit hole into a world where nothing makes sense."
+  }
+ },
+ {
+  "id": "mary-poppins",
+  "title": "Mary Poppins",
+  "author": "P. L. Travers",
+  "genre": "roman",
+  "themes": [
+   "magie",
+   "familie",
+   "umor"
+  ],
+  "characters": [
+   "Mary Poppins",
+   "Jane",
+   "Michael",
+   "Bert",
+   "Domnul Banks"
+  ],
+  "summary": {
+   "ro": "O dădacă neobișnuită sosește la familia Banks purtată de vânt și le schimbă copiilor viața de zi cu zi.",
+   "en": "An unusual nanny arrives at the Banks family on the wind and changes the children's everyday life."
+  }
+ },
+ {
+  "id": "micul-print",
+  "title": "Micul Prinț",
+  "author": "Antoine de Saint-Exupéry",
+  "genre": "poveste",
+  "themes": [
+   "prietenie",
+   "intelepciune",
+   "calatorie"
+  ],
+  "characters": [
+   "Micul Prinț",
+   "Aviatorul",
+   "Floarea",
+   "Vulpea",
+   "Șarpele"
+  ],
+  "summary": {
+   "ro": "Un aviator rămas în deșert întâlnește un băiețel venit de pe o planetă mică. Micul Prinț îi povestește despre floarea lui și despre ce a învățat pe drum.",
+   "en": "A pilot stranded in the desert meets a little boy from a tiny planet. The Little Prince tells him about his rose and what he learned on his travels."
+  }
+ },
+ {
+  "id": "petrica-si-lupul",
+  "title": "Petrică și lupul",
+  "author": "Serghei Prokofiev",
+  "genre": "poveste-muzicala",
+  "themes": [
+   "muzica",
+   "animale",
+   "curaj"
+  ],
+  "characters": [
+   "Petrică",
+   "Bunicul",
+   "Lupul",
+   "Pasărea",
+   "Rața",
+   "Pisica"
+  ],
+  "summary": {
+   "ro": "Fiecare personaj are instrumentul lui în orchestră. Petrică iese în poiană deși bunicul i-a spus să nu iasă, și prinde lupul.",
+   "en": "Each character has its own instrument in the orchestra. Peter goes into the meadow although grandfather told him not to, and catches the wolf."
+  }
+ },
+ {
+  "id": "spargatorul-de-nuci",
+  "title": "Omulețul cu haine de lemn (Spărgătorul de nuci)",
+  "author": "E. T. A. Hoffmann",
+  "genre": "basm",
+  "themes": [
+   "craciun",
+   "magie",
+   "jucarii"
+  ],
+  "characters": [
+   "Marie",
+   "Fritz",
+   "Unchiul Drosselmeyer",
+   "Omulețul"
+  ],
+  "summary": {
+   "ro": "În noaptea de Crăciun, spărgătorul de nuci primit de Marie prinde viață și duce o bătălie cu regele șoarecilor.",
+   "en": "On Christmas night, Marie's nutcracker comes to life and fights the mouse king."
+  }
+ },
+ {
+  "id": "calutul-cocosat",
+  "title": "Căluțul cocoșat",
+  "author": "Piotr Ersov",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "prietenie",
+   "curaj"
+  ],
+  "characters": [
+   "Ivanușca",
+   "Căluțul",
+   "Împăratul"
+  ],
+  "summary": {
+   "ro": "Ivanușca, mezinul socotit prost, primește un căluț cocoșat și fermecat care îl ajută să ducă la capăt poruncile unui împărat.",
+   "en": "Ivanușka, the youngest son everyone thinks is a fool, gets a magic hunchbacked pony who helps him carry out a tsar's orders."
+  }
+ },
+ {
+  "id": "rikki-tikki-tavi",
+  "title": "Rikki-Tikki-Tavi",
+  "author": "Rudyard Kipling",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "curaj"
+  ],
+  "characters": [
+   "Rikki-Tikki-Tavi",
+   "Nag",
+   "Nagaina",
+   "Teddy"
+  ],
+  "summary": {
+   "ro": "O mangustă tânără ajunge într-o grădină din India și apără familia care a salvat-o de doi șerpi cobra.",
+   "en": "A young mongoose lands in a garden in India and protects the family that saved it from two cobras."
+  }
+ },
+ {
+  "id": "trompa-elefantului",
+  "title": "O poveste cu o trompă de elefant",
+  "author": "Rudyard Kipling",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "curiozitate",
+   "umor"
+  ],
+  "characters": [
+   "Elefănțelul",
+   "Crocodilul",
+   "Struțul",
+   "Girafa"
+  ],
+  "summary": {
+   "ro": "Puiul de elefant întreabă mereu de toate. Vrea să afle ce mănâncă crocodilul la cină și află mai mult decât voia.",
+   "en": "The elephant's child keeps asking questions. He wants to know what the crocodile eats for dinner and finds out more than he bargained for."
+  }
+ },
+ {
+  "id": "cipollino",
+  "title": "Aventurile lui Cipollino",
+  "author": "Gianni Rodari",
+  "genre": "roman",
+  "themes": [
+   "umor",
+   "dreptate",
+   "prietenie"
+  ],
+  "characters": [
+   "Cipollino",
+   "Prințul Lămâie",
+   "Senior Pătlăgică",
+   "Contesa Vișină"
+  ],
+  "summary": {
+   "ro": "Cipollino, un băiat-ceapă, se ridică împotriva Prințului Lămâie și a lui Senior Pătlăgică, care îi asupresc pe legume și fructe.",
+   "en": "Cipollino, an onion boy, stands up to Prince Lemon and Signor Tomato, who bully the fruit and vegetable folk."
+  }
+ },
+ {
+  "id": "poveste-de-craciun",
+  "title": "Poveste de Crăciun",
+  "author": "Charles Dickens",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "bunatate"
+  ],
+  "characters": [
+   "Scrooge",
+   "Duhurile Crăciunului",
+   "Bob Cratchit"
+  ],
+  "summary": {
+   "ro": "Bătrânul zgârcit Scrooge e vizitat în noaptea de Crăciun de trei duhuri care îi arată trecutul, prezentul și viitorul.",
+   "en": "Old miser Scrooge is visited on Christmas Eve by three spirits who show him his past, present and future."
+  }
+ },
+ {
+  "id": "lampa-lui-aladin",
+  "title": "Lampa lui Aladin",
+  "author": "O mie și una de nopți",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "aventura"
+  ],
+  "characters": [
+   "Aladin",
+   "Vrăjitorul",
+   "Sultanul",
+   "Duhul lămpii"
+  ],
+  "summary": {
+   "ro": "Un vrăjitor îl trimite pe Aladin după o lampă veche dintr-o peșteră. În lampă locuiește un duh care îndeplinește orice poruncă.",
+   "en": "A sorcerer sends Aladdin into a cave to fetch an old lamp. A genie who obeys any command lives inside it."
+  }
+ },
+ {
+  "id": "bucle-de-aur",
+  "title": "Bucle de aur",
+  "author": "basm norvegian",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "prietenie"
+  ],
+  "characters": [
+   "Cristina",
+   "Axel",
+   "Bucle de aur"
+  ],
+  "summary": {
+   "ro": "Un basm scandinav despre doi copii și o fetiță cu bucle de aur.",
+   "en": "A Scandinavian fairy tale about two children and a girl with golden curls."
+  }
+ },
+ {
+  "id": "peter-pan",
+  "title": "Peter Pan și Wendy",
+  "author": "J. M. Barrie",
+  "genre": "roman",
+  "themes": [
+   "aventura",
+   "magie",
+   "copilarie"
+  ],
+  "characters": [
+   "Peter Pan",
+   "Wendy",
+   "Clopoțica",
+   "Căpitanul Hook"
+  ],
+  "summary": {
+   "ro": "Peter Pan, băiatul care nu vrea să crească, o ia pe Wendy și pe frații ei în Țara de Nicăieri, unde îi așteaptă piratul Hook.",
+   "en": "Peter Pan, the boy who won't grow up, takes Wendy and her brothers to Neverland, where Captain Hook is waiting."
+  }
+ },
+ {
+  "id": "nils-holgersson",
+  "title": "Minunata călătorie a lui Nils Holgersson",
+  "author": "Selma Lagerlöf",
+  "genre": "roman",
+  "themes": [
+   "calatorie",
+   "animale",
+   "natura"
+  ],
+  "characters": [
+   "Nils",
+   "Gâscanul Martin",
+   "Akka"
+  ],
+  "summary": {
+   "ro": "Nils, un băiat răutăcios, e micșorat de un spiriduș și zboară peste Suedia pe spatele unui gâscan, alături de un stol de gâște sălbatice.",
+   "en": "Nils, a mean-spirited boy, is shrunk by an elf and flies over Sweden on the back of a goose, with a flock of wild geese."
+  }
+ },
+ {
+  "id": "printul-fericit",
+  "title": "Prințul fericit",
+  "author": "Oscar Wilde",
+  "genre": "poveste",
+  "themes": [
+   "bunatate",
+   "prietenie",
+   "sacrificiu"
+  ],
+  "characters": [
+   "Prințul fericit",
+   "Rândunica"
+  ],
+  "summary": {
+   "ro": "Statuia aurită a unui prinț îi cere unei rândunele să-i ducă bucată cu bucată aurul și pietrele prețioase oamenilor săraci din oraș.",
+   "en": "A gilded statue of a prince asks a swallow to carry his gold and jewels, piece by piece, to the poor people of the city."
+  }
+ },
+ {
+  "id": "hobbitul",
+  "title": "Hobbitul",
+  "author": "J. R. R. Tolkien",
+  "genre": "roman",
+  "themes": [
+   "aventura",
+   "curaj",
+   "dragoni"
+  ],
+  "characters": [
+   "Bilbo Baggins",
+   "Gandalf",
+   "Thorin",
+   "Smaug"
+  ],
+  "summary": {
+   "ro": "Bilbo, un hobbit care ține la liniștea lui, pleacă împreună cu un vrăjitor și treisprezece pitici să ia înapoi comoara păzită de dragonul Smaug.",
+   "en": "Bilbo, a hobbit who likes a quiet life, sets off with a wizard and thirteen dwarves to win back a treasure guarded by the dragon Smaug."
+  }
+ },
+ {
+  "id": "prichindelul",
+  "title": "Prichindelul",
+  "author": "Erich Kästner",
+  "genre": "roman",
+  "themes": [
+   "umor",
+   "circ",
+   "prietenie"
+  ],
+  "characters": [
+   "Maxchen Prichindelul",
+   "Jokus von Pokus"
+  ],
+  "summary": {
+   "ro": "Prichindelul e un băiat cât o cutie de chibrituri care trăiește cu un magician de circ și visează să devină și el artist.",
+   "en": "Little Man is a boy the size of a matchbox who lives with a circus magician and dreams of becoming a performer."
+  }
+ },
+ {
+  "id": "comoara-din-insula",
+  "title": "Comoara din insulă",
+  "author": "Robert Louis Stevenson",
+  "genre": "roman",
+  "themes": [
+   "aventura",
+   "pirati",
+   "curaj"
+  ],
+  "characters": [
+   "Jim Hawkins",
+   "Long John Silver",
+   "Doctorul Livesey",
+   "Ben Gunn"
+  ],
+  "summary": {
+   "ro": "Jim Hawkins găsește harta unei comori și pleacă pe mare, fără să știe că jumătate din echipaj sunt pirați.",
+   "en": "Jim Hawkins finds a treasure map and goes to sea, not knowing that half the crew are pirates."
+  }
+ }
+]
