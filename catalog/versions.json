@@ -4005,11 +4005,17 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
+    "type": "audio",
+    "url": "https://cdn1.latimp.eu/cdn/teatru/muck_cel_mic_povesti_audio_pentru_copii_teatru_radiofonic_gratis_online.m4a",
+    "page": "https://latimp.eu/muck-cel-mic-poveste-audio-pentru-copii-teatru-radiofonic/",
+    "via": "LaTimp.eu"
+   },
+   {
     "type": "youtube",
     "id": "nE6tPr9gnzQ"
    }
   ],
-  "duration": 3005,
+  "duration": 3017,
   "year": 1993,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
@@ -4068,7 +4074,9 @@
      "role": "Distribuție",
      "name": "Nicolae Crișu"
     }
-   ]
+   ],
+   "director": "Cristian Pepino",
+   "music": "Simona Tudor"
   }
  },
  {
@@ -83358,6 +83366,11 @@
     "url": "https://anchor.fm/s/6e3bf0b0/podcast/play/41255763/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-4%2F9306c519-f8d1-cabf-0434-de10b8b3e770.mp3",
     "page": "https://podcasters.spotify.com/pod/show/asociatia-arteka5/episodes/Aventura-Cpitanului-Vic-n-Lumea-Real-e189hcj",
     "via": "Asociația Arteka"
+   },
+   {
+    "type": "youtube",
+    "id": "AsL01vG-VP8",
+    "via": "Asociația Arteka"
    }
   ],
   "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18394220/18394220-1633336221514-3a6947726e282.jpg",
@@ -89357,5 +89370,2081 @@
    "age",
    "quality"
   ]
+ },
+ {
+  "id": "visul-sultanului-la-babadag-legendele-dobrogei-2023",
+  "storyId": "visul-sultanului-la-babadag",
+  "title": "Visul sultanului la Babadag (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Wa5oegoh-24",
+    "page": "https://legendeledobrogei.ro/blog/2023/04/03/spectacolul-nr-1-visul-sultanului-la-babadag/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2702,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "aventuroasa"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/04/Spectacol-1.jpeg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Iulian Enache",
+   "adaptation": "Cristiana Keresztes",
+   "music": "Adrian Mihai",
+   "cast": [
+    {
+     "name": "Tache Florescu"
+    },
+    {
+     "name": "Theodor Șoptelea"
+    },
+    {
+     "name": "Marian Adochiței"
+    },
+    {
+     "name": "Dan Cojocaru"
+    },
+    {
+     "name": "Iulian Enache"
+    },
+    {
+     "name": "Andrei Bibire"
+    },
+    {
+     "name": "Sebi Pătrunjei"
+    },
+    {
+     "name": "Luiza Martinescu"
+    },
+    {
+     "name": "Denisa Iova"
+    },
+    {
+     "name": "Laura Iordan"
+    },
+    {
+     "name": "Georgiana Rusu"
+    },
+    {
+     "name": "Roberto Savu"
+    },
+    {
+     "name": "Dana Trifan Enache"
+    }
+   ]
+  }
+ },
+ {
+  "id": "fantana-de-leac-din-muntii-macinului-legendele-dobrogei-2023",
+  "storyId": "fantana-de-leac-din-muntii-macinului",
+  "title": "Fântâna de leac din Munții Măcinului (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "3XTvnUgoY-s",
+    "page": "https://legendeledobrogei.ro/blog/2023/04/17/spectacolul-nr-2-fantana-de-leac-din-muntii-macinului/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2707,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "intensa",
+   "misterioasa"
+  ],
+  "age": 12,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/04/2.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Cristian Mitescu",
+   "adaptation": "Cristian Mitescu",
+   "music": "Adrian Stavian",
+   "cast": [
+    {
+     "name": "Denisa Iova"
+    },
+    {
+     "name": "Iulian Enache"
+    },
+    {
+     "name": "Dana Trifan Enache"
+    },
+    {
+     "name": "Luiza Martinescu"
+    },
+    {
+     "name": "Dan Cojocaru"
+    },
+    {
+     "name": "Marian Adochiței"
+    },
+    {
+     "name": "Andrei Bibire"
+    },
+    {
+     "name": "Cătălin Bucur"
+    },
+    {
+     "name": "Georgiana Rusu"
+    },
+    {
+     "name": "Laura Iordan"
+    },
+    {
+     "name": "Theodor Șoptelea"
+    },
+    {
+     "name": "Roberto Savu"
+    }
+   ]
+  }
+ },
+ {
+  "id": "legenda-comunei-ciocarlia-legendele-dobrogei-2023",
+  "storyId": "legenda-comunei-ciocarlia",
+  "title": "Legenda comunei Ciocârlia (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "C57TwcFg33g",
+    "page": "https://legendeledobrogei.ro/blog/2023/05/01/spectacolul-nr-3-legenda-comunei-ciocarlia/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2704,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/05/legenda-comunei-ciocarlia.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "comoara-din-insula-fara-nume-legendele-dobrogei-2023",
+  "storyId": "comoara-din-insula-fara-nume",
+  "title": "Comoara din Insula fără Nume – Lacul Tașaul (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "hVEtT1a8BkY",
+    "page": "https://legendeledobrogei.ro/blog/2023/05/15/spectacolul-nr-4-comoara-din-insula-fara-nume-lacul-tasaul/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2704,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "aventuroasa"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/05/4.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "music": "Adrian Mihai"
+  }
+ },
+ {
+  "id": "padurea-mortii-de-la-almalau-legendele-dobrogei-2023",
+  "storyId": "padurea-mortii-de-la-almalau",
+  "title": "Pădurea Morții de la Almalău (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "e-M81g4W8gs",
+    "page": "https://legendeledobrogei.ro/blog/2023/05/29/legendele-dobrogei-spectacolul-5-padurea-mortii-de-la-almalau/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2705,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "intensa"
+  ],
+  "age": 12,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/05/5.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "adaptation": "Cristian Mitescu"
+  }
+ },
+ {
+  "id": "insula-lui-ovidiu-legendele-dobrogei-2023",
+  "storyId": "insula-lui-ovidiu",
+  "title": "Insula lui Ovidiu (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "s0oWkzIb8LA",
+    "page": "https://legendeledobrogei.ro/blog/2023/06/12/spectacolul-nr-6-insula-lui-ovidiu/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2701,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "magica"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/06/6.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "music": "Adrian Mihai"
+  }
+ },
+ {
+  "id": "sfantul-foca-si-musulmanii-legendele-dobrogei-2023",
+  "storyId": "sfantul-foca-si-musulmanii",
+  "title": "Sfântul Foca și musulmanii (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ursjT1AL8nE",
+    "page": "https://legendeledobrogei.ro/blog/2023/06/26/spectacolul-nr-7-sfantul-foca-si-musulmanii/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2701,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "intensa"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/06/7.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "cap-caliacra-legenda-piratului-ac-baba-legendele-dobrogei-2023",
+  "storyId": "cap-caliacra-legenda-piratului-ac-baba",
+  "title": "Cap Caliacra – legenda piratului Ac Baba (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "R5kbqGSWCio",
+    "page": "https://legendeledobrogei.ro/blog/2023/07/10/spectacolul-nr-8-cap-caliacra-legenda-piratului-ac-baba/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2704,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 12,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/07/8.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "music": "Adrian Mihai"
+  }
+ },
+ {
+  "id": "muntele-fericirii-de-la-tatlageac-legendele-dobrogei-2023",
+  "storyId": "muntele-fericirii-de-la-tatlageac",
+  "title": "Muntele Fericirii de la Tatlageac (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "5BEOjYIRCCE",
+    "page": "https://legendeledobrogei.ro/blog/2023/07/24/spectacolul-nr-9-muntele-fericirii-de-la-tatlageac/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2705,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "magica"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/07/9.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "sarichioi-si-legenda-vitei-de-vie-legendele-dobrogei-2023",
+  "storyId": "sarichioi-si-legenda-vitei-de-vie",
+  "title": "Sarichioi și legenda viței-de-vie (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "xfENXF7CGjE",
+    "page": "https://legendeledobrogei.ro/blog/2023/08/07/spectacolul-nr-10-sarichioi-si-legenda-vitei-de-vie/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2768,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/08/10.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "music": "Adrian Mihai"
+  }
+ },
+ {
+  "id": "soleiman-magnificul-si-comoara-de-la-kustenge-legendele-dobrogei-2023",
+  "storyId": "soleiman-magnificul-si-comoara-de-la-kustenge",
+  "title": "Soleiman Magnificul și comoara de la Kustenge (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "YXgSBmw3Rjs",
+    "page": "https://legendeledobrogei.ro/blog/2023/08/21/spectacolul-nr-11-soleiman-magnificul-si-comoara-de-la-kustenge/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2704,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "aventuroasa"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/08/11.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "cismeaua-beiului-si-ciuta-ranita-legendele-dobrogei-2023",
+  "storyId": "cismeaua-beiului-si-ciuta-ranita",
+  "title": "Cișmeaua Beiului și ciuta rănită (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "glsqOwb0wdY",
+    "page": "https://legendeledobrogei.ro/blog/2023/09/04/spectacolul-nr-12-cismeaua-beiului-si-ciuta-ranita/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2704,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/09/12.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "stejarul-ingenunchiat-de-la-caraorman-legendele-dobrogei-2023",
+  "storyId": "stejarul-ingenunchiat-de-la-caraorman",
+  "title": "Stejarul îngenunchiat de la Caraorman (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Y_LTTeRXkTE",
+    "page": "https://legendeledobrogei.ro/blog/2023/09/19/spectacolul-nr-13-stejarul-ingenunchiat-de-la-caraorman/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 3086,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 12,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/09/13.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "samca-samodiva-duhul-de-pe-pacuiul-lui-soare-legendele-dobrogei-2023",
+  "storyId": "samca-samodiva-duhul-de-pe-pacuiul-lui-soare",
+  "title": "Samca Samodiva, duhul de pe Păcuiul lui Soare (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "RKQm2ger1tg",
+    "page": "https://legendeledobrogei.ro/blog/2023/10/02/spectacolul-nr-14-samca-samodiva-duhul-de-pe-pacuiul-lui-soare/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2707,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "intensa"
+  ],
+  "age": 12,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/10/14.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "ronciu-si-frumoasa-aise-legendele-dobrogei-2023",
+  "storyId": "ronciu-si-frumoasa-aise",
+  "title": "Ronciu și frumoasa Aișe – Anadolchioi (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "P_I1n5pg2LA",
+    "page": "https://legendeledobrogei.ro/blog/2023/10/16/spectacolul-nr-15-ronciu-si-frumoasa-aise-anadolchioi/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2771,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/10/15.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "satul-lui-topal-schiopul-legendele-dobrogei-2023",
+  "storyId": "satul-lui-topal-schiopul",
+  "title": "Satul lui Topal Șchiopul (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "RlNyfNGHApc",
+    "page": "https://legendeledobrogei.ro/blog/2023/11/02/spectacolul-nr-16-satul-lui-topal-schiopul/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2701,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "educativa"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/11/16.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Iulian Enache"
+  }
+ },
+ {
+  "id": "calugarul-liinad-si-dervisul-legendele-dobrogei-2023",
+  "storyId": "calugarul-liinad-si-dervisul",
+  "title": "Călugărul Liinad și dervișul (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "oINJSnOSvQw",
+    "page": "https://legendeledobrogei.ro/blog/2023/11/13/spectacolul-nr-17-calugarul-liinad-si-dervisul/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2849,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/11/17.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "legenda-marelui-lup-alb-legendele-dobrogei-2023",
+  "storyId": "legenda-marelui-lup-alb",
+  "title": "Legenda Marelui Lup Alb (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "MSzaCF_NNi4",
+    "page": "https://legendeledobrogei.ro/blog/2023/11/29/spectacolul-nr-18-legenda-marelui-lup-alb/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2704,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "magica"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/11/18.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "legenda-lacului-tuzla-legendele-dobrogei-2023",
+  "storyId": "legenda-lacului-tuzla",
+  "title": "Legenda lacului Tuzla (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "pJMHSQa8vCo",
+    "page": "https://legendeledobrogei.ro/blog/2023/12/11/spectacolul-nr-19-legenda-lacului-tuzla/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2701,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa"
+  ],
+  "age": 10,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/12/19.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "padurea-mireselor-si-frumoasa-furnica-legendele-dobrogei-2023",
+  "storyId": "padurea-mireselor-si-frumoasa-furnica",
+  "title": "Pădurea Mireselor și Frumoasa Furnica (2023)",
+  "sourceId": "legendele-dobrogei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "MoSsIaBfJuM",
+    "page": "https://legendeledobrogei.ro/blog/2023/12/27/spectacolul-nr-20-padurea-mireselor-si-frumoasa-furnica/",
+    "via": "Constanța 100%"
+   }
+  ],
+  "duration": 2809,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "intensa"
+  ],
+  "age": 12,
+  "year": 2023,
+  "cover": "https://legendeledobrogei.ro/wp-content/uploads/2023/12/20.webp",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Dana Trifan Enache",
+   "adaptation": "Bianca Scărlătescu",
+   "music": "Adrian Mihai"
+  }
+ },
+ {
+  "id": "jonathan-gullible-o-mare-furtuna-3g",
+  "storyId": "jonathan-gullible-o-mare-furtuna",
+  "title": "O mare furtună",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-30/141731821-44100-2-4a9a1c473ce16.m4a",
+    "page": "https://podcasts.apple.com/gb/podcast/3g-radioactiv/id1542166349?i=1000503907632",
+    "via": "3g HUB"
+   },
+   {
+    "type": "youtube",
+    "id": "jSE7m1321LI",
+    "via": "3g HUB"
+   }
+  ],
+  "duration": 316,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "aventuroasa",
+   "educativa"
+  ],
+  "age": 9,
+  "credits": {
+   "director": "Andi Gherghe",
+   "cast": [
+    {
+     "name": "Andi Gherghe"
+    },
+    {
+     "name": "Laura Mihalache"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "jonathan-gullible-cei-care-o-cauta-cu-lumanarea-3g",
+  "storyId": "jonathan-gullible-cei-care-o-cauta-cu-lumanarea",
+  "title": "Cei care o caută cu lumânarea",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-30/141740735-44100-2-b755e16c0d43c.m4a",
+    "page": "https://podcasts.apple.com/gb/podcast/3g-radioactiv/id1542166349?i=1000503907633",
+    "via": "3g HUB"
+   },
+   {
+    "type": "youtube",
+    "id": "0Foz9FGCye0",
+    "via": "3g HUB"
+   }
+  ],
+  "duration": 290,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "aventuroasa",
+   "educativa"
+  ],
+  "age": 9,
+  "credits": {
+   "director": "Andi Gherghe",
+   "cast": [
+    {
+     "name": "Andi Gherghe"
+    },
+    {
+     "name": "Laura Mihalache"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "jonathan-gullible-o-tragedie-comuna-3g",
+  "storyId": "jonathan-gullible-o-tragedie-comuna",
+  "title": "O tragedie comună",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-30/141743189-44100-2-bf6e19a623edf.m4a",
+    "page": "https://podcasts.apple.com/gb/podcast/3g-radioactiv/id1542166349?i=1000503907634",
+    "via": "3g HUB"
+   },
+   {
+    "type": "youtube",
+    "id": "oXh-Z8LCe9Q",
+    "via": "3g HUB"
+   }
+  ],
+  "duration": 286,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "aventuroasa",
+   "educativa"
+  ],
+  "age": 9,
+  "credits": {
+   "director": "Andi Gherghe",
+   "cast": [
+    {
+     "name": "Andi Gherghe"
+    },
+    {
+     "name": "Laura Mihalache"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "broscoiul-auzit-2024",
+  "storyId": "broscoiul-alex-gorghe",
+  "title": "Broscoiul (2024)",
+  "sourceId": "auzit",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "DZG10aZYJwo",
+    "via": "AUZIT."
+   }
+  ],
+  "duration": 2094,
+  "year": 2024,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "intensa"
+  ],
+  "age": 13,
+  "credits": {
+   "director": "Robert Kocsis",
+   "cast": [
+    {
+     "name": "Ilinca Petra Meșter"
+    },
+    {
+     "name": "Victor Muntean"
+    },
+    {
+     "name": "Anca Munteanu"
+    },
+    {
+     "name": "Alex Tudor"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "muntele-de-sticla-tnr-2023",
+  "storyId": "muntele-de-sticla",
+  "title": "Muntele de sticlă (2023)",
+  "sourceId": "radio-arhive",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "8mSW-Z02onw",
+    "via": "Radio România – Arhiva"
+   }
+  ],
+  "duration": 583,
+  "year": 2023,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "credits": {
+   "director": "Mihnea Chelaru",
+   "adaptation": "Marina Ilie; Mihnea Chelaru",
+   "music": "Cristian Matei",
+   "cast": [
+    {
+     "name": "Rodica Mandache"
+    },
+    {
+     "name": "Vlad Bârzanu"
+    },
+    {
+     "name": "Ioana Chelaru"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "poveste-pana-la-cinci-disc",
+  "storyId": "poveste-pana-la-cinci",
+  "title": "Poveste până la cinci (1968)",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "275282943",
+    "file": "275282943.mp4"
+   }
+  ],
+  "duration": 578,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "year": 1968,
+  "music": "ambientala",
+  "age": 5,
+  "estimated": [
+   "music",
+   "age"
+  ],
+  "credits": {
+   "director": "Cristian Munteanu",
+   "music": "Ion Vanica; Nicolae Neagoe",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Octavian Cotescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Rodica Tapalagă"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valentin Plătăreanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ludovic Antal"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Liliana Voiculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cornel Vulpe"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihaela Istrate"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXC 10.058",
+   "title": "Poveste până la 5",
+   "url": "https://www.discogs.com/release/4742594"
+  },
+  "addedAt": "2026-11-23",
+  "moods": []
+ },
+ {
+  "id": "domnita-de-sare-disc",
+  "storyId": "domnita-de-sare",
+  "title": "Domnița de sare (1990)",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302533443",
+    "file": "302533443.mp4"
+   }
+  ],
+  "duration": 1659,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "year": 1990,
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "misterioasa"
+  ],
+  "age": 7,
+  "estimated": [
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Evdochia Pavel",
+   "music": "Romeo Chelaru",
+   "cast": [
+    {
+     "role": "Ana",
+     "name": "Ana Ciontea"
+    },
+    {
+     "role": "Vântură-Lume",
+     "name": "Răzvan Ionescu"
+    },
+    {
+     "role": "Pletea",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Măicuța Mătrăgună",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Șopârlița",
+     "name": "Dorina Lazăr"
+    },
+    {
+     "role": "Peleg",
+     "name": "Ștefan Sileanu"
+    },
+    {
+     "role": "Harpiile",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Harpiile",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Harpiile",
+     "name": "Rodica Sanda Țuțuianu"
+    },
+    {
+     "role": "Spiridușii Koboini",
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "role": "Spiridușii Koboini",
+     "name": "Valentin Teodosiu"
+    },
+    {
+     "role": "Vameșul",
+     "name": "Boris Petroff"
+    },
+    {
+     "role": "Paharnicul",
+     "name": "Candid Stoica"
+    },
+    {
+     "role": "Aprodul",
+     "name": "Gheorghe Pufulete"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03944",
+   "title": "Lacul fermecat / Domnița de sare",
+   "url": "https://www.discogs.com/release/5102359"
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "traista-cu-bucluc-disc",
+  "storyId": "traista-cu-bucluc",
+  "title": "Traista cu bucluc",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302192696",
+    "file": "302192696.mp4"
+   }
+  ],
+  "duration": 1691,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "magica"
+  ],
+  "age": 6,
+  "estimated": [
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Constantin Moruzan",
+   "narrator": [
+    "Constantin Moruzan"
+   ],
+   "cast": [
+    {
+     "role": "Colinaș",
+     "name": "Ion Caramitru"
+    },
+    {
+     "role": "Mărinaș",
+     "name": "Cornel Vulpe"
+    },
+    {
+     "role": "Bărbatul",
+     "name": "Ion Manta"
+    },
+    {
+     "role": "Femeia",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Mătușa",
+     "name": "Eugenia Bosânceanu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03065",
+   "title": "Călușarul / Traista cu bucluc",
+   "url": "https://www.discogs.com/release/17419294"
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "inima-rece-dan-puican-disc",
+  "storyId": "inima-de-piatra",
+  "title": "Inimă rece, în regia lui Dan Puican",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304106238",
+    "file": "304106238.mp4"
+   }
+  ],
+  "duration": 1611,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "magica",
+   "intensa"
+  ],
+  "age": 9,
+  "estimated": [
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Constantin Teodori",
+   "narrator": [
+    "Paul Sava"
+   ],
+   "cast": [
+    {
+     "role": "Ezechiel",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Peter Munk",
+     "name": "Alexandru Azoiței"
+    },
+    {
+     "role": "Mama lui Peter",
+     "name": "Eugenia Eftimie"
+    },
+    {
+     "role": "Michel Olandezul",
+     "name": "Nucu Păunescu"
+    },
+    {
+     "role": "Omulețul de sticlă",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Lisbeth",
+     "name": "Ioana Manolescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Pascu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Minel Klepper"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Candid Stoica"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Laurențiu Toma"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Fotinia Savin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Virgil Popescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 01890",
+   "title": "Inimă rece / Califul barză",
+   "url": "https://www.discogs.com/release/10174069"
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "in-ajun-de-craciun-cehov-disc",
+  "storyId": "in-ajun-de-craciun-cehov",
+  "title": "În ajun de Crăciun (1990)",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274289943",
+    "file": "274289943.mp4"
+   }
+  ],
+  "duration": 1245,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "year": 1990,
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 7,
+  "estimated": [
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Titel Constantinescu",
+   "adaptation": "Mariela Oțoiu",
+   "music": "George Marcu",
+   "cast": [
+    {
+     "role": "Volodea",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Sonia",
+     "name": "Daniela Anencov"
+    },
+    {
+     "role": "Katia",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Mașa",
+     "name": "Valeria Ogășanu"
+    },
+    {
+     "role": "Mama",
+     "name": "Rodica Sanda Țuțuianu"
+    },
+    {
+     "role": "Tatăl",
+     "name": "Corado Negreanu"
+    },
+    {
+     "role": "Natașa",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Cecevițîn",
+     "name": "Daniel Horhocea"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 04000",
+   "title": "Moș Crăciun / În ajun de Crăciun",
+   "url": "https://www.discogs.com/release/7247418"
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "jocul-de-a-iarna-1980",
+  "storyId": "jocul-de-a-iarna",
+  "title": "Jocul de-a iarna (1980)",
+  "sourceId": "yt-teatru-radiofonic",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "C3bHB2dgPMo",
+    "via": "Teatru Radiofonic"
+   }
+  ],
+  "duration": 3261,
+  "year": 1980,
+  "kind": "muzicala",
+  "voices": "distributie",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 7,
+  "credits": {
+   "director": "Dan Puican",
+   "music": "Timuș Alexandrescu",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Ștrengaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Lucian Muscurel"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Virgil Ogășanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ilinca Tomoroveanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Medeleni"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Oprina"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dumitru Furdui"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "printesa-curcubeu-radio-2017",
+  "storyId": "printesa-curcubeu",
+  "title": "Prințesa Curcubeu (2017)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/Prin%C8%9Besa%20Curcubeu%20-%20o%20poveste%20de%20Maurice%20Baring.mp3",
+    "page": "https://latimp.eu/printesa-curcubeu-de-maurice-baring-teatru-radiofonic-2017/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 2932,
+  "year": 2017,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "magica",
+   "misterioasa"
+  ],
+  "age": 7,
+  "addedAt": "2026-11-23",
+  "credits": {
+   "director": "Vasile Manta",
+   "adaptation": "Adina Bardaș",
+   "music": "George Marcu",
+   "cast": [
+    {
+     "role": "Prințesa Curcubeu",
+     "name": "Delia Nartea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cristian Iacob"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adela Mărculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Rebengiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Rodica Mandache"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cătălina Mustață"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Liliana Pană"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Niculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugen Cristea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ionuț Kivu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Gheorghe Arcudeanu"
+    }
+   ]
+  },
+  "estimated": [
+   "moods",
+   "age",
+   "music"
+  ],
+  "music": "importanta"
+ },
+ {
+  "id": "pasarea-galbena-radio-2002",
+  "storyId": "pasarea-galbena",
+  "title": "Pasărea galbenă (2002)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/Pas%C4%83rea%20galben%C4%83.m4a",
+    "page": "https://latimp.eu/pasarea-galbena-teatru-radiofonic-2002/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3357,
+  "year": 2002,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "magica"
+  ],
+  "age": 7,
+  "addedAt": "2026-11-23",
+  "credits": {
+   "director": "Vasile Manta",
+   "adaptation": "Ana Ripka-Rus",
+   "music": "George Marcu",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Victor Rebengiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Ivașcu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petre Lupu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Monica Mihăescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Tatiana Iekel"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dan Tudor"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugen Racoți"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Grigore"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petronela Știopu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Bogdan Tudor"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Titi Dumitrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alfred Demetriu"
+    }
+   ]
+  },
+  "estimated": [
+   "moods",
+   "age",
+   "music"
+  ],
+  "music": "ambientala"
+ },
+ {
+  "id": "melcusorul-radio-moldova-2023",
+  "storyId": "melcusorul",
+  "title": "Melcușorul (2023)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2024/01/23/5dc58b0d-e895-4455-b2e9-ed2fe1dda65a_311223ora1030spectacolulMELCUSORULDURATA2950MIN.mp3",
+    "page": "https://zuper.md/listen/melcu%C8%99orul/melcu%C8%99orul/507",
+    "via": "Zuper"
+   },
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2023/12/31/31-12-23-ora-10-30--spectacolul-MELCUSORUL--DURATA-29-50-MIN.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/4319",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 1793,
+  "year": 2023,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "educativa"
+  ],
+  "age": 5,
+  "addedAt": "2026-11-23",
+  "credits": {
+   "director": "Aurica Varzari",
+   "adaptation": "Ludmila Alexei"
+  },
+  "estimated": [
+   "moods"
+  ]
+ },
+ {
+  "id": "arci-si-sfatul-padurii-radio-moldova-2023",
+  "storyId": "arci-si-sfatul-padurii",
+  "title": "Arci și Sfatul Pădurii (2023)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2023/11/03/68ebf798-ab11-4066-be0b-8c6ae94e8246_ARCIsiSFATULPADURIIVOCESFARSIT.mp3",
+    "page": "https://zuper.md/listen/arci-%C8%99i-sfatul-padurii/arci-%C8%99i-sfatul-padurii/463",
+    "via": "Zuper"
+   },
+   {
+    "type": "youtube",
+    "id": "6zVoVPva0xQ",
+    "via": "UNDP în Moldova"
+   },
+   {
+    "type": "youtube",
+    "id": "NpeqLYlVhaA",
+    "via": "CICDE"
+   }
+  ],
+  "duration": 1194,
+  "year": 2023,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "educativa",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "addedAt": "2026-11-23",
+  "credits": {
+   "director": "Octavian Rusu",
+   "narrator": [
+    "Ionela Hadârcă"
+   ]
+  },
+  "estimated": [
+   "moods"
+  ]
+ },
+ {
+  "id": "puiul-rescris-incap-2020",
+  "storyId": "puiul-rescris",
+  "title": "Puiul (REscris)",
+  "sourceId": "asociatia-incap",
+  "links": [
+   {
+    "type": "link",
+    "url": "https://soundcloud.com/user-739803593-473116796/puiul-rescris",
+    "via": "SoundCloud"
+   }
+  ],
+  "duration": 920,
+  "year": 2020,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "music": "ambientala",
+  "moods": [
+   "educativa"
+  ],
+  "age": 9,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Andreea Lăcătuș",
+   "music": "Sever Andrei",
+   "cast": [
+    {
+     "role": "Voci în serie",
+     "name": "Minodora Broscoi"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Eduard Burghelea"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Alexandru Beteringhe"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Carla Mihai"
+    }
+   ],
+   "adaptation": "Elevii din Scânteia"
+  }
+ },
+ {
+  "id": "fata-babei-si-fata-mosneagului-rescris-incap-2020",
+  "storyId": "fata-babei-si-fata-mosneagului-rescris",
+  "title": "Fata babei și fata moșneagului (REscris)",
+  "sourceId": "asociatia-incap",
+  "links": [
+   {
+    "type": "link",
+    "url": "https://soundcloud.com/user-739803593-473116796/fata-babei-si-fata-mosneagului",
+    "via": "SoundCloud"
+   }
+  ],
+  "duration": 785,
+  "year": 2020,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "music": "ambientala",
+  "moods": [
+   "educativa"
+  ],
+  "age": 8,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Andreea Lăcătuș",
+   "music": "Sever Andrei",
+   "cast": [
+    {
+     "role": "Voci în serie",
+     "name": "Minodora Broscoi"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Eduard Burghelea"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Alexandru Beteringhe"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Carla Mihai"
+    }
+   ],
+   "adaptation": "Elevii din Scânteia"
+  }
+ },
+ {
+  "id": "domnul-trandafir-rescris-incap-2020",
+  "storyId": "domnul-trandafir-rescris",
+  "title": "Domnul Trandafir (REscris)",
+  "sourceId": "asociatia-incap",
+  "links": [
+   {
+    "type": "link",
+    "url": "https://soundcloud.com/user-739803593-473116796/domnul-trandafir-rescris",
+    "via": "SoundCloud"
+   }
+  ],
+  "duration": 378,
+  "year": 2020,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "music": "ambientala",
+  "moods": [
+   "educativa"
+  ],
+  "age": 8,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Andreea Lăcătuș",
+   "music": "Sever Andrei",
+   "cast": [
+    {
+     "role": "Voci în serie",
+     "name": "Minodora Broscoi"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Eduard Burghelea"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Alexandru Beteringhe"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Carla Mihai"
+    }
+   ],
+   "adaptation": "Elevii din Scânteia"
+  }
+ },
+ {
+  "id": "melcusorul-incap-2020",
+  "storyId": "melcusorul",
+  "title": "Melcușorul (Asociația inCAP)",
+  "sourceId": "asociatia-incap",
+  "links": [
+   {
+    "type": "link",
+    "url": "https://soundcloud.com/user-739803593-473116796/melcusorul-lavinia-braniste",
+    "via": "SoundCloud"
+   }
+  ],
+  "duration": 704,
+  "year": 2020,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "music": "ambientala",
+  "moods": [
+   "educativa"
+  ],
+  "age": 6,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Andreea Lăcătuș",
+   "music": "Sever Andrei",
+   "cast": [
+    {
+     "role": "Voci în serie",
+     "name": "Minodora Broscoi"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Eduard Burghelea"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Alexandru Beteringhe"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Carla Mihai"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cofetaria-lavinia-braniste-incap-2020",
+  "storyId": "cofetaria-lavinia-braniste",
+  "title": "Cofetăria (Asociația inCAP)",
+  "sourceId": "asociatia-incap",
+  "links": [
+   {
+    "type": "link",
+    "url": "https://soundcloud.com/user-739803593-473116796/cofetaria-lavinia-braniste",
+    "via": "SoundCloud"
+   }
+  ],
+  "duration": 543,
+  "year": 2020,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 6,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Andreea Lăcătuș",
+   "music": "Sever Andrei",
+   "cast": [
+    {
+     "role": "Voci în serie",
+     "name": "Minodora Broscoi"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Eduard Burghelea"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Alexandru Beteringhe"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Carla Mihai"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-ariciului-cu-pene-incap-2020",
+  "storyId": "povestea-ariciului-cu-pene",
+  "title": "Povestea ariciului cu pene (Asociația inCAP)",
+  "sourceId": "asociatia-incap",
+  "links": [
+   {
+    "type": "link",
+    "url": "https://soundcloud.com/user-739803593-473116796/povestea-ariciului-cu-pene",
+    "via": "SoundCloud"
+   }
+  ],
+  "duration": 847,
+  "year": 2020,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "music": "ambientala",
+  "moods": [
+   "educativa"
+  ],
+  "age": 6,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Andreea Lăcătuș",
+   "music": "Sever Andrei",
+   "cast": [
+    {
+     "role": "Voci în serie",
+     "name": "Minodora Broscoi"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Eduard Burghelea"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Alexandru Beteringhe"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Carla Mihai"
+    }
+   ]
+  }
+ },
+ {
+  "id": "superman-elena-vladareanu-incap-2020",
+  "storyId": "superman-elena-vladareanu",
+  "title": "Superman (Asociația inCAP)",
+  "sourceId": "asociatia-incap",
+  "links": [
+   {
+    "type": "link",
+    "url": "https://soundcloud.com/user-739803593-473116796/superman-elena-vladareanu",
+    "via": "SoundCloud"
+   }
+  ],
+  "duration": 1088,
+  "year": 2020,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "music": "ambientala",
+  "moods": [
+   "intensa"
+  ],
+  "age": 12,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ],
+  "credits": {
+   "director": "Andreea Lăcătuș",
+   "music": "Sever Andrei",
+   "cast": [
+    {
+     "role": "Voci în serie",
+     "name": "Minodora Broscoi"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Eduard Burghelea"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Alexandru Beteringhe"
+    },
+    {
+     "role": "Voci în serie",
+     "name": "Carla Mihai"
+    }
+   ]
+  }
  }
 ]

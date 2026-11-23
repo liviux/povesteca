@@ -248,5 +248,55 @@
    "ro": "Fonoteca de Aur a Radio Moldova (Teleradio-Moldova): spectacole integrale de teatru radiofonic pentru copii („Teatru la microfon”) și povești de seară („Povestea de seară”) din anii ’70–2010, în interpretarea actorilor teatrelor din Chișinău, cu ascultare directă, fără reclame.",
    "en": "Radio Moldova’s Golden Archive (Teleradio-Moldova): full children’s radio plays (“Teatru la microfon”) and bedtime stories (“Povestea de seară”) from the 1970s–2010s, performed by Chișinău theatre actors with direct, ad-free streaming."
   }
+ },
+ {
+  "id": "legendele-dobrogei",
+  "name": "Legendele Dobrogei",
+  "type": "youtube",
+  "url": "https://legendeledobrogei.ro/spectacole/",
+  "description": {
+   "ro": "Douăzeci de spectacole radiofonice după „Poveștile Mării Negre” de Cristian Cealera, produse în 2023 de Asociația Cultural-Artistică „Vulturii Carpaților” cu Concordia Oslo.",
+   "en": "Twenty radio plays based on Cristian Cealera’s Poveștile Mării Negre, produced in 2023 by Asociația Cultural-Artistică Vulturii Carpaților with Concordia Oslo."
+  }
+ },
+ {
+  "id": "radioactiv-3g",
+  "name": "3g RadioActiv (3g HUB)",
+  "type": "audio",
+  "url": "https://3ghub.ro/product/3g-radioactiv/",
+  "description": {
+   "ro": "Teatru radiofonic produs de 3g HUB din Târgu Mureș. Pentru copii, „Aventurile lui Jonathan Gullible” cu Andi Gherghe și Laura Mihalache.",
+   "en": "Radio drama produced by 3g HUB in Târgu Mureș. For children, “The Adventures of Jonathan Gullible” features Andi Gherghe and Laura Mihalache."
+  }
+ },
+ {
+  "id": "auzit",
+  "name": "AUZIT. Teatru Radiofonic",
+  "type": "youtube",
+  "url": "https://www.auzit.online/episoade",
+  "description": {
+   "ro": "Producții independente de teatru radiofonic din Cluj. „Broscoiul” e o fabulă contemporană despre intimitate și rușine publică.",
+   "en": "Independent radio drama from Cluj. “Broscoiul” is a modern fable about privacy and public shaming."
+  }
+ },
+ {
+  "id": "latimp",
+  "name": "LaTimp.eu",
+  "type": "audio",
+  "url": "https://latimp.eu/category/teatru-audio-copii/",
+  "description": {
+   "ro": "Înregistrări de teatru radiofonic și povești pentru copii, cu fișe de distribuție pentru montările din arhiva Radio România.",
+   "en": "Radio plays and stories for children, with cast and production credits for recordings from the Radio România archive."
+  }
+ },
+ {
+  "id": "asociatia-incap",
+  "name": "Asociația inCAP",
+  "type": "link",
+  "url": "https://soundcloud.com/user-739803593-473116796",
+  "description": {
+   "ro": "Povești contemporane și texte clasice rescrise de elevii din Scânteia pentru proiectul „Prezent! REscris”. Înregistrate cu actori, în regia Andreei Lăcătuș, cu ilustrație muzicală de Sever Andrei.",
+   "en": "New stories and classics rewritten by students in Scânteia for “Prezent! REscris”. Recorded with actors, directed by Andreea Lăcătuș, with music selected by Sever Andrei."
+  }
  }
 ]

@@ -76,6 +76,7 @@ for (const v of versions) {
     const key = (l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : l.type === 'audio' ? `audio:${l.url}` : `url:${l.url}`) + span;
     if (l.type === 'archive' && (!l.id || !l.file)) err(`${at}: archive link needs id and file`);
     if (l.type === 'audio' && (!l.url || !/^https?:\/\//.test(l.url))) err(`${at}: audio link needs url`);
+    if (l.type === 'link' && !/^https?:\/\/.+/.test(l.url || '')) err(`${at}: external link needs an HTTP(S) URL`);
     if (l.type === 'youtube' && !/^[\w-]{11}$/.test(l.id || '')) err(`${at}: bad YouTube id "${l.id}"`);
     if (!['archive', 'audio', 'youtube', 'link'].includes(l.type)) err(`${at}: link type "${l.type}"`);
     // the same file or video in two versions means one production was entered twice

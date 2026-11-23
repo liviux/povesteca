@@ -2,6 +2,15 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.14.0] - 2026-11-23
+
+### Added
+- **New stories:** 40 titles and 42 recordings, including all 20 radio plays in “Legendele Dobrogei”, the first three episodes of “The Adventures of Jonathan Gullible”, and the “Prezent! REscris” series.
+- “Prințesa Curcubeu”, “Muntele de sticlă”, “Broscoiul” and other radio plays, plus backup links for “Muck cel mic” and “Aventura Căpitanului Vic”.
+
+### Changed
+- Stories on SoundCloud open on the source website through the “Open at source” button.
+
 ## [1.13.1] - 2026-11-23
 
 ### Added

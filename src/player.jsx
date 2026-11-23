@@ -59,8 +59,14 @@ const engineType = () => versionById.get(state.player.id)?.links[state.player.li
 export function play(id, from, linkIdx = 0) {
   const v = versionById.get(id);
   if (!v) return;
-  stopEngines();
   const idx = Math.max(0, Math.min(linkIdx, (v.links?.length || 1) - 1));
+  const link = v.links[idx];
+  if (link?.type === 'link') {
+    closePlayer();
+    window.open(linkUrl(link), '_blank', 'noopener');
+    return;
+  }
+  stopEngines();
   const { start: s0, end: e0 } = spanOf(v, idx);
   const savedRel = savedOffset(v, state.pos[id]);
   const lim = e0 || (s0 + v.duration);

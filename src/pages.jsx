@@ -461,9 +461,10 @@ export function VersionPage({ id }) {
             {col && <><dt>{t.facts.disc}</dt><dd>{col.c.code ? <><a href={`/colectie/${col.c.id}`}>{col.c.code}</a> · {col.c.title}</> : <a href={`/colectie/${col.c.id}`}>{col.c.title}</a>}</dd></>}
             <dt>{t.facts.links}</dt>
             <dd><ul class="links">{v.links.map((l, i) => {
+              const lbl = linkLabel(l, src, v.links);
+              if (l.type === 'link') return <li class="link-row"><a class="mirror-btn" href={linkUrl(l)} target="_blank" rel="noopener"><span>{lbl}</span><Icon n="ext" size={16} /></a></li>;
               const active = p.id === v.id && p.link === i && p.status !== 'ended';
               const playing = active && ['playing', 'loading'].includes(p.status);
-              const lbl = linkLabel(l, src, v.links);
               return (
                 <li class="link-row">
                   <button type="button" class="mirror-btn" aria-pressed={active}

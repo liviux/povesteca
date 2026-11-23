@@ -2,6 +2,15 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.14.0] - 2026-11-23
+
+### Added
+- **Povești noi:** 40 de titluri și 42 de înregistrări noi, printre care toate cele 20 de spectacole din „Legendele Dobrogei”, primele trei episoade din „Aventurile lui Jonathan Gullible” și seria „Prezent! REscris”.
+- „Prințesa Curcubeu”, „Muntele de sticlă”, „Broscoiul” și alte montări radiofonice, plus noi linkuri de rezervă pentru „Muck cel mic” și „Aventura Căpitanului Vic”.
+
+### Changed
+- Poveștile disponibile pe SoundCloud se deschid la sursă prin butonul „Deschide la sursă”.
+
 ## [1.13.1] - 2026-11-23
 
 ### Added

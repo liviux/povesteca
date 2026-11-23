@@ -2205,5 +2205,74 @@
    "casa-cea-mare-vangheli-rm",
    "ghioceii-vangheli-rm"
   ]
+ },
+ {
+  "id": "seria-legendele-dobrogei",
+  "title": "Legendele Dobrogei",
+  "type": "series",
+  "sourceId": "legendele-dobrogei",
+  "url": "https://legendeledobrogei.ro/spectacole/",
+  "items": [
+   "visul-sultanului-la-babadag-legendele-dobrogei-2023",
+   "fantana-de-leac-din-muntii-macinului-legendele-dobrogei-2023",
+   "legenda-comunei-ciocarlia-legendele-dobrogei-2023",
+   "comoara-din-insula-fara-nume-legendele-dobrogei-2023",
+   "padurea-mortii-de-la-almalau-legendele-dobrogei-2023",
+   "insula-lui-ovidiu-legendele-dobrogei-2023",
+   "sfantul-foca-si-musulmanii-legendele-dobrogei-2023",
+   "cap-caliacra-legenda-piratului-ac-baba-legendele-dobrogei-2023",
+   "muntele-fericirii-de-la-tatlageac-legendele-dobrogei-2023",
+   "sarichioi-si-legenda-vitei-de-vie-legendele-dobrogei-2023",
+   "soleiman-magnificul-si-comoara-de-la-kustenge-legendele-dobrogei-2023",
+   "cismeaua-beiului-si-ciuta-ranita-legendele-dobrogei-2023",
+   "stejarul-ingenunchiat-de-la-caraorman-legendele-dobrogei-2023",
+   "samca-samodiva-duhul-de-pe-pacuiul-lui-soare-legendele-dobrogei-2023",
+   "ronciu-si-frumoasa-aise-legendele-dobrogei-2023",
+   "satul-lui-topal-schiopul-legendele-dobrogei-2023",
+   "calugarul-liinad-si-dervisul-legendele-dobrogei-2023",
+   "legenda-marelui-lup-alb-legendele-dobrogei-2023",
+   "legenda-lacului-tuzla-legendele-dobrogei-2023",
+   "padurea-mireselor-si-frumoasa-furnica-legendele-dobrogei-2023"
+  ],
+  "description": {
+   "ro": "De la Babadag la țărmul Mării Negre, douăzeci de legende dobrogene, în ordinea difuzării la radio.",
+   "en": "From Babadag to the Black Sea coast, twenty Dobrujan legends in their original broadcast order."
+  }
+ },
+ {
+  "id": "jonathan-gullible",
+  "title": "Aventurile lui Jonathan Gullible",
+  "type": "series",
+  "sourceId": "radioactiv-3g",
+  "url": "https://3ghub.ro/product/aventurile-lui-jonathan-gullible-o-odisee-liber-schimbista/",
+  "items": [
+   "jonathan-gullible-o-mare-furtuna-3g",
+   "jonathan-gullible-cei-care-o-cauta-cu-lumanarea-3g",
+   "jonathan-gullible-o-tragedie-comuna-3g"
+  ],
+  "description": {
+   "ro": "Primele trei aventuri ale lui Jonathan, după cartea lui Ken Schoolland. Pe o insulă necunoscută, întâlnește localnici și află regulile după care trăiesc.",
+   "en": "Jonathan’s first three adventures, adapted from Ken Schoolland’s book. On an unfamiliar island, he meets the locals and learns the rules they live by."
+  }
+ },
+ {
+  "id": "prezent-rescris",
+  "title": "Prezent! REscris",
+  "type": "series",
+  "sourceId": "asociatia-incap",
+  "url": "https://soundcloud.com/user-739803593-473116796",
+  "items": [
+   "superman-elena-vladareanu-incap-2020",
+   "povestea-ariciului-cu-pene-incap-2020",
+   "cofetaria-lavinia-braniste-incap-2020",
+   "melcusorul-incap-2020",
+   "domnul-trandafir-rescris-incap-2020",
+   "fata-babei-si-fata-mosneagului-rescris-incap-2020",
+   "puiul-rescris-incap-2020"
+  ],
+  "description": {
+   "ro": "Trei texte clasice rescrise de elevii din Scânteia și patru povești contemporane, în interpretarea actorilor. Se ascultă pe SoundCloud.",
+   "en": "Three classics rewritten by students in Scânteia and four contemporary stories, performed by actors. Listen on SoundCloud."
+  }
  }
 ]

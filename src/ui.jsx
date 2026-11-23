@@ -1,8 +1,8 @@
 import { useState } from 'preact/hooks';
-import { storyById, cover, storyCover, bestVersion, versionsByStory } from './data.js';
+import { storyById, cover, storyCover, bestVersion, versionsByStory, linkUrl } from './data.js';
 import { label, fmtDur } from './i18n.js';
 import { useStore, useT, toggleIn } from './store.js';
-import { play, toggle } from './player.jsx';
+import { play, toggle, closePlayer } from './player.jsx';
 
 const P = {
   play: <path d="M8 5.2v13.6a.8.8 0 0 0 1.2.7l10.6-6.8a.8.8 0 0 0 0-1.4L9.2 4.5A.8.8 0 0 0 8 5.2z" fill="currentColor" stroke="none" />,
@@ -48,6 +48,16 @@ export function PlayButton({ v, cls = 'play-btn', label: text, from }) {
   const s = useStore();
   const [t] = useT();
   const story = storyById.get(v.storyId);
+  const firstLink = v.links[0];
+  if (firstLink.type === 'link') {
+    return (
+      <a class={cls} href={linkUrl(firstLink)} target="_blank" rel="noopener"
+        aria-label={text ? null : `${t.openAt} · ${story.title}`} onClick={closePlayer}>
+        <Icon n="ext" />
+        {text && <span>{t.openAt}</span>}
+      </a>
+    );
+  }
   // a "from the start" button always restarts; only the main button turns into Pause
   const active = from == null && s.player.id === v.id && ['playing', 'loading'].includes(s.player.status);
   const own = s.player.id === v.id && !['ended', 'error'].includes(s.player.status);
