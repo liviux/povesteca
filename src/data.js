@@ -87,11 +87,11 @@ export function bestVersion(storyId, ratings = {}) {
   const vs = versionsByStory.get(storyId) || [];
   return [...vs].sort(byRecommended(ratings))[0];
 }
-const isDirect = (v) => (v.links[0].type === 'archive' || v.links[0].type === 'audio' ? -1 : 0);
+const linkRank = (v) => ({ audio: 0, youtube: 1, archive: 2 }[v.links[0].type] ?? 3);
 export const byRecommended = (ratings) => (a, b) =>
   ((ratings[b.id]?.[1] || 0) >= 3 ? score(ratings[b.id]) : 0) - ((ratings[a.id]?.[1] || 0) >= 3 ? score(ratings[a.id]) : 0) ||
   (b.quality || 0) - (a.quality || 0) ||
-  isDirect(a) - isDirect(b);
+  linkRank(a) - linkRank(b);
 
 // --- search: no AI, no service. Diacritics, case and one-letter typos don't matter.
 export const norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();

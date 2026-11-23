@@ -98,7 +98,7 @@ Dacă vrei s-o adaugi tu, nu trebuie să modifici nicio pagină. Catalogul e for
 | `collections.json` | discuri, serii sau playlisturi, cu ordinea lor |
 | `wiki.json` | fotografii și linkuri spre Wikipedia și Goodreads pentru oameni și cărți; generat de `node scripts/wiki.js` din Wikidata și completările verificate din `wiki-manual.json` |
 
-O poveste nouă, cu o înregistrare de pe Internet Archive:
+O poveste nouă, cu o înregistrare:
 
 ```jsonc
 // stories.json
@@ -110,8 +110,8 @@ O poveste nouă, cu o înregistrare de pe Internet Archive:
 { "id": "ursul-pacalit-disc", "storyId": "ursul-pacalit", "title": "Ursul păcălit de vulpe, regia …",
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
-    { "type": "archive", "id": "IDENTIFICATOR_ARCHIVE", "file": "fisier.mp4" },
-    { "type": "youtube", "id": "ID_VIDEO_11", "via": "numele canalului" }
+    { "type": "youtube", "id": "ID_VIDEO_11", "via": "numele canalului" },
+    { "type": "archive", "id": "IDENTIFICATOR_ARCHIVE", "file": "fisier.mp4" }
   ],
   "duration": 597, "year": 1965,
   "kind": "teatru-radiofonic", "voices": "distributie", "sfx": "discrete", "music": "ambientala",
@@ -123,7 +123,7 @@ O poveste nouă, cu o înregistrare de pe Internet Archive:
 
 Reguli:
 
-- **O producție înseamnă o singură înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`, iar playerul trece la următorul dacă primul nu mai merge. O sursă în plus e binevenită, pentru că povestea pornește și când una dispare. Primul vine linkul direct, fără reclame (Internet Archive sau fișier audio), apoi YouTube.
+- **O producție înseamnă o singură înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`, iar playerul trece la următorul dacă primul nu mai merge. O sursă în plus e binevenită, pentru că povestea pornește și când una dispare. Ordinea preferată e audio direct, apoi YouTube, iar Internet Archive la final ca rezervă (înregistrările de pe Internet Archive sunt adesea transferuri de amator, pe când celelalte surse au de obicei sunet de studio).
 - **Ce nu știi, lași gol.** Câmpurile lipsă nu apar în pagină.
 - **Ce e ghicit se trece în `estimated`.** Pagina arată un „≈” lângă valoarea respectivă.
 - `duration` e în secunde. Când o înregistrare cuprinde mai multe povești, fiecare poveste intră separat, cu `start` și `end` (în secunde) verificate, astfel încât playerul să pornească singur de unde începe povestea aleasă și să se oprească la finalul ei.

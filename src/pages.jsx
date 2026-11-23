@@ -408,8 +408,6 @@ export function VersionPage({ id }) {
   const person = (n) => <PersonLink name={n} />;
   const others = (versionsByStory.get(story.id) || []).filter((x) => x.id !== v.id);
   const p = s.player;
-  const activeIdx = p.id === v.id ? p.link : 0;
-  const activeLink = v.links[activeIdx] || v.links[0];
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
@@ -440,7 +438,6 @@ export function VersionPage({ id }) {
             {['kind', 'voices', 'music', 'sfx'].map((k) => <><dt>{t.facts[k]}</dt><dd><a href={find(k, v[k])}>{label(k, v[k], lang)}</a>{est(k)}</dd></>)}
             <dt>{t.facts.moods}</dt><dd>{v.moods.map((m, i) => <>{i ? ', ' : ''}<a href={find('mood', m)}>{label('moods', m, lang)}</a></>)}{est('moods')}</dd>
             <dt>{t.facts.age}</dt><dd>{t.ageFrom(v.age)}{est('age')}</dd>
-            <dt>{t.facts.play}</dt><dd>{t.playIn[activeLink.type]}{v.links.length > 1 && <span class="muted"> ({t.moreMirrors(v.links.length - 1)})</span>}{activeLink.type === 'youtube' && <small class="muted block">{t.ytNote}</small>}</dd>
             <dt>{t.facts.source}</dt><dd><a href={`/sursa/${src.id}`}>{src.name}</a></dd>
             {col && <><dt>{t.facts.disc}</dt><dd>{col.c.code ? <><a href={`/colectie/${col.c.id}`}>{col.c.code}</a> · {col.c.title}</> : <a href={`/colectie/${col.c.id}`}>{col.c.title}</a>}</dd></>}
             <dt>{t.facts.links}</dt>

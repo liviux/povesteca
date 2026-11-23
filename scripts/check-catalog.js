@@ -54,6 +54,7 @@ for (const s of stories) {
   if (!versions.some((v) => v.storyId === s.id)) warn(`story ${s.id} has no recordings`);
 }
 
+const LINK_RANK = { audio: 0, youtube: 1, archive: 2, link: 3 };
 const linkOwner = new Map();
 for (const v of versions) {
   const at = `version ${v.id}`;
@@ -70,7 +71,17 @@ for (const v of versions) {
   if (v.start != null && v.end != null && v.end <= v.start) err(`${at}: end before start`);
   if ('cover' in v && v.cover !== false && (typeof v.cover !== 'string' || !/^https?:\/\//.test(v.cover))) err(`${at}: cover can only be false or an image URL`);
   if (!v.links?.length) err(`${at}: needs at least one link`);
+  let prevRank = -1;
+  let orderWarned = false;
   for (const l of v.links || []) {
+    const r = LINK_RANK[l.type];
+    if (r != null) {
+      if (r < prevRank && !orderWarned) {
+        warn(`${at}: links should be ordered audio -> youtube -> archive -> link`);
+        orderWarned = true;
+      }
+      prevRank = Math.max(prevRank, r);
+    }
     const s = l.start ?? v.start, e = l.end ?? v.end;
     if (s != null && e != null && e <= s) err(`${at}: end before start`);
     const span = s != null || e != null ? `#${s || 0}-${e || ''}` : '';

@@ -2,6 +2,15 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.15.5] - 2026-11-23
+
+### Changed
+- Internet Archive is no longer the default source when a recording is also available as direct audio or on YouTube; studio sources play first and Internet Archive stays as a fallback.
+- When a story has several recordings of the same quality, direct audio and YouTube versions now come ahead of Internet Archive ones.
+
+### Removed
+- Removed the “Playback” row and the YouTube lock-screen note from recording pages.
+
 ## [1.15.4] - 2026-11-23
 
 ### Fixed

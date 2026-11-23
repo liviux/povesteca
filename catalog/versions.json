@@ -6,6 +6,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "S7wynm_qFHc",
+    "via": "Teatru Radiofonic"
+   },
+   {
     "type": "archive",
     "id": "274175027",
     "file": "274175027.mp4"
@@ -14,11 +19,6 @@
     "type": "archive",
     "id": "274274231",
     "file": "274274231.mp4"
-   },
-   {
-    "type": "youtube",
-    "id": "S7wynm_qFHc",
-    "via": "Teatru Radiofonic"
    }
   ],
   "duration": 522,
@@ -160,11 +160,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274182236",
-    "file": "274182236.mp4"
-   },
-   {
     "type": "youtube",
     "id": "CiMMY8ebLfM",
     "via": "Teatru pe Vinil"
@@ -173,6 +168,11 @@
     "type": "youtube",
     "id": "CEaTtUhkTE4",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274182236",
+    "file": "274182236.mp4"
    }
   ],
   "duration": 1611,
@@ -250,14 +250,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274182828",
-    "file": "274182828.mp4"
-   },
-   {
     "type": "youtube",
     "id": "hnUNdjqzvl8",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274182828",
+    "file": "274182828.mp4"
    }
   ],
   "duration": 1413,
@@ -425,6 +425,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "Sv8xYPywjRk",
+    "via": "Ady Magdici"
+   },
+   {
     "type": "archive",
     "id": "302214676",
     "file": "302214676.mp4"
@@ -433,11 +438,6 @@
     "type": "archive",
     "id": "304479618",
     "file": "304479618.mp4"
-   },
-   {
-    "type": "youtube",
-    "id": "Sv8xYPywjRk",
-    "via": "Ady Magdici"
    }
   ],
   "duration": 267,
@@ -480,11 +480,6 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "274172657",
-    "file": "274172657.mp4"
-   },
-   {
     "type": "youtube",
     "id": "K4puPnROakc"
    },
@@ -497,6 +492,11 @@
     "type": "youtube",
     "id": "KKZ3_ETKUQM",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274172657",
+    "file": "274172657.mp4"
    }
   ],
   "duration": 3381,
@@ -580,14 +580,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274208499",
-    "file": "274208499.mp4"
-   },
-   {
     "type": "youtube",
     "id": "ZbGPyvU3COI",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274208499",
+    "file": "274208499.mp4"
    }
   ],
   "duration": 1516,
@@ -674,14 +674,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274216637",
-    "file": "274216637.mp4"
-   },
-   {
     "type": "youtube",
     "id": "lmW1hAwwLmE",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "274216637",
+    "file": "274216637.mp4"
    }
   ],
   "duration": 1656,
@@ -792,14 +792,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274216143",
-    "file": "274216143.mp4"
-   },
-   {
     "type": "youtube",
     "id": "P7XfFd_Hu9c",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "274216143",
+    "file": "274216143.mp4"
    }
   ],
   "duration": 1651,
@@ -883,14 +883,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274203422",
-    "file": "274203422.mp4"
-   },
-   {
     "type": "youtube",
     "id": "BOErenZ31aY",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274203422",
+    "file": "274203422.mp4"
    }
   ],
   "duration": 1555,
@@ -981,11 +981,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274211268",
-    "file": "274211268.mp4"
-   },
-   {
     "type": "youtube",
     "id": "N35BVQ61H3Y",
     "via": "Teatru Radiofonic"
@@ -994,6 +989,11 @@
     "type": "youtube",
     "id": "5PlJoYcOQr0",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274211268",
+    "file": "274211268.mp4"
    }
   ],
   "duration": 1580,
@@ -1085,6 +1085,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "FnHhuQvfKCs",
+    "via": "Teatru pe Vinil"
+   },
+   {
     "type": "archive",
     "id": "274208898",
     "file": "274208898.mp4"
@@ -1093,11 +1098,6 @@
     "type": "archive",
     "id": "DoiCopiiCuParulDeAurPetreIspirescu",
     "file": "Doi copii cu parul de aur - Petre Ispirescu.mp3"
-   },
-   {
-    "type": "youtube",
-    "id": "FnHhuQvfKCs",
-    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 1304,
@@ -1325,14 +1325,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274210241",
-    "file": "274210241.mp4"
-   },
-   {
     "type": "youtube",
     "id": "7smwXrsyytk",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274210241",
+    "file": "274210241.mp4"
    }
   ],
   "duration": 1409,
@@ -1415,20 +1415,10 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274170633",
-    "file": "274170633.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://static.srr.ro/files/AUDIO/2021/2021-01/2021-01-15/01_fat_frumos_din_lacrima.mp3",
     "page": "https://radio-arhive.ro/articol/teatrul-naional-radiofonic-pentru-copii-mihai-eminescu-fat-frumos-din-lacrima-1965/2950191/5171/2",
     "via": "Arhiva Radio România"
-   },
-   {
-    "type": "archive",
-    "id": "FatFrumosDinLacrimaMihaiEminescu",
-    "file": "Fat-Frumos din Lacrima - Mihai Eminescu.mp3"
    },
    {
     "type": "youtube",
@@ -1439,6 +1429,16 @@
     "type": "youtube",
     "id": "UbRJX3HKrUI",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274170633",
+    "file": "274170633.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "FatFrumosDinLacrimaMihaiEminescu",
+    "file": "Fat-Frumos din Lacrima - Mihai Eminescu.mp3"
    }
   ],
   "duration": 2811,
@@ -1546,11 +1546,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274288608",
-    "file": "274288608.mp4"
-   },
-   {
     "type": "youtube",
     "id": "MuTcbjG8XEk",
     "via": "Teatru pe Vinil"
@@ -1564,6 +1559,11 @@
     "type": "youtube",
     "id": "qdxx4avoPJc",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274288608",
+    "file": "274288608.mp4"
    }
   ],
   "duration": 1379,
@@ -1644,14 +1644,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274190499",
-    "file": "274190499.mp4"
-   },
-   {
     "type": "youtube",
     "id": "PnKmkjs21sM",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "274190499",
+    "file": "274190499.mp4"
    }
   ],
   "duration": 1646,
@@ -1725,14 +1725,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274218341",
-    "file": "274218341.mp4"
-   },
-   {
     "type": "youtube",
     "id": "Kzm4Ws9_MyE",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "274218341",
+    "file": "274218341.mp4"
    }
   ],
   "duration": 1574,
@@ -1831,16 +1831,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274267374",
-    "file": "274267374.mp4"
-   },
-   {
-    "type": "archive",
-    "id": "274257789",
-    "file": "274257789.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://static.srr.ro/audio/articles/5171/art-audio-1991191-a.fram.mp3",
     "page": "https://radio-arhive.ro/articol/teatrul-naional-radiofonic-pentru-copii-cezar-petrescu-fram-ursul-polar-1958/1991191/5171/2",
@@ -1855,6 +1845,16 @@
     "type": "youtube",
     "id": "BvbLxfL53Sk",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "274267374",
+    "file": "274267374.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "274257789",
+    "file": "274257789.mp4"
    }
   ],
   "duration": 1754,
@@ -1955,16 +1955,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274243811",
-    "file": "274243811.mp4"
-   },
-   {
-    "type": "archive",
-    "id": "CarteaCuJucariiPovestiVinilAudio",
-    "file": "Cartea cu jucarii (Povesti vinil audio).mp3"
-   },
-   {
     "type": "youtube",
     "id": "l1irXCEVIqo",
     "via": "Teatru Radiofonic"
@@ -1973,6 +1963,16 @@
     "type": "youtube",
     "id": "1sXY9jy0V3o",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "274243811",
+    "file": "274243811.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "CarteaCuJucariiPovestiVinilAudio",
+    "file": "Cartea cu jucarii (Povesti vinil audio).mp3"
    }
   ],
   "duration": 3123,
@@ -2135,14 +2135,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302211761",
-    "file": "302211761.mp4"
-   },
-   {
     "type": "youtube",
     "id": "aW2OVcgBR2Y",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302211761",
+    "file": "302211761.mp4"
    }
   ],
   "duration": 2929,
@@ -2227,16 +2227,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304114329",
-    "file": "304114329.mp4"
-   },
-   {
-    "type": "archive",
-    "id": "ScufitaRosieDeFratiiGrimmMuzicalInregistrareVinilCuIurieDarie1911min",
-    "file": "Scufita Rosie  -de- Fratii Grimm   - muzical  -  Inregistrare vinil - cu Iurie Darie -(19-11min)-.mp3"
-   },
-   {
     "type": "youtube",
     "id": "DYMxmnpCFUo",
     "via": "Electrecord"
@@ -2245,6 +2235,16 @@
     "type": "youtube",
     "id": "hEV4vXfymcQ",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "304114329",
+    "file": "304114329.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "ScufitaRosieDeFratiiGrimmMuzicalInregistrareVinilCuIurieDarie1911min",
+    "file": "Scufita Rosie  -de- Fratii Grimm   - muzical  -  Inregistrare vinil - cu Iurie Darie -(19-11min)-.mp3"
    }
   ],
   "duration": 1134,
@@ -2336,6 +2336,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "tCw4s_1dD2k",
+    "via": "Teatru pe Vinil"
+   },
+   {
     "type": "archive",
     "id": "304135308",
     "file": "304135308.mp4"
@@ -2344,11 +2349,6 @@
     "type": "archive",
     "id": "304157433",
     "file": "304157433.mp4"
-   },
-   {
-    "type": "youtube",
-    "id": "tCw4s_1dD2k",
-    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 1962,
@@ -2500,11 +2500,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304131063",
-    "file": "304131063.mp4"
-   },
-   {
     "type": "youtube",
     "id": "MQKniwPJlCg",
     "via": "Teatru pe Vinil"
@@ -2513,6 +2508,11 @@
     "type": "youtube",
     "id": "XrZzfF-7ciE",
     "via": "Electrecord"
+   },
+   {
+    "type": "archive",
+    "id": "304131063",
+    "file": "304131063.mp4"
    }
   ],
   "duration": 1642,
@@ -2587,14 +2587,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304164161",
-    "file": "304164161.mp4"
-   },
-   {
     "type": "youtube",
     "id": "FUMIbKuYKpI",
     "via": "Electrecord"
+   },
+   {
+    "type": "archive",
+    "id": "304164161",
+    "file": "304164161.mp4"
    }
   ],
   "duration": 1008,
@@ -2673,16 +2673,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303905223",
-    "file": "303905223.mp4"
-   },
-   {
-    "type": "archive",
-    "id": "304098791",
-    "file": "304098791.mp4"
-   },
-   {
     "type": "youtube",
     "id": "pN2okff-tns",
     "via": "Electrecord"
@@ -2696,6 +2686,16 @@
     "type": "youtube",
     "id": "izjRDXvKF-c",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303905223",
+    "file": "303905223.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "304098791",
+    "file": "304098791.mp4"
    }
   ],
   "duration": 1384,
@@ -2885,11 +2885,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303905551",
-    "file": "303905551.mp4"
-   },
-   {
     "type": "youtube",
     "id": "H5GXQcjYSCA",
     "via": "Electrecord"
@@ -2898,6 +2893,11 @@
     "type": "youtube",
     "id": "A1DLHf_PWco",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303905551",
+    "file": "303905551.mp4"
    }
   ],
   "duration": 1205,
@@ -2968,11 +2968,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303911754",
-    "file": "303911754.mp4"
-   },
-   {
     "type": "youtube",
     "id": "uKj3vBarxEw",
     "via": "Teatru pe Vinil"
@@ -2981,6 +2976,11 @@
     "type": "youtube",
     "id": "qk6T9xAjN08",
     "via": "Electrecord"
+   },
+   {
+    "type": "archive",
+    "id": "303911754",
+    "file": "303911754.mp4"
    }
   ],
   "duration": 2368,
@@ -3137,6 +3137,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "atShKnWCn6Y",
+    "via": "Teatru pe Vinil"
+   },
+   {
     "type": "archive",
     "id": "303615106",
     "file": "303615106.mp4"
@@ -3145,11 +3150,6 @@
     "type": "archive",
     "id": "303875484",
     "file": "303875484.mp4"
-   },
-   {
-    "type": "youtube",
-    "id": "atShKnWCn6Y",
-    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 1584,
@@ -3348,14 +3348,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303615461",
-    "file": "303615461.mp4"
-   },
-   {
     "type": "youtube",
     "id": "2woaf425K-4",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303615461",
+    "file": "303615461.mp4"
    }
   ],
   "duration": 1509,
@@ -3423,14 +3423,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303811301",
-    "file": "303811301.mp4"
-   },
-   {
     "type": "youtube",
     "id": "yt7AOxg2qww",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303811301",
+    "file": "303811301.mp4"
    }
   ],
   "duration": 1378,
@@ -3513,14 +3513,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "HansChristianAndersenMicaSirena",
-    "file": "Hans_Christian_Andersen_-_Mica_Sirena.Mp3"
-   },
-   {
     "type": "youtube",
     "id": "DbsESgdXVaY",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "HansChristianAndersenMicaSirena",
+    "file": "Hans_Christian_Andersen_-_Mica_Sirena.Mp3"
    }
   ],
   "cover": "https://i.ytimg.com/vi/DbsESgdXVaY/hqdefault.jpg",
@@ -3549,14 +3549,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303827073",
-    "file": "303827073.mp4"
-   },
-   {
     "type": "youtube",
     "id": "s5NDoI7mHJM",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303827073",
+    "file": "303827073.mp4"
    }
   ],
   "duration": 1630,
@@ -3686,14 +3686,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303809043",
-    "file": "303809043.mp4"
-   },
-   {
     "type": "youtube",
     "id": "SyvBai2cesc",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303809043",
+    "file": "303809043.mp4"
    }
   ],
   "duration": 1462,
@@ -3764,14 +3764,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303811711",
-    "file": "303811711.mp4"
-   },
-   {
     "type": "youtube",
     "id": "AwuAA_iFXcg",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303811711",
+    "file": "303811711.mp4"
    }
   ],
   "duration": 1603,
@@ -3862,14 +3862,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303804641",
-    "file": "303804641.mp4"
-   },
-   {
     "type": "youtube",
     "id": "79jcBFLOTBs",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303804641",
+    "file": "303804641.mp4"
    }
   ],
   "duration": 1657,
@@ -3968,11 +3968,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303603811",
-    "file": "303603811.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://eteatru.ro/uploads/modules/news/0/2026/5/31/387/1780216828ae0ef60e.mp3",
     "page": "https://eteatru.ro/spectacole/muck-cel-mic-de-wilhelm-hauff-id387.html",
@@ -3987,6 +3982,11 @@
     "type": "youtube",
     "id": "7yCwvT1A-DI",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303603811",
+    "file": "303603811.mp4"
    }
   ],
   "duration": 1664,
@@ -4156,11 +4156,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304106589",
-    "file": "304106589.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://eteatru.ro/uploads/modules/news/0/2026/5/31/386/178021688491ddf9b0.mp3",
     "page": "https://eteatru.ro/spectacole/povestea-califului-barza-id386.html",
@@ -4175,6 +4170,11 @@
     "type": "youtube",
     "id": "Icl3VuG5jSI",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304106589",
+    "file": "304106589.mp4"
    }
   ],
   "duration": 1504,
@@ -4262,11 +4262,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304402226",
-    "file": "304402226.mp4"
-   },
-   {
     "type": "youtube",
     "id": "9_faGh1o9gE",
     "via": "Teatru Radiofonic"
@@ -4280,6 +4275,11 @@
     "type": "youtube",
     "id": "z9xEm_jTKyA",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304402226",
+    "file": "304402226.mp4"
    }
   ],
   "duration": 4887,
@@ -4387,11 +4387,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304285346",
-    "file": "304285346.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://eteatru.ro/uploads/modules/news/0/2025/12/14/21/1765739849640d40ef.mp3",
     "page": "https://eteatru.ro/spectacole/alice-in-tara-minunilor-id21.html",
@@ -4406,6 +4401,11 @@
     "type": "youtube",
     "id": "jpJSK2btkCQ",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304285346",
+    "file": "304285346.mp4"
    }
   ],
   "duration": 3255,
@@ -4565,16 +4565,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304415371",
-    "file": "304415371.mp4"
-   },
-   {
-    "type": "archive",
-    "id": "y-2mate.com-mary-poppins-poveste-audio-vinil-pamela-l.-travers-oc-0-h-3l-eu-ja",
-    "file": "y2mate.com - Mary Poppins (Poveste audio vinil ) Pamela L. Travers_Oc0H-3lEuJA.mp3"
-   },
-   {
     "type": "youtube",
     "id": "k7JotuYD1cE",
     "via": "Teatru Radiofonic"
@@ -4583,6 +4573,16 @@
     "type": "youtube",
     "id": "MUA4t_9Dghc",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "304415371",
+    "file": "304415371.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-mary-poppins-poveste-audio-vinil-pamela-l.-travers-oc-0-h-3l-eu-ja",
+    "file": "y2mate.com - Mary Poppins (Poveste audio vinil ) Pamela L. Travers_Oc0H-3lEuJA.mp3"
    }
   ],
   "duration": 3120,
@@ -4654,6 +4654,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "sc1VE_nK26U",
+    "via": "Teatru pe Vinil"
+   },
+   {
     "type": "archive",
     "id": "303976758",
     "file": "303976758.mp4"
@@ -4662,11 +4667,6 @@
     "type": "archive",
     "id": "304094876",
     "file": "304094876.mp4"
-   },
-   {
-    "type": "youtube",
-    "id": "sc1VE_nK26U",
-    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 1916,
@@ -4864,14 +4864,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304105121",
-    "file": "304105121.mp4"
-   },
-   {
     "type": "youtube",
     "id": "fyXM30mJM40",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304105121",
+    "file": "304105121.mp4"
    }
   ],
   "duration": 3056,
@@ -4978,14 +4978,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303837714",
-    "file": "303837714.mp4"
-   },
-   {
     "type": "youtube",
     "id": "bsHqRNDdUWI",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303837714",
+    "file": "303837714.mp4"
    }
   ],
   "duration": 1558,
@@ -5081,14 +5081,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304250671",
-    "file": "304250671.mp4"
-   },
-   {
     "type": "youtube",
     "id": "EY0_BQlmsnc",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304250671",
+    "file": "304250671.mp4"
    }
   ],
   "duration": 940,
@@ -5236,11 +5236,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303886426",
-    "file": "303886426.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://static.srr.ro/audio/articles/5171/art-audio-1991181-a._cipollino.mp3",
     "page": "https://radio-arhive.ro/articol/teatrul-naional-radiofonic-pentru-copii-gianni-rodari-cipollino-1961/1991181/5171/2",
@@ -5253,14 +5248,19 @@
     "via": "eTeatru"
    },
    {
-    "type": "archive",
-    "id": "aventurile-lui-cippolino-povesti-audio-vinil",
-    "file": "Aventurile lui Cippolino (povesti audio vinil).mp3"
-   },
-   {
     "type": "youtube",
     "id": "WbxZbqc7ChI",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303886426",
+    "file": "303886426.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "aventurile-lui-cippolino-povesti-audio-vinil",
+    "file": "Aventurile lui Cippolino (povesti audio vinil).mp3"
    }
   ],
   "duration": 2779,
@@ -5351,11 +5351,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304399773",
-    "file": "304399773.mp4"
-   },
-   {
     "type": "youtube",
     "id": "rZYZd7oajI0",
     "via": "Teatru pe Vinil"
@@ -5369,6 +5364,11 @@
     "type": "youtube",
     "id": "Jp8e968mSZ8",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304399773",
+    "file": "304399773.mp4"
    }
   ],
   "duration": 3269,
@@ -5462,14 +5462,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303843114",
-    "file": "303843114.mp4"
-   },
-   {
     "type": "youtube",
     "id": "OJtygI3nUnw",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303843114",
+    "file": "303843114.mp4"
    }
   ],
   "duration": 1660,
@@ -5557,14 +5557,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303801916",
-    "file": "303801916.mp4"
-   },
-   {
     "type": "youtube",
     "id": "GdRaLtL8i40",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303801916",
+    "file": "303801916.mp4"
    }
   ],
   "duration": 898,
@@ -5735,11 +5735,6 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "303841074",
-    "file": "303841074.mp4"
-   },
-   {
     "type": "youtube",
     "id": "mT2BWbzvSwY"
    },
@@ -5752,6 +5747,11 @@
     "type": "youtube",
     "id": "zvo-j0K3uYQ",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303841074",
+    "file": "303841074.mp4"
    }
   ],
   "duration": 3190,
@@ -5905,13 +5905,13 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
+    "type": "youtube",
+    "id": "5D82b5aQ1pw"
+   },
+   {
     "type": "archive",
     "id": "304274679",
     "file": "304274679.mp4"
-   },
-   {
-    "type": "youtube",
-    "id": "5D82b5aQ1pw"
    }
   ],
   "duration": 1844,
@@ -5960,11 +5960,6 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "y-2mate.com-aventura-cu-un-hobbit-povesti-vinil-audio-ze-ee-8-o-l-6fs",
-    "file": "y2mate.com - Aventura cu un hobbit (Povesti vinil audio )_zeEe8-oL6fs.mp3"
-   },
-   {
     "type": "youtube",
     "id": "OZwlQY8RKuU"
    },
@@ -5972,6 +5967,11 @@
     "type": "youtube",
     "id": "xzJwNg9de_A",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-aventura-cu-un-hobbit-povesti-vinil-audio-ze-ee-8-o-l-6fs",
+    "file": "y2mate.com - Aventura cu un hobbit (Povesti vinil audio )_zeEe8-oL6fs.mp3"
    }
   ],
   "duration": 3427,
@@ -6078,6 +6078,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "F-A-MRyHFUg",
+    "via": "Teatru Radiofonic"
+   },
+   {
     "type": "archive",
     "id": "304148913",
     "file": "304148913.mp4"
@@ -6086,11 +6091,6 @@
     "type": "archive",
     "id": "y-2mate.com-prichindelul-povesti-audio-vinil-q-7j-of-tv-k-34",
     "file": "y2mate.com - Prichindelul (Povești audio vinil)_q7j_ofTvK34.mp3"
-   },
-   {
-    "type": "youtube",
-    "id": "F-A-MRyHFUg",
-    "via": "Teatru Radiofonic"
    }
   ],
   "duration": 3193,
@@ -6194,11 +6194,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304452618",
-    "file": "304452618.mp4"
-   },
-   {
     "type": "youtube",
     "id": "YCCMzVvqHeI",
     "via": "Teatru pe Vinil"
@@ -6207,6 +6202,11 @@
     "type": "youtube",
     "id": "hMsnKIGJIaM",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304452618",
+    "file": "304452618.mp4"
    }
   ],
   "duration": 3134,
@@ -7274,14 +7274,14 @@
     "via": "eTeatru"
    },
    {
-    "type": "archive",
-    "id": "303849631",
-    "file": "303849631.mp4"
-   },
-   {
     "type": "youtube",
     "id": "kDmTq5dbM_s",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303849631",
+    "file": "303849631.mp4"
    }
   ],
   "duration": 3077,
@@ -13058,14 +13058,14 @@
     "via": "eTeatru"
    },
    {
-    "type": "archive",
-    "id": "IonCreangaAmintiriDinCopilarieRegiaVasileManta",
-    "file": "Ion Creanga - Amintiri din copilarie regia Vasile Manta.mp3"
-   },
-   {
     "type": "youtube",
     "id": "ZDutnigz-3I",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "IonCreangaAmintiriDinCopilarieRegiaVasileManta",
+    "file": "Ion Creanga - Amintiri din copilarie regia Vasile Manta.mp3"
    }
   ],
   "duration": 3056,
@@ -13167,11 +13167,6 @@
     "via": "eTeatru"
    },
    {
-    "type": "archive",
-    "id": "IonCreangaPovesteaLuiStanPatituRegiaVasileManta",
-    "file": "Ion Creanga - Povestea lui Stan Patitu regia Vasile Manta.mp3"
-   },
-   {
     "type": "youtube",
     "id": "a0-NzciqRdE",
     "via": "Ady Magdici"
@@ -13180,6 +13175,11 @@
     "type": "youtube",
     "id": "VPfu5HFRhWA",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "IonCreangaPovesteaLuiStanPatituRegiaVasileManta",
+    "file": "Ion Creanga - Povestea lui Stan Patitu regia Vasile Manta.mp3"
    }
   ],
   "duration": 3139,
@@ -16904,14 +16904,14 @@
     "via": "eTeatru"
    },
    {
-    "type": "archive",
-    "id": "SoldatelulDePlumbPovestiVinilAudio",
-    "file": "Soldatelul de plumb (Povesti vinil audio).mp3"
-   },
-   {
     "type": "youtube",
     "id": "UE2ASAYExBs",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "SoldatelulDePlumbPovestiVinilAudio",
+    "file": "Soldatelul de plumb (Povesti vinil audio).mp3"
    }
   ],
   "duration": 3214,
@@ -17790,11 +17790,6 @@
     "via": "eTeatru"
    },
    {
-    "type": "archive",
-    "id": "PrintSiCersetorPovestiVinilAudio",
-    "file": "Print si Cersetor (Povesti vinil audio).mp3"
-   },
-   {
     "type": "youtube",
     "id": "6NplE6RnmiM",
     "via": "Teatru Subtitrat"
@@ -17803,6 +17798,11 @@
     "type": "youtube",
     "id": "-IzqoSdNbEE",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "PrintSiCersetorPovestiVinilAudio",
+    "file": "Print si Cersetor (Povesti vinil audio).mp3"
    }
   ],
   "duration": 6253,
@@ -17974,14 +17974,14 @@
     "via": "eTeatru"
    },
    {
-    "type": "archive",
-    "id": "304406431",
-    "file": "304406431.mp4"
-   },
-   {
     "type": "youtube",
     "id": "TnqbxPEWI6Q",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304406431",
+    "file": "304406431.mp4"
    }
   ],
   "duration": 3290,
@@ -23870,14 +23870,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "275285964",
-    "file": "275285964.mp4"
-   },
-   {
     "type": "youtube",
     "id": "JfLSsxgRtWc",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "275285964",
+    "file": "275285964.mp4"
    }
   ],
   "duration": 1616,
@@ -24285,14 +24285,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303909414",
-    "file": "303909414.mp4"
-   },
-   {
     "type": "youtube",
     "id": "0PLmiQhOAXI",
     "via": "Electrecord"
+   },
+   {
+    "type": "archive",
+    "id": "303909414",
+    "file": "303909414.mp4"
    }
   ],
   "duration": 918,
@@ -24488,14 +24488,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302237951",
-    "file": "302237951.mp4"
-   },
-   {
     "type": "youtube",
     "id": "9ZGxaOKcOnA",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "302237951",
+    "file": "302237951.mp4"
    }
   ],
   "duration": 1538,
@@ -24575,14 +24575,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303914291",
-    "file": "303914291.mp4"
-   },
-   {
     "type": "youtube",
     "id": "cyuakueuOOQ",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303914291",
+    "file": "303914291.mp4"
    }
   ],
   "duration": 3990,
@@ -24684,14 +24684,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304144586_202406",
-    "file": "304144586.mp4"
-   },
-   {
     "type": "youtube",
     "id": "pla8HrRhZZ4",
     "via": "Electrecord"
+   },
+   {
+    "type": "archive",
+    "id": "304144586_202406",
+    "file": "304144586.mp4"
    }
   ],
   "duration": 861,
@@ -24860,11 +24860,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303829989",
-    "file": "303829989.mp4"
-   },
-   {
     "type": "youtube",
     "id": "Pn7T5NrSaIs",
     "via": "Teatru pe Vinil"
@@ -24873,6 +24868,11 @@
     "type": "youtube",
     "id": "9dG9nUxddXs",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303829989",
+    "file": "303829989.mp4"
    }
   ],
   "duration": 1640,
@@ -25242,14 +25242,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303805861",
-    "file": "303805861.mp4"
-   },
-   {
     "type": "youtube",
     "id": "XR9F6yOs2Ns",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303805861",
+    "file": "303805861.mp4"
    }
   ],
   "duration": 397,
@@ -25337,14 +25337,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274205244",
-    "file": "274205244.mp4"
-   },
-   {
     "type": "youtube",
     "id": "fJqzBuw2FLg",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "274205244",
+    "file": "274205244.mp4"
    }
   ],
   "duration": 1655,
@@ -25463,14 +25463,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302187633",
-    "file": "302187633.mp4"
-   },
-   {
     "type": "youtube",
     "id": "MAC2SJzhTvA",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302187633",
+    "file": "302187633.mp4"
    }
   ],
   "duration": 1706,
@@ -25740,11 +25740,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303919616",
-    "file": "303919616.mp4"
-   },
-   {
     "type": "youtube",
     "id": "53lf1JMB4so",
     "via": "Teatru Radiofonic"
@@ -25753,6 +25748,11 @@
     "type": "youtube",
     "id": "4eYVBl4D9XY",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "303919616",
+    "file": "303919616.mp4"
    }
   ],
   "duration": 5027,
@@ -25907,6 +25907,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "Clu8-JISfGw",
+    "via": "Teatru Radiofonic"
+   },
+   {
     "type": "archive",
     "id": "303956058",
     "file": "303956058.mp4"
@@ -25915,11 +25920,6 @@
     "type": "archive",
     "id": "y-2mate.com-capitanul-hatteras-jules-verne-povesti-vinil-audio-aa-exv-nd-xia",
     "file": "y2mate.com - Capitanul Hatteras - Jules Verne (Povesti vinil audio)_AaExv_NdXIA.mp3"
-   },
-   {
-    "type": "youtube",
-    "id": "Clu8-JISfGw",
-    "via": "Teatru Radiofonic"
    }
   ],
   "duration": 3136,
@@ -26504,14 +26504,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302200668",
-    "file": "302200668.mp4"
-   },
-   {
     "type": "youtube",
     "id": "ppI3qGBUvMY",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "302200668",
+    "file": "302200668.mp4"
    }
   ],
   "duration": 3356,
@@ -27013,14 +27013,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304240961",
-    "file": "304240961.mp4"
-   },
-   {
     "type": "youtube",
     "id": "mGHY43QriqA",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304240961",
+    "file": "304240961.mp4"
    }
   ],
   "duration": 2494,
@@ -27202,14 +27202,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304270951",
-    "file": "304270951.mp4"
-   },
-   {
     "type": "youtube",
     "id": "tNImG3RrAe0",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "304270951",
+    "file": "304270951.mp4"
    }
   ],
   "duration": 3090,
@@ -27339,11 +27339,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303932401",
-    "file": "303932401.mp4"
-   },
-   {
     "type": "youtube",
     "id": "Zs31vowtqSI",
     "via": "Teatru Radiofonic"
@@ -27352,6 +27347,11 @@
     "type": "youtube",
     "id": "CuIA_il58ZQ",
     "via": "Teatru Subtitrat"
+   },
+   {
+    "type": "archive",
+    "id": "303932401",
+    "file": "303932401.mp4"
    }
   ],
   "duration": 3161,
@@ -27429,14 +27429,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303968246",
-    "file": "303968246.mp4"
-   },
-   {
     "type": "youtube",
     "id": "88SC2F2H3Hk",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303968246",
+    "file": "303968246.mp4"
    }
   ],
   "duration": 3249,
@@ -27538,14 +27538,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304127876",
-    "file": "304127876.mp4"
-   },
-   {
     "type": "youtube",
     "id": "JQVnX5c5xFE",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "304127876",
+    "file": "304127876.mp4"
    }
   ],
   "duration": 1564,
@@ -27745,6 +27745,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "pOmJKdIYcdE",
+    "via": "Teatru Subtitrat"
+   },
+   {
     "type": "archive",
     "id": "274164026",
     "file": "274164026.mp4"
@@ -27753,11 +27758,6 @@
     "type": "archive",
     "id": "y-2mate.com-papuciada-povesti-audio-vinil-de-camil-petrescu-p-zchb-zke-lu",
     "file": "y2mate.com - Papuciada (povesti audio vinil) de Camil Petrescu__pZCHbZkeLU.mp3"
-   },
-   {
-    "type": "youtube",
-    "id": "pOmJKdIYcdE",
-    "via": "Teatru Subtitrat"
    }
   ],
   "duration": 3335,
@@ -27903,13 +27903,13 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "XQtw-W4LQoE"
+   },
+   {
     "type": "archive",
     "id": "304115193",
     "file": "304115193.mp4"
-   },
-   {
-    "type": "youtube",
-    "id": "XQtw-W4LQoE"
    }
   ],
   "duration": 891,
@@ -27962,14 +27962,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274229703",
-    "file": "274229703.mp4"
-   },
-   {
     "type": "youtube",
     "id": "txprtJ9AI5s",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274229703",
+    "file": "274229703.mp4"
    }
   ],
   "duration": 1639,
@@ -28373,14 +28373,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302030643",
-    "file": "302030643.mp4"
-   },
-   {
     "type": "youtube",
     "id": "gQ_u_BDfaeA",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "302030643",
+    "file": "302030643.mp4"
    }
   ],
   "duration": 1448,
@@ -28481,14 +28481,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303552864",
-    "file": "303552864.mp4"
-   },
-   {
     "type": "youtube",
     "id": "7HVmnmldz4c",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303552864",
+    "file": "303552864.mp4"
    }
   ],
   "duration": 1504,
@@ -28566,14 +28566,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303577719",
-    "file": "303577719.mp4"
-   },
-   {
     "type": "youtube",
     "id": "YJtXPZtOBbg",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303577719",
+    "file": "303577719.mp4"
    }
   ],
   "duration": 1285,
@@ -28681,14 +28681,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303868809",
-    "file": "303868809.mp4"
-   },
-   {
     "type": "youtube",
     "id": "NntBVWOtLAk",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303868809",
+    "file": "303868809.mp4"
    }
   ],
   "duration": 1660,
@@ -28919,14 +28919,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "301971069",
-    "file": "301971069.mp4"
-   },
-   {
     "type": "youtube",
     "id": "qcSTvk1Vzus",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "301971069",
+    "file": "301971069.mp4"
    }
   ],
   "duration": 1569,
@@ -29011,11 +29011,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303620761",
-    "file": "303620761.mp4"
-   },
-   {
     "type": "youtube",
     "id": "WHRsepQs5fk",
     "via": "Teatru pe Vinil"
@@ -29024,6 +29019,11 @@
     "type": "youtube",
     "id": "UHb2X5mDE50",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303620761",
+    "file": "303620761.mp4"
    }
   ],
   "duration": 1464,
@@ -29118,14 +29118,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303621159",
-    "file": "303621159.mp4"
-   },
-   {
     "type": "youtube",
     "id": "A8VREXhUFZk",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303621159",
+    "file": "303621159.mp4"
    }
   ],
   "duration": 1619,
@@ -29214,14 +29214,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303805261",
-    "file": "303805261.mp4"
-   },
-   {
     "type": "youtube",
     "id": "m9VkjXsNkiM",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303805261",
+    "file": "303805261.mp4"
    }
   ],
   "duration": 1117,
@@ -29387,14 +29387,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302031198",
-    "file": "302031198.mp4"
-   },
-   {
     "type": "youtube",
     "id": "metwPfMpiTw",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302031198",
+    "file": "302031198.mp4"
    }
   ],
   "duration": 1416,
@@ -29559,14 +29559,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303946546",
-    "file": "303946546.mp4"
-   },
-   {
     "type": "youtube",
     "id": "00dtgut5Rgo",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303946546",
+    "file": "303946546.mp4"
    }
   ],
   "duration": 3308,
@@ -29661,11 +29661,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274191467_202406",
-    "file": "274191467.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20466_03.mp3",
     "page": "https://culturalia.ro/entities/501d64df-9041-4290-8c8f-a7899096f414/view",
@@ -29675,6 +29670,11 @@
     "type": "youtube",
     "id": "06HWjkvQriw",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274191467_202406",
+    "file": "274191467.mp4"
    }
   ],
   "duration": 509,
@@ -29881,14 +29881,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303863996",
-    "file": "303863996.mp4"
-   },
-   {
     "type": "youtube",
     "id": "zd8ehzaFo1U",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303863996",
+    "file": "303863996.mp4"
    }
   ],
   "duration": 1259,
@@ -30194,14 +30194,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302363446",
-    "file": "302363446.mp4"
-   },
-   {
     "type": "youtube",
     "id": "am7k3PtVjuk",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "302363446",
+    "file": "302363446.mp4"
    }
   ],
   "duration": 1651,
@@ -30280,14 +30280,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302367281",
-    "file": "302367281.mp4"
-   },
-   {
     "type": "youtube",
     "id": "de1ffrWT0HY",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302367281",
+    "file": "302367281.mp4"
    }
   ],
   "duration": 1120,
@@ -30496,14 +30496,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303837976",
-    "file": "303837976.mp4"
-   },
-   {
     "type": "youtube",
     "id": "r2kjkmAGyr8",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303837976",
+    "file": "303837976.mp4"
    }
   ],
   "duration": 1385,
@@ -30573,14 +30573,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303941439",
-    "file": "303941439.mp4"
-   },
-   {
     "type": "youtube",
     "id": "40VJKgg64Zo",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303941439",
+    "file": "303941439.mp4"
    }
   ],
   "duration": 2730,
@@ -30647,14 +30647,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302236209",
-    "file": "302236209.mp4"
-   },
-   {
     "type": "youtube",
     "id": "4rk6Ye0ytcw",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "302236209",
+    "file": "302236209.mp4"
    }
   ],
   "duration": 3135,
@@ -31074,14 +31074,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "301994169",
-    "file": "301994169.mp4"
-   },
-   {
     "type": "youtube",
     "id": "oLMong0O0YI",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "301994169",
+    "file": "301994169.mp4"
    }
   ],
   "duration": 547,
@@ -31167,14 +31167,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302214271",
-    "file": "302214271.mp4"
-   },
-   {
     "type": "youtube",
     "id": "deJAXCnG4Mk",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "302214271",
+    "file": "302214271.mp4"
    }
   ],
   "duration": 621,
@@ -31217,14 +31217,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302532933",
-    "file": "302532933.mp4"
-   },
-   {
     "type": "youtube",
     "id": "omAT1oDEb0Q",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302532933",
+    "file": "302532933.mp4"
    }
   ],
   "duration": 1487,
@@ -31446,14 +31446,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303859389",
-    "file": "303859389.mp4"
-   },
-   {
     "type": "youtube",
     "id": "VenwKg0-i4M",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303859389",
+    "file": "303859389.mp4"
    }
   ],
   "duration": 1669,
@@ -31966,14 +31966,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302611224",
-    "file": "302611224.mp4"
-   },
-   {
     "type": "youtube",
     "id": "DwPadHgcKz8",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302611224",
+    "file": "302611224.mp4"
    }
   ],
   "duration": 1436,
@@ -32079,14 +32079,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303593913",
-    "file": "303593913.mp4"
-   },
-   {
     "type": "youtube",
     "id": "JoB1sPg0MWM",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303593913",
+    "file": "303593913.mp4"
    }
   ],
   "duration": 1661,
@@ -32157,14 +32157,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304408846",
-    "file": "304408846.mp4"
-   },
-   {
     "type": "youtube",
     "id": "CSeurOM0rfw",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "304408846",
+    "file": "304408846.mp4"
    }
   ],
   "duration": 3171,
@@ -32426,14 +32426,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303893456",
-    "file": "303893456.mp4"
-   },
-   {
     "type": "youtube",
     "id": "_Xb23EmKQbQ",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303893456",
+    "file": "303893456.mp4"
    }
   ],
   "duration": 1386,
@@ -32496,15 +32496,15 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304114651",
-    "file": "304114651.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://static.srr.ro/audio/articles/5051/art-audio-1977401-noapte_buna_fratiigrimm_acul_fusul_si_suveica.mp3",
     "page": "https://radio-arhive.ro/articol/noapte-buna-copii-fratii-grimm-acul-fusul-si-suveica-1959/1977401/5051/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "archive",
+    "id": "304114651",
+    "file": "304114651.mp4"
    }
   ],
   "duration": 343,
@@ -32547,14 +32547,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303585279",
-    "file": "303585279.mp4"
-   },
-   {
     "type": "youtube",
     "id": "PvT260citZY",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303585279",
+    "file": "303585279.mp4"
    }
   ],
   "duration": 1061,
@@ -32641,14 +32641,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303605701",
-    "file": "303605701.mp4"
-   },
-   {
     "type": "youtube",
     "id": "GkiFZ7Ic1eE",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303605701",
+    "file": "303605701.mp4"
    }
   ],
   "duration": 1441,
@@ -32801,14 +32801,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303593529",
-    "file": "303593529.mp4"
-   },
-   {
     "type": "youtube",
     "id": "fJTl-i8NJSY",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303593529",
+    "file": "303593529.mp4"
    }
   ],
   "duration": 1599,
@@ -32883,14 +32883,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274233512",
-    "file": "274233512.mp4"
-   },
-   {
     "type": "youtube",
     "id": "rAWdG65an9w",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "274233512",
+    "file": "274233512.mp4"
    }
   ],
   "duration": 1571,
@@ -33057,14 +33057,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "301987111",
-    "file": "301987111.mp4"
-   },
-   {
     "type": "youtube",
     "id": "w1UwR0gZD2Q",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "301987111",
+    "file": "301987111.mp4"
    }
   ],
   "duration": 1492,
@@ -33473,11 +33473,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303963821",
-    "file": "303963821.mp4"
-   },
-   {
     "type": "audio",
     "url": "https://eteatru.ro/uploads/modules/news/0/2025/12/15/44/1765800345b14598eb.mp3",
     "page": "https://eteatru.ro/spectacole/capitan-la-15-ani-id44.html",
@@ -33487,6 +33482,11 @@
     "type": "youtube",
     "id": "agT5yRICW-Y",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303963821",
+    "file": "303963821.mp4"
    }
   ],
   "duration": 3285,
@@ -33569,11 +33569,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304090848",
-    "file": "304090848.mp4"
-   },
-   {
     "type": "youtube",
     "id": "GFcEpWwpihI",
     "via": "Ady Magdici"
@@ -33582,6 +33577,11 @@
     "type": "youtube",
     "id": "SHq8EM8Zsz4",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304090848",
+    "file": "304090848.mp4"
    }
   ],
   "duration": 3085,
@@ -33708,11 +33708,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304097118",
-    "file": "304097118.mp4"
-   },
-   {
     "type": "youtube",
     "id": "4QHWDT901h8",
     "via": "Ady Magdici"
@@ -33721,6 +33716,11 @@
     "type": "youtube",
     "id": "nKtirUb5bAc",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304097118",
+    "file": "304097118.mp4"
    }
   ],
   "duration": 3138,
@@ -33820,14 +33820,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "304260781",
-    "file": "304260781.mp4"
-   },
-   {
     "type": "youtube",
     "id": "MH7PwEEGsf8",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304260781",
+    "file": "304260781.mp4"
    }
   ],
   "duration": 3317,
@@ -34026,14 +34026,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "275289513",
-    "file": "275289513.mp4"
-   },
-   {
     "type": "youtube",
     "id": "LZW9rDu43xw",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "275289513",
+    "file": "275289513.mp4"
    }
   ],
   "duration": 1454,
@@ -34116,14 +34116,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303578229",
-    "file": "303578229.mp4"
-   },
-   {
     "type": "youtube",
     "id": "fQWj_XbQxIU",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303578229",
+    "file": "303578229.mp4"
    }
   ],
   "duration": 1547,
@@ -34354,14 +34354,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303851621",
-    "file": "303851621.mp4"
-   },
-   {
     "type": "youtube",
     "id": "YHzB6IYER1M",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303851621",
+    "file": "303851621.mp4"
    }
   ],
   "duration": 1094,
@@ -34659,14 +34659,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303809851",
-    "file": "303809851.mp4"
-   },
-   {
     "type": "youtube",
     "id": "YmB_hApCUds",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303809851",
+    "file": "303809851.mp4"
    }
   ],
   "duration": 1649,
@@ -34754,14 +34754,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303928773",
-    "file": "303928773.mp4"
-   },
-   {
     "type": "youtube",
     "id": "EJ0cGzU93cg",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303928773",
+    "file": "303928773.mp4"
    }
   ],
   "duration": 4992,
@@ -34892,14 +34892,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303972408",
-    "file": "303972408.mp4"
-   },
-   {
     "type": "youtube",
     "id": "wJ1UR3anmFg",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303972408",
+    "file": "303972408.mp4"
    }
   ],
   "duration": 6735,
@@ -35510,11 +35510,6 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "274196117",
-    "file": "274196117.mp4"
-   },
-   {
     "type": "youtube",
     "id": "O7rnfVgOTNo",
     "via": "Teatru Subtitrat"
@@ -35528,6 +35523,11 @@
     "type": "youtube",
     "id": "H0_scRRkZJU",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "274196117",
+    "file": "274196117.mp4"
    }
   ],
   "duration": 3169,
@@ -35643,6 +35643,15 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "qp3-Ylbauq0"
+   },
+   {
+    "type": "youtube",
+    "id": "awitnDdvRMc",
+    "via": "Costi Filip"
+   },
+   {
     "type": "archive",
     "id": "274273659",
     "file": "274273659.mp4"
@@ -35651,15 +35660,6 @@
     "type": "archive",
     "id": "UrsulPacalitDeVulpePovesteDeIonCreanga",
     "file": "29 -  Ursul pacalit de vulpe - poveste de Ion Creanga  - (09-59min) -.mp3"
-   },
-   {
-    "type": "youtube",
-    "id": "qp3-Ylbauq0"
-   },
-   {
-    "type": "youtube",
-    "id": "awitnDdvRMc",
-    "via": "Costi Filip"
    }
   ],
   "duration": 557,
@@ -35716,14 +35716,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "302185261",
-    "file": "302185261.mp4"
-   },
-   {
     "type": "youtube",
     "id": "x-RvD0dMOOU",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302185261",
+    "file": "302185261.mp4"
    }
   ],
   "duration": 1635,
@@ -35812,14 +35812,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303944411",
-    "file": "303944411.mp4"
-   },
-   {
     "type": "youtube",
     "id": "-sVCH-OfToY",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "303944411",
+    "file": "303944411.mp4"
    }
   ],
   "duration": 3342,
@@ -36207,14 +36207,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303897324",
-    "file": "303897324.mp4"
-   },
-   {
     "type": "youtube",
     "id": "PMM_fA0FDpU",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "303897324",
+    "file": "303897324.mp4"
    }
   ],
   "duration": 3313,
@@ -36810,14 +36810,14 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
-    "type": "archive",
-    "id": "303858759",
-    "file": "303858759.mp4"
-   },
-   {
     "type": "youtube",
     "id": "BVb0_TFX4hw",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "303858759",
+    "file": "303858759.mp4"
    }
   ],
   "duration": 1381,
@@ -37409,6 +37409,13 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "youtube",
+    "id": "hn9yRrhL4ZY",
+    "via": "Teatru pe Vinil",
+    "start": 1663,
+    "end": 3343
+   },
+   {
     "type": "archive",
     "id": "1001DeNoptiPovestileSeherazadeiEpisodul2PovesteaCelorTreiSeici",
     "file": "1001 de Nopti - Povestile Seherazadei-Episodul 2 - Povestea celor trei seici.mp3"
@@ -37417,13 +37424,6 @@
     "type": "archive",
     "id": "PovestileSeherezadeiCostinDavid",
     "file": "Povestile Seherezadei, Costin David.mp4",
-    "start": 1663,
-    "end": 3343
-   },
-   {
-    "type": "youtube",
-    "id": "hn9yRrhL4ZY",
-    "via": "Teatru pe Vinil",
     "start": 1663,
     "end": 3343
    }
@@ -38019,14 +38019,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "IonCreangaIvanTurbincaTeatruMoldova",
-    "file": "Ion Creanga - Ivan Turbinca teatru Moldova.mp3"
-   },
-   {
     "type": "youtube",
     "id": "mHSIlUGlvXg",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "IonCreangaIvanTurbincaTeatruMoldova",
+    "file": "Ion Creanga - Ivan Turbinca teatru Moldova.mp3"
    }
   ],
   "duration": 2260,
@@ -38795,14 +38795,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "NicaFaraFricaPovestiVinilAudio1",
-    "file": "Nica fara frica (Povesti vinil audio) (1).mp3"
-   },
-   {
     "type": "youtube",
     "id": "SFD0SbtALps",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "NicaFaraFricaPovestiVinilAudio1",
+    "file": "Nica fara frica (Povesti vinil audio) (1).mp3"
    }
   ],
   "duration": 3064,
@@ -39002,14 +39002,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "IonCreangaPovesteaLuiStanPatituRegiaValeriuCupcea",
-    "file": "Ion Creanga - Povestea lui Stan Patitu regia Valeriu Cupcea.mp3"
-   },
-   {
     "type": "youtube",
     "id": "CRsoLU1yKUQ",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "IonCreangaPovesteaLuiStanPatituRegiaValeriuCupcea",
+    "file": "Ion Creanga - Povestea lui Stan Patitu regia Valeriu Cupcea.mp3"
    }
   ],
   "duration": 3968,
@@ -39224,6 +39224,13 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "youtube",
+    "id": "hn9yRrhL4ZY",
+    "via": "Teatru pe Vinil",
+    "start": 5072,
+    "end": 6810
+   },
+   {
     "type": "archive",
     "id": "1001DeNoptiPovestileSeherazadeiEpisodul4PovesteaPestilor",
     "file": "1001 de Nopti - Povestile Seherazadei-Episodul 4 - Povestea pestilor.mp3"
@@ -39232,13 +39239,6 @@
     "type": "archive",
     "id": "PovestileSeherezadeiCostinDavid",
     "file": "Povestile Seherezadei, Costin David.mp4",
-    "start": 5072,
-    "end": 6810
-   },
-   {
-    "type": "youtube",
-    "id": "hn9yRrhL4ZY",
-    "via": "Teatru pe Vinil",
     "start": 5072,
     "end": 6810
    }
@@ -39451,14 +39451,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "FratiiGrimmFrumoasaAsenel",
-    "file": "Fratii Grimm - Frumoasa Asenel.mp3"
-   },
-   {
     "type": "youtube",
     "id": "kLtoXw06VhM",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "FratiiGrimmFrumoasaAsenel",
+    "file": "Fratii Grimm - Frumoasa Asenel.mp3"
    }
   ],
   "duration": 1400,
@@ -39581,6 +39581,13 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "youtube",
+    "id": "hn9yRrhL4ZY",
+    "via": "Teatru pe Vinil",
+    "start": 6810,
+    "end": 8340
+   },
+   {
     "type": "archive",
     "id": "1001DeNoptiPovestileSeherazadeiEpisodul5PovesteaHamalului",
     "file": "1001 de Nopti - Povestile Seherazadei-Episodul 5 - Povestea hamalului.mp3"
@@ -39589,13 +39596,6 @@
     "type": "archive",
     "id": "PovestileSeherezadeiCostinDavid",
     "file": "Povestile Seherezadei, Costin David.mp4",
-    "start": 6810,
-    "end": 8340
-   },
-   {
-    "type": "youtube",
-    "id": "hn9yRrhL4ZY",
-    "via": "Teatru pe Vinil",
     "start": 6810,
     "end": 8340
    }
@@ -39744,14 +39744,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "PetreIspirescuAleodorImparatV1",
-    "file": "Petre Ispirescu - Aleodor Imparat v1.mp3"
-   },
-   {
     "type": "youtube",
     "id": "NO443SrXzm8",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "PetreIspirescuAleodorImparatV1",
+    "file": "Petre Ispirescu - Aleodor Imparat v1.mp3"
    }
   ],
   "duration": 1165,
@@ -39948,14 +39948,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "DarulFermecatDeCharlesDickens",
-    "file": "1187 - Darul fermecat -de- Charles Dickens - (7.02.1812 - 9.06.1870 ) - interpreteaza - Emilia Popescu , Mihai Dinvale , Violeta Berbiuc , Mihai Niculescu , Anne Marye Țigler , Bogdan Caragea (getmedia.info).mp3"
-   },
-   {
     "type": "youtube",
     "id": "rIDy0rTMO24",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "DarulFermecatDeCharlesDickens",
+    "file": "1187 - Darul fermecat -de- Charles Dickens - (7.02.1812 - 9.06.1870 ) - interpreteaza - Emilia Popescu , Mihai Dinvale , Violeta Berbiuc , Mihai Niculescu , Anne Marye Țigler , Bogdan Caragea (getmedia.info).mp3"
    }
   ],
   "duration": 3043,
@@ -40094,14 +40094,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "BasmPopularCucul",
-    "file": "Basm popular - Cucul.mp3"
-   },
-   {
     "type": "youtube",
     "id": "whWwCjNN-Dg",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "BasmPopularCucul",
+    "file": "Basm popular - Cucul.mp3"
    }
   ],
   "duration": 584,
@@ -40313,14 +40313,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "FratiiGrimmHanselSiGretelaltfel",
-    "file": "Fratii Grimm - Hansel si Gretel (altfel).mp3"
-   },
-   {
     "type": "youtube",
     "id": "F_EaK5HVSiM",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "FratiiGrimmHanselSiGretelaltfel",
+    "file": "Fratii Grimm - Hansel si Gretel (altfel).mp3"
    }
   ],
   "duration": 1453,
@@ -40350,14 +40350,14 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
-    "type": "archive",
-    "id": "IonCreangaAmintiriDinCopilarieV1",
-    "file": "Ion Creanga - Amintiri din copilarie v1.mp3"
-   },
-   {
     "type": "youtube",
     "id": "cWJ0mzcIxVE",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "IonCreangaAmintiriDinCopilarieV1",
+    "file": "Ion Creanga - Amintiri din copilarie v1.mp3"
    }
   ],
   "duration": 2891,
@@ -40387,6 +40387,13 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "youtube",
+    "id": "hn9yRrhL4ZY",
+    "via": "Teatru pe Vinil",
+    "start": 0,
+    "end": 1663
+   },
+   {
     "type": "archive",
     "id": "1001DeNoptiPovestileSeherazadeiEpisodul1PovesteaCelorOMieSiUnaDeNopti",
     "file": "1001 de Nopti - Povestile Seherazadei-Episodul 1 - Povestea celor o mie si una de nopti.mp3"
@@ -40395,13 +40402,6 @@
     "type": "archive",
     "id": "PovestileSeherezadeiCostinDavid",
     "file": "Povestile Seherezadei, Costin David.mp4",
-    "start": 0,
-    "end": 1663
-   },
-   {
-    "type": "youtube",
-    "id": "hn9yRrhL4ZY",
-    "via": "Teatru pe Vinil",
     "start": 0,
     "end": 1663
    }
@@ -41220,6 +41220,13 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "youtube",
+    "id": "hn9yRrhL4ZY",
+    "via": "Teatru pe Vinil",
+    "start": 8340,
+    "end": 9790
+   },
+   {
     "type": "archive",
     "id": "1001DeNoptiPovestileSeherazadeiEpisodul6PovesteaFecioarelor",
     "file": "1001 de nopti - Povestile Seherazadei-Episodul 6 -Povestea fecioarelor.mp3"
@@ -41228,13 +41235,6 @@
     "type": "archive",
     "id": "PovestileSeherezadeiCostinDavid",
     "file": "Povestile Seherezadei, Costin David.mp4",
-    "start": 8340,
-    "end": 9790
-   },
-   {
-    "type": "youtube",
-    "id": "hn9yRrhL4ZY",
-    "via": "Teatru pe Vinil",
     "start": 8340,
     "end": 9790
    }
@@ -41878,14 +41878,14 @@
   "sourceId": "arhiva-povesti-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "y-2mate.com-oliver-twist-povesti-audio-vinil-de-charles-dickens-9n-16-tkrx-3ho",
-    "file": "y2mate.com - Oliver Twist (povesti audio vinil) de Charles Dickens_9n16TKrx3ho.mp3"
-   },
-   {
     "type": "youtube",
     "id": "3Cj_VS4YzlA",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-oliver-twist-povesti-audio-vinil-de-charles-dickens-9n-16-tkrx-3ho",
+    "file": "y2mate.com - Oliver Twist (povesti audio vinil) de Charles Dickens_9n16TKrx3ho.mp3"
    }
   ],
   "duration": 3421,
@@ -42001,14 +42001,14 @@
   "sourceId": "arhiva-povesti-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "poiana-mosului-povesti-audio-vinil-legende-mituri-povestiri",
-    "file": "Poiana moșului (Povesti audio vinil) Legende,Mituri,Povestiri.mp3"
-   },
-   {
     "type": "youtube",
     "id": "bzS1zvOo5h8",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "poiana-mosului-povesti-audio-vinil-legende-mituri-povestiri",
+    "file": "Poiana moșului (Povesti audio vinil) Legende,Mituri,Povestiri.mp3"
    }
   ],
   "duration": 1534,
@@ -42215,14 +42215,14 @@
   "sourceId": "arhiva-povesti-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "CharlesDickensNicholasNickleby",
-    "file": "Charles Dickens--Nicholas Nickleby.mp3"
-   },
-   {
     "type": "youtube",
     "id": "lRT10qDkomw",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "CharlesDickensNicholasNickleby",
+    "file": "Charles Dickens--Nicholas Nickleby.mp3"
    }
   ],
   "duration": 3356,
@@ -52481,14 +52481,14 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "y-2mate.com-naufragiatii-de-pe-jonathan-jules-verne-povesti-vinil-audio-jx-ek-prqc-zua",
-    "file": "y2mate.com - Naufragiatii de pe Jonathan - Jules Verne (Povesti vinil audio)_jxEkPRQcZUA.mp3"
-   },
-   {
     "type": "youtube",
     "id": "PSgSSUznVkM",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-naufragiatii-de-pe-jonathan-jules-verne-povesti-vinil-audio-jx-ek-prqc-zua",
+    "file": "y2mate.com - Naufragiatii de pe Jonathan - Jules Verne (Povesti vinil audio)_jxEkPRQcZUA.mp3"
    }
   ],
   "duration": 3465,
@@ -52571,14 +52571,14 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "y-2mate.com-o-expeditie-de-pomina-jules-verne-povesti-vinil-audio-gk-p-01-sr-wox-a",
-    "file": "y2mate.com - O expeditie de pomina- Jules Verne (Povesti vinil audio)_gkP01SrWOxA.mp3"
-   },
-   {
     "type": "youtube",
     "id": "uY0zHVXW05I",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-o-expeditie-de-pomina-jules-verne-povesti-vinil-audio-gk-p-01-sr-wox-a",
+    "file": "y2mate.com - O expeditie de pomina- Jules Verne (Povesti vinil audio)_gkP01SrWOxA.mp3"
    }
   ],
   "duration": 2582,
@@ -52659,11 +52659,6 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "y-2mate.com-o-iarna-printre-ghetari-jules-verne-povesti-vinil-audio-p-nu-frsqpk",
-    "file": "y2mate.com - O iarna printre ghetari - Jules Verne (Povesti vinil audio)_P_nu_FRsqpk.mp3"
-   },
-   {
     "type": "youtube",
     "id": "tBew_TF1PsI",
     "via": "Teatru Radiofonic"
@@ -52672,6 +52667,11 @@
     "type": "youtube",
     "id": "RlCDndcVS0o",
     "via": "Teatru Subtitrat"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-o-iarna-printre-ghetari-jules-verne-povesti-vinil-audio-p-nu-frsqpk",
+    "file": "y2mate.com - O iarna printre ghetari - Jules Verne (Povesti vinil audio)_P_nu_FRsqpk.mp3"
    }
   ],
   "duration": 2469,
@@ -52772,14 +52772,14 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "y-2mate.com-domnul-re-diez-si-domnisoara-mi-bemol-jules-verne-povesti-vinil-audio-h-jt-4c-qj-kvrc",
-    "file": "y2mate.com - Domnul Re Diez si Domnisoara Mi Bemol - Jules Verne (Povesti vinil audio)_hJt4cQjKVrc.mp3"
-   },
-   {
     "type": "youtube",
     "id": "AnXsrxaCZfg",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-domnul-re-diez-si-domnisoara-mi-bemol-jules-verne-povesti-vinil-audio-h-jt-4c-qj-kvrc",
+    "file": "y2mate.com - Domnul Re Diez si Domnisoara Mi Bemol - Jules Verne (Povesti vinil audio)_hJt4cQjKVrc.mp3"
    }
   ],
   "duration": 3345,
@@ -52852,11 +52852,6 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
-    "type": "archive",
-    "id": "y-2mate.com-a-fost-odata-o-familie-de-soricei-jules-verne-povesti-vinil-audio-a-0-bcd-1o-xt-jg",
-    "file": "y2mate.com - A fost odata o familie de soricei - Jules Verne (Povesti vinil audio)_A0BCd1oXtJg.mp3"
-   },
-   {
     "type": "youtube",
     "id": "a2kuNAOPGto",
     "via": "Teatru Radiofonic"
@@ -52865,6 +52860,11 @@
     "type": "youtube",
     "id": "FmlFAafCErQ",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "y-2mate.com-a-fost-odata-o-familie-de-soricei-jules-verne-povesti-vinil-audio-a-0-bcd-1o-xt-jg",
+    "file": "y2mate.com - A fost odata o familie de soricei - Jules Verne (Povesti vinil audio)_A0BCd1oXtJg.mp3"
    }
   ],
   "duration": 3332,
@@ -56040,14 +56040,14 @@
   "sourceId": "yt-teatru-pe-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "302012416",
-    "file": "302012416.mp4"
-   },
-   {
     "type": "youtube",
     "id": "M9aKY7NswoE",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302012416",
+    "file": "302012416.mp4"
    }
   ],
   "duration": 1756,
@@ -58502,11 +58502,6 @@
   "sourceId": "yt-teatru-pe-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "AlexandruMitruPovesteaZeilorgetmedia.info",
-    "file": "Alexandru Mitru - Povestea zeilor (getmedia.info).mp3"
-   },
-   {
     "type": "youtube",
     "id": "2FGFJakYBtk",
     "via": "Teatru pe Vinil"
@@ -58515,6 +58510,11 @@
     "type": "youtube",
     "id": "fCbZtl11csY",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "AlexandruMitruPovesteaZeilorgetmedia.info",
+    "file": "Alexandru Mitru - Povestea zeilor (getmedia.info).mp3"
    }
   ],
   "duration": 1360,
@@ -58715,14 +58715,14 @@
   "sourceId": "yt-teatru-pe-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "302240816",
-    "file": "302240816.mp4"
-   },
-   {
     "type": "youtube",
     "id": "EOTYgMN8_EA",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302240816",
+    "file": "302240816.mp4"
    }
   ],
   "duration": 1438,
@@ -58823,14 +58823,14 @@
   "sourceId": "yt-teatru-pe-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "302240311",
-    "file": "302240311.mp4"
-   },
-   {
     "type": "youtube",
     "id": "C1EikABnmZM",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302240311",
+    "file": "302240311.mp4"
    }
   ],
   "duration": 1427,
@@ -59036,14 +59036,14 @@
   "sourceId": "yt-teatru-pe-vinil",
   "links": [
    {
-    "type": "archive",
-    "id": "302222431",
-    "file": "302222431.mp4"
-   },
-   {
     "type": "youtube",
     "id": "O6VkDy5WC0Q",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302222431",
+    "file": "302222431.mp4"
    }
   ],
   "duration": 1649,
@@ -74391,6 +74391,11 @@
   "sourceId": "arhiva-povesti-vinil",
   "links": [
    {
+    "type": "youtube",
+    "id": "kCVNRK-Z_Wo",
+    "via": "Teatru Radiofonic"
+   },
+   {
     "type": "archive",
     "id": "poveste-la-gura-sobei-povesti-audio-vinil",
     "file": "Poveste la gura sobei (povesti audio vinil).mp3"
@@ -74399,11 +74404,6 @@
     "type": "archive",
     "id": "y-2mate.com-poveste-la-gura-sobei-povesti-audio-vinil-3-yisk-a-0-irq-4",
     "file": "y2mate.com - Poveste la gura sobei (povesti audio vinil)_3YiskA0IRq4.mp3"
-   },
-   {
-    "type": "youtube",
-    "id": "kCVNRK-Z_Wo",
-    "via": "Teatru Radiofonic"
    }
   ],
   "duration": 1209,
@@ -82418,14 +82418,14 @@
   },
   "links": [
    {
-    "type": "archive",
-    "id": "302181551",
-    "file": "302181551.mp4"
-   },
-   {
     "type": "youtube",
     "id": "L4f4mIv9gYk",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "302181551",
+    "file": "302181551.mp4"
    }
   ],
   "year": 1966
@@ -83643,16 +83643,16 @@
   },
   "links": [
    {
-    "type": "archive",
-    "id": "274183892",
-    "file": "274183892.mp4",
+    "type": "youtube",
+    "id": "IsjY4E-fJig",
+    "via": "Teatru Radiofonic",
     "start": 0,
     "end": 708
    },
    {
-    "type": "youtube",
-    "id": "IsjY4E-fJig",
-    "via": "Teatru Radiofonic",
+    "type": "archive",
+    "id": "274183892",
+    "file": "274183892.mp4",
     "start": 0,
     "end": 708
    }
@@ -83751,13 +83751,6 @@
   },
   "links": [
    {
-    "type": "archive",
-    "id": "274183892",
-    "file": "274183892.mp4",
-    "start": 708,
-    "end": 1486
-   },
-   {
     "type": "youtube",
     "id": "IsjY4E-fJig",
     "via": "Teatru Radiofonic",
@@ -83768,6 +83761,13 @@
     "type": "youtube",
     "id": "UyJp3ZXpORM",
     "via": "Ady Magdici"
+   },
+   {
+    "type": "archive",
+    "id": "274183892",
+    "file": "274183892.mp4",
+    "start": 708,
+    "end": 1486
    }
   ],
   "cover": "https://i.discogs.com/v01e-wJ9qQlBjtN8R_QsLXbJ-xQ85BM9wDYap443Kgg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dzLWRhdGFiYXNlLWltYWdlcy9SLTcyNjM5MzctMTQzNzUwMTg3My02MDY5LmpwZWc.jpeg"
@@ -83779,6 +83779,13 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "youtube",
+    "id": "hn9yRrhL4ZY",
+    "via": "Teatru pe Vinil",
+    "start": 3343,
+    "end": 5072
+   },
+   {
     "type": "archive",
     "id": "1001DeNoptiPovestileSeherazadeiEpisodul3PovesteaPescarului",
     "file": "1001 de Nopti - Povestile Seherazadei-Episodul 3 - Povestea pescarului.mp3"
@@ -83787,13 +83794,6 @@
     "type": "archive",
     "id": "PovestileSeherezadeiCostinDavid",
     "file": "Povestile Seherezadei, Costin David.mp4",
-    "start": 3343,
-    "end": 5072
-   },
-   {
-    "type": "youtube",
-    "id": "hn9yRrhL4ZY",
-    "via": "Teatru pe Vinil",
     "start": 3343,
     "end": 5072
    }

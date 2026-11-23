@@ -2,6 +2,15 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.15.5] - 2026-11-23
+
+### Changed
+- Internet Archive nu mai este sursa implicită atunci când o înregistrare există și ca audio direct sau pe YouTube; sursele de studio pornesc primele, iar Internet Archive rămâne ca rezervă.
+- La egalitate între mai multe înregistrări ale aceleiași povești, sursele audio directe și YouTube sunt preferate față de Internet Archive.
+
+### Removed
+- Rândul „Redare” și nota despre blocarea ecranului la YouTube au fost scoase de pe pagina înregistrării.
+
 ## [1.15.4] - 2026-11-23
 
 ### Fixed

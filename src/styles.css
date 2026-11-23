@@ -81,7 +81,6 @@ img { display: block; max-width: 100%; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .muted { color: var(--muted); }
 .small { font-size: 15px; }
-.block { display: block; }
 .icon { flex: none; }
 .skip-link { position: absolute; left: 12px; top: -60px; z-index: 50; background: var(--primary); color: var(--primary-ink); padding: 10px 16px; border-radius: 10px; font-weight: 800; }
 .skip-link:focus { top: 12px; }
