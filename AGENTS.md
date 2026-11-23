@@ -91,7 +91,7 @@ Don't create git tags or GitHub releases. If a version shipped with a mistake, f
 - When there are several good ways forward, ask before you pick one.
 - Use subagents when they make the work faster or more thorough.
 - Search online for the current documentation of Vite, Preact, the YouTube player, Vercel and anything else you rely on, instead of working from memory.
-- `README.md` and this file are public. No deploy steps, accounts, tokens, host names or personal data in them; notes meant only for the owner go to the owner in chat.
+- `README.md` and this file are public. No deploy steps, accounts, tokens, private host names or personal data in them (the public app link at the top of the README stays); notes meant only for the owner go to the owner in chat.
 - Every piece of interface text exists in Romanian and English (`src/i18n.js`), and so does every changelog line. Story titles, names and catalog data stay in Romanian.
 - Run `npm run build` before you commit.
 - Report what you actually did. If something was skipped, failed or wasn't tested, say so.

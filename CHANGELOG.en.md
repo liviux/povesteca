@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.12.0] - 2026-11-23
+
+### Added
+- A **Cast and crew** filter in **Browse**: pick an actor, a narrator, a director or the composer and see only the recordings they worked on. Each name shows how many recordings it appears on.
+
+### Changed
+- Very long filter lists show the first 300 names, so they open quickly on phones too. Type a few letters to find the rest.
+
 ## [1.11.0] - 2026-11-23
 
 ### Added

@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.12.0] - 2026-11-23
+
+### Added
+- Filtrul **Distribuție și regie** în **Explorează**: alegi un actor, un narator, un regizor sau compozitorul și vezi doar înregistrările la care a lucrat. Lângă fiecare nume scrie la câte înregistrări apare.
+
+### Changed
+- Listele foarte lungi din filtre arată primele 300 de nume, ca să se deschidă repede și pe telefon. Pe ceilalți îi găsești scriind câteva litere.
+
 ## [1.11.0] - 2026-11-23
 
 ### Added

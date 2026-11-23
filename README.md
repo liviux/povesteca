@@ -1,5 +1,7 @@
 # Povesteca
 
+**Ascultă pe [povesteca.vercel.app](https://povesteca.vercel.app/)**
+
 Povesteca e o bibliotecă de povești audio în limba română, pentru copii și pentru părinții care le aleg. Adună teatru radiofonic și discuri de povești publicate deja pe Internet Archive și YouTube, le așază pe povești și le poți asculta direct în pagină.
 
 Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
@@ -40,7 +42,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 ## Ce poți face
 
 - **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
-- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, personaj, actor, sursă și disc sau colecție, apoi ordonezi rezultatele. În listele lungi, cum e cea de autori, scrii câteva litere și rămân doar numele potrivite. Rezultatele arată întâi poveștile, apoi înregistrările lor; poți alege să vezi doar una dintre ele. La prima deschidere apar la întâmplare, în altă ordine la fiecare vizită.
+- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, personaj, distribuție și regie (cine citește, cine joacă, cine regizează), sursă și disc sau colecție, apoi ordonezi rezultatele. În listele lungi, cum e cea de autori, scrii câteva litere și rămân doar numele potrivite. Rezultatele arată întâi poveștile, apoi înregistrările lor; poți alege să vezi doar una dintre ele. La prima deschidere apar la întâmplare, în altă ordine la fiecare vizită.
 - **Pagină pentru fiecare autor**: apasă pe numele autorului pe pagina poveștii sau a înregistrării ca să îi vezi toate poveștile.
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas. Viteza se schimbă de la 0,5× la 2×.
 - **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.

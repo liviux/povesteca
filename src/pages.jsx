@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  storiesByAuthor, collectionOf, authors, characters, norm, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
+  storiesByAuthor, collectionOf, authors, characters, people, norm, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -117,6 +117,9 @@ const stats = (...parts) => parts.filter(Boolean).map((x) => x.replace(/ /g, '\u
 const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
 const storiesWithChar = countBy(stories, (s) => s.characters || []);
 const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
+// everyone credited on a recording (narrators, cast, directors, adaptation, music), most recordings first
+const recsWith = countBy(versions, (v) => new Set(people(v)));
+const crew = [...recsWith.keys()].sort((a, b) => a.localeCompare(b, 'ro'));
 
 // a themed list you can type into, instead of the browser's endless <select>: "ion" keeps only the names with "ion"
 function Combo({ id, legend, value, items, onPick }) {
@@ -134,7 +137,7 @@ function Combo({ id, legend, value, items, onPick }) {
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
       if (q == null) { setQ(''); setAct(0); return; }
-      setAct(Math.max(0, Math.min(list.length - 1, act + (e.key === 'ArrowDown' ? 1 : -1))));
+      setAct(Math.max(0, Math.min(Math.min(list.length, 300) - 1, act + (e.key === 'ArrowDown' ? 1 : -1))));
     } else if (e.key === 'Enter' && q != null) { e.preventDefault(); if (list[act]) pick(list[act][0]); }
     else if (e.key === 'Escape' && q != null) { e.stopPropagation(); setQ(null); }
   };
@@ -151,11 +154,13 @@ function Combo({ id, legend, value, items, onPick }) {
       </span>
       {q != null && (
         <ul id={id + '-list'} role="listbox" class="combo-list" ref={ul} aria-label={legend}>
-          {list.map(([v, txt, n], i) => (
+          {/* ponytail: the first 300 only, so a slow phone opens 1300 names fast; typing finds the rest */}
+          {list.slice(0, 300).map(([v, txt, n], i) => (
             <li id={`${id}-${i}`} role="option" aria-selected={v === (value || '')} class={i === act ? 'act' : null}
               onMouseDown={(e) => e.preventDefault()} onClick={() => pick(v)}>{txt}{n && <span class="combo-n">{n}</span>}</li>
           ))}
           {list.length === 1 && <li class="combo-none" role="presentation">{t.noMatch}</li>}
+          {list.length > 300 && <li class="combo-none" role="presentation">{t.typeMore(list.length - 300)}</li>}
         </ul>
       )}
     </div>
@@ -249,6 +254,7 @@ export function Explore({ query }) {
           {combo('origin', origins.map((o) => [o, label('origin', o, lang), t.nStories(storiesFrom.get(o))]))}
           {combo('author', authors.map((a) => [a, a, t.nStories(storiesByAuthor.get(a).length)]))}
           {combo('char', characters.map((c) => [c, c, t.nStories(storiesWithChar.get(c))]))}
+          {combo('person', crew.map((n) => [n, n, t.nRec(recsWith.get(n))]))}
           {combo('source', sources.map((x) => [x.id, x.name, t.nRec(versionsBySource.get(x.id)?.length || 0)]))}
           {combo('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title, t.nRec(c.items.length)]))}
         </aside>
