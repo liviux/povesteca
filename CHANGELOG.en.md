@@ -2,6 +2,20 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.6.1] - 2026-11-23
+
+### Changed
+- The home page says more clearly what Povesteca is: children's stories made for listening, performed by actors, with direction, music and sound effects.
+- On phones, the player bar leaves room for the title. A recording's other sources are picked from its page or from **Good night**.
+- When a recording has two links on the same platform, their buttons are numbered (“Internet Archive 1”, “Internet Archive 2”).
+
+### Fixed
+- On a story page, labels such as **Origin** and **What it's about** now sit on the same line as their values.
+- In the Girls theme, a row of stories that isn't full is centred, and the icons on recordings line up with the text.
+- The icon next to the actors' names sits by the first line, not in the middle of the list.
+- Source buttons and **Other source** are easier to tap with a finger.
+- On 360 px phones, **Browse** and **Good night** fit on one line.
+
 ## [1.6.0] - 2026-11-23
 
 ### Added

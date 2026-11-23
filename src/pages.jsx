@@ -303,7 +303,7 @@ function VersionRow({ v, best, dupOf }) {
                 <button type="button" class="mirror-btn" aria-pressed={active}
                   onClick={() => (playing ? toggle() : play(v.id, undefined, i))}>
                   <Icon n={playing ? 'pause' : 'play'} size={12} />
-                  <span>{linkLabel(l, src)}</span>
+                  <span>{linkLabel(l, src, v.links)}</span>
                 </button>
               );
             })}
@@ -377,7 +377,7 @@ export function VersionPage({ id }) {
             <dd><ul class="links">{v.links.map((l, i) => {
               const active = p.id === v.id && p.link === i && p.status !== 'ended';
               const playing = active && ['playing', 'loading'].includes(p.status);
-              const lbl = linkLabel(l, src);
+              const lbl = linkLabel(l, src, v.links);
               return (
                 <li class="link-row">
                   <button type="button" class="mirror-btn" aria-pressed={active}

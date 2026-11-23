@@ -2,6 +2,20 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.6.1] - 2026-11-23
+
+### Changed
+- Prima pagină spune mai clar ce e Povesteca: povești pentru copii făcute ca să fie ascultate, jucate de actori, cu regie, muzică și efecte sonore.
+- Pe telefon, bara playerului lasă loc titlului. Celelalte surse ale unei înregistrări se aleg de pe pagina ei sau din **Noapte bună**.
+- Când o înregistrare are două linkuri pe aceeași platformă, butoanele lor sunt numerotate („Internet Archive 1”, „Internet Archive 2”).
+
+### Fixed
+- Pe pagina poveștii, etichete ca **Origine** și **Despre ce e** stau acum pe același rând cu valorile lor.
+- Pe tema Fete, un rând de povești care nu e plin stă centrat, iar iconițele de pe înregistrări sunt aliniate cu textul.
+- Iconița de lângă numele actorilor stă lângă primul rând, nu la mijlocul listei.
+- Butoanele de sursă și **Altă sursă** se apasă mai ușor cu degetul.
+- Pe telefoanele de 360 px, **Explorează** și **Noapte bună** încap pe același rând.
+
 ## [1.6.0] - 2026-11-23
 
 ### Added

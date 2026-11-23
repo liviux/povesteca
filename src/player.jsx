@@ -242,7 +242,7 @@ export function Dock() {
   const p = s.player;
   const v = versionById.get(p.id);
   const link = v?.links[p.link];
-  const mirrorName = link && v.links.length > 1 ? linkLabel(link, sourceById.get(v.sourceId)) : null;
+  const mirrorName = link && v.links.length > 1 ? linkLabel(link, sourceById.get(v.sourceId), v.links) : null;
   return (
     <div class={'dock' + (v ? ' open' : '') + (link?.type === 'youtube' ? ' has-video' : '')} aria-hidden={!v}>
       <div class="yt-frame" ref={(el) => { ytHost = el; }} />
@@ -266,7 +266,7 @@ export function Dock() {
           <div class="dock-side">
             {v.links.length > 1 && (
               <button type="button" class="dock-switch" title={`${t.switchSource} (${mirrorName})`} aria-label={`${t.switchSource} (${p.link + 1}/${v.links.length})`} onClick={() => switchLink()}>
-                <span class="n">{`${p.link + 1}/${v.links.length} · `}</span>{t.switchShort}
+                {`${p.link + 1}/${v.links.length} · ${t.switchShort}`}
               </button>
             )}
             <SleepChip />
@@ -326,7 +326,7 @@ export function Night() {
             <p class="muted">{v.title}</p>
             {v.links.length > 1 && (
               <p class="night-source">
-                <span>{linkLabel(v.links[p.link], sourceById.get(v.sourceId))}</span>
+                <span>{linkLabel(v.links[p.link], sourceById.get(v.sourceId), v.links)}</span>
                 <button type="button" class="chip" onClick={() => switchLink()}>{`${t.switchShort} (${p.link + 1}/${v.links.length})`}</button>
               </p>
             )}

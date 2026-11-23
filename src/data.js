@@ -45,11 +45,15 @@ export function linkUrl(l) {
   if (l.type === 'audio') return l.page || l.url;
   return l.url;
 }
-export function linkLabel(l, src) {
+// with the recording's links, two links with the same name are numbered: "Internet Archive 1", "Internet Archive 2"
+export function linkLabel(l, src, links) {
   if (!l) return '';
-  const host = l.type === 'youtube' ? 'YouTube' : l.type === 'archive' ? 'Internet Archive' : (l.via || src?.name || 'Audio');
-  const via = l.via && l.via !== host ? ` · ${l.via}` : '';
-  return host + via;
+  const name = (x) => {
+    const host = x.type === 'youtube' ? 'YouTube' : x.type === 'archive' ? 'Internet Archive' : (x.via || src?.name || 'Audio');
+    return host + (x.via && x.via !== host ? ` · ${x.via}` : '');
+  };
+  const same = (links || []).filter((x) => name(x) === name(l));
+  return same.length > 1 ? `${name(l)} ${same.indexOf(l) + 1}` : name(l);
 }
 export const audioUrl = (l) => (l.type === 'archive' ? `https://archive.org/download/${l.id}/${encodeURIComponent(l.file)}` : l.url);
 
