@@ -43,7 +43,7 @@
   "id": "radio-arhive",
   "name": "Arhiva Radio România",
   "type": "audio",
-  "url": "https://radio-arhive.ro/category/emisiuni/noapte-buna-copii/3",
+  "url": "https://radio-arhive.ro/teme/emisiuni-pentru-copii-i-tineret/101",
   "description": {
    "ro": "Înregistrări istorice din Fonoteca de Aur Radio România (anii ’50–’60): primele ediții „Noapte bună, copii!” păstrate pe bandă magnetică și spectacole clasice pentru copii.",
    "en": "Historic recordings from Radio România’s Golden Archive (1950s–1960s): early tape broadcasts of “Noapte bună, copii!” and classic children’s radio plays."
@@ -123,10 +123,70 @@
   "id": "yt-itsy-bitsy",
   "name": "Itsy Bitsy & Leon Magdan",
   "type": "youtube",
-  "url": "https://www.youtube.com/@ItsyBitsyFM",
+  "url": "https://www.youtube.com/@RadioItsyBitsy",
   "description": {
    "ro": "Povești radiofonice moderne pe roluri, cu efecte sonore și muzică: serialul „Misiunile lui Itsy și ale lui Bitsy” și povești de seară scrise și spuse de Leon Magdan.",
    "en": "Modern acted radio adventures and bedtime stories with music and rich sound design: “Misiunile lui Itsy și ale lui Bitsy” and Leon Magdan’s evening tales."
+  }
+ },
+ {
+  "id": "teatrul-puck",
+  "name": "Teatrul de Păpuși „Puck” Cluj-Napoca",
+  "type": "audio",
+  "url": "https://teatrulpuck.ro/audiopuck-2/",
+  "description": {
+   "ro": "Secțiunea AudioPuck a Teatrului de Păpuși „Puck” din Cluj-Napoca: basme clasice, povești în serial și adaptări radiofonice citite de actorii teatrului, cu ilustrație muzicală.",
+   "en": "The AudioPuck archive of the “Puck” Puppet Theatre in Cluj-Napoca: classic fairy tales, multi-part readings and radio adaptations performed by the theatre’s actors with musical accompaniment."
+  }
+ },
+ {
+  "id": "teatrul-gong",
+  "name": "Teatrul pentru Copii și Tineret „Gong” Sibiu",
+  "type": "audio",
+  "url": "https://teatrulgong.ro/podcast",
+  "description": {
+   "ro": "Producțiile audio ale Teatrului „Gong” din Sibiu: seriile de teatru radiofonic „Trilogia Creangă” și „Trilogia Petre Ispirescu”, „Meniul cu povești șoptite” și „Povești de iarnă cu Marian Râlea”.",
+   "en": "Audio productions by the “Gong” Theatre for Children and Youth in Sibiu: the “Trilogia Creangă” and “Trilogia Petre Ispirescu” radio plays, “Meniul cu povești șoptite” and “Povești de iarnă cu Marian Râlea”."
+  }
+ },
+ {
+  "id": "somnorosi",
+  "name": "Somnoroși Povești Audio",
+  "type": "audio",
+  "url": "https://somnorosi.ro/",
+  "description": {
+   "ro": "Povești audio originale românești de seară, scrise de Tudor Stoica și Mihaela Ignat și povestite de Mihaela Tatu, cu muzică și efecte sonore.",
+   "en": "Original Romanian bedtime audio stories written by Tudor Stoica and Mihaela Ignat, narrated by Mihaela Tatu with music and sound design."
+  }
+ },
+ {
+  "id": "yt-opera-comica",
+  "name": "Opera Comică pentru Copii",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCugenozY7jOD2yUHIQU4awA",
+  "description": {
+   "ro": "Poveștile muzicale din seria „Povești cu Bubu” ale Operei Comice pentru Copii din București, gândite special pentru cei mai mici ascultători (1–4 ani).",
+   "en": "Musical audio stories from the “Povești cu Bubu” series by the Bucharest Comic Opera for Children, made especially for toddlers and young listeners (ages 1–4)."
+  }
+ },
+ {
+  "id": "yt-ady-magdici",
+  "name": "Ady Magdici",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@AdyMagdici",
+  "description": {
+   "ro": "Canal YouTube cu piese de teatru radiofonic românesc, organizate în liste de basme, povești și aventuri clasice, cu distribuțiile trecute în descriere.",
+   "en": "A YouTube channel sharing Romanian radio drama organised into playlists of fairy tales, stories and classic adventures, with cast credits in the descriptions."
+  }
+ },
+ {
+  "id": "yt-teatrul-ion-creanga",
+  "name": "Teatrul Ion Creangă",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@TeatrulIonCreanga",
+  "description": {
+   "ro": "Canalul oficial al Teatrului Ion Creangă din București: povești citite și dramatizate de actorii teatrului, serii pentru cei mici precum „Emoțiile lui Noni”, „Aventurile lui Chiț și Ronț” și „Acasă la Moș Crăciun”.",
+   "en": "The official channel of Bucharest’s Ion Creangă Theatre: stories read and dramatized by the theatre’s actors, including series for younger listeners such as “Emoțiile lui Noni”, “Aventurile lui Chiț și Ronț”, and “Acasă la Moș Crăciun”."
   }
  }
 ]

@@ -2,6 +2,21 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.5.0] - 2026-11-23
+
+### Added
+- **New stories:** the catalogue grows to 1,178 stories and 1,452 recordings from 19 free sources. Six new sources join — Puck Puppet Theatre Cluj-Napoca, Gong Theatre Sibiu (including the Creangă and Petre Ispirescu radio trilogies and winter stories told by Marian Râlea), Somnoroși (the free episodes narrated by Mihaela Tatu), Comic Opera for Children (*Povești cu Bubu*), Ion Creangă Theatre and the Ady Magdici radio drama archive — alongside new additions on eTeatru, Radio România Archive, A Fost Odată, Oameni mici și mari, Teatru Radiofonic, Teatru pe Vinil, Teatru Subtitrat and Electrecord.
+- 19 new collections (including *Harap-Alb* and *A Christmas Carol* from Puck Theatre, Gong Theatre's series, *Hanul Ancuței*, *Povești cu Bubu* and Ion Creangă Theatre's series).
+- More person pages and book links with freely licensed photos, Wikipedia and Goodreads entries for the new casts, authors and stories.
+
+### Changed
+- Added 176 backup mirrors for existing recordings (including official Electrecord YouTube uploads), always keeping the direct ad-free audio link first so stories keep playing if one link goes down.
+
+### Fixed
+- Merged 32 duplicate stories and 28 duplicate recordings while keeping every working link, and cleaned up misattributed authors, origins, diacritics and scraped text in summaries.
+- Unified actor and author names that appeared under slightly different spellings so each person has a single page.
+- Fixed the broken links to Itsy Bitsy and Radio România Archive on the **Sources** page.
+
 ## [1.4.1] - 2026-11-22
 
 ### Changed

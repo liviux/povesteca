@@ -191,7 +191,10 @@ export const shuffle = (list) => {
   return a;
 };
 
-const ORIGINAL_MODERN = new Set(['afostodata', 'oameni-mici-si-mari']);
+const ORIGINAL_MODERN = new Set([
+  'afostodata', 'oameni-mici-si-mari',
+  'teatrul-puck', 'teatrul-gong', 'somnorosi', 'yt-teatrul-ion-creanga', 'yt-opera-comica',
+]);
 const creditSet = (v) => new Set(people(v).map((n) => norm(n)).filter((n) => n.length >= 4));
 
 /** Finds separate Version entries under the same story that are likely cross-source duplicates. */

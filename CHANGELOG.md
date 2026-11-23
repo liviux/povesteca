@@ -2,6 +2,21 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.5.0] - 2026-11-23
+
+### Added
+- **Povești noi:** catalogul ajunge la 1.178 de povești și 1.452 de înregistrări din 19 surse gratuite. Au intrat șase surse noi — Teatrul de Păpuși „Puck” Cluj-Napoca, Teatrul „Gong” Sibiu (inclusiv *Trilogia Creangă*, *Trilogia Petre Ispirescu* și *Povești de iarnă* cu Marian Râlea), *Somnoroși Povești Audio* (episoadele gratuite cu Mihaela Tatu), Opera Comică pentru Copii (*Povești cu Bubu*), Teatrul Ion Creangă și arhiva de teatru radiofonic Ady Magdici — plus completări pe eTeatru, Arhiva Radio România, A Fost Odată, Oameni mici și mari, Teatru Radiofonic, Teatru pe Vinil, Teatru Subtitrat și Electrecord.
+- 19 colecții noi (între care *Harap-Alb* și *Un colind de Crăciun* de la Teatrul „Puck”, seriile Teatrului „Gong”, *Hanul Ancuței*, *Povești cu Bubu* și seriile Teatrului Ion Creangă).
+- Pagini și legături noi cu fotografii, Wikipedia și Goodreads pentru actorii, autorii și cărțile adăugate.
+
+### Changed
+- 176 de oglinzi de rezervă adăugate pentru înregistrări existente (inclusiv videoclipurile oficiale Electrecord), cu sursele directe fără reclame mereu primele, ca povestea să pornească și când un link dispare.
+
+### Fixed
+- 32 de povești și 28 de înregistrări duplicate au fost comasate fără să se piardă niciun link, iar titlurile, autorii, originile și rezumatele greșite au fost corectate.
+- Numele de actori și autori scrise în mai multe feluri (cu sau fără diacritice) duc acum la aceeași pagină.
+- Linkurile stricate spre paginile Itsy Bitsy și Arhiva Radio România din pagina **Surse** au fost reparate.
+
 ## [1.4.1] - 2026-11-22
 
 ### Changed
