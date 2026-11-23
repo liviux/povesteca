@@ -2,7 +2,12 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
-## [1.15.3] - 2026-11-23
+## [1.15.4] - 2026-11-23
+
+### Fixed
+- Trei personaje din înregistrarea „Alma” (Metina, Licia, Khan) adăugate pe pagina poveștii.
+
+ - 2026-11-23
 
 ### Changed
 - Metadatele au fost verificate poveste cu poveste și înregistrare cu înregistrare: 688 de rezumate, 652 de liste de personaje, 358 de ani de poveste, 286 de ani de înregistrare și 369 de distribuții și regii completate sau corectate.

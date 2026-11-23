@@ -2,7 +2,12 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
-## [1.15.3] - 2026-11-23
+## [1.15.4] - 2026-11-23
+
+### Fixed
+- Three characters from the “Alma” recording (Metina, Licia, Khan) added to the story page.
+
+ - 2026-11-23
 
 ### Changed
 - Metadata was checked story by story and recording by recording: 688 summaries, 652 character lists, 358 story years, 286 recording years and 369 cast and director credits filled in or corrected.
