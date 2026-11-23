@@ -91,7 +91,7 @@ Dacă vrei s-o adaugi tu, nu trebuie să modifici nicio pagină. Catalogul e for
 | `versions.json` | o înregistrare anume a unei povești: linkuri, durată, distribuție, tip, vârstă |
 | `sources.json` | de unde vin înregistrările (o colecție, un canal) |
 | `collections.json` | discuri, serii sau playlisturi, cu ordinea lor |
-| `wiki.json` | fotografii și linkuri spre Wikipedia și Goodreads pentru oameni și cărți; nu se scrie de mână, îl face `node scripts/wiki.js` din Wikidata |
+| `wiki.json` | fotografii și linkuri spre Wikipedia și Goodreads pentru oameni și cărți; generat de `node scripts/wiki.js` din Wikidata și completările verificate din `wiki-manual.json` |
 
 O poveste nouă, cu o înregistrare de pe Internet Archive:
 
@@ -126,7 +126,7 @@ Reguli:
 - `"cover": false` e pentru înregistrările care n-au copertă la sursă. Fără el, archive.org arată în loc de copertă o formă de undă neagră; cu el, aplicația pune inițiala poveștii pe un fundal colorat.
 - Valorile permise pentru `kind`, `voices`, `sfx`, `music`, `moods` și `genre` sunt în `scripts/check-catalog.js`.
 - **Copertele pot fi orice, inclusiv imagini făcute cu AI. Sunetul nu**: vocile, narațiunea și muzica sunt ale unor oameni.
-- După ce adaugi povești sau nume în distribuție, rulează `node scripts/wiki.js`. Caută pe Wikidata fiecare om și fiecare carte și păstrează doar potrivirile sigure: aceeași meserie, aceeași carte de la același autor. Fotografiile au doar licențe care permit refolosirea cu menționarea autorului.
+- După ce adaugi povești sau nume în distribuție, rulează `node scripts/wiki.js`. Caută pe Wikidata fiecare om și fiecare carte, îmbină completările verificate din `catalog/wiki-manual.json` (linkuri Wikipedia, Goodreads și fotografii din surse deschise care nu sunt pe Wikidata) și păstrează doar potrivirile sigure. Fotografiile au doar licențe permisive pentru proiecte non-comerciale, cu autor, licență și link către sursă la finalul paginii persoanei.
 
 Numele fișierului audio și durata unei înregistrări de pe archive.org le găsești la `https://archive.org/metadata/IDENTIFICATOR` (câmpul `length`). Înainte să trimiți un pull request, rulează `npm run check`: verifică legăturile dintre fișiere, valorile permise și linkurile care apar la două înregistrări.
 

@@ -2,6 +2,18 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.13.1] - 2026-11-23
+
+### Added
+- Legături noi spre Wikipedia și Goodreads pentru povești, autori și oamenii din distribuție: 296 de povești au acum link Wikipedia (față de 68), 373 au pagină Goodreads (față de 29), 553 de persoane au articol Wikipedia și 202 autori au pagină Goodreads.
+- 117 fotografii noi cu licențe permisive pentru autori, actori și regizori (405 persoane cu poză în total), din Wikimedia Commons, Arhiva Națională de Filme (Culturalia) și Flickr, fiecare cu autor, licență și link către sursă la finalul paginii persoanei.
+
+### Changed
+- Subsolul paginilor de persoane arată acum numele real al sursei fotografiei (Wikimedia Commons, Culturalia, Flickr etc.) și licența tradusă corect, iar pozele care nu se mai încarcă se ascund discret.
+
+### Fixed
+- Scoase potriviri greșite din Wikidata (de exemplu *Dumitru Petrescu* sau *Alexandru Minculescu*) și adăugate articole Wikipedia în limba română pentru români și povești românești, respectiv engleză pentru restul.
+
 ## [1.13.0] - 2026-11-23
 
 ### Added

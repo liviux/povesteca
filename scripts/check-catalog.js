@@ -30,12 +30,19 @@ function ids(list, name) {
 const S = ids(stories, 'stories'), V = ids(versions, 'versions'), SRC = ids(sources, 'sources');
 ids(collections, 'collections');
 
-// catalog/wiki.json comes from scripts/wiki.js: photos from Wikimedia, under a license that allows reuse with credit
+// catalog/wiki.json comes from scripts/wiki.js (+ catalog/wiki-manual.json): freely licensed photos with source & credit, plus verified Wikipedia and Goodreads links
 const wiki = load('wiki');
+const PHOTO_LIC = /^(public domain|cc0( \d(\.\d)?)?|cc by(-nc)?(-sa)?( \d(\.\d)?( [a-z]{2})?)?|attribution)$/i;
 for (const [name, p] of Object.entries(wiki.people)) {
+  if (p.wikipedia && !/^https:\/\/[a-z-]+\.wikipedia\.org\/wiki\/.+/.test(p.wikipedia)) err(`wiki ${name}: bad Wikipedia URL "${p.wikipedia}"`);
+  if (p.goodreads && !/^https:\/\/www\.goodreads\.com\/author\/show\/\d+/.test(p.goodreads)) err(`wiki ${name}: bad Goodreads author URL "${p.goodreads}"`);
   if (!p.photo) continue;
-  if (!/^https:\/\/(upload|thumb)\.wikimedia\.org\//.test(p.photo.src) || !p.photo.page) err(`wiki ${name}: photo needs a Wikimedia address and its file page`);
-  if (!/^(public domain|cc0|cc by(-nc)?(-sa)? \d)/i.test(p.photo.license || '')) err(`wiki ${name}: photo license "${p.photo.license}" is not one the project can use`);
+  if (!/^https:\/\/.+/.test(p.photo.src || '') || !/^https:\/\/.+/.test(p.photo.page || '')) err(`wiki ${name}: photo needs an HTTPS image address and source page`);
+  if (!PHOTO_LIC.test(p.photo.license || '')) err(`wiki ${name}: photo license "${p.photo.license}" is not one the project can use`);
+}
+for (const [id, s] of Object.entries(wiki.stories)) {
+  if (s.wikipedia && !/^https:\/\/[a-z-]+\.wikipedia\.org\/wiki\/.+/.test(s.wikipedia)) err(`wiki story ${id}: bad Wikipedia URL "${s.wikipedia}"`);
+  if (s.goodreads && !/^https:\/\/www\.goodreads\.com\/(book\/show|work\/editions)\/\d+/.test(s.goodreads)) err(`wiki story ${id}: bad Goodreads book URL "${s.goodreads}"`);
 }
 
 for (const s of stories) {

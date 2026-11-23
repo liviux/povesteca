@@ -585,8 +585,18 @@ const ext = (href, txt, cls = 'btn ghost') => href && <a class={cls} href={href}
 // a name with its photo, when there is one; the photo's credit is on the person's page
 function PersonLink({ name }) {
   const photo = personInfo(name)?.photo;
-  return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={photo.src} alt="" width="32" height="32" loading="lazy" />}{name}</a>;
+  return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={photo.src} alt="" width="32" height="32" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}{name}</a>;
 }
+
+function photoSource(p) {
+  if (p.source) return p.source;
+  if (/wikimedia\.org/.test(p.page)) return 'Wikimedia Commons';
+  if (/flickr\.com/.test(p.page)) return 'Flickr';
+  if (/culturalia\.ro/.test(p.page)) return 'Culturalia';
+  if (/archive\.org/.test(p.page)) return 'Internet Archive';
+  try { return new URL(p.page).hostname.replace(/^www\./, ''); } catch { return p.page; }
+}
+const photoLicense = (lic, t) => (/^public domain$/i.test(lic) ? t.publicDomain : /^attribution$/i.test(lic) ? t.attribution : lic);
 
 function More({ total, shown, onMore }) {
   const [t] = useT();
@@ -607,7 +617,7 @@ export function PersonPage({ name }) {
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class={'page-head' + (w?.photo ? ' person-head' : '')}>
-        {w?.photo && <img class="person-photo" src={w.photo.src} alt="" width="160" height="160" />}
+        {w?.photo && <img class="person-photo" src={w.photo.src} alt="" width="160" height="160" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}
         <div class="person-text">
           <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {roles.map((r) => t.roleNames[r]).join(' · ')}</p>
           <h1>{name}</h1>
@@ -635,7 +645,7 @@ export function PersonPage({ name }) {
       )}
       {w?.photo && (
         <p class="photo-credit">
-          {t.photo}: {w.photo.by && <>{w.photo.by} · </>}{/^public domain$/i.test(w.photo.license) ? t.publicDomain : w.photo.license} · <a href={w.photo.page} target="_blank" rel="noopener">Wikimedia Commons</a>
+          {t.photo}: {w.photo.by && <>{w.photo.by} · </>}{photoLicense(w.photo.license, t)} · <a href={w.photo.page} target="_blank" rel="noopener">{photoSource(w.photo)}</a>
         </p>
       )}
     </main>

@@ -2,6 +2,18 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.13.1] - 2026-11-23
+
+### Added
+- Expanded Wikipedia and Goodreads links across stories, authors, and cast and crew: 296 stories now link to Wikipedia (up from 68), 373 link to Goodreads (up from 29), 553 people link to Wikipedia, and 202 authors link to Goodreads.
+- 117 new permissively licensed portraits for authors, actors, and directors (405 people with photos in total), sourced from Wikimedia Commons, the Romanian National Film Archive (Culturalia), and Flickr, each credited with author, license, and source link at the bottom of the person's page.
+
+### Changed
+- Person pages now display each photo's actual source (Wikimedia Commons, Culturalia, Flickr, and others) with localized license labels, and hide broken external images gracefully.
+
+### Fixed
+- Removed wrong Wikidata matches (such as *Dumitru Petrescu* and *Alexandru Minculescu*) and aligned Wikipedia links to Romanian for Romanians and Romanian stories and English for everyone else.
+
 ## [1.13.0] - 2026-11-23
 
 ### Added
