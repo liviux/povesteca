@@ -2,6 +2,15 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.12.2] - 2026-11-23
+
+### Changed
+- On a story page, the characters and the genre can be tapped, like the origin and the themes: they open **Browse** with every story that has the same character or genre.
+- On a recording page, the production type, performance, music, sound effects and mood can be tapped too.
+
+### Fixed
+- The pages of some new collections (such as *MiniREACTOR & Radio Cluj* or *Aventurile lui Pippin cel Curios*) stayed blank. They open now.
+
 ## [1.12.1] - 2026-11-23
 
 ### Fixed

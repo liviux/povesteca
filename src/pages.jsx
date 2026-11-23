@@ -124,6 +124,8 @@ function SearchForm({ value = '', onInput }) {
 const PAGE_SIZE = 48;
 // "(12)" after a heading, like "Înregistrări (6)" on a story page
 const cnt = (n) => <span class="muted">({n})</span>;
+// a value on a story or recording page that opens Browse filtered by it
+const find = (k, v) => `/explorare?${k}=${encodeURIComponent(v)}`;
 // "19 surse · 1172 de povești": a line may break only between the totals, never inside one
 const stats = (...parts) => parts.filter(Boolean).map((x) => x.replace(/ /g, '\u00a0')).join(' · ');
 const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
@@ -318,7 +320,7 @@ export function StoryPage({ id }) {
       <section class="detail-hero">
         <Cover src={storyCover(story)} title={story.title} />
         <div class="detail-text">
-          <p class="eyebrow">{label('genre', story.genre, lang)}</p>
+          <p class="eyebrow"><a href={find('genre', story.genre)}>{label('genre', story.genre, lang)}</a></p>
           <h1>{story.title}</h1>
           <p class="byline">{t.by} <PersonLink name={story.author} />{story.year ? ` · ${story.year}` : ''}</p>
           <p class="lead">{story.summary[lang] || story.summary.ro}</p>
@@ -329,7 +331,7 @@ export function StoryPage({ id }) {
           <dl class="tags">
             {story.origin && <><dt>{t.facts.origin}</dt><dd><a class="tag" href={`/explorare?origin=${encodeURIComponent(story.origin)}`}>{label('origin', story.origin, lang)}</a></dd></>}
             {story.year && <><dt>{t.facts.storyYear}</dt><dd>{story.year}</dd></>}
-            {story.characters?.length > 0 && <><dt>{t.characters}</dt><dd>{story.characters.join(', ')}</dd></>}
+            {story.characters?.length > 0 && <><dt>{t.characters}</dt><dd>{story.characters.map((x) => <a class="tag" href={find('char', x)}>{x}</a>)}</dd></>}
             {book && <><dt>{t.aboutBook}</dt><dd>{ext(book.wikipedia, 'Wikipedia', 'tag')}{ext(book.goodreads, 'Goodreads', 'tag')}</dd></>}
             {story.themes?.length > 0 && <><dt>{t.themesH}</dt><dd>{story.themes.map((x) => <a class="tag" href={`/explorare?q=${encodeURIComponent(label('themes', x, lang))}`}>{label('themes', x, lang)}</a>)}</dd></>}
           </dl>
@@ -451,11 +453,8 @@ export function VersionPage({ id }) {
             {story.year && <><dt>{t.facts.storyYear}</dt><dd>{story.year}</dd></>}
             {v.year && <><dt>{t.facts.recYear}</dt><dd>{v.year}</dd></>}
             {story.origin && <><dt>{t.facts.origin}</dt><dd><a href={`/explorare?origin=${encodeURIComponent(story.origin)}`}>{label('origin', story.origin, lang)}</a></dd></>}
-            <dt>{t.facts.kind}</dt><dd>{label('kind', v.kind, lang)}{est('kind')}</dd>
-            <dt>{t.facts.voices}</dt><dd>{label('voices', v.voices, lang)}{est('voices')}</dd>
-            <dt>{t.facts.music}</dt><dd>{label('music', v.music, lang)}{est('music')}</dd>
-            <dt>{t.facts.sfx}</dt><dd>{label('sfx', v.sfx, lang)}{est('sfx')}</dd>
-            <dt>{t.facts.moods}</dt><dd>{v.moods.map((m) => label('moods', m, lang)).join(', ')}{est('moods')}</dd>
+            {['kind', 'voices', 'music', 'sfx'].map((k) => <><dt>{t.facts[k]}</dt><dd><a href={find(k, v[k])}>{label(k, v[k], lang)}</a>{est(k)}</dd></>)}
+            <dt>{t.facts.moods}</dt><dd>{v.moods.map((m, i) => <>{i ? ', ' : ''}<a href={find('mood', m)}>{label('moods', m, lang)}</a></>)}{est('moods')}</dd>
             <dt>{t.facts.age}</dt><dd>{t.ageFrom(v.age)}{est('age')}</dd>
             <dt>{t.facts.play}</dt><dd>{t.playIn[activeLink.type]}{v.links.length > 1 && <span class="muted"> ({t.moreMirrors(v.links.length - 1)})</span>}{activeLink.type === 'youtube' && <small class="muted block">{t.ytNote}</small>}</dd>
             <dt>{t.facts.source}</dt><dd><a href={`/sursa/${src.id}`}>{src.name}</a></dd>
@@ -692,7 +691,7 @@ export function CollectionPage({ id }) {
       <header class="page-head">
         <p class="eyebrow"><Icon n="disc" size={16} /> {c.code && <>{c.code} · </>}<a href={`/sursa/${src.id}`}>{src.name}</a></p>
         <h1>{c.title}</h1>
-        <p class="lead">{c.description[lang] || c.description.ro}</p>
+        {c.description && <p class="lead">{c.description[lang] || c.description.ro}</p>}
         {c.url && <p><a class="btn ghost" href={c.url} target="_blank" rel="noopener">{c.url.includes('discogs.com') ? 'Discogs' : t.sourceSite}<Icon n="ext" size={16} /></a></p>}
       </header>
       <section class="shelf-section" aria-labelledby="on-disc">

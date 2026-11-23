@@ -2,6 +2,15 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.12.2] - 2026-11-23
+
+### Changed
+- Pe pagina poveștii, personajele și genul se pot apăsa, ca originea și temele: duc în **Explorează** la toate poveștile cu același personaj sau din același gen.
+- Pe pagina înregistrării se pot apăsa și tipul, interpretarea, muzica, efectele sonore și atmosfera.
+
+### Fixed
+- Paginile unor colecții noi (de exemplu *MiniREACTOR & Radio Cluj* sau *Aventurile lui Pippin cel Curios*) rămâneau goale. Acum se deschid.
+
 ## [1.12.1] - 2026-11-23
 
 ### Fixed
