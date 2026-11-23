@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.15.2] - 2026-11-23
+
+### Changed
+- Listele „Altă sursă” și viteza din player, „Ordine” și filtrul „Vârstă” se deschid acum în culorile temei, ca listele din filtre, nu în lista standard a telefonului.
+
 ## [1.15.1] - 2026-11-23
 
 ### Changed

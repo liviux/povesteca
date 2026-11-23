@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useId, useRef, useState } from 'preact/hooks';
 import { storyById, cover, storyCover, bestVersion, versionsByStory, linkUrl } from './data.js';
 import { label, fmtDur } from './i18n.js';
 import { useStore, useT, toggleIn } from './store.js';
@@ -33,6 +33,51 @@ const P = {
 export const Icon = ({ n, size = 22, ...p }) => (
   <svg class="icon" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" {...p}>{P[n]}</svg>
 );
+
+// the themed list of the filters, for a few fixed choices (order, speed, source) instead of the device's own list.
+// items: [[value, text]]; children replace the button's content (otherwise the chosen text and an arrow)
+export function Pick({ label, value, items, onPick, cls = 'pick-btn', children }) {
+  const [act, setAct] = useState(-1); // -1: closed
+  const box = useRef();
+  const id = useId();
+  const open = act >= 0;
+  const cur = Math.max(0, items.findIndex(([v]) => v === value));
+  useEffect(() => {
+    if (!open) return;
+    const out = (e) => !box.current?.contains(e.target) && setAct(-1);
+    document.addEventListener('pointerdown', out);
+    return () => document.removeEventListener('pointerdown', out);
+  }, [open]);
+  // the whole list on screen (it can open below the fold), then the highlighted line inside it
+  useEffect(() => { for (const el of box.current.querySelectorAll('ul, .act')) el.scrollIntoView({ block: 'nearest' }); }, [act]);
+  const pick = (v) => { setAct(-1); if (v !== value) onPick(v); };
+  // Enter and Space click the button: it opens the list, or picks the highlighted line
+  const onKey = (e) => {
+    const k = e.key;
+    if (k === 'ArrowDown' || k === 'ArrowUp') { e.preventDefault(); setAct(open ? Math.max(0, Math.min(items.length - 1, act + (k === 'ArrowDown' ? 1 : -1))) : cur); }
+    else if (open && (k === 'Home' || k === 'End')) { e.preventDefault(); setAct(k === 'Home' ? 0 : items.length - 1); }
+    else if (open && k === 'Escape') { e.stopPropagation(); setAct(-1); }
+    else if (k === 'Tab') setAct(-1);
+  };
+  return (
+    <span class="pick" ref={box}>
+      <button type="button" class={cls} role="combobox" aria-label={label} title={label} aria-haspopup="listbox" aria-expanded={open}
+        aria-controls={id} aria-activedescendant={open ? `${id}-${act}` : undefined}
+        onClick={() => (open ? pick(items[act][0]) : setAct(cur))} onKeyDown={onKey}>
+        {/* every choice stacked, only the picked one visible: the button is as wide as the longest, like a native list */}
+        {children || <><span class="pick-txt">{items.map(([, txt], i) => <span class={i === cur ? 'on' : null}>{txt}</span>)}</span>
+          <Icon n="right" size={16} style={{ transform: 'rotate(90deg)' }} /></>}
+      </button>
+      {open && (
+        <ul id={id} role="listbox" class="combo-list pick-list" aria-label={label} onMouseDown={(e) => e.preventDefault()}>
+          {items.map(([v, txt], i) => (
+            <li id={`${id}-${i}`} role="option" aria-selected={v === value} class={i === act ? 'act' : null} onClick={() => pick(v)}>{txt}</li>
+          ))}
+        </ul>
+      )}
+    </span>
+  );
+}
 
 export function Cover({ src, title, size = 180 }) {
   // remember which src failed, so the same Cover showing a new picture tries again

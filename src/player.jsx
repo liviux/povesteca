@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { versionById, storyById, sourceById, cover, audioUrl, linkUrl, linkLabel, versions, shuffle } from './data.js';
 import { fmtTime } from './i18n.js';
 import { state, set, setPlayer, useStore, useT, addHistory } from './store.js';
-import { Icon, Cover } from './ui.jsx';
+import { Icon, Cover, Pick } from './ui.jsx';
 
 /*
  * Two engines, one set of controls:
@@ -354,17 +354,14 @@ function Controls({ big }) {
   );
 }
 
-// looks like a pill, opens the device's own list of the recording's links, so any one can be picked
+// looks like a pill, opens the list of the recording's links, so any one can be picked
 function SourcePick({ v, p, cls, children }) {
   const [t] = useT();
   const src = sourceById.get(v.sourceId);
   return (
-    <span class={'source-pick ' + cls}>
+    <Pick label={t.switchSource} cls={cls} value={p.link} items={v.links.map((l, i) => [i, linkLabel(l, src, v.links)])} onPick={switchLink}>
       {children}<Icon n="right" size={14} style={{ transform: 'rotate(90deg)' }} />
-      <select aria-label={t.switchSource} title={t.switchSource} value={p.link} onChange={(e) => switchLink(+e.currentTarget.value)}>
-        {v.links.map((l, i) => <option value={i}>{linkLabel(l, src, v.links)}</option>)}
-      </select>
-    </span>
+    </Pick>
   );
 }
 
@@ -412,9 +409,9 @@ export function Dock() {
               <SourcePick v={v} p={p} cls="dock-switch">{`${p.link + 1}/${v.links.length} · ${t.switchShort}`}</SourcePick>
             )}
             <SleepChip />
-            <select class={'dock-rate' + (s.rate !== 1 ? ' on' : '')} aria-label={t.speed} title={t.speed} value={s.rate} onChange={(e) => setRate(+e.currentTarget.value)}>
-              {RATES.map((r) => <option value={r}>{r.toLocaleString(s.lang) + '×'}</option>)}
-            </select>
+            <Pick label={t.speed} cls={'dock-rate' + (s.rate !== 1 ? ' on' : '')} value={s.rate} items={RATES.map((r) => [r, r.toLocaleString(s.lang) + '×'])} onPick={setRate}>
+              {s.rate.toLocaleString(s.lang) + '×'}
+            </Pick>
             <button type="button" class="icon-btn" aria-label={t.night} onClick={() => setPlayer({ night: true })}><Icon n="moon" /></button>
             <button type="button" class="icon-btn" aria-label={t.closePlayer} onClick={closePlayer}><Icon n="close" /></button>
           </div>

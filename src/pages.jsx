@@ -6,7 +6,7 @@ import {
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
 import { play, toggle, savedOffset } from './player.jsx';
-import { Icon, Cover, PlayButton, FavButton, Rating, Traits, VersionCard, StoryCard } from './ui.jsx';
+import { Icon, Cover, PlayButton, FavButton, Rating, Traits, VersionCard, StoryCard, Pick } from './ui.jsx';
 
 const title = (txt) => { document.title = txt ? `${txt} · Povesteca` : 'Povesteca · povești audio pentru copii'; };
 
@@ -225,14 +225,6 @@ export function Explore({ query }) {
       })).map((v) => opt(k, v, label(group, v, lang)))}</div>
     </fieldset>
   );
-  const select = (k, items) => (
-    <label class="fgroup"><span class="legend">{t.f[k]}</span>
-      <select value={f[k] || ''} onChange={(e) => update(k, e.currentTarget.value)}>
-        <option value="">{t.any}</option>
-        {items.map(([v, txt]) => <option value={v}>{txt}</option>)}
-      </select>
-    </label>
-  );
   const combo = (k, items) => <Combo id={'f-' + k} legend={t.f[k]} value={f[k] || ''} items={items} onPick={(v) => update(k, v)} />;
   const activeLabel = (k, v) => k === 'show' ? (v === 'povesti' ? t.storiesH : t.recordings) : k === 'mood' ? v.split(',').map((m) => label('moods', m, lang)).join(', ')
     : k === 'age' ? t.ageOpt(v) : k === 'dur' ? t.durOpt[v] : k === 'source' ? sourceById.get(v)?.name : k === 'col' ? collectionById.get(v)?.title
@@ -263,7 +255,7 @@ export function Explore({ query }) {
           <fieldset class="fgroup"><legend>{t.f.show}</legend><div class="chips">{opt('show', 'povesti', t.storiesH)}{opt('show', 'inregistrari', t.recordings)}</div></fieldset>
           {chips('genre')}{chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>
-          {select('age', [3, 4, 5, 6, 7, 8, 9, 10, 12].map((n) => [String(n), t.ageOpt(n)]))}
+          {combo('age',[3, 4, 5, 6, 7, 8, 9, 10, 12].map((n) => [String(n), t.ageOpt(n)]))}
           {/* how many there are of each, in the whole catalogue: stories for story fields, recordings for the rest */}
           {combo('origin', origins.map((o) => [o, label('origin', o, lang), t.nStories(storiesFrom.get(o))]))}
           {combo('author', authors.map((a) => [a, a, t.nStories(storiesByAuthor.get(a).length)]))}
@@ -275,11 +267,7 @@ export function Explore({ query }) {
         <section class="results">
           <div class="results-head">
             <p class="count" aria-live="polite">{f.show === 'povesti' ? t.nStories(storyList.length) : f.show ? t.nRec(list.length) : `${t.nStories(storyList.length)} · ${t.nRec(list.length)}`}</p>
-            <label class="sort"><span class="sr-only">{t.sortBy}</span>
-              <select value={sort} onChange={(e) => update('sort', e.currentTarget.value)}>
-                {Object.entries(t.sorts).filter(([k]) => k !== 'relevanta' || rel).map(([k, txt]) => <option value={k}>{txt}</option>)}
-              </select>
-            </label>
+            <Pick label={t.sortBy} value={sort} items={Object.entries(t.sorts).filter(([k]) => k !== 'relevanta' || rel)} onPick={(v) => update('sort', v)} />
             <button type="button" class="btn small accent" disabled={!list.length} onClick={() => surprise(list)}><Icon n="shuffle" size={16} />{t.surprise}</button>
           </div>
           {list.length === 0 ? <p class="empty">{t.noResults}</p>
@@ -341,11 +329,7 @@ export function StoryPage({ id }) {
         <div class="shelf-head">
           <h2 id="vh">{t.recordings} {cnt(vs.length)}</h2>
           {vs.length > 1 && (
-            <label class="sort"><span class="sr-only">{t.sortBy}</span>
-              <select value={sort} onChange={(e) => setSort(e.currentTarget.value)}>
-                {['recomandate', 'rating', 'scurte', 'lungi'].map((k) => <option value={k}>{t.sorts[k]}</option>)}
-              </select>
-            </label>
+            <Pick label={t.sortBy} value={sort} items={['recomandate', 'rating', 'scurte', 'lungi'].map((k) => [k, t.sorts[k]])} onPick={setSort} />
           )}
         </div>
         <div class="compare">{vs.map((v) => <VersionRow v={v} best={vs.length > 1 && v.id === best.id} dupOf={dups.get(v.id)} />)}</div>

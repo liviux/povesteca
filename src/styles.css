@@ -295,9 +295,17 @@ img { display: block; max-width: 100%; }
 .fgroup { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; min-width: 0; }
 .fgroup legend, .fgroup .legend { font-weight: 800; padding: 0; margin-bottom: 8px; }
 .fgroup .legend { margin-bottom: 0; }
-select { min-height: 44px; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); padding: 0 12px; max-width: 100%; font-weight: 700; }
-select:hover { border-color: var(--ink); }
-.fgroup select { width: 100%; }
+.pick { position: relative; display: inline-flex; max-width: 100%; }
+.pick-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; max-width: 100%; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); padding: 0 10px 0 12px; font-weight: 700; cursor: pointer; }
+.pick-btn:hover, .pick-btn[aria-expanded='true'] { border-color: var(--ink); }
+.pick-btn .icon { flex: none; color: var(--muted); }
+.pick-txt { display: grid; text-align: left; }
+.pick-txt > * { grid-area: 1 / 1; }
+.pick-txt > :not(.on) { visibility: hidden; }
+.combo-list.pick-list { position: absolute; z-index: 30; top: calc(100% + 6px); left: 0; min-width: 100%; width: max-content; max-width: calc(100vw - 24px); max-height: min(340px, 60dvh); }
+/* in the player the list opens upwards, from the right edge */
+.dock .pick-list { top: auto; bottom: calc(100% + 6px); left: auto; right: 0; }
+.night .pick-list { left: 50%; translate: -50%; }
 .combo-field { position: relative; display: block; }
 .combo-field input { width: 100%; min-height: 44px; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); padding: 0 38px 0 12px; font-weight: 700; text-overflow: ellipsis; }
 .combo-field input:hover, .combo-field input[aria-expanded='true'] { border-color: var(--ink); }
@@ -363,12 +371,8 @@ select:hover { border-color: var(--ink); }
 .mirror-btn { display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); font-weight: 700; font-size: 13px; cursor: pointer; }
 .mirror-btn:hover { border-color: var(--ink); }
 /* 36px pills, 44px to a finger */
-.mirror-btn, .mirror-ext { position: relative; }
-.mirror-btn::after, .mirror-ext::after { content: ''; position: absolute; inset: -4px 0; }
-/* an invisible native select over the pill: the device shows its own list of sources */
-.source-pick { position: relative; display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
-.source-pick select { position: absolute; inset: -4px 0; width: 100%; height: calc(100% + 8px); opacity: 0; cursor: pointer; font-size: 16px; }
-.source-pick:focus-within { outline: 3px solid var(--focus); outline-offset: 2px; }
+.mirror-btn, .mirror-ext, .dock-switch { position: relative; }
+.mirror-btn::after, .mirror-ext::after, .dock-switch::after { content: ''; position: absolute; inset: -4px 0; }
 .mirror-btn[aria-pressed='true'] { background: var(--primary); border-color: var(--primary); color: var(--primary-ink); }
 .vrow h3 a { text-decoration: none; }
 .vrow h3 a:hover { text-decoration: underline; }

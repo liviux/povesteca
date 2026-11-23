@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.15.2] - 2026-11-23
+
+### Changed
+- The player's “Other source” and speed lists, “Order” and the “Age” filter now open in the theme's colours, like the filter lists, instead of the phone's standard list.
+
 ## [1.15.1] - 2026-11-23
 
 ### Changed
