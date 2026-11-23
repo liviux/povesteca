@@ -112,6 +112,8 @@ function SearchForm({ value = '', onInput }) {
 const PAGE_SIZE = 48;
 // "(12)" after a heading, like "Înregistrări (6)" on a story page
 const cnt = (n) => <span class="muted">({n})</span>;
+// "19 surse · 1172 de povești": a line may break only between the totals, never inside one
+const stats = (...parts) => parts.filter(Boolean).map((x) => x.replace(/ /g, '\u00a0')).join(' · ');
 const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
 const storiesWithChar = countBy(stories, (s) => s.characters || []);
 const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
@@ -529,6 +531,7 @@ export function SourcesPage() {
     <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
         <h1>{t.sources}</h1>
+        <p class="lead muted">{stats(t.nSources(sources.length), t.nStories(stories.length), t.nRec(versions.length))}</p>
         <p class="lead">{t.sourcesLead}</p>
       </header>
       <ul class="src-list">
@@ -591,7 +594,7 @@ export function PersonPage({ name }) {
         <div class="person-text">
           <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {roles.map((r) => t.roleNames[r]).join(' · ')}</p>
           <h1>{name}</h1>
-          <p class="lead muted">{[written.length && t.nStories(written.length), t.nRec(allVs.length)].filter(Boolean).join(' · ')}</p>
+          <p class="lead muted">{stats(written.length && t.nStories(written.length), t.nRec(allVs.length))}</p>
           <div class="actions">
             <button type="button" class="btn accent" disabled={!allVs.length} onClick={() => surprise(allVs)}><Icon n="shuffle" size={16} />{t.surprise}</button>
             <a class="btn ghost" href={`/explorare?${written.length ? 'author' : 'person'}=${encodeURIComponent(name)}`}>{t.filterInExplore}</a>
@@ -637,7 +640,7 @@ export function SourcePage({ id }) {
       <header class="page-head">
         <p class="eyebrow"><a href="/surse">{t.sources}</a> · {t.platform[src.type] || src.type}</p>
         <h1>{src.name}</h1>
-        <p class="lead muted">{t.nStories(new Set(vs.map((v) => v.storyId)).size)} · {t.nRec(vs.length)}</p>
+        <p class="lead muted">{stats(t.nStories(new Set(vs.map((v) => v.storyId)).size), t.nRec(vs.length))}</p>
         <p class="lead">{src.description[lang] || src.description.ro}</p>
         <p><a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a></p>
       </header>

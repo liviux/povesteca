@@ -2,6 +2,12 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.10.1] - 2026-11-23
+
+### Changed
+- Pagina **Surse** arată sus câte surse sunt în total și câte povești și înregistrări au împreună.
+- Pe telefon, totalurile de sub titluri nu se mai rup între număr și cuvânt.
+
 ## [1.10.0] - 2026-11-23
 
 ### Added

@@ -2,6 +2,12 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.10.1] - 2026-11-23
+
+### Changed
+- The **Sources** page shows at the top how many sources there are in total, and how many stories and recordings they hold together.
+- On phones, the totals under titles no longer break between the number and the word.
+
 ## [1.10.0] - 2026-11-23
 
 ### Added
