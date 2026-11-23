@@ -2,6 +2,19 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.15.3] - 2026-11-23
+
+### Changed
+- Metadata was checked story by story and recording by recording: 688 summaries, 652 character lists, 358 story years, 286 recording years and 369 cast and director credits filled in or corrected.
+- 350 recordings got the cover of the original record or video.
+- New origins in the filters: Slovak, Dutch, Welsh, Brazilian, Latvian, Slovenian, Austrian, Cypriot, Mexican, Croatian and Australian.
+
+### Fixed
+- Wrong years (“Fram, ursul polar” 1932, “Sarea în bucate” 1887, “Scufița Roșie” 1961, “Palatul de cleștar” 1884), reissue years mistaken for the production year, and segment lengths.
+- Dead links and one YouTube link that played a different production.
+- “Cei doi prieteni” was merged into “Prietenul devotat”, and “Câtă muncă adunată!” into the record version.
+- “Povestea lui Moș Crăciun” (1994, by Maria Ioana Vasiloiu) was split from the A Fost Odată adaptation.
+
 ## [1.15.2] - 2026-11-23
 
 ### Changed

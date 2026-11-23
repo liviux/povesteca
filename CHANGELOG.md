@@ -2,6 +2,19 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.15.3] - 2026-11-23
+
+### Changed
+- Metadatele au fost verificate poveste cu poveste și înregistrare cu înregistrare: 688 de rezumate, 652 de liste de personaje, 358 de ani de poveste, 286 de ani de înregistrare și 369 de distribuții și regii completate sau corectate.
+- 350 de înregistrări au primit coperta discului sau a videoclipului original.
+- Origini noi în filtre: slovacă, olandeză, galeză, braziliană, letonă, slovenă, austriacă, cipriotă, mexicană, croată și australiană.
+
+### Fixed
+- Ani greșiți („Fram, ursul polar” 1932, „Sarea în bucate” 1887, „Scufița Roșie” 1961, „Palatul de cleștar” 1884), ani de reeditare confundați cu anul producției și durate de secvențe.
+- Linkuri moarte și un link YouTube care ducea la altă producție.
+- „Cei doi prieteni” a fost unit cu „Prietenul devotat”, iar „Câtă muncă adunată!” cu varianta de pe disc.
+- „Povestea lui Moș Crăciun” (1994, de Maria Ioana Vasiloiu) a fost separată de adaptarea A Fost Odată.
+
 ## [1.15.2] - 2026-11-23
 
 ### Changed

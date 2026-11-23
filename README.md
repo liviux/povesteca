@@ -10,7 +10,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog.
 
-Acum sunt 1322 povești și 1621 de înregistrări, din 30 de surse gratuite:
+Acum sunt 1321 de povești și 1621 de înregistrări, din 30 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)

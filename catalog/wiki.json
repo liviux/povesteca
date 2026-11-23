@@ -225,9 +225,22 @@
    "wikidata": "Q107466222",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Ciontea"
   },
+  "Ana Lupan": {
+   "wikidata": "Q12720577",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Lupan"
+  },
   "Ana Maria Moldovan": {
    "wikidata": "Q12720582",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Maria_Moldovan"
+  },
+  "Ana Vlădescu": {
+   "wikidata": "Q134590477",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Ana_Vl%C4%83descu.01.jpg/330px-Ana_Vl%C4%83descu.01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ana_Vl%C4%83descu.01.jpg",
+    "license": "Public domain",
+    "by": "Teatrul magazine from June 1, 1965 (No. 6, year X), available at Digiteca Arcanum . This is a cropped version of the ima"
+   }
   },
   "Anatole France": {
    "wikidata": "Q42443",
@@ -1047,11 +1060,6 @@
    "wikidata": "Q12726365",
    "wikipedia": "https://ro.wikipedia.org/wiki/Dan_Tufaru"
   },
-  "Dan Ursuleanu": {
-   "wikidata": "Q20007035",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Dan_Ursuleanu",
-   "goodreads": "https://www.goodreads.com/author/show/15180278"
-  },
   "Dana Comnea": {
    "wikidata": "Q12726373",
    "photo": {
@@ -1267,10 +1275,6 @@
    "wikidata": "Q18538569",
    "wikipedia": "https://ro.wikipedia.org/wiki/Dumitru_Capoianu"
   },
-  "Dumitru Chesa": {
-   "wikidata": "Q107366153",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Dumitru_Chesa"
-  },
   "Dumitru Furdui": {
    "wikidata": "Q12727160",
    "photo": {
@@ -1301,6 +1305,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Dumitru_Matcovschi",
    "goodreads": "https://www.goodreads.com/author/show/8560371"
+  },
+  "E. C. Segar": {
+   "wikidata": "Q452745",
+   "photo": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/E._C._Segar.png",
+    "page": "https://commons.wikimedia.org/wiki/File:E._C._Segar.png",
+    "license": "Public domain",
+    "by": "New York Evening Journal"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/E._C._Segar"
   },
   "E. T. A. Hoffmann": {
    "wikidata": "Q150471",
@@ -1417,6 +1431,10 @@
     "by": "The National Museum of Romanian History"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Emil_Botta"
+  },
+  "Emil Coșeru": {
+   "wikidata": "Q66456994",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Emil_Co%C8%99eru"
   },
   "Emil Gârleanu": {
    "wikidata": "Q3052223",
@@ -1638,16 +1656,6 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Florin_Piersic"
   },
-  "Florin Piersic jr.": {
-   "wikidata": "Q15150925",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Florin_Piersic%2C_Jr._01.jpg/330px-Florin_Piersic%2C_Jr._01.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Florin_Piersic,_Jr._01.jpg",
-    "license": "CC BY-SA 3.0",
-    "by": "Joe Mabel"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Florin_Piersic,_Jr."
-  },
   "Florin Piersic Jr.": {
    "wikidata": "Q15150925",
    "photo": {
@@ -1782,10 +1790,6 @@
     "by": "Arhiva Națională de Filme",
     "source": "Culturalia"
    }
-  },
-  "Gelu Solomonescu": {
-   "wikidata": "Q135944848",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Gelu_Solomonescu"
   },
   "Geo Barton": {
    "wikidata": "Q13534581",
@@ -2116,6 +2120,7 @@
    "goodreads": "https://www.goodreads.com/author/show/586894"
   },
   "Gundi Herget": {
+   "wikidata": "Q133394723",
    "goodreads": "https://www.goodreads.com/author/show/14968433"
   },
   "H. G. Wells": {
@@ -2258,14 +2263,6 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Ioan_Slavici",
    "goodreads": "https://www.goodreads.com/author/show/562370"
-  },
-  "Ioana Chicet Macoveiciuc": {
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ioana_Macoveiciuc_on_stage.jpg/330px-Ioana_Macoveiciuc_on_stage.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Ioana_Macoveiciuc_on_stage.jpg",
-    "license": "CC0",
-    "by": "IoanaMacoveiciuc"
-   }
   },
   "Ioana Chicet-Macoveiciuc": {
    "wikidata": "Q126924355",
@@ -2622,6 +2619,11 @@
    "wikipedia": "https://en.wikipedia.org/wiki/James_Oliver_Curwood",
    "goodreads": "https://www.goodreads.com/author/show/66979"
   },
+  "Jean de La Fontaine": {
+   "wikidata": "Q49496",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jean_de_La_Fontaine",
+   "goodreads": "https://www.goodreads.com/author/show/82948"
+  },
   "Jean Lorin Florescu": {
    "wikidata": "Q12731343",
    "photo": {
@@ -2816,17 +2818,6 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/L._Frank_Baum",
    "goodreads": "https://www.goodreads.com/author/show/3242"
-  },
-  "La Fontaine": {
-   "wikidata": "Q49496",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Henri_Millot_-_Jean_de_La_Fontaine_-_A_II_792_-_Finnish_National_Gallery.jpg/330px-Henri_Millot_-_Jean_de_La_Fontaine_-_A_II_792_-_Finnish_National_Gallery.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Henri_Millot_-_Jean_de_La_Fontaine_-_A_II_792_-_Finnish_National_Gallery.jpg",
-    "license": "Public domain",
-    "by": "Henri Millot"
-   },
-   "wikipedia": "https://en.wikipedia.org/wiki/Jean_de_La_Fontaine",
-   "goodreads": "https://www.goodreads.com/author/show/82948"
   },
   "Larisa Turea": {
    "wikidata": "Q18548747",
@@ -3985,6 +3976,17 @@
    "wikipedia": "https://en.wikipedia.org/wiki/P._L._Travers",
    "goodreads": "https://www.goodreads.com/author/show/6872556"
   },
+  "Panait Istrati": {
+   "wikidata": "Q344179",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Panait_Istrati.jpg/330px-Panait_Istrati.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Panait_Istrati.jpg",
+    "license": "Public domain",
+    "by": "facebook"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Panait_Istrati",
+   "goodreads": "https://www.goodreads.com/author/show/55651"
+  },
   "Passionaria Stoicescu": {
    "wikidata": "Q111271732",
    "photo": {
@@ -4151,6 +4153,10 @@
   "Radu Dunăreanu": {
    "wikidata": "Q110131370",
    "wikipedia": "https://ro.wikipedia.org/wiki/Radu_Dun%C4%83reanu"
+  },
+  "Radu Ițcuș": {
+   "wikidata": "Q96241737",
+   "wikipedia": "https://ro.wikipedia.org/wiki/R%C4%83ducu_I%C8%9Bcu%C8%99"
   },
   "Radu Panamarenco": {
    "wikidata": "Q63968475",
@@ -4599,7 +4605,7 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Tamara_Cre%C8%9Bulescu"
   },
-  "Tanti Cocea": {
+  "Tanți Cocea": {
    "wikidata": "Q16602117",
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Tan%C8%9Bi_Cocea.jpg/330px-Tan%C8%9Bi_Cocea.jpg",
@@ -4725,6 +4731,16 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Tudor_Arghezi",
    "goodreads": "https://www.goodreads.com/author/show/787513"
   },
+  "Tudor Mușatescu": {
+   "wikidata": "Q4685505",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Tudor_Musatescu.jpg/330px-Tudor_Musatescu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tudor_Musatescu.jpg",
+    "license": "Attribution",
+    "by": "The National Museum of Romanian History"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Tudor_Mu%C8%99atescu"
+  },
   "Tudorel Filimon": {
    "wikidata": "Q26973839",
    "photo": {
@@ -4797,6 +4813,10 @@
     "by": "Ileana Muncaciu"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Valeria_Seciu"
+  },
+  "Valeriu Anania": {
+   "wikidata": "Q809525",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Bartolomeu_Anania"
   },
   "Valeriu Cazacu": {
    "wikidata": "Q12743063",
