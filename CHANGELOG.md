@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.20.0] - 2026-11-23
+
+### Added
+- Butonul „Surprinde-mă!” e acum și în bara de sus și în player: pornește o poveste la întâmplare din tot catalogul.
+
+### Changed
+- Butonul de limbă (RO/EN) s-a mutat în meniul „Temă”.
+
 ## [1.19.2] - 2026-11-23
 
 ### Removed

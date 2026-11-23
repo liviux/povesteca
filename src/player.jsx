@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { versionById, storyById, sourceById, cover, audioUrl, linkUrl, linkLabel, versions, shuffle } from './data.js';
 import { fmtTime } from './i18n.js';
-import { state, set, setPlayer, useStore, useT, addHistory } from './store.js';
+import { state, set, setPlayer, useStore, useT, addHistory, navigate } from './store.js';
 import { Icon, Cover, Pick } from './ui.jsx';
 
 /*
@@ -77,6 +77,24 @@ export function play(id, from, linkIdx = 0) {
   tick(start, lim);
   addHistory(id);
   startLink(v, idx, start);
+}
+// Every story has the same chance, however many recordings it has. No story comes back until all the
+// others in the list have had their turn, and stories in the history come last.
+const surprised = new Set();
+export function surprise(list = versions) {
+  const pool = list.length ? list : versions;
+  const ids = [...new Set(pool.map((v) => v.storyId))];
+  const heard = new Set(state.history.map((h) => versionById.get(h.id)?.storyId));
+  const now = versionById.get(state.player.id)?.storyId;
+  let fresh = ids.filter((id) => !surprised.has(id) && !heard.has(id));
+  if (!fresh.length) fresh = ids.filter((id) => !surprised.has(id));
+  if (!fresh.length) { ids.forEach((id) => surprised.delete(id)); fresh = ids.filter((id) => id !== now); }
+  const sid = shuffle(fresh.length ? fresh : ids)[0];
+  if (!sid) return;
+  surprised.add(sid);
+  const v = shuffle(pool.filter((x) => x.storyId === sid))[0];
+  play(v.id);
+  navigate(`/inregistrare/${v.id}`);
 }
 export function switchLink(idx) {
   const v = versionById.get(state.player.id);
@@ -350,6 +368,7 @@ function Controls({ big }) {
         <Icon n={busy ? 'pause' : 'play'} size={big ? 34 : 26} />
       </button>
       <button type="button" class="icon-btn skip" aria-label={t.fwd30} onClick={() => seekBy(30)}><Icon n="fwd" /><small>30</small></button>
+      {!big && <button type="button" class="icon-btn" aria-label={t.surprise} title={t.surprise} onClick={() => surprise()}><Icon n="shuffle" /></button>}
     </div>
   );
 }

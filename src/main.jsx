@@ -2,7 +2,7 @@ import { render } from 'preact';
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { useRoute, useStore, useT, set, setPlayer, loadRatings, state } from './store.js';
 import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourcePage, CollectionPage, Mine, NotFound } from './pages.jsx';
-import { Dock, Night } from './player.jsx';
+import { Dock, Night, surprise } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
 import { REPO, loadDetails } from './data.js';
@@ -34,7 +34,6 @@ function ThemeMenu() {
               <i /><span>{t.themes[x]}</span>
             </button>
           ))}
-          {/* on narrow phones the language switch moves in here, the header has no room for it */}
           <button type="button" class="swatch lang-in-menu" lang={s.lang === 'ro' ? 'en' : 'ro'} onClick={() => { set({ lang: s.lang === 'ro' ? 'en' : 'ro' }); setOpen(false); }}>
             <i aria-hidden="true">{s.lang === 'ro' ? 'EN' : 'RO'}</i><span>{t.otherLang}</span>
           </button>
@@ -45,7 +44,6 @@ function ThemeMenu() {
 }
 
 function Header({ path }) {
-  const s = useStore();
   const [t] = useT();
   const link = (href, icon, text, also) => (
     <a class="nav-link" href={href} aria-current={path === href || also?.test(path) ? 'page' : null}>
@@ -61,13 +59,11 @@ function Header({ path }) {
         </a>
         <nav class="head-nav" aria-label="Meniu">
           {link('/explorare', 'search', t.explore)}
+          <button type="button" class="nav-link" onClick={() => surprise()}><Icon n="shuffle" /><span class="nav-txt">{t.surprise}</span></button>
           {link('/surse', 'library', t.sources, /^\/sursa\//)}
           {link('/ale-mele', 'heart', t.mine)}
           <button type="button" class="nav-link" onClick={() => setPlayer({ night: true })}><Icon n="moon" /><span class="nav-txt">{t.night}</span></button>
           <ThemeMenu />
-          <button type="button" class="nav-link lang" lang={s.lang === 'ro' ? 'en' : 'ro'} onClick={() => set({ lang: s.lang === 'ro' ? 'en' : 'ro' })}>
-            <span aria-hidden="true">{s.lang === 'ro' ? 'EN' : 'RO'}</span><span class="sr-only">{t.otherLang}</span>
-          </button>
         </nav>
       </div>
     </header>

@@ -5,29 +5,10 @@ import {
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
-import { play, toggle, savedOffset } from './player.jsx';
+import { play, toggle, savedOffset, surprise } from './player.jsx';
 import { Icon, Cover, PlayButton, FavButton, Rating, Traits, VersionCard, StoryCard, Pick } from './ui.jsx';
 
 const title = (txt) => { document.title = txt ? `${txt} · Povesteca` : 'Povesteca · povești audio pentru copii'; };
-
-// Every story has the same chance, however many recordings it has. No story comes back until all the
-// others in the list have had their turn, and stories in the history come last.
-const surprised = new Set();
-function surprise(list) {
-  const pool = list.length ? list : versions;
-  const ids = [...new Set(pool.map((v) => v.storyId))];
-  const heard = new Set(state.history.map((h) => versionById.get(h.id)?.storyId));
-  const now = versionById.get(state.player.id)?.storyId;
-  let fresh = ids.filter((id) => !surprised.has(id) && !heard.has(id));
-  if (!fresh.length) fresh = ids.filter((id) => !surprised.has(id));
-  if (!fresh.length) { ids.forEach((id) => surprised.delete(id)); fresh = ids.filter((id) => id !== now); }
-  const sid = shuffle(fresh.length ? fresh : ids)[0];
-  if (!sid) return;
-  surprised.add(sid);
-  const v = shuffle(pool.filter((x) => x.storyId === sid))[0];
-  play(v.id);
-  navigate(`/inregistrare/${v.id}`);
-}
 
 function Shelf({ id, heading, more, children, action }) {
   const [t] = useT();

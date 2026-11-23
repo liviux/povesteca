@@ -152,7 +152,6 @@ img { display: block; max-width: 100%; }
 .nav-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; min-width: 44px; justify-content: center; padding: 0 10px; border: 0; background: none; border-radius: 12px; font-weight: 800; text-decoration: none; transition: background-color .15s; }
 .nav-link:hover { background: var(--surface-2); }
 .nav-link[aria-current='page'] { color: var(--primary); box-shadow: inset 0 -3px 0 var(--accent); }
-.nav-link.lang { font-family: 'Baloo 2', sans-serif; font-size: 16px; border: 2px solid var(--line); min-width: 48px; }
 /* icon-only menu on smaller screens: the label stays for screen readers */
 .nav-txt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .theme-menu { position: relative; }
@@ -165,17 +164,15 @@ img { display: block; max-width: 100%; }
 .sw-clasic i { background: conic-gradient(#16324f 0 50%, #f6a457 0 75%, #fef5ea 0); box-shadow: inset 0 0 0 1px #0002; }
 .sw-baieti i { background: conic-gradient(#1563a6 0 50%, #ffc23d 0 75%, #eaf3fb 0); box-shadow: inset 0 0 0 1px #0002; }
 .sw-fete i { background: conic-gradient(#c3335f 0 50%, #ffb48c 0 75%, #fff3f3 0); box-shadow: inset 0 0 0 1px #0002; }
-.lang-in-menu { display: none; }
 .lang-in-menu i { display: grid; place-items: center; font: 700 13px 'Baloo 2', sans-serif; font-style: normal; background: var(--surface-2); }
 @media (max-width: 599px) { .wordmark { display: none; } }
-@media (max-width: 420px) { .nav-link.lang { display: none; } .lang-in-menu { display: flex; } }
 @media (min-width: 1080px) { .nav-txt { position: static; width: auto; height: auto; overflow: visible; clip: auto; } }
 /* after the rules it overrides: the smallest phones need narrower menu buttons */
-@media (max-width: 360px) { .head-nav { gap: 0; } .nav-link, .theme-menu > .icon-btn { min-width: 40px; padding: 0 8px; } .brand img:first-child { width: 44px; } }
+@media (max-width: 360px) { .head-inner { gap: 4px; } .head-nav { gap: 0; } .nav-link, .theme-menu > .icon-btn { min-width: 40px; padding: 0 8px; } .brand img:first-child { width: 44px; } }
 
 [data-theme='baieti'] .site-head { background: var(--surface); border-bottom: 2px solid var(--line); }
-[data-theme='baieti'] .nav-link:not(.lang), [data-theme='baieti'] .theme-menu > .icon-btn { background: var(--surface-2); margin-left: 6px; }
-@media (max-width: 360px) { [data-theme='baieti'] .nav-link:not(.lang), [data-theme='baieti'] .theme-menu > .icon-btn { margin-left: 3px; } }
+[data-theme='baieti'] .nav-link, [data-theme='baieti'] .theme-menu > .icon-btn { background: var(--surface-2); margin-left: 6px; }
+@media (max-width: 360px) { [data-theme='baieti'] .nav-link, [data-theme='baieti'] .theme-menu > .icon-btn { margin-left: 2px; } }
 [data-theme='baieti'] .nav-link:hover, [data-theme='baieti'] .theme-menu > .icon-btn:hover { background: var(--line); }
 @media (min-width: 900px) {
   [data-theme='fete'] .head-inner { flex-direction: column; gap: 10px; padding-block: 18px 6px; }

@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.20.0] - 2026-11-23
+
+### Added
+- The “Surprise me!” button is now in the top bar and in the player too: it starts a random story from the whole catalog.
+
+### Changed
+- The language button (RO/EN) moved into the “Theme” menu.
+
 ## [1.19.2] - 2026-11-23
 
 ### Removed
