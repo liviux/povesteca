@@ -2,6 +2,19 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.8.0] - 2026-11-23
+
+### Added
+- A **character** filter in **Browse**: the Wolf, the Goat, Harap-Alb and the rest.
+- A **Show** filter, with **Stories** or **Recordings**, for when you only want one of them.
+- In the long lists in the filters (author, character, source, record, origin) you can type a few letters and only the matching names stay: “ion” keeps Ion Creangă, Ion Luca Caragiale and every other Ion.
+
+### Changed
+- **Browse** shows the stories first, then the recordings. Search for “capra” and you see the story first, with all its recordings below.
+- The lists in the filters use the colours of your theme instead of the browser's plain list.
+- The player's **Other source** button opens the list of sources, so you can pick the one you want instead of stepping through them one by one.
+- In the Boys theme, **Browse** results sit in two columns next to the filters, so titles have room.
+
 ## [1.7.0] - 2026-11-23
 
 ### Added

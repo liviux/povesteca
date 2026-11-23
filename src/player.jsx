@@ -224,6 +224,20 @@ function Controls({ big }) {
   );
 }
 
+// looks like a pill, opens the device's own list of the recording's links, so any one can be picked
+function SourcePick({ v, p, cls, children }) {
+  const [t] = useT();
+  const src = sourceById.get(v.sourceId);
+  return (
+    <span class={'source-pick ' + cls}>
+      {children}<Icon n="right" size={14} style={{ transform: 'rotate(90deg)' }} />
+      <select aria-label={t.switchSource} title={t.switchSource} value={p.link} onChange={(e) => switchLink(+e.currentTarget.value)}>
+        {v.links.map((l, i) => <option value={i}>{linkLabel(l, src, v.links)}</option>)}
+      </select>
+    </span>
+  );
+}
+
 function SleepChip() {
   const s = useStore();
   useClock(); // re-render each second for the countdown
@@ -265,9 +279,7 @@ export function Dock() {
             : <div class="dock-main"><Controls /><Progress /></div>}
           <div class="dock-side">
             {v.links.length > 1 && (
-              <button type="button" class="dock-switch" title={`${t.switchSource} (${mirrorName})`} aria-label={`${t.switchSource} (${p.link + 1}/${v.links.length})`} onClick={() => switchLink()}>
-                {`${p.link + 1}/${v.links.length} · ${t.switchShort}`}
-              </button>
+              <SourcePick v={v} p={p} cls="dock-switch">{`${p.link + 1}/${v.links.length} · ${t.switchShort}`}</SourcePick>
             )}
             <SleepChip />
             <select class={'dock-rate' + (s.rate !== 1 ? ' on' : '')} aria-label={t.speed} title={t.speed} value={s.rate} onChange={(e) => setRate(+e.currentTarget.value)}>
@@ -327,7 +339,7 @@ export function Night() {
             {v.links.length > 1 && (
               <p class="night-source">
                 <span>{linkLabel(v.links[p.link], sourceById.get(v.sourceId), v.links)}</span>
-                <button type="button" class="chip" onClick={() => switchLink()}>{`${t.switchShort} (${p.link + 1}/${v.links.length})`}</button>
+                <SourcePick v={v} p={p} cls="chip">{`${t.switchShort} (${p.link + 1}/${v.links.length})`}</SourcePick>
               </p>
             )}
             {p.status !== 'error' && <><Controls big /><Progress big /></>}

@@ -26,6 +26,7 @@ export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
 
 export const authors = [...new Set(stories.map((s) => s.author).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ro'));
+export const characters = [...new Set(stories.flatMap((s) => s.characters || []))].sort((a, b) => a.localeCompare(b, 'ro'));
 export const origins = [...new Set(stories.map((s) => s.origin).filter(Boolean))].sort((a, b) => label('origin', a, 'ro').localeCompare(label('origin', b, 'ro'), 'ro'));
 
 export function cover(v) {
@@ -168,13 +169,15 @@ export function applyFilters(list, f, ratings = {}) {
     if (f.genre && s.genre !== f.genre) return false;
     if (f.origin && s.origin !== f.origin) return false;
     if (f.author && s.author !== f.author) return false;
+    if (f.char && !s.characters?.includes(f.char)) return false;
     if (f.source && v.sourceId !== f.source) return false;
     if (f.col && !collectionById.get(f.col)?.items.includes(v.id)) return false;
     if (f.person && !people(v).includes(f.person)) return false;
     return true;
   });
 }
-export const FILTER_KEYS = ['kind', 'voices', 'sfx', 'music', 'mood', 'age', 'dur', 'genre', 'origin', 'author', 'source', 'col', 'person'];
+// show: povesti | inregistrari (empty: both, stories first); only Explore reads it
+export const FILTER_KEYS = ['show', 'kind', 'voices', 'sfx', 'music', 'mood', 'age', 'dur', 'genre', 'origin', 'author', 'char', 'source', 'col', 'person'];
 
 export function sortVersions(list, sort, ratings = {}, rel) {
   const by = {

@@ -35,7 +35,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 ## Ce poți face
 
 - **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
-- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă și disc sau colecție, apoi ordonezi rezultatele. La prima deschidere, înregistrările apar la întâmplare, în altă ordine la fiecare vizită.
+- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, personaj, actor, sursă și disc sau colecție, apoi ordonezi rezultatele. În listele lungi, cum e cea de autori, scrii câteva litere și rămân doar numele potrivite. Rezultatele arată întâi poveștile, apoi înregistrările lor; poți alege să vezi doar una dintre ele. La prima deschidere apar la întâmplare, în altă ordine la fiecare vizită.
 - **Pagină pentru fiecare autor**: apasă pe numele autorului pe pagina poveștii sau a înregistrării ca să îi vezi toate poveștile.
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas. Viteza se schimbă de la 0,5× la 2×.
 - **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.
@@ -58,7 +58,7 @@ Ce s-a schimbat de la o versiune la alta e în [CHANGELOG.md](CHANGELOG.md) (în
 | YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, viteză, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul. E regula lor și aplicația n-o ocolește. |
 | Altă sursă | Buton „Deschide la sursă”. |
 
-Dacă un link nu mai pornește, playerul încearcă alt link al aceleiași înregistrări. Când nu mai are niciunul, arată butonul spre sursă.
+Când o înregistrare are mai multe linkuri, alegi din player pe care îl asculți. Dacă un link nu mai pornește, playerul încearcă alt link al aceleiași înregistrări. Când nu mai are niciunul, arată butonul spre sursă.
 
 ## Ce date se păstrează
 

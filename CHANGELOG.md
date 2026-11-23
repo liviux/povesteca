@@ -2,6 +2,19 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.8.0] - 2026-11-23
+
+### Added
+- Filtru după **personaj** în **Explorează**: Lupul, Capra, Harap-Alb și ceilalți.
+- Filtrul **Arată**, cu **Povești** sau **Înregistrări**, pentru când vrei să vezi doar una dintre ele.
+- În listele lungi din filtre (autor, personaj, sursă, disc, origine) poți scrie câteva litere și rămân doar numele potrivite: „ion” lasă Ion Creangă, Ion Luca Caragiale și ceilalți Ion.
+
+### Changed
+- În **Explorează** apar întâi poveștile, apoi înregistrările. Când cauți „capra”, vezi mai întâi povestea, iar dedesubt toate înregistrările ei.
+- Listele din filtre au culorile temei alese, nu mai sunt lista simplă a browserului.
+- Butonul **Altă sursă** din player deschide lista surselor, ca să o alegi direct pe cea dorită, nu una după alta.
+- Pe tema Băieți, rezultatele din **Explorează** stau pe două coloane lângă filtre, ca titlurile să aibă loc.
+
 ## [1.7.0] - 2026-11-23
 
 ### Added

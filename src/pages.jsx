@@ -1,7 +1,7 @@
-import { useMemo, useState, useEffect } from 'preact/hooks';
+import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  storiesByAuthor, collectionOf, authors, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
+  storiesByAuthor, collectionOf, authors, characters, norm, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -111,6 +111,50 @@ function SearchForm({ value = '', onInput }) {
 
 const PAGE_SIZE = 48;
 
+// a themed list you can type into, instead of the browser's endless <select>: "ion" keeps only the names with "ion"
+function Combo({ id, legend, value, items, onPick }) {
+  const [t] = useT();
+  const [q, setQ] = useState(null); // null: closed
+  const [act, setAct] = useState(0);
+  const ul = useRef();
+  const cur = items.find(([v]) => v === value)?.[1] || '';
+  // matches at the start of a word, without diacritics: "ion" finds Ion and Ionel, not Vissarion
+  const words = (x) => ' ' + norm(x).replace(/[^a-z0-9]+/g, ' ').trim();
+  const list = q == null ? [] : [['', t.any], ...items.filter(([, txt]) => words(txt).includes(words(q)))];
+  useEffect(() => { ul.current?.querySelector('.act')?.scrollIntoView({ block: 'nearest' }); }, [act, q]);
+  const pick = (v) => { setQ(null); onPick(v); };
+  const onKey = (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (q == null) { setQ(''); setAct(0); return; }
+      setAct(Math.max(0, Math.min(list.length - 1, act + (e.key === 'ArrowDown' ? 1 : -1))));
+    } else if (e.key === 'Enter' && q != null) { e.preventDefault(); if (list[act]) pick(list[act][0]); }
+    else if (e.key === 'Escape' && q != null) { e.stopPropagation(); setQ(null); }
+  };
+  return (
+    <div class="fgroup combo">
+      <label class="legend" for={id}>{legend}</label>
+      <span class="combo-field">
+        <input id={id} type="text" role="combobox" autocomplete="off" spellcheck={false} aria-autocomplete="list" aria-expanded={q != null}
+          aria-controls={id + '-list'} aria-activedescendant={q != null && list[act] ? `${id}-${act}` : undefined}
+          placeholder={cur || t.any} value={q ?? (cur || t.any)}
+          onFocus={() => { setQ(''); setAct(0); }} onClick={() => q == null && setQ('')} onBlur={() => setQ(null)}
+          onInput={(e) => { setQ(e.currentTarget.value); setAct(0); }} onKeyDown={onKey} />
+        <Icon n="right" size={16} style={{ transform: q == null ? 'rotate(90deg)' : 'rotate(-90deg)' }} />
+      </span>
+      {q != null && (
+        <ul id={id + '-list'} role="listbox" class="combo-list" ref={ul} aria-label={legend}>
+          {list.map(([v, txt], i) => (
+            <li id={`${id}-${i}`} role="option" aria-selected={v === (value || '')} class={i === act ? 'act' : null}
+              onMouseDown={(e) => e.preventDefault()} onClick={() => pick(v)}>{txt}</li>
+          ))}
+          {list.length === 1 && <li class="combo-none" role="presentation">{t.noMatch}</li>}
+        </ul>
+      )}
+    </div>
+  );
+}
+
 // ---------- Explore ----------
 export function Explore({ query }) {
   const s = useStore();
@@ -130,8 +174,16 @@ export function Explore({ query }) {
     navigate('/explorare' + (n.toString() ? '?' + n : ''), true);
   };
   const list = sortVersions(applyFilters(rel ? versions.filter((v) => rel.has(v.id)) : versions, f, s.ratings), sort, s.ratings, rel);
+  // a story is in the results when one of its recordings is, in the order of its first recording
+  const storyList = [...new Set(list.map((v) => v.storyId))].map((id) => storyById.get(id));
   const shown = list.slice(0, limit);
   const active = Object.entries(f);
+  const onlyStories = '/explorare?' + new URLSearchParams({ ...Object.fromEntries(p), show: 'povesti' });
+  const more = (total) => total > limit && (
+    <p class="results-more">
+      <button type="button" class="btn ghost" onClick={() => setLimit(limit + PAGE_SIZE)}>{t.showMore(total - limit)}</button>
+    </p>
+  );
 
   const opt = (k, v, txt) => {
     const on = k === 'mood' ? (f.mood || '').split(',').includes(v) : f[k] === v;
@@ -155,7 +207,8 @@ export function Explore({ query }) {
       </select>
     </label>
   );
-  const activeLabel = (k, v) => k === 'mood' ? v.split(',').map((m) => label('moods', m, lang)).join(', ')
+  const combo = (k, items) => <Combo id={'f-' + k} legend={t.f[k]} value={f[k] || ''} items={items} onPick={(v) => update(k, v)} />;
+  const activeLabel = (k, v) => k === 'show' ? (v === 'povesti' ? t.storiesH : t.recordings) : k === 'mood' ? v.split(',').map((m) => label('moods', m, lang)).join(', ')
     : k === 'age' ? t.ageOpt(v) : k === 'dur' ? t.durOpt[v] : k === 'source' ? sourceById.get(v)?.name : k === 'col' ? collectionById.get(v)?.title
     : ENUMS[k]?.[v] ? label(k, v, lang) : v;
 
@@ -181,17 +234,19 @@ export function Explore({ query }) {
       )}
       <div class="explore-grid">
         <aside class={'filters' + (open ? ' open' : '')} aria-label={t.filters}>
+          <fieldset class="fgroup"><legend>{t.f.show}</legend><div class="chips">{opt('show', 'povesti', t.storiesH)}{opt('show', 'inregistrari', t.recordings)}</div></fieldset>
           {chips('genre')}{chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>
           {select('age', [3, 4, 5, 6, 7, 8, 9, 10, 12].map((n) => [String(n), t.ageOpt(n)]))}
-          {select('origin', origins.map((o) => [o, label('origin', o, lang)]))}
-          {select('author', authors.map((a) => [a, a]))}
-          {select('source', sources.map((x) => [x.id, x.name]))}
-          {select('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title]))}
+          {combo('origin', origins.map((o) => [o, label('origin', o, lang)]))}
+          {combo('author', authors.map((a) => [a, a]))}
+          {combo('char', characters.map((c) => [c, c]))}
+          {combo('source', sources.map((x) => [x.id, x.name]))}
+          {combo('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title]))}
         </aside>
         <section class="results">
           <div class="results-head">
-            <p class="count" aria-live="polite">{t.nRes(list.length)}</p>
+            <p class="count" aria-live="polite">{f.show === 'povesti' ? t.nStories(storyList.length) : f.show ? t.nRec(list.length) : `${t.nStories(storyList.length)} · ${t.nRec(list.length)}`}</p>
             <label class="sort"><span class="sr-only">{t.sortBy}</span>
               <select value={sort} onChange={(e) => update('sort', e.currentTarget.value)}>
                 {Object.entries(t.sorts).filter(([k]) => k !== 'relevanta' || rel).map(([k, txt]) => <option value={k}>{txt}</option>)}
@@ -200,13 +255,19 @@ export function Explore({ query }) {
             <button type="button" class="btn small accent" disabled={!list.length} onClick={() => surprise(list)}><Icon n="shuffle" size={16} />{t.surprise}</button>
           </div>
           {list.length === 0 ? <p class="empty">{t.noResults}</p>
+            : f.show === 'povesti' ? <>
+                <div class="shelf grid">{storyList.slice(0, limit).map((x) => <StoryCard s={x} />)}</div>
+                {more(storyList.length)}
+              </>
             : <>
-                <div class="shelf grid">{shown.map((v) => <VersionCard v={v} />)}</div>
-                {list.length > limit && (
-                  <p class="results-more">
-                    <button type="button" class="btn ghost" onClick={() => setLimit(limit + PAGE_SIZE)}>{t.showMore(list.length - limit)}</button>
-                  </p>
+                {!f.show && (
+                  <Shelf id="res-stories" heading={t.storiesH} more={storyList.length > 6 ? onlyStories : null}>
+                    {storyList.slice(0, 6).map((x) => <StoryCard s={x} />)}
+                  </Shelf>
                 )}
+                {!f.show && <div class="shelf-head res-recs"><h2>{t.recordings}</h2></div>}
+                <div class="shelf grid">{shown.map((v) => <VersionCard v={v} />)}</div>
+                {more(list.length)}
               </>}
         </section>
       </div>

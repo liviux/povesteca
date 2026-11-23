@@ -258,6 +258,8 @@ img { display: block; max-width: 100%; }
 [data-theme='baieti'] .shelf { grid-auto-flow: row; grid-template-columns: 1fr; overflow: visible; margin-inline: 0; padding: 0; gap: 12px; }
 @media (min-width: 720px) { [data-theme='baieti'] .shelf { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1100px) { [data-theme='baieti'] .shelf { grid-template-columns: repeat(3, 1fr); } }
+/* next to the filter panel there is room for two */
+@media (min-width: 960px) { [data-theme='baieti'] .results .shelf { grid-template-columns: repeat(2, 1fr); } }
 [data-theme='baieti'] .shelves .shelf > :nth-child(n + 7) { display: none; }
 [data-theme='baieti'] .card-link { display: grid; grid-template-columns: 96px 1fr; align-items: center; padding-right: 64px; }
 [data-theme='baieti'] .card .cover { border-radius: var(--radius) 0 0 var(--radius); height: 100%; aspect-ratio: auto; min-height: 96px; }
@@ -296,8 +298,21 @@ img { display: block; max-width: 100%; }
 select { min-height: 44px; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); padding: 0 12px; max-width: 100%; font-weight: 700; }
 select:hover { border-color: var(--ink); }
 .fgroup select { width: 100%; }
+.combo-field { position: relative; display: block; }
+.combo-field input { width: 100%; min-height: 44px; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); padding: 0 38px 0 12px; font-weight: 700; text-overflow: ellipsis; }
+.combo-field input:hover, .combo-field input[aria-expanded='true'] { border-color: var(--ink); }
+.combo-field input::placeholder { color: var(--muted); }
+.combo-field .icon { position: absolute; right: 12px; top: 50%; margin-top: -8px; pointer-events: none; color: var(--muted); }
+.combo-list { list-style: none; margin: 0; padding: 4px; max-height: 264px; overflow-y: auto; overscroll-behavior: contain; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); box-shadow: var(--shadow); }
+.combo-list li { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 12px; border-radius: 8px; cursor: pointer; font-weight: 600; overflow-wrap: anywhere; }
+.combo-list li:hover, .combo-list li.act { background: var(--surface-2); }
+.combo-list li[aria-selected='true'] { font-weight: 800; }
+.combo-list li[aria-selected='true']::after { content: '✓'; margin-left: auto; color: var(--primary); }
+.combo-list .combo-none { color: var(--muted); cursor: default; background: none; }
 .results-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+.results { min-width: 0; }
 .results-head .count { margin-right: auto; font-weight: 800; color: var(--muted); }
+.res-recs { margin-top: 28px; }
 .results-more { margin-top: 24px; display: flex; justify-content: center; }
 @media (min-width: 960px) {
   .explore-grid { grid-template-columns: 290px 1fr; }
@@ -346,8 +361,12 @@ select:hover { border-color: var(--ink); }
 .mirror-btn { display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); font-weight: 700; font-size: 13px; cursor: pointer; }
 .mirror-btn:hover { border-color: var(--ink); }
 /* 36px pills, 44px to a finger */
-.mirror-btn, .mirror-ext, .dock-switch { position: relative; }
-.mirror-btn::after, .mirror-ext::after, .dock-switch::after { content: ''; position: absolute; inset: -4px 0; }
+.mirror-btn, .mirror-ext { position: relative; }
+.mirror-btn::after, .mirror-ext::after { content: ''; position: absolute; inset: -4px 0; }
+/* an invisible native select over the pill: the device shows its own list of sources */
+.source-pick { position: relative; display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+.source-pick select { position: absolute; inset: -4px 0; width: 100%; height: calc(100% + 8px); opacity: 0; cursor: pointer; font-size: 16px; }
+.source-pick:focus-within { outline: 3px solid var(--focus); outline-offset: 2px; }
 .mirror-btn[aria-pressed='true'] { background: var(--primary); border-color: var(--primary); color: var(--primary-ink); }
 .vrow h3 a { text-decoration: none; }
 .vrow h3 a:hover { text-decoration: underline; }
