@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.19.2] - 2026-11-23
+
+### Removed
+- Removed LibriVox’s 16 English recordings, the source, and the nine stories with no other recordings.
+
 ## [1.19.1] - 2026-11-23
 
 ### Fixed

@@ -6846,14 +6846,6 @@
   "povestea-crocodilului-care-plangea": {
    "goodreads": "https://www.goodreads.com/book/show/112370907"
   },
-  "povestea-doamnei-arici-scrobelici": {
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_Mrs._Tiggy-Winkle",
-   "goodreads": "https://www.goodreads.com/book/show/13542802-the-tale-of-mrs-tiggy-winkle"
-  },
-  "povestea-doamnei-tittlemouse": {
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_Mrs._Tittlemouse",
-   "goodreads": "https://www.goodreads.com/book/show/4614873-the-tale-of-mrs-tittlemouse"
-  },
   "povestea-fecioarelor": {
    "goodreads": "https://www.goodreads.com/book/show/15902110"
   },
@@ -6871,24 +6863,12 @@
    "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_Peter_Rabbit",
    "goodreads": "https://www.goodreads.com/work/editions/644171"
   },
-  "povestea-lui-johnny-town-mouse": {
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_Johnny_Town-Mouse",
-   "goodreads": "https://www.goodreads.com/book/show/53383320-the-tale-of-johnny-town-mouse"
-  },
-  "povestea-lui-samuel-whiskers": {
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_Samuel_Whiskers_or_The_Roly-Poly_Pudding",
-   "goodreads": "https://www.goodreads.com/book/show/8179977-the-tale-of-samuel-whiskers"
-  },
   "povestea-lui-stan-patitul": {
    "goodreads": "https://www.goodreads.com/book/show/19571637"
   },
   "povestea-pescarului-1001-nopti": {
    "wikidata": "Q788728",
    "wikipedia": "https://en.wikipedia.org/wiki/The_Fisherman_and_the_Jinni"
-  },
-  "povestea-placintei-si-a-tavitei-pentru-tarte": {
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_the_Pie_and_the_Patty-Pan",
-   "goodreads": "https://www.goodreads.com/book/show/8545921-the-tale-of-the-pie-and-the-patty-pan"
   },
   "povestea-porcului": {
    "wikidata": "Q118952128",
@@ -6978,11 +6958,6 @@
   "privighetoarea-si-magarul": {
    "goodreads": "https://www.goodreads.com/book/show/39861287-fabule"
   },
-  "privighetoarea-si-trandafirul": {
-   "wikidata": "Q2622393",
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Happy_Prince_and_Other_Tales",
-   "goodreads": "https://www.goodreads.com/work/editions/1913961-the-nightingale-and-the-rose"
-  },
   "prostia-omeneasca": {
    "wikidata": "Q61084301",
    "wikipedia": "https://ro.wikipedia.org/wiki/Prostia_omeneasc%C4%83",
@@ -7039,10 +7014,6 @@
    "wikidata": "Q454873",
    "wikipedia": "https://en.wikipedia.org/wiki/The_Queen_Bee",
    "goodreads": "https://www.goodreads.com/book/show/2146046"
-  },
-  "remarcabila-racheta": {
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Remarkable_Rocket",
-   "goodreads": "https://www.goodreads.com/work/editions/3575230-the-remarkable-rocket"
   },
   "ridichea-uriasa": {
    "wikidata": "Q2068935",
@@ -7105,9 +7076,6 @@
    "wikidata": "Q1570068",
    "wikipedia": "https://en.wikipedia.org/wiki/Sans_Famille",
    "goodreads": "https://www.goodreads.com/work/editions/10428038"
-  },
-  "sir-christopher-cockleshell": {
-   "goodreads": "https://www.goodreads.com/book/show/18887208"
   },
   "sluga-la-doi-stapani": {
    "wikidata": "Q769831",

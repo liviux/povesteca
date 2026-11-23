@@ -280,16 +280,6 @@
   }
  },
  {
-  "id": "librivox",
-  "name": "LibriVox",
-  "type": "audio",
-  "url": "https://librivox.org/",
-  "description": {
-   "ro": "Bibliotecă de cărți audio în domeniul public, citite de voluntari. Aceste înregistrări sunt lecturi dramatizate cu distribuție.",
-   "en": "A library of public-domain audiobooks read by volunteers. These recordings are dramatic readings with a cast."
-  }
- },
- {
   "id": "yt-teatrul-stela-popescu",
   "name": "Teatrul Stela Popescu",
   "type": "youtube",

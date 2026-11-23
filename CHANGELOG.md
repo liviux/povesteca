@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.19.2] - 2026-11-23
+
+### Removed
+- Au fost eliminate cele 16 înregistrări LibriVox în engleză, sursa și cele 9 povești care nu aveau alte înregistrări.
+
 ## [1.19.1] - 2026-11-23
 
 ### Fixed
