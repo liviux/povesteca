@@ -110,6 +110,11 @@ function SearchForm({ value = '', onInput }) {
 }
 
 const PAGE_SIZE = 48;
+// "(12)" after a heading, like "Înregistrări (6)" on a story page
+const cnt = (n) => <span class="muted">({n})</span>;
+const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
+const storiesWithChar = countBy(stories, (s) => s.characters || []);
+const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
 
 // a themed list you can type into, instead of the browser's endless <select>: "ion" keeps only the names with "ion"
 function Combo({ id, legend, value, items, onPick }) {
@@ -144,9 +149,9 @@ function Combo({ id, legend, value, items, onPick }) {
       </span>
       {q != null && (
         <ul id={id + '-list'} role="listbox" class="combo-list" ref={ul} aria-label={legend}>
-          {list.map(([v, txt], i) => (
+          {list.map(([v, txt, n], i) => (
             <li id={`${id}-${i}`} role="option" aria-selected={v === (value || '')} class={i === act ? 'act' : null}
-              onMouseDown={(e) => e.preventDefault()} onClick={() => pick(v)}>{txt}</li>
+              onMouseDown={(e) => e.preventDefault()} onClick={() => pick(v)}>{txt}{n && <span class="combo-n">{n}</span>}</li>
           ))}
           {list.length === 1 && <li class="combo-none" role="presentation">{t.noMatch}</li>}
         </ul>
@@ -238,11 +243,12 @@ export function Explore({ query }) {
           {chips('genre')}{chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>
           {select('age', [3, 4, 5, 6, 7, 8, 9, 10, 12].map((n) => [String(n), t.ageOpt(n)]))}
-          {combo('origin', origins.map((o) => [o, label('origin', o, lang)]))}
-          {combo('author', authors.map((a) => [a, a]))}
-          {combo('char', characters.map((c) => [c, c]))}
-          {combo('source', sources.map((x) => [x.id, x.name]))}
-          {combo('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title]))}
+          {/* how many there are of each, in the whole catalogue: stories for story fields, recordings for the rest */}
+          {combo('origin', origins.map((o) => [o, label('origin', o, lang), t.nStories(storiesFrom.get(o))]))}
+          {combo('author', authors.map((a) => [a, a, t.nStories(storiesByAuthor.get(a).length)]))}
+          {combo('char', characters.map((c) => [c, c, t.nStories(storiesWithChar.get(c))]))}
+          {combo('source', sources.map((x) => [x.id, x.name, t.nRec(versionsBySource.get(x.id)?.length || 0)]))}
+          {combo('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title, t.nRec(c.items.length)]))}
         </aside>
         <section class="results">
           <div class="results-head">
@@ -261,11 +267,11 @@ export function Explore({ query }) {
               </>
             : <>
                 {!f.show && (
-                  <Shelf id="res-stories" heading={t.storiesH} more={storyList.length > 6 ? onlyStories : null}>
+                  <Shelf id="res-stories" heading={<>{t.storiesH} {cnt(storyList.length)}</>} more={storyList.length > 6 ? onlyStories : null}>
                     {storyList.slice(0, 6).map((x) => <StoryCard s={x} />)}
                   </Shelf>
                 )}
-                {!f.show && <div class="shelf-head res-recs"><h2>{t.recordings}</h2></div>}
+                {!f.show && <div class="shelf-head res-recs"><h2>{t.recordings} {cnt(list.length)}</h2></div>}
                 <div class="shelf grid">{shown.map((v) => <VersionCard v={v} />)}</div>
                 {more(list.length)}
               </>}
@@ -311,7 +317,7 @@ export function StoryPage({ id }) {
       </section>
       <section aria-labelledby="vh">
         <div class="shelf-head">
-          <h2 id="vh">{t.recordings} <span class="muted">({vs.length})</span></h2>
+          <h2 id="vh">{t.recordings} {cnt(vs.length)}</h2>
           {vs.length > 1 && (
             <label class="sort"><span class="sr-only">{t.sortBy}</span>
               <select value={sort} onChange={(e) => setSort(e.currentTarget.value)}>
@@ -595,14 +601,14 @@ export function PersonPage({ name }) {
       </header>
       {sorted.length > 0 && (
         <section class="shelf-section" aria-labelledby="pers-st">
-          <div class="shelf-head"><h2 id="pers-st">{t.storiesH}</h2></div>
+          <div class="shelf-head"><h2 id="pers-st">{t.storiesH} {cnt(sorted.length)}</h2></div>
           <div class="shelf grid">{sorted.slice(0, limit.s).map((st) => <StoryCard s={st} />)}</div>
           <More total={sorted.length} shown={limit.s} onMore={() => setLimit({ ...limit, s: limit.s + PAGE_SIZE })} />
         </section>
       )}
       {performed.length > 0 && (
         <section class="shelf-section" aria-labelledby="pers-rec">
-          <div class="shelf-head"><h2 id="pers-rec">{t.recordings}</h2></div>
+          <div class="shelf-head"><h2 id="pers-rec">{t.recordings} {cnt(performed.length)}</h2></div>
           <div class="shelf grid">{performed.slice(0, limit.v).map((v) => <VersionCard v={v} />)}</div>
           <More total={performed.length} shown={limit.v} onMore={() => setLimit({ ...limit, v: limit.v + PAGE_SIZE })} />
         </section>
@@ -631,17 +637,18 @@ export function SourcePage({ id }) {
       <header class="page-head">
         <p class="eyebrow"><a href="/surse">{t.sources}</a> · {t.platform[src.type] || src.type}</p>
         <h1>{src.name}</h1>
+        <p class="lead muted">{t.nStories(new Set(vs.map((v) => v.storyId)).size)} · {t.nRec(vs.length)}</p>
         <p class="lead">{src.description[lang] || src.description.ro}</p>
-        <p><a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a> <span class="muted">{t.nRec(vs.length)}</span></p>
+        <p><a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a></p>
       </header>
       {cols.length > 0 && (
         <section class="shelf-section" aria-labelledby="cols">
-          <div class="shelf-head"><h2 id="cols">{t.collections}</h2></div>
+          <div class="shelf-head"><h2 id="cols">{t.collections} {cnt(cols.length)}</h2></div>
           <ul class="col-list">{cols.map((c) => <li><a href={`/colectie/${c.id}`}><Icon n="disc" size={18} /><strong>{c.title}</strong>{c.code && <span class="muted">{c.code}</span>}</a></li>)}</ul>
         </section>
       )}
       <section class="shelf-section" aria-labelledby="recs">
-        <div class="shelf-head"><h2 id="recs">{t.recordings}</h2></div>
+        <div class="shelf-head"><h2 id="recs">{t.recordings} {cnt(vs.length)}</h2></div>
         <div class="shelf grid">{shown.map((v) => <VersionCard v={v} />)}</div>
         {vs.length > limit && (
           <p class="results-more">
@@ -668,7 +675,7 @@ export function CollectionPage({ id }) {
         {c.url && <p><a class="btn ghost" href={c.url} target="_blank" rel="noopener">{c.url.includes('discogs.com') ? 'Discogs' : t.sourceSite}<Icon n="ext" size={16} /></a></p>}
       </header>
       <section class="shelf-section" aria-labelledby="on-disc">
-        <div class="shelf-head"><h2 id="on-disc">{c.type === 'disc' ? t.onDisc : t.inCol}</h2></div>
+        <div class="shelf-head"><h2 id="on-disc">{c.type === 'disc' ? t.onDisc : t.inCol} {cnt(c.items.length)}</h2></div>
         <ol class="compare">{c.items.map((vid) => <li><VersionRow v={versionById.get(vid)} /></li>)}</ol>
       </section>
     </main>
@@ -683,7 +690,7 @@ export function Mine() {
   // items: [{ key, title, card, remove }]
   const block = (id, heading, items, extra) => items.length > 0 && (
     <section class="shelf-section" aria-labelledby={'m-' + id}>
-      <div class="shelf-head"><h2 id={'m-' + id}>{heading}</h2>{extra}</div>
+      <div class="shelf-head"><h2 id={'m-' + id}>{heading} {cnt(items.length)}</h2>{extra}</div>
       <div class="shelf grid">{items.map((x) => (
         <div class="removable" key={x.key}>{x.card}
           <button type="button" class="remove" aria-label={t.removeA(x.title)} onClick={x.remove}><Icon n="close" size={16} /></button>

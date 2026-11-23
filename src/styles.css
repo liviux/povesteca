@@ -308,6 +308,8 @@ select:hover { border-color: var(--ink); }
 .combo-list li:hover, .combo-list li.act { background: var(--surface-2); }
 .combo-list li[aria-selected='true'] { font-weight: 800; }
 .combo-list li[aria-selected='true']::after { content: '✓'; margin-left: auto; color: var(--primary); }
+.combo-n { margin-left: auto; padding-left: 8px; flex: none; font-size: 13px; font-weight: 700; color: var(--muted); }
+.combo-list li[aria-selected='true']:has(.combo-n)::after { margin-left: 0; }
 .combo-list .combo-none { color: var(--muted); cursor: default; background: none; }
 .results-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
 .results { min-width: 0; }

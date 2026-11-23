@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks';
-import { storyById, cover, storyCover, bestVersion } from './data.js';
+import { storyById, cover, storyCover, bestVersion, versionsByStory } from './data.js';
 import { label, fmtDur } from './i18n.js';
 import { useStore, useT, toggleIn } from './store.js';
 import { play, toggle } from './player.jsx';
@@ -121,9 +121,10 @@ export function VersionCard({ v, progress, badge }) {
 }
 
 export function StoryCard({ s: story }) {
-  const [, lang] = useT();
+  const [t, lang] = useT();
   const st = useStore();
   const best = bestVersion(story.id, st.ratings);
+  const recs = versionsByStory.get(story.id)?.length || 0;
   return (
     <article class="card">
       <a class="card-link" href={`/poveste/${story.id}`}>
@@ -132,6 +133,7 @@ export function StoryCard({ s: story }) {
           <p class="card-kind">{label('genre', story.genre, lang)}</p>
           <h3 class="card-title">{story.title}</h3>
           <p class="card-sub">{story.author}{story.year ? ` · ${story.year}` : ''}</p>
+          {recs > 1 && <p class="card-sub card-count">{t.nRec(recs)}</p>}
         </div>
       </a>
       {best && <PlayButton v={best} cls="card-play" />}

@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.10.0] - 2026-11-23
+
+### Added
+- Lângă fiecare nume din listele de filtre scrie câte sunt: câte povești are un autor sau un personaj, câte înregistrări are o sursă sau un disc.
+- Pagina unei surse arată sus câte povești și câte înregistrări are.
+- Poveștile cu mai multe înregistrări arată pe card câte sunt.
+- Titlurile secțiunilor arată câte elemente au, ca **Înregistrări (175)** sau **Povești (33)**, pe paginile surselor, colecțiilor, oamenilor, în **Explorează** și în **Ale mele**.
+
 ## [1.9.0] - 2026-11-23
 
 ### Added

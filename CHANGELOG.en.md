@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.10.0] - 2026-11-23
+
+### Added
+- Every name in the filter lists shows how many there are: how many stories an author or a character has, how many recordings a source or a record has.
+- A source's page shows at the top how many stories and recordings it has.
+- Stories with more than one recording show how many on their card.
+- Section headings show how many items they hold, like **Recordings (175)** or **Stories (33)**, on source, collection and people pages, in **Browse** and in **My stuff**.
+
 ## [1.9.0] - 2026-11-23
 
 ### Added
