@@ -2,6 +2,13 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.17.0] - 2026-11-23
+
+### Changed
+- Aplicația pornește mai repede. Pe un telefon obișnuit, pagina principală apare cu aproape o treime mai devreme, iar după o actualizare a aplicației se descarcă de zece ori mai puțin, pentru că lista poveștilor rămâne salvată în browser.
+- Căutarea răspunde pe loc la fiecare literă, chiar și cu greșeli de scriere. Până acum o literă putea dura aproape o secundă.
+- Fonturile vin chiar de pe site-ul Povesteca, nu de la Google. Pagina nu mai așteaptă după alt site, iar Google nu mai află cine intră. Literele arată la fel.
+
 ## [1.16.1] - 2026-11-23
 
 ### Added

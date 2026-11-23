@@ -1,11 +1,11 @@
 import { render } from 'preact';
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { useRoute, useStore, useT, set, setPlayer, loadRatings } from './store.js';
+import { useRoute, useStore, useT, set, setPlayer, loadRatings, state } from './store.js';
 import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourcePage, CollectionPage, Mine, NotFound } from './pages.jsx';
 import { Dock, Night } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
-import { REPO } from './data.js';
+import { REPO, loadDetails } from './data.js';
 import { version } from '../package.json';
 import './styles.css';
 
@@ -101,6 +101,8 @@ function App() {
     document.documentElement.lang = s.lang;
   }, [s.theme, s.lang]);
   const [path, query = ''] = url.split('?');
+  // the summaries, photos and "≈" marks right after the first page; tried again on the next page if they failed
+  useEffect(() => { details(); }, [path]);
   // after moving to another page, put keyboard and screen reader focus at its start
   const first = useRef(true);
   useEffect(() => {
@@ -131,4 +133,9 @@ function App() {
   );
 }
 
+const details = () => loadDetails().then(() => state.details || set({ details: true }), () => {});
+// a story, recording or person page opened from a link waits for its texts and photos, and a search for
+// the summaries it looks through, instead of showing up without them and changing when they arrive
+// (index.html decides which pages, and starts the download); every other page starts right away
+if (window.povestecaDetails) await details();
 render(<App />, document.getElementById('app'));

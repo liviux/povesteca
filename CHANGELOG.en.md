@@ -2,6 +2,13 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.17.0] - 2026-11-23
+
+### Changed
+- The app starts faster. On an average phone the home page shows up almost a third sooner, and after an app update it downloads ten times less, because the story list stays saved in the browser.
+- Search keeps up with every letter you type, typos included. Before, a single letter could take almost a second.
+- Fonts now come from the Povesteca site itself, not from Google. The page no longer waits on another site, and Google no longer learns who visits. The letters look the same.
+
 ## [1.16.1] - 2026-11-23
 
 ### Added

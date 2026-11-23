@@ -1,11 +1,8 @@
-import stories from '../catalog/stories.json';
-import versions from '../catalog/versions.json';
-import sources from '../catalog/sources.json';
-import collections from '../catalog/collections.json';
-import wiki from '../catalog/wiki.json';
+// the catalog without its long texts; see vite.config.js
+import catalog from 'virtual:catalog';
 import { label, ENUMS } from './i18n.js';
 
-export { stories, versions, sources, collections };
+export const { stories, versions, sources, collections } = catalog;
 export const REPO = 'https://github.com/liviux/povesteca';
 
 const map = (list) => new Map(list.map((x) => [x.id, x]));
@@ -14,9 +11,20 @@ export const versionById = map(versions);
 export const sourceById = map(sources);
 export const collectionById = map(collections);
 
+// The long texts (summaries, the "≈" marks, people's photos and links) come a moment after the first page.
+// Until then story.summary, v.estimated and personInfo() are empty. Calling again after a failure retries.
+let wiki = { people: {}, stories: {} };
+let details;
+export const loadDetails = () => (details ||= import('virtual:catalog-details').then(({ default: d }) => {
+  for (const [id, x] of Object.entries(d.stories)) Object.assign(storyById.get(id) || {}, x);
+  for (const [id, x] of Object.entries(d.versions)) Object.assign(versionById.get(id) || {}, x);
+  wiki = d.wiki;
+  prepareSearch(); // again, with the summaries
+}, (e) => { details = null; throw e; }));
+
 const group = (list, key) => {
   const m = new Map();
-  for (const x of list) m.set(x[key], [...(m.get(x[key]) || []), x]);
+  for (const x of list) (m.get(x[key]) || m.set(x[key], []).get(x[key])).push(x);
   return m;
 };
 export const versionsByStory = group(versions, 'storyId');
@@ -24,10 +32,6 @@ export const versionsBySource = group(versions, 'sourceId');
 export const storiesByAuthor = group(stories, 'author');
 export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
-
-export const authors = [...new Set(stories.map((s) => s.author).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ro'));
-export const characters = [...new Set(stories.flatMap((s) => s.characters || []))].sort((a, b) => a.localeCompare(b, 'ro'));
-export const origins = [...new Set(stories.map((s) => s.origin).filter(Boolean))].sort((a, b) => label('origin', a, 'ro').localeCompare(label('origin', b, 'ro'), 'ro'));
 
 export function cover(v) {
   if (!v || v.cover === false) return null;
@@ -98,38 +102,83 @@ export const norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, 
 const STOP = new Set('si cu de la pe in o un una a al ale ai despre pentru care din ce mai sau the of and with about for to an'.split(' '));
 const words = (s) => norm(s).split(/[^a-z0-9]+/).filter(Boolean);
 
-const index = versions.map((v) => {
-  const s = storyById.get(v.storyId);
-  const enumText = (k, val) => [label(k, val, 'ro'), label(k, val, 'en'), ...(ENUMS[k]?.[val]?.kw || [])].join(' ');
-  const col = collectionOf.get(v.id)?.c;
-  return {
-    v,
-    fields: [
-      [10, [s.title, ...(s.altTitles || []), v.title].join(' ')],
-      [6, [s.author, ...(s.characters || []), ...people(v)].join(' ')],
-      [4, [sourceById.get(v.sourceId)?.name, col?.title, col?.code, s.year, v.year, label('origin', s.origin, 'ro'), label('origin', s.origin, 'en')].join(' ')],
-      [2, [s.summary.ro, s.summary.en, ...(s.themes || []).map((t) => enumText('themes', t)), ...(v.moods || []).map((m) => enumText('moods', m)),
-        enumText('kind', v.kind), enumText('voices', v.voices), enumText('sfx', v.sfx), enumText('music', v.music), enumText('genre', s.genre)].join(' ')],
-    ].map(([w, t]) => [w, words(t)]),
+// The search index. vocab: every word of the catalogue once; index: { v, fields: [[weight, numbers of its
+// words in vocab]] }; seen: what each query word matched, kept while typing. Reading the whole catalogue
+// takes a moment, so it isn't done when the app starts: prepareSearch() does it in small steps once the
+// details are in, and a search that comes before it's done finishes it.
+let index, vocab, seen, job;
+function* indexer() {
+  const ids = new Map(), voc = [], list = [];
+  const id = (x) => {
+    let i = ids.get(x);
+    if (i === undefined) { ids.set(x, (i = voc.length)); voc.push(x); }
+    return i;
   };
-});
+  // texts that repeat (a summary shared by a story's recordings, a mood, a genre) are read once
+  const once = new Map();
+  const cached = (key, text) => once.get(key) || once.set(key, words(text()).map(id)).get(key);
+  const en = (k, val) => cached(k + ':' + val, () => [label(k, val, 'ro'), label(k, val, 'en'), ...(ENUMS[k]?.[val]?.kw || [])].join(' '));
+  for (const v of versions) {
+    const s = storyById.get(v.storyId);
+    const col = collectionOf.get(v.id)?.c;
+    list.push({
+      v,
+      fields: [
+        [10, words([s.title, ...(s.altTitles || []), v.title].join(' ')).map(id)],
+        [6, words([s.author, ...(s.characters || []), ...people(v)].join(' ')).map(id)],
+        [4, words([sourceById.get(v.sourceId)?.name, col?.title, col?.code, s.year, v.year, label('origin', s.origin, 'ro'), label('origin', s.origin, 'en')].join(' ')).map(id)],
+        [2, [...cached(s.id, () => [s.summary?.ro, s.summary?.en].join(' ')), ...(s.themes || []).flatMap((t) => en('themes', t)), ...(v.moods || []).flatMap((m) => en('moods', m)),
+          ...en('kind', v.kind), ...en('voices', v.voices), ...en('sfx', v.sfx), ...en('music', v.music), ...en('genre', s.genre)]],
+      ],
+    });
+    yield;
+  }
+  [index, vocab, seen, job] = [list, voc, new Map(), null];
+}
+function prepareSearch() {
+  const own = (job = indexer());
+  // about 10 ms at a time, between the browser's other work, so a tap or a scroll never waits for it
+  const step = () => {
+    for (const end = performance.now() + 10; job === own && performance.now() < end;) if (own.next().done) return;
+    if (job === own) setTimeout(step);
+  };
+  setTimeout(step);
+}
 
-function near(a, b) {
-  // edit distance <= 1 (or 2 for long words), cheap enough for a few thousand words
-  if (Math.abs(a.length - b.length) > 2) return false;
+// edit distance <= 1 (or 2 for long words) between a and the first n letters of b;
+// it runs for every word of the catalogue, so it reuses two rows instead of making new ones
+const rowA = [], rowB = [];
+function near(a, b, n = b.length) {
+  n = Math.min(n, b.length);
+  if (Math.abs(a.length - n) > 2) return false;
   const max = a.length >= 7 ? 2 : 1;
-  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  let prev = rowA, cur = rowB;
+  for (let j = 0; j <= n; j++) prev[j] = j;
   for (let i = 1; i <= a.length; i++) {
-    const cur = [i];
-    let rowMin = i;
-    for (let j = 1; j <= b.length; j++) {
-      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
-      rowMin = Math.min(rowMin, cur[j]);
+    const c = a.charCodeAt(i - 1);
+    let rowMin = cur[0] = i;
+    for (let j = 1; j <= n; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (c === b.charCodeAt(j - 1) ? 0 : 1));
+      if (cur[j] < rowMin) rowMin = cur[j];
     }
     if (rowMin > max) return false;
-    prev = cur;
+    [prev, cur] = [cur, prev];
   }
-  return prev[b.length] <= max;
+  return prev[n] <= max;
+}
+
+// for each word of the catalogue: 2 if it starts with w, 1 if it matches w with a typo (w of 4 letters or more)
+function matches(w) {
+  let hit = seen.get(w);
+  if (hit) return hit;
+  hit = new Uint8Array(vocab.length);
+  vocab.forEach((x, i) => {
+    if (x.startsWith(w)) hit[i] = 2;
+    else if (w.length >= 4 && (near(w, x, w.length + 1) || near(w, x))) hit[i] = 1;
+  });
+  if (seen.size > 50) seen.clear();
+  seen.set(w, hit);
+  return hit;
 }
 
 /** Returns Map(versionId -> score). Every query word must match something. */
@@ -137,14 +186,18 @@ export function search(q) {
   const qs = words(q).filter((w) => !STOP.has(w));
   const out = new Map();
   if (!qs.length) return null;
+  if (job || !index) { const j = job || indexer(); while (!j.next().done); } // the rest of the index, now
+  // each query word is compared once with each word of the catalogue, not once per recording that has it
+  const hits = qs.map(matches);
   for (const { v, fields } of index) {
     let total = 0;
-    for (const w of qs) {
+    for (const hit of hits) {
       let best = 0;
       for (const [weight, ws] of fields) {
         if (weight <= best) continue;
-        if (ws.some((x) => x.startsWith(w))) best = weight;
-        else if (w.length >= 4 && ws.some((x) => near(w, x.slice(0, w.length + 1)) || near(w, x))) best = weight * 0.6;
+        let m = 0;
+        for (const i of ws) if (hit[i] > m && (m = hit[i]) === 2) break;
+        if (m) best = m === 2 ? weight : weight * 0.6;
       }
       if (!best) { total = 0; break; }
       total += best;

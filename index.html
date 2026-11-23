@@ -13,9 +13,6 @@
     <meta property="og:image" content="/icon-192.png" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/icon-192.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" />
     <script>
       try { var p = JSON.parse(localStorage.getItem('povesteca:v1')) || {}; if (p.theme) document.documentElement.dataset.theme = p.theme; if (p.lang) document.documentElement.lang = p.lang; } catch (e) {}
       // Dark mode: the device asks for it, or Dark Reader runs (it marks the page with <meta name="darkreader">).
@@ -35,6 +32,10 @@
         mq.addEventListener('change', apply);
         new MutationObserver(apply).observe(document.head, { childList: true });
       })();
+      // A story, recording or person page, or a search, opened from a link needs the catalog's details too
+      // (summaries, photos; src/main.jsx waits for them): their download starts now, alongside the rest.
+      window.povestecaDetails = /^\/(poveste|inregistrare|persoana|autor|ale-mele)(\/|$)/.test(location.pathname) || /[?&]q=./.test(location.search);
+      if (window.povestecaDetails) document.head.append(Object.assign(document.createElement('link'), { rel: 'modulepreload', href: '__CATALOG_DETAILS__' }));
     </script>
   </head>
   <body>

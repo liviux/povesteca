@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  storiesByAuthor, collectionOf, authors, characters, people, norm, origins, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
+  storiesByAuthor, collectionOf, people, norm, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -129,11 +129,24 @@ const find = (k, v) => `/explorare?${k}=${encodeURIComponent(v)}`;
 // "19 surse · 1172 de povești": a line may break only between the totals, never inside one
 const stats = (...parts) => parts.filter(Boolean).map((x) => x.replace(/ /g, '\u00a0')).join(' · ');
 const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
-const storiesWithChar = countBy(stories, (s) => s.characters || []);
-const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
-// everyone credited on a recording (narrators, cast, directors, adaptation, music and sound), most recordings first
-const recsWith = countBy(versions, (v) => new Set(people(v)));
-const crew = [...recsWith.keys()].sort((a, b) => a.localeCompare(b, 'ro'));
+const byName = (a, b) => a.localeCompare(b, 'ro');
+// the long lists in Explore's filters, A to Z, with how many there are of each in the whole catalogue.
+// Worked out the first time Explore opens, not when the app starts.
+let lists;
+function filterLists() {
+  if (lists) return lists;
+  const storiesWithChar = countBy(stories, (s) => s.characters || []);
+  const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
+  // everyone credited on a recording (narrators, cast, directors, adaptation, music and sound)
+  const recsWith = countBy(versions, (v) => new Set(people(v)));
+  return (lists = {
+    storiesWithChar, storiesFrom, recsWith,
+    crew: [...recsWith.keys()].sort(byName),
+    authors: [...storiesByAuthor.keys()].filter(Boolean).sort(byName),
+    characters: [...storiesWithChar.keys()].sort(byName),
+    origins: [...storiesFrom.keys()].sort((a, b) => byName(label('origin', a, 'ro'), label('origin', b, 'ro'))),
+  });
+}
 
 // a themed list you can type into, instead of the browser's endless <select>: "ion" keeps only the names with "ion"
 function Combo({ id, legend, value, items, onPick }) {
@@ -190,7 +203,8 @@ export function Explore({ query }) {
   const q = p.get('q') || '';
   const [open, setOpen] = useState(false);
   const [limit, setLimit] = useState(PAGE_SIZE);
-  const rel = useMemo(() => search(q), [q]);
+  const rel = useMemo(() => search(q), [q, s.details]);
+  const L = filterLists();
   const sort = p.get('sort') || (rel ? 'relevanta' : 'aleator');
   useEffect(() => { title(t.explore); setLimit(PAGE_SIZE); }, [query]);
 
@@ -257,10 +271,10 @@ export function Explore({ query }) {
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>
           {combo('age',[3, 4, 5, 6, 7, 8, 9, 10, 12].map((n) => [String(n), t.ageOpt(n)]))}
           {/* how many there are of each, in the whole catalogue: stories for story fields, recordings for the rest */}
-          {combo('origin', origins.map((o) => [o, label('origin', o, lang), t.nStories(storiesFrom.get(o))]))}
-          {combo('author', authors.map((a) => [a, a, t.nStories(storiesByAuthor.get(a).length)]))}
-          {combo('char', characters.map((c) => [c, c, t.nStories(storiesWithChar.get(c))]))}
-          {combo('person', crew.map((n) => [n, n, t.nRec(recsWith.get(n))]))}
+          {combo('origin', L.origins.map((o) => [o, label('origin', o, lang), t.nStories(L.storiesFrom.get(o))]))}
+          {combo('author', L.authors.map((a) => [a, a, t.nStories(storiesByAuthor.get(a).length)]))}
+          {combo('char', L.characters.map((c) => [c, c, t.nStories(L.storiesWithChar.get(c))]))}
+          {combo('person', L.crew.map((n) => [n, n, t.nRec(L.recsWith.get(n))]))}
           {combo('source', sources.map((x) => [x.id, x.name, t.nRec(versionsBySource.get(x.id)?.length || 0)]))}
           {combo('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title, t.nRec(c.items.length)]))}
         </aside>
@@ -303,6 +317,7 @@ export function StoryPage({ id }) {
   const best = bestVersion(id, s.ratings);
   const dups = duplicateMap(vs);
   const book = storyLinks(story.id);
+  const summary = story.summary?.[lang] || story.summary?.ro;
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
@@ -311,7 +326,7 @@ export function StoryPage({ id }) {
           <p class="eyebrow"><a href={find('genre', story.genre)}>{label('genre', story.genre, lang)}</a></p>
           <h1>{story.title}</h1>
           <p class="byline">{t.by} <PersonLink name={story.author} />{story.year ? ` · ${story.year}` : ''}</p>
-          {(story.summary[lang] || story.summary.ro) && <p class="lead">{story.summary[lang] || story.summary.ro}</p>}
+          {summary && <p class="lead">{summary}</p>}
           <div class="actions">
             {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
             <FavButton list="favStories" id={story.id} title={story.title} withText />

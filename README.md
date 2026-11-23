@@ -77,7 +77,7 @@ Când o înregistrare are mai multe linkuri, alegi din player pe care îl ascul�
 - Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
 - Nu există conturi, cookie-uri proprii sau statistici de trafic.
-- Pagina încarcă fonturile de la Google Fonts, copertele, sunetul și playerul video de la Internet Archive, YouTube și sursele audio directe din catalog, iar fotografiile oamenilor de la Wikimedia Commons.
+- Fonturile vin chiar de pe site-ul Povesteca, nu de la Google. Copertele, sunetul și playerul video se încarcă de la Internet Archive, YouTube și sursele audio directe din catalog, iar fotografiile oamenilor de la Wikimedia Commons.
 
 ## Voturi
 
@@ -160,7 +160,7 @@ src/store.js        preferințe locale, rutare, voturi
 src/styles.css      cele trei teme
 ```
 
-Vite + Preact (cu `hls.js` încărcat la cerere doar pentru fluxurile HLS).
+Vite + Preact. Catalogul ajunge în browser separat de cod, ca o actualizare a aplicației să nu-l mai descarce încă o dată: listele, cardurile și filtrele vin odată cu pagina, iar rezumatele, fotografiile și linkurile oamenilor imediat după (vezi `vite.config.js`). `hls.js` se încarcă doar pentru fluxurile HLS.
 
 ## Drepturi
 
