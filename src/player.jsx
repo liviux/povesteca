@@ -16,11 +16,15 @@ let audio, yt, ytHost, ytApi, poll, sleepTimer, lastSave = 0;
 // time changes every second; keep it out of the main store so pages don't re-render
 const clock = { time: 0, duration: 0 };
 const clockSubs = new Set();
+const spanOf = (v, i = state.player.link) => {
+  const l = v?.links?.[i];
+  return { start: l?.start ?? v?.start ?? 0, end: l?.end ?? v?.end ?? 0 };
+};
 function tick(time, duration) {
   clock.time = time; clock.duration = duration || clock.duration;
   clockSubs.forEach((f) => f());
-  const p = state.player, v = versionById.get(p.id);
-  if (v?.end && time >= v.end) return finish();
+  const p = state.player, v = versionById.get(p.id), { end } = spanOf(v, p.link);
+  if (end && time >= end) return finish();
   if (Date.now() - lastSave > 5000 && time > 5) { lastSave = Date.now(); set({ pos: { ...state.pos, [p.id]: Math.floor(time) } }); }
   if (p.sleepAt && audio && isAudio(engineType())) audio.volume = Math.max(0, Math.min(1, (p.sleepAt - Date.now()) / 10000));
 }
@@ -37,10 +41,12 @@ export function play(id, from, linkIdx = 0) {
   const v = versionById.get(id);
   if (!v) return;
   stopEngines();
-  const saved = state.pos[id] || 0;
-  const start = from === 'start' ? v.start || 0 : typeof from === 'number' ? from
-    : saved > 10 && saved < v.duration - 20 ? saved : v.start || 0;
   const idx = Math.max(0, Math.min(linkIdx, (v.links?.length || 1) - 1));
+  const { start: s0, end: e0 } = spanOf(v, idx);
+  const saved = state.pos[id] || 0;
+  const lim = e0 || v.duration;
+  const start = from === 'start' ? s0 : typeof from === 'number' ? from
+    : saved > s0 + 10 && saved < lim - 20 ? saved : s0;
   setPlayer({ id, status: 'loading', link: idx, error: false });
   tick(start, v.duration);
   addHistory(id);
@@ -50,7 +56,7 @@ export function switchLink(idx) {
   const v = versionById.get(state.player.id);
   if (!v || v.links.length < 2) return;
   const next = typeof idx === 'number' ? idx : (state.player.link + 1) % v.links.length;
-  const at = clock.time;
+  const at = spanOf(v, next).start + Math.max(0, clock.time - spanOf(v, state.player.link).start);
   stopEngines();
   setPlayer({ status: 'loading', link: next, error: false });
   tick(at, v.duration);
@@ -67,7 +73,11 @@ function startLink(v, i, at) {
 function nextLink() {
   const v = versionById.get(state.player.id);
   stopEngines();
-  if (v) startLink(v, state.player.link + 1, clock.time);
+  if (v) {
+    const next = state.player.link + 1;
+    const at = spanOf(v, next).start + Math.max(0, clock.time - spanOf(v, state.player.link).start);
+    startLink(v, next, at);
+  }
 }
 
 function startAudio(v, l, at) {
@@ -100,9 +110,10 @@ async function startYouTube(v, l, at) {
   if (state.player.id !== v.id || !ytHost) return;
   const el = document.createElement('div');
   ytHost.replaceChildren(el);
+  const { end } = spanOf(v, state.player.link);
   yt = new window.YT.Player(el, {
     host: 'https://www.youtube-nocookie.com', videoId: l.id, width: '100%', height: '100%',
-    playerVars: { start: Math.floor(at), ...(v.end ? { end: v.end } : {}), autoplay: 1, playsinline: 1, rel: 0 },
+    playerVars: { start: Math.floor(at), ...(end ? { end } : {}), autoplay: 1, playsinline: 1, rel: 0 },
     events: {
       onReady: (e) => { e.target.setPlaybackRate(state.rate); e.target.playVideo(); },
       onPlaybackRateChange: (e) => set({ rate: e.data }), // changed from YouTube's own settings menu
@@ -158,7 +169,10 @@ export function setRate(r) {
   if (audio) audio.defaultPlaybackRate = audio.playbackRate = r;
   yt?.setPlaybackRate?.(r);
 }
-export const seekBy = (d) => seekTo(Math.max(0, Math.min(clock.duration || 1e9, clock.time + d)));
+export const seekBy = (d) => {
+  const v = versionById.get(state.player.id), { start, end } = spanOf(v);
+  seekTo(Math.max(start, Math.min(end || clock.duration || 1e9, clock.time + d)));
+};
 export function closePlayer() {
   savePos(); stopEngines(); clearTimeout(sleepTimer);
   setPlayer({ id: null, status: 'idle', sleepAt: 0, sleepEnd: false, night: false });
@@ -190,9 +204,10 @@ function Progress({ big }) {
   // seconds under the finger or mouse while the bar is held: the whole bar responds, not only the handle
   // (iOS Safari ignores taps on the track), and the seek happens on release so playback doesn't pull the handle back
   const [drag, setDrag] = useState(null);
-  const max = Math.max(1, Math.floor(c.duration));
+  const v = versionById.get(state.player.id), { start, end } = spanOf(v);
+  const max = Math.max(1, Math.floor((end || c.duration || v?.duration || 1) - start));
   const at = (e) => { const r = e.currentTarget.getBoundingClientRect(); return Math.round(max * Math.min(1, Math.max(0, (e.clientX - r.left) / r.width))); };
-  const shown = drag ?? Math.min(max, c.time);
+  const shown = drag ?? Math.max(0, Math.min(max, c.time - start));
   return (
     <div class={'progress-row' + (big ? ' big' : '')}>
       <span class="time">{fmtTime(shown)}</span>
@@ -200,10 +215,10 @@ function Progress({ big }) {
         style={{ '--p': `${(100 * shown) / max}%` }}
         onPointerDown={(e) => { e.currentTarget.setPointerCapture(e.pointerId); setDrag(at(e)); }}
         onPointerMove={(e) => drag != null && setDrag(at(e))}
-        onPointerUp={(e) => { if (drag != null) seekTo(at(e)); setDrag(null); }}
+        onPointerUp={(e) => { if (drag != null) seekTo(start + at(e)); setDrag(null); }}
         onPointerCancel={() => setDrag(null)}
-        onInput={(e) => drag == null && seekTo(+e.currentTarget.value)} />
-      <span class="time">{fmtTime(c.duration)}</span>
+        onInput={(e) => drag == null && seekTo(start + +e.currentTarget.value)} />
+      <span class="time">{fmtTime(max)}</span>
     </div>
   );
 }

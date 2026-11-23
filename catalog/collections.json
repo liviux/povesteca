@@ -1,1874 +1,1972 @@
 [
- {
-  "id": "disc-exe-01166",
-  "title": "Povestea porcului / Fata moșului cea cuminte",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01166",
-  "url": "https://www.discogs.com/release/2783169",
-  "items": [
-   "povestea-porcului-disc",
-   "fata-mosului-cea-cuminte-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01166, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 01166, with 2 stories, in record order."
+  {
+    "id": "disc-exe-01166",
+    "title": "Povestea porcului / Fata moșului cea cuminte",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01166",
+    "url": "https://www.discogs.com/release/2783169",
+    "items": [
+      "povestea-porcului-disc",
+      "fata-mosului-cea-cuminte-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01166, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 01166, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-01093",
+    "title": "Greuceanu / Doi copii cu părul de aur",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01093",
+    "url": "https://www.discogs.com/release/19286269",
+    "items": [
+      "greuceanu-disc",
+      "doi-copii-cu-parul-de-aur-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01093, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 01093, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-01204",
+    "title": "Prâslea cel voinic și merele de aur / Tinerețe fără bătrânețe și viață fără de moarte",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01204",
+    "url": "https://www.discogs.com/release/1089997",
+    "items": [
+      "praslea-cel-voinic-disc",
+      "tinerete-fara-batranete-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01204, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 01204, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-01033",
+    "title": "Pasărea măiastră / Sarea în bucate",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01033",
+    "url": "https://www.discogs.com/release/5089738",
+    "items": [
+      "pasarea-maiastra-disc",
+      "sarea-in-bucate-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01033, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 01033, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-0972",
+    "title": "Țugulea, fiul unchiașului și al mătușei / O judecată înțeleaptă",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 0972",
+    "url": "https://www.discogs.com/release/6254355",
+    "items": [
+      "tugulea-disc",
+      "o-judecata-inteleapta-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 0972, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 0972, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-03701",
+    "title": "Hänsel și Gretel / Păzitoarea de gâște",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03701",
+    "url": "https://www.discogs.com/release/25192849",
+    "items": [
+      "hansel-si-gretel-disc",
+      "pazitoarea-de-gaste-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03701, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 03701, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-01167",
+    "title": "Motanul încălțat / Povestea boabelor de diamant",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01167",
+    "url": "https://www.discogs.com/release/6683925",
+    "items": [
+      "motanul-incaltat-disc",
+      "povestea-boabelor-de-diamant-disc",
+      "din-porunca-stiucii-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01167, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 01167, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-01094",
+    "title": "Aventurile lui Pinocchio / Tom Degețel",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01094",
+    "url": "https://www.discogs.com/release/17418961",
+    "items": [
+      "pinocchio-disc",
+      "tom-degetel-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01094, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 01094, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-01718",
+    "title": "Mica sirenă / Hainele cele noi ale împăratului",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01718",
+    "url": "https://www.discogs.com/release/3457324",
+    "items": [
+      "mica-sirena-disc",
+      "hainele-imparatului-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01718, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 01718, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-04055",
+    "title": "Povestiri din Cărțile Junglei",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 04055",
+    "url": "https://www.discogs.com/release/8018086",
+    "items": [
+      "rikki-tikki-tavi-disc",
+      "trompa-elefantului-disc",
+      "o-intamplare-in-padure-disc",
+      "toomai-si-elefantii-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 04055, cu 2 povești. Ordinea e cea de pe disc.",
+      "en": "Electrecord record EXE 04055, with 2 stories, in record order."
+    }
+  },
+  {
+    "id": "disc-exe-03288",
+    "title": "Din legendele popoarelor-O casuta-ntr-un dovleac/Batranul luntras",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03288",
+    "url": "https://www.discogs.com/release/7490385",
+    "items": [
+      "o-casuta-ntr-un-dovleac-disc",
+      "batranul-luntras-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03288, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03288, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exd-1039",
+    "title": "Povesti pentru copii",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXD 1039",
+    "url": "https://www.discogs.com/release/17928091",
+    "items": [
+      "baietelul-si-marul-disc",
+      "hotul-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXD 1039, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXD 1039, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01830",
+    "title": "Renul alb/Ionica Fat-Frumos",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01830",
+    "url": "https://www.discogs.com/release/4695484",
+    "items": [
+      "renul-alb-disc",
+      "ionica-fat-frumos-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01830, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01830, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03427",
+    "title": "Din legendele popoarelor-Vanatorul Halibu/Cartea fermecata",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03427",
+    "url": "https://www.discogs.com/release/6256558",
+    "items": [
+      "vanatorul-halibu-disc",
+      "cartea-fermecata-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03427, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03427, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01593",
+    "title": "Miracolul copilariei(din creatia pentru copii a poetilor romani)",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01593",
+    "url": "https://www.discogs.com/release/7589590",
+    "items": [
+      "zece-mate-disc",
+      "o-poveste-c-un-dulau-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01593, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01593, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02761",
+    "title": "Vioara fermecata/Pescarul lautar",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02761",
+    "url": "https://www.discogs.com/release/14440829",
+    "items": [
+      "pescarul-lautar-disc",
+      "vioara-fermecata-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02761, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02761, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03423",
+    "title": "Povestiri pentru cei mici",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03423",
+    "url": "https://www.discogs.com/release/21045004",
+    "items": [
+      "ceasornicaria-disc",
+      "impacarea-disc",
+      "povestea-singur-la-parinti-disc",
+      "guturaiul-disc",
+      "cata-munca-adunata-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03423, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03423, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-04106",
+    "title": "Barba albastra/Riquet cel motat",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 04106",
+    "url": "https://www.discogs.com/release/4287156",
+    "items": [
+      "barba-albastra-disc",
+      "riquet-cel-motat-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 04106, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 04106, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-068",
+    "title": "La Broșteni / Hultanul",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 068",
+    "url": "https://www.discogs.com/release/13958766",
+    "items": [
+      "la-brosteni-disc",
+      "hultanul-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 068, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 068, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-04155",
+    "title": "Imparatul Cioc-de-Sturz/ Fata mosului cea cuminte si harnica si fata babei cea haina si urata",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 04155",
+    "url": "https://www.discogs.com/release/20267116",
+    "items": [
+      "imparatul-cioc-de-sturz-disc",
+      "fata-mosului-cea-cuminte-disc-2"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 04155, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 04155, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02990",
+    "title": "Din legendele popoarelor-Fiica Rinului/Carancho",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02990",
+    "url": "https://www.discogs.com/release/10174116",
+    "items": [
+      "carancho-disc",
+      "fiica-rinului-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02990, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02990, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02766",
+    "title": "Randunica spune o poveste/Tovaras de drum",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02766",
+    "url": "https://www.discogs.com/release/4012453",
+    "items": [
+      "tovaras-de-drum-johann-cel-bun-disc",
+      "degetica-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02766, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02766, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02986",
+    "title": "Basme din 1001Nopti: Rubinul fermecat/Keloglan",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02986",
+    "url": "https://www.discogs.com/release/6256703",
+    "items": [
+      "rubinul-fermecat-disc",
+      "keloglan-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02986, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02986, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02135",
+    "title": "Povestiri de Hans Christian Andersen",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02135",
+    "url": "https://www.discogs.com/release/3259595",
+    "items": [
+      "fetita-cu-chibriturile-disc",
+      "amnarul-disc",
+      "privighetoarea-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02135, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02135, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-043",
+    "title": "Moș Ion Roata și Vodă Cuza / Amintiri din copilărie (fragment)",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 043",
+    "url": "https://www.discogs.com/release/6891590",
+    "items": [
+      "mos-ion-roata-si-voda-cuza-disc",
+      "amintiri-din-copilarie-fragment-disc",
+      "povestea-crocodilului-care-plangea-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 043, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 043, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01618",
+    "title": "Ileana Sanziana/Porcul cel fermecat",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01618",
+    "url": "https://www.discogs.com/release/9509638",
+    "items": [
+      "porcul-cel-fermecat-disc",
+      "ileana-sanziana-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01618, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01618, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03066",
+    "title": "Poveste de Demult/Norocul Padurarului",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03066",
+    "url": "https://www.discogs.com/release/17903224",
+    "items": [
+      "poveste-de-demult-disc",
+      "norocul-padurarului-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03066, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03066, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02910",
+    "title": "Povestiri pentru copii",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02910",
+    "url": "https://www.discogs.com/release/15268133",
+    "items": [
+      "zdreanta-disc",
+      "poveste-cu-ochi-albastri-disc",
+      "puisorul-si-vulpea-disc",
+      "pupaza-din-tei-disc",
+      "povestea-gastelor-disc",
+      "povestea-unui-om-lenes-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02910, cu 6 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02910, featuring 6 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01945",
+    "title": "Povestea Zamdirei/Fata din dafin",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01945",
+    "url": "https://www.discogs.com/release/7464045",
+    "items": [
+      "fata-din-dafin-disc",
+      "povestea-zamfirei-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01945, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01945, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-0139",
+    "title": "Cioc! Cioc! Cioc! / Ciuboțelele ogarului",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 0139",
+    "items": [
+      "cioc-cioc-cioc-disc",
+      "ciubotelele-ogarului-disc",
+      "vulturul-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 0139, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 0139, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-0125",
+    "title": "Scufița Roșie / Marinimie",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 0125",
+    "url": "https://www.discogs.com/release/10940660",
+    "items": [
+      "scufita-rosie-disc-2",
+      "marinimie-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 0125, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 0125, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01667",
+    "title": "Povestiri pentru copii in lectura actritei Alexandrina Halic",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01667",
+    "url": "https://www.discogs.com/release/13446527",
+    "items": [
+      "saracutul-disc",
+      "baietel-fragment-disc",
+      "puisorii-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01667, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01667, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03493",
+    "title": "Povestiri pentru cei mici",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03493",
+    "url": "https://www.discogs.com/release/4530726",
+    "items": [
+      "o-poveste-pentru-bunica-disc",
+      "poveste-de-primavara-disc",
+      "iarna-ca-n-poveste-disc",
+      "o-patanie-cu-un-toc-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03493, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03493, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02065",
+    "title": "Basme de Ion Creanga",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02065",
+    "url": "https://www.discogs.com/release/4006304",
+    "items": [
+      "prostia-omeneasca-disc",
+      "capra-cu-trei-iezi-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02065, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02065, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01252",
+    "title": "Povestiri de Calin Gruia",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01252",
+    "url": "https://www.discogs.com/release/25039795",
+    "items": [
+      "printul-disc",
+      "floarea-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01252, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01252, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-040",
+    "title": "Capra cu trei iezi / Rățușca cea urâtă",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 040",
+    "url": "https://www.discogs.com/release/8359031",
+    "items": [
+      "capra-cu-trei-iezi-disc-2",
+      "ratusca-cea-urata-disc",
+      "alba-ca-zapada-disc-2"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 040, cu 4 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 040, featuring 4 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-041",
+    "title": "Feciorii croitorului / Fricosul",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 041",
+    "url": "https://www.discogs.com/release/8488411",
+    "items": [
+      "feciorii-croitorului-disc",
+      "fricosul-disc",
+      "mos-ion-roata-si-unirea-disc",
+      "hainele-imparatului-disc-2"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 041, cu 4 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 041, featuring 4 audio stories."
+    }
+  },
+  {
+    "id": "disc-exd-79",
+    "title": "Din lumea basmelor",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXD 79",
+    "url": "https://www.discogs.com/release/25802176",
+    "items": [
+      "feciorul-cu-maini-de-aur-disc",
+      "ursul-pacalit-de-vulpe-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXD 79, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXD 79, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-04001",
+    "title": "Intamplari cu Ha Ha Ha/Ce se ascunde in traista/Povestea lui Maghiran",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 04001",
+    "url": "https://www.discogs.com/release/24598283",
+    "items": [
+      "intamplari-cu-ha-ha-ha-disc",
+      "ce-se-ascunde-in-traista-disc",
+      "povestea-lui-maghiran-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 04001, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 04001, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02911",
+    "title": "Basme de Fratii Grimm",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02911",
+    "url": "https://www.discogs.com/release/3916090",
+    "items": [
+      "muzicantii-din-bremen-disc",
+      "acul-fusul-si-suveica-disc",
+      "bunicul-si-nepotul-disc",
+      "scufita-rosie-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02911, cu 4 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02911, featuring 4 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-0988",
+    "title": "Feciorul cel vrednic/Baiet sarac",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 0988",
+    "url": "https://www.discogs.com/release/9487879",
+    "items": [
+      "feciorul-cel-vrednic-disc",
+      "baiet-sarac-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 0988, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 0988, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03357",
+    "title": "Domnita intristata/Voinicul cat-zece",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03357",
+    "url": "https://www.discogs.com/release/14660774",
+    "items": [
+      "natangul-si-domnita-intristata-disc",
+      "voinicul-cat-zece-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03357, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03357, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01779",
+    "title": "Piatra albastra/Legenda licuricilor",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01779",
+    "url": "https://www.discogs.com/release/8917555",
+    "items": [
+      "piatra-albastra-disc",
+      "legenda-licuricilor-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01779, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01779, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02763",
+    "title": "Din legendele popoarelor-Fiul faraonului/Legenda florii de rodie",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02763",
+    "url": "https://www.discogs.com/release/6256449",
+    "items": [
+      "fiul-faraonului-disc",
+      "legenda-florii-de-rodie-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02763, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02763, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01135",
+    "title": "Neghinita/Bunicul/Bunica",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01135",
+    "url": "https://www.discogs.com/release/3654554",
+    "items": [
+      "bunica-disc",
+      "neghinita-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01135, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01135, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03068",
+    "title": "Din legendele popoarelor:Vrajitorul apelor/Sahim si Mingo",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03068",
+    "url": "https://www.discogs.com/release/3921557",
+    "items": [
+      "vrajitorul-apelor-disc",
+      "sahim-si-mingo-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03068, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03068, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03890",
+    "title": "Legende mitologice",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03890",
+    "url": "https://www.discogs.com/release/5096159",
+    "items": [
+      "lacomia-lui-midas-disc",
+      "ispravile-lui-sisif-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03890, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03890, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02204",
+    "title": "Brandusa Zaita-Silvestru povestind copiilor",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02204",
+    "url": "https://www.discogs.com/release/17419204",
+    "items": [
+      "cocosul-si-vulpea-disc",
+      "puiul-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02204, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02204, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02009",
+    "title": "Calutul cocosat/Ladita de aur",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02009",
+    "url": "https://www.discogs.com/release/19264936",
+    "items": [
+      "ladita-de-aur-disc",
+      "calutul-cocosat-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02009, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02009, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03284",
+    "title": "Povestiri de Virginia Carianopol",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03284",
+    "url": "https://www.discogs.com/release/9121403",
+    "items": [
+      "doi-motani-disc",
+      "salcia-disc",
+      "iarna-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03284, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03284, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03424",
+    "title": "Vorba dulce mult aduce/ Voinicul Parsion",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03424",
+    "url": "https://www.discogs.com/release/10174090",
+    "items": [
+      "voinicul-parsion-disc",
+      "vorba-dulce-mult-aduce-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03424, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03424, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02845",
+    "title": "Povestiri pentru cei mici",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02845",
+    "url": "https://www.discogs.com/release/5812238",
+    "items": [
+      "tupa-tup-disc",
+      "cosina-cea-frumoasa-si-neascultatoare-disc",
+      "cri-cri-disc",
+      "rodica-lacomica-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02845, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02845, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01891",
+    "title": "Basme din",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01891",
+    "url": "https://www.discogs.com/release/15402348",
+    "items": [
+      "neinfricatul-farhad-disc",
+      "califul-si-cadiul-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01891, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01891, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02275",
+    "title": "Recitindu-l pe Creanga...",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02275",
+    "url": "https://www.discogs.com/release/7263937",
+    "items": [
+      "povestea-unui-om-lenes-disc-1977",
+      "prostia-omeneasca-disc-1977",
+      "fat-frumos-voinicul-codrului-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02275, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02275, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03125",
+    "title": "Degetul imparatului/Bulgarele de pamant",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03125",
+    "url": "https://www.discogs.com/release/4012853",
+    "items": [
+      "bulgarele-de-pamant-disc",
+      "degetul-imparatului-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03125, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03125, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03127",
+    "title": "Basme japoneze-Ochii mamei/Vulpea alba",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03127",
+    "url": "https://www.discogs.com/release/5083003",
+    "items": [
+      "vulpea-alba-disc",
+      "ochii-mamei-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03127, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03127, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-04054",
+    "title": "Povestiri pentru cei mici de Passionaria Stoicescu",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 04054",
+    "url": "https://www.discogs.com/release/6424609",
+    "items": [
+      "povestea-ariciului-teposila-disc",
+      "povestea-lacrimilor-de-crocodil-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 04054, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 04054, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-01519",
+    "title": "Micul Muck/Mateias gascarul",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 01519",
+    "url": "https://www.discogs.com/release/10173920",
+    "items": [
+      "mateias-gascarul-disc",
+      "micul-muck-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 01519, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 01519, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-042",
+    "title": "Mărășești / La scăldat",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 042",
+    "url": "https://www.discogs.com/release/6891418",
+    "items": [
+      "marasesti-disc",
+      "la-scaldat-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 042, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 042, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03547",
+    "title": "Basme scandinave",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03547",
+    "url": "https://www.discogs.com/release/10172966",
+    "items": [
+      "caciulita-disc",
+      "bucle-de-aur-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03547, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03547, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-02491",
+    "title": "Basme din 1001 Nopti: Micul cadiu/Emirul si poetul",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02491",
+    "url": "https://www.discogs.com/release/14661245",
+    "items": [
+      "micul-cadiu-disc",
+      "emirul-si-poetul-1968"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 02491, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 02491, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-exe-03359",
+    "title": "Soldatul de plumb/Ib si Cristina",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03359",
+    "url": "https://www.discogs.com/release/9322045",
+    "items": [
+      "ib-si-cristina-disc",
+      "soldatul-de-plumb-disc"
+    ],
+    "description": {
+      "ro": "Disc Electrecord EXE 03359, cu 2 povești din arhiva radiofonică.",
+      "en": "Electrecord record EXE 03359, featuring 2 audio stories."
+    }
+  },
+  {
+    "id": "disc-cs-0122",
+    "title": "Amintiri din copilarie",
+    "type": "disc",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "CS 0122",
+    "url": "https://www.discogs.com/release/8627286",
+    "items": [
+      "amintiri-din-copilarie-cap-1-disc",
+      "amintiri-din-copilarie-disc",
+      "amintiri-din-copilarie-disc-2"
+    ],
+    "description": {
+      "ro": "Disc Electrecord CS 0122, cu 3 povești din arhiva radiofonică.",
+      "en": "Electrecord record CS 0122, featuring 3 audio stories."
+    }
+  },
+  {
+    "id": "seria-zeii-din-olimp",
+    "title": "Zeii din Olimp (15 episoade)",
+    "type": "series",
+    "sourceId": "eteatru",
+    "url": "https://eteatru.ro/spectacole/zeii-din-olimp-episoade-id189.html",
+    "items": [
+      "zeii-din-olimp-episodul-1-inainte-de-olimpieni-2001",
+      "zeii-din-olimp-episodul-2-olimpienii-2001",
+      "zeii-din-olimp-episodul-3-lupta-cu-titanii-2001",
+      "zeii-din-olimp-episodul-4-zeus-prometeu-oamenii-2001",
+      "zeii-din-olimp-episodul-5-potopul-2001",
+      "zeii-din-olimp-episodul-6-iubirile-lui-zeus-2001",
+      "zeii-din-olimp-episodul-7-hera-2001",
+      "zeii-din-olimp-episodul-8-artemis-2001",
+      "zeii-din-olimp-episodul-9-apollo-2001",
+      "zeii-din-olimp-episodul-10-hefaistos-2001",
+      "zeii-din-olimp-episodul-11-afrodita-2001",
+      "zeii-din-olimp-episodul-12-hermes-2001",
+      "zeii-din-olimp-episodul-13-poseidon-2001",
+      "zeii-din-olimp-episodul-14-hades-2001",
+      "zeii-din-olimp-episodul-15-dionisos-2001"
+    ],
+    "description": {
+      "ro": "Serialul integral Teatrul Național Radiofonic în 15 episoade dedicat mitologiei grecești, de Sanda Socoliuc (2001).",
+      "en": "The complete 15-part National Radio Theatre series on Greek mythology by Sanda Socoliuc (2001)."
+    }
+  },
+  {
+    "id": "seria-andilandi",
+    "title": "Andilandi & Călătoria lui Vlad în celălalt tărâm",
+    "type": "series",
+    "sourceId": "eteatru",
+    "url": "https://eteatru.ro/spectacole/andilandi-id507.html",
+    "items": [
+      "andilandi-episodul-1-2021",
+      "andilandi-episodul-2-2021",
+      "andilandi-episodul-3-2021",
+      "andilandi-episodul-4-2021",
+      "andilandi-episodul-5-2021",
+      "andilandi-episodul-6-2021",
+      "calatoria-lui-vlad-in-celalalt-taram-episodul-1-2018",
+      "calatoria-lui-vlad-in-celalalt-taram-episodul-2-2018",
+      "calatoria-lui-vlad-in-celalalt-taram-episodul-3-2018",
+      "calatoria-lui-vlad-in-celalalt-taram-episodul-4-2018"
+    ],
+    "description": {
+      "ro": "Ciclul radiofonic modern după Sînziana Popescu inspirat de basmele și ființele mitologiei românești.",
+      "en": "Modern multi-episode radio drama series by Sînziana Popescu inspired by Romanian folklore and mythology."
+    }
+  },
+  {
+    "id": "seria-cartea-cu-jucarii-1967",
+    "title": "Cartea cu jucării (15 părți, 1967)",
+    "type": "series",
+    "sourceId": "radio-arhive",
+    "url": "https://radio-arhive.ro/articol/teatrul-national-radiofonic-pentru-copii-tudor-arghezi-cartea-cu-jucarii-1967/261/4/2",
+    "items": [
+      "cartea-cu-jucarii-partea-1-radio-1967",
+      "cartea-cu-jucarii-partea-2-radio-1967",
+      "cartea-cu-jucarii-partea-3-radio-1967",
+      "cartea-cu-jucarii-partea-4-radio-1967",
+      "cartea-cu-jucarii-partea-5-radio-1967",
+      "cartea-cu-jucarii-partea-6-radio-1967",
+      "cartea-cu-jucarii-partea-7-radio-1967",
+      "cartea-cu-jucarii-partea-8-radio-1967",
+      "cartea-cu-jucarii-partea-9-radio-1967",
+      "cartea-cu-jucarii-partea-10-radio-1967",
+      "cartea-cu-jucarii-partea-11-radio-1967",
+      "cartea-cu-jucarii-partea-12-radio-1967",
+      "cartea-cu-jucarii-partea-13-radio-1967",
+      "cartea-cu-jucarii-partea-14-radio-1967",
+      "cartea-cu-jucarii-partea-15-radio-1967"
+    ],
+    "description": {
+      "ro": "Înregistrarea istorică din 6 decembrie 1967 în 15 episoade scurte din Fonoteca de Aur Radio România, cu Mitzura Arghezi și Ludovic Antal.",
+      "en": "The 1967 Radio România Golden Archive broadcast of Tudor Arghezi’s stories in 15 short chapters."
+    }
+  },
+  {
+    "id": "seria-noapte-buna-copii",
+    "title": "Noapte bună, copii! (Arhiva Radio România)",
+    "type": "series",
+    "sourceId": "culturalia-pe-unde",
+    "url": "https://mariuscomper.uk/pe-unde/",
+    "items": [
+      "darul-spiridusilor-radio-1959",
+      "galosii-infumurati-radio-1960",
+      "labuta-radio-1961",
+      "grupa-mare-radio-1962",
+      "taina-pescarului-radio-1962",
+      "soricelul-radio-1963",
+      "marea-calatorie-a-micului-soricel-radio-1963",
+      "fratii-povestire-engleza-radio-1964",
+      "cum-a-fost-domesticita-pisica-radio-1965",
+      "pestisorul-de-argint-radio-1965",
+      "prietenul-meu-bogdan-radio-1966",
+      "sfoara-de-fum-radio-1967",
+      "daca-fuge-motanelul-radio-1970",
+      "pisica-n-are-clopotei-radio-1970",
+      "cei-trei-ursi-culturalia-1961",
+      "stigletele-culturalia-1964",
+      "de-a-ascunselea-prin-iarba-inalta-culturalia-1972",
+      "harta-de-aur-culturalia-1967",
+      "o-poveste-de-vara-culturalia-1967",
+      "negutatorii-si-motanul-culturalia-1961",
+      "musafirul-culturalia-1967",
+      "cerceii-culturalia-1967",
+      "scufita-rosie-culturalia-2003",
+      "ciocanituri-in-fereastra-culturalia-1964",
+      "calutul-cel-trist-si-focul-culturalia-1965",
+      "la-biblioteca-culturalia-1965",
+      "melc-melc-codobelc-culturalia-1967",
+      "trei-dorinte-culturalia-1964",
+      "fetita-din-salcie-culturalia-1974",
+      "prin-fereastra-deschisa-culturalia-1966",
+      "ghiocelul-culturalia-1992",
+      "era-iarna-era-zapada-culturalia-1973",
+      "craiasa-albinelor-culturalia-2003",
+      "masa-cu-povesti-culturalia-1966",
+      "povestea-rinocerului-culturalia-1962",
+      "avioane-de-hartie-culturalia-1965",
+      "a-venit-apoi-seara-culturalia-1960",
+      "copilul-cel-istet-culturalia-2003",
+      "n-a-venit-niciun-hot-sa-fure-pasarile-culturalia-1969",
+      "seara-de-iarna-culturalia-1965",
+      "povestea-din-perete-culturalia-1968",
+      "pescarul-culturalia-1970",
+      "colina-cu-pasari-culturalia-1972",
+      "flori-multe-flori-culturalia-1968",
+      "si-se-aude-cum-ninge-culturalia-1972",
+      "povestea-printului-culturalia-1970",
+      "martisoare-culturalia-1968",
+      "un-baiat-intr-o-livada-culturalia-1969",
+      "ouale-culturalia-1990",
+      "cofita-cu-apa-culturalia-1965",
+      "de-a-ascunselea-prin-iarba-inalta-culturalia-1989",
+      "negutatorul-si-chirigiul-culturalia-2003",
+      "s-a-ratacit-o-fetita-culturalia-1965",
+      "bolnavul-si-doctorul-culturalia-2003",
+      "magarusul-culturalia-1972",
+      "bancile-culturalia-1963",
+      "poveste-cu-toamna-si-bunici-culturalia-1967",
+      "omul-de-zapada-culturalia-1968",
+      "poveste-de-vara-culturalia-1968",
+      "toamna-si-mere-culturalia-1969",
+      "un-baiat-si-un-pui-de-gaina-culturalia-1967",
+      "casuta-din-padure-culturalia-1959",
+      "daca-deschid-usa-culturalia-1964",
+      "o-fetita-obosita-culturalia-1966",
+      "un-baiat-la-fereastra-culturalia-1968",
+      "povestile-din-covor-culturalia-1965",
+      "o-veverita-care-zboara-culturalia-1964",
+      "stramosul-cangur-culturalia-1965",
+      "fetita-cu-ceas-la-mana-culturalia-1969",
+      "sub-palarie-culturalia-1969",
+      "o-fetita-din-clasa-i-culturalia-1965",
+      "mielul-alb-nu-vrea-sa-plece-culturalia-1966",
+      "calutul-de-sapun-culturalia-1961",
+      "casuta-papusii-culturalia-1967",
+      "iarna-culturalia-1968",
+      "cainele-lenes-culturalia-2003",
+      "soricelul-cel-alb-culturalia-2003",
+      "pacaliciul-pacalit-culturalia-2003",
+      "minciuna-culturalia-1961",
+      "baietelul-si-bastonul-culturalia-1963",
+      "a-venit-iarna-culturalia-1974",
+      "fetita-ascunsa-dupa-usa-culturalia-1975",
+      "punguta-cu-doi-bani-culturalia-1963"
+    ],
+    "description": {
+      "ro": "Selecție de ediții istorice „Noapte bună, copii!” (1959–2003) din Fonoteca Radio România și arhiva deschisă Culturalia.",
+      "en": "Selected historic bedtime broadcasts of “Noapte bună, copii!” (1959–2003) from Radio România’s open archive."
+    }
+  },
+  {
+    "id": "seria-elena-pop-nbc",
+    "title": "Elena Pop – Poveștile copilăriei la radio",
+    "type": "series",
+    "sourceId": "radio-arhive",
+    "url": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povestile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/101/4/2",
+    "items": [
+      "povesti-citite-de-elena-pop-1-11-radio-2020",
+      "povesti-citite-de-elena-pop-2-11-radio-2020",
+      "povesti-citite-de-elena-pop-3-11-radio-2020",
+      "povesti-citite-de-elena-pop-4-11-radio-2020",
+      "povesti-citite-de-elena-pop-5-11-radio-2020",
+      "povesti-citite-de-elena-pop-6-11-radio-2020",
+      "povesti-citite-de-elena-pop-7-11-radio-2020",
+      "povesti-citite-de-elena-pop-8-11-radio-2020",
+      "povesti-citite-de-elena-pop-9-11-radio-2020",
+      "povesti-citite-de-elena-pop-11-11-radio-2020"
+    ],
+    "description": {
+      "ro": "Colecție de 11 povești citite seara la radio de actrița Elena Pop în emisiunea „Noapte bună, copii!” (1961–1980).",
+      "en": "Eleven bedtime stories narrated by actress Elena Pop on “Noapte bună, copii!” (1961–1980)."
+    }
+  },
+  {
+    "id": "seria-romani-de-poveste",
+    "title": "Români de poveste (A Fost Odată)",
+    "type": "series",
+    "sourceId": "afostodata",
+    "url": "https://afostodata.ro/category/romani-de-poveste/",
+    "items": [
+      "constantin-brancusi-afostodata",
+      "nichita-stanescu-afostodata",
+      "mihai-viteazul-afostodata",
+      "gheorghe-hagi-afostodata",
+      "tudor-vladimirescu-afostodata",
+      "petrache-poenaru-afostodata",
+      "traian-vuia-afostodata",
+      "ana-aslan-afostodata",
+      "stefan-luchian-afostodata",
+      "bogdan-petriceicu-hasdeu-afostodata",
+      "vlad-tepes-afostodata",
+      "ecaterina-teodoroiu-afostodata",
+      "grigore-antipa-afostodata",
+      "emil-racovita-afostodata",
+      "lucian-blaga-afostodata",
+      "i-l-caragiale-afostodata",
+      "nicolae-iorga-afostodata",
+      "aurel-vlaicu-afostodata",
+      "nicolae-grigorescu-afostodata",
+      "sofia-nadejde-afostodata",
+      "ana-maria-branza-afostodata",
+      "smaranda-braescu-afostodata",
+      "hariclea-darclee-afostodata",
+      "alexandru-ioan-cuza-afostodata",
+      "ion-creanga-afostodata",
+      "henri-coanda-afostodata",
+      "stefan-cel-mare-afostodata",
+      "nadia-comaneci-afostodata",
+      "mihai-eminescu-afostodata",
+      "george-enescu-afostodata"
+    ],
+    "description": {
+      "ro": "Seria completă de 30 de povești biografice despre mari personalități românești, spusă pe înțelesul copiilor.",
+      "en": "Complete 30-episode biographical audio series introducing children to notable Romanian historical and cultural figures."
+    }
+  },
+  {
+    "id": "seria-patrimoniu-unesco",
+    "title": "Patrimoniu și tradiții românești",
+    "type": "series",
+    "sourceId": "afostodata",
+    "url": "https://afostodata.ro/",
+    "items": [
+      "transhumanta-afostodata",
+      "camasa-cu-altita-afostodata",
+      "caii-lipitani-afostodata",
+      "ceramica-de-horezu-afostodata",
+      "jocul-fecioresc-afostodata",
+      "ceata-barbateasca-afostodata",
+      "doina-afostodata",
+      "scoarta-afostodata",
+      "martisorul-afostodata",
+      "ritualul-calusului-afostodata"
+    ],
+    "description": {
+      "ro": "Povești audio dedicate tradițiilor și valorilor din patrimoniul cultural al României: doina, ia cu altiță, ceramica de Horezu, transhumanța și mărțișorul.",
+      "en": "Audio stories for children about Romanian cultural heritage and traditions: doina, traditional blouse, Horezu pottery, and Mărțișor."
+    }
+  },
+  {
+    "id": "seria-in-jurul-lumii",
+    "title": "În jurul lumii – povești despre țări",
+    "type": "series",
+    "sourceId": "afostodata",
+    "url": "https://afostodata.ro/",
+    "items": [
+      "austria-in-jurul-lumii-afostodata",
+      "belgia-in-jurul-lumii-afostodata",
+      "cuba-in-jurul-lumii-afostodata",
+      "portugalia-in-jurul-lumii-afostodata",
+      "ungaria-in-jurul-lumii-afostodata",
+      "olanda-in-jurul-lumii-afostodata",
+      "marea-britanie-in-jurul-lumii-afostodata",
+      "suedia-in-jurul-lumii-afostodata",
+      "spania-in-jurul-lumii-afostodata",
+      "croatia-in-jurul-lumii-afostodata",
+      "polonia-in-jurul-lumii-afostodata",
+      "kenya-in-jurul-lumii-afostodata",
+      "turcia-in-jurul-lumii-afostodata",
+      "statele-unite-ale-americii-in-jurul-lumii-afostodata",
+      "japonia-in-jurul-lumii-afostodata",
+      "argentina-in-jurul-lumii-afostodata",
+      "elvetia-in-jurul-lumii-afostodata",
+      "israel-in-jurul-lumii-afostodata",
+      "franta-in-jurul-lumii-afostodata",
+      "grecia-in-jurul-lumii-afostodata",
+      "romania-in-jurul-lumii-afostodata",
+      "germania-in-jurul-lumii-afostodata",
+      "mexic-in-jurul-lumii-afostodata",
+      "italia-in-jurul-lumii-afostodata",
+      "rusia-in-jurul-lumii-afostodata",
+      "china-in-jurul-lumii-afostodata",
+      "india-in-jurul-lumii-afostodata",
+      "brazilia-in-jurul-lumii-afostodata",
+      "australia-in-jurul-lumii-afostodata",
+      "egipt-in-jurul-lumii-afostodata"
+    ],
+    "description": {
+      "ro": "Călătorie audio prin culturile și geografia a 18 țări ale lumii, de la România și Franța la Japonia, Mexic și Kenya.",
+      "en": "Audio journeys introducing children to 18 countries around the world, from Romania and France to Japan, Mexico and Kenya."
+    }
+  },
+  {
+    "id": "seria-jules-verne-radiofonic",
+    "title": "Jules Verne – Teatru Radiofonic",
+    "type": "series",
+    "sourceId": "yt-teatru-radiofonic",
+    "url": "https://www.youtube.com/playlist?list=PLAPctbkI9V9PB5zUBE3f7v_UbvMng_740",
+    "items": [
+      "ocolul-pamantului-in-80-de-zile-disc",
+      "keraban-incapatanatul-disc",
+      "arhipelagul-in-flacari-jules-verne-radio",
+      "cinci-saptamani-in-balon-disc",
+      "copiii-capitanului-grant-1985",
+      "capitan-la-15-ani-disc",
+      "sfinxul-ghetarilor-disc",
+      "20000-de-leghe-sub-mari-disc",
+      "steaua-sudului-disc",
+      "capitanul-hatteras-disc",
+      "naufragiatii-de-pe-jonathan-1978",
+      "o-expeditie-de-pomina-1995",
+      "o-iarna-printre-ghetari-1966",
+      "domnul-re-diez-si-domnisoara-mi-bemol-2008",
+      "a-fost-odata-o-familie-de-soricei-2008",
+      "ocolul-pamantului-in-80-de-zile-1959",
+      "naufragiatii-de-pe-jonathan-2012-radio-iasi-radio-iasi",
+      "calatorie-prin-imposibil-arhiva",
+      "ocolul-pamantului-in-80-de-zile-afostodata"
+    ],
+    "description": {
+      "ro": "Romanele de aventuri ale lui Jules Verne în dramatizările clasice ale Teatrului Național Radiofonic și Electrecord.",
+      "en": "Jules Verne’s classic adventure novels in Romanian National Radio Theatre and Electrecord dramatizations."
+    }
+  },
+  {
+    "id": "seria-misiunile-itsy-bitsy",
+    "title": "Misiunile lui Itsy și ale lui Bitsy",
+    "type": "series",
+    "sourceId": "yt-itsy-bitsy",
+    "url": "https://www.youtube.com/@ItsyBitsyFM",
+    "items": [
+      "misiunile-itsy-bitsy-lipicantatoarea-quick-quick-itsy",
+      "misiunile-itsy-bitsy-monstrul-zigalonului-itsy",
+      "misiunile-itsy-bitsy-capsula-spatiala-de-pe-planeta-microzon-itsy",
+      "misiunile-itsy-bitsy-cum-au-ajuns-itsy-si-bitsy-pe-pamant-itsy",
+      "misiunile-itsy-bitsy-gogalinda-itsy",
+      "misiunile-itsy-bitsy-seminte-de-hapsinante-itsy",
+      "misiunile-itsy-bitsy-bitsynocchio-itsy",
+      "misiunile-itsy-bitsy-cearta-itsy",
+      "misiunile-itsy-bitsy-zeii-falsi-itsy",
+      "misiunile-itsy-bitsy-planeta-spinazon-itsy",
+      "misiunile-itsy-bitsy-mama-lui-itsy-itsy",
+      "misiunile-itsy-bitsy-pasarile-zozo-itsy",
+      "misiunile-itsy-bitsy-falsii-itsy-si-bitsy-itsy",
+      "misiunile-itsy-bitsy-noul-prieten-itsy",
+      "misiunile-itsy-bitsy-monstrul-de-pe-planeta-dedazon-itsy",
+      "misiunile-itsy-bitsy-misterul-nebuloasei-torax-itsy",
+      "misiunile-itsy-bitsy-oul-itsy",
+      "misiunile-itsy-bitsy-planeta-purpuzon-itsy",
+      "misiunile-itsy-bitsy-rivartezul-itsy",
+      "misiunile-itsy-bitsy-in-cautarea-flexinului-itsy",
+      "misiunile-itsy-bitsy-ganditorii-si-luptatorii-itsy",
+      "misiunile-itsy-bitsy-minciuna-itsy",
+      "misiunile-itsy-bitsy-zimihahaha-itsy",
+      "misiunile-itsy-bitsy-zaviarde-itsy",
+      "misiunile-itsy-bitsy-zborul-itsy",
+      "misiunile-itsy-bitsy-planeta-nisipurilor-itsy",
+      "misiunile-itsy-bitsy-in-jurul-focului-itsy",
+      "misiunile-itsy-bitsy-robotalionul-invincibil-itsy",
+      "misiunile-itsy-bitsy-frunza-ri-si-cristalul-ka-itsy",
+      "misiunile-itsy-bitsy-hentzel-si-gretzel-itsy",
+      "misiunile-itsy-bitsy-praful-ev-itsy",
+      "misiunile-itsy-bitsy-cartizoanele-itsy",
+      "misiunile-itsy-bitsy-cele-12-balize-itsy",
+      "misiunile-itsy-bitsy-oglinzile-itsy",
+      "misiunile-itsy-bitsy-planeta-floralia-itsy",
+      "misiunile-itsy-bitsy-cele-trei-planete-itsy",
+      "misiunile-itsy-bitsy-sfera-dorintelor-itsy",
+      "misiunile-itsy-bitsy-cutia-cu-zgomote-itsy",
+      "misiunile-itsy-bitsy-dezertarea-itsy",
+      "misiunile-itsy-bitsy-visele-itsy",
+      "misiunile-itsy-bitsy-coliziunea-itsy",
+      "misiunile-itsy-bitsy-cutia-cu-pui-de-soare-itsy",
+      "misiunile-itsy-bitsy-in-mintea-lui-zimitot-itsy",
+      "misiunile-itsy-bitsy-lama-fata-lui-lamar-itsy",
+      "misiunile-itsy-bitsy-corpul-meteoric-itsy"
+    ],
+    "description": {
+      "ro": "Serial radiofonic modern de aventuri pe roluri, cu efecte sonore și umor, realizat de Itsy Bitsy FM.",
+      "en": "Modern acted children’s sci-fi and adventure radio series produced by Itsy Bitsy FM."
+    }
+  },
+  {
+    "id": "seria-leon-magdan-povestea-de-seara",
+    "title": "Povești Leon Magdan & Itsy Bitsy FM",
+    "type": "series",
+    "sourceId": "yt-itsy-bitsy",
+    "url": "https://www.youtube.com/@ItsyBitsyFM",
+    "items": [
+      "povestea-mamei-itsy",
+      "ai-grija-ce-iti-doresti-itsy",
+      "povestea-celor-trei-copacei-itsy",
+      "o-familie-fericita-itsy",
+      "povestea-leului-itsy",
+      "marele-spectacol-itsy",
+      "marcel-avea-un-vis-itsy",
+      "zglobiut-itsy",
+      "oita-pufosica-itsy",
+      "incurcatura-itsy",
+      "povestea-teposului-itsy",
+      "tapul-si-cocosul-itsy",
+      "gradina-botanica-itsy",
+      "iepurasul-care-nu-spune-niciodata-multumesc-itsy",
+      "copiii-coloreaza-viata-itsy",
+      "maimutica-miky-itsy",
+      "ziua-sporturilor-itsy"
+    ],
+    "description": {
+      "ro": "Povești scurte de seară scrise și narate cu tâlc de Leon Magdan, alături de poveștile muzicale din emisiunile Itsy Bitsy FM.",
+      "en": "Short evening tales written and told by Leon Magdan together with story broadcasts from Itsy Bitsy FM."
+    }
+  },
+  {
+    "id": "seria-hanul-ancutei-1968",
+    "title": "Hanul Ancuței (Teatrul Național Radiofonic, 1968)",
+    "type": "series",
+    "sourceId": "eteatru",
+    "url": "https://eteatru.ro/spectacole/hanul-ancutei-id456.html",
+    "items": [
+      "hanul-ancutei-ep-1-1968",
+      "hanul-ancutei-ep-2-1968",
+      "hanul-ancutei-ep-3-1968",
+      "hanul-ancutei-ep-4-1968",
+      "hanul-ancutei-ep-5-1968",
+      "hanul-ancutei-ep-6-1968"
+    ],
+    "description": {
+      "ro": "Serialul radiofonic în 6 episoade după Mihail Sadoveanu, în regia Elenei Negreanu, cu Toma Caragiu, Amza Pellea, George Calboreanu și Costache Antoniu.",
+      "en": "Six-episode 1968 radio adaptation of Mihail Sadoveanu’s stories, directed by Elena Negreanu with an all-star Romanian cast."
+    }
+  },
+  {
+    "id": "seria-elena-pop-nbc-1962-1965",
+    "title": "Elena Pop – Eu eram zâna și alte povești de seară (1962–1965)",
+    "type": "series",
+    "sourceId": "radio-arhive",
+    "url": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
+    "items": [
+      "eu-eram-zana-radio-1964",
+      "poveste-cu-un-copacel-radio-1963",
+      "patania-puisorului-radio-1962",
+      "povestea-liliacului-radio-1962",
+      "prietenii-fetitei-radio-1965",
+      "clatitele-radio-1963",
+      "copiii-in-crang-radio-1962",
+      "noaptea-la-panda-radio-1964",
+      "o-viorea-la-polul-nord-radio-1963"
+    ],
+    "description": {
+      "ro": "Nouă povestiri citite seara la radio de actrița Elena Pop în emisiunea „Noapte bună, copii!” între 1962 și 1965, din Fonoteca de Aur Radio România.",
+      "en": "Nine bedtime stories read by actress Elena Pop on “Noapte bună, copii!” between 1962 and 1965, from Radio România’s Golden Archive."
+    }
+  },
+  {
+    "id": "seria-aventurile-lui-gritty",
+    "title": "Aventurile lui Gritty (A Fost Odată)",
+    "type": "series",
+    "sourceId": "afostodata",
+    "url": "https://afostodata.ro/category/gritty/",
+    "items": [
+      "gritty-caracterul-afostodata",
+      "gritty-tenacitatea-afostodata",
+      "gritty-autocontrolul-afostodata",
+      "gritty-inteligenta-sociala-afostodata",
+      "gritty-optimismul-afostodata"
+    ],
+    "description": {
+      "ro": "Seria în 5 episoade cu micul extraterestru Gritty, despre caracter, tenacitate, autocontrol, prietenie și optimism.",
+      "en": "A five-episode children’s audio series following little alien Gritty as he learns about character, perseverance, self-control, empathy and optimism."
+    }
+  },
+  {
+    "id": "seria-expeditia-belgica",
+    "title": "Expediția Belgica (A Fost Odată)",
+    "type": "series",
+    "sourceId": "afostodata",
+    "url": "https://afostodata.ro/category/belgica/",
+    "items": [
+      "belgica-corabia-afostodata",
+      "belgica-echipajul-afostodata",
+      "belgica-calatoria-afostodata",
+      "belgica-descoperirile-afostodata"
+    ],
+    "description": {
+      "ro": "Patru episoade despre expediția antarctică a corăbiei Belgica (1897–1899) și rolul naturalistului român Emil Racoviță.",
+      "en": "Four audio episodes retelling the 1897–1899 Belgica Antarctic expedition and Romanian naturalist Emil Racoviță’s discoveries."
+    }
+  },
+  {
+    "id": "seria-regele-poftila-si-gradina",
+    "title": "Povești din Bombonezia și grădina curcubeu (A Fost Odată)",
+    "type": "series",
+    "sourceId": "afostodata",
+    "url": "https://afostodata.ro/",
+    "items": [
+      "regele-poftila-si-podul-de-sfoara-afostodata",
+      "printesa-verdeata-si-gradina-curcubeu-afostodata",
+      "curcubeul-pofticios-afostodata",
+      "calatoria-lui-picurel-cel-voinicel-afostodata",
+      "fermierul-harnic-si-samanta-cu-puteri-magice-afostodata"
+    ],
+    "description": {
+      "ro": "Cinci povești jucăușe cu Regele Poftilă, Prințesa Verdeață, Picurel cel Voinicel și Fermierul Harnic, despre apă, legume, fructe și obiceiuri sănătoase.",
+      "en": "Five playful children’s stories about water, colourful gardens and healthy habits."
+    }
+  },
+  {
+    "id": "seria-harap-alb-puck",
+    "title": "Povestea lui Harap-Alb (Teatrul „Puck”, 8 părți)",
+    "type": "series",
+    "sourceId": "teatrul-puck",
+    "url": "https://teatrulpuck.ro/audiopuck-2/",
+    "items": [
+      "harap-alb-partea-1-puck",
+      "harap-alb-partea-2-puck",
+      "harap-alb-partea-3-puck",
+      "harap-alb-partea-4-puck",
+      "harap-alb-partea-5-puck",
+      "harap-alb-partea-6-puck",
+      "harap-alb-partea-7-puck",
+      "harap-alb-partea-8-puck"
+    ],
+    "description": {
+      "ro": "Basmul integral al lui Ion Creangă în 8 părți, în lectura actriței Adina Ungur și cu ilustrația muzicală a lui Attila Nagy (AudioPuck, 2020).",
+      "en": "Ion Creangă’s complete fairy tale in 8 parts, read by actress Adina Ungur with musical accompaniment by Attila Nagy (AudioPuck, 2020)."
+    }
+  },
+  {
+    "id": "seria-un-colind-de-craciun-puck",
+    "title": "Un colind de Crăciun (Teatrul „Puck”, 6 părți)",
+    "type": "series",
+    "sourceId": "teatrul-puck",
+    "url": "https://teatrulpuck.ro/audiopuck-2/",
+    "items": [
+      "un-colind-de-craciun-partea-1-puck",
+      "un-colind-de-craciun-partea-2-puck",
+      "un-colind-de-craciun-partea-3-puck",
+      "un-colind-de-craciun-partea-4-puck",
+      "un-colind-de-craciun-partea-5-puck",
+      "un-colind-de-craciun-partea-6-puck"
+    ],
+    "description": {
+      "ro": "Romanul lui Charles Dickens în 6 părți, în lectura actriței Dana Bonțidean și cu ilustrația muzicală a lui Attila Nagy (AudioPuck, 2020).",
+      "en": "Charles Dickens’s Christmas classic in 6 parts, read by actress Dana Bonțidean with musical accompaniment by Attila Nagy (AudioPuck, 2020)."
+    }
+  },
+  {
+    "id": "seria-trilogia-creanga-gong",
+    "title": "Trilogia Creangă – Teatrul „Gong” Sibiu",
+    "type": "series",
+    "sourceId": "teatrul-gong",
+    "url": "https://teatrulgong.ro/trilogia-creanga-teatru-radiofonic",
+    "items": [
+      "fata-babei-si-fata-mosneagului-gong-radio",
+      "punguta-cu-doi-bani-gong-radio",
+      "ursul-pacalit-de-vulpe-gong-radio"
+    ],
+    "description": {
+      "ro": "Trei spectacole de teatru radiofonic după Ion Creangă în regia Évei Lábadi-Megyes, interpretate de actorii Teatrului „Gong” din Sibiu (2020).",
+      "en": "Three full-cast radio plays adapted from Ion Creangă, directed by Éva Lábadi-Megyes and performed by the actors of the “Gong” Theatre in Sibiu (2020)."
+    }
+  },
+  {
+    "id": "seria-trilogia-ispirescu-gong",
+    "title": "Trilogia Petre Ispirescu – Teatrul „Gong” Sibiu",
+    "type": "series",
+    "sourceId": "teatrul-gong",
+    "url": "https://teatrulgong.ro/trilogia-petre-ispirescu",
+    "items": [
+      "tapul-si-sarpele-gong-radio",
+      "lupul-parcalab-gong-radio",
+      "fata-saracului-cea-isteata-gong-radio"
+    ],
+    "description": {
+      "ro": "Trei spectacole de teatru radiofonic după basmele lui Petre Ispirescu, în regia Évei Lábadi-Megyes (Teatrul „Gong” Sibiu, 2021).",
+      "en": "Three full-cast radio plays adapted from Petre Ispirescu’s tales, directed by Éva Lábadi-Megyes (“Gong” Theatre Sibiu, 2021)."
+    }
+  },
+  {
+    "id": "seria-povesti-de-iarna-marian-ralea-gong",
+    "title": "Povești de iarnă cu Marian Râlea (Teatrul „Gong”)",
+    "type": "series",
+    "sourceId": "teatrul-gong",
+    "url": "https://www.youtube.com/playlist?list=PLB9hVa5j9oNvUfeOvz-WGnlBZJVh7QcDn",
+    "items": [
+      "povestea-sfantului-nicolae-marian-ralea-gong",
+      "povestea-celei-mai-frumoase-pasari-din-lume-marian-ralea-gong",
+      "povestea-bradutului-marian-ralea-gong",
+      "povestea-icoanei-marian-ralea-gong",
+      "povestea-nasterii-domnului-marian-ralea-gong"
+    ],
+    "description": {
+      "ro": "Cinci povești de iarnă și Crăciun spuse de actorul Marian Râlea pentru Teatrul „Gong” din Sibiu (2020).",
+      "en": "Five winter and Christmas stories told by actor Marian Râlea for the “Gong” Theatre in Sibiu (2020)."
+    }
+  },
+  {
+    "id": "seria-meniul-cu-povesti-soptite-gong",
+    "title": "Meniul cu povești șoptite (Teatrul „Gong” Sibiu)",
+    "type": "series",
+    "sourceId": "teatrul-gong",
+    "url": "https://teatrulgong.ro/meniul-cu-povesti-soptite",
+    "items": [
+      "pazitoarea-de-gaste-gong-soptite",
+      "cei-trei-purcelusi-gong-soptite",
+      "furtuna-lamb-gong-soptite",
+      "gasca-de-aur-gong-soptite",
+      "tinerete-fara-batranete-gong-soptite",
+      "acul-si-barosul-gong-soptite",
+      "pescarul-si-sotia-gong-soptite",
+      "palatul-de-clestar-gong-soptite",
+      "domnita-si-bobul-de-mazare-gong-soptite",
+      "vrabia-cu-limba-taiata-gong-soptite",
+      "zana-muntilor-gong-soptite",
+      "printul-fericit-gong-soptite",
+      "lupul-si-cei-sapte-iezi-gong-soptite",
+      "supa-de-pietricele-gong-soptite",
+      "regina-albinelor-gong-soptite",
+      "cum-s-a-ingustat-gatul-balenei-gong-soptite",
+      "omul-de-flori-cu-barba-de-matase-gong-soptite",
+      "peter-pan-gong-soptite",
+      "frumoasa-si-bestia-gong-soptite",
+      "spaima-zmeilor-gong-soptite",
+      "prostia-omeneasca-gong-soptite",
+      "cinci-paini-gong-soptite",
+      "hainele-imparatului-gong-soptite",
+      "fat-frumos-cu-mot-in-frunte-gong-soptite",
+      "pacala-creanga-gong-soptite",
+      "stan-bolovan-gong-soptite",
+      "lampa-lui-aladin-gong-soptite",
+      "jack-si-vrejul-de-fasole-gong-soptite",
+      "povestea-iepurasului-peter-gong-soptite",
+      "povestea-porcului-gong-soptite",
+      "banutul-de-argint-gong-soptite",
+      "lebedele-gong-soptite",
+      "in-tara-lui-mura-n-gura-gong-soptite",
+      "alba-ca-zapada-si-rosie-ca-trandafirul-gong-soptite",
+      "mica-sirena-gong-soptite",
+      "omul-de-zapada-andersen-gong-soptite",
+      "ridichea-uriasa-gong-soptite",
+      "degetica-gong-soptite",
+      "iepurele-de-catifea-gong-soptite",
+      "cartea-junglei-gong-soptite",
+      "bunica-gong-soptite",
+      "doi-feti-cu-stea-in-frunte-gong-soptite",
+      "muzicantii-din-bremen-gong-soptite",
+      "imparatul-cioc-de-sturz-gong-soptite",
+      "doctorul-stie-tot-gong-soptite",
+      "fat-frumos-din-lacrima-gong-soptite",
+      "omul-de-piatra-gong-soptite",
+      "aleodor-imparat-gong-soptite",
+      "flautistul-din-hamelin-gong-soptite",
+      "punguta-cu-doi-bani-gong-soptite",
+      "soacra-cu-trei-nurori-gong-soptite",
+      "cei-sapte-corbi-gong-soptite",
+      "alba-ca-zapada-gong-soptite",
+      "matusica-holle-gong-soptite",
+      "capra-cu-trei-iezi-gong-soptite",
+      "iepurele-si-ariciul-gong-soptite",
+      "cenusareasa-gong-soptite",
+      "fratior-si-surioara-gong-soptite",
+      "ratusca-cea-urata-gong-soptite",
+      "ali-baba-si-cei-40-de-hoti-gong-soptite",
+      "scufita-rosie-gong-soptite",
+      "soldatul-de-plumb-gong-soptite",
+      "povestea-unui-om-lenes-gong-soptite",
+      "sarea-in-bucate-gong-soptite",
+      "motanul-incaltat-gong-soptite",
+      "uriasul-cel-egoist-gong-soptite",
+      "zana-zanelor-gong-soptite",
+      "cele-sase-rodii-aurite-gong-soptite"
+    ],
+    "description": {
+      "ro": "Selecție de 68 de basme și povești clasice din literatura română și universală, citite de actorii Teatrului „Gong” din Sibiu.",
+      "en": "A curated selection of 68 classic Romanian and world fairy tales read aloud by actors of the “Gong” Theatre in Sibiu."
+    }
+  },
+  {
+    "id": "seria-povesti-cu-bubu",
+    "title": "Povești cu Bubu (Opera Comică pentru Copii)",
+    "type": "series",
+    "sourceId": "yt-opera-comica",
+    "url": "https://www.youtube.com/playlist?list=OLAK5uy_mRDFJltctbi1ZRRZNdErKjE3yTo9rgDR8",
+    "items": [
+      "poveste-bubu-la-mare-opera-comica",
+      "poveste-bubu-la-zoo-opera-comica",
+      "poveste-bubu-la-zoo-partea-2-opera-comica",
+      "poveste-bubu-si-fulgii-de-nea-opera-comica",
+      "poveste-bubu-si-anotimpurile-opera-comica",
+      "poveste-bubu-simfonie-in-farfurie-opera-comica"
+    ],
+    "description": {
+      "ro": "Șase povești muzicale scurte ale Operei Comice pentru Copii din București, create special pentru cei mai mici ascultători (1–4 ani).",
+      "en": "Six short musical audio stories by the Bucharest Comic Opera for Children, created especially for toddlers and young children (ages 1–4)."
+    }
+  },
+  {
+    "id": "seria-tic-colectia-pentru-nazdravani",
+    "title": "Colecția pentru năzdrăvani (Teatrul Ion Creangă)",
+    "type": "series",
+    "sourceId": "yt-teatrul-ion-creanga",
+    "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFIDJOqNFFqOjfSJbGc4y5Xr",
+    "items": [
+      "fetita-cu-lalele-in-par-tic",
+      "te-iubesc-in-fiecare-clipa-tic",
+      "spiridusul-mura-si-mierla-din-miezul-iernii-tic",
+      "micul-pulover-rosu-tic",
+      "pernuta-speriata-si-teribila-noapte-cu-luna-plina-tic",
+      "pernuta-speriata-si-teribila-cutie-cu-viteze-si-bulbuci-tic",
+      "pernuta-speriata-si-teribila-viata-a-unei-jucarii-tic",
+      "povestea-unui-brotacel-tic",
+      "cum-a-invatat-soricila-valoarea-prieteniei-tic",
+      "doamna-pufin-cea-mai-buna-arhitecta-tic",
+      "nu-mi-e-frica-de-intuneric-tic",
+      "ce-dulce-este-impacarea-intre-frati-tic",
+      "muna-si-iepurasul-de-pe-luna-tic",
+      "micutul-oli-si-sfoara-rosiatica-tic",
+      "curaj-ida-tic",
+      "tomita-un-ghemotoc-dupa-un-ghem-tic"
+    ],
+    "description": {
+      "ro": "Șaisprezece povești scurte pe roluri din cărți contemporane pentru copii, interpretate de actorii Teatrului Ion Creangă.",
+      "en": "Sixteen short dramatized stories from contemporary picture books, performed by actors of Bucharest’s Ion Creangă Theatre."
+    }
+  },
+  {
+    "id": "seria-tic-emotiile-lui-noni",
+    "title": "Emoțiile lui Noni (Teatrul Ion Creangă)",
+    "type": "series",
+    "sourceId": "yt-teatrul-ion-creanga",
+    "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFJPJjILI7A83zVoAsctUj2m",
+    "items": [
+      "emotiile-lui-noni-sunt-fericit-tic",
+      "emotiile-lui-noni-sunt-invidios-tic",
+      "emotiile-lui-noni-sunt-timid-tic",
+      "emotiile-lui-noni-imi-este-frica-tic",
+      "emotiile-lui-noni-sunt-furios-tic",
+      "emotiile-lui-noni-sunt-trist-tic"
+    ],
+    "description": {
+      "ro": "Șase povești scurte cu micul unicorn Noni despre bucurie, furie, teamă, tristețe, timiditate și invidie, citite de Camelia Andriță.",
+      "en": "Six short stories with little unicorn Noni exploring joy, anger, fear, sadness, shyness and envy, read by Camelia Andriță."
+    }
+  },
+  {
+    "id": "seria-tic-povesti-cu-talc",
+    "title": "Povești cu tâlc pentru cei mici (Teatrul Ion Creangă)",
+    "type": "series",
+    "sourceId": "yt-teatrul-ion-creanga",
+    "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFIJJ-TRqYe49ky2v9W5QVQw",
+    "items": [
+      "fructul-cel-mai-valoros-tic",
+      "legenda-iepurasului-de-paste-tic",
+      "legenda-martisorului-tic",
+      "fata-morarului-tic",
+      "ploaia-de-stele-tic",
+      "stan-bolovan-tic"
+    ],
+    "description": {
+      "ro": "Basme clasice și legende populare spuse pentru cei mici de Alexandrina Halic, Cosmin Seleși și Andreea Gaica.",
+      "en": "Classic fairy tales and folk legends told for young children by Alexandrina Halic, Cosmin Seleși and Andreea Gaica."
+    }
+  },
+  {
+    "id": "seria-tic-micii-ecologisti",
+    "title": "Colecția pentru micii ecologiști (Teatrul Ion Creangă)",
+    "type": "series",
+    "sourceId": "yt-teatrul-ion-creanga",
+    "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFIhAb0OcmW7Fs-c8aQhwqh5",
+    "items": [
+      "secretul-micilor-gradinari-partea-1-tic",
+      "secretul-micilor-gradinari-partea-2-tic",
+      "barnabe-vindeca-planeta-tic",
+      "ema-si-eric-au-grija-de-natura-tic",
+      "planeta-e-casa-noastra-ema-si-eric-recicleaza-tic"
+    ],
+    "description": {
+      "ro": "Povești despre grădinărit, reciclare și grija față de natură din seria „Colecția pentru micii ecologiști” a Teatrului Ion Creangă.",
+      "en": "Stories about gardening, recycling and caring for the planet from the Ion Creangă Theatre’s eco-friendly series."
+    }
+  },
+  {
+    "id": "seria-tic-povesti-pentru-vacanta-de-vara",
+    "title": "Povești pentru vacanța de vară (Teatrul Ion Creangă)",
+    "type": "series",
+    "sourceId": "yt-teatrul-ion-creanga",
+    "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFL4BBcY_wVD6OrcOJl-AFE7",
+    "items": [
+      "domnul-walker-si-stirile-senzationale-tic",
+      "cum-sa-prinzi-curaj-tic",
+      "a-fi-sau-a-nu-fi-raton-tic",
+      "peter-pan-tic"
+    ],
+    "description": {
+      "ro": "Patru povești vesele de vacanță citite pe două voci de actorii Teatrului Ion Creangă.",
+      "en": "Four lively summer-holiday stories read by pairs of actors from Bucharest’s Ion Creangă Theatre."
+    }
+  },
+  {
+    "id": "seria-tic-acasa-la-mos-craciun",
+    "title": "Acasă la Moș Crăciun (Teatrul Ion Creangă)",
+    "type": "series",
+    "sourceId": "yt-teatrul-ion-creanga",
+    "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFLOHSO7XAzCOATqrcWb4pOh",
+    "items": [
+      "acasa-la-mos-craciun-ep1-tic",
+      "acasa-la-mos-craciun-ep2-tic",
+      "acasa-la-mos-craciun-ep3-tic",
+      "acasa-la-mos-craciun-ep4-tic"
+    ],
+    "description": {
+      "ro": "Miniserie de patru episoade din atelierul lui Moș Crăciun din Laponia, în ordinea pregătirilor pentru noaptea de Ajun.",
+      "en": "A four-episode Christmas mini-series from Santa’s workshop in Lapland, following preparations for Christmas Eve."
+    }
+  },
+  {
+    "id": "seria-tic-aventurile-lui-chit-si-ront",
+    "title": "Aventurile lui Chiț și Ronț (Teatrul Ion Creangă)",
+    "type": "series",
+    "sourceId": "yt-teatrul-ion-creanga",
+    "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFKWnLz3mXWFz2EkJzqqwsRC",
+    "items": [
+      "chit-si-ront-temerarii-clatitelor-tic",
+      "chit-si-ront-luna-de-branza-tic",
+      "chit-si-ront-naufragiu-cu-peripetii-tic"
+    ],
+    "description": {
+      "ro": "Trei aventuri amuzante cu șoriceii Chiț și Ronț, povestite de Ilinca Atanasiu și Cosmin Seleși.",
+      "en": "Three comic adventures with little mice Chiț and Ronț, performed by Ilinca Atanasiu and Cosmin Seleși."
+    }
+  },
+  {
+    "id": "disc-exe-03283",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03283",
+    "title": "Omul de piatră / Fluturele galben de-o zi",
+    "items": [
+      "omul-de-piatra-disc",
+      "fluturele-galben-de-o-zi-disc"
+    ]
+  },
+  {
+    "id": "disc-exe-03425",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03425",
+    "title": "Păsările de lut / Băiatul tatei",
+    "items": [
+      "pasarile-de-lut-disc",
+      "baiatul-tatei-disc"
+    ]
+  },
+  {
+    "id": "disc-exe-03285",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03285",
+    "title": "Trandafirul albastru / Întoarcerea cerbilor",
+    "items": [
+      "trandafirul-albastru-disc",
+      "intoarcerea-cerbilor-disc"
+    ]
+  },
+  {
+    "id": "disc-exe-03358",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03358",
+    "title": "Oglinda năzdrăvană / Alma",
+    "items": [
+      "oglinda-nazdravana-disc",
+      "alma-disc"
+    ]
+  },
+  {
+    "id": "disc-exe-02363",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02363",
+    "title": "Voinicul Bob de Grâu / Fata pădurarului",
+    "items": [
+      "voinicul-bob-de-grau-disc",
+      "fata-padurarului-disc"
+    ]
+  },
+  {
+    "id": "disc-exe-03819",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03819",
+    "title": "Apolodor din Damasc / Marele duel Volta–Galvani",
+    "items": [
+      "apolodor-din-damasc-vinil",
+      "marele-duel-volta-galvani-disc"
+    ]
+  },
+  {
+    "id": "disc-exe-02362",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02362",
+    "title": "Legenda Crăiței / Craiul Criș",
+    "items": [
+      "legenda-craitei-basm-romanesc-arhiva",
+      "craiul-cris-1982"
+    ]
+  },
+  {
+    "id": "disc-exe-03494",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 03494",
+    "title": "Cetatea / Babele",
+    "items": [
+      "cetatea-vinil",
+      "legenda-babelor-vinil"
+    ]
+  },
+  {
+    "id": "disc-exe-02980",
+    "sourceId": "arhiva-discuri-electrecord",
+    "code": "EXE 02980",
+    "title": "Palatul de cleștar / Păcală în satul lui",
+    "items": [
+      "palatul-de-clestar-disc",
+      "pacala-in-satul-lui-disc"
+    ]
   }
- },
- {
-  "id": "disc-exe-01093",
-  "title": "Greuceanu / Doi copii cu părul de aur",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01093",
-  "url": "https://www.discogs.com/release/19286269",
-  "items": [
-   "greuceanu-disc",
-   "doi-copii-cu-parul-de-aur-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01093, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 01093, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-01204",
-  "title": "Prâslea cel voinic și merele de aur / Tinerețe fără bătrânețe și viață fără de moarte",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01204",
-  "url": "https://www.discogs.com/release/1089997",
-  "items": [
-   "praslea-cel-voinic-disc",
-   "tinerete-fara-batranete-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01204, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 01204, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-01033",
-  "title": "Pasărea măiastră / Sarea în bucate",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01033",
-  "url": "https://www.discogs.com/release/5089738",
-  "items": [
-   "pasarea-maiastra-disc",
-   "sarea-in-bucate-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01033, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 01033, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-0972",
-  "title": "Țugulea, fiul unchiașului și al mătușei / O judecată înțeleaptă",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 0972",
-  "url": "https://www.discogs.com/release/6254355",
-  "items": [
-   "tugulea-disc",
-   "o-judecata-inteleapta-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 0972, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 0972, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-03701",
-  "title": "Hänsel și Gretel / Păzitoarea de gâște",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03701",
-  "url": "https://www.discogs.com/release/25192849",
-  "items": [
-   "hansel-si-gretel-disc",
-   "pazitoarea-de-gaste-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03701, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 03701, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-01167",
-  "title": "Motanul încălțat / Povestea boabelor de diamant",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01167",
-  "url": "https://www.discogs.com/release/6683925",
-  "items": [
-   "motanul-incaltat-disc",
-   "povestea-boabelor-de-diamant-disc",
-   "din-porunca-stiucii-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01167, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 01167, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-01094",
-  "title": "Aventurile lui Pinocchio / Tom Degețel",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01094",
-  "url": "https://www.discogs.com/release/17418961",
-  "items": [
-   "pinocchio-disc",
-   "tom-degetel-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01094, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 01094, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-01718",
-  "title": "Mica sirenă / Hainele cele noi ale împăratului",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01718",
-  "url": "https://www.discogs.com/release/3457324",
-  "items": [
-   "mica-sirena-disc",
-   "hainele-imparatului-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01718, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 01718, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-04055",
-  "title": "Povestiri din Cărțile Junglei",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 04055",
-  "url": "https://www.discogs.com/release/8018086",
-  "items": [
-   "rikki-tikki-tavi-disc",
-   "trompa-elefantului-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 04055, cu 2 povești. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 04055, with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-03288",
-  "title": "Din legendele popoarelor-O casuta-ntr-un dovleac/Batranul luntras",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03288",
-  "url": "https://www.discogs.com/release/7490385",
-  "items": [
-   "o-casuta-ntr-un-dovleac-disc",
-   "batranul-luntras-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03288, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03288, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exd-1039",
-  "title": "Povesti pentru copii",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXD 1039",
-  "url": "https://www.discogs.com/release/17928091",
-  "items": [
-   "baietelul-si-marul-disc",
-   "hotul-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXD 1039, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXD 1039, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01830",
-  "title": "Renul alb/Ionica Fat-Frumos",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01830",
-  "url": "https://www.discogs.com/release/4695484",
-  "items": [
-   "renul-alb-disc",
-   "ionica-fat-frumos-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01830, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01830, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03427",
-  "title": "Din legendele popoarelor-Vanatorul Halibu/Cartea fermecata",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03427",
-  "url": "https://www.discogs.com/release/6256558",
-  "items": [
-   "vanatorul-halibu-disc",
-   "cartea-fermecata-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03427, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03427, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01593",
-  "title": "Miracolul copilariei(din creatia pentru copii a poetilor romani)",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01593",
-  "url": "https://www.discogs.com/release/7589590",
-  "items": [
-   "zece-mate-disc",
-   "o-poveste-c-un-dulau-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01593, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01593, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02761",
-  "title": "Vioara fermecata/Pescarul lautar",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02761",
-  "url": "https://www.discogs.com/release/14440829",
-  "items": [
-   "pescarul-lautar-disc",
-   "vioara-fermecata-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02761, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02761, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03423",
-  "title": "Povestiri pentru cei mici",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03423",
-  "url": "https://www.discogs.com/release/21045004",
-  "items": [
-   "ceasornicaria-disc",
-   "impacarea-disc",
-   "povestea-singur-la-parinti-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03423, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03423, featuring 3 audio stories."
-  }
- },
- {
-  "id": "disc-exe-04106",
-  "title": "Barba albastra/Riquet cel motat",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 04106",
-  "url": "https://www.discogs.com/release/4287156",
-  "items": [
-   "barba-albastra-disc",
-   "riquet-cel-motat-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 04106, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 04106, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-cs-068",
-  "title": "La Broșteni / Hultanul",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 068",
-  "url": "https://www.discogs.com/release/13958766",
-  "items": [
-   "la-brosteni-disc",
-   "hultanul-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 068, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 068, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-04155",
-  "title": "Imparatul Cioc-de-Sturz/ Fata mosului cea cuminte si harnica si fata babei cea haina si urata",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 04155",
-  "url": "https://www.discogs.com/release/20267116",
-  "items": [
-   "imparatul-cioc-de-sturz-disc",
-   "fata-mosului-cea-cuminte-disc-2"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 04155, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 04155, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02990",
-  "title": "Din legendele popoarelor-Fiica Rinului/Carancho",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02990",
-  "url": "https://www.discogs.com/release/10174116",
-  "items": [
-   "carancho-disc",
-   "fiica-rinului-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02990, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02990, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02766",
-  "title": "Randunica spune o poveste/Tovaras de drum",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02766",
-  "url": "https://www.discogs.com/release/4012453",
-  "items": [
-   "tovaras-de-drum-johann-cel-bun-disc",
-   "degetica-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02766, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02766, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02986",
-  "title": "Basme din 1001Nopti: Rubinul fermecat/Keloglan",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02986",
-  "url": "https://www.discogs.com/release/6256703",
-  "items": [
-   "rubinul-fermecat-disc",
-   "keloglan-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02986, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02986, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02135",
-  "title": "Povestiri de Hans Christian Andersen",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02135",
-  "url": "https://www.discogs.com/release/3259595",
-  "items": [
-   "fetita-cu-chibriturile-disc",
-   "amnarul-disc",
-   "privighetoarea-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02135, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02135, featuring 3 audio stories."
-  }
- },
- {
-  "id": "disc-cs-043",
-  "title": "Moș Ion Roata și Vodă Cuza / Amintiri din copilărie (fragment)",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 043",
-  "url": "https://www.discogs.com/release/6891590",
-  "items": [
-   "mos-ion-roata-si-voda-cuza-disc",
-   "amintiri-din-copilarie-fragment-disc",
-   "povestea-crocodilului-care-plangea-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 043, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 043, featuring 3 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01618",
-  "title": "Ileana Sanziana/Porcul cel fermecat",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01618",
-  "url": "https://www.discogs.com/release/9509638",
-  "items": [
-   "porcul-cel-fermecat-disc",
-   "ileana-sanziana-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01618, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01618, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03066",
-  "title": "Poveste de Demult/Norocul Padurarului",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03066",
-  "url": "https://www.discogs.com/release/17903224",
-  "items": [
-   "poveste-de-demult-disc",
-   "norocul-padurarului-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03066, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03066, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02910",
-  "title": "Povestiri pentru copii",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02910",
-  "url": "https://www.discogs.com/release/15268133",
-  "items": [
-   "zdreanta-disc",
-   "poveste-cu-ochi-albastri-disc",
-   "puisorul-si-vulpea-disc",
-   "pupaza-din-tei-disc",
-   "povestea-gastelor-disc",
-   "povestea-unui-om-lenes-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02910, cu 6 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02910, featuring 6 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01945",
-  "title": "Povestea Zamdirei/Fata din dafin",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01945",
-  "url": "https://www.discogs.com/release/7464045",
-  "items": [
-   "fata-din-dafin-disc",
-   "povestea-zamfirei-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01945, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01945, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-cs-0139",
-  "title": "Cioc! Cioc! Cioc! / Ciuboțelele ogarului",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 0139",
-  "items": [
-   "cioc-cioc-cioc-disc",
-   "ciubotelele-ogarului-disc",
-   "vulturul-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 0139, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 0139, featuring 3 audio stories."
-  }
- },
- {
-  "id": "disc-cs-0125",
-  "title": "Scufița Roșie / Marinimie",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 0125",
-  "url": "https://www.discogs.com/release/10940660",
-  "items": [
-   "scufita-rosie-disc-2",
-   "marinimie-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 0125, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 0125, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01667",
-  "title": "Povestiri pentru copii in lectura actritei Alexandrina Halic",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01667",
-  "url": "https://www.discogs.com/release/13446527",
-  "items": [
-   "saracutul-disc",
-   "baietel-fragment-disc",
-   "puisorii-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01667, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01667, featuring 3 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03493",
-  "title": "Povestiri pentru cei mici",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03493",
-  "url": "https://www.discogs.com/release/4530726",
-  "items": [
-   "o-poveste-pentru-bunica-disc",
-   "poveste-de-primavara-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03493, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03493, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02065",
-  "title": "Basme de Ion Creanga",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02065",
-  "url": "https://www.discogs.com/release/4006304",
-  "items": [
-   "prostia-omeneasca-disc",
-   "capra-cu-trei-iezi-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02065, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02065, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01252",
-  "title": "Povestiri de Calin Gruia",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01252",
-  "url": "https://www.discogs.com/release/25039795",
-  "items": [
-   "printul-disc",
-   "floarea-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01252, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01252, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-cs-040",
-  "title": "Capra cu trei iezi / Rățușca cea urâtă",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 040",
-  "url": "https://www.discogs.com/release/8359031",
-  "items": [
-   "capra-cu-trei-iezi-disc-2",
-   "ratusca-cea-urata-disc",
-   "alba-ca-zapada-disc-2",
-   "povestea-unui-om-lenes-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 040, cu 4 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 040, featuring 4 audio stories."
-  }
- },
- {
-  "id": "disc-cs-041",
-  "title": "Feciorii croitorului / Fricosul",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 041",
-  "url": "https://www.discogs.com/release/8488411",
-  "items": [
-   "feciorii-croitorului-disc",
-   "fricosul-disc",
-   "mos-ion-roata-si-unirea-disc",
-   "hainele-imparatului-disc-2"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 041, cu 4 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 041, featuring 4 audio stories."
-  }
- },
- {
-  "id": "disc-exd-79",
-  "title": "Din lumea basmelor",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXD 79",
-  "url": "https://www.discogs.com/release/25802176",
-  "items": [
-   "feciorul-cu-maini-de-aur-disc",
-   "ursul-pacalit-de-vulpe-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXD 79, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXD 79, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-04001",
-  "title": "Intamplari cu Ha Ha Ha/Ce se ascunde in traista/Povestea lui Maghiran",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 04001",
-  "url": "https://www.discogs.com/release/24598283",
-  "items": [
-   "intamplari-cu-ha-ha-ha-disc",
-   "ce-se-ascunde-in-traista-disc",
-   "povestea-lui-maghiran-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 04001, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 04001, featuring 3 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02911",
-  "title": "Basme de Fratii Grimm",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02911",
-  "url": "https://www.discogs.com/release/3916090",
-  "items": [
-   "muzicantii-din-bremen-disc",
-   "acul-fusul-si-suveica-disc",
-   "bunicul-si-nepotul-disc",
-   "scufita-rosie-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02911, cu 4 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02911, featuring 4 audio stories."
-  }
- },
- {
-  "id": "disc-exe-0988",
-  "title": "Feciorul cel vrednic/Baiet sarac",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 0988",
-  "url": "https://www.discogs.com/release/9487879",
-  "items": [
-   "feciorul-cel-vrednic-disc",
-   "baiet-sarac-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 0988, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 0988, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03357",
-  "title": "Domnita intristata/Voinicul cat-zece",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03357",
-  "url": "https://www.discogs.com/release/14660774",
-  "items": [
-   "natangul-si-domnita-intristata-disc",
-   "voinicul-cat-zece-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03357, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03357, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01779",
-  "title": "Piatra albastra/Legenda licuricilor",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01779",
-  "url": "https://www.discogs.com/release/8917555",
-  "items": [
-   "piatra-albastra-disc",
-   "legenda-licuricilor-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01779, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01779, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02763",
-  "title": "Din legendele popoarelor-Fiul faraonului/Legenda florii de rodie",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02763",
-  "url": "https://www.discogs.com/release/6256449",
-  "items": [
-   "fiul-faraonului-disc",
-   "legenda-florii-de-rodie-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02763, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02763, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01135",
-  "title": "Neghinita/Bunicul/Bunica",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01135",
-  "url": "https://www.discogs.com/release/3654554",
-  "items": [
-   "bunica-disc",
-   "neghinita-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01135, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01135, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03068",
-  "title": "Din legendele popoarelor:Vrajitorul apelor/Sahim si Mingo",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03068",
-  "url": "https://www.discogs.com/release/3921557",
-  "items": [
-   "vrajitorul-apelor-disc",
-   "sahim-si-mingo-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03068, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03068, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03890",
-  "title": "Legende mitologice",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03890",
-  "url": "https://www.discogs.com/release/5096159",
-  "items": [
-   "lacomia-lui-midas-disc",
-   "ispravile-lui-sisif-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03890, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03890, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02204",
-  "title": "Brandusa Zaita-Silvestru povestind copiilor",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02204",
-  "url": "https://www.discogs.com/release/17419204",
-  "items": [
-   "cocosul-si-vulpea-disc",
-   "puiul-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02204, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02204, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02009",
-  "title": "Calutul cocosat/Ladita de aur",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02009",
-  "url": "https://www.discogs.com/release/19264936",
-  "items": [
-   "ladita-de-aur-disc",
-   "calutul-cocosat-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02009, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02009, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03284",
-  "title": "Povestiri de Virginia Carianopol",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03284",
-  "url": "https://www.discogs.com/release/9121403",
-  "items": [
-   "doi-motani-disc",
-   "salcia-disc",
-   "iarna-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03284, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03284, featuring 3 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03424",
-  "title": "Vorba dulce mult aduce/ Voinicul Parsion",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03424",
-  "url": "https://www.discogs.com/release/10174090",
-  "items": [
-   "voinicul-parsion-disc",
-   "vorba-dulce-mult-aduce-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03424, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03424, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02845",
-  "title": "Povestiri pentru cei mici",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02845",
-  "url": "https://www.discogs.com/release/5812238",
-  "items": [
-   "tupa-tup-disc",
-   "cosina-cea-frumoasa-si-neascultatoare-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02845, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02845, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01891",
-  "title": "Basme din",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01891",
-  "url": "https://www.discogs.com/release/15402348",
-  "items": [
-   "neinfricatul-farhad-disc",
-   "califul-si-cadiul-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01891, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01891, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02275",
-  "title": "Recitindu-l pe Creanga...",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02275",
-  "url": "https://www.discogs.com/release/7263937",
-  "items": [
-   "recitindu-l-pe-creanga-disc",
-   "fat-frumos-voinicul-codrului-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02275, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02275, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03125",
-  "title": "Degetul imparatului/Bulgarele de pamant",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03125",
-  "url": "https://www.discogs.com/release/4012853",
-  "items": [
-   "bulgarele-de-pamant-disc",
-   "degetul-imparatului-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03125, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03125, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03127",
-  "title": "Basme japoneze-Ochii mamei/Vulpea alba",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03127",
-  "url": "https://www.discogs.com/release/5083003",
-  "items": [
-   "vulpea-alba-disc",
-   "ochii-mamei-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03127, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03127, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-04054",
-  "title": "Povestiri pentru cei mici de Passionaria Stoicescu",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 04054",
-  "url": "https://www.discogs.com/release/6424609",
-  "items": [
-   "povestea-ariciului-teposila-disc",
-   "povestea-lacrimilor-de-crocodil-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 04054, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 04054, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-01519",
-  "title": "Micul Muck/Mateias gascarul",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01519",
-  "url": "https://www.discogs.com/release/10173920",
-  "items": [
-   "mateias-gascarul-disc",
-   "micul-muck-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01519, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01519, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-cs-042",
-  "title": "Mărășești / La scăldat",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 042",
-  "url": "https://www.discogs.com/release/6891418",
-  "items": [
-   "marasesti-disc",
-   "la-scaldat-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 042, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 042, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03547",
-  "title": "Basme scandinave",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03547",
-  "url": "https://www.discogs.com/release/10172966",
-  "items": [
-   "caciulita-disc",
-   "bucle-de-aur-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03547, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03547, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-02491",
-  "title": "Basme din 1001 Nopti: Micul cadiu/Emirul si poetul",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 02491",
-  "url": "https://www.discogs.com/release/14661245",
-  "items": [
-   "micul-cadiu-disc",
-   "emirul-si-poetul-1968"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 02491, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02491, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-exe-03359",
-  "title": "Soldatul de plumb/Ib si Cristina",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03359",
-  "url": "https://www.discogs.com/release/9322045",
-  "items": [
-   "ib-si-cristina-disc",
-   "soldatul-de-plumb-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03359, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 03359, featuring 2 audio stories."
-  }
- },
- {
-  "id": "disc-cs-0122",
-  "title": "Amintiri din copilarie",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "CS 0122",
-  "url": "https://www.discogs.com/release/8627286",
-  "items": [
-   "amintiri-din-copilarie-disc",
-   "amintiri-din-copilarie-disc-2"
-  ],
-  "description": {
-   "ro": "Disc Electrecord CS 0122, cu 3 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 0122, featuring 3 audio stories."
-  }
- },
- {
-  "id": "seria-zeii-din-olimp",
-  "title": "Zeii din Olimp (15 episoade)",
-  "type": "series",
-  "sourceId": "eteatru",
-  "url": "https://eteatru.ro/spectacole/zeii-din-olimp-episoade-id189.html",
-  "items": [
-   "zeii-din-olimp-episodul-1-inainte-de-olimpieni-2001",
-   "zeii-din-olimp-episodul-2-olimpienii-2001",
-   "zeii-din-olimp-episodul-3-lupta-cu-titanii-2001",
-   "zeii-din-olimp-episodul-4-zeus-prometeu-oamenii-2001",
-   "zeii-din-olimp-episodul-5-potopul-2001",
-   "zeii-din-olimp-episodul-6-iubirile-lui-zeus-2001",
-   "zeii-din-olimp-episodul-7-hera-2001",
-   "zeii-din-olimp-episodul-8-artemis-2001",
-   "zeii-din-olimp-episodul-9-apollo-2001",
-   "zeii-din-olimp-episodul-10-hefaistos-2001",
-   "zeii-din-olimp-episodul-11-afrodita-2001",
-   "zeii-din-olimp-episodul-12-hermes-2001",
-   "zeii-din-olimp-episodul-13-poseidon-2001",
-   "zeii-din-olimp-episodul-14-hades-2001",
-   "zeii-din-olimp-episodul-15-dionisos-2001"
-  ],
-  "description": {
-   "ro": "Serialul integral Teatrul Național Radiofonic în 15 episoade dedicat mitologiei grecești, de Sanda Socoliuc (2001).",
-   "en": "The complete 15-part National Radio Theatre series on Greek mythology by Sanda Socoliuc (2001)."
-  }
- },
- {
-  "id": "seria-andilandi",
-  "title": "Andilandi & Călătoria lui Vlad în celălalt tărâm",
-  "type": "series",
-  "sourceId": "eteatru",
-  "url": "https://eteatru.ro/spectacole/andilandi-id507.html",
-  "items": [
-   "andilandi-episodul-1-2021",
-   "andilandi-episodul-2-2021",
-   "andilandi-episodul-3-2021",
-   "andilandi-episodul-4-2021",
-   "andilandi-episodul-5-2021",
-   "andilandi-episodul-6-2021",
-   "calatoria-lui-vlad-in-celalalt-taram-episodul-1-2018",
-   "calatoria-lui-vlad-in-celalalt-taram-episodul-2-2018",
-   "calatoria-lui-vlad-in-celalalt-taram-episodul-3-2018",
-   "calatoria-lui-vlad-in-celalalt-taram-episodul-4-2018"
-  ],
-  "description": {
-   "ro": "Ciclul radiofonic modern după Sînziana Popescu inspirat de basmele și ființele mitologiei românești.",
-   "en": "Modern multi-episode radio drama series by Sînziana Popescu inspired by Romanian folklore and mythology."
-  }
- },
- {
-  "id": "seria-cartea-cu-jucarii-1967",
-  "title": "Cartea cu jucării (15 părți, 1967)",
-  "type": "series",
-  "sourceId": "radio-arhive",
-  "url": "https://radio-arhive.ro/articol/teatrul-national-radiofonic-pentru-copii-tudor-arghezi-cartea-cu-jucarii-1967/261/4/2",
-  "items": [
-   "cartea-cu-jucarii-partea-1-radio-1967",
-   "cartea-cu-jucarii-partea-2-radio-1967",
-   "cartea-cu-jucarii-partea-3-radio-1967",
-   "cartea-cu-jucarii-partea-4-radio-1967",
-   "cartea-cu-jucarii-partea-5-radio-1967",
-   "cartea-cu-jucarii-partea-6-radio-1967",
-   "cartea-cu-jucarii-partea-7-radio-1967",
-   "cartea-cu-jucarii-partea-8-radio-1967",
-   "cartea-cu-jucarii-partea-9-radio-1967",
-   "cartea-cu-jucarii-partea-10-radio-1967",
-   "cartea-cu-jucarii-partea-11-radio-1967",
-   "cartea-cu-jucarii-partea-12-radio-1967",
-   "cartea-cu-jucarii-partea-13-radio-1967",
-   "cartea-cu-jucarii-partea-14-radio-1967",
-   "cartea-cu-jucarii-partea-15-radio-1967"
-  ],
-  "description": {
-   "ro": "Înregistrarea istorică din 6 decembrie 1967 în 15 episoade scurte din Fonoteca de Aur Radio România, cu Mitzura Arghezi și Ludovic Antal.",
-   "en": "The 1967 Radio România Golden Archive broadcast of Tudor Arghezi’s stories in 15 short chapters."
-  }
- },
- {
-  "id": "seria-noapte-buna-copii",
-  "title": "Noapte bună, copii! (Arhiva Radio România)",
-  "type": "series",
-  "sourceId": "culturalia-pe-unde",
-  "url": "https://mariuscomper.uk/pe-unde/",
-  "items": [
-   "darul-spiridusilor-radio-1959",
-   "acul-fusul-si-suveica-radio-1959",
-   "galosii-infumurati-radio-1960",
-   "labuta-radio-1961",
-   "grupa-mare-radio-1962",
-   "taina-pescarului-radio-1962",
-   "soricelul-radio-1963",
-   "marea-calatorie-a-micului-soricel-radio-1963",
-   "fratii-povestire-engleza-radio-1964",
-   "cum-a-fost-domesticita-pisica-radio-1965",
-   "pestisorul-de-argint-radio-1965",
-   "prietenul-meu-bogdan-radio-1966",
-   "sfoara-de-fum-radio-1967",
-   "daca-fuge-motanelul-radio-1970",
-   "pisica-n-are-clopotei-radio-1970",
-   "cei-trei-ursi-culturalia-1961",
-   "stigletele-culturalia-1964",
-   "de-a-ascunselea-prin-iarba-inalta-culturalia-1972",
-   "harta-de-aur-culturalia-1967",
-   "o-poveste-de-vara-culturalia-1967",
-   "negutatorii-si-motanul-culturalia-1961",
-   "musafirul-culturalia-1967",
-   "cerceii-culturalia-1967",
-   "scufita-rosie-culturalia-2003",
-   "ciocanituri-in-fereastra-culturalia-1964",
-   "calutul-cel-trist-si-focul-culturalia-1965",
-   "la-biblioteca-culturalia-1965",
-   "melc-melc-codobelc-culturalia-1967",
-   "trei-dorinte-culturalia-1964",
-   "fetita-din-salcie-culturalia-1974",
-   "prin-fereastra-deschisa-culturalia-1966",
-   "ghiocelul-culturalia-1992",
-   "era-iarna-era-zapada-culturalia-1973",
-   "craiasa-albinelor-culturalia-2003",
-   "masa-cu-povesti-culturalia-1966",
-   "povestea-rinocerului-culturalia-1962",
-   "avioane-de-hartie-culturalia-1965",
-   "a-venit-apoi-seara-culturalia-1960",
-   "copilul-cel-istet-culturalia-2003",
-   "n-a-venit-niciun-hot-sa-fure-pasarile-culturalia-1969",
-   "seara-de-iarna-culturalia-1965",
-   "povestea-din-perete-culturalia-1968",
-   "pescarul-culturalia-1970",
-   "colina-cu-pasari-culturalia-1972",
-   "flori-multe-flori-culturalia-1968",
-   "si-se-aude-cum-ninge-culturalia-1972",
-   "povestea-printului-culturalia-1970",
-   "martisoare-culturalia-1968",
-   "un-baiat-intr-o-livada-culturalia-1969",
-   "ouale-culturalia-1990",
-   "cofita-cu-apa-culturalia-1965",
-   "de-a-ascunselea-prin-iarba-inalta-culturalia-1989",
-   "negutatorul-si-chirigiul-culturalia-2003",
-   "s-a-ratacit-o-fetita-culturalia-1965",
-   "bolnavul-si-doctorul-culturalia-2003",
-   "magarusul-culturalia-1972",
-   "bancile-culturalia-1963",
-   "poveste-cu-toamna-si-bunici-culturalia-1967",
-   "omul-de-zapada-culturalia-1968",
-   "poveste-de-vara-culturalia-1968",
-   "toamna-si-mere-culturalia-1969",
-   "un-baiat-si-un-pui-de-gaina-culturalia-1967",
-   "casuta-din-padure-culturalia-1959",
-   "daca-deschid-usa-culturalia-1964",
-   "o-fetita-obosita-culturalia-1966",
-   "un-baiat-la-fereastra-culturalia-1968",
-   "povestile-din-covor-culturalia-1965",
-   "o-veverita-care-zboara-culturalia-1964",
-   "stramosul-cangur-culturalia-1965",
-   "fetita-cu-ceas-la-mana-culturalia-1969",
-   "sub-palarie-culturalia-1969",
-   "o-fetita-din-clasa-i-culturalia-1965",
-   "mielul-alb-nu-vrea-sa-plece-culturalia-1966",
-   "calutul-de-sapun-culturalia-1961",
-   "casuta-papusii-culturalia-1967",
-   "iarna-culturalia-1968",
-   "cainele-lenes-culturalia-2003",
-   "soricelul-cel-alb-culturalia-2003",
-   "pacaliciul-pacalit-culturalia-2003",
-   "minciuna-culturalia-1961",
-   "baietelul-si-bastonul-culturalia-1963",
-   "a-venit-iarna-culturalia-1974",
-   "fetita-ascunsa-dupa-usa-culturalia-1975"
-  ],
-  "description": {
-   "ro": "Selecție de ediții istorice „Noapte bună, copii!” (1959–2003) din Fonoteca Radio România și arhiva deschisă Culturalia.",
-   "en": "Selected historic bedtime broadcasts of “Noapte bună, copii!” (1959–2003) from Radio România’s open archive."
-  }
- },
- {
-  "id": "seria-elena-pop-nbc",
-  "title": "Elena Pop – Poveștile copilăriei la radio",
-  "type": "series",
-  "sourceId": "radio-arhive",
-  "url": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povestile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/101/4/2",
-  "items": [
-   "povesti-citite-de-elena-pop-1-11-radio-2020",
-   "povesti-citite-de-elena-pop-2-11-radio-2020",
-   "povesti-citite-de-elena-pop-3-11-radio-2020",
-   "povesti-citite-de-elena-pop-4-11-radio-2020",
-   "povesti-citite-de-elena-pop-5-11-radio-2020",
-   "povesti-citite-de-elena-pop-6-11-radio-2020",
-   "povesti-citite-de-elena-pop-7-11-radio-2020",
-   "povesti-citite-de-elena-pop-8-11-radio-2020",
-   "povesti-citite-de-elena-pop-9-11-radio-2020",
-   "povesti-citite-de-elena-pop-10-11-radio-2020",
-   "povesti-citite-de-elena-pop-11-11-radio-2020"
-  ],
-  "description": {
-   "ro": "Colecție de 11 povești citite seara la radio de actrița Elena Pop în emisiunea „Noapte bună, copii!” (1961–1980).",
-   "en": "Eleven bedtime stories narrated by actress Elena Pop on “Noapte bună, copii!” (1961–1980)."
-  }
- },
- {
-  "id": "seria-romani-de-poveste",
-  "title": "Români de poveste (A Fost Odată)",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/category/romani-de-poveste/",
-  "items": [
-   "constantin-brancusi-afostodata",
-   "nichita-stanescu-afostodata",
-   "mihai-viteazul-afostodata",
-   "gheorghe-hagi-afostodata",
-   "tudor-vladimirescu-afostodata",
-   "petrache-poenaru-afostodata",
-   "traian-vuia-afostodata",
-   "ana-aslan-afostodata",
-   "stefan-luchian-afostodata",
-   "bogdan-petriceicu-hasdeu-afostodata",
-   "vlad-tepes-afostodata",
-   "ecaterina-teodoroiu-afostodata",
-   "grigore-antipa-afostodata",
-   "emil-racovita-afostodata",
-   "lucian-blaga-afostodata",
-   "i-l-caragiale-afostodata",
-   "nicolae-iorga-afostodata",
-   "aurel-vlaicu-afostodata",
-   "nicolae-grigorescu-afostodata",
-   "sofia-nadejde-afostodata",
-   "ana-maria-branza-afostodata",
-   "smaranda-braescu-afostodata",
-   "hariclea-darclee-afostodata",
-   "alexandru-ioan-cuza-afostodata",
-   "ion-creanga-afostodata",
-   "henri-coanda-afostodata",
-   "stefan-cel-mare-afostodata",
-   "nadia-comaneci-afostodata",
-   "mihai-eminescu-afostodata",
-   "george-enescu-afostodata"
-  ],
-  "description": {
-   "ro": "Seria completă de 30 de povești biografice despre mari personalități românești, spusă pe înțelesul copiilor.",
-   "en": "Complete 30-episode biographical audio series introducing children to notable Romanian historical and cultural figures."
-  }
- },
- {
-  "id": "seria-patrimoniu-unesco",
-  "title": "Patrimoniu și tradiții românești",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/",
-  "items": [
-   "transhumanta-afostodata",
-   "camasa-cu-altita-afostodata",
-   "caii-lipitani-afostodata",
-   "ceramica-de-horezu-afostodata",
-   "jocul-fecioresc-afostodata",
-   "ceata-barbateasca-afostodata",
-   "doina-afostodata",
-   "scoarta-afostodata",
-   "martisorul-afostodata",
-   "ritualul-calusului-afostodata"
-  ],
-  "description": {
-   "ro": "Povești audio dedicate tradițiilor și valorilor din patrimoniul cultural al României: doina, ia cu altiță, ceramica de Horezu, transhumanța și mărțișorul.",
-   "en": "Audio stories for children about Romanian cultural heritage and traditions: doina, traditional blouse, Horezu pottery, and Mărțișor."
-  }
- },
- {
-  "id": "seria-in-jurul-lumii",
-  "title": "În jurul lumii – povești despre țări",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/",
-  "items": [
-   "austria-in-jurul-lumii-afostodata",
-   "belgia-in-jurul-lumii-afostodata",
-   "cuba-in-jurul-lumii-afostodata",
-   "portugalia-in-jurul-lumii-afostodata",
-   "ungaria-in-jurul-lumii-afostodata",
-   "olanda-in-jurul-lumii-afostodata",
-   "marea-britanie-in-jurul-lumii-afostodata",
-   "suedia-in-jurul-lumii-afostodata",
-   "spania-in-jurul-lumii-afostodata",
-   "croatia-in-jurul-lumii-afostodata",
-   "polonia-in-jurul-lumii-afostodata",
-   "kenya-in-jurul-lumii-afostodata",
-   "turcia-in-jurul-lumii-afostodata",
-   "statele-unite-ale-americii-in-jurul-lumii-afostodata",
-   "japonia-in-jurul-lumii-afostodata",
-   "argentina-in-jurul-lumii-afostodata",
-   "elvetia-in-jurul-lumii-afostodata",
-   "israel-in-jurul-lumii-afostodata",
-   "franta-in-jurul-lumii-afostodata",
-   "grecia-in-jurul-lumii-afostodata",
-   "romania-in-jurul-lumii-afostodata",
-   "germania-in-jurul-lumii-afostodata",
-   "mexic-in-jurul-lumii-afostodata",
-   "italia-in-jurul-lumii-afostodata",
-   "rusia-in-jurul-lumii-afostodata",
-   "china-in-jurul-lumii-afostodata",
-   "india-in-jurul-lumii-afostodata",
-   "brazilia-in-jurul-lumii-afostodata",
-   "australia-in-jurul-lumii-afostodata",
-   "egipt-in-jurul-lumii-afostodata"
-  ],
-  "description": {
-   "ro": "Călătorie audio prin culturile și geografia a 18 țări ale lumii, de la România și Franța la Japonia, Mexic și Kenya.",
-   "en": "Audio journeys introducing children to 18 countries around the world, from Romania and France to Japan, Mexico and Kenya."
-  }
- },
- {
-  "id": "seria-jules-verne-radiofonic",
-  "title": "Jules Verne – Teatru Radiofonic",
-  "type": "series",
-  "sourceId": "yt-teatru-radiofonic",
-  "url": "https://www.youtube.com/playlist?list=PLAPctbkI9V9PB5zUBE3f7v_UbvMng_740",
-  "items": [
-   "ocolul-pamantului-in-80-de-zile-disc",
-   "keraban-incapatanatul-disc",
-   "arhipelagul-in-flacari-jules-verne-radio",
-   "cinci-saptamani-in-balon-disc",
-   "copiii-capitanului-grant-1985",
-   "capitan-la-15-ani-disc",
-   "sfinxul-ghetarilor-disc",
-   "20000-de-leghe-sub-mari-disc",
-   "steaua-sudului-disc",
-   "capitanul-hatteras-disc",
-   "naufragiatii-de-pe-jonathan-1978",
-   "o-expeditie-de-pomina-1995",
-   "o-iarna-printre-ghetari-1966",
-   "domnul-re-diez-si-domnisoara-mi-bemol-2008",
-   "a-fost-odata-o-familie-de-soricei-2008",
-   "ocolul-pamantului-in-80-de-zile-1959",
-   "naufragiatii-de-pe-jonathan-2012-radio-iasi-radio-iasi",
-   "calatorie-prin-imposibil-arhiva",
-   "ocolul-pamantului-in-80-de-zile-afostodata"
-  ],
-  "description": {
-   "ro": "Romanele de aventuri ale lui Jules Verne în dramatizările clasice ale Teatrului Național Radiofonic și Electrecord.",
-   "en": "Jules Verne’s classic adventure novels in Romanian National Radio Theatre and Electrecord dramatizations."
-  }
- },
- {
-  "id": "seria-misiunile-itsy-bitsy",
-  "title": "Misiunile lui Itsy și ale lui Bitsy",
-  "type": "series",
-  "sourceId": "yt-itsy-bitsy",
-  "url": "https://www.youtube.com/@ItsyBitsyFM",
-  "items": [
-   "misiunile-itsy-bitsy-lipicantatoarea-quick-quick-itsy",
-   "misiunile-itsy-bitsy-monstrul-zigalonului-itsy",
-   "misiunile-itsy-bitsy-capsula-spatiala-de-pe-planeta-microzon-itsy",
-   "misiunile-itsy-bitsy-cum-au-ajuns-itsy-si-bitsy-pe-pamant-itsy",
-   "misiunile-itsy-bitsy-gogalinda-itsy",
-   "misiunile-itsy-bitsy-seminte-de-hapsinante-itsy",
-   "misiunile-itsy-bitsy-bitsynocchio-itsy",
-   "misiunile-itsy-bitsy-cearta-itsy",
-   "misiunile-itsy-bitsy-zeii-falsi-itsy",
-   "misiunile-itsy-bitsy-planeta-spinazon-itsy",
-   "misiunile-itsy-bitsy-mama-lui-itsy-itsy",
-   "misiunile-itsy-bitsy-pasarile-zozo-itsy",
-   "misiunile-itsy-bitsy-falsii-itsy-si-bitsy-itsy",
-   "misiunile-itsy-bitsy-noul-prieten-itsy",
-   "misiunile-itsy-bitsy-monstrul-de-pe-planeta-dedazon-itsy",
-   "misiunile-itsy-bitsy-misterul-nebuloasei-torax-itsy",
-   "misiunile-itsy-bitsy-oul-itsy",
-   "misiunile-itsy-bitsy-planeta-purpuzon-itsy",
-   "misiunile-itsy-bitsy-rivartezul-itsy",
-   "misiunile-itsy-bitsy-in-cautarea-flexinului-itsy",
-   "misiunile-itsy-bitsy-ganditorii-si-luptatorii-itsy",
-   "misiunile-itsy-bitsy-minciuna-itsy",
-   "misiunile-itsy-bitsy-zimihahaha-itsy",
-   "misiunile-itsy-bitsy-zaviarde-itsy",
-   "misiunile-itsy-bitsy-zborul-itsy",
-   "misiunile-itsy-bitsy-planeta-nisipurilor-itsy",
-   "misiunile-itsy-bitsy-in-jurul-focului-itsy",
-   "misiunile-itsy-bitsy-robotalionul-invincibil-itsy",
-   "misiunile-itsy-bitsy-frunza-ri-si-cristalul-ka-itsy",
-   "misiunile-itsy-bitsy-hentzel-si-gretzel-itsy",
-   "misiunile-itsy-bitsy-praful-ev-itsy",
-   "misiunile-itsy-bitsy-cartizoanele-itsy",
-   "misiunile-itsy-bitsy-cele-12-balize-itsy",
-   "misiunile-itsy-bitsy-oglinzile-itsy",
-   "misiunile-itsy-bitsy-planeta-floralia-itsy",
-   "misiunile-itsy-bitsy-cele-trei-planete-itsy",
-   "misiunile-itsy-bitsy-sfera-dorintelor-itsy",
-   "misiunile-itsy-bitsy-cutia-cu-zgomote-itsy",
-   "misiunile-itsy-bitsy-dezertarea-itsy",
-   "misiunile-itsy-bitsy-visele-itsy",
-   "misiunile-itsy-bitsy-coliziunea-itsy",
-   "misiunile-itsy-bitsy-cutia-cu-pui-de-soare-itsy",
-   "misiunile-itsy-bitsy-in-mintea-lui-zimitot-itsy",
-   "misiunile-itsy-bitsy-lama-fata-lui-lamar-itsy",
-   "misiunile-itsy-bitsy-corpul-meteoric-itsy"
-  ],
-  "description": {
-   "ro": "Serial radiofonic modern de aventuri pe roluri, cu efecte sonore și umor, realizat de Itsy Bitsy FM.",
-   "en": "Modern acted children’s sci-fi and adventure radio series produced by Itsy Bitsy FM."
-  }
- },
- {
-  "id": "seria-leon-magdan-povestea-de-seara",
-  "title": "Povești Leon Magdan & Itsy Bitsy FM",
-  "type": "series",
-  "sourceId": "yt-itsy-bitsy",
-  "url": "https://www.youtube.com/@ItsyBitsyFM",
-  "items": [
-   "povestea-mamei-itsy",
-   "ai-grija-ce-iti-doresti-itsy",
-   "povestea-celor-trei-copacei-itsy",
-   "o-familie-fericita-itsy",
-   "povestea-leului-itsy",
-   "marele-spectacol-itsy",
-   "marcel-avea-un-vis-itsy",
-   "zglobiut-itsy",
-   "oita-pufosica-itsy",
-   "incurcatura-itsy",
-   "povestea-teposului-itsy",
-   "tapul-si-cocosul-itsy",
-   "gradina-botanica-itsy",
-   "iepurasul-care-nu-spune-niciodata-multumesc-itsy",
-   "copiii-coloreaza-viata-itsy",
-   "maimutica-miky-itsy",
-   "ziua-sporturilor-itsy"
-  ],
-  "description": {
-   "ro": "Povești scurte de seară scrise și narate cu tâlc de Leon Magdan, alături de poveștile muzicale din emisiunile Itsy Bitsy FM.",
-   "en": "Short evening tales written and told by Leon Magdan together with story broadcasts from Itsy Bitsy FM."
-  }
- },
- {
-  "id": "seria-hanul-ancutei-1968",
-  "title": "Hanul Ancuței (Teatrul Național Radiofonic, 1968)",
-  "type": "series",
-  "sourceId": "eteatru",
-  "url": "https://eteatru.ro/spectacole/hanul-ancutei-id456.html",
-  "items": [
-   "hanul-ancutei-ep-1-1968",
-   "hanul-ancutei-ep-2-1968",
-   "hanul-ancutei-ep-3-1968",
-   "hanul-ancutei-ep-4-1968",
-   "hanul-ancutei-ep-5-1968",
-   "hanul-ancutei-ep-6-1968"
-  ],
-  "description": {
-   "ro": "Serialul radiofonic în 6 episoade după Mihail Sadoveanu, în regia Elenei Negreanu, cu Toma Caragiu, Amza Pellea, George Calboreanu și Costache Antoniu.",
-   "en": "Six-episode 1968 radio adaptation of Mihail Sadoveanu’s stories, directed by Elena Negreanu with an all-star Romanian cast."
-  }
- },
- {
-  "id": "seria-elena-pop-nbc-1962-1965",
-  "title": "Elena Pop – Eu eram zâna și alte povești de seară (1962–1965)",
-  "type": "series",
-  "sourceId": "radio-arhive",
-  "url": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
-  "items": [
-   "eu-eram-zana-radio-1964",
-   "poveste-cu-un-copacel-radio-1963",
-   "patania-puisorului-radio-1962",
-   "povestea-liliacului-radio-1962",
-   "prietenii-fetitei-radio-1965",
-   "clatitele-radio-1963",
-   "copiii-in-crang-radio-1962",
-   "noaptea-la-panda-radio-1964",
-   "o-viorea-la-polul-nord-radio-1963"
-  ],
-  "description": {
-   "ro": "Nouă povestiri citite seara la radio de actrița Elena Pop în emisiunea „Noapte bună, copii!” între 1962 și 1965, din Fonoteca de Aur Radio România.",
-   "en": "Nine bedtime stories read by actress Elena Pop on “Noapte bună, copii!” between 1962 and 1965, from Radio România’s Golden Archive."
-  }
- },
- {
-  "id": "seria-aventurile-lui-gritty",
-  "title": "Aventurile lui Gritty (A Fost Odată)",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/category/gritty/",
-  "items": [
-   "gritty-caracterul-afostodata",
-   "gritty-tenacitatea-afostodata",
-   "gritty-autocontrolul-afostodata",
-   "gritty-inteligenta-sociala-afostodata",
-   "gritty-optimismul-afostodata"
-  ],
-  "description": {
-   "ro": "Seria în 5 episoade cu micul extraterestru Gritty, despre caracter, tenacitate, autocontrol, prietenie și optimism.",
-   "en": "A five-episode children’s audio series following little alien Gritty as he learns about character, perseverance, self-control, empathy and optimism."
-  }
- },
- {
-  "id": "seria-expeditia-belgica",
-  "title": "Expediția Belgica (A Fost Odată)",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/category/belgica/",
-  "items": [
-   "belgica-corabia-afostodata",
-   "belgica-echipajul-afostodata",
-   "belgica-calatoria-afostodata",
-   "belgica-descoperirile-afostodata"
-  ],
-  "description": {
-   "ro": "Patru episoade despre expediția antarctică a corăbiei Belgica (1897–1899) și rolul naturalistului român Emil Racoviță.",
-   "en": "Four audio episodes retelling the 1897–1899 Belgica Antarctic expedition and Romanian naturalist Emil Racoviță’s discoveries."
-  }
- },
- {
-  "id": "seria-regele-poftila-si-gradina",
-  "title": "Povești din Bombonezia și grădina curcubeu (A Fost Odată)",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/",
-  "items": [
-   "regele-poftila-si-podul-de-sfoara-afostodata",
-   "printesa-verdeata-si-gradina-curcubeu-afostodata",
-   "curcubeul-pofticios-afostodata",
-   "calatoria-lui-picurel-cel-voinicel-afostodata",
-   "fermierul-harnic-si-samanta-cu-puteri-magice-afostodata"
-  ],
-  "description": {
-   "ro": "Cinci povești jucăușe cu Regele Poftilă, Prințesa Verdeață, Picurel cel Voinicel și Fermierul Harnic, despre apă, legume, fructe și obiceiuri sănătoase.",
-   "en": "Five playful children’s stories about water, colourful gardens and healthy habits."
-  }
- },
- {
-  "id": "seria-harap-alb-puck",
-  "title": "Povestea lui Harap-Alb (Teatrul „Puck”, 8 părți)",
-  "type": "series",
-  "sourceId": "teatrul-puck",
-  "url": "https://teatrulpuck.ro/audiopuck-2/",
-  "items": [
-   "harap-alb-partea-1-puck",
-   "harap-alb-partea-2-puck",
-   "harap-alb-partea-3-puck",
-   "harap-alb-partea-4-puck",
-   "harap-alb-partea-5-puck",
-   "harap-alb-partea-6-puck",
-   "harap-alb-partea-7-puck",
-   "harap-alb-partea-8-puck"
-  ],
-  "description": {
-   "ro": "Basmul integral al lui Ion Creangă în 8 părți, în lectura actriței Adina Ungur și cu ilustrația muzicală a lui Attila Nagy (AudioPuck, 2020).",
-   "en": "Ion Creangă’s complete fairy tale in 8 parts, read by actress Adina Ungur with musical accompaniment by Attila Nagy (AudioPuck, 2020)."
-  }
- },
- {
-  "id": "seria-un-colind-de-craciun-puck",
-  "title": "Un colind de Crăciun (Teatrul „Puck”, 6 părți)",
-  "type": "series",
-  "sourceId": "teatrul-puck",
-  "url": "https://teatrulpuck.ro/audiopuck-2/",
-  "items": [
-   "un-colind-de-craciun-partea-1-puck",
-   "un-colind-de-craciun-partea-2-puck",
-   "un-colind-de-craciun-partea-3-puck",
-   "un-colind-de-craciun-partea-4-puck",
-   "un-colind-de-craciun-partea-5-puck",
-   "un-colind-de-craciun-partea-6-puck"
-  ],
-  "description": {
-   "ro": "Romanul lui Charles Dickens în 6 părți, în lectura actriței Dana Bonțidean și cu ilustrația muzicală a lui Attila Nagy (AudioPuck, 2020).",
-   "en": "Charles Dickens’s Christmas classic in 6 parts, read by actress Dana Bonțidean with musical accompaniment by Attila Nagy (AudioPuck, 2020)."
-  }
- },
- {
-  "id": "seria-trilogia-creanga-gong",
-  "title": "Trilogia Creangă – Teatrul „Gong” Sibiu",
-  "type": "series",
-  "sourceId": "teatrul-gong",
-  "url": "https://teatrulgong.ro/trilogia-creanga-teatru-radiofonic",
-  "items": [
-   "fata-babei-si-fata-mosneagului-gong-radio",
-   "punguta-cu-doi-bani-gong-radio",
-   "ursul-pacalit-de-vulpe-gong-radio"
-  ],
-  "description": {
-   "ro": "Trei spectacole de teatru radiofonic după Ion Creangă în regia Évei Lábadi-Megyes, interpretate de actorii Teatrului „Gong” din Sibiu (2020).",
-   "en": "Three full-cast radio plays adapted from Ion Creangă, directed by Éva Lábadi-Megyes and performed by the actors of the “Gong” Theatre in Sibiu (2020)."
-  }
- },
- {
-  "id": "seria-trilogia-ispirescu-gong",
-  "title": "Trilogia Petre Ispirescu – Teatrul „Gong” Sibiu",
-  "type": "series",
-  "sourceId": "teatrul-gong",
-  "url": "https://teatrulgong.ro/trilogia-petre-ispirescu",
-  "items": [
-   "tapul-si-sarpele-gong-radio",
-   "lupul-parcalab-gong-radio",
-   "fata-saracului-cea-isteata-gong-radio"
-  ],
-  "description": {
-   "ro": "Trei spectacole de teatru radiofonic după basmele lui Petre Ispirescu, în regia Évei Lábadi-Megyes (Teatrul „Gong” Sibiu, 2021).",
-   "en": "Three full-cast radio plays adapted from Petre Ispirescu’s tales, directed by Éva Lábadi-Megyes (“Gong” Theatre Sibiu, 2021)."
-  }
- },
- {
-  "id": "seria-povesti-de-iarna-marian-ralea-gong",
-  "title": "Povești de iarnă cu Marian Râlea (Teatrul „Gong”)",
-  "type": "series",
-  "sourceId": "teatrul-gong",
-  "url": "https://www.youtube.com/playlist?list=PLB9hVa5j9oNvUfeOvz-WGnlBZJVh7QcDn",
-  "items": [
-   "povestea-sfantului-nicolae-marian-ralea-gong",
-   "povestea-celei-mai-frumoase-pasari-din-lume-marian-ralea-gong",
-   "povestea-bradutului-marian-ralea-gong",
-   "povestea-icoanei-marian-ralea-gong",
-   "povestea-nasterii-domnului-marian-ralea-gong"
-  ],
-  "description": {
-   "ro": "Cinci povești de iarnă și Crăciun spuse de actorul Marian Râlea pentru Teatrul „Gong” din Sibiu (2020).",
-   "en": "Five winter and Christmas stories told by actor Marian Râlea for the “Gong” Theatre in Sibiu (2020)."
-  }
- },
- {
-  "id": "seria-meniul-cu-povesti-soptite-gong",
-  "title": "Meniul cu povești șoptite (Teatrul „Gong” Sibiu)",
-  "type": "series",
-  "sourceId": "teatrul-gong",
-  "url": "https://teatrulgong.ro/meniul-cu-povesti-soptite",
-  "items": [
-   "pazitoarea-de-gaste-gong-soptite",
-   "cei-trei-purcelusi-gong-soptite",
-   "furtuna-lamb-gong-soptite",
-   "gasca-de-aur-gong-soptite",
-   "tinerete-fara-batranete-gong-soptite",
-   "acul-si-barosul-gong-soptite",
-   "pescarul-si-sotia-gong-soptite",
-   "palatul-de-clestar-gong-soptite",
-   "domnita-si-bobul-de-mazare-gong-soptite",
-   "vrabia-cu-limba-taiata-gong-soptite",
-   "zana-muntilor-gong-soptite",
-   "printul-fericit-gong-soptite",
-   "lupul-si-cei-sapte-iezi-gong-soptite",
-   "supa-de-pietricele-gong-soptite",
-   "regina-albinelor-gong-soptite",
-   "cum-s-a-ingustat-gatul-balenei-gong-soptite",
-   "omul-de-flori-cu-barba-de-matase-gong-soptite",
-   "peter-pan-gong-soptite",
-   "frumoasa-si-bestia-gong-soptite",
-   "spaima-zmeilor-gong-soptite",
-   "prostia-omeneasca-gong-soptite",
-   "cinci-paini-gong-soptite",
-   "hainele-imparatului-gong-soptite",
-   "fat-frumos-cu-mot-in-frunte-gong-soptite",
-   "pacala-creanga-gong-soptite",
-   "stan-bolovan-gong-soptite",
-   "lampa-lui-aladin-gong-soptite",
-   "jack-si-vrejul-de-fasole-gong-soptite",
-   "povestea-iepurasului-peter-gong-soptite",
-   "povestea-porcului-gong-soptite",
-   "banutul-de-argint-gong-soptite",
-   "lebedele-gong-soptite",
-   "in-tara-lui-mura-n-gura-gong-soptite",
-   "alba-ca-zapada-si-rosie-ca-trandafirul-gong-soptite",
-   "mica-sirena-gong-soptite",
-   "omul-de-zapada-andersen-gong-soptite",
-   "ridichea-uriasa-gong-soptite",
-   "degetica-gong-soptite",
-   "iepurele-de-catifea-gong-soptite",
-   "cartea-junglei-gong-soptite",
-   "bunica-gong-soptite",
-   "doi-feti-cu-stea-in-frunte-gong-soptite",
-   "muzicantii-din-bremen-gong-soptite",
-   "imparatul-cioc-de-sturz-gong-soptite",
-   "doctorul-stie-tot-gong-soptite",
-   "fat-frumos-din-lacrima-gong-soptite",
-   "omul-de-piatra-gong-soptite",
-   "aleodor-imparat-gong-soptite",
-   "flautistul-din-hamelin-gong-soptite",
-   "punguta-cu-doi-bani-gong-soptite",
-   "soacra-cu-trei-nurori-gong-soptite",
-   "cei-sapte-corbi-gong-soptite",
-   "alba-ca-zapada-gong-soptite",
-   "matusica-holle-gong-soptite",
-   "capra-cu-trei-iezi-gong-soptite",
-   "iepurele-si-ariciul-gong-soptite",
-   "cenusareasa-gong-soptite",
-   "fratior-si-surioara-gong-soptite",
-   "ratusca-cea-urata-gong-soptite",
-   "ali-baba-si-cei-40-de-hoti-gong-soptite",
-   "scufita-rosie-gong-soptite",
-   "soldatul-de-plumb-gong-soptite",
-   "povestea-unui-om-lenes-gong-soptite",
-   "sarea-in-bucate-gong-soptite",
-   "motanul-incaltat-gong-soptite",
-   "uriasul-cel-egoist-gong-soptite",
-   "zana-zanelor-gong-soptite",
-   "cele-sase-rodii-aurite-gong-soptite"
-  ],
-  "description": {
-   "ro": "Selecție de 68 de basme și povești clasice din literatura română și universală, citite de actorii Teatrului „Gong” din Sibiu.",
-   "en": "A curated selection of 68 classic Romanian and world fairy tales read aloud by actors of the “Gong” Theatre in Sibiu."
-  }
- },
- {
-  "id": "seria-povesti-cu-bubu",
-  "title": "Povești cu Bubu (Opera Comică pentru Copii)",
-  "type": "series",
-  "sourceId": "yt-opera-comica",
-  "url": "https://www.youtube.com/playlist?list=OLAK5uy_mRDFJltctbi1ZRRZNdErKjE3yTo9rgDR8",
-  "items": [
-   "poveste-bubu-la-mare-opera-comica",
-   "poveste-bubu-la-zoo-opera-comica",
-   "poveste-bubu-la-zoo-partea-2-opera-comica",
-   "poveste-bubu-si-fulgii-de-nea-opera-comica",
-   "poveste-bubu-si-anotimpurile-opera-comica",
-   "poveste-bubu-simfonie-in-farfurie-opera-comica"
-  ],
-  "description": {
-   "ro": "Șase povești muzicale scurte ale Operei Comice pentru Copii din București, create special pentru cei mai mici ascultători (1–4 ani).",
-   "en": "Six short musical audio stories by the Bucharest Comic Opera for Children, created especially for toddlers and young children (ages 1–4)."
-  }
- },
- {
-  "id": "seria-tic-colectia-pentru-nazdravani",
-  "title": "Colecția pentru năzdrăvani (Teatrul Ion Creangă)",
-  "type": "series",
-  "sourceId": "yt-teatrul-ion-creanga",
-  "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFIDJOqNFFqOjfSJbGc4y5Xr",
-  "items": [
-   "fetita-cu-lalele-in-par-tic",
-   "te-iubesc-in-fiecare-clipa-tic",
-   "spiridusul-mura-si-mierla-din-miezul-iernii-tic",
-   "micul-pulover-rosu-tic",
-   "pernuta-speriata-si-teribila-noapte-cu-luna-plina-tic",
-   "pernuta-speriata-si-teribila-cutie-cu-viteze-si-bulbuci-tic",
-   "pernuta-speriata-si-teribila-viata-a-unei-jucarii-tic",
-   "povestea-unui-brotacel-tic",
-   "cum-a-invatat-soricila-valoarea-prieteniei-tic",
-   "doamna-pufin-cea-mai-buna-arhitecta-tic",
-   "nu-mi-e-frica-de-intuneric-tic",
-   "ce-dulce-este-impacarea-intre-frati-tic",
-   "muna-si-iepurasul-de-pe-luna-tic",
-   "micutul-oli-si-sfoara-rosiatica-tic",
-   "curaj-ida-tic",
-   "tomita-un-ghemotoc-dupa-un-ghem-tic"
-  ],
-  "description": {
-   "ro": "Șaisprezece povești scurte pe roluri din cărți contemporane pentru copii, interpretate de actorii Teatrului Ion Creangă.",
-   "en": "Sixteen short dramatized stories from contemporary picture books, performed by actors of Bucharest’s Ion Creangă Theatre."
-  }
- },
- {
-  "id": "seria-tic-emotiile-lui-noni",
-  "title": "Emoțiile lui Noni (Teatrul Ion Creangă)",
-  "type": "series",
-  "sourceId": "yt-teatrul-ion-creanga",
-  "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFJPJjILI7A83zVoAsctUj2m",
-  "items": [
-   "emotiile-lui-noni-sunt-fericit-tic",
-   "emotiile-lui-noni-sunt-invidios-tic",
-   "emotiile-lui-noni-sunt-timid-tic",
-   "emotiile-lui-noni-imi-este-frica-tic",
-   "emotiile-lui-noni-sunt-furios-tic",
-   "emotiile-lui-noni-sunt-trist-tic"
-  ],
-  "description": {
-   "ro": "Șase povești scurte cu micul unicorn Noni despre bucurie, furie, teamă, tristețe, timiditate și invidie, citite de Camelia Andriță.",
-   "en": "Six short stories with little unicorn Noni exploring joy, anger, fear, sadness, shyness and envy, read by Camelia Andriță."
-  }
- },
- {
-  "id": "seria-tic-povesti-cu-talc",
-  "title": "Povești cu tâlc pentru cei mici (Teatrul Ion Creangă)",
-  "type": "series",
-  "sourceId": "yt-teatrul-ion-creanga",
-  "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFIJJ-TRqYe49ky2v9W5QVQw",
-  "items": [
-   "fructul-cel-mai-valoros-tic",
-   "legenda-iepurasului-de-paste-tic",
-   "legenda-martisorului-tic",
-   "fata-morarului-tic",
-   "ploaia-de-stele-tic",
-   "stan-bolovan-tic"
-  ],
-  "description": {
-   "ro": "Basme clasice și legende populare spuse pentru cei mici de Alexandrina Halic, Cosmin Seleși și Andreea Gaica.",
-   "en": "Classic fairy tales and folk legends told for young children by Alexandrina Halic, Cosmin Seleși and Andreea Gaica."
-  }
- },
- {
-  "id": "seria-tic-micii-ecologisti",
-  "title": "Colecția pentru micii ecologiști (Teatrul Ion Creangă)",
-  "type": "series",
-  "sourceId": "yt-teatrul-ion-creanga",
-  "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFIhAb0OcmW7Fs-c8aQhwqh5",
-  "items": [
-   "secretul-micilor-gradinari-partea-1-tic",
-   "secretul-micilor-gradinari-partea-2-tic",
-   "barnabe-vindeca-planeta-tic",
-   "ema-si-eric-au-grija-de-natura-tic",
-   "planeta-e-casa-noastra-ema-si-eric-recicleaza-tic"
-  ],
-  "description": {
-   "ro": "Povești despre grădinărit, reciclare și grija față de natură din seria „Colecția pentru micii ecologiști” a Teatrului Ion Creangă.",
-   "en": "Stories about gardening, recycling and caring for the planet from the Ion Creangă Theatre’s eco-friendly series."
-  }
- },
- {
-  "id": "seria-tic-povesti-pentru-vacanta-de-vara",
-  "title": "Povești pentru vacanța de vară (Teatrul Ion Creangă)",
-  "type": "series",
-  "sourceId": "yt-teatrul-ion-creanga",
-  "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFL4BBcY_wVD6OrcOJl-AFE7",
-  "items": [
-   "domnul-walker-si-stirile-senzationale-tic",
-   "cum-sa-prinzi-curaj-tic",
-   "a-fi-sau-a-nu-fi-raton-tic",
-   "peter-pan-tic"
-  ],
-  "description": {
-   "ro": "Patru povești vesele de vacanță citite pe două voci de actorii Teatrului Ion Creangă.",
-   "en": "Four lively summer-holiday stories read by pairs of actors from Bucharest’s Ion Creangă Theatre."
-  }
- },
- {
-  "id": "seria-tic-acasa-la-mos-craciun",
-  "title": "Acasă la Moș Crăciun (Teatrul Ion Creangă)",
-  "type": "series",
-  "sourceId": "yt-teatrul-ion-creanga",
-  "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFLOHSO7XAzCOATqrcWb4pOh",
-  "items": [
-   "acasa-la-mos-craciun-ep1-tic",
-   "acasa-la-mos-craciun-ep2-tic",
-   "acasa-la-mos-craciun-ep3-tic",
-   "acasa-la-mos-craciun-ep4-tic"
-  ],
-  "description": {
-   "ro": "Miniserie de patru episoade din atelierul lui Moș Crăciun din Laponia, în ordinea pregătirilor pentru noaptea de Ajun.",
-   "en": "A four-episode Christmas mini-series from Santa’s workshop in Lapland, following preparations for Christmas Eve."
-  }
- },
- {
-  "id": "seria-tic-aventurile-lui-chit-si-ront",
-  "title": "Aventurile lui Chiț și Ronț (Teatrul Ion Creangă)",
-  "type": "series",
-  "sourceId": "yt-teatrul-ion-creanga",
-  "url": "https://www.youtube.com/playlist?list=PLJbeIW93zIFKWnLz3mXWFz2EkJzqqwsRC",
-  "items": [
-   "chit-si-ront-temerarii-clatitelor-tic",
-   "chit-si-ront-luna-de-branza-tic",
-   "chit-si-ront-naufragiu-cu-peripetii-tic"
-  ],
-  "description": {
-   "ro": "Trei aventuri amuzante cu șoriceii Chiț și Ronț, povestite de Ilinca Atanasiu și Cosmin Seleși.",
-   "en": "Three comic adventures with little mice Chiț and Ronț, performed by Ilinca Atanasiu and Cosmin Seleși."
-  }
- }
 ]

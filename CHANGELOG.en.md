@@ -2,6 +2,23 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.9.0] - 2026-11-23
+
+### Added
+- **New stories:** individual tracks from Electrecord records (*Păsările de lut*, *Întoarcerea cerbilor*, *Oglinda năzdrăvană*, *Alma*, *Voinicul Bob de Grâu*, *Marele duel Volta–Galvani*, *Iarnă ca-n poveste*, *O pățanie cu un toc*, *Guturaiul*, *Câtă muncă adunată!*, *Cri-Cri*, *Rodica Lăcomica*, *O întâmplare în pădure*, *Toomai și elefanții* and the Brothers Grimm's *Fata moșului cea cuminte și harnică*), replacing long files that concatenated several stories.
+- Reader credits for **A Fost Odată** (~170 recordings), full casts for multi-part **eTeatru** productions (*Cărțile de lut*, *Tabloul cel viu*, *Ileana Cosânzeana și Ionică Făt-Frumos*, *Andilandi*), and missing authors, directors and adapters across sources.
+
+### Changed
+- Recordings that bundled several stories on one tape (*Recitindu-l pe Creangă*, *Poveștile Șeherezadei*, *Povești despre Iisus*, *Ciocănituri în fereastră și O veveriță care zboară*) are now split by story, and the player shows and plays only the chosen story's span.
+- The 11 bedtime stories read by **Elena Pop** from the *Radio România Archive* now carry each story's real title, author and recording year (*Cine le va găsi?*, *Cocoșelul Timotei*, *Pricoliciul Alandala*, *Spiridușul*, *Fluturele*, *Fetița din ploaie*, *O poveste de necrezut*, *Ciobul de sticlă*, *Deochiatul*, *Pescarul*, *O faptă bună*).
+- Duplicate stories and duplicate recordings across sources have been merged into single entries with multiple links, and actor, director and author names have been unified.
+
+### Fixed
+- Swapped cast lists between *David Copperfield* (1954) and *Oliver Twist* (1954), and mis-grouped links in *Punguța cu doi bani* (1963 / 2003), *Povestea unui om leneș* and *Amintiri din copilărie* (chapters 1 and 2).
+
+### Removed
+- Three AI-voiced recordings and two amateur recordings that did not meet the catalog rules.
+
 ## [1.8.0] - 2026-11-23
 
 ### Added

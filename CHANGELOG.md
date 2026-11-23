@@ -2,6 +2,23 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.9.0] - 2026-11-23
+
+### Added
+- **Povești noi:** pistele individuale de pe discurile Electrecord (*Păsările de lut*, *Întoarcerea cerbilor*, *Oglinda năzdrăvană*, *Alma*, *Voinicul Bob de Grâu*, *Marele duel Volta–Galvani*, *Iarnă ca-n poveste*, *O pățanie cu un toc*, *Guturaiul*, *Câtă muncă adunată!*, *Cri-Cri*, *Rodica Lăcomica*, *O întâmplare în pădure*, *Toomai și elefanții* și *Fata moșului cea cuminte și harnică* de Frații Grimm), în locul fișierelor lungi în care erau lipite mai multe povești.
+- Cine citește povestea la **A Fost Odată** (~170 de înregistrări), distribuțiile complete pentru spectacolele în mai multe episoade de pe **eTeatru** (*Cărțile de lut*, *Tabloul cel viu*, *Ileana Cosânzeana și Ionică Făt-Frumos*, *Andilandi*), precum și autorii, regizorii și adaptatorii lipsă din fișele surselor.
+
+### Changed
+- Înregistrările care adunau mai multe povești pe aceeași bandă (*Recitindu-l pe Creangă*, *Poveștile Șeherezadei*, *Povești despre Iisus*, *Ciocănituri în fereastră și O veveriță care zboară*) sunt acum împărțite pe fiecare poveste în parte, iar playerul arată și redă doar durata poveștii alese.
+- Cele 11 lecturi de seară ale actriței **Elena Pop** din *Arhiva Radio România* poartă acum titlurile, autorii și anii reali ai fiecărei povești (*Cine le va găsi?*, *Cocoșelul Timotei*, *Pricoliciul Alandala*, *Spiridușul*, *Fluturele*, *Fetița din ploaie*, *O poveste de necrezut*, *Ciobul de sticlă*, *Deochiatul*, *Pescarul*, *O faptă bună*).
+- Poveștile și înregistrările dublate dintre surse au fost reunite într-o singură intrare cu mai multe linkuri, iar numele actorilor, regizorilor și autorilor au fost unificate.
+
+### Fixed
+- Distribuțiile inversate dintre *David Copperfield* (1954) și *Oliver Twist* (1954), precum și linkurile amestecate între *Punguța cu doi bani* (1963 / 2003), *Povestea unui om leneș* și *Amintiri din copilărie* (capitolele 1 și 2).
+
+### Removed
+- Trei înregistrări cu voci sintetice (AI) și două înregistrări de amatori care nu respectau regulile catalogului.
+
 ## [1.8.0] - 2026-11-23
 
 ### Added

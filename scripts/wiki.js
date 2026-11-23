@@ -35,6 +35,7 @@ async function sparql(query) {
 // Names that look right on Wikidata but are someone else, checked by hand ("name": "Wikidata id").
 const WRONG = {
   'Gheorghe Popovici': 'Q12729207', // the 19th-century poet and politician didn't write the modern lullaby in the catalog
+  'Dan Bălan': 'Q314206', // the O-Zone pop singer is not the Radio România musical director
 };
 
 // every name with the roles it has in the catalog (the same split as splitNames() in src/data.js)

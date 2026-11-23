@@ -63,7 +63,10 @@ for (const v of versions) {
   if ('cover' in v && v.cover !== false && (typeof v.cover !== 'string' || !/^https?:\/\//.test(v.cover))) err(`${at}: cover can only be false or an image URL`);
   if (!v.links?.length) err(`${at}: needs at least one link`);
   for (const l of v.links || []) {
-    const key = l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : l.type === 'audio' ? `audio:${l.url}` : `url:${l.url}`;
+    const s = l.start ?? v.start, e = l.end ?? v.end;
+    if (s != null && e != null && e <= s) err(`${at}: end before start`);
+    const span = s != null || e != null ? `#${s || 0}-${e || ''}` : '';
+    const key = (l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : l.type === 'audio' ? `audio:${l.url}` : `url:${l.url}`) + span;
     if (l.type === 'archive' && (!l.id || !l.file)) err(`${at}: archive link needs id and file`);
     if (l.type === 'audio' && (!l.url || !/^https?:\/\//.test(l.url))) err(`${at}: audio link needs url`);
     if (l.type === 'youtube' && !/^[\w-]{11}$/.test(l.id || '')) err(`${at}: bad YouTube id "${l.id}"`);
