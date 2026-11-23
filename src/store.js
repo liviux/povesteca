@@ -3,7 +3,7 @@ import { DICT } from './i18n.js';
 
 // --- tiny global store: everything personal lives in localStorage, nothing leaves the browser
 const KEY = 'povesteca:v1';
-const DEFAULTS = { lang: 'ro', theme: 'clasic', favStories: [], favVersions: [], queue: [], history: [], pos: {}, votes: {}, lastVoteAt: 0, filters: {}, rate: 1 };
+const DEFAULTS = { lang: 'ro', theme: 'clasic', favStories: [], favVersions: [], queue: [], history: [], pos: {}, votes: {}, lastVoteAt: 0, rate: 1 };
 let saved = {};
 try { saved = JSON.parse(localStorage.getItem(KEY)) || {}; } catch {}
 

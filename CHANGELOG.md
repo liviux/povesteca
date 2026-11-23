@@ -2,6 +2,12 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.12.1] - 2026-11-23
+
+### Fixed
+- **Surprinde-mă!** de pe prima pagină alege acum din toate poveștile. Până acum folosea, fără să se vadă, ultimele filtre alese în **Explorează**, așa că dădea des aceleași câteva.
+- Fiecare poveste are aceeași șansă, oricâte înregistrări ar avea, iar una nu se repetă până nu le-a dat pe toate. Cele ascultate deja vin la urmă.
+
 ## [1.12.0] - 2026-11-23
 
 ### Added

@@ -2,6 +2,12 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.12.1] - 2026-11-23
+
+### Fixed
+- **Surprise me!** on the home page now picks from every story. It used to apply, without showing it, the last filters chosen in **Browse**, so it kept landing on the same few.
+- Every story has the same chance, however many recordings it has, and none comes back until all the others have had their turn. Stories you already heard come last.
+
 ## [1.12.0] - 2026-11-23
 
 ### Added

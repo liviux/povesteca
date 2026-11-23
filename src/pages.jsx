@@ -10,9 +10,21 @@ import { Icon, Cover, PlayButton, FavButton, Rating, Traits, VersionCard, StoryC
 
 const title = (txt) => { document.title = txt ? `${txt} · Povesteca` : 'Povesteca · povești audio pentru copii'; };
 
+// Every story has the same chance, however many recordings it has. No story comes back until all the
+// others in the list have had their turn, and stories in the history come last.
+const surprised = new Set();
 function surprise(list) {
-  const v = shuffle(list.length ? list : versions)[0];
-  if (!v) return;
+  const pool = list.length ? list : versions;
+  const ids = [...new Set(pool.map((v) => v.storyId))];
+  const heard = new Set(state.history.map((h) => versionById.get(h.id)?.storyId));
+  const now = versionById.get(state.player.id)?.storyId;
+  let fresh = ids.filter((id) => !surprised.has(id) && !heard.has(id));
+  if (!fresh.length) fresh = ids.filter((id) => !surprised.has(id));
+  if (!fresh.length) { ids.forEach((id) => surprised.delete(id)); fresh = ids.filter((id) => id !== now); }
+  const sid = shuffle(fresh.length ? fresh : ids)[0];
+  if (!sid) return;
+  surprised.add(sid);
+  const v = shuffle(pool.filter((x) => x.storyId === sid))[0];
   play(v.id);
   navigate(`/inregistrare/${v.id}`);
 }
@@ -70,7 +82,7 @@ export function Home() {
           <div class="hero-box">
             <SearchForm />
             <div class="hero-actions">
-              <button type="button" class="btn accent" onClick={() => surprise(applyFilters(versions, s.filters))}><Icon n="shuffle" />{t.surprise}</button>
+              <button type="button" class="btn accent" onClick={() => surprise(versions)}><Icon n="shuffle" />{t.surprise}</button>
               <a class="btn ghost" href="/explorare"><Icon n="filter" />{t.explore}</a>
               <button type="button" class="btn ghost" onClick={() => set({ player: { ...state.player, night: true } })}><Icon n="moon" />{t.night}</button>
             </div>
@@ -178,7 +190,7 @@ export function Explore({ query }) {
   const [limit, setLimit] = useState(PAGE_SIZE);
   const rel = useMemo(() => search(q), [q]);
   const sort = p.get('sort') || (rel ? 'relevanta' : 'aleator');
-  useEffect(() => { title(t.explore); set({ filters: f }); setLimit(PAGE_SIZE); }, [query]);
+  useEffect(() => { title(t.explore); setLimit(PAGE_SIZE); }, [query]);
 
   const update = (k, v) => {
     const n = new URLSearchParams(query);

@@ -45,7 +45,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 - **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, personaj, distribuție și regie (cine citește, cine joacă, cine regizează), sursă și disc sau colecție, apoi ordonezi rezultatele. În listele lungi, cum e cea de autori, scrii câteva litere și rămân doar numele potrivite. Rezultatele arată întâi poveștile, apoi înregistrările lor; poți alege să vezi doar una dintre ele. La prima deschidere apar la întâmplare, în altă ordine la fiecare vizită.
 - **Pagină pentru fiecare autor**: apasă pe numele autorului pe pagina poveștii sau a înregistrării ca să îi vezi toate poveștile.
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas. Viteza se schimbă de la 0,5× la 2×.
-- **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.
+- **„Surprinde-mă!”** alege o poveste la întâmplare și nu o repetă până nu le-a dat pe toate. În Explorează alege doar dintre rezultatele filtrelor tale.
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
 - **Ale mele**: favorite, lista „De ascultat” și istoricul.
 - **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
@@ -69,7 +69,7 @@ Când o înregistrare are mai multe linkuri, alegi din player pe care îl ascul�
 
 ## Ce date se păstrează
 
-- Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, filtrele, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
+- Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
 - Nu există conturi, cookie-uri proprii sau statistici de trafic.
 - Pagina încarcă fonturile de la Google Fonts, copertele, sunetul și playerul video de la Internet Archive și YouTube, iar fotografiile oamenilor de la Wikimedia Commons.
