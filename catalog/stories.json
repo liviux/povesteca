@@ -26717,8 +26717,8 @@
    "Frățiorul"
   ],
   "summary": {
-   "ro": "Irina, o fetiță de șapte ani care adună scoici pe malul mării, plânge într-o seară pentru că familia ei e săracă, frățiorul e bolnav și nu au bani de doctor. O scoică îi duce lacrima înțeleptului mării, iar vietățile îi dăruiesc fetiței cântecul mării, cu care își va întreține familia și își va face fericită casa.",
-   "en": "Irina, a seven-year-old girl who collects shells by the sea, cries one evening because her family is poor, her little brother is ill and there is no money for a doctor. A shell carries her tear to the wise man of the sea, and the sea creatures give the girl the song of the sea, which will support her family and bring joy to their home."
+   "ro": "Irina, o fetiță de șase-șapte ani care adună scoici pe malul mării, plânge într-o seară pentru că familia ei e săracă, frățiorul e bolnav și nu au bani de doctor. O scoică îi duce lacrima înțeleptului mării, iar vietățile îi dăruiesc fetiței cântecul mării, cu care își va întreține familia și își va face fericită casa.",
+   "en": "Irina, a six- or seven-year-old girl who collects shells by the sea, cries one evening because her family is poor, her little brother is ill and there is no money for a doctor. A shell carries her tear to the wise man of the sea, and the sea creatures give the girl the song of the sea, which will support her family and bring joy to their home."
   }
  },
  {
@@ -26735,12 +26735,19 @@
    "natura"
   ],
   "characters": [
-   "Păsările"
+   "Bunicul",
+   "Copila",
+   "Căprioara",
+   "Puiul de căprioară",
+   "Chibrit"
   ],
   "summary": {
-   "ro": "În zilele geroase de iarnă, păsărelele se adună la hrănitoare, iar povestea îi învață pe cei mici grija și bunătatea față de micile vietăți.",
-   "en": "On freezing winter days, birds gather around a feeder in a warm story teaching children kindness and care for little creatures."
-  }
+   "ro": "O fetiță își petrece vacanța de dinaintea școlii la cantonul bunicului său, pădurar. Bunicul construiește hrănitori pentru păsări și animale, iar primăvara o duce pe copilă să vadă căprioara pe care o îngrijise peste iarnă și puiul ei nou-născut, pe care le lasă apoi să plece în pădure.",
+   "en": "A girl spends the holiday before school at her grandfather's cabin in the forest, where he works as a ranger. He builds feeders for the birds and animals, and in spring he takes her to see the doe he nursed through the winter and her newborn fawn, which they then release back into the woods."
+  },
+  "altTitles": [
+   "Scrisoare către toți copii"
+  ]
  },
  {
   "id": "bob-de-grau-heimerl",
@@ -26755,11 +26762,15 @@
    "calatorie"
   ],
   "characters": [
-   "Bobul de grâu"
+   "Bobul de grâu",
+   "Firul de iarbă",
+   "Pământul",
+   "Furnica",
+   "Vrăbiuța"
   ],
   "summary": {
-   "ro": "Călătoria unui mic bob de grâu, din pământul reavăn până la spicul copt în soare, spusă pe roluri pentru cei mici.",
-   "en": "The journey of a tiny grain of wheat from the dark soil to a sunlit golden ear, acted out for young listeners."
+   "ro": "Cinci boabe de grâu cad dintr-o pungă spartă și ajung în lac; unul singur rămâne pe mal, speriat. Firul de iarbă și Pământul îl ocrotesc, iar bobul primește să fie îngropat, cu promisiunea că va rodi un spic din care să hrănească furnica, vrăbiuța și pământul.",
+   "en": "Five grains of wheat fall from a torn bag and roll into the lake; one alone remains on the shore, frightened. A blade of grass and the Earth shelter it, and the grain agrees to be buried, promised that it will grow into an ear to feed the ant, the sparrow and the earth."
   }
  },
  {
@@ -26784,7 +26795,7 @@
    "Balaurul Epsilon"
   ],
   "summary": {
-   "ro": "Întins într-un fân, naratorul ascultă povestea Razei domoale despre Soare și cei trei fii ai săi. Rază Roșie, Rază Galbenă și Rază Argintie se luptă rând pe rând cu balaurul Epsilon, care înghite planete, iar cel mic reușește să-l înfrângă și să devină împărat.",
+   "ro": "Întins pe un fân, naratorul ascultă povestea Razei domoale despre Soare și cei trei fii ai săi. Rază Roșie, Rază Galbenă și Rază Argintie se luptă rând pe rând cu balaurul Epsilon, care înghite planete, iar cel mic reușește să-l înfrângă și să devină împărat.",
    "en": "Lying in a hayfield, the narrator hears the gentle ray tell the story of the Sun and his three sons. Red Ray, Yellow Ray and Silver Ray fight in turn the dragon Epsilon, who swallows planets, and the youngest finally defeats him and becomes emperor."
   },
   "altTitles": [
@@ -26829,8 +26840,8 @@
    "Pescarul"
   ],
   "summary": {
-   "ro": "O întâmplare veselă despre un cocostârc și un pescar, interpretată cu farmec de Iurie Darie în „Cutiuța cu povești”.",
-   "en": "A cheerful short tale about a stork and a fisherman, charmingly performed by Iurie Darie in “Cutiuța cu povești”."
+   "ro": "Un cocostârc și un pescar se ceartă la baltă: pasărea clămpăne din cioc toată ziua și nu prinde nimic, iar pescarul o mustră că are cioc, dar nu are cap și o îndeamnă să pună ciocul la treabă. Cocostârcul ia sfatul în literă și, pe tăcute, își bagă ciocul în coșul cu pește al pescarului.",
+   "en": "A stork and a fisherman quarrel at the pond: the bird clacks its beak all day and catches nothing, and the fisherman scolds it for having a beak but no head and tells it to put its beak to work. The stork takes the advice literally and quietly dips its beak into the fisherman's basket of fish."
   }
  },
  {
@@ -26848,8 +26859,8 @@
    "Gât-Gol"
   ],
   "summary": {
-   "ro": "O povestioară scurtă și jucăușă din lumea curții de păsări, scrisă de Vasile Groza și spusă de Anca Pandrea.",
-   "en": "A playful short barnyard story written by Vasile Groza and performed by Anca Pandrea."
+   "ro": "Un pui cu gâtul gol apare într-o dimineață, cu un picior șchiop și fără poftă de mâncare. Încălzit și adăpat, prinde puteri și, într-o zi, scoate primul lui cântat de cocoșel.",
+   "en": "A bare-necked chick appears one morning, limping and refusing food. Warmed and given water, it regains its strength and one day crows for the first time."
   }
  },
  {
@@ -26921,8 +26932,8 @@
    "bunatate"
   ],
   "summary": {
-   "ro": "O povestioară caldă despre bucuria unui vis împlinit, din albumul „Cutiuța cu povești” cu Anca Pandrea și Iurie Darie.",
-   "en": "A warm short story about a dream come true, from the “Cutiuța cu povești” album with Anca Pandrea and Iurie Darie."
+   "ro": "Un mic locuitor al pădurii, căruia lupul flămând nu-i dă voie, îi fură schiurile și pornește la vale. Cursa se termină cu o bufnă într-un copac, dar visul de a schia i s-a împlinit.",
+   "en": "A small forest dweller, denied permission by the hungry wolf, steals his skis and sets off down the slope. The ride ends with a bump into a tree, but the dream of skiing has come true."
   }
  },
  {
@@ -26979,7 +26990,7 @@
    "umor"
   ],
   "summary": {
-   "ro": "La marginea bălții, un țânțar, o broscuță, o vrăbiuță, o libelulă, un șarpe, un pește și o țestoasă se adună în taină: un pescar avar a înțepat șarpele cu un cârlig. Micile vietăți îl atacă pe pescar din toate părțile până când acesta își strânge coșul și fuge.",
+   "ro": "La marginea bălții, un țânțar, o broscuță, o vrăbiuță, o libelulă, un șarpe, un pește și o țestoasă se adună în taină: un pescar avar a agățat șarpele cu un cârlig. Micile vietăți îl atacă pe pescar din toate părțile până când acesta își strânge coșul și fuge.",
    "en": "At the edge of the pond, a mosquito, a frog, a sparrow, a dragonfly, a snake, a fish and a turtle gather in secret: a greedy fisherman has hooked the snake. The little creatures attack the fisherman from every side until he grabs his basket and runs."
   },
   "characters": [
@@ -27033,7 +27044,8 @@
   "characters": [
    "Cocoșul",
    "Porcul",
-   "Rața"
+   "Rața",
+   "Puii"
   ]
  },
  {
@@ -27065,9 +27077,17 @@
    "umor"
   ],
   "summary": {
-   "ro": "O povestioară veselă despre oaspeții noi din lumea micilor vietăți, interpretată de Iurie Darie.",
-   "en": "A cheerful short tale about newcomers among little creatures, performed by Iurie Darie."
-  }
+   "ro": "O zarvă mare cuprinde pădurea: ursul, vulpea, ciocănitoarea, bursucul, cocoșul și celelalte vietăți își schimbă locurile, speriate de un lup nou sosit. Micile animale se adună și îl înfruntă împreună, iar lupul, înfruntat de ei, pleacă din pădure.",
+   "en": "A great commotion takes over the forest: the bear, the fox, the woodpecker, the badger, the rooster and the other creatures move aside, frightened by a newly arrived wolf. The small animals gather and face him together, and the wolf, challenged by them, leaves the forest."
+  },
+  "characters": [
+   "Lupul",
+   "Ursul",
+   "Vulpea",
+   "Ciocănitoarea",
+   "Bursucul",
+   "Cocoșul"
+  ]
  },
  {
   "id": "pippin-zboara-la-tara",

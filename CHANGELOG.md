@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.15.7] - 2026-11-23
+
+### Fixed
+- Cele 19 povești din „Cutiuța cu povești” au acum rezumate reale, iar înregistrările au regia, muzica și rolurile completate de pe disc; „Fiii Soarelui” are anul corect, 2005.
+
 ## [1.15.6] - 2026-11-23
 
 ### Changed
