@@ -5,7 +5,7 @@ import {
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
-import { play, toggle } from './player.jsx';
+import { play, toggle, savedOffset } from './player.jsx';
 import { Icon, Cover, PlayButton, FavButton, Rating, Traits, VersionCard, StoryCard } from './ui.jsx';
 
 const title = (txt) => { document.title = txt ? `${txt} · Povesteca` : 'Povesteca · povești audio pentru copii'; };
@@ -60,7 +60,7 @@ export function Home() {
   useEffect(() => title(''), []);
   if (!versions.length) return <main id="main" tabindex="-1" class="wrap page"><p class="empty">{t.empty}</p></main>;
 
-  const cont = s.history.map((h) => versionById.get(h.id)).filter((v) => v && (s.pos[v.id] || 0) > 10).slice(0, 10);
+  const cont = s.history.map((h) => versionById.get(h.id)).filter((v) => v && savedOffset(v, s.pos[v.id]) > 10).slice(0, 10);
   const R = s.ratings;
   const rows = [
     ['continue', cont, null],
@@ -92,7 +92,7 @@ export function Home() {
       <div class="wrap shelves">
         {rows.filter(([, list]) => list.length).map(([k, list, more]) => (
           <Shelf id={'sec-' + k} heading={t.sec[k]} more={more}>
-            {list.map((v) => <VersionCard v={v} progress={k === 'continue' ? (s.pos[v.id] || 0) / v.duration : null} />)}
+            {list.map((v) => <VersionCard v={v} progress={k === 'continue' ? Math.min(1, savedOffset(v, s.pos[v.id]) / v.duration) : null} />)}
           </Shelf>
         ))}
         <Shelf id="sec-discover" heading={t.sec.discover}
@@ -419,7 +419,7 @@ export function VersionPage({ id }) {
   const col = collectionOf.get(v.id);
   const c = v.credits || {};
   const est = (k) => v.estimated?.includes(k) && <abbr class="est" title={t.estimated}>≈</abbr>;
-  const pos = s.pos[v.id] || 0;
+  const pos = savedOffset(v, s.pos[v.id]);
   const later = s.queue.includes(v.id);
   const person = (n) => <PersonLink name={n} />;
   const others = (versionsByStory.get(story.id) || []).filter((x) => x.id !== v.id);
@@ -720,7 +720,7 @@ export function Mine() {
   );
   const rec = (list, remove, progress) => list.map((id) => versionById.get(id)).filter(Boolean).map((v) => ({
     key: v.id, title: storyById.get(v.storyId).title, remove: () => remove(v.id),
-    card: <VersionCard v={v} progress={progress ? (s.pos[v.id] || 0) / v.duration : null} />,
+    card: <VersionCard v={v} progress={progress ? Math.min(1, savedOffset(v, s.pos[v.id]) / v.duration) : null} />,
   }));
   const saved = [
     ...s.favStories.map((id) => storyById.get(id)).filter(Boolean).map((x) => ({ key: x.id, title: x.title, remove: () => toggleIn('favStories', x.id), card: <StoryCard s={x} /> })),

@@ -55,6 +55,7 @@ export const ENUMS = {
     scottish: { ro: 'scoțiană', en: 'Scottish' },
     american: { ro: 'americană', en: 'American' },
     russian: { ro: 'rusă', en: 'Russian' },
+    ukrainian: { ro: 'ucraineană', en: 'Ukrainian' },
     swedish: { ro: 'suedeză', en: 'Swedish' },
     finnish: { ro: 'finlandeză', en: 'Finnish' },
     swiss: { ro: 'elvețiană', en: 'Swiss' },

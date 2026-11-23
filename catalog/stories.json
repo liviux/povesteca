@@ -3062,22 +3062,6 @@
   "year": 1872
  },
  {
-  "id": "baba-dochia",
-  "title": "Baba Dochia. Trei legende românești",
-  "author": "folclor românesc",
-  "origin": "romanian",
-  "genre": "legenda",
-  "themes": [
-   "muzica"
-  ],
-  "summary": {
-   "ro": "Legendă din folclorul românesc: „Baba Dochia. Trei legende românești”.",
-   "en": "Romanian audio legend from Romanian tradition: “Baba Dochia. Trei legende românești”."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
   "id": "finul-lui-dumnezeu",
   "title": "Finul lui Dumnezeu",
   "author": "Mihai Eminescu",
@@ -6875,22 +6859,6 @@
   "addedAt": "2026-11-22"
  },
  {
-  "id": "patru-povestiri",
-  "title": "Patru povestiri",
-  "author": "Lev Tolstoi",
-  "origin": "russian",
-  "genre": "poveste",
-  "themes": [
-   "copilarie"
-  ],
-  "summary": {
-   "ro": "Poveste de Lev Tolstoi: „Patru povestiri”.",
-   "en": "Romanian audio tale by Lev Tolstoi: “Patru povestiri”."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
   "id": "riquet-cel-motat",
   "title": "Riquet cel Moțat",
   "author": "Charles Perrault",
@@ -9655,22 +9623,6 @@
   "summary": {
    "ro": "Legendă populară românească despre Crăița și încercările prin care trece.",
    "en": "A Romanian folk legend about Crăița and the trials she faces."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
-  "id": "povestiri-din-provincia-de-altadata",
-  "title": "Povestiri din provincia de altădată",
-  "author": "Ion Agârbiceanu",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "copilarie"
-  ],
-  "summary": {
-   "ro": "Poveste de Ion Agârbiceanu: „Povestiri din provincia de altădată”.",
-   "en": "Romanian audio tale by Ion Agârbiceanu: “Povestiri din provincia de altădată”."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -23074,5 +23026,1429 @@
    "ro": "Hotărât să îi citească personal scrisoarea de Crăciun, Pippin pornește împreună cu rândunica Riri într-o călătorie lungă peste munți și văi până la Moș Crăciun.",
    "en": "Determined to read his Christmas list in person, Pippin sets off with his swallow friend Riri on a long flight across mountains and valleys to find Santa Claus."
   }
+ },
+ {
+  "id": "baba-dochia-fata-de-imparat",
+  "title": "Baba Dochia: Fata de împărat",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "legenda",
+  "themes": [
+   "curaj",
+   "natura",
+   "traditii",
+   "mitologie"
+  ],
+  "characters": [
+   "Baba Dochia",
+   "Dochia"
+  ],
+  "summary": {
+   "ro": "Prima dintre cele trei legende ale Babei Dochia: povestea fetei de împărat care fuge în munți ca să rămână liberă și este prefăcută în stâncă.",
+   "en": "The first of three Baba Dochia legends: an emperor’s daughter flees into the mountains to keep her freedom and is turned to stone."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "baba-dochia-soacra-si-nora",
+  "title": "Baba Dochia: Soacra și nora",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "legenda",
+  "themes": [
+   "familie",
+   "iarna",
+   "dreptate",
+   "traditii"
+  ],
+  "characters": [
+   "Baba Dochia",
+   "Nora"
+  ],
+  "summary": {
+   "ro": "A doua legendă a Babei Dochia, din Bucovina: o soacră neîndurătoare își trimite nora în ger după fragi, apoi urcă pe munte cu oile și cojoacele și îngheață sub viscolul de martie.",
+   "en": "The second Baba Dochia legend, from Bukovina: a harsh mother-in-law sends her daughter-in-law into winter frost for strawberries, then climbs the mountain with her sheep and freezes in March’s storm."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "baba-dochia-lana-alba",
+  "title": "Baba Dochia: Lâna albă",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "legenda",
+  "themes": [
+   "bunatate",
+   "iarna",
+   "dreptate",
+   "traditii"
+  ],
+  "characters": [
+   "Baba Dochia",
+   "Sfântul Petru"
+  ],
+  "summary": {
+   "ro": "A treia legendă a Babei Dochia: o noră trimisă la râu să spele lâna neagră până se albește primește ajutor ceresc, iar Babele de la început de martie îi aduc Babei Dochia osânda.",
+   "en": "The third Baba Dochia legend: a daughter-in-law sent to wash black wool white in an icy river receives divine help, while March’s sudden frost overtakes Baba Dochia."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "un-singur-fiu-tolstoi",
+  "title": "Un singur fiu",
+  "author": "Lev Tolstoi",
+  "origin": "russian",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "bunatate",
+   "intelepciune"
+  ],
+  "characters": [
+   "Moșneagul"
+  ],
+  "summary": {
+   "ro": "Trei mame își laudă băieții la fântână, dar un moșneag recunoaște un singur fiu adevărat: pe cel care își ajută mama să ducă gălețile cu apă.",
+   "en": "Three mothers boast about their sons at a well, yet an old man sees only one true son: the boy who steps up to carry his mother’s heavy water buckets."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ceasca-sparta-tolstoi",
+  "title": "Ceașca spartă",
+  "author": "Lev Tolstoi",
+  "origin": "russian",
+  "genre": "poveste",
+  "themes": [
+   "adevar",
+   "curaj",
+   "familie"
+  ],
+  "characters": [
+   "Băiețelul"
+  ],
+  "summary": {
+   "ro": "Un băiețel sparge din nebăgare de seamă o ceașcă scumpă fără să-l vadă nimeni, dar își face curaj și îi spune tatălui adevărul.",
+   "en": "A little boy accidentally breaks an expensive cup when no one is watching, yet finds the courage to tell his father the truth."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "bunicul-si-nepotul-tolstoi",
+  "title": "Bunicul și nepotul",
+  "author": "Lev Tolstoi",
+  "origin": "russian",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "bunatate",
+   "intelepciune"
+  ],
+  "characters": [
+   "Bunicul",
+   "Mișa"
+  ],
+  "summary": {
+   "ro": "Văzând cum părinții îl dau pe bunicul bătrân la o parte de la masă cu o strachină de lemn, micul Mișa meșterește și el o strachină pentru când vor îmbătrâni ei.",
+   "en": "Seeing his parents push his frail grandfather from the table to eat from a wooden bowl, little Misha begins carving one for when they grow old."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "mosneagul-si-merii-tolstoi",
+  "title": "Moșneagul și merii",
+  "author": "Lev Tolstoi",
+  "origin": "russian",
+  "genre": "poveste",
+  "themes": [
+   "bunatate",
+   "harnicie",
+   "natura",
+   "intelepciune"
+  ],
+  "characters": [
+   "Moșneagul"
+  ],
+  "summary": {
+   "ro": "Un moșneag sădește meri deși știe că nu va mai apuca să mănânce din ei, bucuros că alții vor gusta merele și îi vor mulțumi.",
+   "en": "An old man plants apple trees even though he knows he will not live to eat their fruit, content that others will enjoy them and thank him."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "milionul-agarbiceanu",
+  "title": "Milionul",
+  "author": "Ion Agârbiceanu",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "umor",
+   "prietenie",
+   "adevar"
+  ],
+  "characters": [
+   "Niculae Dragomirescu"
+  ],
+  "summary": {
+   "ro": "Schiță radiofonică după Ion Agârbiceanu: zvonul unui câștig fabulos îi schimbă brusc lui Niculae Dragomirescu privirea asupra cunoscuților dintr-un orășel de provincie.",
+   "en": "A radio sketch adapted from Ion Agârbiceanu: rumors of a sudden fortune change how Niculae Dragomirescu sees his acquaintances in a small provincial town."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cum-ne-inselam-agarbiceanu",
+  "title": "Cum ne înșelăm",
+  "author": "Ion Agârbiceanu",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "umor",
+   "adevar",
+   "invidie"
+  ],
+  "characters": [
+   "Matilda",
+   "Octavia"
+  ],
+  "summary": {
+   "ro": "Comedie scurtă după Ion Agârbiceanu: Matilda și Octavia privesc pe fereastră o doamnă elegantă pe care o bârfesc fără s-o cunoască, stârnind încurcături pline de umor.",
+   "en": "A short comedy adapted from Ion Agârbiceanu: Matilda and Octavia gossip from the window about an elegant passerby they misjudge, sparking comic misunderstandings."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "capitanul-oceanului-stelar",
+  "title": "Căpitanul oceanului stelar",
+  "author": "Ion Golban",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "aventura",
+   "calatorie",
+   "stiinta",
+   "curaj"
+  ],
+  "characters": [
+   "Căpitanul"
+  ],
+  "summary": {
+   "ro": "Piesă radiofonică de aventuri fantastice scrisă de Ion Golban: o călătorie plină de peripeții dincolo de nori, printre stele și lumi necunoscute.",
+   "en": "A science-fiction adventure radio play by Ion Golban following a daring voyage among the stars and unknown worlds."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "facerea-lumii-arghezi",
+  "title": "Facerea Lumii",
+  "author": "Tudor Arghezi",
+  "origin": "romanian",
+  "genre": "legenda",
+  "themes": [
+   "natura",
+   "animale",
+   "intelepciune",
+   "umor"
+  ],
+  "characters": [
+   "Dumnezeu",
+   "Adam",
+   "Eva"
+  ],
+  "summary": {
+   "ro": "Poveștile pline de tâlc și umor blând ale lui Tudor Arghezi despre începuturile lumii, ale viețuitoarelor și ale oamenilor, dramatizate pentru copii.",
+   "en": "Tudor Arghezi’s warm, gently humorous tales of how the world, animals and people came to be, dramatized for young listeners."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "domnita-pastorita",
+  "title": "Domnița Păstoriță",
+  "author": "Claudia Partole",
+  "origin": "romanian",
+  "genre": "basm",
+  "themes": [
+   "bunatate",
+   "curaj",
+   "printese",
+   "natura"
+  ],
+  "characters": [
+   "Domnița Păstoriță"
+  ],
+  "summary": {
+   "ro": "Basm poetic scris de Claudia Partole despre o fată blândă și neînfricată care își apără ținutul cu bunătate, cântec și credință.",
+   "en": "A poetic fairy tale by Claudia Partole about a gentle, fearless shepherdess who protects her land with kindness and song."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "insula-misterioasa",
+  "title": "Insula misterioasă",
+  "author": "Jules Verne",
+  "origin": "french",
+  "genre": "roman",
+  "year": 1874,
+  "themes": [
+   "aventura",
+   "stiinta",
+   "mare",
+   "prietenie",
+   "curaj"
+  ],
+  "characters": [
+   "Cyrus Smith",
+   "Gédéon Spilett",
+   "Harbert",
+   "Pencroff",
+   "Nab",
+   "Căpitanul Nemo"
+  ],
+  "summary": {
+   "ro": "Cinci naufragiați ajunși cu balonul pe o insulă pustie din Pacific își clădesc o viață nouă prin știință și prietenie, în timp ce un binefăcător nevăzut le veghează pașii.",
+   "en": "Five balloon castaways stranded on an uncharted Pacific island rebuild civilization through science and friendship while an unseen benefactor watches over them."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "puiul-de-pom",
+  "title": "Puiul de pom",
+  "author": "Vera Malev",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "copilarie",
+   "bunatate",
+   "prietenie"
+  ],
+  "characters": [
+   "Puiul de pom"
+  ],
+  "summary": {
+   "ro": "Poveste sensibilă de Vera Malev despre un puiet de pom care crește cu grijă și răbdare, descoperind lumea din jur și legătura dintre oameni și natură.",
+   "en": "A tender story by Vera Malev about a young sapling growing with care and patience, discovering the bond between people and nature."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cenusar-voinicul-si-cenusareasa-mireasa",
+  "title": "Cenușar Voinicul și Cenușăreasa Mireasa",
+  "author": "Iulian Filip",
+  "origin": "romanian",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "umor",
+   "curaj",
+   "traditii"
+  ],
+  "characters": [
+   "Cenușar Voinicul",
+   "Cenușăreasa Mireasa"
+  ],
+  "summary": {
+   "ro": "Piesă-basm cu umor popular scrisă de Iulian Filip, în care doi tineri din vatra satului trec prin încercări fantastice ca să-și câștige fericirea.",
+   "en": "A folkloric fairy-tale play with playful humor by Iulian Filip, where two young heroes overcome magical trials together."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "aventurile-lui-tom-sawyer-partea-1",
+  "title": "Aventurile lui Tom Sawyer – Partea I: Câinii urlă a năpastă",
+  "author": "Mark Twain",
+  "origin": "american",
+  "genre": "roman",
+  "year": 1876,
+  "themes": [
+   "aventura",
+   "copilarie",
+   "prietenie",
+   "umor"
+  ],
+  "characters": [
+   "Tom Sawyer",
+   "Huckleberry Finn",
+   "Mătușa Polly",
+   "Becky Thatcher"
+  ],
+  "summary": {
+   "ro": "Prima parte a aventurilor lui Tom Sawyer pe malul fluviului Mississippi: șotiile de la școală, prietenia cu Huck Finn și o noapte plină de mister în cimitir.",
+   "en": "Part one of Tom Sawyer’s adventures along the Mississippi: schoolyard mischief, friendship with Huck Finn, and a mysterious midnight in the graveyard."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "aventurile-lui-tom-sawyer-partea-2",
+  "title": "Aventurile lui Tom Sawyer – Partea a II-a: Piratul brav ce avea să vină",
+  "author": "Mark Twain",
+  "origin": "american",
+  "genre": "roman",
+  "year": 1876,
+  "themes": [
+   "aventura",
+   "copilarie",
+   "prietenie",
+   "pirati"
+  ],
+  "characters": [
+   "Tom Sawyer",
+   "Huckleberry Finn",
+   "Joe Harper"
+  ],
+  "summary": {
+   "ro": "A doua parte a aventurilor lui Tom Sawyer: Tom, Huck și Joe fug pe insula Jackson ca să se facă pirați și se întorc tocmai când satul îi crede pierduți.",
+   "en": "Part two of Tom Sawyer’s adventures: Tom, Huck and Joe run away to Jackson’s Island to become pirates, returning just as the town mourns them."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "aventurile-lui-tom-sawyer-partea-3",
+  "title": "Aventurile lui Tom Sawyer – Partea a III-a: Șuvoiul de aur",
+  "author": "Mark Twain",
+  "origin": "american",
+  "genre": "roman",
+  "year": 1876,
+  "themes": [
+   "aventura",
+   "curaj",
+   "prietenie",
+   "copilarie"
+  ],
+  "characters": [
+   "Tom Sawyer",
+   "Huckleberry Finn",
+   "Becky Thatcher",
+   "Injun Joe"
+  ],
+  "summary": {
+   "ro": "Ultima parte a aventurilor lui Tom Sawyer: rătăcirea prin peștera McDougal, înfruntarea cu Injun Joe și descoperirea comorii ascunse.",
+   "en": "The final part of Tom Sawyer’s adventures: getting lost in McDougal’s Cave, escaping Injun Joe, and uncovering the hidden treasure."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "peppi-ciorap-lung",
+  "title": "Peppi Ciorap-Lung",
+  "altTitles": [
+   "Pippi Șosețica",
+   "Pippi Longstocking"
+  ],
+  "author": "Astrid Lindgren",
+  "origin": "swedish",
+  "genre": "roman",
+  "year": 1945,
+  "themes": [
+   "umor",
+   "copilarie",
+   "prietenie",
+   "aventura"
+  ],
+  "characters": [
+   "Pippi Șosețica",
+   "Tommy",
+   "Annika"
+  ],
+  "summary": {
+   "ro": "Cea mai puternică și năzdrăvană fetiță din lume locuiește singură la Vila Villekulla cu un cal și o maimuțică, umplând zilele vecinilor Tommy și Annika de aventuri și râsete.",
+   "en": "The strongest, most spirited girl in the world lives at Villa Villekulla with a horse and a monkey, filling her neighbors Tommy and Annika’s days with laughter and mischief."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "floarea-iubirii",
+  "title": "Floarea iubirii",
+  "author": "Claudia Partole",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "bunatate",
+   "familie",
+   "natura",
+   "vis"
+  ],
+  "characters": [
+   "Floarea iubirii"
+  ],
+  "summary": {
+   "ro": "Poveste dramatică și luminoasă de Claudia Partole despre puterea dragostei, a speranței și a grijii față de cei apropiați.",
+   "en": "A heartfelt story by Claudia Partole about the power of love, hope and caring for those around us."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "painica-de-la-iepurele-cel-schiop",
+  "title": "Pâinica de la iepurele cel șchiop",
+  "author": "Larisa Turea",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "bunatate",
+   "copilarie",
+   "familie",
+   "traditii"
+  ],
+  "characters": [
+   "Iepurele cel șchiop"
+  ],
+  "summary": {
+   "ro": "Spectacol radiofonic scris de Larisa Turea, pornind de la vechea vorbă părintească despre pâinea rămasă în traistă „de la iepure”, o poveste caldă despre copilărie și bunătate.",
+   "en": "A warm radio play by Larisa Turea inspired by the beloved Moldovan folk motif of the “bread from the hare”, celebrating childhood and generosity."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "mica-vrajitoare",
+  "title": "Mica Vrăjitoare",
+  "author": "Otfried Preußler",
+  "origin": "german",
+  "genre": "roman",
+  "year": 1957,
+  "themes": [
+   "magie",
+   "bunatate",
+   "umor",
+   "prietenie"
+  ],
+  "characters": [
+   "Mica Vrăjitoare",
+   "Abraxas"
+  ],
+  "summary": {
+   "ro": "La numai o sută douăzeci și șapte de ani, Mica Vrăjitoare vrea să dovedească la sabatul de pe muntele Blocksberg că știe să facă vrăji cu adevărat bune — ajutându-i pe oameni, alături de corbul ei Abraxas.",
+   "en": "At just 127 years old, the Little Witch sets out to prove she is a “good witch” by helping people in secret alongside her wise raven Abraxas."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "fata-de-imparat-matcovschi",
+  "title": "Fata de împărat",
+  "author": "Dumitru Matcovschi",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "familie",
+   "vis"
+  ],
+  "characters": [
+   "Dumitrița",
+   "Bunica"
+  ],
+  "summary": {
+   "ro": "Bunica îi spune micuței Dumitrița o poveste senină de seară despre o fată de împărat care se spăla cu rouă și despre farmecul copilăriei la sat.",
+   "en": "A grandmother tells little Dumitrița a quiet bedtime story about a dew-washed princess and the wonder of village childhood."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cuibul-ciocarliei",
+  "title": "Cuibul ciocârliei",
+  "author": "Leo Butnaru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "animale",
+   "bunatate"
+  ],
+  "characters": [
+   "Ciocârlia"
+  ],
+  "summary": {
+   "ro": "Scurtă poveste lirică de seară de Leo Butnaru despre cântecul ciocârliei, grija pentru păsările câmpului și frumusețea naturii.",
+   "en": "A short lyrical bedtime story by Leo Butnaru about a skylark’s nest, caring for wild birds and the quiet beauty of the fields."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cetatea-veche-dabija",
+  "title": "Cetatea veche",
+  "author": "Nicolae Dabija",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "istorie",
+   "traditii",
+   "curaj"
+  ],
+  "summary": {
+   "ro": "Poveste scurtă de Nicolae Dabija despre zidurile unei cetăți străvechi și amintirile păstrate peste veacuri.",
+   "en": "A short bedtime tale by Nicolae Dabija evoking the stones of an ancient fortress and the memories kept through the centuries."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "salba-veveritei",
+  "title": "Salba veveriței",
+  "author": "Mihail Garaz",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "padure",
+   "natura"
+  ],
+  "characters": [
+   "Veverița"
+  ],
+  "summary": {
+   "ro": "Poveste blândă de seară scrisă de Mihail Garaz despre o veveriță isteață și micile ei comori adunate din pădure.",
+   "en": "A gentle bedtime story by Mihail Garaz about a nimble squirrel and the little woodland treasures she gathers."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "creioane-colorate",
+  "title": "Creioane colorate",
+  "author": "Dumitru Matcovschi",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "arte",
+   "vis"
+  ],
+  "summary": {
+   "ro": "Povestire caldă de Dumitru Matcovschi despre cum câteva creioane colorate pot aprinde o lume întreagă pe foaia unui copil.",
+   "en": "A warm tale by Dumitru Matcovschi about how a handful of colored pencils can bring a whole world to life on a child’s page."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ploaie-ciobaneasca",
+  "title": "Ploaie ciobănească",
+  "author": "Dumitru Matcovschi",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "copilarie",
+   "traditii"
+  ],
+  "summary": {
+   "ro": "Poveste de seară de Dumitru Matcovschi despre ploaia caldă de vară, mirosul pământului și bucuria simplă a copilăriei.",
+   "en": "An evening story by Dumitru Matcovschi about warm summer rain, fresh earth and simple childhood joys."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "paine-cu-roua",
+  "title": "Pâine cu rouă",
+  "author": "Grigore Vieru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "harnicie",
+   "copilarie"
+  ],
+  "characters": [
+   "Mama"
+  ],
+  "summary": {
+   "ro": "Poveste senină de Grigore Vieru despre munca blândă a pâinii, dragostea mamei și recunoștința pentru darurile fiecărei zile.",
+   "en": "A gentle bedtime story by Grigore Vieru about bread, a mother’s care and gratitude for everyday blessings."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "toporul-cu-coada-de-paun",
+  "title": "Toporul cu coada de păun",
+  "author": "Grigore Vieru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "harnicie",
+   "intelepciune",
+   "umor"
+  ],
+  "summary": {
+   "ro": "Scurtă poveste cu tâlc de Grigore Vieru despre munca cinstită și lucrurile care își arată valoarea atunci când sunt făcute cu suflet.",
+   "en": "A short parabolic story by Grigore Vieru about honest work and craftsmanship."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "in-casa-noua",
+  "title": "În casa nouă",
+  "author": "Grigore Vieru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "copilarie",
+   "bunatate"
+  ],
+  "summary": {
+   "ro": "Povestire caldă de Grigore Vieru despre bucuria unei familii care își începe viața într-o casă nouă, plină de lumină și povești.",
+   "en": "A warm tale by Grigore Vieru about a family settling into a new home filled with light and affection."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-lui-guguta",
+  "title": "Povestea lui Guguță",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "umor",
+   "iarna",
+   "bunatate"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Întâlnirea cu micul Guguță, băiețelul cu cușmă mare de cârlan din satul Trei Iezi, gata mereu de năzbâtii și fapte bune.",
+   "en": "Meet little Guguță, the spirited village boy in his oversized sheepskin cap, always ready for playful adventures and kind deeds."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "marul-paduret",
+  "title": "Mărul pădureț",
+  "author": "Ion Bejenaru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "bunatate",
+   "padure"
+  ],
+  "characters": [
+   "Mărul pădureț"
+  ],
+  "summary": {
+   "ro": "Poveste scurtă de seară scrisă de Ion Bejenaru despre un măr pădureț care învață să-și prețuiască roadele și locul în pădure.",
+   "en": "A quiet evening tale by Ion Bejenaru about a wild apple tree learning the worth of its fruit and its place in the forest."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-tamplarului",
+  "title": "Povestea tâmplarului",
+  "author": "Ion Bejenaru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "harnicie",
+   "intelepciune",
+   "bunatate"
+  ],
+  "characters": [
+   "Tâmplarul"
+  ],
+  "summary": {
+   "ro": "Poveste de seară de Ion Bejenaru despre un meșter tâmplar priceput ale cărui mâini harnice aduc bucurie oamenilor din sat.",
+   "en": "A bedtime story by Ion Bejenaru about a skilled carpenter whose patient craftsmanship brings joy to his village."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-norocului",
+  "title": "Povestea norocului",
+  "author": "Ion Bejenaru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "harnicie",
+   "intelepciune",
+   "bunatate"
+  ],
+  "summary": {
+   "ro": "Poveste cu tâlc de Ion Bejenaru despre ce înseamnă norocul adevărat și cum vine el alături de hărnicie și inimă bună.",
+   "en": "A gentle moral tale by Ion Bejenaru showing how true good fortune walks hand in hand with diligence and kindness."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "sfredelus",
+  "title": "Sfredeluș",
+  "author": "Ion Bejenaru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "curiozitate",
+   "aventura",
+   "animale"
+  ],
+  "characters": [
+   "Sfredeluș"
+  ],
+  "summary": {
+   "ro": "Poveste în episoade de Ion Bejenaru despre neastâmpăratul Sfredeluș, mereu pornit în căutarea unor întâmplări noi.",
+   "en": "A lively story by Ion Bejenaru following restless little Sfredeluș on his curious woodland adventures."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "modestia-privighetorii",
+  "title": "Modestia privighetorii",
+  "author": "Ion Bejenaru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "muzica",
+   "intelepciune"
+  ],
+  "characters": [
+   "Privighetoarea"
+  ],
+  "summary": {
+   "ro": "Poveste de seară de Ion Bejenaru despre privighetoarea cu pene simple și glas fermecat, care ne amintește că frumusețea adevărată nu se laudă.",
+   "en": "A bedtime tale by Ion Bejenaru about the modest nightingale whose enchanting song proves true beauty needs no boasting."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "vestitorul-primaverii",
+  "title": "Vestitorul primăverii",
+  "author": "Ion Bejenaru",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "curaj",
+   "iarna"
+  ],
+  "summary": {
+   "ro": "Poveste luminoasă de Ion Bejenaru despre primele semne ale primăverii care își fac loc prin zăpada de sfârșit de iarnă.",
+   "en": "A bright story by Ion Bejenaru about the first brave signs of spring pushing through late winter snow."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "pungulita-fermecata",
+  "title": "Pungulița fermecată",
+  "author": "Ion Bejenaru",
+  "origin": "romanian",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "dreptate",
+   "istetime"
+  ],
+  "summary": {
+   "ro": "Basm scurt scris de Ion Bejenaru despre o punguliță cu puteri magice care răsplătește bunătatea și îi dă de gol pe cei lacomi.",
+   "en": "A short fairy tale by Ion Bejenaru about a magic pouch that rewards kindness and exposes greed."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cheita-fermecata",
+  "title": "Cheița fermecată",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "curaj",
+   "istetime"
+  ],
+  "summary": {
+   "ro": "Poveste populară din Basarabia despre o cheiță fermecată care deschide calea spre noroc doar celui cu inimă dreaptă.",
+   "en": "A traditional Moldovan folk tale about a magic key that opens the road to fortune only for the honest-hearted."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "poienita-fermecata",
+  "title": "Poienița fermecată",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "padure",
+   "bunatate"
+  ],
+  "summary": {
+   "ro": "Basm popular despre o poieniță ascunsă în inima pădurii unde bunătatea și curajul sunt puse la încercare.",
+   "en": "A folk fairy tale about a hidden woodland clearing where kindness and courage are put to the test."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "un-musafir-nedorit",
+  "title": "Un musafir nedorit",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "istetime",
+   "umor",
+   "animale"
+  ],
+  "summary": {
+   "ro": "Poveste populară cu haz despre un musafir nepoftit și istețimea cu care gazdele îi vin de hac.",
+   "en": "A humorous folk tale about an unwelcome guest and the clever way his hosts outsmart him."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "pacala-si-tandala-folclor",
+  "title": "Păcală și Tândală",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "umor",
+   "istetime",
+   "traditii"
+  ],
+  "characters": [
+   "Păcală",
+   "Tândală"
+  ],
+  "summary": {
+   "ro": "Întâmplări vesele din folclor cu Păcală și Tândală, cei doi mucaliți care întorc pe dos lăcomia și prostia cu glume istețe.",
+   "en": "Playful folk adventures featuring Păcală and Tândală, the classic Romanian tricksters who turn greed upside down with sharp wit."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ratoiul-tim",
+  "title": "Rățoiul Tim",
+  "author": "folclor românesc",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "curaj",
+   "umor"
+  ],
+  "characters": [
+   "Rățoiul Tim"
+  ],
+  "summary": {
+   "ro": "Scurtă poveste populară de seară despre peripețiile unui rățoi curajos pe nume Tim.",
+   "en": "A short bedtime folk story about the lively escapades of a plucky little duckling named Tim."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "rochita-cotofenei",
+  "title": "Rochița coțofenei",
+  "author": "Aureliu Busuioc",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "umor",
+   "padure"
+  ],
+  "characters": [
+   "Coțofana"
+  ],
+  "summary": {
+   "ro": "Poveste jucăușă de Aureliu Busuioc despre o coțofenă vorbăreață și pățaniile ei cu rochița de gală.",
+   "en": "A playful tale by Aureliu Busuioc about a chatty magpie and the comic mishaps of her fancy dress."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "pestisorul-linut",
+  "title": "Peștișorul Linuț",
+  "author": "Aureliu Busuioc",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "curiozitate",
+   "natura"
+  ],
+  "characters": [
+   "Peștișorul Linuț"
+  ],
+  "summary": {
+   "ro": "Întâmplările unui peștișor lin care trăiește printre stuf și papură și pornește să descopere lumea din afara iazului.",
+   "en": "The adventures of a curious little tench fish living among the reeds who sets out to explore beyond his quiet pond."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cizmele-cocostarcului",
+  "title": "Cizmele cocostârcului",
+  "author": "Aureliu Busuioc",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "umor",
+   "prietenie"
+  ],
+  "characters": [
+   "Cocostârcul"
+  ],
+  "summary": {
+   "ro": "Poveste hazlie de Aureliu Busuioc despre un cocostârc cu picioare lungi și despre cizmele lui roșii.",
+   "en": "A witty story by Aureliu Busuioc about a long-legged stork and his bright red boots."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "calutul-copacul-si-baietelul",
+  "title": "Căluțul, copacul și băiețelul",
+  "author": "Gianni Rodari",
+  "origin": "italian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "vis",
+   "prietenie"
+  ],
+  "characters": [
+   "Băiețelul"
+  ],
+  "summary": {
+   "ro": "Poveste plină de imaginație din universul lui Gianni Rodari despre un băiețel, un copac și un căluț care îl poartă în joacă și vis.",
+   "en": "An imaginative short story by Gianni Rodari about a boy, a tree and a little horse that spark playful daydreams."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "calatoria-lui-giovannino",
+  "title": "Călătoria lui Giovannino",
+  "author": "Gianni Rodari",
+  "origin": "italian",
+  "genre": "poveste",
+  "themes": [
+   "calatorie",
+   "umor",
+   "aventura",
+   "curiozitate"
+  ],
+  "characters": [
+   "Giovannino"
+  ],
+  "summary": {
+   "ro": "Năzdrăvanul Giovannino Hoinarul cutreieră ținuturi fantastice din „Povești la telefon” de Gianni Rodari, descoperind lumi din ciocolată, unt și hârtie.",
+   "en": "Wandering Giovannino Perdigiorno travels through whimsical lands from Gianni Rodari’s “Telephone Tales”, discovering wondrous imaginary countries."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cum-a-fugit-un-nas",
+  "title": "Cum a fugit un nas",
+  "author": "Gianni Rodari",
+  "origin": "italian",
+  "genre": "poveste",
+  "themes": [
+   "umor",
+   "aventura",
+   "curiozitate"
+  ],
+  "summary": {
+   "ro": "O întâmplare plină de umor absurd din „Povești la telefon” de Gianni Rodari: nasul unui domn își ia zborul într-o dimineață și pornește singur pe mare.",
+   "en": "A wonderfully absurd story from Gianni Rodari’s “Telephone Tales” in which a gentleman’s nose runs away one morning and boards a ferry."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "soricelul-care-mananca-pisici",
+  "title": "Șoricelul care mănâncă pisici",
+  "author": "Gianni Rodari",
+  "origin": "italian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "umor",
+   "istetime"
+  ],
+  "characters": [
+   "Șoricelul"
+  ],
+  "summary": {
+   "ro": "Un șoricel de bibliotecă din „Povești la telefon” de Gianni Rodari se laudă că a mâncat pisici — până când dă nas în nas cu una adevărată.",
+   "en": "A bookworm mouse from Gianni Rodari’s “Telephone Tales” boasts of eating cats from picture books—until he meets a real one."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "drumul-de-ciocolata",
+  "title": "Drumul de ciocolată",
+  "author": "Gianni Rodari",
+  "origin": "italian",
+  "genre": "poveste",
+  "themes": [
+   "umor",
+   "copilarie",
+   "vis"
+  ],
+  "summary": {
+   "ro": "Trei frați din „Povești la telefon” de Gianni Rodari găsesc un drum neted făcut chiar din ciocolată și se pun pe ospăț până rămâne doar o surpriză dulce.",
+   "en": "Three brothers from Gianni Rodari’s “Telephone Tales” stumble upon a smooth road paved entirely with chocolate and feast their way down it."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "fratii-fericiti",
+  "title": "Frații fericiți",
+  "author": "Iurii Iarmâș",
+  "origin": "ukrainian",
+  "genre": "poveste",
+  "themes": [
+   "frati",
+   "bunatate",
+   "prietenie"
+  ],
+  "summary": {
+   "ro": "Poveste caldă a scriitorului ucrainean Iurii Iarmâș despre legătura dintre frați și bucuria de a împărți totul cu inimă deschisă.",
+   "en": "A warm tale by Ukrainian children’s author Yurii Yarmysh about brotherly love and the joy of sharing."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "firul-de-pai-si-bobul-de-fasole",
+  "title": "Firul de pai și bobul de fasole",
+  "altTitles": [
+   "Paiul, cărbunele și bobul de fasole"
+  ],
+  "author": "Frații Grimm",
+  "origin": "german",
+  "genre": "basm",
+  "themes": [
+   "umor",
+   "prietenie",
+   "calatorie"
+  ],
+  "characters": [
+   "Paiul",
+   "Cărbunele",
+   "Bobul de fasole"
+  ],
+  "summary": {
+   "ro": "Un pai, un cărbune aprins și un bob de fasole scapă din bucătărie și pleacă împreună în lume, iar de la pățania lor la pârâu au boabele de fasole o dungă neagră.",
+   "en": "A straw, a glowing coal and a bean escape the kitchen to travel together—explaining why every bean carries a neat seam down its side."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "vulpea-si-pisica-grimm",
+  "title": "Vulpea și pisica",
+  "author": "Frații Grimm",
+  "origin": "german",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "istetime",
+   "intelepciune"
+  ],
+  "characters": [
+   "Vulpea",
+   "Pisica"
+  ],
+  "summary": {
+   "ro": "Vulpea se laudă pisicii că știe o sută de șiretlicuri ca să scape de câini, dar când vine vânătorul, pisicii îi ajunge un singur meșteșug: să se cațere în copac.",
+   "en": "The fox boasts to the cat of knowing a hundred tricks to escape the hounds, yet when danger arrives the cat’s single trick—climbing a tree—saves her."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "vulpea-si-gastele-grimm",
+  "title": "Vulpea și gâștele",
+  "author": "Frații Grimm",
+  "origin": "german",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "istetime",
+   "umor"
+  ],
+  "characters": [
+   "Vulpea",
+   "Gâștele"
+  ],
+  "summary": {
+   "ro": "Prinse pe pajiște de o vulpe flămândă, gâștele îi cer îngăduința să-și spună rugăciunea una câte una — și gâgâie fără oprire până scapă cu bine.",
+   "en": "Cornered in a meadow by a hungry fox, a flock of geese ask to say one last prayer in turn—and keep honking without end until they outwit her."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-furnicii-druta",
+  "title": "Povestea furnicii",
+  "author": "Ion Druță",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "harnicie",
+   "natura"
+  ],
+  "characters": [
+   "Furnica"
+  ],
+  "summary": {
+   "ro": "Poveste cunoscută de Ion Druță despre o furnică neobosită care nu se dă bătută în fața greutăților și își duce bobul acasă.",
+   "en": "Ion Druță’s beloved story about a tireless little ant who refuses to give up and brings her grain safely home."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "trofimas-se-duce-la-scoala",
+  "title": "Trofimaș se duce la școală",
+  "author": "Ion Druță",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "umor",
+   "familie"
+  ],
+  "characters": [
+   "Trofimaș"
+  ],
+  "summary": {
+   "ro": "Povestire plină de duioșie și umor de Ion Druță despre emoțiile și năzbâtiile lui Trofimaș în pragul primei zile de școală.",
+   "en": "A tender, humorous story by Ion Druță about young Trofimaș’s excitement and mischief as he gets ready for school."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "bobocel-cu-ale-lui",
+  "title": "Bobocel cu ale lui",
+  "author": "Ion Druță",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "umor",
+   "familie"
+  ],
+  "characters": [
+   "Bobocel"
+  ],
+  "summary": {
+   "ro": "Întâmplările pline de haz ale micului Bobocel din povestirile pentru copii ale lui Ion Druță.",
+   "en": "Playful childhood moments with little Bobocel from Ion Druță’s classic children’s stories."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "inul-si-camasa",
+  "title": "Inul și cămașa",
+  "author": "Ion Creangă",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "harnicie",
+   "traditii",
+   "intelepciune"
+  ],
+  "characters": [
+   "Inul",
+   "Cămașa"
+  ],
+  "summary": {
+   "ro": "Povestirea didactică plină de farmec a lui Ion Creangă în care cămașa îi spune pânzei și inului drumul lung și migălos prin care planta ajunge haina omului.",
+   "en": "Ion Creangă’s charming folkloric dialogue tracing the patient journey of flax from field to woven linen shirt."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "literele-lui-guguta",
+  "title": "Literele lui Guguță",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "umor",
+   "curiozitate"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Guguță învață tainele abecedarului în felul lui șugubăț, descoperind că fiecare literă prinde viață când o privești cu imaginație.",
+   "en": "Guguță discovers the alphabet in his own playful way, imagining each letter coming alive."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ceasul-lui-guguta",
+  "title": "Ceasul lui Guguță",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "copilarie",
+   "umor",
+   "familie"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "O nouă ispravă a lui Guguță de Spiridon Vangheli, în care un ceas aduce curiozitate, mândrie și pățanii hazlii.",
+   "en": "Another spirited episode of Spiridon Vangheli’s Guguță, full of curiosity and gentle comedy around a watch."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "un-vis-de-anul-nou",
+  "title": "Un vis de Anul Nou",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "vis",
+   "copilarie"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Poveste de iarnă de Spiridon Vangheli despre un vis fermecat din noaptea de Anul Nou.",
+   "en": "A cozy winter tale by Spiridon Vangheli about an enchanting New Year’s Eve dream."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ploaia-vangheli",
+  "title": "Ploaia",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "copilarie",
+   "umor"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Poveste luminoasă de Spiridon Vangheli despre cum văd copiii ploaia de vară și bucuria ei pentru tot satul.",
+   "en": "A bright story by Spiridon Vangheli capturing a child’s wonder at a refreshing summer rain."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "hulubul-vangheli",
+  "title": "Hulubul",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "prietenie",
+   "copilarie"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Întâmplare duioasă de Spiridon Vangheli despre prietenia unui copil cu un hulub blând.",
+   "en": "A tender short story by Spiridon Vangheli about a child’s friendship with a gentle pigeon."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "barba-lui-mos-gerila",
+  "title": "Barba lui Moș Gerilă",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "copilarie",
+   "umor"
+  ],
+  "characters": [
+   "Guguță",
+   "Moș Gerilă"
+  ],
+  "summary": {
+   "ro": "Poveste de iarnă plină de farmec de Spiridon Vangheli despre Guguță, gerul de afară și barba albă a lui Moș Gerilă.",
+   "en": "A charming winter tale by Spiridon Vangheli about Guguță, wintry frost and Grandfather Frost’s snowy beard."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "fulgii-feti-frumosi",
+  "title": "Fulgii Feți-Frumoși",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "magie",
+   "copilarie"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Poveste poetică de iarnă de Spiridon Vangheli în care fulgii de nea par niște Feți-Frumoși coborâți din cer.",
+   "en": "A poetic winter bedtime story by Spiridon Vangheli where falling snowflakes become little fairytale princes."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cocostarcul-vangheli",
+  "title": "Cocostârcul",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "natura",
+   "copilarie"
+  ],
+  "characters": [
+   "Guguță",
+   "Cocostârcul"
+  ],
+  "summary": {
+   "ro": "Poveste în două episoade de Spiridon Vangheli despre un cocostârc care poposește în sat și devine prietenul copiilor.",
+   "en": "A two-part story by Spiridon Vangheli about a stork that visits the village and becomes the children’s friend."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "casa-cea-mare-vangheli",
+  "title": "Casa cea mare",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "traditii",
+   "copilarie"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Poveste caldă de Spiridon Vangheli despre „casa cea mare” a bunicilor, locul de sărbătoare și taină al satului.",
+   "en": "A warm story by Spiridon Vangheli about the traditional parlor room in a village home, full of family warmth and wonder."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ghioceii-vangheli",
+  "title": "Ghioceii",
+  "author": "Spiridon Vangheli",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "copilarie",
+   "bunatate"
+  ],
+  "characters": [
+   "Guguță"
+  ],
+  "summary": {
+   "ro": "Poveste senină de Spiridon Vangheli despre bucuria copiilor la ivirea primilor ghiocei din zăpadă.",
+   "en": "A cheerful story by Spiridon Vangheli about children welcoming the first snowdrops peeking through the snow."
+  },
+  "addedAt": "2026-11-23"
  }
 ]

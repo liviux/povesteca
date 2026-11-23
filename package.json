@@ -1,7 +1,7 @@
 {
   "name": "povesteca",
   "private": true,
-  "version": "1.12.2",
+  "version": "1.13.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hls.js": "^1.7.4",
     "preact": "^11.2.0"
   },
   "devDependencies": {

@@ -6,12 +6,14 @@ import { Icon, Cover } from './ui.jsx';
 
 /*
  * Two engines, one set of controls:
- *  - archive: plain <audio> on a direct file. Everything works: seek, saved position, lock screen, timer.
+ *  - archive / audio: plain <audio> on a direct file, or hls.js (native on Safari) for .m3u8 streams.
+ *    Everything works: seek, saved position, lock screen, timer.
  *  - youtube: official IFrame API. Play/pause/seek/position/timer work; the video must stay visible,
  *    and phones stop it when the screen locks. We say so instead of pretending.
  * A recording with several links falls back to the next one if a link fails.
  */
-let audio, yt, ytHost, ytApi, poll, sleepTimer, lastSave = 0;
+let audio, hls, yt, ytHost, ytApi, poll, sleepTimer, lastSave = 0;
+let audioActive = false, pendingSeek = null, loadSeq = 0;
 
 // time changes every second; keep it out of the main store so pages don't re-render
 const clock = { time: 0, duration: 0 };
@@ -20,12 +22,28 @@ const spanOf = (v, i = state.player.link) => {
   const l = v?.links?.[i];
   return { start: l?.start ?? v?.start ?? 0, end: l?.end ?? v?.end ?? 0 };
 };
+const spanEnd = (v, i = state.player.link, dur = clock.duration) => {
+  const { start, end } = spanOf(v, i);
+  return end || (dur > start ? dur : start + (v?.duration || 0));
+};
+export function savedOffset(v, raw = state.pos[v?.id]) {
+  if (!v || !raw) return 0;
+  return Math.max(0, raw - spanOf(v, 0).start);
+}
+function saveTime(v, linkIdx, time) {
+  const { start } = spanOf(v, linkIdx);
+  const rel = Math.max(0, time - start);
+  if (rel <= 5) return;
+  const canonical = spanOf(v, 0).start + Math.floor(rel);
+  set({ pos: { ...state.pos, [v.id]: canonical } });
+}
 function tick(time, duration) {
-  clock.time = time; clock.duration = duration || clock.duration;
+  clock.time = time;
+  if (duration > 0 && Number.isFinite(duration)) clock.duration = duration;
   clockSubs.forEach((f) => f());
-  const p = state.player, v = versionById.get(p.id), { end } = spanOf(v, p.link);
+  const p = state.player, v = versionById.get(p.id), { start, end } = spanOf(v, p.link);
   if (end && time >= end) return finish();
-  if (Date.now() - lastSave > 5000 && time > 5) { lastSave = Date.now(); set({ pos: { ...state.pos, [p.id]: Math.floor(time) } }); }
+  if (v && Date.now() - lastSave > 5000 && time > start + 5) { lastSave = Date.now(); saveTime(v, p.link, time); }
   if (p.sleepAt && audio && isAudio(engineType())) audio.volume = Math.max(0, Math.min(1, (p.sleepAt - Date.now()) / 10000));
 }
 export function useClock() {
@@ -35,6 +53,7 @@ export function useClock() {
 }
 
 const isAudio = (t) => t === 'archive' || t === 'audio';
+const isHls = (url) => /\.m3u8(\?|$)/i.test(url || '');
 const engineType = () => versionById.get(state.player.id)?.links[state.player.link]?.type;
 
 export function play(id, from, linkIdx = 0) {
@@ -43,12 +62,13 @@ export function play(id, from, linkIdx = 0) {
   stopEngines();
   const idx = Math.max(0, Math.min(linkIdx, (v.links?.length || 1) - 1));
   const { start: s0, end: e0 } = spanOf(v, idx);
-  const saved = state.pos[id] || 0;
-  const lim = e0 || v.duration;
+  const savedRel = savedOffset(v, state.pos[id]);
+  const lim = e0 || (s0 + v.duration);
   const start = from === 'start' ? s0 : typeof from === 'number' ? from
-    : saved > s0 + 10 && saved < lim - 20 ? saved : s0;
+    : savedRel > 10 && savedRel < v.duration - 20 ? s0 + savedRel : s0;
   setPlayer({ id, status: 'loading', link: idx, error: false });
-  tick(start, v.duration);
+  clock.duration = lim;
+  tick(start, lim);
   addHistory(id);
   startLink(v, idx, start);
 }
@@ -56,10 +76,13 @@ export function switchLink(idx) {
   const v = versionById.get(state.player.id);
   if (!v || v.links.length < 2) return;
   const next = typeof idx === 'number' ? idx : (state.player.link + 1) % v.links.length;
-  const at = spanOf(v, next).start + Math.max(0, clock.time - spanOf(v, state.player.link).start);
+  const { start: sNext, end: eNext } = spanOf(v, next);
+  const at = sNext + Math.max(0, clock.time - spanOf(v, state.player.link).start);
   stopEngines();
   setPlayer({ status: 'loading', link: next, error: false });
-  tick(at, v.duration);
+  const lim = eNext || (sNext + v.duration);
+  clock.duration = lim;
+  tick(at, lim);
   startLink(v, next, at);
 }
 
@@ -75,24 +98,90 @@ function nextLink() {
   stopEngines();
   if (v) {
     const next = state.player.link + 1;
-    const at = spanOf(v, next).start + Math.max(0, clock.time - spanOf(v, state.player.link).start);
+    const { start: sNext, end: eNext } = spanOf(v, next);
+    const at = sNext + Math.max(0, clock.time - spanOf(v, state.player.link).start);
+    clock.duration = eNext || (sNext + v.duration);
     startLink(v, next, at);
   }
 }
 
-function startAudio(v, l, at) {
-  if (!audio) {
-    audio = new Audio();
-    audio.preload = 'auto';
-    audio.addEventListener('timeupdate', () => tick(audio.currentTime, audio.duration));
-    audio.addEventListener('playing', () => setPlayer({ status: 'playing' }));
-    audio.addEventListener('waiting', () => setPlayer({ status: 'loading' }));
-    audio.addEventListener('pause', () => { if (!audio.ended && state.player.status !== 'ended') { setPlayer({ status: 'paused' }); savePos(); } });
-    audio.addEventListener('ended', finish);
-    audio.addEventListener('error', () => audio.getAttribute('src') && nextLink());
+function applyPendingSeek() {
+  if (!audioActive || pendingSeek == null) return;
+  const target = pendingSeek;
+  pendingSeek = null;
+  if (target > 0 && Math.abs(audio.currentTime - target) > 1) {
+    try { audio.currentTime = target; } catch {}
   }
+}
+function ensureAudio() {
+  if (audio) return;
+  audio = new Audio();
+  audio.preload = 'auto';
+  audio.addEventListener('loadedmetadata', () => {
+    if (!audioActive) return;
+    applyPendingSeek();
+    audio.defaultPlaybackRate = audio.playbackRate = state.rate;
+    const v = versionById.get(state.player.id), { start } = spanOf(v);
+    tick(Math.max(audio.currentTime, start), audio.duration);
+  });
+  audio.addEventListener('timeupdate', () => {
+    if (!audioActive || pendingSeek != null) return;
+    tick(audio.currentTime, audio.duration);
+  });
+  audio.addEventListener('playing', () => {
+    if (!audioActive) return;
+    applyPendingSeek();
+    setPlayer({ status: 'playing' });
+  });
+  audio.addEventListener('waiting', () => audioActive && setPlayer({ status: 'loading' }));
+  audio.addEventListener('pause', () => {
+    if (audioActive && !audio.ended && state.player.status !== 'ended') { setPlayer({ status: 'paused' }); savePos(); }
+  });
+  audio.addEventListener('ended', () => audioActive && finish());
+  audio.addEventListener('error', () => { if (audioActive && !hls) nextLink(); });
+}
+
+async function startAudio(v, l, at) {
+  const seq = ++loadSeq;
+  ensureAudio();
+  audioActive = true;
   audio.volume = 1;
-  audio.src = audioUrl(l) + (at ? `#t=${Math.floor(at)}` : '');
+  const url = audioUrl(l);
+  if (isHls(url)) {
+    const { default: Hls } = await import('hls.js');
+    if (seq !== loadSeq || !audioActive) return;
+    if (Hls.isSupported()) {
+      pendingSeek = null;
+      let recovered = false;
+      const h = new Hls({ startPosition: at > 0 ? at : -1 });
+      hls = h;
+      h.on(Hls.Events.MEDIA_ATTACHED, () => seq === loadSeq && h.loadSource(url));
+      h.on(Hls.Events.MANIFEST_PARSED, () => {
+        if (seq !== loadSeq) return;
+        audio.defaultPlaybackRate = audio.playbackRate = state.rate;
+        audio.play().catch(() => setPlayer({ status: 'paused' }));
+      });
+      h.on(Hls.Events.ERROR, (_, data) => {
+        if (seq !== loadSeq || !data?.fatal) return;
+        if (data.type === Hls.ErrorTypes.MEDIA_ERROR && !recovered) {
+          recovered = true;
+          h.recoverMediaError();
+          return;
+        }
+        nextLink();
+      });
+      h.attachMedia(audio);
+      return;
+    }
+    if (!audio.canPlayType('application/vnd.apple.mpegurl')) return nextLink();
+    pendingSeek = at > 0 ? at : null;
+    audio.src = url;
+    audio.defaultPlaybackRate = audio.playbackRate = state.rate;
+    audio.play().catch(() => setPlayer({ status: 'paused' }));
+    return;
+  }
+  pendingSeek = at > 0 ? at : null;
+  audio.src = url + (at > 0 ? `#t=${Math.floor(at)}` : '');
   audio.defaultPlaybackRate = audio.playbackRate = state.rate; // a new src resets playbackRate to the default
   audio.play().catch(() => setPlayer({ status: 'paused' }));
 }
@@ -106,34 +195,49 @@ function loadYT() {
   }));
 }
 async function startYouTube(v, l, at) {
+  const seq = ++loadSeq;
   await loadYT();
-  if (state.player.id !== v.id || !ytHost) return;
+  if (seq !== loadSeq || state.player.id !== v.id || !ytHost) return;
   const el = document.createElement('div');
   ytHost.replaceChildren(el);
   const { end } = spanOf(v, state.player.link);
+  let checkedStart = !(at > 0);
   yt = new window.YT.Player(el, {
     host: 'https://www.youtube-nocookie.com', videoId: l.id, width: '100%', height: '100%',
     playerVars: { start: Math.floor(at), ...(end ? { end } : {}), autoplay: 1, playsinline: 1, rel: 0 },
     events: {
-      onReady: (e) => { e.target.setPlaybackRate(state.rate); e.target.playVideo(); },
+      onReady: (e) => { if (seq !== loadSeq) return; e.target.setPlaybackRate(state.rate); e.target.playVideo(); },
       onPlaybackRateChange: (e) => set({ rate: e.data }), // changed from YouTube's own settings menu
       onStateChange: (e) => {
+        if (seq !== loadSeq) return;
         const S = window.YT.PlayerState;
-        if (e.data === S.PLAYING) setPlayer({ status: 'playing' });
+        if (e.data === S.PLAYING) {
+          if (!checkedStart) {
+            checkedStart = true;
+            if ((e.target.getCurrentTime?.() || 0) < at - 5) e.target.seekTo(at, true);
+          }
+          setPlayer({ status: 'playing' });
+        }
         if (e.data === S.PAUSED) { setPlayer({ status: 'paused' }); savePos(); }
         if (e.data === S.BUFFERING) setPlayer({ status: 'loading' });
         if (e.data === S.ENDED) finish();
       },
-      onError: nextLink,
+      onError: () => seq === loadSeq && nextLink(),
     },
   });
   clearInterval(poll);
-  poll = setInterval(() => yt?.getCurrentTime && tick(yt.getCurrentTime(), yt.getDuration()), 1000);
+  poll = setInterval(() => {
+    if (!yt?.getCurrentTime) return;
+    const t = yt.getCurrentTime();
+    if (at > 0 && t < 1 && yt.getPlayerState?.() !== window.YT.PlayerState.PLAYING) return;
+    tick(t, yt.getDuration());
+  }, 1000);
 }
 
 function savePos() {
-  const { id } = state.player;
-  if (id && clock.time > 5) set({ pos: { ...state.pos, [id]: Math.floor(clock.time) } });
+  const { id, link } = state.player;
+  const v = versionById.get(id);
+  if (v) saveTime(v, link, clock.time);
 }
 function finish() {
   const { id } = state.player;
@@ -142,13 +246,17 @@ function finish() {
   set({ pos, player: { ...state.player, status: 'ended', sleepAt: 0, sleepEnd: false } });
 }
 function stopEngines() {
+  loadSeq++;
+  audioActive = false;
+  pendingSeek = null;
   clearInterval(poll);
+  if (hls) { try { hls.destroy(); } catch {} hls = null; }
   if (audio) { audio.pause(); audio.removeAttribute('src'); audio.load(); }
   if (yt) { try { yt.destroy(); } catch {} yt = null; }
   ytHost?.replaceChildren();
 }
 function pauseEngines() {
-  audio?.getAttribute('src') && audio.pause();
+  if (audioActive && audio) audio.pause();
   yt?.pauseVideo?.();
 }
 
@@ -160,6 +268,7 @@ export function toggle() {
   if (isAudio(engineType())) { audio.volume = 1; audio.play().catch(() => {}); } else yt?.playVideo?.();
 }
 export function seekTo(t) {
+  pendingSeek = null;
   if (isAudio(engineType()) && audio) audio.currentTime = t; else yt?.seekTo?.(t, true);
   tick(t);
 }
@@ -170,8 +279,8 @@ export function setRate(r) {
   yt?.setPlaybackRate?.(r);
 }
 export const seekBy = (d) => {
-  const v = versionById.get(state.player.id), { start, end } = spanOf(v);
-  seekTo(Math.max(start, Math.min(end || clock.duration || 1e9, clock.time + d)));
+  const v = versionById.get(state.player.id), { start } = spanOf(v);
+  seekTo(Math.max(start, Math.min(spanEnd(v) || 1e9, clock.time + d)));
 };
 export function closePlayer() {
   savePos(); stopEngines(); clearTimeout(sleepTimer);
@@ -204,8 +313,8 @@ function Progress({ big }) {
   // seconds under the finger or mouse while the bar is held: the whole bar responds, not only the handle
   // (iOS Safari ignores taps on the track), and the seek happens on release so playback doesn't pull the handle back
   const [drag, setDrag] = useState(null);
-  const v = versionById.get(state.player.id), { start, end } = spanOf(v);
-  const max = Math.max(1, Math.floor((end || c.duration || v?.duration || 1) - start));
+  const v = versionById.get(state.player.id), { start } = spanOf(v);
+  const max = Math.max(1, Math.floor(spanEnd(v, state.player.link, c.duration) - start));
   const at = (e) => { const r = e.currentTarget.getBoundingClientRect(); return Math.round(max * Math.min(1, Math.max(0, (e.clientX - r.left) / r.width))); };
   const shown = drag ?? Math.max(0, Math.min(max, c.time - start));
   return (

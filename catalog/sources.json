@@ -238,5 +238,15 @@
    "ro": "Povești audio dramatizate pe roluri din proiectul cultural „De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, cofinanțat AFCN), scrise de Laura Hangiu și interpretate cu actori, muzică și efecte sonore.",
    "en": "Acted audio stories from the cultural heritage project “De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, co-funded by AFCN), written by Laura Hangiu and performed by actors with music and sound design."
   }
+ },
+ {
+  "id": "radio-moldova",
+  "name": "Radio Moldova (Teleradio-Moldova)",
+  "type": "audio",
+  "url": "https://radiomoldova.md/s/ro/73",
+  "description": {
+   "ro": "Fonoteca de Aur a Radio Moldova (Teleradio-Moldova): spectacole integrale de teatru radiofonic pentru copii („Teatru la microfon”) și povești de seară („Povestea de seară”) din anii ’70–2010, în interpretarea actorilor teatrelor din Chișinău, cu ascultare directă, fără reclame.",
+   "en": "Radio Moldova’s Golden Archive (Teleradio-Moldova): full children’s radio plays (“Teatru la microfon”) and bedtime stories (“Povestea de seară”) from the 1970s–2010s, performed by Chișinău theatre actors with direct, ad-free streaming."
+  }
  }
 ]

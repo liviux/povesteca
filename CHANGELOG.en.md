@@ -2,6 +2,19 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.13.0] - 2026-11-23
+
+### Added
+- **New stories:** 85 recordings from **Radio Moldova's Golden Archive (Teleradio-Moldova)** — 25 full children's radio plays (*Teatru la microfon*, including *The Adventures of Tom Sawyer*, *The Mysterious Island*, *Pippi Longstocking*, *The Little Witch*, *Thumbelina / Crăița Florilor*, *Apolodor*, and *Mowgli*) and 60 short bedtime stories from *Povestea de seară* (Spiridon Vangheli's *Guguță* tales, Grigore Vieru, Ion Druță, Ion Creangă, the Brothers Grimm, Gianni Rodari, Dumitru Matcovschi, Nicolae Dabija, Aureliu Busuioc, and folk tales).
+- Direct in-page playback for HLS (`.m3u8`) audio streams, so Radio Moldova recordings play right in the app with seeking, speed control and sleep timer, without ads.
+- Five new collections (*Radio Moldova – Teatru la microfon pentru copii*, *Radio Moldova – Povestea de seară*, *Baba Dochia – Trei legende românești*, Electrecord record `EXC 401`, and *Povestiri din provincia de altădată*), plus new Wikidata photos and links for the added authors and actors.
+
+### Changed
+- Split direct-audio recordings that bundled several stories into separate stories that start and stop automatically at the right timestamp: the three *Baba Dochia* legends (*Fata de împărat*, *Soacra și nora*, *Lâna albă*, with individual YouTube backups for the first two and Vasile Manta credited as director), Leo Tolstoy's four stories on record `EXC 401` (*Un singur fiu*, *Ceașca spartă*, *Bunicul și nepotul*, *Moșneagul și merii*), and Ion Agârbiceanu's two radio sketches (*Milionul* and *Cum ne înșelăm*).
+
+### Fixed
+- Stories located in the middle of a longer recording now reliably jump to their start timestamp, show their own duration and progress bar, and display accurate resume times in “Resume from…” and the listening history.
+
 ## [1.12.2] - 2026-11-23
 
 ### Changed

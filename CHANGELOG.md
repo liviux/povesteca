@@ -2,6 +2,19 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.13.0] - 2026-11-23
+
+### Added
+- **Povești noi:** 85 de înregistrări din Fonoteca de Aur **Radio Moldova (Teleradio-Moldova)** — 25 de spectacole integrale de teatru radiofonic pentru copii (*Teatru la microfon*, printre care *Aventurile lui Tom Sawyer*, *Insula misterioasă*, *Peppi Ciorap-Lung*, *Mica Vrăjitoare*, *Crăița Florilor / Degețica*, *Pinguinul Apolodor* și *Mowgli*) și 60 de povești scurte de seară din seria *Povestea de seară* (Spiridon Vangheli cu *Guguță*, Grigore Vieru, Ion Druță, Ion Creangă, Frații Grimm, Gianni Rodari, Dumitru Matcovschi, Nicolae Dabija, Aureliu Busuioc și povești populare).
+- Redare directă în pagină pentru fluxuri audio HLS (`.m3u8`), astfel încât înregistrările Radio Moldova merg direct în player, cu derulare, viteză și temporizator de somn, fără reclame.
+- Cinci colecții noi (*Radio Moldova – Teatru la microfon pentru copii*, *Radio Moldova – Povestea de seară*, *Baba Dochia – Trei legende românești*, discul Electrecord `EXC 401` și *Povestiri din provincia de altădată*), plus fotografii și legături noi din Wikidata pentru autorii și actorii adăugați.
+
+### Changed
+- Înregistrările care legau mai multe povești într-un singur fișier audio direct au fost împărțite în povești separate, cu pornire și oprire automată la secunda potrivită: cele trei legende *Baba Dochia* (*Fata de împărat*, *Soacra și nora*, *Lâna albă*, cu oglinzi YouTube individuale pentru primele două și regia corectată la Vasile Manta), cele patru povestiri de Lev Tolstoi de pe discul `EXC 401` (*Un singur fiu*, *Ceașca spartă*, *Bunicul și nepotul*, *Moșneagul și merii*) și cele două schițe de Ion Agârbiceanu (*Milionul* și *Cum ne înșelăm*).
+
+### Fixed
+- Pentru poveștile aflate în mijlocul unei înregistrări mai lungi, playerul pornește acum sigur de la începutul poveștii alese, arată durata și progresul ei reale, iar butonul „Continuă de la…” și barele din „Continuă să asculți” și „Istoric” afișează poziția corectă în poveste.
+
 ## [1.12.2] - 2026-11-23
 
 ### Changed

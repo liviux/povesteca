@@ -204,6 +204,8 @@ const randomRank = new Map(shuffle(versions).map((v, i) => [v.id, i]));
 const ORIGINAL_MODERN = new Set([
   'afostodata', 'oameni-mici-si-mari',
   'teatrul-puck', 'teatrul-gong', 'somnorosi', 'yt-teatrul-ion-creanga', 'yt-opera-comica',
+  'yt-minireactor', 'yt-teatrul-colibri', 'arteka', 'cutiuta-cu-povesti', 'pippin-cel-curios',
+  'radio-moldova',
 ]);
 const creditSet = (v) => new Set(people(v).map((n) => norm(n)).filter((n) => n.length >= 4));
 

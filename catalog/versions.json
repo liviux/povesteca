@@ -14473,95 +14473,6 @@
   ]
  },
  {
-  "id": "baba-dochia-2005",
-  "storyId": "baba-dochia",
-  "title": "Baba Dochia. Trei legende românești",
-  "sourceId": "eteatru",
-  "links": [
-   {
-    "type": "audio",
-    "url": "https://eteatru.ro/uploads/modules/news/0/2026/3/9/256/1773061990b6a2c073.mp3",
-    "page": "https://eteatru.ro/spectacole/baba-dochia-trei-legende-romanesti-id256.html",
-    "via": "eTeatru"
-   },
-   {
-    "type": "youtube",
-    "id": "UYo9HSySAdw",
-    "via": "Ady Magdici"
-   }
-  ],
-  "duration": 3261,
-  "year": 2005,
-  "kind": "teatru-radiofonic",
-  "voices": "distributie",
-  "sfx": "discrete",
-  "music": "importanta",
-  "moods": [
-   "linistitoare"
-  ],
-  "age": 7,
-  "quality": 5,
-  "credits": {
-   "music": "Cristian Matei",
-   "cast": [
-    {
-     "role": "Distribuție",
-     "name": "Gelu Nițu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Delia Nartea"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Ion Arcudeanu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Virginia Rogin"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Cosmin Șofron"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Alexandru Georgescu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Mihai Verbițchi"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Ion Siminie"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Adriana Trandafir"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Daniela Ioniță"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Andrei Barbu"
-    }
-   ],
-   "director": "Costin Tuchilă",
-   "adaptation": "Costin Tuchilă"
-  },
-  "cover": "https://eteatru.ro/img.php?u=https%3A%2F%2Feteatru.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F3%2F9%2F256%2F177305951681a93fea.jpg&w=500&h=750&c=1",
-  "addedAt": "2026-11-22",
-  "estimated": [
-   "sfx",
-   "moods",
-   "age",
-   "quality"
-  ]
- },
- {
   "id": "finul-lui-dumnezeu-eteatru",
   "storyId": "finul-lui-dumnezeu",
   "title": "Finul lui Dumnezeu",
@@ -29606,44 +29517,6 @@
   ]
  },
  {
-  "id": "patru-povestiri-disc",
-  "storyId": "patru-povestiri",
-  "title": "Patru povestiri, în lectura lui Elena Sereda",
-  "sourceId": "arhiva-discuri-electrecord",
-  "links": [
-   {
-    "type": "archive",
-    "id": "303549108",
-    "file": "303549108.mp4"
-   }
-  ],
-  "duration": 258,
-  "kind": "narata",
-  "voices": "narator",
-  "sfx": "fara",
-  "music": "fara",
-  "moods": [
-   "somn",
-   "linistitoare"
-  ],
-  "age": 5,
-  "quality": 4,
-  "credits": {
-   "narrator": [
-    "Elena Sereda",
-    "George Oancea"
-   ]
-  },
-  "addedAt": "2026-11-22",
-  "estimated": [
-   "sfx",
-   "music",
-   "moods",
-   "age",
-   "quality"
-  ]
- },
- {
   "id": "riquet-cel-motat-disc",
   "storyId": "riquet-cel-motat",
   "title": "Riquet cel Moțat, dramatizare de Mariela Oțoiu",
@@ -40909,38 +40782,6 @@
    "linistitoare"
   ],
   "age": 7,
-  "quality": 3,
-  "cover": false,
-  "addedAt": "2026-11-22",
-  "estimated": [
-   "sfx",
-   "music",
-   "moods",
-   "age",
-   "quality"
-  ]
- },
- {
-  "id": "povestiri-din-provincia-de-altadata-arhiva",
-  "storyId": "povestiri-din-provincia-de-altadata",
-  "title": "Povestiri din provincia de altădată",
-  "sourceId": "arhiva-maia-martin",
-  "links": [
-   {
-    "type": "archive",
-    "id": "IonAgarbiceanuPovestiriDinProvinciaDeAltadata",
-    "file": "Ion Agarbiceanu Povestiri din provincia de altadata.mp3"
-   }
-  ],
-  "duration": 1117,
-  "kind": "teatru-radiofonic",
-  "voices": "distributie",
-  "sfx": "discrete",
-  "music": "ambientala",
-  "moods": [
-   "linistitoare"
-  ],
-  "age": 5,
   "quality": 3,
   "cover": false,
   "addedAt": "2026-11-22",
@@ -85488,5 +85329,4033 @@
    "quality"
   ],
   "addedAt": "2026-11-23"
+ },
+ {
+  "id": "baba-dochia-fata-de-imparat-2005",
+  "storyId": "baba-dochia-fata-de-imparat",
+  "title": "Baba Dochia: Fata de împărat (2005)",
+  "sourceId": "eteatru",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://eteatru.ro/uploads/modules/news/0/2026/3/9/256/1773061990b6a2c073.mp3",
+    "page": "https://eteatru.ro/spectacole/baba-dochia-trei-legende-romanesti-id256.html",
+    "via": "eTeatru",
+    "start": 0,
+    "end": 1155
+   },
+   {
+    "type": "youtube",
+    "id": "EIS8sqRBmYU",
+    "via": "Teatru Radiofonic"
+   }
+  ],
+  "duration": 1155,
+  "year": 2005,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "misterioasa",
+   "linistitoare"
+  ],
+  "age": 7,
+  "quality": 5,
+  "credits": {
+   "director": "Vasile Manta",
+   "adaptation": "Costin Tuchilă",
+   "music": "Cristian Matei",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Gelu Nițu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Delia Nartea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Arcudeanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Virginia Rogin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cosmin Șofron"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Georgescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Verbițchi"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Siminie"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adriana Trandafir"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Daniela Ioniță"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Andrei Barbu"
+    }
+   ]
+  },
+  "cover": "https://eteatru.ro/img.php?u=https%3A%2F%2Feteatru.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F3%2F9%2F256%2F177305951681a93fea.jpg&w=500&h=750&c=1",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "baba-dochia-soacra-si-nora-2005",
+  "storyId": "baba-dochia-soacra-si-nora",
+  "title": "Baba Dochia: Soacra și nora (2005)",
+  "sourceId": "eteatru",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://eteatru.ro/uploads/modules/news/0/2026/3/9/256/1773061990b6a2c073.mp3",
+    "page": "https://eteatru.ro/spectacole/baba-dochia-trei-legende-romanesti-id256.html",
+    "via": "eTeatru",
+    "start": 1155,
+    "end": 2398
+   },
+   {
+    "type": "youtube",
+    "id": "CUTIpvwC8h4",
+    "via": "Teatru Radiofonic"
+   }
+  ],
+  "duration": 1243,
+  "year": 2005,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "misterioasa",
+   "intensa"
+  ],
+  "age": 7,
+  "quality": 5,
+  "credits": {
+   "director": "Vasile Manta",
+   "adaptation": "Costin Tuchilă",
+   "music": "Cristian Matei",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Gelu Nițu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Delia Nartea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Arcudeanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Virginia Rogin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cosmin Șofron"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Georgescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Verbițchi"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Siminie"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adriana Trandafir"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Daniela Ioniță"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Andrei Barbu"
+    }
+   ]
+  },
+  "cover": "https://eteatru.ro/img.php?u=https%3A%2F%2Feteatru.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F3%2F9%2F256%2F177305951681a93fea.jpg&w=500&h=750&c=1",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "baba-dochia-lana-alba-2005",
+  "storyId": "baba-dochia-lana-alba",
+  "title": "Baba Dochia: Lâna albă (2005)",
+  "sourceId": "eteatru",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://eteatru.ro/uploads/modules/news/0/2026/3/9/256/1773061990b6a2c073.mp3",
+    "page": "https://eteatru.ro/spectacole/baba-dochia-trei-legende-romanesti-id256.html",
+    "via": "eTeatru"
+   }
+  ],
+  "start": 2398,
+  "end": 3261,
+  "duration": 863,
+  "year": 2005,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "misterioasa",
+   "linistitoare"
+  ],
+  "age": 7,
+  "quality": 5,
+  "credits": {
+   "director": "Vasile Manta",
+   "adaptation": "Costin Tuchilă",
+   "music": "Cristian Matei",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Gelu Nițu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Delia Nartea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Arcudeanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Virginia Rogin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cosmin Șofron"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Georgescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Verbițchi"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Siminie"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adriana Trandafir"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Daniela Ioniță"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Andrei Barbu"
+    }
+   ]
+  },
+  "cover": "https://eteatru.ro/img.php?u=https%3A%2F%2Feteatru.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F3%2F9%2F256%2F177305951681a93fea.jpg&w=500&h=750&c=1",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "un-singur-fiu-disc",
+  "storyId": "un-singur-fiu-tolstoi",
+  "title": "Un singur fiu, în lectura lui George Oancea",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303549108",
+    "file": "303549108.mp4"
+   }
+  ],
+  "start": 0,
+  "end": 102,
+  "duration": 102,
+  "year": 1963,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "fara",
+  "moods": [
+   "somn",
+   "linistitoare",
+   "educativa"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "George Oancea"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXC 401",
+   "title": "Patru povestiri",
+   "url": "https://www.discogs.com/release/14623546"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ceasca-sparta-disc",
+  "storyId": "ceasca-sparta-tolstoi",
+  "title": "Ceașca spartă, în lectura lui Elena Sereda",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303549108",
+    "file": "303549108.mp4"
+   }
+  ],
+  "start": 102,
+  "end": 136,
+  "duration": 34,
+  "year": 1963,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "fara",
+  "moods": [
+   "somn",
+   "linistitoare",
+   "educativa"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Elena Sereda"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXC 401",
+   "title": "Patru povestiri",
+   "url": "https://www.discogs.com/release/14623546"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "bunicul-si-nepotul-tolstoi-disc",
+  "storyId": "bunicul-si-nepotul-tolstoi",
+  "title": "Bunicul și nepotul, în lectura lui George Oancea",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303549108",
+    "file": "303549108.mp4"
+   }
+  ],
+  "start": 136,
+  "end": 232,
+  "duration": 96,
+  "year": 1963,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "fara",
+  "moods": [
+   "somn",
+   "linistitoare",
+   "educativa"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "George Oancea"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXC 401",
+   "title": "Patru povestiri",
+   "url": "https://www.discogs.com/release/14623546"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "mosneagul-si-merii-disc",
+  "storyId": "mosneagul-si-merii-tolstoi",
+  "title": "Moșneagul și merii, în lectura lui Elena Sereda",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303549108",
+    "file": "303549108.mp4"
+   }
+  ],
+  "start": 232,
+  "end": 258,
+  "duration": 26,
+  "year": 1963,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "fara",
+  "moods": [
+   "somn",
+   "linistitoare",
+   "educativa"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Elena Sereda"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXC 401",
+   "title": "Patru povestiri",
+   "url": "https://www.discogs.com/release/14623546"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "milionul-agarbiceanu-arhiva",
+  "storyId": "milionul-agarbiceanu",
+  "title": "Milionul (Povestiri din provincia de altădată)",
+  "sourceId": "arhiva-maia-martin",
+  "links": [
+   {
+    "type": "archive",
+    "id": "IonAgarbiceanuPovestiriDinProvinciaDeAltadata",
+    "file": "Ion Agarbiceanu Povestiri din provincia de altadata.mp3"
+   }
+  ],
+  "start": 52,
+  "end": 549,
+  "duration": 497,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 10,
+  "quality": 4,
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cum-ne-inselam-agarbiceanu-arhiva",
+  "storyId": "cum-ne-inselam-agarbiceanu",
+  "title": "Cum ne înșelăm (Povestiri din provincia de altădată)",
+  "sourceId": "arhiva-maia-martin",
+  "links": [
+   {
+    "type": "archive",
+    "id": "IonAgarbiceanuPovestiriDinProvinciaDeAltadata",
+    "file": "Ion Agarbiceanu Povestiri din provincia de altadata.mp3"
+   }
+  ],
+  "start": 550,
+  "end": 1117,
+  "duration": 567,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 10,
+  "quality": 4,
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "micul-print-rm",
+  "storyId": "micul-print",
+  "title": "Micul Prinț (Radio Moldova, 2002)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/1/25/Ec-0849-MICUL-PRIN-aut-Antoine-de-Saint-Exupery-interp-elevii-colii-de-arte-Valeriu-Poleacov-din-Chiinu-58min52sec-2002-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14091",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 2908,
+  "year": 2002,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "cover": "https://storage.radiomoldova.md/images/024f23cf-0095-4933-8935-e943d1826811.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "capitan-la-15-ani-rm",
+  "storyId": "capitan-la-15-ani",
+  "title": "Un căpitan de 15 ani (Radio Moldova, 1989)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/1/24/Ec-0378-UN-CPITAN-DE-15-ANI-ep1-aut-Jules-Verne-act-ai-teatrului-Luceafrul-spectacol-58min-44sec-1989-NOU-TOTT.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14089",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 10081,
+  "year": 1989,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 9,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/5f45707e-6d4d-405a-85e9-39c1b969dd8d.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cipollino-rm",
+  "storyId": "cipollino",
+  "title": "Aventurile lui Cipollino (Radio Moldova, 1987)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/18/Ec-0286-AVENTURILE-LUI-CIPOLINO-aut-Gianni-Rodari-act-Vladimir-Coco-Dina-Cocea-Emil-Nicula-18min54sec-1987-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14088",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 1095,
+  "year": 1987,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Vladimir Cocoș"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dina Cocea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Emil Nicula"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/3d502d3d-7add-42f5-b897-3542fced7467.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "capitanul-oceanului-stelar-rm",
+  "storyId": "capitanul-oceanului-stelar",
+  "title": "Căpitanul oceanului stelar (Radio Moldova, 1977)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/1/22/Ec-0160-CPITANUL-OCEANULUI-STELAR-aut-Ion-Golban-act-Victor-Ciutac-Eugeniu-Ureche-Petre-Baracci-si-alii-46min12sec-1977.mp3-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14055",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 2738,
+  "year": 1977,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Victor Ciutac"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugeniu Ureche"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petre Baracci"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "facerea-lumii-arghezi-rm",
+  "storyId": "facerea-lumii-arghezi",
+  "title": "Facerea Lumii (Radio Moldova, 2005)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/19/Ec-0885-FACEREA-LUMII-aut-Valeriu-urcan-dup-motive-biblice-Tudor-Arghezi-act-Gr-Rusu-C-tin-Haret-Alina-Turcanu-Gh-Pietraru-42min37sec-2005-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14073",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 2548,
+  "year": 2005,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "linistitoare",
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "adaptation": "Valeriu Țurcan",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Grigore Rusu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Haret"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alina Țurcanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pietraru"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/3a312966-a604-4252-a1dd-6c14e7e29685.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "domnita-pastorita-rm",
+  "storyId": "domnita-pastorita",
+  "title": "Domnița Păstoriță (Radio Moldova, 2007)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/15/Ec-0898-DOMNIA-PSTORI-TOT-spect-radiof-aut-Claudia-Partole-int-Petru-Hadrc-Vitalie-Rusu-Ion-Ungureanu-Valeriu-Pahomi-59min57sec-2007.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14054",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 5616,
+  "year": 2007,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Petru Hadârcă"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Vitalie Rusu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Ungureanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valeriu Pahomi"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "print-si-cersetor-rm",
+  "storyId": "print-si-cersetor",
+  "title": "Prinț și cerșetor (Radio Moldova, 2005)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/1/19/Ec-0886-PRIN-I-CERETOR-TOT--aut-Mark-Twain-act-Ghenadie-Glc-Snejana-Rudenco-Ion-Ungureanu-Gheorghe-Pietraru-i-alii-59min26sec-2005.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14053",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 6270,
+  "year": 2005,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 8,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ghenadie Gâlcă"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Snejana Rudenco"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Ungureanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pietraru"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "insula-misterioasa-rm",
+  "storyId": "insula-misterioasa",
+  "title": "Insula misterioasă (Radio Moldova, 2003)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/15/Ec-0855-INSULA-MISTERIOAS-TOT-aut-Jules-Verne-act-Ion-Grosu-Nicolae-Ghereg-Valentin-Cucu-P-Baracci-Gh-Galc-red-N-Malev-58min50sec-2003.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14049",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 13149,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "misterioasa"
+  ],
+  "age": 9,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ion Grosu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Ghereg"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valentin Cucu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petre Baracci"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ghenadie Gâlcă"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "puiul-de-pom-rm",
+  "storyId": "puiul-de-pom",
+  "title": "Puiul de pom (Radio Moldova, 2001)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/15/Ec-0828-PUIUL-DE-POM-r1-aut-Vera-Malev-int-Daniela-Broasc-Tatiana-Criuleanu-Oleg-Mardari-stud-teatral-Carpediem-33min02sec-2001-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14048",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 1809,
+  "year": 2001,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "linistitoare",
+   "educativa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Daniela Broască"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Tatiana Criuleanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Oleg Mardari"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "alice-in-tara-minunilor-rm",
+  "storyId": "alice-in-tara-minunilor",
+  "title": "Alice în Țara Minunilor (Radio Moldova, 1977)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/18/Ec-0151-ALICE-N-ARA-MINUNILOR-aut-Lewis-Carroll-act-ai-teatrelor-din-Chiinu-58min34sec-1977-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14047",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3469,
+  "year": 1977,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cenusar-voinicul-rm",
+  "storyId": "cenusar-voinicul-si-cenusareasa-mireasa",
+  "title": "Cenușar Voinicul și Cenușăreasa Mireasa (Radio Moldova, 1985)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/1/16/Ec-0237-CENUAR-VOINICUL-I-CENUREASA-MIREASA-TOT--aut-Iulian-Filip-act-ai-teatrelor-din-Chiinu-58min52sec-1985.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14046",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 6711,
+  "year": 1985,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "tom-sawyer-1-rm",
+  "storyId": "aventurile-lui-tom-sawyer-partea-1",
+  "title": "Aventurile lui Tom Sawyer – Partea I (Radio Moldova, 1981)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/14/Ec-0188-AVENTURILE-LUI-TOM-SOYER-aut-Mark-Twain-p1-act-ai-teatrelor-din-Chiinu-58min13sec-1981-NOU-1-cainii-urla.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14031",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3451,
+  "year": 1981,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 8,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "tom-sawyer-2-rm",
+  "storyId": "aventurile-lui-tom-sawyer-partea-2",
+  "title": "Aventurile lui Tom Sawyer – Partea a II-a (Radio Moldova, 1981)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/14/Ec-0189-AVENTURILE-LUI-TOM-SOYER-aut-Mark-Twain-p2-act-ai-teatrelor-din-Chiinu-58min22sec-1981-NOU-1-piratul-brav-2.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14032",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3481,
+  "year": 1981,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 8,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "tom-sawyer-3-rm",
+  "storyId": "aventurile-lui-tom-sawyer-partea-3",
+  "title": "Aventurile lui Tom Sawyer – Partea a III-a (Radio Moldova, 1981)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/14/Ec-0190-AVENTURILE-LUI-TOM-SOYER-aut-Mark-Twain-p3-act-ai-teatrelor-din-Chiinu-59min11sec-1981-NOU-suvoiul-de-aur.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14033",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3521,
+  "year": 1981,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "misterioasa"
+  ],
+  "age": 8,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "craiasa-zapezii-rm",
+  "storyId": "craiasa-zapezii",
+  "title": "Regina Fulgilor de Nea (Radio Moldova, 1979)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/14/Ec-0174-REGINA-FULGILOR-DE-NEA-aut-Hans-Christian-Andersen-artiti-ai-teatr-din-Chiinu-28min51sec-1979-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14030",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 1724,
+  "year": 1979,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "peppi-ciorap-lung-rm",
+  "storyId": "peppi-ciorap-lung",
+  "title": "Peppi Ciorap-Lung (Radio Moldova, 1976)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/14/Ec-0144-PEPPI-CIORAP-LUNG-aut-Astrid-Lindgren-act-ai-teatrului-Pukin-red-Nadejda-Malev-41min34sec-1976.mp3-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14014",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 2469,
+  "year": 1976,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "amintiri-din-copilarie-rm",
+  "storyId": "amintiri-din-copilarie",
+  "title": "Amintiri din copilărie (Radio Moldova, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/14/Ec-0137-AMINTIRI-DIN-COPILARIE-aut-Ion-Creang-adap-Gh-Urschi-act-Veniamin-Apostol-Vitalie-Rusu-Mihai-Curagu-58min33sec-1983-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14001",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3499,
+  "year": 1983,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "linistitoare"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "adaptation": "Gheorghe Urschi",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Veniamin Apostol"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Vitalie Rusu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Curagău"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/72f3c630-3ec4-47b8-b7ad-5bd1b2156893.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ivan-turbinca-rm",
+  "storyId": "ivan-turbinca",
+  "title": "Ivan Turbincă (Radio Moldova, 1975)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/14/Ec-0028-IVAN-TURBINC-aut-Ion-Creang-spectacol-p-u-copii-act-ai-teatr-Luceafrul-i-Pukin-46min55sec-1975-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14029",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 2794,
+  "year": 1975,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "danila-prepeleac-rm",
+  "storyId": "danila-prepeleac",
+  "title": "Dănilă Prepeleac (Radio Moldova, 1972)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/1/8/Ec-0027-DNIL-PREPELEAC-dup-pov-lui-Ion-Creang-act-Eugeniu-Ureche-Ion-Ungureanu-Veniamin-Apostol-Victor-Ciutac-59min12sec-1972-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14023",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3371,
+  "year": 1972,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Eugeniu Ureche"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Ungureanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Veniamin Apostol"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Ciutac"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "floarea-iubirii-rm",
+  "storyId": "floarea-iubirii",
+  "title": "Floarea iubirii (Radio Moldova, 2012)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/13/Ec-0919-FLOAREA-IUBIRII-spec-radiofonic-aut-Cludia-Partole-act-Iu-Focsa-Vl-Zaiciuc-Vera-Mereuta-Lucia-Ciobanu-Inna-Colbasiuc-59min26sec-2012-NOW.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14003",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3555,
+  "year": 2012,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Iurie Focșa"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Vladimir Zaiciuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Vera Mereuță"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Lucia Ciobanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Inna Colbasiuc"
+    }
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/c63c8685-f900-434c-84df-d6451fbfe35f.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "apolodor-rm",
+  "storyId": "apolodor-pinguinul-calator",
+  "title": "Pinguinul Apolodor (Radio Moldova, 2013)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/13/Ec-0924-APOLODOR---Gelu-Naum.-Regie-Vlad-ciobanu-i-Aurica-Mirca.-Redactor-Victoria-Tomuz.-39.55-min-2013-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14013",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 2301,
+  "year": 2013,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 4,
+  "quality": 5,
+  "credits": {
+   "director": "Vlad Ciobanu și Aurica Mirca"
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "painica-de-la-iepurele-cel-schiop-rm",
+  "storyId": "painica-de-la-iepurele-cel-schiop",
+  "title": "Pâinica de la iepurele cel șchiop (Radio Moldova, 2013)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/13/Ec-0930-PINICA-DE-LA-IEPURELE-CEL-SCHIOP-spectacol-radiofonic-aut-Larisa-Turea-59min55sec-2013-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14012",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3588,
+  "year": 2013,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "linistitoare",
+   "educativa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "mica-vrajitoare-rm",
+  "storyId": "mica-vrajitoare",
+  "title": "Mica Vrăjitoare (Radio Moldova, 2019)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/13/Ec-0950-MICA-VRJITOARE-aut-Otfried-Preussler-Teatru-la-microfon-pentru-elevi-red-Olga-Stavil-reg-Aurica-Mirca-54min48sec-2019-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14011",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 3272,
+  "year": 2019,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 5,
+  "credits": {
+   "director": "Aurica Mirca"
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "degetica-craita-florilor-rm",
+  "storyId": "degetica",
+  "title": "Crăița Florilor (după Degețica, Radio Moldova, 2018)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/13/Ec-0950-CRIA-FLORILOR-Spect-radiofonic-de-H-C-Andersen-actorii-teatr-Gugu-red-Victoria-Tomuz-reg-Aurica-Mirca-54min54sec-2018-NOU.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14005",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 2309,
+  "year": 2018,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 4,
+  "quality": 5,
+  "credits": {
+   "director": "Aurica Mirca"
+  },
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cartea-junglei-mowgli-rm",
+  "storyId": "cartea-junglei",
+  "title": "Mowgli (Radio Moldova, 1992)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/1/1/MAUGLI.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14022",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 5510,
+  "year": 1992,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "cover": "https://storage.radiomoldova.md/images/74391135-a4ac-406d-afbd-24251acf578e.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "fata-de-imparat-matcovschi-rm",
+  "storyId": "fata-de-imparat-matcovschi",
+  "title": "Fata de împărat (Povestea de seară, 1990)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/28/NB-531-FATA-DE-MPRAT-aut-Dumitru-Matcovschi-lect-Viorica-Chirc-red-Ludmila-Celan-04min54sec-1990.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14557",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 295,
+  "year": 1990,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Viorica Chircă"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cuibul-ciocarliei-rm",
+  "storyId": "cuibul-ciocarliei",
+  "title": "Cuibul ciocârliei (Povestea de seară, 1988)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/27/NB-471-CUIBUL-CIOCRLIEI-aut-Leo-Butnaru-lect-Valeriu-Mrza-red-Ala-Stncaru-04min20sec-1988.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14556",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 260,
+  "year": 1988,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Valeriu Mârza"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cetatea-veche-dabija-rm",
+  "storyId": "cetatea-veche-dabija",
+  "title": "Cetatea veche (Povestea de seară, 1988)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/25/NB-470-CETATEA-VECHE-aut-Nicolae-Dabija-lect-Valeriu-Mrza-red-Ala-Stncaru-03min45sec-1988.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14555",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 225,
+  "year": 1988,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Valeriu Mârza"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "salba-veveritei-rm",
+  "storyId": "salba-veveritei",
+  "title": "Salba veveriței (Povestea de seară, 1984)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/25/NB-423-SALBA-VEVERIEI-aut-Mihail-Garaz-lect-Arcadie-Planda-red-Valentina-Romanciuc-04min29sec-1984.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14553",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 269,
+  "year": 1984,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "creioane-colorate-rm",
+  "storyId": "creioane-colorate",
+  "title": "Creioane colorate (Povestea de seară, 1984)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/24/NB-422-CREIOANE-COLORATE-aut-Dumitru-Matcovschi-lect-Arcadie-Planda-red-Valentina-Romanciuc-1984.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14552",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 287,
+  "year": 1984,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ploaie-ciobaneasca-rm",
+  "storyId": "ploaie-ciobaneasca",
+  "title": "Ploaie ciobănească (Povestea de seară, 1984)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/22/NB-406-PLOAIE-CIOBNEASC-aut-Dumitru-Matcovschi-lect-Arcadie-Planda-red-Zinaida-Izba-1984.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14548",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 263,
+  "year": 1984,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "paine-cu-roua-rm",
+  "storyId": "paine-cu-roua",
+  "title": "Pâine cu rouă (Povestea de seară, 1984)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/23/NB-421-PINE-CU-ROUA-aut-Grigore-Vieru-lect-Arcadie-Planda-red-Valentina-Romancic-05min00sec-1984.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14550",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 301,
+  "year": 1984,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "toporul-cu-coada-de-paun-rm",
+  "storyId": "toporul-cu-coada-de-paun",
+  "title": "Toporul cu coada de păun (Povestea de seară, 1985)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/4/22/NB-448-TOPORUL-CU-COADA-DE-PUN-aut-Grigore-Vieru-lect-Arcadie-Planda-red-Sanda-ru-03min51sec-1985.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14554",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 231,
+  "year": 1985,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "in-casa-noua-rm",
+  "storyId": "in-casa-noua",
+  "title": "În casa nouă (Povestea de seară, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/21/NB-401-N-CASA-NOUA-aut-Grigore-Vieru-lect-Arcadie-Planda-red-Valentina-Puiu-04min27sec-1983.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14547",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 268,
+  "year": 1983,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-lui-guguta-rm",
+  "storyId": "povestea-lui-guguta",
+  "title": "Povestea lui Guguță (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2020/4/20/NB-244-POVESTEA-LUI-GUGU-aut-Spiridon-Vangheli-lect-Margareta-Ureche-reg-Ag-Bogdanova-04min30sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/14074",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 271,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Agnesa Bogdanova"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "marul-paduret-rm",
+  "storyId": "marul-paduret",
+  "title": "Mărul pădureț (Povestea de seară, 1987)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-461-MRUL-PDURE-aut-Ion-Bejenaru-lect-Arcadie-Planda-red-Sanda-ru-04min43sec-1987.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13994",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 284,
+  "year": 1987,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-tamplarului-rm",
+  "storyId": "povestea-tamplarului",
+  "title": "Povestea tâmplarului (Povestea de seară, 1986)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-431-POVESTEA-TMPLARULUI-aut-Ion-Bejenaru-lect-Arcadie-Planda-red-Sanda-ru-04min27sec-1986.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13993",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 267,
+  "year": 1986,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-norocului-rm",
+  "storyId": "povestea-norocului",
+  "title": "Povestea norocului (Povestea de seară, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-398-POVESTEA-NOROCULUI-aut-Ion-Bejenaru-lect-Arcadie-Planda-04min09sec-1983.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13992",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 268,
+  "year": 1983,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "sfredelus-rm",
+  "storyId": "sfredelus",
+  "title": "Sfredeluș (Povestea de seară, 1981)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-384-SFREDELU-TOT--aut-Ion-Bejenaru-lect-Arcadie-Planda-red-Victoria-Tomuz-op-Ana-Guu-04min43sec1981.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13991",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 915,
+  "year": 1981,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "modestia-privighetorii-rm",
+  "storyId": "modestia-privighetorii",
+  "title": "Modestia privighetorii (Povestea de seară, 1988)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-469-MODESTIA-PRVIGHETORII-aut-Ion-Bejenaru-lect-Mariana-Bahnaru-red-Ludmila-Celan-04min51sec-1988.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13990",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 291,
+  "year": 1988,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Mariana Bahnaru"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "vestitorul-primaverii-rm",
+  "storyId": "vestitorul-primaverii",
+  "title": "Vestitorul primăverii (Povestea de seară, 1988)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-468-VESTITORUL-PRIMVERII-aut-Ion-Bejenaru-lect-Mariana-Bahnaru-red-Zinaida-Izba-04min57sec-1988.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13989",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 298,
+  "year": 1988,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Mariana Bahnaru"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "pungulita-fermecata-rm",
+  "storyId": "pungulita-fermecata",
+  "title": "Pungulița fermecată (Povestea de seară, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-400-PUNGULIA-FERMECAT--TOT--aut-Ion-Bejenaru-lect-Arcadie-Planda-red-Valentina-Puiu-04min39sec-1983.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13988",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 454,
+  "year": 1983,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Valentina Puiu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cheita-fermecata-rm",
+  "storyId": "cheita-fermecata",
+  "title": "Cheița fermecată (Povestea de seară, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-391-CHEIA-FERMECAT--TOT--pov-popular-mold-lect-Margareta-Ureche-05min05sec-1983.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13985",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 553,
+  "year": 1983,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "poienita-fermecata-rm",
+  "storyId": "poienita-fermecata",
+  "title": "Poienița fermecată (Povestea de seară, 1980)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-377-POENIA-FERMECAT-pov-popular-mold-lect-Arcadie-Planda-red-Petre-Grozavu-03min57sec-1980.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13980",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 237,
+  "year": 1980,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "un-musafir-nedorit-rm",
+  "storyId": "un-musafir-nedorit",
+  "title": "Un musafir nedorit (Povestea de seară, 1980)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-382-UN-MUSAFIR-NEDORIT-pov-popular-mold-lect-Arcadie-Planda-red-Vasile-Grozavu-04min56sec-1980.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13981",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 297,
+  "year": 1980,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "pacala-si-tandala-rm",
+  "storyId": "pacala-si-tandala-folclor",
+  "title": "Păcală și Tândală (Povestea de seară, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-396-PCAL-I-TNDAL--TOT--pov-popular-mold-lect-Arcadie-Planda-04min48sec-1983.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13979",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 469,
+  "year": 1983,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ratoiul-tim-rm",
+  "storyId": "ratoiul-tim",
+  "title": "Rățoiul Tim (Povestea de seară, 1980)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/12/NB-383-ROIUL-TIM-pov-pop-mold-lect-Arcadie-Planda-red-Vasile-Grozavu-reg-Eugenia-Curagu-3min52sec-1980.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13983",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 233,
+  "year": 1980,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Eugenia Curagău"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "rochita-cotofenei-rm",
+  "storyId": "rochita-cotofenei",
+  "title": "Rochița coțofenei (Povestea de seară, 1976)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-357-ROCHIA-COOFENEI-aut-Aureliu-Busuioc-lect-Arcadie-Planda-red-Silvia-Ghelechi-04min41sec-1976.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13966",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 281,
+  "year": 1976,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "pestisorul-linut-rm",
+  "storyId": "pestisorul-linut",
+  "title": "Peștișorul Linuț (Povestea de seară, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-393-PESTISORUL-LINU-TOT-aut-Aureliu-Busuioc-lect-Margareta-Ureche-reg-Eugenia-Curagu-red-Val-na-Puiu-04min43sec-1983.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13968",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 523,
+  "year": 1983,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Eugenia Curagău"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cizmele-cocostarcului-rm",
+  "storyId": "cizmele-cocostarcului",
+  "title": "Cizmele cocostârcului (Povestea de seară, 1976)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-365-CISMELE-COCOSTRCULUI-aut-Aureliu-Busuioc-lect-Arcadie-Planda-red-Silvia-Ghelechi-04min36sec-1976.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13967",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 276,
+  "year": 1976,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "calutul-copacul-si-baietelul-rm",
+  "storyId": "calutul-copacul-si-baietelul",
+  "title": "Căluțul, copacul și băiețelul (Povestea de seară, 1974)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-283-CLUUL-COPACUL-I-BIEELUL-aut-Gianni-Rodari-lect-Arcadie-Planda-red-V-Tomuz-04min40sec-1974.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13961",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 280,
+  "year": 1974,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "calatoria-lui-giovannino-rm",
+  "storyId": "calatoria-lui-giovannino",
+  "title": "Călătoria lui Giovannino (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/CLTORIA-LUI-GIOVANINO-aut-Gianni-Rodari-muz-Dm-Blajinu-lect-Margareta-Ureche-red-Victoria-Tomuz-04min24sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13959",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 265,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "music": "Dumitru Blajinu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cum-a-fugit-un-nas-rm",
+  "storyId": "cum-a-fugit-un-nas",
+  "title": "Cum a fugit un nas (Povestea de seară, 1991)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-565-CUM-A-FUGIT-UN-NAS-aut-Gianni-Rodari-lect-Tamara-Berzoi-red-N-Ghertoag-05min01sec-1992.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13964",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 302,
+  "year": 1991,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Tamara Berzoi"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "soricelul-care-mananca-pisici-rm",
+  "storyId": "soricelul-care-mananca-pisici",
+  "title": "Șoricelul care mănâncă pisici (Povestea de seară, 1991)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-558-ORICELUL-CARE-MNNC-PISICI-aut-Gianni-Rodari-lect-Tamara-Berzoi-red-N-Ghertoag-05min02sec-1991.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13963",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 302,
+  "year": 1991,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Tamara Berzoi"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "drumul-de-ciocolata-rm",
+  "storyId": "drumul-de-ciocolata",
+  "title": "Drumul de ciocolată (Povestea de seară, 1991)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-557-DRUMUL-DE-CIOCOLAT-aut-Gianni-Rodari-lect-Tamara-Berzoi-red-N-Ghertoag-04min15sec-1991.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13962",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 256,
+  "year": 1991,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Tamara Berzoi"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "o-viorea-la-polul-nord-rm",
+  "storyId": "o-viorea-la-polul-nord",
+  "title": "O viorea la Polul Nord (Povestea de seară, 1974)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-269-VIOREAUA-DE-LA-POLUL-NORD-aut-Gianni-Rodari-lect-Margareta-Ureche-red-V-Tomuz-04min51sec-1974.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13960",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 291,
+  "year": 1974,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "fratii-fericiti-rm",
+  "storyId": "fratii-fericiti",
+  "title": "Frații fericiți (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-228-FRAII-FERICII-aut-Iurii-Iarm-lect-Arcadie-Planda-reg-Elena-malco-red-Victoria-Tomuz-05min00sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13939",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 300,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "firul-de-pai-si-bobul-de-fasole-rm",
+  "storyId": "firul-de-pai-si-bobul-de-fasole",
+  "title": "Firul de pai și bobul de fasole (Povestea de seară, 1974)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-261-FIRUL-DE-PAI-I-BOBUL-DE-FASOLE-aut-Fraii-Grimm-lect-Margareta-Ureche-red-Victoria-Tomuz-04min42sec-1974.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13928",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 283,
+  "year": 1974,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "alba-ca-zapada-rm",
+  "storyId": "alba-ca-zapada",
+  "title": "Albă ca Zăpada și cei șapte pitici (Povestea de seară, 2005)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-682-ALBA-CA-ZPADA-aut-Fraii-Grimm-lect-Valeriu-Mrza-red-Ecaterina-Cojocaru-04min58sec-2005.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13940",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 298,
+  "year": 2005,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Valeriu Mârza"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "iepurele-si-ariciul-rm",
+  "storyId": "iepurele-si-ariciul",
+  "title": "Iepurele și ariciul (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-175-IEPURELE-I-ARICIUL-aut-Fraii-Grimm-lect-Arcadie-Planda-reg-Elena-malco-red-Victoria-Tomuz-04min59sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13937",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 300,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "matusica-holle-rm",
+  "storyId": "matusica-holle",
+  "title": "Bunicuța Viscolina (Mătușica Holle, Radio Moldova, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-204-BUNICUA-VISCOLINA-aut-Fraii-Grimm-lect-Arcadie-Planda-reg-Elena-malco-red-Victoria-Tomuz-04min54sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13938",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 295,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "frumoasa-adormita-rm",
+  "storyId": "frumoasa-din-padurea-adormita",
+  "title": "Frumoasa din pădurea adormită (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/frumoasa-adormi.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13936",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 674,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "spiridusii-rm",
+  "storyId": "spiridusii",
+  "title": "Spiridușii (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-131-SPIRIDUII-aut-Fraii-Grimm-lect-Arcadie-Planda-reg-Elena-malco-red-Victoria-Tomuz-04min42sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13935",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 283,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "vulpea-si-pisica-grimm-rm",
+  "storyId": "vulpea-si-pisica-grimm",
+  "title": "Vulpea și pisica (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-118-VULPEA-I-PISICA-aut-Fraii-Grimm-lect-Margareta-Ureche-reg-Elena-malco-red-Victoria-Tomuz-04min52sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13934",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 293,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "vulpea-si-gastele-grimm-rm",
+  "storyId": "vulpea-si-gastele-grimm",
+  "title": "Vulpea și gâștele (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-080-VULPEA-I-GTELE-aut-Fraii-Grimm-muz-Dm-Blajinu-lect-Margareta-Ureche-reg-G-Savenco-red-V-Tomuz-04min20sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13933",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 260,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Galina Savenco",
+   "music": "Dumitru Blajinu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cenusareasa-rm",
+  "storyId": "cenusareasa",
+  "title": "Cenușăreasa (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-015-CENUREASA-TOATE-EPIZOADELE--aut-Fraii-Grimm-lect-Margareta-Ureche-reg-Eremia-Petracu-red-Victoria-Tomuz-04min24sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13932",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 1530,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Eremia Petrașcu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "acul-fusul-si-suveica-rm",
+  "storyId": "acul-fusul-si-suveica",
+  "title": "Acul, fusul și suveica (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-002-FUSUL-SUVEICA-I-ACUL-aut-Fraii-Grimm-lect-Margareta-Ureche-reg-Eremia-Petracu-red-V-Tomuz-04min49sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13931",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 289,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Eremia Petrașcu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-furnicii-druta-rm",
+  "storyId": "povestea-furnicii-druta",
+  "title": "Povestea furnicii (Povestea de seară, 1986)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-439-POVESTEA-FURNICII-TOT-aut-Ion-Dru-lect-Arcadie-Planda-red-Sanda-ru-04min53sec-1986.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13957",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 529,
+  "year": 1986,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "trofimas-se-duce-la-scoala-rm",
+  "storyId": "trofimas-se-duce-la-scoala",
+  "title": "Trofimaș se duce la școală (Povestea de seară, 1975)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-343-TROFIMA-SE-DUCE-LA-COAL-TOT-aut-Ion-Dru-lect-Arcadie-Planda-red-V-Tomuz-04min04sec-1975.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13956",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 473,
+  "year": 1975,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "bobocel-cu-ale-lui-rm",
+  "storyId": "bobocel-cu-ale-lui",
+  "title": "Bobocel cu ale lui (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-182-BOBOCEL-CU-ALE-LUI-aut-Ion-Dru-lect-Arcadie-Planda-reg-Elena-malco-red-Victoria-Tomuz-04min04sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13955",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 244,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "fata-babei-si-fata-mosneagului-rm",
+  "storyId": "fata-mosului-cea-cuminte",
+  "title": "Fata moșului cea cuminte (Povestea de seară, 1986)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/11/NB-434-FATA-BABEI-I-FATA-MONEAGULUI-TOT--aut-Ion-Creang-lect-Arcadie-Planda-04min05sec-1986.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13952",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 877,
+  "year": 1986,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "inul-si-camasa-rm",
+  "storyId": "inul-si-camasa",
+  "title": "Inul și cămașa (Povestea de seară, 1987)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-465-INUL-I-CMAA-aut-Ion-Creang-lect-Arcadie-Planda-red-Sanda-ru-04min54sec-1987.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13949",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 295,
+  "year": 1987,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "pupaza-din-tei-rm",
+  "storyId": "pupaza-din-tei",
+  "title": "Pupăza din tei (Povestea de seară, 1984)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-417-PUPZA-aut-Ion-Creang-lect-Arcadie-Planda-red-Zinaida-Izba-04min28sec-1984.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13948",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 268,
+  "year": 1984,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ursul-pacalit-de-vulpe-rm",
+  "storyId": "ursul-pacalit-de-vulpe",
+  "title": "Ursul păcălit de vulpe (Povestea de seară, 1974)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-264-URSUL-PCLIT-DE-VULPE-aut-Ion-Creang-lect-Margareta-Ureche-04min41sec--1974.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13947",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 282,
+  "year": 1974,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Victor Gherlac"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "punguta-cu-doi-bani-rm",
+  "storyId": "punguta-cu-doi-bani",
+  "title": "Punguța cu doi bani (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-030-PUNGUA-CU-DOI-BANI-aut-Ion-Creang-TOT--lect-Arcadie-Planda-reg-Eremia-Petracu-red-V-Tomuz-04min12sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13946",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 649,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Eremia Petrașcu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "literele-lui-guguta-rm",
+  "storyId": "literele-lui-guguta",
+  "title": "Literele lui Guguță (Povestea de seară, 1980)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/LITERELE-LUI-GUGU-aut-Spiridon-Vangheli-lect-Arcadie-Planda-red-Petre-Grozavu-03min53sec-1980.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13924",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 234,
+  "year": 1980,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ceasul-lui-guguta-rm",
+  "storyId": "ceasul-lui-guguta",
+  "title": "Ceasul lui Guguță (Povestea de seară, 1983)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/CEASUL-LUI-GUGU--aut-Spiridon-Vangheli-lect-Arcadie-Planda-04min54sec--1983.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13922",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 294,
+  "year": 1983,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Vasile Puiu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "un-vis-de-anul-nou-rm",
+  "storyId": "un-vis-de-anul-nou",
+  "title": "Un vis de Anul Nou (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/UN-VIS-DE-ANUL-NOU-aut-Spiridon-Vangheli-lect-Arcadie-Planda-reg-Elena-malco-red-Victoria-Tomuz-04min44sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13926",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 285,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ploaia-vangheli-rm",
+  "storyId": "ploaia-vangheli",
+  "title": "Ploaia (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/PLOAIA-aut-Spiridon-Vangheli-muz-Dm-Blajinu-lect-Margareta-Ureche-reg-G-Savenco-red-V-Tomuz-04min40sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13925",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 280,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Galina Savenco",
+   "music": "Dumitru Blajinu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "hulubul-vangheli-rm",
+  "storyId": "hulubul-vangheli",
+  "title": "Hulubul (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/HULUBUL-aut-Spiridon-Vangheli-lect-Arcadie-Planda-muz-Dm-Blajinu-reg-Galina-Savenco-red-V-Tomuz-04min35sec1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13923",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 275,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Galina Savenco",
+   "music": "Dumitru Blajinu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "barba-lui-mos-gerila-rm",
+  "storyId": "barba-lui-mos-gerila",
+  "title": "Barba lui Moș Gerilă (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/10/BARBA-LUI-MOGERILA-aut-Spiridon-Vangheli-lect-Margareta-Ureche-reg-Ag-Bogdanova-04min30sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13921",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 271,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Agnesa Bogdanova"
+  },
+  "cover": "https://storage.radiomoldova.md/images/cd7ae40e-c150-4b3b-87ee-0393031c4dea.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "fulgii-feti-frumosi-rm",
+  "storyId": "fulgii-feti-frumosi",
+  "title": "Fulgii Feți-Frumoși (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/6/FULGII-FEI-FRUMOI-aut-Spiridon-Vangheli-lect-Arcadie-Planda-reg-Elena-malco-red-Victoria-Tomuz-04min22sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13864",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 263,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cocostarcul-vangheli-rm",
+  "storyId": "cocostarcul-vangheli",
+  "title": "Cocostârcul (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/6/COCOSTRCUL-doua-epizoade---aut-Spiridon-Vangheli-muz-Dm-Blajinu-lect-Arcadie-Planda-reg-Elena-malco-red-V-Tomuz-04min03sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13862",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 426,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco",
+   "music": "Dumitru Blajinu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/d1c8d9ca-9b62-49fe-a85b-5dd575ae4936.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "casa-cea-mare-vangheli-rm",
+  "storyId": "casa-cea-mare-vangheli",
+  "title": "Casa cea mare (Povestea de seară, 1973)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/6/CASA-CEA-MARE-aut-Spiridon-Vangheli-lect-Margareta-Ureche-reg-Eremia-Petracu-red-V-Tomuz-04min35sec-1973.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13863",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 275,
+  "year": 1973,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ],
+   "director": "Eremia Petrașcu"
+  },
+  "cover": "https://storage.radiomoldova.md/images/4d8afa52-7c07-467f-bd7c-3beb035b2858.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ghioceii-vangheli-rm",
+  "storyId": "ghioceii-vangheli",
+  "title": "Ghioceii (Povestea de seară, 1974)",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://original.trm.md/video/definst/MP4:2026/3/6/GHIOCEII-aut-Spiridon-Vangheli-lect-Arcadie-Planda-red-Victoria-Tomuz-04min11sec1974.m4a/playlist.m3u8",
+    "page": "https://radiomoldova.md/f/ro/13865",
+    "via": "Radio Moldova"
+   }
+  ],
+  "duration": 252,
+  "year": 1974,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "somn",
+   "linistitoare"
+  ],
+  "age": 3,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ],
+   "director": "Elena Șmalco"
+  },
+  "cover": "https://storage.radiomoldova.md/images/9d6e402b-853a-44fc-80ee-959ca7856c15.jpg",
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
  }
 ]

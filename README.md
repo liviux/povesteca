@@ -10,13 +10,14 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog.
 
-Acum sunt 1215 povești și 1488 de înregistrări, din 24 de surse gratuite:
+Acum sunt 1282 povești și 1579 de înregistrări, din 25 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
 - [Povești Audio Vinil](https://archive.org/search?query=%22Povesti+Audio+Vinil%22) (Internet Archive)
 - [eTeatru (Teatrul Național Radiofonic)](https://eteatru.ro/spectacole/povesti/) (audio direct MP3)
 - [Arhiva Radio România](https://radio-arhive.ro/teme/emisiuni-pentru-copii-i-tineret/101) (audio direct MP3, „Noapte bună, copii!” și Teatrul Național Radiofonic pentru Copii)
+- [Radio Moldova (Teleradio-Moldova)](https://radiomoldova.md/s/ro/73) (audio direct HLS, „Teatru la microfon pentru copii” și „Povestea de seară”)
 - [Arhiva deschisă Culturalia („Pe unde”)](https://mariuscomper.uk/pe-unde/) (audio direct MP3)
 - [A Fost Odată](https://afostodata.ro/) (audio direct MP3, inclusiv „Români de poveste” și „Patrimoniu”)
 - [Oameni mici și mari](https://podcasters.spotify.com/pod/show/oamenimicisimari) (audio direct MP3, actori clujeni)
@@ -61,7 +62,7 @@ Ce s-a schimbat de la o versiune la alta e în [CHANGELOG.md](CHANGELOG.md) (în
 
 | Sursa | Ce merge |
 |---|---|
-| Internet Archive & Audio direct | Redare directă din fișier MP3/MP4: pauză, derulare, viteză, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
+| Internet Archive & Audio direct | Redare directă din fișier MP3/MP4 sau flux audio HLS (`.m3u8`): pauză, derulare, viteză, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
 | YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, viteză, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul. E regula lor și aplicația n-o ocolește. |
 | Altă sursă | Buton „Deschide la sursă”. |
 
@@ -72,7 +73,7 @@ Când o înregistrare are mai multe linkuri, alegi din player pe care îl ascul�
 - Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
 - Nu există conturi, cookie-uri proprii sau statistici de trafic.
-- Pagina încarcă fonturile de la Google Fonts, copertele, sunetul și playerul video de la Internet Archive și YouTube, iar fotografiile oamenilor de la Wikimedia Commons.
+- Pagina încarcă fonturile de la Google Fonts, copertele, sunetul și playerul video de la Internet Archive, YouTube și sursele audio directe din catalog, iar fotografiile oamenilor de la Wikimedia Commons.
 
 ## Voturi
 
@@ -120,7 +121,7 @@ Reguli:
 - **O producție înseamnă o singură înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`, iar playerul trece la următorul dacă primul nu mai merge. O sursă în plus e binevenită, pentru că povestea pornește și când una dispare. Primul vine linkul direct, fără reclame (Internet Archive sau fișier audio), apoi YouTube.
 - **Ce nu știi, lași gol.** Câmpurile lipsă nu apar în pagină.
 - **Ce e ghicit se trece în `estimated`.** Pagina arată un „≈” lângă valoarea respectivă.
-- `duration` e în secunde. `start` și `end` (tot în secunde) sunt pentru povești aflate în mijlocul unei înregistrări mai lungi.
+- `duration` e în secunde. Când o înregistrare cuprinde mai multe povești, fiecare poveste intră separat, cu `start` și `end` (în secunde) verificate, astfel încât playerul să pornească singur de unde începe povestea aleasă și să se oprească la finalul ei.
 - `quality` (1–5) arată cât de bogată e producția (distribuție, muzică, regie), nu cât de populară e. Nu apare în pagină; ajută doar la ordinea „Recomandate”.
 - `"cover": false` e pentru înregistrările care n-au copertă la sursă. Fără el, archive.org arată în loc de copertă o formă de undă neagră; cu el, aplicația pune inițiala poveștii pe un fundal colorat.
 - Valorile permise pentru `kind`, `voices`, `sfx`, `music`, `moods` și `genre` sunt în `scripts/check-catalog.js`.
@@ -147,7 +148,7 @@ catalog/            datele (JSON)
 api/ratings.js      funcția serverless pentru voturi (Redis)
 scripts/            verificarea catalogului, fotografiile și linkurile din Wikidata
 src/data.js         indexuri, căutare, filtre, sortare
-src/player.jsx      playerul (Internet Archive + YouTube), modul Noapte bună
+src/player.jsx      playerul (audio direct, HLS și YouTube), modul Noapte bună
 src/pages.jsx       paginile
 src/ui.jsx          carduri, butoane, iconițe
 src/i18n.js         textele RO/EN
@@ -155,7 +156,7 @@ src/store.js        preferințe locale, rutare, voturi
 src/styles.css      cele trei teme
 ```
 
-Vite + Preact, fără alte dependențe.
+Vite + Preact (cu `hls.js` încărcat la cerere doar pentru fluxurile HLS).
 
 ## Drepturi
 
