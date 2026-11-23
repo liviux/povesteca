@@ -208,7 +208,7 @@ export function search(q) {
 }
 
 // --- filters shared by Explore and "Surprinde-mă"
-export const DURATIONS = { scurt: [0, 900], mediu: [900, 1800], lung: [1800, 3600], foarte: [3600, 1e9] };
+export const DURATIONS = { mic: [0, 360], scurt: [360, 900], mediu: [900, 1800], lung: [1800, 3600], foarte: [3600, 1e9] };
 export function applyFilters(list, f, ratings = {}) {
   return list.filter((v) => {
     const s = storyById.get(v.storyId);

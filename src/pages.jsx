@@ -67,7 +67,7 @@ export function Home() {
     ['tonight', picks.tonight, '/explorare?mood=linistitoare&sort=scurte'],
     ['radio', picks.radio, '/explorare?kind=teatru-radiofonic'],
     ['cast', picks.cast, '/explorare?voices=distributie'],
-    ['short', picks.short, '/explorare?dur=scurt&sort=scurte'],
+    ['short', picks.short, '/explorare?sort=scurte'],
     ['top', sortVersions(versions.filter((v) => R[v.id]?.[1]), 'rating', R).slice(0, 12), '/explorare?sort=rating'],
   ];
   return (

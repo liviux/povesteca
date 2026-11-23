@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.18.0] - 2026-11-23
+
+### Added
+- Filtru nou de durată: „sub 6 min”. Opțiunea „sub 15 min” a devenit „6–15 min”.
+
 ## [1.17.0] - 2026-11-23
 
 ### Changed
