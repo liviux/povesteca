@@ -534,6 +534,12 @@ input[type='range']::-moz-range-thumb { width: 16px; height: 16px; border-radius
 }
 .sleep-chip { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 800; background: var(--surface-2); padding: 4px 8px; border-radius: 999px; font-variant-numeric: tabular-nums; }
 @media (min-width: 360px) { .controls .skip { display: inline-grid; } }
+/* phones: the seek bar gets its own row, edge to edge, with the buttons centred under it */
+@media (max-width: 599px) {
+  body:has(.dock.open) { --dock-h: 180px; }
+  .dock-main { flex-wrap: wrap; justify-content: center; row-gap: 0; }
+  .dock-main .progress-row { order: -1; flex-basis: 100%; }
+}
 @media (min-width: 900px) {
   body:has(.dock.open) { --dock-h: 96px; }
   .dock-bar { grid-template-columns: minmax(220px, 1fr) minmax(360px, 1.6fr) auto; grid-template-areas: 'info main side'; padding-inline: 24px; align-items: center; }

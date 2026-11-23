@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.15.1] - 2026-11-23
+
+### Changed
+- Pe telefon, bara de derulare din player ocupă acum tot rândul, de la stânga la dreapta, iar butoanele stau sub ea. E mai ușor să sari exact unde vrei în poveste.
+
 ## [1.15.0] - 2026-11-23
 
 ### Added

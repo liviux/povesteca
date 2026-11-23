@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.15.1] - 2026-11-23
+
+### Changed
+- On phones, the player's seek bar now spans the whole row, left to right, with the buttons below it. Jumping to the exact spot in a story is easier.
+
 ## [1.15.0] - 2026-11-23
 
 ### Added
