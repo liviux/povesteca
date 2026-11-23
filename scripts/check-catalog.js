@@ -32,7 +32,7 @@ ids(collections, 'collections');
 
 // catalog/wiki.json comes from scripts/wiki.js (+ catalog/wiki-manual.json): freely licensed photos with source & credit, plus verified Wikipedia and Goodreads links
 const wiki = load('wiki');
-const PHOTO_LIC = /^(public domain|cc0( \d(\.\d)?)?|cc by(-nc)?(-sa)?( \d(\.\d)?( [a-z]{2})?)?|attribution)$/i;
+const PHOTO_LIC = /^(public domain( mark( \d(\.\d)?)?)?|cc0( \d(\.\d)?)?|cc by(-nc)?(-sa)?( \d(\.\d)?( [a-z]{2})?)?|attribution|gfdl( \d(\.\d)?)?|free art license( \d(\.\d)?)?|fal( \d(\.\d)?)?|open government licence( \d(\.\d)?)?|ogl( \d(\.\d)?)?|copyrighted free use|no known copyright restrictions)$/i;
 for (const [name, p] of Object.entries(wiki.people)) {
   if (p.wikipedia && !/^https:\/\/[a-z-]+\.wikipedia\.org\/wiki\/.+/.test(p.wikipedia)) err(`wiki ${name}: bad Wikipedia URL "${p.wikipedia}"`);
   if (p.goodreads && !/^https:\/\/www\.goodreads\.com\/author\/show\/\d+/.test(p.goodreads)) err(`wiki ${name}: bad Goodreads author URL "${p.goodreads}"`);

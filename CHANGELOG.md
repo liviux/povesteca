@@ -1,5 +1,15 @@
 # Noutăți
 
+Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
+
+## [1.16.1] - 2026-11-23
+
+### Added
+- Fotografii noi cu licențe libere pentru nouă autori, actori și muzicieni din catalog, fiecare cu autor, licență și link către sursă pe pagina persoanei.
+
+### Changed
+- Pe lângă licențele Creative Commons deja acceptate, pozele pot veni acum și sub Public Domain Mark, GFDL, Free Art License sau Open Government Licence.
+
 ## [1.16.0] - 2026-11-23
 
 ### Added
@@ -8,8 +18,6 @@
 
 ### Removed
 - Au fost scoase cele 7 înregistrări inCAP care se ascultau doar pe SoundCloud.
-
-Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
 ## [1.15.7] - 2026-11-23
 

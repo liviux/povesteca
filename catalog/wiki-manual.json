@@ -163,6 +163,15 @@
     "Cleopatra Lorințiu": {
       "goodreads": "https://www.goodreads.com/author/show/7870139"
     },
+    "Constantin Bărbulescu": {
+      "photo": {
+        "src": "https://memoriipesticla.ro/resurse/imagini/RADOR/Cutia-106/BU-FD-01073-9-01293/Original/BU-FD-01073-9-01293-0013.jpg",
+        "page": "https://www.europeana.eu/item/1656/Plate_aff78155_40d4_4c72_9c8a_37ffa69344eb",
+        "license": "CC BY-SA 4.0",
+        "by": "Arhiva Națională de Filme / Memoria Sticlei",
+        "source": "Europeana"
+      }
+    },
     "Constantin Chiriță": {
       "goodreads": "https://www.goodreads.com/author/show/845927"
     },
@@ -399,6 +408,16 @@
     "Grigore Băjenaru": {
       "goodreads": "https://www.goodreads.com/author/show/2030507"
     },
+    "Gruia Mihai Sandu": {
+      "wikidata": "Q12735470",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mihai_Gruia_Sandu_b_w.jpg/330px-Mihai_Gruia_Sandu_b_w.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mihai_Gruia_Sandu_b_w.jpg",
+        "license": "CC BY 3.0",
+        "by": "Uniti Salvam"
+      },
+      "wikipedia": "https://ro.wikipedia.org/wiki/Mihai_Gruia_Sandu"
+    },
     "Gundi Herget": {
       "goodreads": "https://www.goodreads.com/author/show/14968433"
     },
@@ -472,6 +491,14 @@
     "Irimie Străuț": {
       "goodreads": "https://www.goodreads.com/author/show/17785198"
     },
+    "Irina Furdui": {
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Irina_Furdui_%282018%29.jpg/330px-Irina_Furdui_%282018%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Irina_Furdui_(2018).jpg",
+        "license": "CC BY-SA 4.0",
+        "by": "Razvan Socol"
+      }
+    },
     "Irina Răchițeanu-Șirianu": {
       "wikidata": "Q16593632"
     },
@@ -536,6 +563,12 @@
       "goodreads": "https://www.goodreads.com/author/show/709211"
     },
     "Ken Schoolland": {
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ken_Schoolland.jpg/330px-Ken_Schoolland.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ken_Schoolland.jpg",
+        "license": "CC BY-SA 2.0",
+        "by": "Gage Skidmore"
+      },
       "goodreads": "https://www.goodreads.com/author/show/49296.Ken_Schoolland"
     },
     "Kimberly Andrews": {
@@ -693,6 +726,17 @@
         "by": "MihaiLungeanu2025"
       }
     },
+    "Mihai Popescu": {
+      "wikidata": "Q20817004",
+      "photo": {
+        "src": "https://memoriipesticla.ro/resurse/imagini/RADOR/Cutia-105/BU-FD-01073-9-01286/Original/BU-FD-01073-9-01286-0001.jpg",
+        "page": "https://www.europeana.eu/item/1656/Plate_017a6490_9ced_4fc6_8d99_2e735d0108f9",
+        "license": "CC BY-SA 4.0",
+        "by": "Arhiva Națională de Filme / Memoria Sticlei",
+        "source": "Europeana"
+      },
+      "wikipedia": "https://ro.wikipedia.org/wiki/Mihai_Popescu_(actor)"
+    },
     "Mihai Stan": {
       "wikidata": "Q97197028"
     },
@@ -746,6 +790,14 @@
     },
     "Mircea Sântimbreanu": {
       "goodreads": "https://www.goodreads.com/author/show/9789501"
+    },
+    "Mișu Constantinescu": {
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Misu_Constantinescu.jpg/330px-Misu_Constantinescu.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Misu_Constantinescu.jpg",
+        "license": "CC BY-SA 4.0",
+        "by": "LiteralmenteMisu"
+      }
     },
     "Nicolae Batzaria": {
       "goodreads": "https://www.goodreads.com/author/show/4178063"
@@ -837,6 +889,15 @@
     },
     "Radu Vasiliu": {
       "goodreads": "https://www.goodreads.com/author/show/56283214"
+    },
+    "Radu Zaharescu": {
+      "photo": {
+        "src": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fomeka.bjc.ro%2Fomeka%2Ffiles%2Foriginal%2F4%2F318%2Fbjn_radu_zaharescu.jpg&type=IMAGE",
+        "page": "https://www.europeana.eu/item/2058616/omeka_items_show_318",
+        "license": "CC0",
+        "by": "Gelu Marin",
+        "source": "Europeana"
+      }
     },
     "Răzvan Popa": {
       "wikidata": "Q12740253"
@@ -970,7 +1031,13 @@
       }
     },
     "Teatrul Ion Creangă": {
-      "wikidata": "Q18549765"
+      "wikidata": "Q18549765",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Teatrul_Ion_Creanga.jpg/330px-Teatrul_Ion_Creanga.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Teatrul_Ion_Creanga.jpg",
+        "license": "CC BY 2.5",
+        "by": "Pixi at ro.wikipedia"
+      }
     },
     "Theodor Danetti": {
       "photo": {

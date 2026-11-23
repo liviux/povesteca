@@ -7,8 +7,9 @@
 //   people in the credits must be Romanian (except curated international composers/adaptors); names checked by hand
 //   and found to be someone else go in WRONG / wiki-manual.json wrong;
 // - a story matches only a work by the same author (on Wikidata) whose title is the same, or a verified entry in wiki-manual.json;
-// - photos are under a license that allows reuse with credit in a non-commercial project (public domain, CC0,
-//   CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA or Wikimedia Commons Attribution; never ND or all-rights-reserved);
+// - photos are under a license that allows reuse with credit in a non-commercial project (public domain,
+//   Public Domain Mark, CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, Commons Attribution, GFDL, Free Art
+//   License or Open Government Licence; never ND, fair use or all-rights-reserved);
 //   the app shows their author, license and source at the bottom of the person's page;
 // - Wikipedia: the Romanian article for Romanians and Romanian stories, the English one for everyone else, falling back to the other.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
@@ -136,9 +137,10 @@ for (const name of allNames) { const d = pick(name); if (d) people[name] = d; }
 
 // 3. photos: only freely licensed files, with author and license
 const strip = (h) => (h || '').replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 120) || null;
-// reuse with credit in a non-commercial project: public domain, CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, or Commons Attribution
-const FREE = /^(pd|cc0|cc-zero|cc-by(-nc)?(-sa)?-\d|attribution$)/i;
-const FREE_SHORT = /^(public domain|cc0|cc by(-nc)?(-sa)?( \d|$)|attribution$)/i;
+// reuse with credit in a non-commercial project: public domain (including Public Domain Mark), CC0, CC BY,
+// CC BY-SA, CC BY-NC, CC BY-NC-SA, Commons Attribution, GFDL, Free Art License or Open Government Licence
+const FREE = /^(pd|cc0|cc-zero|cc-pd|cc-by(-nc)?(-sa)?-\d|attribution$|gfdl( \d(\.\d)?)?|fal( \d(\.\d)?)?$|ogl( \d(\.\d)?)?$)/i;
+const FREE_SHORT = /^(public domain( mark( \d(\.\d)?)?)?|cc0|cc by(-nc)?(-sa)?( \d|$)|attribution$|gfdl( \d(\.\d)?)?|free art license( \d(\.\d)?)?|fal( \d|$)|open government licence( \d|$)|ogl( \d|$))/i;
 const photos = new Map();
 const files = [...new Set(Object.values(people).map((d) => d.image && decodeURIComponent(d.image.split('/').pop()).replace(/_/g, ' ')).filter(Boolean))];
 for (const part of chunks(files, 40)) {
