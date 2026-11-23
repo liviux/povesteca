@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.16.0] - 2026-11-23
+
+### Added
+- **New stories:** 35 actor-performed stories from Radio Romania’s archive on LaTimp.eu and the 3g HUB series “It Happened on a Thursday” (8 plays).
+- 3g HUB recordings now include a sound design credit.
+
+### Removed
+- Removed the seven inCAP recordings that could only be played on SoundCloud.
+
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
 ## [1.15.7] - 2026-11-23

@@ -131,7 +131,7 @@ const stats = (...parts) => parts.filter(Boolean).map((x) => x.replace(/ /g, '\u
 const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
 const storiesWithChar = countBy(stories, (s) => s.characters || []);
 const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
-// everyone credited on a recording (narrators, cast, directors, adaptation, music), most recordings first
+// everyone credited on a recording (narrators, cast, directors, adaptation, music and sound), most recordings first
 const recsWith = countBy(versions, (v) => new Set(people(v)));
 const crew = [...recsWith.keys()].sort((a, b) => a.localeCompare(b, 'ro'));
 
@@ -461,11 +461,11 @@ export function VersionPage({ id }) {
             })}</ul></dd>
           </dl>
         </section>
-        {(c.cast || c.director || c.narrator) && (
+        {(c.cast || c.director || c.narrator || c.soundDesign) && (
           <section aria-labelledby="cr">
             <h2 id="cr">{t.credits.cast}</h2>
             <dl class="facts">
-              {['director', 'adaptation', 'music', 'songs'].filter((k) => c[k]).map((k) => <><dt>{t.credits[k]}</dt><dd>{splitNames(c[k]).map((n, i) => <>{i ? ', ' : ''}{person(n)}</>)}</dd></>)}
+              {['director', 'adaptation', 'music', 'songs', 'soundDesign'].filter((k) => c[k]).map((k) => <><dt>{t.credits[k]}</dt><dd>{splitNames(c[k]).map((n, i) => <>{i ? ', ' : ''}{person(n)}</>)}</dd></>)}
               {c.narrator && <><dt>{t.credits.narrator}</dt><dd>{c.narrator.map((n, i) => <>{i ? ', ' : ''}{person(n)}</>)}</dd></>}
             </dl>
             {c.cast && <ul class="cast">{c.cast.map((x) => <li>{x.role && <span class="muted">{x.role}</span>}{person(x.name)}</li>)}</ul>}

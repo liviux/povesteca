@@ -55311,6 +55311,12 @@
   "sourceId": "yt-teatru-pe-vinil",
   "links": [
    {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/R%C4%83va%C8%99ul%20ascuns%20(basm%20popular%20gruzin).mp3",
+    "page": "https://latimp.eu/ravasul-ascuns-legenda-populara-gruzina/",
+    "via": "LaTimp.eu"
+   },
+   {
     "type": "youtube",
     "id": "Ea4PIRtGB0E",
     "via": "Teatru pe Vinil"
@@ -57020,6 +57026,12 @@
   "title": "Daud și Sapilah (1972)",
   "sourceId": "yt-teatru-pe-vinil",
   "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/Daud%20%C8%99i%20Sapilah%20basm%20popular%20indonezian.mp3",
+    "page": "https://latimp.eu/daud-si-sapilah-basm-popular-indonezian-1972/",
+    "via": "LaTimp.eu"
+   },
    {
     "type": "youtube",
     "id": "G2cmRi6BW9Q",
@@ -92579,370 +92591,2556 @@
   "cover": "https://api.zuper.md/resources/2023/11/03/f888a164-aa26-4d9d-9df2-8a84ff3d9207_1920x10802.jpg"
  },
  {
-  "id": "puiul-rescris-incap-2020",
-  "storyId": "puiul-rescris",
-  "title": "Puiul (REscris)",
-  "sourceId": "asociatia-incap",
+  "id": "piciul-alphonse-daudet-latimp",
+  "storyId": "piciul-alphonse-daudet",
+  "title": "Piciul (1997)",
+  "sourceId": "latimp",
   "links": [
    {
-    "type": "link",
-    "url": "https://soundcloud.com/user-739803593-473116796/puiul-rescris",
-    "via": "SoundCloud"
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/06/16033226/Piciul-teatru-radiofonic-pentru-copii-Alphonse-Daudet-latimp.eu_.mp3",
+    "page": "https://latimp.eu/piciul-teatru-audio-pentru-copii-alphonse-daudet/",
+    "via": "LaTimp.eu"
    }
   ],
-  "duration": 920,
-  "year": 2020,
-  "kind": "dramatizare",
-  "voices": "mai-multe",
+  "duration": 3437,
+  "year": 1997,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
   "music": "ambientala",
   "moods": [
-   "educativa"
+   "aventuroasa"
   ],
-  "age": 9,
-  "addedAt": "2026-11-23",
-  "estimated": [
-   "kind",
-   "voices",
-   "music",
-   "moods",
-   "age"
-  ],
+  "age": 8,
+  "quality": 4,
   "credits": {
-   "director": "Andreea Lăcătuș",
-   "music": "Sever Andrei",
    "cast": [
     {
-     "role": "Voci în serie",
-     "name": "Minodora Broscoi"
+     "role": "Distribuție",
+     "name": "Petre Lupu"
     },
     {
-     "role": "Voci în serie",
-     "name": "Eduard Burghelea"
+     "role": "Distribuție",
+     "name": "Alexandrina Halip"
     },
     {
-     "role": "Voci în serie",
-     "name": "Alexandru Beteringhe"
+     "role": "Distribuție",
+     "name": "Cristian Sofron"
     },
     {
-     "role": "Voci în serie",
-     "name": "Carla Mihai"
+     "role": "Distribuție",
+     "name": "Andrei Pop"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Paula Radulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mitica Popescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Rodica Popescu Bitanescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Silviu Stanculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Pavlescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alfred Demetriu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Bindea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valentin Teodosiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Theodor Danetti"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mirela Dumitru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Crina Muresan"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dragos Lunceanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
     }
-   ],
-   "adaptation": "Elevii din Scânteia"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/06/Piciul-–-teatru-radiofonic-comedie-pentru-copii-Alphonse-Daudet-latimp.eu_.jpg"
+ },
+ {
+  "id": "alice-in-tara-oglinzilor-latimp",
+  "storyId": "alice-in-tara-oglinzilor",
+  "title": "Alice în Țara Oglinzilor",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://cdn1.latimp.eu/cdn/teatru/teatru_radiofonic_pentru_copii_Alice_in_%C5%A3ara_oglinzilor_Lewis_Caroll..m4a",
+    "page": "https://latimp.eu/tabla-de-sah-poveste-audio-pentru-copii-dupa-lewis-caroll/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3264,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Pomoje"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Lucia Maier"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Călugărița"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Popovici"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Anne Marie Ziegler"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Bindea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Bogdan Caragea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Romeo Stavăr"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2021/05/alice-in-tara-oglinzilor-poveste-audio-pentru-copii-latimp.jpg"
+ },
+ {
+  "id": "trista-poveste-a-printesei-din-cel-mai-mic-regat-latimp",
+  "storyId": "trista-poveste-a-printesei-din-cel-mai-mic-regat",
+  "title": "Trista poveste a Prințesei din cel mai mic Regat",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://cdn1.latimp.eu/cdn/teatru/Trista_Poveste_A_Printesei_Din_Cel_Mai_Mic_Regat_teatru_audio_pentru_copii_latimp.m4a",
+    "page": "https://latimp.eu/trista-poveste-a-printesei-din-cel-mai-mic-regat-povesti-audio-pentru-copii/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3290,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Constantin Cojocaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Andreea Bibiri"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petre Lupu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adrian Damian"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Grigore"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Veronica Gheorghe"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Virginia Mirea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valentin Uritescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Dascaliuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Titi Dumitrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Romeo Stavăr"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2021/05/Trista-Poveste-A-Printesei-teatru-audio-la-microfon-pentru-copii.jpg"
+ },
+ {
+  "id": "tara-bunului-plac-latimp",
+  "storyId": "tara-bunului-plac",
+  "title": "Țara bunului plac (1995)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/07/30182333/Seara-bunului-plac-de-Andre-teatru-radiofonic-pentru-copii.m4a",
+    "page": "https://latimp.eu/tara-bunului-plac-de-andre-maurois-teatru-radiofonic-pentru-copii/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 2902,
+  "year": 1995,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sanda Toma"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Ștrengaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Paula Rădulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valeria Ogășanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petre Lupu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valentin Teodosiu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/07/Tara-bunului-plac-de-Andre-Maurois-teatru-radiofonic-pentru-copii-latimp.eu_.jpg"
+ },
+ {
+  "id": "dupa-fapta-si-rasplata-latimp",
+  "storyId": "dupa-fapta-si-rasplata",
+  "title": "După faptă și răsplată (1988)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://cdn1.latimp.eu/cdn/teatru/dupa_fapta_si_rasplata_teatru_radiofonic_pentru_copii_alexandr_puskin.m4a",
+    "page": "https://latimp.eu/dupa-fapta-si-rasplata-teatru-radiofonic-pentru-copii-alexander-puskin/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1573,
+  "year": 1988,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Dinulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Oancea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Boris Petroff"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Chelaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mirela Gorea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Arcudeanu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2021/11/Dupa-fapta-si-rasplata-teatru-audio-pentru-copii-online-gratis-Alexandr-Puskin.jpg"
+ },
+ {
+  "id": "getar-fiul-marii-latimp",
+  "storyId": "getar-fiul-marii",
+  "title": "Getar, fiul mării (1960)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/Getar%2C%20fiul%20m%C4%83rii%20(basm%20popular)%20%20Povesti%20pe%20Vinil.mp3",
+    "page": "https://latimp.eu/getar-fiul-marii-basm-popular-1960/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1767,
+  "year": 1960,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ion Cosma"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Tina Ionescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cornel Elefterescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Heroveanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Roxana Demetrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Aurel Rogalski"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Olga Manolescu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2025/04/basme-populare-latimp.eu_-1.jpg"
+ },
+ {
+  "id": "mihai-voda-si-calaul-latimp",
+  "storyId": "mihai-voda-si-calaul",
+  "title": "Mihai Vodă și călăul (1970)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/06/13131815/Mihai-Voda-si-calaul-legenda-populara.mp3",
+    "page": "https://latimp.eu/mihai-voda-si-calaul-legenda-populara-romaneasca-1970/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1063,
+  "year": 1970,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Cozorici"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Corado Negreanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Traian Dănceanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Jean Reder"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nucu Păunescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Aurel Ghițescu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/06/Mihai-Voda-si-călăul-legendă-populară-românească-1970-legende-latimp.eu_.jpg"
+ },
+ {
+  "id": "judecata-crisanului-latimp",
+  "storyId": "judecata-crisanului",
+  "title": "Judecata Crișanului",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/06/13130412/Judecata-Crisanului-101-legende-populare-romanesti.mp3",
+    "page": "https://latimp.eu/judecata-crisanului-legende-populare-romanesti-scenariu-radiofonic-de-alexandru-mitru/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1625,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "povestitor Damian Crâșmaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Mereuta si altii"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/06/Judecata-Crisanului-legende-populare-romanesti-scenariu-radiofonic-de-Alexandru-Mitru-latimp.eu_.jpg"
+ },
+ {
+  "id": "tema-pentru-acasa-latimp",
+  "storyId": "tema-pentru-acasa",
+  "title": "Temă pentru acasă (1978)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/06/10013253/Tema-pentru-acasa-teatru-audio-pentru-copii-si-parinti-de-scoala-Mile-Poposki.mp3",
+    "page": "https://latimp.eu/tema-pentru-acasa-teatru-audio-pentru-parintii-copiilor-de-mile-poposki/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1603,
+  "year": 1978,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Dem Rădulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Coca Andronescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Delia Radu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ileana Stana Ionescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sandu Sticlaru"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/06/Tema-pentru-acasă-teatru-audio-pentru-parintii-copiilor-de-scoala-Mile-Poposki.jpg"
+ },
+ {
+  "id": "calatoria-silvia-kerim-latimp",
+  "storyId": "calatoria-silvia-kerim",
+  "title": "Călătoria (2005)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/06/09201609/Calatoria-de-Silvia-Kerim-povesti-audio-pentru-copii.mp3",
+    "page": "https://latimp.eu/calatoria-scenariu-radiofonic-de-silvia-kerim-povesti-audio-pentru-copii-2005/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 2560,
+  "year": 2005,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Virginia Rogin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Oana Răsuceanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Ivașcu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Georgeta Cernat"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Marius Rizea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Delia Nartea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Bisericanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adriana Trandafir"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cornelia Pavlovici"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Andrei Barbu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/06/Călătoria-scenariu-radiofonic-de-Silvia-Kerim-povesti-audio-pentru-copii.jpg"
+ },
+ {
+  "id": "cocosul-negru-latimp",
+  "storyId": "cocosul-negru",
+  "title": "Cocoșul negru (1990)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/cdn/teatru/Cocosul%20negru%20-%20Victor%20Eftimiu.mp3",
+    "page": "https://latimp.eu/cocosul-negru-de-victor-eftimiu-basme-si-povesti-romanesti-cu-adrian-pintea-george-constantin-si-ion-caramitru-1990/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 7176,
+  "year": 1990,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Adrian Pintea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Caramitru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Constantin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Florian Pittiș"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mariana Buruiană"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Traian Stănescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Codrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Răzvan Ionescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Dinulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Matei Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cornel Ciupercescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Valentin Uritescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adina Popescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dana Cosma"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ozana Oancea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Răzvan Vasilescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Gheorghiu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/05/cocosul-negru-de-victor-eftimiu-povesti-pentru-copii-teatru-latimp.eu_.jpg"
+ },
+ {
+  "id": "mantica-latimp",
+  "storyId": "mantica",
+  "title": "Manțică",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/05/19225542/Mantica-povesti-audio-basme-pentru-copii.mp3",
+    "page": "https://latimp.eu/mantica-poveste-audio-pentru-copii-basm-tiganesc-teatru-radiofonic/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3306,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Eugen Cristea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Al. Georgescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Pomoje"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Haiduc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Costantin Cojocaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Radu Panamarenco"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Maria Dinulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Romeo Stavăr"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Sandu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Călugărița"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/05/Manţica-poveste-audio-basme-tiganesti-pentru-copii-latimp.eu_.jpg"
+ },
+ {
+  "id": "cantecul-lui-hiawatha-latimp",
+  "storyId": "cantecul-lui-hiawatha",
+  "title": "Cântecul lui Hiawatha",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/04/06052947/teatru-audio-legende-indiene-Henry-Wadsworth-Longfellow-Haiavatha-latimp.mp3",
+    "page": "https://latimp.eu/cantecul-lui-hiawatha-povesti-audio-legende-de-henry-wadsworth-longfellow/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3052,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 10,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Neamțu-Ottonel"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Emil Liptac"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Emil Hossu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Paula Rădulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Arșinel"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ileana Șerban"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Silviu Stănculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Atena Demetriad"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Pascu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Minel Klepper"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Pomoje"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/04/Cântecul-lui-Haiavatha-povesti-audio-legende-pentru-copii-basme-indiene.jpg"
+ },
+ {
+  "id": "buzdugan-de-aur-coada-de-balaur-latimp",
+  "storyId": "buzdugan-de-aur-coada-de-balaur",
+  "title": "Buzdugan de aur, coadă de balaur",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/02/08205231/Buzdugan-de-aur-coada-de-balaur-basm-popular-teatru-basme-povesti.mp3",
+    "page": "https://latimp.eu/buzdugan-de-aur-coada-de-balaur-basm-popular-teatru-basme-povesti/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1611,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ion Caramitru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sanda Toma"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ocatvian Cotescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dan Damian"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Marcel Anghelescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Marius Pepino"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nae Roman"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/02/povesti-pentru-copii-latimp.eu_.jpg"
+ },
+ {
+  "id": "rusalka-latimp",
+  "storyId": "rusalka",
+  "title": "Rusalka (1960)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/02/04052818/Rusalka-teatru-radiofonc-de-Aleksandr-Puskin-povesti-audio-poezii-vinil.mp3",
+    "page": "https://latimp.eu/rusalka-poveste-audio-basm-popular-de-aleksandr-puskin/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3883,
+  "year": 1960,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 12,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "George Calboreanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Cozorici"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Doina Tuțescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Ciubotărașu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Elvira Petreanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Marieta Rareș"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Vasilica Tastaman"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Elena Păpușoiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugenia Popovici"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Beatrice Biega"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nastasia Șova"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Lucia Mara"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dan Damian"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Zizi Petrașcu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Maria Marcelos"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Iorgulescu. Înregistrare din anul 1960"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/02/Rusalka-poveste-audio-basm-populat-de-Aleksandr-Puşkin-teatru-radiofonic.jpg"
+ },
+ {
+  "id": "povestea-bratarii-de-glezna-latimp",
+  "storyId": "povestea-bratarii-de-glezna",
+  "title": "Povestea brățării de gleznă (1969)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/01/30011804/Povestea-bratarii-de-glezna-teatru-radiofonic-basme-audio.mp3",
+    "page": "https://latimp.eu/povestea-bratarii-de-glezna-de-de-ilango-adigal-teatru-audio-pentru-copii-povesti1969/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 2822,
+  "year": 1969,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "MIRCEA MEDIANU"
+    },
+    {
+     "role": "Distribuție",
+     "name": "OLIMPIA TABLAN"
+    },
+    {
+     "role": "Distribuție",
+     "name": "NICOLAE CRISU"
+    },
+    {
+     "role": "Distribuție",
+     "name": "CHIRITA DUMITRESCU"
+    },
+    {
+     "role": "Distribuție",
+     "name": "STEFAN FLORESCU"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/01/Povestea-bratarii-de-glezna-de-de-Ilango-Adigal-teatru-audio-pentru-copii-Povesti1969-latimp.eu-teatru.jpg"
+ },
+ {
+  "id": "valea-frumoasei-latimp",
+  "storyId": "valea-frumoasei",
+  "title": "Valea frumoasei (1975)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/01/11232655/Valea-frumoasei-de-Feraru-Marga-1975.mp3",
+    "page": "https://latimp.eu/valea-frumoasei-de-feraru-marga-teatru-audio-mituri-si-legende1975/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1353,
+  "year": 1975,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "George Oancea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Colea Răutu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Mihăilescu Brăila"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Mereuță"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Traian Stănescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugenia Bosânceanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Silviu Stănculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Dalu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Dunăreanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sergiu Demetriad"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Postelnicu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/01/Valea-frumoasei-de-Feraru-Marga-teatru-audio-mituri-si-legende-latimp.eu_.jpg"
+ },
+ {
+  "id": "cele-doua-privighetori-latimp",
+  "storyId": "cele-doua-privighetori",
+  "title": "Cele două privighetori (1990)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/10/29193831/Cele-doua-privighetori-Dumitru-Solomon.mp3",
+    "page": "https://latimp.eu/cele-doua-privighetori-de-dumitru-solomon-1990-teatru-la-microfon/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 2522,
+  "year": 1990,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Constantin Codrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sanda Toma"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Rebengiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mariana Mihuț"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Răzvan Vasilescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Irina Mazanitis"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ozana Oancea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Voicu Mariana"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/10/Cele-doua-privighetori-de-Dumitru-Solomon-1990-povesti-audio-pentru-copii-latimp.eu_.jpg"
+ },
+ {
+  "id": "sora-saracilor-latimp",
+  "storyId": "sora-saracilor",
+  "title": "Sora săracilor (2010)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/09/01171006/Sora-saracilor-de-Emile-Zola-2010poveste-pentru-copii.mp3",
+    "page": "https://latimp.eu/sora-saracilor-de-emile-zola-basme-si-povesti-pentru-copii-2010/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3494,
+  "year": 2010,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Alina Teianu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cătălina Mustață"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Velniciuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugen Cristea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petre Lupu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ioana Barbu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Andrei Țârdea și Mihai Mălaimare"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/09/Sora-saracilor-de-Emile-Zola-basme-si-povesti-pentru-copii-2010.jpg"
+ },
+ {
+  "id": "pavilionul-de-pe-malul-raului-latimp",
+  "storyId": "pavilionul-de-pe-malul-raului",
+  "title": "Pavilionul de pe malul râului (1978)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/09/01085313/Pavilionul-de-pe-malul-raului-de-Kuan-Han-Ching.mp3",
+    "page": "https://latimp.eu/pavilionul-de-pe-malul-raului-de-kuan-han-ching-teatru-audio-legenda-chinezeasca-1978/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3099,
+  "year": 1978,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Gina Patrichi"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Emil Hosu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Repan"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Melania Cârje"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Ștrengaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Mălaimare"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Constantin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Grigore Bălănescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ovidiu Schumacher"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Crișu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Pompiliu Rădulescu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/09/Pavilionul-de-pe-malul-raului-de-Kuan-Han-Ching-teatru-audio-legenda-chinezeasca-1978.jpg"
+ },
+ {
+  "id": "zapada-in-toiul-verii-latimp",
+  "storyId": "zapada-in-toiul-verii",
+  "title": "Zăpada în toiul verii (1978)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/09/01083126/Zapada-in-toiul-verii-de-Kuan-Han-Ching.mp3",
+    "page": "https://latimp.eu/zapada-in-toiul-verii-de-kuan-han-ching-teatru-audio-la-microfon-legenda-chinezeasca-1978/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 5354,
+  "year": 1978,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Gina Patrichi"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Emil Hosu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Repan"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Melania Cârje"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Strengaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Malaimare"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Constantin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Grigore Balanescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ovidiu Schumacher"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Pufulete"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Crisu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Pompiliu Radulescu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/09/Zapada-în-toiul-verii-de-Kuan-Han-Ching-teatru-audio-la-microfon-legenda-chinezeasca-1978.jpg"
+ },
+ {
+  "id": "voievodul-posadei-latimp",
+  "storyId": "voievodul-posadei",
+  "title": "Voievodul Posadei",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/06/15192745/Voievodul-Posadei-legende-populare-romanesti.mp3",
+    "page": "https://latimp.eu/voievodul-posadei-legende-populare-romanesti-de-ascultat-mp3/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3503,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/06/voievodul-de-la-posada-legende-populare-romanesti-latimp.eu_.jpg"
+ },
+ {
+  "id": "prometeu-din-profil-latimp",
+  "storyId": "prometeu-din-profil",
+  "title": "Prometeu din profil (2000)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/08/19112854/Prometeu-din-profil-de-Dan-Tarchila-2000.m4a",
+    "page": "https://latimp.eu/prometeu-din-profil-de-dan-tarchila-povesti-la-microfon-legende-antice-2000/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3524,
+  "year": 2000,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Mircea ALbulescu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/08/Prometeu-din-profil-de-Dan-Tarchila-2000teatru-la-microfon-teatru.latimp.net_.jpg"
+ },
+ {
+  "id": "domnita-lacrima-furata-latimp",
+  "storyId": "domnita-lacrima-furata",
+  "title": "Domnița lacrimă furată (2004)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/08/18181911/Domnita-lacrima-furata-de-Dan-Tarchila-2004-teatru-pentru-copii-latimp.eu_.m4a",
+    "page": "https://latimp.eu/domnita-lacrima-furata-de-dan-tarchila-teatru-pentru-copii-2004/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3035,
+  "year": 2004,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "GINA CAZAN - VRĂJITOAREA"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/08/Domnita-lacrima-furata-de-Dan-Tarchila-teatru-pentru-copii-2004teatru.latimp.eu_.jpg"
+ },
+ {
+  "id": "darul-de-craciun-dan-tarchila-latimp",
+  "storyId": "darul-de-craciun-dan-tarchila",
+  "title": "Darul de Crăciun (2009)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/08/18150706/Darul-de-Craciun-de-Dan-Tarchila-2009.m4a",
+    "page": "https://latimp.eu/darul-de-craciun-de-dan-tarchila-povesti-pentru-copii-2009/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 2818,
+  "year": 2009,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Oana Rasuceanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Catalina Mustata"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Stefan Velniciuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alina Teianu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Liliana Tofan si copilul Horia Ruja."
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/08/teatru-latimp.eu_.jpg"
+ },
+ {
+  "id": "cercul-caucazian-de-creta-latimp",
+  "storyId": "cercul-caucazian-de-creta",
+  "title": "Cercul caucazian de cretă (1956)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/08/12151613/Cercul-caucazian-de-creta-de-Bertold-Brecht-1956.m4a",
+    "page": "https://latimp.eu/cercul-caucazian-de-creta-de-bertold-brecht-teatru-radiofonic-vechi-1956/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 6248,
+  "year": 1956,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Sireteanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Tanți Cocea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Niky Atanasiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Liliana Tomescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ionescu Gion"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Florin Scărlătescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Glodariu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Manu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Neamțu Ottonel"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Henter"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Maria Voluntaru"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Haralambie Polizu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Titus Lapteș"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nelly Dodea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Silvia Fulda"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dona Carozzi"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Tudorel Popa"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugenia Zaharia"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cezar Rovințescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Toni Buiacici"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nucu Păunescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ionescu Horațiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Boris Ciornei"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/08/Cercul-caucazian-de-creta-de-Bertold-Brecht-teatru-radiofonic-vechi-1956-latimp.eu-teatru.jpg"
+ },
+ {
+  "id": "cheile-tatarului-latimp",
+  "storyId": "cheile-tatarului",
+  "title": "Cheile tătarului (1974)",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/08/09064203/Cheile-tatarului-de-Mihai-Jemaneanu-legenda-1974.mp3",
+    "page": "https://latimp.eu/cheile-tatarului-de-mihai-jemaneanu-legenda-1974/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1606,
+  "year": 1974,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ion Marinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Costel Constantin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ovidiu Iuliu Moldovan"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Mihailescu Braila"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Grigore Bălanescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ica Matache"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Aurel Rogalschi"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Gheorghiu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2019/08/Cheile-tatarului-de-Mihai-Jemaneanu.jpg"
+ },
+ {
+  "id": "povestea-lui-maghiran-latimp",
+  "storyId": "povestea-lui-maghiran",
+  "title": "Măghiran voinicul",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/M%C4%83ghiran%20voinicul%20%20(basm%20rom%C3%A2nesc).mp3",
+    "page": "https://latimp.eu/maghiran-voinicul-teatru-radiofonic-basm-romanesc/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1302,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "adaptation": "Anghel Trandafir",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Luchian Botez"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Rodica Sanda Țuțuianu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victoria Mierlescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Marius Pepino"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugen Petrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Laurențiu Marcel"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Cosma"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Emil Hossu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Florescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Crișu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2025/04/basme-populare-latimp.eu_-2.jpg"
+ },
+ {
+  "id": "degetica-latimp",
+  "storyId": "degetica",
+  "title": "Rândunica spune o poveste",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/03/07181152/Randunica-spune-o-poveste.mp3",
+    "page": "https://latimp.eu/randunica-spune-o-poveste-de-hans-christian-andersen-povesti-audio-pe-vinil-la-microfon/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 1690,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://latimp.eu/wp-content/uploads/2020/03/Randunica-spune-o-poveste-de-Hans-Christian-Andersen-povesti-audio-pe-vinil-la-microfon-latimp.eu_.jpg",
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Monica Ghiuta"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Florian Pitis"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Radu Panamarenco si altii"
+    }
+   ]
   }
  },
  {
-  "id": "fata-babei-si-fata-mosneagului-rescris-incap-2020",
-  "storyId": "fata-babei-si-fata-mosneagului-rescris",
-  "title": "Fata babei și fata moșneagului (REscris)",
-  "sourceId": "asociatia-incap",
+  "id": "somerul-3g-radioactiv",
+  "storyId": "somerul-elise-wilk",
+  "title": "Șomerul (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
   "links": [
    {
-    "type": "link",
-    "url": "https://soundcloud.com/user-739803593-473116796/fata-babei-si-fata-mosneagului",
-    "via": "SoundCloud"
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-10-25/131994749-44100-2-0704fc44aa8c2.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000500311274",
+    "via": "3g RadioActiv"
+   }
+  ],
+  "duration": 732,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "intensa"
+  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
+  "credits": {
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
+   "cast": [
+    {
+     "role": "Șomerul",
+     "name": "Cristi Bojan"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "studenta-3g-radioactiv",
+  "storyId": "studenta-elise-wilk",
+  "title": "Studenta (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-10-26/132187801-44100-2-01a79bdfe91a2.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000500524405",
+    "via": "3g RadioActiv"
+   }
+  ],
+  "duration": 843,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "intensa"
+  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
+  "credits": {
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
+   "cast": [
+    {
+     "role": "Studenta",
+     "name": "Larisa Dobrin"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "elevul-3g-radioactiv",
+  "storyId": "elevul-elise-wilk",
+  "title": "Elevul (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-3/134330114-44100-2-7a306e8f6127d.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000501185303",
+    "via": "3g RadioActiv"
+   }
+  ],
+  "duration": 611,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "educativa",
+   "linistitoare"
+  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
+  "credits": {
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
+   "cast": [
+    {
+     "role": "Elevul",
+     "name": "Dragoș Stoenescu"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "menajera-3g-radioactiv",
+  "storyId": "menajera-elise-wilk",
+  "title": "Menajera (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-3/134404604-44100-2-b7db2d0dcc4cc.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000501216296",
+    "via": "3g RadioActiv"
+   }
+  ],
+  "duration": 957,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "intensa"
+  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
+  "credits": {
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
+   "cast": [
+    {
+     "role": "Menajera",
+     "name": "Andreea Drăgan"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "secretara-3g-radioactiv",
+  "storyId": "secretara-elise-wilk",
+  "title": "Secretara (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-3/134424938-44100-2-9a50cb8a53347.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000501229096",
+    "via": "3g RadioActiv"
    }
   ],
   "duration": 785,
   "year": 2020,
-  "kind": "dramatizare",
-  "voices": "mai-multe",
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
   "music": "ambientala",
   "moods": [
-   "educativa"
+   "misterioasa",
+   "intensa"
   ],
-  "age": 8,
-  "addedAt": "2026-11-23",
-  "estimated": [
-   "kind",
-   "voices",
-   "music",
-   "moods",
-   "age"
-  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
   "credits": {
-   "director": "Andreea Lăcătuș",
-   "music": "Sever Andrei",
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
    "cast": [
     {
-     "role": "Voci în serie",
-     "name": "Minodora Broscoi"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Eduard Burghelea"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Alexandru Beteringhe"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Carla Mihai"
-    }
-   ],
-   "adaptation": "Elevii din Scânteia"
-  }
- },
- {
-  "id": "domnul-trandafir-rescris-incap-2020",
-  "storyId": "domnul-trandafir-rescris",
-  "title": "Domnul Trandafir (REscris)",
-  "sourceId": "asociatia-incap",
-  "links": [
-   {
-    "type": "link",
-    "url": "https://soundcloud.com/user-739803593-473116796/domnul-trandafir-rescris",
-    "via": "SoundCloud"
-   }
-  ],
-  "duration": 378,
-  "year": 2020,
-  "kind": "dramatizare",
-  "voices": "mai-multe",
-  "music": "ambientala",
-  "moods": [
-   "educativa"
-  ],
-  "age": 8,
-  "addedAt": "2026-11-23",
-  "estimated": [
-   "kind",
-   "voices",
-   "music",
-   "moods",
-   "age"
-  ],
-  "credits": {
-   "director": "Andreea Lăcătuș",
-   "music": "Sever Andrei",
-   "cast": [
-    {
-     "role": "Voci în serie",
-     "name": "Minodora Broscoi"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Eduard Burghelea"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Alexandru Beteringhe"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Carla Mihai"
-    }
-   ],
-   "adaptation": "Elevii din Scânteia"
-  }
- },
- {
-  "id": "melcusorul-incap-2020",
-  "storyId": "melcusorul",
-  "title": "Melcușorul (Asociația inCAP)",
-  "sourceId": "asociatia-incap",
-  "links": [
-   {
-    "type": "link",
-    "url": "https://soundcloud.com/user-739803593-473116796/melcusorul-lavinia-braniste",
-    "via": "SoundCloud"
-   }
-  ],
-  "duration": 704,
-  "year": 2020,
-  "kind": "dramatizare",
-  "voices": "mai-multe",
-  "music": "ambientala",
-  "moods": [
-   "educativa"
-  ],
-  "age": 6,
-  "addedAt": "2026-11-23",
-  "estimated": [
-   "kind",
-   "voices",
-   "music",
-   "moods",
-   "age"
-  ],
-  "credits": {
-   "director": "Andreea Lăcătuș",
-   "music": "Sever Andrei",
-   "cast": [
-    {
-     "role": "Voci în serie",
-     "name": "Minodora Broscoi"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Eduard Burghelea"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Alexandru Beteringhe"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Carla Mihai"
+     "role": "Secretara",
+     "name": "Lorena Râpea"
     }
    ]
-  }
- },
- {
-  "id": "cofetaria-lavinia-braniste-incap-2020",
-  "storyId": "cofetaria-lavinia-braniste",
-  "title": "Cofetăria (Asociația inCAP)",
-  "sourceId": "asociatia-incap",
-  "links": [
-   {
-    "type": "link",
-    "url": "https://soundcloud.com/user-739803593-473116796/cofetaria-lavinia-braniste",
-    "via": "SoundCloud"
-   }
-  ],
-  "duration": 543,
-  "year": 2020,
-  "kind": "dramatizare",
-  "voices": "mai-multe",
-  "music": "ambientala",
-  "moods": [
-   "amuzanta"
-  ],
-  "age": 6,
+  },
   "addedAt": "2026-11-23",
   "estimated": [
-   "kind",
-   "voices",
+   "sfx",
    "music",
    "moods",
-   "age"
-  ],
-  "credits": {
-   "director": "Andreea Lăcătuș",
-   "music": "Sever Andrei",
-   "cast": [
-    {
-     "role": "Voci în serie",
-     "name": "Minodora Broscoi"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Eduard Burghelea"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Alexandru Beteringhe"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Carla Mihai"
-    }
-   ]
-  }
+   "age",
+   "quality"
+  ]
  },
  {
-  "id": "povestea-ariciului-cu-pene-incap-2020",
-  "storyId": "povestea-ariciului-cu-pene",
-  "title": "Povestea ariciului cu pene (Asociația inCAP)",
-  "sourceId": "asociatia-incap",
+  "id": "taximetristul-3g-radioactiv",
+  "storyId": "taximetristul-elise-wilk",
+  "title": "Taximetristul (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
   "links": [
    {
-    "type": "link",
-    "url": "https://soundcloud.com/user-739803593-473116796/povestea-ariciului-cu-pene",
-    "via": "SoundCloud"
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-10/136711989-44100-2-10171eabe26d8.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000501966032",
+    "via": "3g RadioActiv"
    }
   ],
-  "duration": 847,
+  "duration": 755,
   "year": 2020,
-  "kind": "dramatizare",
-  "voices": "mai-multe",
-  "music": "ambientala",
-  "moods": [
-   "educativa"
-  ],
-  "age": 6,
-  "addedAt": "2026-11-23",
-  "estimated": [
-   "kind",
-   "voices",
-   "music",
-   "moods",
-   "age"
-  ],
-  "credits": {
-   "director": "Andreea Lăcătuș",
-   "music": "Sever Andrei",
-   "cast": [
-    {
-     "role": "Voci în serie",
-     "name": "Minodora Broscoi"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Eduard Burghelea"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Alexandru Beteringhe"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Carla Mihai"
-    }
-   ]
-  }
- },
- {
-  "id": "superman-elena-vladareanu-incap-2020",
-  "storyId": "superman-elena-vladareanu",
-  "title": "Superman (Asociația inCAP)",
-  "sourceId": "asociatia-incap",
-  "links": [
-   {
-    "type": "link",
-    "url": "https://soundcloud.com/user-739803593-473116796/superman-elena-vladareanu",
-    "via": "SoundCloud"
-   }
-  ],
-  "duration": 1088,
-  "year": 2020,
-  "kind": "dramatizare",
-  "voices": "mai-multe",
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
   "music": "ambientala",
   "moods": [
    "intensa"
   ],
-  "age": 12,
-  "addedAt": "2026-11-23",
-  "estimated": [
-   "kind",
-   "voices",
-   "music",
-   "moods",
-   "age"
-  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
   "credits": {
-   "director": "Andreea Lăcătuș",
-   "music": "Sever Andrei",
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
    "cast": [
     {
-     "role": "Voci în serie",
-     "name": "Minodora Broscoi"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Eduard Burghelea"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Alexandru Beteringhe"
-    },
-    {
-     "role": "Voci în serie",
-     "name": "Carla Mihai"
+     "role": "Taximetristul",
+     "name": "Dragoș Florea"
     }
    ]
-  }
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "adolescentul-3g-radioactiv",
+  "storyId": "adolescentul-elise-wilk",
+  "title": "Adolescentul (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-10/136714422-44100-2-c8ebc6dd0444c.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000501966033",
+    "via": "3g RadioActiv"
+   }
+  ],
+  "duration": 663,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "intensa"
+  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
+  "credits": {
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
+   "cast": [
+    {
+     "role": "Adolescentul",
+     "name": "Toni Nica"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "vanzatoarea-3g-radioactiv",
+  "storyId": "vanzatoarea-elise-wilk",
+  "title": "Vânzătoarea (3g RadioActiv)",
+  "sourceId": "radioactiv-3g",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-10/136718716-44100-2-319bfd9a47d14.m4a",
+    "page": "https://podcasts.apple.com/us/podcast/3g-radioactiv/id1542166349?i=1000501966031",
+    "via": "3g RadioActiv"
+   }
+  ],
+  "duration": 619,
+  "year": 2020,
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "intensa"
+  ],
+  "age": 13,
+  "quality": 3,
+  "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/8e/cb/5b/8ecb5b34-41ca-ff44-f172-f8b657ce9510/mza_11068794119745324875.jpg/600x600bb.jpg",
+  "credits": {
+   "director": "Andi Gherghe",
+   "adaptation": "Elise Wilk",
+   "soundDesign": "Sütő Zsolt",
+   "cast": [
+    {
+     "role": "Vânzătoarea",
+     "name": "Laura Mihalache"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
  }
 ]

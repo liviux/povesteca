@@ -1,5 +1,14 @@
 # Noutăți
 
+## [1.16.0] - 2026-11-23
+
+### Added
+- **Povești noi:** 35 de povești interpretate de actori, din arhiva Radio România de pe LaTimp.eu și seria 3g HUB „S-a întâmplat într-o joi” (8 piese).
+- În înregistrările 3g HUB apare și creditul pentru realizarea sunetului.
+
+### Removed
+- Au fost scoase cele 7 înregistrări inCAP care se ascultau doar pe SoundCloud.
+
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
 ## [1.15.7] - 2026-11-23

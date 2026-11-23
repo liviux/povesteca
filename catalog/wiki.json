@@ -302,6 +302,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Andi_Vasluianu"
   },
+  "André Maurois": {
+   "wikidata": "Q224029",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Maurois_Harcourt_1936.jpg/330px-Maurois_Harcourt_1936.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maurois_Harcourt_1936.jpg",
+    "license": "Public domain",
+    "by": "Studio Harcourt"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Andr%C3%A9_Maurois"
+  },
   "Andrea Reitmeyer": {
    "wikidata": "Q64737843",
    "goodreads": "https://www.goodreads.com/author/show/5752467"
@@ -421,6 +431,10 @@
    "wikidata": "Q18540500",
    "wikipedia": "https://ro.wikipedia.org/wiki/Aurel_Giroveanu"
   },
+  "Aurel Rogalschi": {
+   "wikidata": "Q12721250",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Aurel_Rogalschi"
+  },
   "Aurel Rogalski": {
    "wikidata": "Q12721250",
    "wikipedia": "https://ro.wikipedia.org/wiki/Aurel_Rogalschi"
@@ -481,6 +495,17 @@
   "Benedict Dabija": {
    "wikidata": "Q131782371",
    "wikipedia": "https://ro.wikipedia.org/wiki/Benedict_Dabija"
+  },
+  "Bertolt Brecht": {
+   "wikidata": "Q38757",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Bundesarchiv_Bild_183-W0409-300%2C_Bertolt_Brecht.jpg/330px-Bundesarchiv_Bild_183-W0409-300%2C_Bertolt_Brecht.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-W0409-300,_Bertolt_Brecht.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "by": "Kolbe, Jörg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bertolt_Brecht",
+   "goodreads": "https://www.goodreads.com/author/show/26853"
   },
   "Bianca Brad": {
    "wikidata": "Q56460265",
@@ -877,6 +902,16 @@
     "by": "Andreinegulescu"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Corado_Negreanu"
+  },
+  "Cornel Ciupercescu": {
+   "wikidata": "Q18539048",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Cornel_Ciupercescu.jpg/330px-Cornel_Ciupercescu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cornel_Ciupercescu.jpg",
+    "license": "Public domain",
+    "by": "CINEMA, Nr. 3 anul XIX (219), martie 1981"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Cornel_Ciupercescu"
   },
   "Cornel Gârbea": {
    "wikidata": "Q12725747",
@@ -1275,6 +1310,10 @@
    "wikidata": "Q18538569",
    "wikipedia": "https://ro.wikipedia.org/wiki/Dumitru_Capoianu"
   },
+  "Dumitru Chesa": {
+   "wikidata": "Q107366153",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Dumitru_Chesa"
+  },
   "Dumitru Furdui": {
    "wikidata": "Q12727160",
    "photo": {
@@ -1305,6 +1344,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Dumitru_Matcovschi",
    "goodreads": "https://www.goodreads.com/author/show/8560371"
+  },
+  "Dumitru Solomon": {
+   "wikidata": "Q5313885",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dumitru_Solomon%2C_mai_1988%2C_Netanya%2C_Israel_%28autor_Adrian_Solomon%29.jpg/330px-Dumitru_Solomon%2C_mai_1988%2C_Netanya%2C_Israel_%28autor_Adrian_Solomon%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dumitru_Solomon,_mai_1988,_Netanya,_Israel_(autor_Adrian_Solomon).jpg",
+    "license": "CC BY-SA 4.0",
+    "by": "Adrian Solomon"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Dumitru_Solomon"
   },
   "E. C. Segar": {
    "wikidata": "Q452745",
@@ -1461,6 +1510,17 @@
   "Emil Hoștină": {
    "wikidata": "Q5371286",
    "wikipedia": "https://ro.wikipedia.org/wiki/Emil_Ho%C8%99tin%C4%83"
+  },
+  "Émile Zola": {
+   "wikidata": "Q504",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Emile_Zola_1902.jpg/330px-Emile_Zola_1902.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Emile_Zola_1902.jpg",
+    "license": "Public domain",
+    "by": "Émile Zola"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/%C3%89mile_Zola",
+   "goodreads": "https://www.goodreads.com/author/show/4750"
   },
   "Emilia Popescu": {
    "wikidata": "Q12727620",
@@ -2108,6 +2168,17 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Grigore_Vieru",
    "goodreads": "https://www.goodreads.com/author/show/978380"
   },
+  "Guan Hanqing": {
+   "wikidata": "Q28777",
+   "photo": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Guanhanqing.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Guanhanqing.jpg",
+    "license": "Public domain",
+    "by": null
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Guan_Hanqing",
+   "goodreads": "https://www.goodreads.com/author/show/53877"
+  },
   "Guido Gozzano": {
    "wikidata": "Q1131281",
    "photo": {
@@ -2222,6 +2293,16 @@
    "wikidata": "Q26973843",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ica_Matache"
   },
+  "Ilango Adigal": {
+   "wikidata": "Q3032538",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/MarinaBeach_IlangoAdigal_statue_2Feb2013.jpg/330px-MarinaBeach_IlangoAdigal_statue_2Feb2013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MarinaBeach_IlangoAdigal_statue_2Feb2013.jpg",
+    "license": "CC BY-SA 3.0",
+    "by": "Rasnaboy"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Ilango_Adigal"
+  },
   "Ileana Stana Ionescu": {
    "wikidata": "Q12730298",
    "photo": {
@@ -2263,6 +2344,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Ioan_Slavici",
    "goodreads": "https://www.goodreads.com/author/show/562370"
+  },
+  "Ioana Barbu": {
+   "wikidata": "Q3154042",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ioana_Barbu_Tokyo_Intl_Filmfest_2010.jpg/330px-Ioana_Barbu_Tokyo_Intl_Filmfest_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ioana_Barbu_Tokyo_Intl_Filmfest_2010.jpg",
+    "license": "CC BY-SA 3.0",
+    "by": "Yasu ( talk )"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ioana_Barbu_(actri%C8%9B%C4%83)"
   },
   "Ioana Chicet-Macoveiciuc": {
    "wikidata": "Q126924355",
@@ -2923,9 +3014,23 @@
    "wikidata": "Q141538069",
    "wikipedia": "https://ro.wikipedia.org/wiki/Liliana_Mocanu"
   },
+  "Liliana Tomescu": {
+   "wikidata": "Q12732250",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Liliana_Tomescu"
+  },
   "Liviu Lucaci": {
    "wikidata": "Q20430372",
    "wikipedia": "https://ro.wikipedia.org/wiki/Liviu_Lucaci"
+  },
+  "Lucia Mara": {
+   "wikidata": "Q135689220",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lucia_Mara_1979.jpg/330px-Lucia_Mara_1979.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lucia_Mara_1979.jpg",
+    "license": "Public domain",
+    "by": "Cinema 5/1979, frontcover"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Lucia_Mara"
   },
   "Lucia Mara Vrabie": {
    "wikidata": "Q135689220",
@@ -3828,6 +3933,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Niki_Atanasiu"
   },
+  "Niky Atanasiu": {
+   "wikidata": "Q12736813",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Niky_Atanasiu.01.jpg/330px-Niky_Atanasiu.01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Niky_Atanasiu.01.jpg",
+    "license": "Public domain",
+    "by": "Rampa newspaper from March 21, 1948 (No. 123, year XXXVII), available at Digiteca Arcanum . This is a cropped version of"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Niki_Atanasiu"
+  },
   "Nina Cassian": {
    "wikidata": "Q2735531",
    "photo": {
@@ -3964,6 +4079,10 @@
     "by": "Ileana Muncaciu"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Ovidiu_Iuliu_Moldovan"
+  },
+  "Ovidiu Schumacher": {
+   "wikidata": "Q12737343",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ovidiu_Schumacher"
   },
   "P. L. Travers": {
    "wikidata": "Q228901",
@@ -4219,6 +4338,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Rodica_Mandache"
   },
+  "Rodica Popescu Bitanescu": {
+   "wikidata": "Q7356774",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Rodica_Popescu_Bit%C4%83nescu_07.jpg/330px-Rodica_Popescu_Bit%C4%83nescu_07.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodica_Popescu_Bit%C4%83nescu_07.jpg",
+    "license": "CC BY-SA 4.0",
+    "by": "Razvan Socol"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Rodica_Popescu_Bit%C4%83nescu"
+  },
   "Rodica Popescu-Bitănescu": {
    "wikidata": "Q7356774",
    "photo": {
@@ -4412,6 +4541,16 @@
   "Silviu Cotiușcă": {
    "goodreads": "https://www.goodreads.com/author/show/40843414"
   },
+  "Silviu Stanculescu": {
+   "wikidata": "Q12740864",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Silviu_Stanculescu_in_Cinema_magazine%2C_February_1974.jpg/330px-Silviu_Stanculescu_in_Cinema_magazine%2C_February_1974.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Silviu_Stanculescu_in_Cinema_magazine,_February_1974.jpg",
+    "license": "Public domain",
+    "by": "Cinema , anul XII, nr. 2, februarie 1974, copertă"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Silviu_St%C4%83nculescu"
+  },
   "Silviu Stănculescu": {
    "wikidata": "Q12740864",
    "photo": {
@@ -4472,6 +4611,10 @@
   "Stef Wade": {
    "goodreads": "https://www.goodreads.com/author/show/17697287"
   },
+  "Stefan Velniciuc": {
+   "wikidata": "Q18549133",
+   "wikipedia": "https://ro.wikipedia.org/wiki/%C8%98tefan_Velniciuc"
+  },
   "Stela Popescu": {
    "wikidata": "Q14500720",
    "photo": {
@@ -4530,6 +4673,16 @@
     "license": "CC BY-SA 4.0",
     "by": "DUMITRU DRAGAN"
    }
+  },
+  "Ștefan Mihăilescu Brăila": {
+   "wikidata": "Q3225614",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%C8%98tefan_Mih%C4%83ilescu-Br%C4%83ila.04.jpg/330px-%C8%98tefan_Mih%C4%83ilescu-Br%C4%83ila.04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%C8%98tefan_Mih%C4%83ilescu-Br%C4%83ila.04.jpg",
+    "license": "Public domain",
+    "by": "Cinema magazine from June 1, 1964 (No. 6, year II), available at Digiteca Arcanum . This is a cropped version of the ima"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/%C8%98tefan_Mih%C4%83ilescu-Br%C4%83ila"
   },
   "Ștefan Mihăilescu-Brăila": {
    "wikidata": "Q3225614",
@@ -5159,6 +5312,11 @@
    "wikidata": "Q92640",
    "wikipedia": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
    "goodreads": "https://www.goodreads.com/work/editions/55548884"
+  },
+  "alice-in-tara-oglinzilor": {
+   "wikidata": "Q220331",
+   "wikipedia": "https://en.wikipedia.org/wiki/Through_the_Looking-Glass",
+   "goodreads": "https://www.goodreads.com/work/editions/45962572"
   },
   "amintiri-din-copilarie": {
    "wikidata": "Q3817660",
@@ -6405,6 +6563,10 @@
    "wikidata": "Q677403",
    "wikipedia": "https://en.wikipedia.org/wiki/Peter_and_the_Wolf",
    "goodreads": "https://www.goodreads.com/book/show/137588014"
+  },
+  "piciul-alphonse-daudet": {
+   "wikidata": "Q1057575",
+   "wikipedia": "https://en.wikipedia.org/wiki/Le_Petit_Chose"
   },
   "piele-de-magar": {
    "wikidata": "Q835505",

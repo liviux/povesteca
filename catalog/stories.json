@@ -29551,118 +29551,6 @@
   "origin": "romanian"
  },
  {
-  "id": "puiul-rescris",
-  "title": "Puiul (REscris)",
-  "author": "Elevii din Scânteia",
-  "genre": "poveste",
-  "themes": [
-   "animale"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "Elevii din Scânteia au rescris povestirea „Puiul” de Ioan Alexandru Brătescu-Voinești în cadrul atelierelor de lectură și scriere ale proiectului „Prezent! REscris”.",
-   "en": "Students in Scânteia rewrote Ioan Alexandru Brătescu-Voinești’s short story “Puiul” at the “Prezent! REscris” reading and writing workshops."
-  },
-  "year": 2020,
-  "origin": "romanian"
- },
- {
-  "id": "fata-babei-si-fata-mosneagului-rescris",
-  "title": "Fata babei și fata moșneagului (REscris)",
-  "author": "Elevii din Scânteia",
-  "genre": "basm",
-  "themes": [
-   "familie"
-  ],
-  "characters": [
-   "Fata babei",
-   "Fata moșneagului"
-  ],
-  "summary": {
-   "ro": "Elevii din Scânteia au rescris basmul lui Ion Creangă despre fata babei și fata moșneagului, în cadrul proiectului „Prezent! REscris”.",
-   "en": "Students in Scânteia rewrote Ion Creangă’s fairy tale about an old woman’s daughter and an old man’s daughter for “Prezent! REscris”."
-  },
-  "year": 2020,
-  "origin": "romanian"
- },
- {
-  "id": "domnul-trandafir-rescris",
-  "title": "Domnul Trandafir (REscris)",
-  "author": "Elevii din Scânteia",
-  "genre": "poveste",
-  "themes": [
-   "copilarie"
-  ],
-  "characters": [
-   "Domnul Trandafir"
-  ],
-  "summary": {
-   "ro": "Povestea învățătorului lui Mihail Sadoveanu, rescrisă de elevii din Scânteia la atelierele proiectului „Prezent! REscris”.",
-   "en": "The story of Mihail Sadoveanu’s schoolteacher, rewritten by students in Scânteia at the “Prezent! REscris” workshops."
-  },
-  "year": 2020,
-  "origin": "romanian"
- },
- {
-  "id": "cofetaria-lavinia-braniste",
-  "title": "Cofetăria",
-  "author": "Lavinia Braniște",
-  "genre": "poveste",
-  "themes": [
-   "familie",
-   "copilarie"
-  ],
-  "characters": [
-   "Clara",
-   "Bunicul"
-  ],
-  "summary": {
-   "ro": "Ca s-o impresioneze pe Clara, nepoțica pe care abia așteaptă s-o cunoască, bunicul pregătește o tartă cu cireșe atât de mare, încât are nevoie de o macara ca s-o glazureze.",
-   "en": "To impress Clara, the granddaughter he cannot wait to meet, Grandpa bakes a cherry tart so big he needs a crane to ice it."
-  },
-  "year": 2020,
-  "origin": "romanian"
- },
- {
-  "id": "povestea-ariciului-cu-pene",
-  "title": "Povestea ariciului cu pene",
-  "author": "Victoria Pătrașcu",
-  "genre": "poveste",
-  "themes": [
-   "animale",
-   "bunatate"
-  ],
-  "characters": [
-   "Ariciul cu pene"
-  ],
-  "summary": {
-   "ro": "Un arici cu pene iese în evidență printre celelalte animale. Povestea urmărește felul în care cei din jur reacționează la diferențe.",
-   "en": "A feathered hedgehog stands out among the other animals. The story follows how those around him respond to someone who is different."
-  },
-  "year": 2018,
-  "origin": "romanian"
- },
- {
-  "id": "superman-elena-vladareanu",
-  "title": "Superman",
-  "author": "Elena Vlădăreanu",
-  "genre": "poveste",
-  "themes": [
-   "familie",
-   "copilarie"
-  ],
-  "characters": [
-   "Mama",
-   "Fiica"
-  ],
-  "summary": {
-   "ro": "Viața de zi cu zi a unei mame care își crește singură fiica, într-o povestire din volumul „August”.",
-   "en": "The everyday life of a mother raising her daughter on her own, in a story from the collection “August”."
-  },
-  "year": 2020,
-  "origin": "romanian"
- },
- {
   "id": "povestea-lui-mos-craciun-vasiloiu",
   "title": "Povestea lui Moș Crăciun",
   "author": "Maria Ioana Vasiloiu",
@@ -29690,5 +29578,641 @@
   "origin": "romanian",
   "age": 5,
   "addedAt": "2026-11-23"
+ },
+ {
+  "id": "piciul-alphonse-daudet",
+  "title": "Piciul",
+  "author": "Alphonse Daudet",
+  "genre": "roman",
+  "themes": [
+   "copilarie",
+   "vise",
+   "dezamagire"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Piciul își trăiește copilăria între vise, iluzii și dezamăgiri.",
+   "en": "Piciul lives through a childhood of dreams, illusions and disappointments."
+  },
+  "origin": "french"
+ },
+ {
+  "id": "alice-in-tara-oglinzilor",
+  "title": "Alice în Țara Oglinzilor",
+  "author": "Lewis Carroll",
+  "genre": "roman",
+  "themes": [
+   "fantezie",
+   "calatorie",
+   "aventura"
+  ],
+  "characters": [
+   "Alice"
+  ],
+  "summary": {
+   "ro": "Alice trece dincolo de oglindă într-o lume ca o tablă de șah și pornește spre rangul de regină.",
+   "en": "Alice passes through the looking glass into a world like a chessboard and sets out to become a queen."
+  },
+  "origin": "british",
+  "year": 1871
+ },
+ {
+  "id": "trista-poveste-a-printesei-din-cel-mai-mic-regat",
+  "title": "Trista poveste a Prințesei din cel mai mic Regat",
+  "author": "Autor necunoscut",
+  "genre": "poveste",
+  "themes": [
+   "alegeri",
+   "bunatate",
+   "echilibru"
+  ],
+  "characters": [
+   "Prințesa",
+   "Bufonul"
+  ],
+  "summary": {
+   "ro": "O prințesă vrea să fie mare, deșteaptă și puternică. Povestea pune la îndoială împărțirea lumii în bine și rău, alb și negru.",
+   "en": "A princess wants to be great, clever and strong. The story questions dividing the world into good and bad, black and white."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "tara-bunului-plac",
+  "title": "Țara bunului plac",
+  "author": "André Maurois",
+  "genre": "poveste",
+  "themes": [
+   "fantezie",
+   "copilarie"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Scenariu radiofonic pentru copii de Adriana Vișoiu, după povestea lui André Maurois.",
+   "en": "A children's radio adaptation by Adriana Vișoiu of André Maurois's story."
+  },
+  "origin": "french"
+ },
+ {
+  "id": "dupa-fapta-si-rasplata",
+  "title": "După faptă și răsplată",
+  "author": "Aleksandr Pușkin",
+  "genre": "poveste",
+  "themes": [
+   "morala",
+   "consecinte"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Poveste radiofonică moralizatoare pentru copii despre urmările faptelor.",
+   "en": "A moral radio story for children about the consequences of one's actions."
+  },
+  "origin": "russian"
+ },
+ {
+  "id": "getar-fiul-marii",
+  "title": "Getar, fiul mării",
+  "author": "Autor necunoscut",
+  "genre": "basm",
+  "themes": [
+   "calatorie",
+   "curaj",
+   "identitate",
+   "dragoste"
+  ],
+  "characters": [
+   "Getar"
+  ],
+  "summary": {
+   "ro": "Getar, crescut sub mare, pornește să-și afle locul în lume. Basmul vorbește despre curaj, iubire și sacrificiu.",
+   "en": "Raised beneath the sea, Getar sets out to find his place in the world. The tale is about courage, love and sacrifice."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "mihai-voda-si-calaul",
+  "title": "Mihai Vodă și călăul",
+  "author": "Autor necunoscut",
+  "genre": "legenda",
+  "themes": [
+   "istorie",
+   "curaj"
+  ],
+  "characters": [
+   "Mihai Vodă",
+   "Călăul"
+  ],
+  "summary": {
+   "ro": "Legenda îl urmărește pe Mihai, Banul Craiovei, într-o poveste despre putere și un călău.",
+   "en": "This legend follows Mihai, Ban of Craiova, in a story about power and an executioner."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "judecata-crisanului",
+  "title": "Judecata Crișanului",
+  "author": "Alexandru Mitru",
+  "genre": "legenda",
+  "themes": [
+   "calatorie",
+   "curaj",
+   "dreptate"
+  ],
+  "characters": [
+   "Simion Crișan",
+   "Ileana"
+  ],
+  "summary": {
+   "ro": "Simion Crișan își termină casa și pleacă să cumpere inelele de nuntă. Drumul îi aduce încercări neașteptate.",
+   "en": "After finishing his home, Simion Crișan sets out to buy wedding rings. The journey brings unexpected trials."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "tema-pentru-acasa",
+  "title": "Temă pentru acasă",
+  "author": "Mile Poposki",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "scoala",
+   "umor"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "O temă pentru acasă pare simplă, dar ajunge să le dea bătăi de cap părinților copiilor de școală.",
+   "en": "A homework assignment seems simple, but ends up troubling the parents of schoolchildren."
+  }
+ },
+ {
+  "id": "calatoria-silvia-kerim",
+  "title": "Călătoria",
+  "author": "Silvia Kerim",
+  "genre": "poveste",
+  "themes": [
+   "calatorie",
+   "aventura"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Scenariu radiofonic pentru copii de Silvia Kerim, cu aranjamente orchestrale de Paul Urmuzescu.",
+   "en": "A children's radio story by Silvia Kerim, with orchestral arrangements by Paul Urmuzescu."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "cocosul-negru",
+  "title": "Cocoșul negru",
+  "author": "Victor Eftimiu",
+  "genre": "poveste",
+  "themes": [
+   "magie",
+   "aventura"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Poveste de Victor Eftimiu, scrisă în 1960 și pusă în scenă în 1965.",
+   "en": "A story by Victor Eftimiu, written in 1960 and staged in 1965."
+  },
+  "origin": "romanian",
+  "year": 1960
+ },
+ {
+  "id": "mantica",
+  "title": "Manțică",
+  "author": "Autor necunoscut",
+  "genre": "basm",
+  "themes": [
+   "aventura",
+   "animale"
+  ],
+  "characters": [
+   "Manțică",
+   "Ursul"
+  ],
+  "summary": {
+   "ro": "Un băiat rămas singur în pădure întâlnește un urs din lumea basmelor.",
+   "en": "A boy alone in the forest meets a bear from the world of fairy tales."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "cantecul-lui-hiawatha",
+  "title": "Cântecul lui Hiawatha",
+  "author": "Henry Wadsworth Longfellow",
+  "genre": "legenda",
+  "themes": [
+   "aventura",
+   "dragoste",
+   "mitologie"
+  ],
+  "characters": [
+   "Hiawatha",
+   "Minnehaha"
+  ],
+  "summary": {
+   "ro": "Epopeea urmărește aventurile lui Hiawatha, războinic ojibwe, și iubirea lui pentru Minnehaha, din neamul Dakota.",
+   "en": "The epic follows Hiawatha, an Ojibwe warrior, and his love for Minnehaha, a Dakota woman."
+  },
+  "origin": "american"
+ },
+ {
+  "id": "buzdugan-de-aur-coada-de-balaur",
+  "title": "Buzdugan de aur, coadă de balaur",
+  "author": "Autor necunoscut",
+  "genre": "basm",
+  "themes": [
+   "folclor",
+   "aventura"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Basm popular românesc păstrat într-o montare radiofonică pentru copii.",
+   "en": "A Romanian folk tale preserved in a children's radio production."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "rusalka",
+  "title": "Rusalka",
+  "author": "Aleksandr Pușkin",
+  "genre": "poveste",
+  "themes": [
+   "dragoste",
+   "mitologie"
+  ],
+  "characters": [
+   "Fiica morarului",
+   "Nobilul"
+  ],
+  "summary": {
+   "ro": "Fiica unui morar se îndrăgostește de un nobil, iar după o trădare devine rusalcă, spirit al apelor.",
+   "en": "A miller's daughter falls in love with a nobleman. After betrayal, she becomes a rusalka, a spirit of the waters."
+  },
+  "origin": "russian"
+ },
+ {
+  "id": "povestea-bratarii-de-glezna",
+  "title": "Povestea brățării de gleznă",
+  "author": "Ilango Adigal",
+  "genre": "poveste",
+  "themes": [
+   "dragoste",
+   "dreptate"
+  ],
+  "characters": [
+   "Kovalan",
+   "Madhavi"
+  ],
+  "summary": {
+   "ro": "Dramatizare după poemul tamil antic „Silappatikaram”, cu Kovalan, Madhavi și curtea regelui Pandyan.",
+   "en": "A radio adaptation of the ancient Tamil poem “Silappatikaram”, featuring Kovalan, Madhavi and the Pandyan king's court."
+  },
+  "origin": "indian"
+ },
+ {
+  "id": "valea-frumoasei",
+  "title": "Valea frumoasei",
+  "author": "Marga Feraru",
+  "genre": "legenda",
+  "themes": [
+   "natura",
+   "frumusete"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Legendă radiofonică de Marga Feraru, înregistrată în 1975.",
+   "en": "A radio legend by Marga Feraru, recorded in 1975."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "cele-doua-privighetori",
+  "title": "Cele două privighetori",
+  "author": "Dumitru Solomon",
+  "genre": "poveste",
+  "themes": [
+   "umor",
+   "plictiseala"
+  ],
+  "characters": [
+   "Împăratul",
+   "Fenol"
+  ],
+  "summary": {
+   "ro": "Un împărat se plânge că se plictisește; nici cititul, nici dispariția unei cărți nu-l ajută, iar valetul Fenol e prins în întâmplări.",
+   "en": "An emperor complains of boredom; neither reading nor a missing book helps, and his valet Fenol is caught up in events."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "sora-saracilor",
+  "title": "Sora săracilor",
+  "author": "Émile Zola",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "bunatate"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Poveste a lui Émile Zola, prezentată într-o montare audio pentru copii din 2010.",
+   "en": "A story by Émile Zola, presented in a children's audio production from 2010."
+  },
+  "origin": "french"
+ },
+ {
+  "id": "pavilionul-de-pe-malul-raului",
+  "title": "Pavilionul de pe malul râului",
+  "author": "Guan Hanqing",
+  "genre": "poveste",
+  "themes": [
+   "dragoste",
+   "dreptate"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Poveste radiofonică după o operă a dramaturgului chinez Guan Hanqing, înregistrată în 1978.",
+   "en": "A radio story based on a work by Chinese playwright Guan Hanqing, recorded in 1978."
+  },
+  "origin": "chinese"
+ },
+ {
+  "id": "zapada-in-toiul-verii",
+  "title": "Zăpada în toiul verii",
+  "author": "Guan Hanqing",
+  "genre": "legenda",
+  "themes": [
+   "dreptate",
+   "istorie"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Legendă chinezească dramatizată pentru radio, după Guan Hanqing, înregistrată în 1978.",
+   "en": "A Chinese legend adapted for radio from Guan Hanqing, recorded in 1978."
+  },
+  "origin": "chinese"
+ },
+ {
+  "id": "voievodul-posadei",
+  "title": "Voievodul Posadei",
+  "author": "Autor necunoscut",
+  "genre": "legenda",
+  "themes": [
+   "istorie",
+   "curaj"
+  ],
+  "characters": [
+   "Basarab I",
+   "Carol Robert de Anjou"
+  ],
+  "summary": {
+   "ro": "Legendă despre lupta lui Basarab I cu regele Carol Robert de Anjou la Posada și eliberarea Țării Românești.",
+   "en": "A legend about Basarab I's battle with King Charles Robert of Anjou at Posada and Wallachia's struggle for independence."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "prometeu-din-profil",
+  "title": "Prometeu din profil",
+  "author": "Dan Tărchilă",
+  "genre": "legenda",
+  "themes": [
+   "mitologie",
+   "curaj"
+  ],
+  "characters": [
+   "Prometeu"
+  ],
+  "summary": {
+   "ro": "Scenariu radiofonic de Dan Tărchilă despre Prometeu, eroul mitologiei grecești.",
+   "en": "A radio play by Dan Tărchilă about Prometheus, the hero of Greek mythology."
+  },
+  "origin": "greek"
+ },
+ {
+  "id": "domnita-lacrima-furata",
+  "title": "Domnița lacrimă furată",
+  "author": "Dan Tărchilă",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "magie"
+  ],
+  "characters": [
+   "Domnița",
+   "Împăratul"
+  ],
+  "summary": {
+   "ro": "Poveste radiofonică de Dan Tărchilă despre o domniță și o lacrimă furată.",
+   "en": "A radio story by Dan Tărchilă about a princess and a stolen tear."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "darul-de-craciun-dan-tarchila",
+  "title": "Darul de Crăciun",
+  "author": "Dan Tărchilă",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "tehnologie"
+  ],
+  "characters": [
+   "Oana",
+   "Tatăl"
+  ],
+  "summary": {
+   "ro": "O fetiță își dorește o soră. Tatăl ei, inventator, construiește un robot-fetiță pe nume Oana.",
+   "en": "A girl wants a sister. Her inventor father builds a robot girl named Oana."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "cercul-caucazian-de-creta",
+  "title": "Cercul caucazian de cretă",
+  "author": "Bertolt Brecht",
+  "genre": "poveste",
+  "themes": [
+   "istorie",
+   "dreptate"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Piesă radiofonică istorico-epică de Bertolt Brecht, inspirată de o poveste din secolul al XIV-lea.",
+   "en": "A historical epic radio play by Bertolt Brecht, based on a story from the 14th century."
+  },
+  "origin": "german"
+ },
+ {
+  "id": "cheile-tatarului",
+  "title": "Cheile tătarului",
+  "author": "Mihai Jemăneanu",
+  "genre": "legenda",
+  "themes": [
+   "istorie",
+   "aventura"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "Legendă de Mihai Jemăneanu, păstrată într-o montare radiofonică din 1974.",
+   "en": "A legend by Mihai Jemăneanu, preserved in a 1974 radio production."
+  },
+  "origin": "romanian"
+ },
+ {
+  "id": "somerul-elise-wilk",
+  "title": "Șomerul",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "munca",
+   "umor"
+  ],
+  "characters": [
+   "Șomerul",
+   "Soția"
+  ],
+  "summary": {
+   "ro": "Un bărbat concediat de la fabrica de gumă de mestecat își ascunde șomajul de soție.",
+   "en": "A man laid off from a chewing-gum factory hides his unemployment from his wife."
+  },
+  "origin": "romanian",
+  "year": 2008
+ },
+ {
+  "id": "studenta-elise-wilk",
+  "title": "Studenta",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "studenti",
+   "singuratate"
+  ],
+  "characters": [
+   "Studenta",
+   "Amalia"
+  ],
+  "summary": {
+   "ro": "O studentă își povestește neînțelegerile cu colega ei de cameră, Amalia.",
+   "en": "A student tells of her friction with her roommate Amalia."
+  },
+  "origin": "romanian",
+  "year": 2008
+ },
+ {
+  "id": "elevul-elise-wilk",
+  "title": "Elevul",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "scoala",
+   "tehnologie"
+  ],
+  "characters": [
+   "Elevul"
+  ],
+  "summary": {
+   "ro": "Un elev conștiincios și perseverent își amintește de vremea când internet café-urile deschideau lumi noi.",
+   "en": "A diligent pupil recalls when internet cafés opened new worlds."
+  },
+  "origin": "romanian",
+  "year": 2008
+ },
+ {
+  "id": "menajera-elise-wilk",
+  "title": "Menajera",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "munca",
+   "singuratate"
+  ],
+  "characters": [
+   "Menajera"
+  ],
+  "summary": {
+   "ro": "Într-o zi obișnuită de joi, o menajeră se întreabă ce i s-ar putea întâmpla.",
+   "en": "On an ordinary Thursday, a cleaner wonders what could happen to her."
+  },
+  "origin": "romanian",
+  "year": 2008
+ },
+ {
+  "id": "secretara-elise-wilk",
+  "title": "Secretara",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "mister"
+  ],
+  "characters": [
+   "Secretara"
+  ],
+  "summary": {
+   "ro": "O secretară trăiește într-o casă plină de statuete stranii aduse de bărbatul din viața ei.",
+   "en": "A secretary lives in a house filled with strange statuettes brought home by the man in her life."
+  },
+  "origin": "romanian",
+  "year": 2008
+ },
+ {
+  "id": "taximetristul-elise-wilk",
+  "title": "Taximetristul",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "munca",
+   "singuratate"
+  ],
+  "characters": [
+   "Taximetristul"
+  ],
+  "summary": {
+   "ro": "De la o cursă la alta, un taximetrist întâlnește clienți și le ascultă poveștile de viață.",
+   "en": "From one ride to the next, a taxi driver meets passengers and listens to their stories."
+  },
+  "origin": "romanian",
+  "year": 2008
+ },
+ {
+  "id": "adolescentul-elise-wilk",
+  "title": "Adolescentul",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "adolescenta",
+   "familie"
+  ],
+  "characters": [
+   "Adolescentul",
+   "Părinții"
+  ],
+  "summary": {
+   "ro": "Monolog despre adolescență și neînțelegerile cu părinții.",
+   "en": "A monologue about adolescence and misunderstandings with parents."
+  },
+  "origin": "romanian",
+  "year": 2008
+ },
+ {
+  "id": "vanzatoarea-elise-wilk",
+  "title": "Vânzătoarea",
+  "author": "Elise Wilk",
+  "genre": "poveste",
+  "themes": [
+   "munca",
+   "singuratate"
+  ],
+  "characters": [
+   "Vânzătoarea"
+  ],
+  "summary": {
+   "ro": "Portretul unei vânzătoare rebele, într-o poveste despre oameni și ciudățeniile lor.",
+   "en": "A portrait of a rebellious shop assistant in a series about people and their oddities."
+  },
+  "origin": "romanian",
+  "year": 2008
  }
 ]

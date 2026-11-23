@@ -265,8 +265,8 @@
   "type": "audio",
   "url": "https://3ghub.ro/product/3g-radioactiv/",
   "description": {
-   "ro": "Teatru radiofonic produs de 3g HUB din Târgu Mureș. Pentru copii, „Aventurile lui Jonathan Gullible” cu Andi Gherghe și Laura Mihalache.",
-   "en": "Radio drama produced by 3g HUB in Târgu Mureș. For children, “The Adventures of Jonathan Gullible” features Andi Gherghe and Laura Mihalache."
+   "ro": "Producții audio de 3g HUB din Târgu Mureș: „Aventurile lui Jonathan Gullible” și seria de opt povești „S-a întâmplat într-o joi”, de Elise Wilk.",
+   "en": "Audio productions by 3g HUB in Târgu Mureș: “The Adventures of Jonathan Gullible” and Elise Wilk’s eight-story series “It Happened on a Thursday.”"
   }
  },
  {
@@ -287,16 +287,6 @@
   "description": {
    "ro": "Înregistrări de teatru radiofonic și povești pentru copii, cu fișe de distribuție pentru montările din arhiva Radio România.",
    "en": "Radio plays and stories for children, with cast and production credits for recordings from the Radio România archive."
-  }
- },
- {
-  "id": "asociatia-incap",
-  "name": "Asociația inCAP",
-  "type": "link",
-  "url": "https://soundcloud.com/user-739803593-473116796",
-  "description": {
-   "ro": "Povești contemporane și texte clasice rescrise de elevii din Scânteia pentru proiectul „Prezent! REscris”. Înregistrate cu actori, în regia Andreei Lăcătuș, cu ilustrație muzicală de Sever Andrei.",
-   "en": "New stories and classics rewritten by students in Scânteia for “Prezent! REscris”. Recorded with actors, directed by Andreea Lăcătuș, with music selected by Sever Andrei."
   }
  }
 ]

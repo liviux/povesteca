@@ -10,7 +10,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog.
 
-Acum sunt 1321 de povești și 1621 de înregistrări, din 30 de surse gratuite:
+Acum sunt 1350 de povești și 1651 de înregistrări, din 29 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -38,10 +38,9 @@ Acum sunt 1321 de povești și 1621 de înregistrări, din 30 de surse gratuite:
 - [MiniREACTOR & Radio Cluj](https://www.youtube.com/playlist?list=PL60ohYFl3MjZphRgScTHpvHd7OfAhHLwY) (YouTube, teatru radiofonic contemporan)
 - [Teatrul pentru Copii și Tineret „Colibri” Craiova](https://www.youtube.com/@TeatrulColibriCraiova) (YouTube, teatru radiofonic)
 - [Legendele Dobrogei](https://legendeledobrogei.ro/spectacole/) (20 de spectacole radiofonice, pe YouTube)
-- [3g RadioActiv](https://3ghub.ro/product/3g-radioactiv/) („Aventurile lui Jonathan Gullible”, audio direct și YouTube)
+- [3g RadioActiv](https://3ghub.ro/product/3g-radioactiv/) („Aventurile lui Jonathan Gullible” și „S-a întâmplat într-o joi”, audio direct și YouTube)
 - [AUZIT. Teatru Radiofonic](https://www.auzit.online/episoade) („Broscoiul”, pe YouTube)
 - [LaTimp.eu](https://latimp.eu/category/teatru-audio-copii/) (montări din arhiva Radio România, audio direct)
-- [Asociația inCAP](https://soundcloud.com/user-739803593-473116796) („Prezent! REscris”, pe site-ul SoundCloud)
 
 O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compari după durată, tip de producție și distribuție. Micul Prinț, de exemplu, are două montări diferite. Unele detalii, cum ar fi vârsta potrivită, atmosfera sau cât de multe efecte sonore are o înregistrare, sunt estimate și apar cu semnul „≈”.
 

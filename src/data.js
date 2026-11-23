@@ -68,12 +68,12 @@ export function rolesIn(v, name) {
   const c = v.credits || {};
   return [
     c.narrator?.includes(name) && 'narrator', c.cast?.some((x) => x.name === name) && 'cast',
-    ...['director', 'adaptation', 'music', 'songs'].map((k) => splitNames(c[k]).includes(name) && k),
+    ...['director', 'adaptation', 'music', 'songs', 'soundDesign'].map((k) => splitNames(c[k]).includes(name) && k),
   ].filter(Boolean);
 }
 export const people = (v) => {
   const c = v.credits || {};
-  return [...(c.narrator || []), ...(c.cast || []).map((x) => x.name), ...[c.director, c.adaptation, c.music, c.songs].flatMap(splitNames)];
+  return [...(c.narrator || []), ...(c.cast || []).map((x) => x.name), ...[c.director, c.adaptation, c.music, c.songs, c.soundDesign].flatMap(splitNames)];
 };
 
 // --- ratings live outside the catalog; this is only the math

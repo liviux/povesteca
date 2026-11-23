@@ -61,7 +61,7 @@ for (const v of versions) {
   const c = v.credits || {};
   (c.narrator || []).forEach((n) => add(n, 'narrator'));
   (c.cast || []).forEach((x) => add(x.name, 'cast'));
-  for (const k of ['director', 'adaptation', 'music', 'songs']) split(c[k]).forEach((n) => add(n, k));
+  for (const k of ['director', 'adaptation', 'music', 'songs', 'soundDesign']) split(c[k]).forEach((n) => add(n, k));
 }
 const allNames = [...roles.keys()];
 const authorNames = allNames.filter((n) => roles.get(n).has('author'));
@@ -113,6 +113,7 @@ const FITS = {
   adaptation: /writer|poet|novelist|playwright|screenwriter|translator|dramaturge|director/i,
   music: /composer|musician|conductor|singer|pianist|violinist|instrumentalist|songwriter/i,
   songs: /composer|lyricist|songwriter|poet|singer/i,
+  soundDesign: /sound designer|sound engineer|audio engineer|recording engineer|sound editor|sound technician|mixing engineer|audio producer/i,
 };
 const GROUP = /duo|siblings|brothers|sisters|group of humans|collective/i;
 const romanian = (d) => /Romania|Moldova|Moldavia|Wallachia/i.test(`${d.cit || ''}|${d.ctry || ''}`) || /Romanian/i.test(d.lang || '');

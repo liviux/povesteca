@@ -2340,23 +2340,24 @@
   }
  },
  {
-  "id": "prezent-rescris",
-  "title": "Prezent! REscris",
+  "id": "s-a-intamplat-intr-o-joi-3g",
+  "title": "S-a întâmplat într-o joi (8 povești)",
   "type": "series",
-  "sourceId": "asociatia-incap",
-  "url": "https://soundcloud.com/user-739803593-473116796",
+  "sourceId": "radioactiv-3g",
+  "url": "https://3ghub.ro/product/3g-radioactiv/",
   "items": [
-   "superman-elena-vladareanu-incap-2020",
-   "povestea-ariciului-cu-pene-incap-2020",
-   "cofetaria-lavinia-braniste-incap-2020",
-   "melcusorul-incap-2020",
-   "domnul-trandafir-rescris-incap-2020",
-   "fata-babei-si-fata-mosneagului-rescris-incap-2020",
-   "puiul-rescris-incap-2020"
+   "somerul-3g-radioactiv",
+   "studenta-3g-radioactiv",
+   "elevul-3g-radioactiv",
+   "menajera-3g-radioactiv",
+   "secretara-3g-radioactiv",
+   "taximetristul-3g-radioactiv",
+   "adolescentul-3g-radioactiv",
+   "vanzatoarea-3g-radioactiv"
   ],
   "description": {
-   "ro": "Trei texte clasice rescrise de elevii din Scânteia și patru povești contemporane, în interpretarea actorilor. Se ascultă pe SoundCloud.",
-   "en": "Three classics rewritten by students in Scânteia and four contemporary stories, performed by actors. Listen on SoundCloud."
+   "ro": "Opt povești de Elise Wilk despre singurătate și nevoia de a fi auziți, interpretate de actorii 3g HUB.",
+   "en": "Eight stories by Elise Wilk about loneliness and the need to be heard, performed by 3g HUB actors."
   }
  }
 ]
