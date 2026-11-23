@@ -2,6 +2,15 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.19.0] - 2026-11-23
+
+### Added
+- **Povești noi:** 71 de povești și 93 de înregistrări noi din Gong, Culturalia, LaTimp.eu, Povești Alese, MiniPovești, LibriVox, Teatru pe Vinil, Teatrul Colibri, Teatrul Stela Popescu și Internet Archive.
+- 111 linkuri verificate au fost adăugate la înregistrări existente.
+
+### Removed
+- Au fost scoase sursele cu mai puțin de trei înregistrări și cele trei înregistrări care existau doar acolo.
+
 ## [1.18.0] - 2026-11-23
 
 ### Added

@@ -2040,19 +2040,6 @@
   }
  },
  {
-  "id": "arteka-teatru-radiofonic",
-  "sourceId": "arteka",
-  "title": "Asociația Arteka – Teatru radiofonic pentru copii",
-  "items": [
-   "aventura-capitanului-vic-arteka",
-   "hermann-arteka"
-  ],
-  "description": {
-   "ro": "Două spectacole de teatru radiofonic pentru copii din proiectul „Teatru Radiofonic pentru Copii” al Asociației Arteka (2021), după piese de George Cocoș și Daniel Chirilă. Sunt în ordinea în care au apărut.",
-   "en": "Two children’s radio plays from Asociația Arteka’s project “Teatru Radiofonic pentru Copii” (2021), based on plays by George Cocoș and Daniel Chirilă. They are in the order they came out."
-  }
- },
- {
   "id": "cutiuta-cu-povesti-2",
   "sourceId": "cutiuta-cu-povesti",
   "code": "MediaPro 0010",

@@ -173,6 +173,14 @@
     "type": "archive",
     "id": "274182236",
     "file": "274182236.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "PovesteaPorcului2.FataMosuluiCeaCumintePovestiVinilAudio",
+    "file": "Povestea porcului 2.Fata mosului cea cuminte (Povesti vinil audio).mp3",
+    "start": 60,
+    "end": 1677,
+    "via": "Povești Audio Vinil"
    }
   ],
   "duration": 1611,
@@ -258,6 +266,14 @@
     "type": "archive",
     "id": "274182828",
     "file": "274182828.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "PovesteaPorcului2.FataMosuluiCeaCumintePovestiVinilAudio",
+    "file": "Povestea porcului 2.Fata mosului cea cuminte (Povesti vinil audio).mp3",
+    "start": 1677,
+    "end": 3130.07,
+    "via": "Povești Audio Vinil"
    }
   ],
   "duration": 1413,
@@ -314,6 +330,10 @@
     {
      "role": "Fântâna",
      "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Dragomir",
+     "name": "Aurelian Năpu"
     }
    ]
   },
@@ -1328,6 +1348,11 @@
     "type": "youtube",
     "id": "7smwXrsyytk",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "youtube",
+    "id": "ZCq3zq7CYwE",
+    "via": "Teatru pe Vinil"
    },
    {
     "type": "archive",
@@ -2696,6 +2721,14 @@
     "type": "archive",
     "id": "304098791",
     "file": "304098791.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "MotanulIncaltat2.PovesteaBoabelorDeDiamantPovestiVinilAudio",
+    "file": "Motanul incaltat 2.Povestea boabelor de diamant (Povesti vinil audio).mp3",
+    "start": 0,
+    "end": 1425,
+    "via": "Povești Audio Vinil"
    }
   ],
   "duration": 1384,
@@ -2898,6 +2931,14 @@
     "type": "archive",
     "id": "303905551",
     "file": "303905551.mp4"
+   },
+   {
+    "type": "archive",
+    "id": "MotanulIncaltat2.PovesteaBoabelorDeDiamantPovestiVinilAudio",
+    "file": "Motanul incaltat 2.Povestea boabelor de diamant (Povesti vinil audio).mp3",
+    "start": 1425,
+    "end": 2655.16,
+    "via": "Povești Audio Vinil"
    }
   ],
   "duration": 1205,
@@ -7059,6 +7100,18 @@
     "url": "https://eteatru.ro/uploads/modules/news/0/2026/5/29/384/178021696256d4efc5.mp3",
     "page": "https://eteatru.ro/spectacole/sultan-pentru-o-zi-id384.html",
     "via": "eTeatru"
+   },
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/08/21093002/teatru-audio-pentru-copii-sultan-pentru-o-zi-1001-de-nopti-piesa-radiofonica.mp3",
+    "page": "https://latimp.eu/sultan-pentru-o-zi-teatru-audio-pentru-copii-adaptare-radiofonica-dupa-1001-de-nopti/",
+    "via": "LaTimp.eu"
+   },
+   {
+    "type": "archive",
+    "id": "sultan-pentru-o-zi-teatru-audio-pentru-copii-adaptare-radiofonica-dupa-1001-de-n",
+    "file": "Sultan-pentru-o-zi--teatru-audio-pentru-copii-adaptare-radiofonica-dupa-1001-de-nopti--latimp.eusite-teatru-radiofonic-filme-romanesti.mp3",
+    "page": "https://archive.org/details/sultan-pentru-o-zi-teatru-audio-pentru-copii-adaptare-radiofonica-dupa-1001-de-n"
    }
   ],
   "duration": 3588,
@@ -7457,6 +7510,11 @@
     "url": "https://eteatru.ro/uploads/modules/news/0/2026/5/29/382/178021696920316a5d.mp3",
     "page": "https://eteatru.ro/spectacole/emirul-si-poetul-id382.html",
     "via": "eTeatru"
+   },
+   {
+    "type": "youtube",
+    "id": "FeKJldSFOyg",
+    "via": "Teatru pe Vinil"
    },
    {
     "type": "archive",
@@ -8318,6 +8376,12 @@
     "url": "https://eteatru.ro/uploads/modules/news/0/2026/6/1/397/17803025645c654a3d.mp3",
     "page": "https://eteatru.ro/spectacole/povestea-fecioarei-gudrun-id397.html",
     "via": "eTeatru"
+   },
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/02/19215009/Povestea-Fecioarei-Gudrun-2006.m4a",
+    "page": "https://latimp.eu/povestea-fecioarei-gudrun-povesti-mituri-si-legende-pentru-copii-2006/",
+    "via": "LaTimp.eu"
    }
   ],
   "duration": 3396,
@@ -16088,6 +16152,11 @@
     "url": "https://eteatru.ro/uploads/modules/news/0/2025/12/15/37/17657930477f36cbbd.mp3",
     "page": "https://eteatru.ro/spectacole/alba-ca-zapada-id37.html",
     "via": "eTeatru"
+   },
+   {
+    "type": "youtube",
+    "id": "SgCvUvxkCps",
+    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 3576,
@@ -18519,6 +18588,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-27/nbc_galosii_xw335.mp3",
     "page": "https://radio-arhive.ro/articol/noapte-buna-copii-evgheni-permeak-galoii-infumurai-1960/2728281/5051/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20335_03.mp3",
+    "page": "https://culturalia.ro/entities/62daba32-31fe-4043-82ca-ba3d52a0692a/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 305,
@@ -18559,6 +18634,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-27/nbc_labuta_xw373_chicos.mp3",
     "page": "https://radio-arhive.ro/articol/noapte-buna-copii-j-villafane-labua-1961/2728291/5051/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20373_03.mp3",
+    "page": "https://culturalia.ro/entities/1da0212d-ed52-4c58-9c4b-3d034e17a0d4/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 567,
@@ -18679,6 +18760,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-27/nbc_soricelul_xw611.mp3",
     "page": "https://radio-arhive.ro/articol/noapte-buna-copii-vladimir-colin-oricelul-1963/2728351/5051/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20611_03.mp3",
+    "page": "https://culturalia.ro/entities/d634af0d-934f-424b-8fda-50400f4d6d5e/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 345,
@@ -18846,6 +18933,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-27/nbc_pestisorul_xw854.mp3",
     "page": "https://radio-arhive.ro/articol/noapte-buna-copii-alexandrina-halic-citeste-pestisorul-de-argint-de-ilie-carciu-1965/2728321/5051/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20854_03.mp3",
+    "page": "https://culturalia.ro/entities/98b9e908-bc2f-4592-94ed-a7c55271fa1e/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 320,
@@ -19007,6 +19100,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2025/2025-08/2025-08-08/pisica_clopotei_5666_zw91.mp3",
     "page": "https://radio-arhive.ro/articol/noapte-buna-copii-ilie-carciu-pisica-n-are-clopoei-1970/3871171/5051/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Diana/4_ZW%2091_03.mp3",
+    "page": "https://culturalia.ro/entities/670b24de-b756-4714-a86a-2a3b674819db/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 211,
@@ -20397,6 +20496,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-28/01_cine_le_va_gasi_xw_472.mp3",
     "page": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povetile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/2728361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20472_03.mp3",
+    "page": "https://culturalia.ro/entities/f3586fd6-1c09-4bed-b34e-15ee6b0d7b02/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 379,
@@ -20437,6 +20542,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-28/02_cocoselul_timotei_xw_578.mp3",
     "page": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povetile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/2728361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20578_03.mp3",
+    "page": "https://culturalia.ro/entities/b3384700-b3c6-4412-85f1-0e393b883b03/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 470,
@@ -20478,6 +20589,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-28/03_pricoliciul_alandala_xw_696.mp3",
     "page": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povetile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/2728361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20696_03.mp3",
+    "page": "https://culturalia.ro/entities/ca820e85-a3aa-4e42-a78b-1e6828c40aec/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 586,
@@ -20518,6 +20635,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-28/04_spiridusul_xw_793.mp3",
     "page": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povetile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/2728361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20793_03.mp3",
+    "page": "https://culturalia.ro/entities/645974e5-69cb-4f85-b4b7-c46103b3f4dd/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 550,
@@ -20558,6 +20681,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-28/05__fluturele_xw892.mp3",
     "page": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povetile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/2728361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Mai/Andra/4_XW%20892_03.mp3",
+    "page": "https://culturalia.ro/entities/95063269-7057-445e-b1dc-ced2241ea164/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 255,
@@ -20598,6 +20727,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-28/06_fetita_din_ploaie_xw915.mp3",
     "page": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povetile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/2728361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Mai/Andra/4_XW%20915_03.mp3",
+    "page": "https://culturalia.ro/entities/b912c722-d4c4-4474-993e-010a1ee4963c/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 575,
@@ -20679,6 +20814,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2020/2020-06/2020-06-28/08_ciobul_xw1149.mp3",
     "page": "https://radio-arhive.ro/articol/elena-pop-28-iunie-1930-26-iunie-2017-i-povetile-magice-ale-copilariei-citite-seara-la-radio-in-emisiunea-noapte-buna-copii-1961-1980/2728361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Iunie/Vezeteu/4_XW%201149_03.mp3",
+    "page": "https://culturalia.ro/entities/22bf3cfc-aca8-47eb-92e9-22d137f639ba/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 494,
@@ -21248,14 +21389,6 @@
     "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20792_03.mp3",
     "page": "https://culturalia.ro/entities/141c45cc-8288-4ca8-a9c9-6e07993a1eab/view",
     "via": "Culturalia"
-   },
-   {
-    "type": "audio",
-    "url": "https://static.srr.ro/audio/articles/5051/art-audio-1977411-02_track_2.mp3",
-    "page": "https://radio-arhive.ro/articol/noapte-buna-copii1964-doua-povestiri-de-titel-constantinescu-17-februarie-1927-13-mai-1999/1977411/5051/2",
-    "via": "Arhiva Radio România",
-    "start": 0,
-    "end": 213
    }
   ],
   "duration": 274,
@@ -23058,14 +23191,6 @@
     "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20792_05.mp3",
     "page": "https://culturalia.ro/entities/6c9b4a48-7c22-450b-a6a9-65d68debc434/view",
     "via": "Culturalia"
-   },
-   {
-    "type": "audio",
-    "url": "https://static.srr.ro/audio/articles/5051/art-audio-1977411-02_track_2.mp3",
-    "page": "https://radio-arhive.ro/articol/noapte-buna-copii1964-doua-povestiri-de-titel-constantinescu-17-februarie-1927-13-mai-1999/1977411/5051/2",
-    "via": "Arhiva Radio România",
-    "start": 213,
-    "end": 559
    }
   ],
   "duration": 233,
@@ -25659,6 +25784,11 @@
   "title": "Nuielușa de alun",
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
+   {
+    "type": "youtube",
+    "id": "bCenp1H2sZk",
+    "via": "Teatru pe Vinil"
+   },
    {
     "type": "archive",
     "id": "302541901",
@@ -34588,6 +34718,11 @@
   "sourceId": "arhiva-discuri-electrecord",
   "links": [
    {
+    "type": "youtube",
+    "id": "bFKkxgiTt64",
+    "via": "Teatru pe Vinil"
+   },
+   {
     "type": "archive",
     "id": "302225086",
     "file": "302225086.mp4"
@@ -42327,6 +42462,12 @@
   "sourceId": "arhiva-povesti-vinil",
   "links": [
    {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/02/26144451/Sci%C8%9Bii-%C8%99i-Darius-%C3%AEmp%C4%83rat-Pove%C8%99ti-audio-vinil-LegendeMituriPovestiri.mp3",
+    "page": "https://latimp.eu/scitii-si-darius-imparat-povesti-audio-vinyl-legendemituripovestiri/",
+    "via": "LaTimp.eu"
+   },
+   {
     "type": "archive",
     "id": "scitii-si-darius-imparat-povesti-audio-vinil-legende-mituri-povestiri",
     "file": "Sciții și Darius împărat (Povești audio vinil) Legende,Mituri,Povestiri.mp3"
@@ -49944,6 +50085,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/90508096/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-16%2Fce9f1754-d2a5-9c7a-2f7a-b1fe773204bc.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/59--mpratul-Cioc-de-Sturz--o-poveste-spus-de-Mihai-Oprean-e2n8jc0",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "nitEK4qEjK8",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 942,
@@ -49983,6 +50129,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/89608538/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-24%2F5e6b50d2-0ed8-3b6d-bc82-d0b87e898f5f.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/58--Prinul-fermecat--o-poveste-spus-de-Mihai-Oprean-e2md4sq",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "EamxJ25xJMY",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50024,6 +50175,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/84710397/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-29%2F6fa17808-0242-4af7-a624-61870e4fe7e6.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/57--STOP-ARSURI---Aspiratorul-imaginar--o-poveste-spus-de-Ramona-Dumitrean-e2hnlht",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "FQECCr1DcgU",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 318,
@@ -50063,6 +50219,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/84709750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-29%2Fa0c80bbe-fba5-0442-0256-5409eabdaf03.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/56--STOP-ARSURI---Aniversare-cu-Scntei--o-poveste-spus-de-Matei-Rotaru-e2hnktm",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "Bvo92rpPnM4",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50104,6 +50265,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/84704790/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-29%2F4a2f9b7f-c0c1-b506-6a48-4667255bb6f0.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/55--STOP-ARSURI---Balaurii-din-Buctrie--o-poveste-spus-de-Mihai-Oprean-e2hng2m",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "l_aiU3cmBG4",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 473,
@@ -50143,6 +50309,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/84863678/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-2%2F838ab526-8b73-f94f-3bab-10fbd46ce6a9.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/54--Sarea-n-bucate--o-poveste-spus-de-Anca-Marina-Uiflean-e2hsb7u",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "StXjURVQIhk",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50184,6 +50355,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/73630306/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-20%2F97892534-fcda-2dbf-371c-af8a634612f3.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/53--Amintiri-din-copilrie-1--o-poveste-spus-de-Matei-Ioan-Rotaru-e275h52",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "kvpjYSs0qAo",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 2712,
@@ -50224,6 +50400,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/72384269/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-20%2Fb8147538-8595-2f00-ddce-d597c66e8af8.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/52--Povestea-iepuraului-ndrgostit-e25vgad",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "_kIGY6C-CXE",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 620,
@@ -50258,6 +50439,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/71347507/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-31%2Fd36f022c-4d22-24bd-82cd-a1cda1af0de2.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/51--Gsca-de-aur--o-poveste-spus-de-Anca-Marina-Uiflean-e24vrrj",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "6tmcPRJfZQg",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50299,6 +50485,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/71342028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-31%2F534b490c-b905-5c55-46dd-36c0e8339b8a.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/49--n-pdure-toate-s-bune--numai-croitorii-sunt-proti--o-poveste-spus-de-Tea-Arjoca-e24vmgc",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "EmyuZ8Uao9A",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 592,
@@ -50338,6 +50529,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/68542164/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-13%2F7b8a9a93-be6c-d524-6706-a7c6eeb16106.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/48--Petiorii-i-zna--o-poveste-spus-de-Ema-i-Andra-e22a88k",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "59-ogBrIpqQ",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50380,6 +50576,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/68541309/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-13%2F74fafbe9-2867-0795-7eeb-c9adc0905560.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/47--A-fost-odat-un-cire--o-poveste-spus-de-Tea-Arjoca-e22a7dt",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "EJr_GISzsl4",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 360,
@@ -50419,6 +50620,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/55731320/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-4%2Feaf7863c-3ede-9cac-7685-435fe6842093.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/44--Mica-Siren--o-poveste-spus-de-Oana-Martinca-e1m39lo",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "TiVb1w9vPwY",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50460,6 +50666,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/55337006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-26%2Fb7a40806-d59e-9f58-1743-8226a19eaaac.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/43--Tineree-fr-btrnee-i-via-fr-de-moarte-e1ln8je",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "YxYQZX_Wy10",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 1749,
@@ -50494,6 +50705,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/55170651/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-22%2F61d5c4c7-eba7-7b18-2b06-be82b9cbe2b0.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/42--araUndeVineriEraJoi--o-poveste-spus-de-Tea-Arjoca-e1li64r",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "Fym_fTrBjns",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50535,6 +50751,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/54155296/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-29%2F047bce41-ce6e-2655-cbb8-33c801457b48.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/41--Prerea-mea-i-a-crocodilului-tat--o-poveste-spus-de-Tea-Arjoca-e1kj6j0",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "LMMUVKj0JW8",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 392,
@@ -50574,6 +50795,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/52811371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-31%2F71be6208-0199-3661-eb77-9f54b038bb76.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/40--Nu-numai-la-grdini--o-poveste-spus-de-Tea-Arjoca-e1ja65b",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "SMs_FQZkcR4",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50615,6 +50841,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/50936103/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-22%2F39af4bfa-caca-52b9-2df1-c8a7c2e62f16.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/38--Ruca-cea-urt--o-poveste-spus-de-Mihai-Oprean-e1hgur7",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "z8Ix7MAMYzM",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 1613,
@@ -50655,6 +50886,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/49950394/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-1%2F595ee51d-7cd1-14a1-d430-7380a68c3374.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/36--Aventurierul-e1gis7q",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "FjLQwdwSGzM",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 318,
@@ -50689,6 +50925,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/49144638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-16%2F50319b20-9596-d172-09fd-5391d01d36d5.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/35--Povestea-de-sear-Campionii-e1fq9bu",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "MmLS0twEnXQ",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50725,6 +50966,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/48193436/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-25%2Fe5ab7c02-2bba-504d-97ba-db07b16e8f1b.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/34--Legenda-ghioceilor--o-poveste-scris-de-Valentina-Neacu-e1et8es",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "GLZ9uU4hcBk",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 266,
@@ -50759,6 +51005,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/48084718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-23%2Fe423f207-d6c1-2096-b0e7-f18210251d5d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/33--Prostia-omeneasc--o-poveste-spus-de-Mihai-Oprean-e1epu9e",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "pzKX20I0tVQ",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50857,6 +51108,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/47363746/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-8%2F157bbfa6-ab50-f4e1-62f3-851e0d76fcca.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/31--Bunica-e1e3u72",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "tBZjjjIWDuo",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 588,
@@ -50891,6 +51147,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/47305273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-7%2F5fa469c2-f43f-069e-b288-969c59887257.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/30--D-l-Goe--o-poveste-spus-de-Mihai-Oprean-e1e253p",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "CTMh_V-8GyY",
     "via": "Oameni mici și mari"
    }
   ],
@@ -50931,6 +51192,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/41820723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-15%2F7c60d42e-6aba-0212-5b9f-f5d798a73384.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/26--Croitoraul-cel-viteaz-e18qp3j",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "lgp1tyJZRXU",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51005,6 +51271,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/39313795/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-25%2F4890e2d5-d041-0cb1-0143-102fb3955e52.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/24--FRAM---Cum-am-devenit-celebru-e16e8u3",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "AQ0-daqsxeE",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 506,
@@ -51042,6 +51313,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/39308901/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-25%2Fd6d3efe4-1658-7361-122c-105f64b8fe83.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/23--FRAM---Am-un-nume-e16e455",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "ftIYQflUMIE",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51081,6 +51357,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/38045770/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-30%2F06c749d3-f5b7-abb0-9fbb-4251fd18c767.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/22--FRAM---Cltorie-cu-peripeii-e157ika",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "y587f9sMS9s",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 391,
@@ -51118,6 +51399,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/36710523/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fa7fd7019-95e1-711a-6edd-aa9ee08aa0b4.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/21--FRAM---Un-pui-de-urs-la-Polul-Nord-e13uqlr",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "eqcp91YXlKQ",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51157,6 +51443,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/35455150/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-14%2Fe37bbe2a-fb2c-1670-a267-a00016da8c2d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/20--Miercuri-sunt-bucuros-e12ogne",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "8DBgmL73amE",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 262,
@@ -51191,6 +51482,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/35283345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-11%2F5834f664-2b80-6c69-fec3-382d9b567d30.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/19--Luni-sunt-argos-e12j8uh",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "J7jvHNpeqHI",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51227,6 +51523,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/34411382/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-28%2F36554461-fa94-dbfa-8ef3-732b43fc7c68.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/18--Petiorul-de-aur-e11oldm",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "ZTuEFmC4dHY",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 549,
@@ -51262,6 +51563,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/33954344/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-21%2Ff39b534d-2499-8172-e5cd-d52425187f8d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/17--Fetia-neleapt-e11an38",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "BZnrbc5ClJg",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 404,
@@ -51296,6 +51602,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/33480695/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-14%2F8e7dfde3-ca1c-a1ee-e1b7-aa32bf0fe2f2.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/16--Graurul-cntre-e10s8hn",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "Rezn5pwyqSo",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51367,6 +51678,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/30819358/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-6%2F8b778d29-39d0-5290-a8e5-1d02ff85e10f.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/13--Jack-i-Vrejul-de-Fasole-eub1iu",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "H2L7_wqT-vc",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 616,
@@ -51401,6 +51717,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/29992632/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-26%2Ff66757bc-2608-20a4-8197-d1fa6126b3f5.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/12--Frumoasa-adormit-ethq7o",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "X05W2VzAfqA",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51437,6 +51758,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/29407599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-19%2F3183515a-5eb3-7792-8781-f0c213b88279.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/11--Scufia-Roie-esvutf",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "FJUPg1nsqBE",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 560,
@@ -51471,6 +51797,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/29228162/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-17%2F8081715d-b9f4-3e48-440f-cd3094b7e058.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/10--Alb-ca-Zpada-i-cei-apte-pitici-esqfm2",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "6Edc3HItLbs",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51507,6 +51838,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/28010446/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-5%2F2a37baff-cdad-5feb-e6ad-165f4485f76d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/8--oarecele-de-la-ora-i-oarecele-de-la-ar-erlage",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "egUWvXq2GwQ",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 300,
@@ -51542,6 +51878,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/27302624/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-24%2F420fa832-14cc-76de-ddbf-0be96d8e3860.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/7--Muzicanii-din-Bremen-eqvn90",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "5A_q-Q8e3fU",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 678,
@@ -51576,6 +51917,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/26610025/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-12%2F1ae473ac-099b-72ab-f727-986bccb21c6a.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/6--Bunicul--o-poveste-spus-de-Mihai-Oprean-eqait9",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "QrQggiJ8-1g",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51617,6 +51963,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/25900748/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-29%2F7bc2e75a-9334-e1fa-5b5d-aaac319cb21b.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/5--Iepurele-i-ariciul-epku8c",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "KYl8FgVUSrY",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 316,
@@ -51651,6 +52002,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/19281426/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-8-8%2F765e4eec-4c05-dc02-df8a-fa1ac6f5a2ea.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/4--Pungua-cu-doi-bani--o-poveste-spus-de-Mihai-Oprean-ejau2i",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "K9gWhDVYkE0",
     "via": "Oameni mici și mari"
    }
   ],
@@ -51692,6 +52048,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/18497141/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-24%2Fd2484108-4f25-3d5a-402c-1f3211a90e01.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/3--Bazaconia-eij05l",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "vyqm9dLZiGw",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 298,
@@ -51732,6 +52093,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/18040649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-14%2F4bdfc88c-99b7-35db-f8be-2bf2e760ffcd.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/2--Fluierul-fermecat-ei52c9",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "dr2GWbBRGb4",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 510,
@@ -51766,6 +52132,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/17208003/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-28%2F9fa25370-43e4-d8e4-b7a5-a4a5c3fa0c33.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/1--Ursul-pclit-de-vulpe--o-poveste-spus-de-Mihai-Oprean-ehbl83",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "X_ksSaOkSgA",
     "via": "Oameni mici și mari"
    }
   ],
@@ -52126,6 +52497,12 @@
   "title": "Ninigra și Aligru (1969)",
   "sourceId": "yt-teatru-subtitrat",
   "links": [
+   {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/05/16082816/Ninigra-si-Aligru-cu-Toma-Caragiu-si-Olga-Tudorache-teatru-radiofonic-pentru-copii-la-microfon.mp3",
+    "page": "https://latimp.eu/ninigra-si-aligru-de-nina-cassian-povestea-a-doi-tigri-pentru-copii-la-microfon-1969/",
+    "via": "LaTimp.eu"
+   },
    {
     "type": "youtube",
     "id": "6iOdiPSY_hY",
@@ -60459,6 +60836,11 @@
     "url": "https://eteatru.ro/uploads/modules/news/0/2025/12/18/108/176611505557742ba3.mp3",
     "page": "https://eteatru.ro/spectacole/cocosatul-de-la-notre-dame-id108.html",
     "via": "eTeatru"
+   },
+   {
+    "type": "youtube",
+    "id": "duCHEc3Y9mo",
+    "via": "Teatru Radiofonic"
    }
   ],
   "duration": 5869,
@@ -62517,6 +62899,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2024/2024-06/2024-06-01/nbc_xw1317_cotescu.mp3",
     "page": "https://radio-arhive.ro/articol/evenimente/3793361/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Diana/4_XW%201317_02.mp3",
+    "page": "https://culturalia.ro/entities/a79050a0-73cc-4595-b411-7d6d9bda2154/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 283,
@@ -62556,6 +62944,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2025/2025-06/2025-06-28/eu_eram_z_na_xw_722.mp3",
     "page": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20722_03.mp3",
+    "page": "https://culturalia.ro/entities/a3ccb81e-7543-47da-950d-b74933bda215/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 484,
@@ -62636,6 +63030,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2025/2025-06/2025-06-28/patania_puisorului_xw_510.mp3",
     "page": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20510_03.mp3",
+    "page": "https://culturalia.ro/entities/b0aae013-0f07-46be-824f-72ce1a0ff66e/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 310,
@@ -62717,6 +63117,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2025/2025-06/2025-06-28/prietenii_fetitei_xw_843.mp3",
     "page": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20843_03.mp3",
+    "page": "https://culturalia.ro/entities/2aa60fc8-2c40-41c6-a8ef-72d6d9bda215/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 414,
@@ -62796,6 +63202,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2025/2025-06/2025-06-28/copiii_n_cr_ng_xw_586.mp3",
     "page": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20586_03.mp3",
+    "page": "https://culturalia.ro/entities/a8047fdc-46e3-4476-b46a-09f9839e51a1/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 329,
@@ -62836,6 +63248,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2025/2025-06/2025-06-28/noaptea_la_p_nd__xw_797.mp3",
     "page": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20797_03.mp3",
+    "page": "https://culturalia.ro/entities/198a4a6e-1221-495e-831e-d1e2d5aa1335/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 433,
@@ -62875,6 +63293,12 @@
     "url": "https://static.srr.ro/files/AUDIO/2025/2025-06/2025-06-28/o_viorea_la_polul_nord_xw_692.mp3",
     "page": "https://radio-arhive.ro/articol/evenimente/3866001/5881/2",
     "via": "Arhiva Radio România"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Februarie/Vezeteu/4_XW%20692_03.mp3",
+    "page": "https://culturalia.ro/entities/e677536a-9547-4ca2-a37e-2676dc6b8b66/view",
+    "via": "Culturalia"
    }
   ],
   "duration": 314,
@@ -64392,6 +64816,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/71342182/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-31%2F7741b8bd-6fcc-23b3-6821-54e0c52a1289.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/50--Cel-mai-rapid-lene-din-jungl--o-poveste-spus-de-Andra-Oprean-e24vml6",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "8DVntAjKw5E",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 201,
@@ -64431,6 +64860,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/56852834/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-30%2Fa6577150-d663-a324-18cc-b23add27d3fe.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/46--Girafa-cu-dungi--o-poveste-spus-de-Andra-Oprean-e1n5gt2",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "LHLEPCDeuKY",
     "via": "Oameni mici și mari"
    }
   ],
@@ -64472,6 +64906,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/56544614/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-23%2Fb262ed46-a629-f8a6-b165-3a5fe8fea26a.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/45--Aripile-fluturelui--o-poveste-spus-de-Andra-Oprean-e1ms3t6",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "EY1C4RdEwjE",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 148,
@@ -64511,6 +64950,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/52808217/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-31%2F587c33ce-f1f3-4024-8f7c-86e9aad33436.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/39--Pupici-Pupici--o-poveste-spus-de-Ema-e1ja32p",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "n9gsPyXg_GI",
     "via": "Oameni mici și mari"
    }
   ],
@@ -64552,6 +64996,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/45281438/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-24%2Fd69b0128-d0ed-93ce-8985-108d78194107.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/29--A-fost-odat-ca-niciodat-----cu-Ema-Oprean-e1c4cmu",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "hc2uwVQKRx0",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 260,
@@ -64591,6 +65040,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/42700503/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-10-2%2F03be7b45-9f5b-c619-291c-d58d56f61b5d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/28--Ridichea-uria--o-poveste-spus-de-micua-Ema-e19lk8n",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "-xE5Elc8lGo",
     "via": "Oameni mici și mari"
    }
   ],
@@ -64632,6 +65086,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/42469556/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-28%2Fe2d97bc2-b2eb-f58c-16fd-303915638458.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/27--Turtia-nzdrvan---o-poveste-spus-de-micua-Ema-e19eink",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "oq0el6LBbnw",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 260,
@@ -64672,6 +65131,11 @@
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/32058825/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-23%2F2c48e5b1-2e0a-7063-99bd-81024cfb2d16.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/15--Vulpea-i-strugurii-evgs09",
     "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "parguvwcshU",
+    "via": "Oameni mici și mari"
    }
   ],
   "duration": 114,
@@ -64706,6 +65170,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/2e3f897c/podcast/play/28575747/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-10%2F5167d3ad-6f4d-a490-e61f-3591dc4819cb.mp3",
     "page": "https://podcasters.spotify.com/pod/show/oamenimicisimari/episodes/9--Leul-i-oricelul-es6ii3",
+    "via": "Oameni mici și mari"
+   },
+   {
+    "type": "youtube",
+    "id": "KttS2gpjYIM",
     "via": "Oameni mici și mari"
    }
   ],
@@ -69712,6 +70181,11 @@
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/88637927/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-30%2Fe8becfea-5641-5081-c7a0-9f7a1aaa17e4.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Povestea-papanailor-Un-vis----ciudat-e2lfh17",
     "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "tqg8TNmVxWw",
+    "via": "Somnoroși Povești Audio"
    }
   ],
   "duration": 740,
@@ -69753,6 +70227,11 @@
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/75647545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-8%2F0e04bcc6-40eb-baef-1d12-e7418a99ba6d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Cei-5-friori-i-prima-zi-de-coal-e29333p",
     "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "UkiibvAagbs",
+    "via": "Somnoroși Povești Audio"
    }
   ],
   "duration": 739,
@@ -69793,6 +70272,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/74817663/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-19%2Ff386f180-7fcd-f520-5508-312a429f5307.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Spaima-lui-Pap-Lapte-e289olv",
+    "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "ftxIY4FwXgM",
     "via": "Somnoroși Povești Audio"
    }
   ],
@@ -69875,6 +70359,11 @@
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/62428632/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-19%2F01c2aa01-537e-c2fb-d45d-4cca3437465d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Prinesa-Chiftelua-i-Buctarul-Usturoi---Cine-a-auzit-de-prjitur-de-mandarine-cu-usturoi-e1sfm0o",
     "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "9jvIEyMC0WA",
+    "via": "Somnoroși Povești Audio"
    }
   ],
   "duration": 1154,
@@ -69914,6 +70403,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/48596871/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-5%2Fca38aae6-3752-d156-2bd9-a0f718fcdf5d.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Cei-5-friori-i-dinozaurul-de-plastilin---Ce-creatur-ciudat-mai-e-i-dinozaurul-sta-e1f9ie7",
+    "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "dstko-SG-aY",
     "via": "Somnoroși Povești Audio"
    }
   ],
@@ -69955,6 +70449,11 @@
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/34393114/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-28%2F618eabf1-8b7b-224d-5939-987a20cafff9.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Martinic--Floric-i-zmeurica-de-la-Babarunca---Prietenia-se-poate-nate-oriunde-e11o3iq",
     "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "x4XamqVrpfI",
+    "via": "Somnoroși Povești Audio"
    }
   ],
   "duration": 830,
@@ -69994,6 +70493,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/34393006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-28%2Fb77a4149-0a09-f492-9634-b45c3d3e433f.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Bombonel-i-povestea-mrului---Tu-ai-da-o-bomboan-pe-un-mr-e11o3fe",
+    "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "pv380RpqW7M",
     "via": "Somnoroși Povești Audio"
    }
   ],
@@ -70036,6 +70540,11 @@
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/34392826/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-28%2F1ad5c973-f348-a3ee-3dba-0c1ad65516fa.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Puterea-lui-iart-m---Nu-doar-Abracadabra-e-un-cuvnt-magic--ci-i-Iart-m-e11o39q",
     "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "2Nwqg62i_NY",
+    "via": "Somnoroși Povești Audio"
    }
   ],
   "duration": 783,
@@ -70076,6 +70585,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/34392608/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-28%2F103b1454-bcdc-40f9-020f-3a6d0fc3db9a.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Aventurile-lui-Nimerici-i-Cotrobil---Cum-ar-fi-s-te-saturi-de-mncat-torturi-e11o330",
+    "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "yxcilrgI0Qo",
     "via": "Somnoroși Povești Audio"
    }
   ],
@@ -70118,6 +70632,11 @@
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/30321137/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-30%2F16811d13-c041-f9c1-fc57-0e50f9b3812a.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Inima-de-lemn-plin-cu-inimi---Exist-cte-o-inim-pentru-orice-etrr1h",
     "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "113pesWBmF4",
+    "via": "Somnoroși Povești Audio"
    }
   ],
   "duration": 744,
@@ -70157,6 +70676,11 @@
     "type": "audio",
     "url": "https://anchor.fm/s/496c7d2c/podcast/play/25647361/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-24%2F07ea542a-101a-b5f5-773a-a82e69bcf7ba.mp3",
     "page": "https://podcasters.spotify.com/pod/show/naninanieu/episodes/somnorosi-ro-Buhu-cel-fericit---Nu-i-aa-c-bufniele-sunt-nelepte-epd6q1",
+    "via": "Somnoroși Povești Audio"
+   },
+   {
+    "type": "youtube",
+    "id": "CJgt3_WlP_Y",
     "via": "Somnoroși Povești Audio"
    }
   ],
@@ -71999,6 +72523,12 @@
     "type": "youtube",
     "id": "FHob_EsDny4",
     "via": "Teatru Radiofonic"
+   },
+   {
+    "type": "archive",
+    "id": "304421658",
+    "file": "304421658.mp4",
+    "page": "https://archive.org/details/304421658"
    }
   ],
   "duration": 2880,
@@ -73155,6 +73685,11 @@
     "type": "youtube",
     "id": "iVlhsgOf4-k",
     "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302193459",
+    "file": "302193459.mp4"
    }
   ],
   "duration": 1128,
@@ -77066,6 +77601,12 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2020/04/10192037/Fata-dorului-de-Calin-Gruia-teatru-radiofonic-povesti-romanesti-pentru-copii.mp3",
+    "page": "https://latimp.eu/fata-dorului-scenariu-radiofonic-de-calin-gruia-povesti-copii/",
+    "via": "LaTimp.eu"
+   },
+   {
     "type": "youtube",
     "id": "W9l1EbGCDKw",
     "via": "Teatru Radiofonic"
@@ -77153,6 +77694,12 @@
   "title": "Minunata împărăție cu palate de hârtie (1960)",
   "sourceId": "yt-teatru-radiofonic",
   "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/Minunata%20%C3%AEmp%C4%83r%C4%83%C8%9Bie%20cu%20palate%20de%20h%C3%A2rtie%20de%20C%C4%83lin%20Gruia%20latimp.eu.mp3",
+    "page": "https://latimp.eu/minunata-imparatie-cu-palate-de-hartie-de-calin-gruia-1960/",
+    "via": "LaTimp.eu"
+   },
    {
     "type": "youtube",
     "id": "0NozMpSThxI",
@@ -80255,6 +80802,12 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
+    "type": "audio",
+    "url": "https://latimp.eu/wp-content/uploads/2019/09/04070048/Peripetiile-Matildei-de-Roald-Dahl.mp3",
+    "page": "https://latimp.eu/peripetiile-matildei-de-roald-dahl-teatru-audio-pentru-copii-dupa-romanul-matilda/",
+    "via": "LaTimp.eu"
+   },
+   {
     "type": "youtube",
     "id": "nSSo06CHPP4",
     "via": "Teatru Radiofonic"
@@ -81489,6 +82042,12 @@
   "sourceId": "yt-teatru-radiofonic",
   "links": [
    {
+    "type": "audio",
+    "url": "https://archive.org/download/IonCreangaMosIonRoataSiUnirea1982RegiaTitelConstantinescu/Ion%20Creanga%20-%20Mos%20Ion%20Roata%20si%20unirea%201982%20regia%20Titel%20Constantinescu.mp3",
+    "page": "https://archive.org/details/IonCreangaMosIonRoataSiUnirea1982RegiaTitelConstantinescu",
+    "via": "Biblioteca Maia Martin"
+   },
+   {
     "type": "youtube",
     "id": "VqZkSoCkwBY",
     "via": "Teatru Radiofonic"
@@ -81904,6 +82463,12 @@
   "title": "Pasărea albastră (1957)",
   "sourceId": "yt-teatru-radiofonic",
   "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/cdn/teatru/Pasarea%20albastra-poveste%20audio%20basme%20pentru%20copii%20Maurice%20Maeterlinck.mp3",
+    "page": "https://latimp.eu/pasarea-albastra-teatru-radiofonic-feerie-pentru-copii-de-maurice-maeterlinck/",
+    "via": "LaTimp.eu"
+   },
    {
     "type": "youtube",
     "id": "ekMgjT9ETXs",
@@ -84770,111 +85335,6 @@
     {
      "role": "Distribuție",
      "name": "Daniel Mirea"
-    }
-   ]
-  },
-  "estimated": [
-   "sfx",
-   "music",
-   "moods",
-   "age",
-   "quality"
-  ],
-  "addedAt": "2026-11-23"
- },
- {
-  "id": "aventura-capitanului-vic-arteka",
-  "storyId": "aventura-capitanului-vic-in-lumea-reala",
-  "title": "Aventura Căpitanului Vic în Lumea Reală (Asociația Arteka)",
-  "sourceId": "arteka",
-  "links": [
-   {
-    "type": "audio",
-    "url": "https://anchor.fm/s/6e3bf0b0/podcast/play/41255763/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-4%2F9306c519-f8d1-cabf-0434-de10b8b3e770.mp3",
-    "page": "https://podcasters.spotify.com/pod/show/asociatia-arteka5/episodes/Aventura-Cpitanului-Vic-n-Lumea-Real-e189hcj",
-    "via": "Asociația Arteka"
-   },
-   {
-    "type": "youtube",
-    "id": "AsL01vG-VP8",
-    "via": "Asociația Arteka"
-   }
-  ],
-  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18394220/18394220-1633336221514-3a6947726e282.jpg",
-  "duration": 1738,
-  "year": 2021,
-  "kind": "teatru-radiofonic",
-  "voices": "distributie",
-  "sfx": "bogate",
-  "music": "ambientala",
-  "moods": [
-   "aventuroasa",
-   "amuzanta"
-  ],
-  "age": 6,
-  "quality": 5,
-  "credits": {
-   "director": "Alex Iurașcu",
-   "cast": [
-    {
-     "role": "Distribuție",
-     "name": "Teodor Corban"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Constantin Pușcașu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Codrin Dănilă"
-    }
-   ]
-  },
-  "estimated": [
-   "sfx",
-   "music",
-   "moods",
-   "age",
-   "quality"
-  ],
-  "addedAt": "2026-11-23"
- },
- {
-  "id": "hermann-arteka",
-  "storyId": "hermann",
-  "title": "Hermann (Asociația Arteka)",
-  "sourceId": "arteka",
-  "links": [
-   {
-    "type": "audio",
-    "url": "https://anchor.fm/s/6e3bf0b0/podcast/play/41357233/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-6%2Fc5d15ee2-3cca-5859-d64b-455bca898b3a.mp3",
-    "page": "https://podcasters.spotify.com/pod/show/asociatia-arteka5/episodes/Hermann-e18ckfh",
-    "via": "Asociația Arteka"
-   }
-  ],
-  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18394220/18394220-1633499797141-6f0cfd2b18afc.jpg",
-  "duration": 1937,
-  "year": 2021,
-  "kind": "teatru-radiofonic",
-  "voices": "mai-multe",
-  "sfx": "bogate",
-  "music": "ambientala",
-  "moods": [
-   "aventuroasa",
-   "amuzanta"
-  ],
-  "age": 6,
-  "quality": 5,
-  "credits": {
-   "director": "Daniel Chirilă",
-   "cast": [
-    {
-     "role": "Distribuție",
-     "name": "Daniel Chirilă"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Paul-Ovidiu Cosovanu"
     }
    ]
   },
@@ -91774,49 +92234,6 @@
   ]
  },
  {
-  "id": "broscoiul-auzit-2024",
-  "storyId": "broscoiul-alex-gorghe",
-  "title": "Broscoiul (2024)",
-  "sourceId": "auzit",
-  "links": [
-   {
-    "type": "youtube",
-    "id": "DZG10aZYJwo",
-    "via": "AUZIT."
-   }
-  ],
-  "duration": 2094,
-  "year": 2024,
-  "kind": "teatru-radiofonic",
-  "voices": "distributie",
-  "moods": [
-   "intensa"
-  ],
-  "age": 13,
-  "credits": {
-   "director": "Robert Kocsis",
-   "cast": [
-    {
-     "name": "Ilinca Petra Meșter"
-    },
-    {
-     "name": "Victor Muntean"
-    },
-    {
-     "name": "Anca Munteanu"
-    },
-    {
-     "name": "Alex Tudor"
-    }
-   ]
-  },
-  "addedAt": "2026-11-23",
-  "estimated": [
-   "moods",
-   "age"
-  ]
- },
- {
   "id": "muntele-de-sticla-tnr-2023",
   "storyId": "muntele-de-sticla",
   "title": "Muntele de sticlă (2023)",
@@ -92343,6 +92760,11 @@
     "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/Prin%C8%9Besa%20Curcubeu%20-%20o%20poveste%20de%20Maurice%20Baring.mp3",
     "page": "https://latimp.eu/printesa-curcubeu-de-maurice-baring-teatru-radiofonic-2017/",
     "via": "LaTimp.eu"
+   },
+   {
+    "type": "youtube",
+    "id": "LqOnOuoU5vU",
+    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 2932,
@@ -93017,6 +93439,11 @@
     "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/Getar%2C%20fiul%20m%C4%83rii%20(basm%20popular)%20%20Povesti%20pe%20Vinil.mp3",
     "page": "https://latimp.eu/getar-fiul-marii-basm-popular-1960/",
     "via": "LaTimp.eu"
+   },
+   {
+    "type": "youtube",
+    "id": "PkKFlp5CGz4",
+    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 1767,
@@ -93330,6 +93757,11 @@
     "url": "https://latimpnet.b-cdn.net/cdn/teatru/Cocosul%20negru%20-%20Victor%20Eftimiu.mp3",
     "page": "https://latimp.eu/cocosul-negru-de-victor-eftimiu-basme-si-povesti-romanesti-cu-adrian-pintea-george-constantin-si-ion-caramitru-1990/",
     "via": "LaTimp.eu"
+   },
+   {
+    "type": "youtube",
+    "id": "sGz4-KrmOMQ",
+    "via": "Teatru Radiofonic"
    }
   ],
   "duration": 7176,
@@ -94660,6 +95092,11 @@
     "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/M%C4%83ghiran%20voinicul%20%20(basm%20rom%C3%A2nesc).mp3",
     "page": "https://latimp.eu/maghiran-voinicul-teatru-radiofonic-basm-romanesc/",
     "via": "LaTimp.eu"
+   },
+   {
+    "type": "youtube",
+    "id": "cx74zR4zPw0",
+    "via": "Teatru pe Vinil"
    }
   ],
   "duration": 1302,
@@ -95142,5 +95579,3492 @@
    "age",
    "quality"
   ]
+ },
+ {
+  "id": "piatra-cea-fierbinte-gong",
+  "storyId": "piatra-cea-fierbinte",
+  "title": "Piatra cea fierbinte",
+  "sourceId": "teatrul-gong",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://teatrulgong.ro/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDgyLCJwdXIiOiJibG9iX2lkIn19--9f46e471e3f3fe3bc305e0848c7ef596cec5b73e/PAUL%20BONDANE%20-%20PIATRA%2026%20mai.mp3",
+    "page": "https://teatrulgong.ro/piatra-cea-fierbinte-de-arkadi-gaidar",
+    "via": "Gong"
+   }
+  ],
+  "duration": 601,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Paul Bondane"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 7,
+  "moods": [
+   "magica",
+   "linistitoare"
+  ]
+ },
+ {
+  "id": "focul-de-pe-munte-gong",
+  "storyId": "focul-de-pe-munte",
+  "title": "Focul de pe munte",
+  "sourceId": "teatrul-gong",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://teatrulgong.ro/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NjEwLCJwdXIiOiJibG9iX2lkIn19--a8dd14835ecb1494e2741e56552cf8c7c17db4e6/DANIELA%20DRAGOMIR%20-%20FOCUL%20DE%20PE%20MUNTE.mp3",
+    "page": "https://teatrulgong.ro/focul-de-pe-munte-poveste-populara-etiopiana",
+    "via": "Gong"
+   }
+  ],
+  "duration": 759,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Daniela Dragomir"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age"
+  ],
+  "age": 5,
+  "moods": []
+ },
+ {
+  "id": "sticletele-gong",
+  "storyId": "stigletele",
+  "title": "Sticletele",
+  "sourceId": "teatrul-gong",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://teatrulgong.ro/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTk2LCJwdXIiOiJibG9iX2lkIn19--04f51630563765f50d6075eed71782e74edf8f54/Sticletele%20-%20Mitrea%20Gabriela.mp3",
+    "page": "https://teatrulgong.ro/sticletele-de-mihail-sadoveanu",
+    "via": "Gong"
+   }
+  ],
+  "duration": 525,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Gabriela Mitrea"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 5,
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ]
+ },
+ {
+  "id": "trandafirul-incapatanat-gong",
+  "storyId": "trandafirul-incapatanat",
+  "title": "Trandafirul încăpățânat",
+  "sourceId": "teatrul-gong",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://teatrulgong.ro/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTI4LCJwdXIiOiJibG9iX2lkIn19--6091994ef9119392970f573e1299268ea6ce55c3/Trandafirul%20%C3%AEnc%C4%83p%C4%83%C8%9B%C3%A2nat%20-%20Alexandra%20%C8%98erban%2028%20iunie.mp3",
+    "page": "https://www.teatrulgong.ro/trandafirul-incapatanat-de-florina-bumbaru?locale=ro",
+    "via": "Gong"
+   }
+  ],
+  "duration": 678,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Alexandra Șerban"
+   ]
+  },
+  "age": 3,
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "moods": [
+   "linistitoare"
+  ]
+ },
+ {
+  "id": "domnisoara-poimaine-si-joaca-de-a-timpul-gong",
+  "storyId": "domnisoara-poimaine-si-joaca-de-a-timpul",
+  "title": "Domnișoara Poimâine și joaca de-a timpul",
+  "sourceId": "teatrul-gong",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://teatrulgong.ro/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTAzLCJwdXIiOiJibG9iX2lkIn19--132f84805df48ed9fe42c5f2508296e4ea42cd50/Domn%C8%99oara%20Poim%C3%A2ine%20%C8%99i%20Joaca%20de-a%20timpul%20-%20Paul%20Bondane%2027%20mai.mp3",
+    "page": "https://teatrulgong.ro/domnisoara-poimaine-si-joaca-de-a-timpul-de-adina-rosetti",
+    "via": "Gong"
+   }
+  ],
+  "duration": 975,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Paul Bondane"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 4,
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ]
+ },
+ {
+  "id": "purcelusa-roscata-gong",
+  "storyId": "purcelusa-roscata",
+  "title": "Purcelușa roșcată",
+  "sourceId": "teatrul-gong",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://teatrulgong.ro/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDk0LCJwdXIiOiJibG9iX2lkIn19--e1976d120cfc9f28912a6f687c2d7bc170d9c0c1/Purcelusa%20roscata%20-%20Barbara%20-%2017%20decembrie.mp3",
+    "page": "https://teatrulgong.ro/purcelusa-roscata-poveste-din-folclorul-maghiar",
+    "via": "Gong"
+   }
+  ],
+  "duration": 452,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Barbara Crișan"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age"
+  ],
+  "age": 5,
+  "moods": []
+ },
+ {
+  "id": "vanatoarea-ion-lila-1989",
+  "storyId": "vanatoarea-ion-lila",
+  "title": "Vânătoarea (1989)",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/August/Diana/4_90478_03.mp3",
+    "page": "https://culturalia.ro/entities/5889d4e8-9416-49d7-9339-1fb17d4348a6/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 184,
+  "year": 1989,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Florian Pittiș"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age"
+  ],
+  "age": 5,
+  "moods": []
+ },
+ {
+  "id": "glasurile-marian-dopcea-1989",
+  "storyId": "glasurile-marian-dopcea",
+  "title": "Glasurile (1989)",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/August/Diana/4_90629_02.mp3",
+    "page": "https://culturalia.ro/entities/936aded4-b9a3-4108-bcd3-aa038f79b4d8/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 293,
+  "year": 1989,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Florian Pittiș"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age"
+  ],
+  "age": 5,
+  "moods": []
+ },
+ {
+  "id": "poveste-egipteana-latimp",
+  "storyId": "poveste-egipteana",
+  "title": "Poveste egipteană",
+  "sourceId": "latimp",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://latimpnet.b-cdn.net/teatru%20radiofonic%20latimp/Poveste%20egiptean%C4%83.m4a",
+    "page": "https://latimp.eu/poveste-egipteana-teatru-radiofonic-de-ana-ripka-rus/",
+    "via": "LaTimp.eu"
+   }
+  ],
+  "duration": 3183,
+  "year": 2000,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "credits": {
+   "director": "Felix Alexa",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Dorina Chiriac"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Bindea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Răzvan Vasilescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Ivașcu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Răzvan Ionescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Niculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gabriel Coveșeanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Claudiu Romilă"
+    }
+   ],
+   "music": "George Marcu"
+  },
+  "addedAt": "2026-11-23",
+  "age": 7,
+  "moods": [],
+  "estimated": [
+   "age"
+  ]
+ },
+ {
+  "id": "puiul-valeria-seciu-archive",
+  "storyId": "puiul",
+  "title": "Puiul, în lectura Valeriei Seciu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304514814",
+    "file": "304514814.mp4"
+   }
+  ],
+  "duration": 577,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Valeria Seciu"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 5,
+  "moods": [
+   "intensa"
+  ]
+ },
+ {
+  "id": "puiul-alexandrina-halic-archive",
+  "storyId": "puiul",
+  "title": "Puiul, în lectura Alexandrinei Halic",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302248111",
+    "file": "302248111.mp4"
+   }
+  ],
+  "duration": 812,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Alexandrina Halic"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 5,
+  "moods": [
+   "intensa"
+  ]
+ },
+ {
+  "id": "povestea-gastelor-val-sandulescu-archive",
+  "storyId": "povestea-gastelor",
+  "title": "Povestea gâștelor, în lectura lui Val Săndulescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "304535296",
+    "file": "304535296.mp4"
+   }
+  ],
+  "duration": 134,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Val Săndulescu"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 4,
+  "moods": [
+   "amuzanta"
+  ]
+ },
+ {
+  "id": "gandacelul-emil-garleanu-archive",
+  "storyId": "gandacelul-garleanu",
+  "title": "Gândăcelul, în lectura Alexandrinei Halic",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302246853",
+    "file": "302246853.mp4"
+   }
+  ],
+  "duration": 296,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Alexandrina Halic"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 5,
+  "moods": [
+   "aventuroasa"
+  ]
+ },
+ {
+  "id": "manusa-ucraineana-archive",
+  "storyId": "manusa-ucraineana",
+  "title": "Mănușa, în lectura Brândușei Zaița-Silvestru",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302530308",
+    "file": "302530308.mp4"
+   }
+  ],
+  "duration": 310,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Brândușa Zaița-Silvestru"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 5,
+  "moods": [
+   "amuzanta"
+  ]
+ },
+ {
+  "id": "fat-frumos-mazarean-archive",
+  "storyId": "fat-frumos-mazarean",
+  "title": "Făt-Frumos Măzărean, în lectura Alexandrinei Halic",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302245121",
+    "file": "302245121.mp4"
+   }
+  ],
+  "duration": 546,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Alexandrina Halic"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "moods"
+  ],
+  "age": 6,
+  "moods": [
+   "amuzanta"
+  ]
+ },
+ {
+  "id": "imparateasa-norilor-archive",
+  "storyId": "imparateasa-norilor",
+  "title": "Împărăteasa norilor, în lectura Adelei Mărculescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302017899",
+    "file": "302017899.mp4"
+   }
+  ],
+  "duration": 724,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Adela Mărculescu"
+   ]
+  },
+  "cover": false,
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "age"
+  ],
+  "age": 6,
+  "moods": []
+ },
+ {
+  "id": "printesa-curajoasa-electrecord",
+  "storyId": "printesa-curajoasa",
+  "title": "Prințesa curajoasă",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303879699",
+    "file": "303879699.mp4",
+    "page": "https://archive.org/details/303879699"
+   }
+  ],
+  "duration": 1609,
+  "year": 1980,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "credits": {
+   "director": "Val Moldoveanu",
+   "adaptation": "Catinca Mușcan",
+   "narrator": [
+    "Mircea Șeptilici"
+   ],
+   "cast": [
+    {
+     "role": "Honza",
+     "name": "Mihai Mălaimare"
+    },
+    {
+     "role": "Zmeul",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Prințesa Máňa",
+     "name": "Melania Cârje"
+    },
+    {
+     "role": "Vulpana",
+     "name": "Rodica Tapalagă"
+    },
+    {
+     "role": "Drăcușorul",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Tatăl lui Honza",
+     "name": "Victor Ștrengaru"
+    },
+    {
+     "role": "Mama",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Moșul",
+     "name": "Jorj Voicu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Boris Petrof"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Anghel"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Păunescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03821",
+   "title": "Din Legendele Popoarelor (Kenneth Bălăiorul / Prințesa Curajoasă)",
+   "url": "https://www.discogs.com/release/20779345"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "povestea-pupezei-electrecord",
+  "storyId": "povestea-pupezei",
+  "title": "Povestea pupezei",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "8h4V2_NUKCc",
+    "via": "Teatru pe Vinil"
+   },
+   {
+    "type": "archive",
+    "id": "302542136",
+    "file": "302542136.mp4",
+    "page": "https://archive.org/details/302542136"
+   }
+  ],
+  "duration": 1666,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "credits": {
+   "director": "Constantin Dinischiotu",
+   "narrator": [
+    "Dinu Lucian"
+   ],
+   "cast": [
+    {
+     "role": "Moșul",
+     "name": "Ion Manta"
+    },
+    {
+     "role": "Baba",
+     "name": "Coca Enescu"
+    },
+    {
+     "role": "Crăiasa Lunii",
+     "name": "Ileana Dunăreanu"
+    },
+    {
+     "role": "Sfetnicul",
+     "name": "Ion Punea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Guriță"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Paul Nadolski"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Călugărița"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03818",
+   "title": "Nuielușa de alun / Povestea pupezei",
+   "url": "https://www.discogs.com/release/3930748"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "vrajitoarea-pana-de-gaita-electrecord",
+  "storyId": "povestea-vrajitoarei-pana-de-gaita",
+  "title": "Povestea vrăjitoarei Pană-de-Gaiță",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302241656",
+    "file": "302241656.mp4",
+    "page": "https://archive.org/details/302241656"
+   }
+  ],
+  "duration": 759,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "moods": [
+   "amuzanta",
+   "educativa"
+  ],
+  "age": 6,
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ruxandra Sirețeanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Raluca Oțoiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Oana Grindei"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Stoian"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Florin Rusu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Oana Răsuceanu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 04054",
+   "title": "Vrăjitoarea Pană De Gaiță (Povestiri Pentru Cei Mici)",
+   "url": "https://www.discogs.com/release/6424609"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "ciocarlia-vulpea-si-ogarul-cotescu",
+  "storyId": "ciocarlia-vulpea-si-ogarul",
+  "title": "Ciocârlia, vulpea și ogarul, în lectura lui Octavian Cotescu",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274596318",
+    "file": "274596318.mp4",
+    "page": "https://archive.org/details/274596318"
+   }
+  ],
+  "duration": 378,
+  "year": 1962,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 6,
+  "credits": {
+   "narrator": [
+    "Octavian Cotescu"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXD 1039",
+   "title": "Povești pentru copii",
+   "url": "https://www.discogs.com/release/17928091"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "poveste-de-iarna-silvia-kerim-1975",
+  "storyId": "poveste-de-iarna-silvia-kerim",
+  "title": "Poveste de iarnă (1975)",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "302199018",
+    "file": "302199018.mp4",
+    "page": "https://archive.org/details/302199018"
+   }
+  ],
+  "duration": 2501,
+  "year": 1975,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "credits": {
+   "director": "Cristian Munteanu",
+   "music": "Timuș Alexandrescu",
+   "cast": [
+    {
+     "role": "Fram",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Albă-ca-Zăpada",
+     "name": "Liliana Păpușoiu-Constantinescu"
+    },
+    {
+     "role": "Zâna Zăpezilor",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Pitică",
+     "name": "Jeanine Stavarache"
+    },
+    {
+     "role": "Pitică",
+     "name": "Genoveva Preda"
+    },
+    {
+     "role": "Pitică",
+     "name": "Daniela Anencov"
+    },
+    {
+     "role": "Pitică",
+     "name": "Athena Demetriad"
+    },
+    {
+     "role": "Zmeul Zmeilor",
+     "name": "Mihai Fotino"
+    },
+    {
+     "role": "Arțăgosul",
+     "name": "Horia Căciulescu"
+    },
+    {
+     "role": "Pasărea albastră",
+     "name": "Adela Mărculescu"
+    },
+    {
+     "role": "Micul Prinț",
+     "name": "Alexandrina Halic"
+    },
+    {
+     "role": "Motan Cotoșman",
+     "name": "Rodica Tapalagă"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Florin Petrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Corina Hudureanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Rodica Drăgulin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adriana Popescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Cristian Palade"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Stoenescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03546",
+   "title": "Poveste de iarnă",
+   "url": "https://www.discogs.com/release/4006453"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "music",
+   "moods",
+   "age"
+  ]
+ },
+ {
+  "id": "legenda-cucului-electrecord",
+  "storyId": "legenda-cucului",
+  "title": "Legenda cucului",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "274299047",
+    "file": "274299047.mp4",
+    "page": "https://archive.org/details/274299047"
+   }
+  ],
+  "duration": 564,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "credits": {
+   "music": "Romeo Chelaru",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Constantin Moruzan"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Colea Răutu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Minel Klepper"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Iulian Marinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Punea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Angelescu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXD 16",
+   "title": "Din lumea basmelor",
+   "url": "https://www.discogs.com/release/15007876"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "bunicul-silvia-chicos",
+  "storyId": "bunicul",
+  "title": "Bunicul, în lectura Silviei Chicoș",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "2-chicos-bunicul",
+    "file": "2 Chicos-Bunicul.mp4",
+    "page": "https://archive.org/details/2-chicos-bunicul"
+   }
+  ],
+  "duration": 337,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Silvia Chicoș"
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 03755"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "copiii-capitanului-grant-1965",
+  "storyId": "copiii-capitanului-grant",
+  "title": "Copiii căpitanului Grant (1965)",
+  "sourceId": "arhiva-discuri-electrecord",
+  "links": [
+   {
+    "type": "archive",
+    "id": "303952501",
+    "file": "303952501.mp4",
+    "page": "https://archive.org/details/303952501"
+   }
+  ],
+  "duration": 2926,
+  "year": 1965,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "credits": {
+   "director": "Dan Puican",
+   "adaptation": "Mihai Stoian",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Pop-Marțian"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicu Dimitriu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Marcel Gingulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Minel Klepper"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandra Georgescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Gheorghe Colceag"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nicolae Sireteanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Brezeanu"
+    }
+   ]
+  },
+  "disc": {
+   "label": "Electrecord",
+   "code": "EXE 02626"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "cat-un-fir-de-neghina-povesti-alese",
+  "storyId": "cat-un-fir-de-neghina",
+  "title": "Cât un fir de neghină, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "uGI3q5eKPSQ",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 332,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "calatoare-povesti-alese",
+  "storyId": "calatoare",
+  "title": "Călătoare, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "7ZQLCRWhuo0",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 346,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "musculita-povesti-alese",
+  "storyId": "musculita",
+  "title": "Musculița, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Z6dOn7qPViQ",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 246,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "cantaretul-povesti-alese",
+  "storyId": "cantaretul",
+  "title": "Cântărețul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ZGUlJSTAEk8",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 229,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "hoinar-povesti-alese",
+  "storyId": "hoinar",
+  "title": "Hoinar, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "RQ8waTjt9WA",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 534,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "in-curtea-mea-povesti-alese",
+  "storyId": "in-curtea-mea",
+  "title": "În curtea mea, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Bgt58OuS5P8",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 364,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "dupa-asemanarea-lor-povesti-alese",
+  "storyId": "dupa-asemanarea-lor",
+  "title": "După asemănarea lor, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "hgPRubk3Oy0",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 343,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "in-fel-de-fel-de-fete-povesti-alese",
+  "storyId": "in-fel-de-fel-de-fete",
+  "title": "În fel de fel de fețe, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "uApUM9BZA2M",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 492,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "mai-sus-povesti-alese",
+  "storyId": "mai-sus",
+  "title": "Mai sus!, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "dErkDwukKEc",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 228,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "nedespartite-povesti-alese",
+  "storyId": "nedespartite",
+  "title": "Nedespărțite, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "FH3yV2LuRLY",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 263,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "pasare-de-noapte-povesti-alese",
+  "storyId": "pasare-de-noapte",
+  "title": "Pasăre de noapte, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "vP_a_XXkWc4",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 291,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "cocosul-povesti-alese",
+  "storyId": "cocosul",
+  "title": "Cocoșul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "J5gxbdv5vGc",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 369,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "ca-soarele-povesti-alese",
+  "storyId": "ca-soarele",
+  "title": "Ca soarele, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "YXfcEX45isA",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 284,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "luptatorii-povesti-alese",
+  "storyId": "luptatorii",
+  "title": "Luptătorii, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "dYoULXcouok",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 360,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "filozoful-povesti-alese",
+  "storyId": "filozoful",
+  "title": "Filozoful, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "3dMN2TRaVsE",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 295,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "grivei-povesti-alese",
+  "storyId": "grivei",
+  "title": "Grivei, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "cz-1K434Hjo",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 479,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "gaza-povesti-alese",
+  "storyId": "gaza",
+  "title": "Gâza, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "lU7-Q19UNUw",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 476,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "parasita-povesti-alese",
+  "storyId": "parasita",
+  "title": "Părăsită, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "xebvRyIDViw",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 525,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "calul-povesti-alese",
+  "storyId": "calul",
+  "title": "Calul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "6W2JIY6tPlE",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 604,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "tovarasii-povesti-alese",
+  "storyId": "tovarasii",
+  "title": "Tovarășii, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "FknCcuzt2Qk",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 412,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "trandafirul-povesti-alese",
+  "storyId": "trandafirul",
+  "title": "Trandafirul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "nWQiov2Jhsw",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 262,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "frunza-povesti-alese",
+  "storyId": "frunza",
+  "title": "Frunza, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "R36dwdbTyco",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 411,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "o-raza-povesti-alese",
+  "storyId": "o-raza",
+  "title": "O rază, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "wFKRbpvsI7k",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 262,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "gandacelul-povesti-alese",
+  "storyId": "gandacelul-garleanu",
+  "title": "Gândăcelul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "3hWQuLcRUuc",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 317,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "saracutul-povesti-alese",
+  "storyId": "saracutul",
+  "title": "Sărăcuțul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "74du5Yx1Yhg",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 244,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "cioc-cioc-cioc-povesti-alese",
+  "storyId": "cioc-cioc-cioc",
+  "title": "Cioc! Cioc! Cioc!, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "9Rp12CLmKUE",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 419,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "vulturul-povesti-alese",
+  "storyId": "vulturul",
+  "title": "Vulturul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "A0UapHjgGZI",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 373,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "cand-stapanul-nu-i-acasa-povesti-alese",
+  "storyId": "cand-stapanul-nu-i-acasa",
+  "title": "Când stăpânul nu-i acasă, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ySBL1lQnLoY",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 424,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "ghiocelul-povesti-alese",
+  "storyId": "ghiocelul",
+  "title": "Ghiocelul, în lectura lui Mihai Amarie",
+  "sourceId": "povesti-alese",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "xnncl76ziyk",
+    "via": "Povești alese"
+   }
+  ],
+  "duration": 686,
+  "kind": "narata",
+  "voices": "narator",
+  "credits": {
+   "narrator": [
+    "Mihai Amarie"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices"
+  ]
+ },
+ {
+  "id": "mariuca-mihai-manescu-minipovesti",
+  "storyId": "mariuca-mihai-manescu",
+  "title": "Măriuca, în lectura lui Ada Condeescu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/06/Povesti.ro-Mariuca.mp3",
+    "page": "https://minipovesti.ro/stories/mariuca",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "PF5kQi_AW2o",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1298,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "intensa",
+   "aventuroasa",
+   "linistitoare"
+  ],
+  "age": 10,
+  "credits": {
+   "narrator": [
+    "Ada Condeescu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "calatoria-de-la-miezul-noptii-minipovesti",
+  "storyId": "calatoria-de-la-miezul-noptii",
+  "title": "Călătoria de la miezul nopții, în lectura lui Ada Condeescu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/04/Povesti.ro-Calatoria-de-la-Miezul-Noptii-online-audio-converter.com_.mp3",
+    "page": "https://minipovesti.ro/stories/calatoria-de-la-miezul-noptii",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "4piaJ_I84XE",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1677,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "intensa",
+   "linistitoare"
+  ],
+  "age": 8,
+  "credits": {
+   "narrator": [
+    "Ada Condeescu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "balerina-minipovesti-minipovesti",
+  "storyId": "balerina-minipovesti",
+  "title": "Balerina, în lectura lui Ada Condeescu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/03/Povesti.ro-Balerina-online-audio-converter.com_.mp3",
+    "page": "https://minipovesti.ro/stories/balerina",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "Y5yQ9NwA7p4",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1723,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "intensa",
+   "magica",
+   "linistitoare"
+  ],
+  "age": 10,
+  "credits": {
+   "narrator": [
+    "Ada Condeescu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "tramvaiul-fermecat-minipovesti-minipovesti",
+  "storyId": "tramvaiul-fermecat-minipovesti",
+  "title": "Tramvaiul fermecat, în lectura lui Ada Condeescu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/04/minipovesti-tramvaiul-fermecat.mp3",
+    "page": "https://minipovesti.ro/stories/tramvaiul-fermecat",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "m4a7CTRzJKg",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1807,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "aventuroasa",
+   "magica",
+   "linistitoare"
+  ],
+  "age": 8,
+  "credits": {
+   "narrator": [
+    "Ada Condeescu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "uneltele-mesterului-tica-minipovesti",
+  "storyId": "uneltele-mesterului-tica",
+  "title": "Uneltele meșterului Tică, în lectura lui Bogdan Farcaș",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2025/05/Minipovesti.ro-306s-2025.05.08-Uneltele-mesterului-Tica.wav",
+    "page": "https://minipovesti.ro/stories/uneltele-mesterului-tica",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "JQLJU2-SLwY",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 308,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "amuzanta",
+   "aventuroasa",
+   "educativa"
+  ],
+  "age": 3,
+  "credits": {
+   "narrator": [
+    "Bogdan Farcaș"
+   ],
+   "soundDesign": "Alex Hosu"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "ridichea-care-n-a-vrut-sa-fie-smulsa-minipovesti",
+  "storyId": "ridichea-care-n-a-vrut-sa-fie-smulsa",
+  "title": "Ridichea care n-a vrut să fie smulsă, în lectura lui Bogdan Farcaș",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2025/05/Minipovesti.ro-216s-2025.05.08-Ridichea-care-nu-a-vrut-sa-fie-smulsa.wav",
+    "page": "https://minipovesti.ro/stories/ridichea",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "SkVrqirzDgY",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 217,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "amuzanta",
+   "intensa",
+   "linistitoare"
+  ],
+  "age": 3,
+  "credits": {
+   "narrator": [
+    "Bogdan Farcaș"
+   ],
+   "soundDesign": "Alex Hosu"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "portretul-unui-baietel-minipovesti",
+  "storyId": "portretul-unui-baietel",
+  "title": "Portretul unui băiețel, în lectura lui Bogdan Farcaș",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2025/05/Minipovesti.ro-568s-2025.05.08-Portretul-unui-baietel.wav",
+    "page": "https://minipovesti.ro/stories/portretul-unui-baietel",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "e1w_9pkRIAs",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 567,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 8,
+  "credits": {
+   "narrator": [
+    "Bogdan Farcaș"
+   ],
+   "soundDesign": "Alex Hosu"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "madam-batiste-minipovesti",
+  "storyId": "madam-batiste",
+  "title": "Madam Batiște, în lectura lui Marcelo Cobzariu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/05/Povesti.ro-Madam-Batiste.mp3",
+    "page": "https://minipovesti.ro/stories/madam-batiste",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "cZbLJOj91FY",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1788,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "intensa",
+   "linistitoare"
+  ],
+  "age": 10,
+  "credits": {
+   "narrator": [
+    "Marcelo Cobzariu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "marele-jaf-al-tortului-minipovesti",
+  "storyId": "marele-jaf-al-tortului",
+  "title": "Marele jaf al tortului, în lectura lui Marcelo Cobzariu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/04/Povesti.ro-Marele-Jaf-Al-Tortului-online-audio-converter.com_.mp3",
+    "page": "https://minipovesti.ro/stories/marele-jaf-al-tortului",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "-sJPcy66lE0",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1911,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "credits": {
+   "narrator": [
+    "Marcelo Cobzariu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "borcanul-cu-dorinte-minipovesti",
+  "storyId": "borcanul-cu-dorinte",
+  "title": "Borcanul cu dorințe, în lectura lui Marcelo Cobzariu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/01/minipovesti-borcanul-cu-dorinte.mp3",
+    "page": "https://minipovesti.ro/stories/borcanul-cu-dorinte",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "Lzu4-CWDAoo",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 979,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "amuzanta",
+   "magica",
+   "linistitoare"
+  ],
+  "age": 6,
+  "credits": {
+   "narrator": [
+    "Marcelo Cobzariu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "noni-elefantelul-minipovesti",
+  "storyId": "noni-elefantelul",
+  "title": "Noni elefănțelul, în lectura lui Viorel Păunescu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/07/Noni-elefantelul.mp3",
+    "page": "https://minipovesti.ro/stories/noni-elefantelul",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "YtnReYLqm_0",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 175,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Păunescu"
+   ],
+   "soundDesign": "Ștefan Buculeasa"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "zapsnack-minipovesti",
+  "storyId": "zapsnack",
+  "title": "Zapsnack, în lectura lui Viorel Păunescu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/10/ZAPSNACK_240614_01.mp3",
+    "page": "https://minipovesti.ro/stories/zapsnack",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "6ElCbbGahn4",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1056,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "aventuroasa",
+   "amuzanta",
+   "linistitoare"
+  ],
+  "age": 10,
+  "credits": {
+   "narrator": [
+    "Viorel Păunescu"
+   ],
+   "soundDesign": "Ștefan Buculeasa"
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "sarangi-minipovesti",
+  "storyId": "sarangi",
+  "title": "Sarangi, în lectura lui Viorel Păunescu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/09/SARANGI_240614_01.mp3",
+    "page": "https://minipovesti.ro/stories/sarangi",
+    "via": "MiniPovești"
+   },
+   {
+    "type": "youtube",
+    "id": "c0kDmfxzDYc",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1154,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "linistitoare",
+   "educativa"
+  ],
+  "age": 8,
+  "credits": {
+   "narrator": [
+    "Viorel Păunescu"
+   ]
+  },
+  "addedAt": "2026-11-23",
+  "estimated": [
+   "kind",
+   "voices",
+   "moods"
+  ]
+ },
+ {
+  "id": "cinderilla-librivox",
+  "storyId": "cenusareasa",
+  "title": "Cenușăreasa (Cinderilla, LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollection6_2604_librivox/drcollection6_02_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-006-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 956,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "credits": {
+   "narrator": [
+    "Kylie6Q"
+   ],
+   "cast": [
+    {
+     "role": "Cinderilla",
+     "name": "ShrimpPhish"
+    },
+    {
+     "role": "Sora mai mare",
+     "name": "Jenn Broda"
+    },
+    {
+     "role": "Sora mai mică",
+     "name": "Lynette Caulkins"
+    },
+    {
+     "role": "Zâna-nașă",
+     "name": "Winnifred Assmann"
+    },
+    {
+     "role": "Prințul",
+     "name": "Alexandria Adair"
+    },
+    {
+     "role": "Regele",
+     "name": "James R. Hedrick"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "rapunzel-librivox",
+  "storyId": "rapunzel",
+  "title": "Rapunzel (The Red Fairy Book, LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollection6_2604_librivox/drcollection6_07_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-006-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 592,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "credits": {
+   "narrator": [
+    "Kylie6Q"
+   ],
+   "cast": [
+    {
+     "role": "Rapunzel",
+     "name": "HeartTart5"
+    },
+    {
+     "role": "Vrăjitoarea",
+     "name": "ShrimpPhish"
+    },
+    {
+     "role": "Prințul",
+     "name": "Petra Elphinstone"
+    },
+    {
+     "role": "Tatăl",
+     "name": "James R. Hedrick"
+    },
+    {
+     "role": "Mama",
+     "name": "Mariella M."
+    }
+   ]
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "sir-christopher-cockleshell-librivox",
+  "storyId": "sir-christopher-cockleshell",
+  "title": "Sir Christopher Cockleshell (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollection6_2604_librivox/drcollection6_08_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-006-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 1993,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "credits": {
+   "narrator": [
+    "Kylie6Q"
+   ],
+   "cast": [
+    {
+     "role": "Sir Christopher",
+     "name": "Chris Egging"
+    },
+    {
+     "role": "Phyllis",
+     "name": "Eowyn Bree"
+    },
+    {
+     "role": "Mabel",
+     "name": "ShrimpPhish"
+    },
+    {
+     "role": "Guy",
+     "name": "Petra Elphinstone"
+    },
+    {
+     "role": "Menajera",
+     "name": "Jenn Broda"
+    },
+    {
+     "role": "Tatăl",
+     "name": "Brian Fullen"
+    },
+    {
+     "role": "Mrs. Philkins",
+     "name": "MamaPhish"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "printul-fericit-librivox",
+  "storyId": "printul-fericit",
+  "title": "Prințul fericit (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/happy_prince_1312_librivox/happyprince_1_wilde_64kb.mp3",
+    "page": "https://librivox.org/the-happy-prince-and-other-tales-dramatic-reading-by-oscar-wilde/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 1241,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "privighetoarea-si-trandafirul-librivox",
+  "storyId": "privighetoarea-si-trandafirul",
+  "title": "Privighetoarea și trandafirul (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/happy_prince_1312_librivox/happyprince_2_wilde_64kb.mp3",
+    "page": "https://librivox.org/the-happy-prince-and-other-tales-dramatic-reading-by-oscar-wilde/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 874,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "uriasul-cel-egoist-librivox",
+  "storyId": "uriasul-cel-egoist",
+  "title": "Uriașul cel egoist (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/happy_prince_1312_librivox/happyprince_3_wilde_64kb.mp3",
+    "page": "https://librivox.org/the-happy-prince-and-other-tales-dramatic-reading-by-oscar-wilde/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 632,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "prietenul-devotat-librivox",
+  "storyId": "prietenul-devotat",
+  "title": "Prietenul devotat (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/happy_prince_1312_librivox/happyprince_4_wilde_64kb.mp3",
+    "page": "https://librivox.org/the-happy-prince-and-other-tales-dramatic-reading-by-oscar-wilde/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 1545,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "remarcabila-racheta-librivox",
+  "storyId": "remarcabila-racheta",
+  "title": "Remarcabila rachetă (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/happy_prince_1312_librivox/happyprince_5_wilde_64kb.mp3",
+    "page": "https://librivox.org/the-happy-prince-and-other-tales-dramatic-reading-by-oscar-wilde/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 1785,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "scoala-din-humulesti-1963",
+  "storyId": "amintiri-din-copilarie",
+  "title": "Școala din Humulești (1963)",
+  "sourceId": "yt-teatru-subtitrat",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Br4aIf_mV8g",
+    "via": "Teatru Subtitrat"
+   }
+  ],
+  "duration": 2889,
+  "year": 1963,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "credits": {
+   "director": "Constantin Moruzan",
+   "adaptation": "Ion Luca",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Ciubotărașu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Moruzan"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Maria Wauvrina"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sandina Stan"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-scufitei-rosii-colibri",
+  "storyId": "scufita-rosie",
+  "title": "Povestea Scufiței Roșii (Teatrul Colibri Craiova)",
+  "sourceId": "yt-teatrul-colibri",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "4MB3R3PB7XQ",
+    "via": "Teatrul Colibri"
+   }
+  ],
+  "duration": 1116,
+  "kind": "narata",
+  "voices": "narator",
+  "age": 5,
+  "moods": [
+   "aventuroasa"
+  ],
+  "credits": {
+   "narrator": [
+    "Adriana Ioncu"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "moods",
+   "age"
+  ],
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "vulpea-si-corbul-colibri",
+  "storyId": "vulpea-si-corbul",
+  "title": "Vulpea și corbul (Teatrul Colibri Craiova)",
+  "sourceId": "yt-teatrul-colibri",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "IMeu3mHBUcc",
+    "via": "Teatrul Colibri"
+   }
+  ],
+  "duration": 149,
+  "kind": "teatru-radiofonic",
+  "voices": "narator",
+  "age": 5,
+  "moods": [
+   "amuzanta"
+  ],
+  "credits": {
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Cosmin Dolea"
+    }
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "moods",
+   "age"
+  ],
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-lui-samuel-whiskers-librivox",
+  "storyId": "povestea-lui-samuel-whiskers",
+  "title": "Povestea lui Samuel Whiskers (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/drsceneandstorycollectionvol001_1511_librivox/drsceneandstoryvol001_samuelwhiskers_potter_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-001-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 950,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Rachel"
+   ],
+   "cast": [
+    {
+     "role": "Tabitha Twitchit (a mother cat)",
+     "name": "Beth Thomas"
+    },
+    {
+     "role": "Ribby (Tabitha's cousin)",
+     "name": "Bria Snow"
+    },
+    {
+     "role": "Moppett (a mischievous female kitten)",
+     "name": "Kristin Gjerløw"
+    },
+    {
+     "role": "Mittens",
+     "name": "SuperCoconut"
+    },
+    {
+     "role": "Tom Kitten (a mischievous male kitten)",
+     "name": "Jessie Yun"
+    },
+    {
+     "role": "Samuel Whiskers",
+     "name": "Willy"
+    },
+    {
+     "role": "Anna Maria (the wife of Samuel)",
+     "name": "Vanessa Cooley"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-doamnei-arici-scrobelici-librivox",
+  "storyId": "povestea-doamnei-arici-scrobelici",
+  "title": "Povestea doamnei Arici Scrobelici (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollectionvolume004_2311_librivox/dramaticreadingsceneandstorycollectionvolume004_01_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-004-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 565,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Beeswaxcandle"
+   ],
+   "cast": [
+    {
+     "role": "Mrs. Tiggy-Winkle",
+     "name": "Agnes Robert Behr"
+    },
+    {
+     "role": "The Speckled Hen",
+     "name": "Victoria Alice Bell"
+    },
+    {
+     "role": "Lucie",
+     "name": "Marie Christian"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-locomotivei-care-credea-ca-poate-librivox",
+  "storyId": "povestea-locomotivei-care-credea-ca-poate",
+  "title": "Povestea locomotivei care credea că poate (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollectionvolume004_2311_librivox/dramaticreadingsceneandstorycollectionvolume004_05_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-004-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 246,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Larry Wilson"
+   ],
+   "cast": [
+    {
+     "role": "Spick and span new engine",
+     "name": "Agnes Robert Behr"
+    },
+    {
+     "role": "Superintendent of the railroad yard",
+     "name": "Brian Fullen"
+    },
+    {
+     "role": "Large, strong engine",
+     "name": "Stunning"
+    },
+    {
+     "role": "Another great engine",
+     "name": "The Countess"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-doamnei-tittlemouse-librivox",
+  "storyId": "povestea-doamnei-tittlemouse",
+  "title": "Povestea doamnei Tittlemouse (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollectionvolume004_2311_librivox/dramaticreadingsceneandstorycollectionvolume004_06_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-004-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 522,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Agnes Robert Behr"
+   ],
+   "cast": [
+    {
+     "role": "Mrs. Tittlemouse",
+     "name": "Victoria Alice Bell"
+    },
+    {
+     "role": "Mr. Jackson",
+     "name": "Beeswaxcandle"
+    },
+    {
+     "role": "Big Fat Spider",
+     "name": "David Lawrence"
+    },
+    {
+     "role": "Babbitty Bumble",
+     "name": "LifeisButaDream"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-lui-johnny-town-mouse-librivox",
+  "storyId": "povestea-lui-johnny-town-mouse",
+  "title": "Povestea lui Johnny Town-Mouse (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollectionvolume004_2311_librivox/dramaticreadingsceneandstorycollectionvolume004_09_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-004-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 629,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "C. B. Seyfarth"
+   ],
+   "cast": [
+    {
+     "role": "Johnny Town-Mouse",
+     "name": "mleigh"
+    },
+    {
+     "role": "Timmie Willie",
+     "name": "Rich Brown"
+    },
+    {
+     "role": "Cook",
+     "name": "Norah Nelson"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-placintei-si-a-tavitei-pentru-tarte-librivox",
+  "storyId": "povestea-placintei-si-a-tavitei-pentru-tarte",
+  "title": "Povestea plăcintei și a tăviței pentru tarte (LibriVox)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollectionvolume002_2005_librivox/drsceneandstoryvol_002_09_various_64kb.mp3",
+    "page": "https://librivox.org/14088",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 969,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "johnnyenglish"
+   ],
+   "cast": [
+    {
+     "role": "Ribby (a cat)",
+     "name": "Beth Thomas"
+    },
+    {
+     "role": "Duchess (a dog)",
+     "name": "Betsy Walker"
+    },
+    {
+     "role": "Dr Maggotty (a magpie)",
+     "name": "Larry Wilson"
+    },
+    {
+     "role": "Cousin Tabitha Twitchit (a cat)",
+     "name": "Devorah Allen"
+    }
+   ]
+  }
+ },
+ {
+  "id": "copilul-din-stele-librivox-005",
+  "storyId": "copilul-din-stele",
+  "title": "Copilul din stele (LibriVox, vol. 005)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/drsceneandstory005_2411_librivox/drsceneandstoryvol005_02_various_64kb.mp3",
+    "page": "https://librivox.org/dramatic-reading-scene-and-story-collection-volume-005-by-various/",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 2449,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Winnifred Assmann"
+   ],
+   "cast": [
+    {
+     "role": "Star-Child",
+     "name": "Inkell"
+    },
+    {
+     "role": "Woodcutter #1 and Knight",
+     "name": "Alan Mapstone"
+    },
+    {
+     "role": "Woodcutter #2",
+     "name": "Larry Wilson"
+    },
+    {
+     "role": "Woodcutter #2's Wife, Green Linnet and Star-Child's Playmate",
+     "name": "Shelly Weingart"
+    },
+    {
+     "role": "Woodcutter #2's Daughter, Hare and Woodpecker",
+     "name": "ShrimpPhish"
+    },
+    {
+     "role": "Beggar-Woman",
+     "name": "Sylphwyld"
+    },
+    {
+     "role": "Magician",
+     "name": "Greg Giordano"
+    },
+    {
+     "role": "Leper",
+     "name": "Patrick"
+    },
+    {
+     "role": "Soldier #1, Wolf and Priest",
+     "name": "Brian Fullen"
+    },
+    {
+     "role": "Soldier #2",
+     "name": "redrun"
+    },
+    {
+     "role": "Turtle Dove and Mole",
+     "name": "Tasha1985"
+    },
+    {
+     "role": "Owl and Squirrel",
+     "name": "Agnes Robert Behr"
+    }
+   ]
+  }
+ },
+ {
+  "id": "remarcabila-racheta-librivox-002",
+  "storyId": "remarcabila-racheta",
+  "title": "Remarcabila rachetă (LibriVox, vol. 002)",
+  "sourceId": "librivox",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://archive.org/download/dramaticreadingsceneandstorycollectionvolume002_2005_librivox/drsceneandstoryvol_002_06_various_64kb.mp3",
+    "page": "https://librivox.org/14088",
+    "via": "LibriVox"
+   }
+  ],
+  "duration": 1962,
+  "kind": "dramatizare",
+  "voices": "distributie",
+  "estimated": [
+   "kind",
+   "voices"
+  ],
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Rob Marland"
+   ],
+   "cast": [
+    {
+     "role": "Rocket",
+     "name": "Joe Bly"
+    },
+    {
+     "role": "Prince and Dragon-fly",
+     "name": "lorda"
+    },
+    {
+     "role": "Page, Squib and The People",
+     "name": "Jasmin Salma"
+    },
+    {
+     "role": "Princess, Catherine Wheel and Goose",
+     "name": "Beth Thomas"
+    },
+    {
+     "role": "King and Frog",
+     "name": "Adrian Stephens"
+    },
+    {
+     "role": "Roman Candle, Workman and The People",
+     "name": "Lynette Caulkins"
+    },
+    {
+     "role": "Cracker",
+     "name": "Hannoria"
+    },
+    {
+     "role": "Bengal Light, Duck and The People",
+     "name": "TJ Burns"
+    },
+    {
+     "role": "First Boy",
+     "name": "ToddHW"
+    },
+    {
+     "role": "Second Boy and Fire-balloon",
+     "name": "Grace Buchanan"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cei-trei-fii-de-imparat-2012",
+  "storyId": "cei-trei-fii-de-imparat-si-porunca-parinteasca",
+  "title": "Cei trei fii de împărat și porunca părintească",
+  "sourceId": "yt-teatru-pe-vinil",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ZIKsBg12dJc",
+    "via": "Teatru pe Vinil"
+   }
+  ],
+  "duration": 1504,
+  "year": 2012,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "adaptation": "Maria Ioana Vasiloiu",
+   "director": "Vasile Manta",
+   "music": "Patricia Prundea",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Marcel Iureș"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Victor Rebengiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ștefan Velniciuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Oana Răsuceanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Violeta Berbiuc"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugen Cristea"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Niculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "George Grigore"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Liviu Chițu"
+    }
+   ]
+  }
+ },
+ {
+  "id": "inima-rece-vinil",
+  "storyId": "inima-rece",
+  "title": "Inima rece",
+  "sourceId": "yt-teatru-pe-vinil",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "zEl7JnBfjKo",
+    "via": "Teatru pe Vinil"
+   }
+  ],
+  "duration": 1660,
+  "year": 1980,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "adaptation": "Constantin Teodori",
+   "director": "Dan Puican",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Mircea Albulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Alexandru Azoiței"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Candid Stoica"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugenia Eftimie"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Fotinia Savin"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ioana Manolescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Minel Klepper"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Nucu Păunescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Paul Sava"
+    }
+   ]
+  }
+ },
+ {
+  "id": "legenda-de-pe-valea-cernei-1974",
+  "storyId": "legenda-de-pe-valea-cernei",
+  "title": "Legenda de pe Valea Cernei",
+  "sourceId": "yt-teatru-pe-vinil",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "1nnW3DvpPsY",
+    "via": "Teatru pe Vinil"
+   }
+  ],
+  "duration": 1587,
+  "year": 1974,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "adaptation": "Noe Smirnov",
+   "director": "Titel Constantinescu",
+   "music": "Livio Bellegante",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Corado Negreanu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Velcescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Adina Popescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Emil Liptac"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Radu Ițcuș"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Constantin Dinulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mihai Niculescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Eugen Petrescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Vasile Pupezea"
+    }
+   ]
+  }
+ },
+ {
+  "id": "piatra-craiului-1972",
+  "storyId": "piatra-craiului",
+  "title": "Piatra Craiului",
+  "sourceId": "yt-teatru-pe-vinil",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "FpqmJp1J6pk",
+    "via": "Teatru pe Vinil"
+   }
+  ],
+  "duration": 1255,
+  "year": 1972,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "adaptation": "Arcadie Marinescu Nour",
+   "director": "Dan Puican",
+   "music": "Livio Bellegante",
+   "cast": [
+    {
+     "role": "Distribuție",
+     "name": "Rodica Suciu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Tamara Crețulescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Traian Stănescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Răducu Ițcuș"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Minel Klepper"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Ion Pascu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dinu Ianculescu"
+    }
+   ]
+  }
+ },
+ {
+  "id": "sarlatanul-si-bolnavul-stela-popescu",
+  "storyId": "sarlatanul-si-bolnavul",
+  "title": "Șarlatanul și bolnavul",
+  "sourceId": "yt-teatrul-stela-popescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "z9HqsMcNg1c",
+    "via": "Teatrul Stela Popescu"
+   }
+  ],
+  "duration": 276,
+  "kind": "narata",
+  "voices": "narator",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Sorin Aurel Sandu"
+   ]
+  }
+ },
+ {
+  "id": "privighetoarea-si-magarul-stela-popescu",
+  "storyId": "privighetoarea-si-magarul",
+  "title": "Privighetoarea și măgarul",
+  "sourceId": "yt-teatrul-stela-popescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "IIU7_EXbVXc",
+    "via": "Teatrul Stela Popescu"
+   }
+  ],
+  "duration": 160,
+  "kind": "narata",
+  "voices": "narator",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Cătălin Frăsinescu"
+   ]
+  }
+ },
+ {
+  "id": "vulpea-calul-si-lupul-stela-popescu",
+  "storyId": "vulpea-calul-si-lupul",
+  "title": "Vulpea, calul și lupul",
+  "sourceId": "yt-teatrul-stela-popescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "XifX_740FFI",
+    "via": "Teatrul Stela Popescu"
+   }
+  ],
+  "duration": 170,
+  "kind": "narata",
+  "voices": "narator",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "narrator": [
+    "Cătălin Frăsinescu"
+   ]
+  }
+ },
+ {
+  "id": "ali-baba-si-cei-40-de-hoti-sesam-1965",
+  "storyId": "ali-baba-si-cei-40-de-hoti",
+  "title": "Ali Baba și cei 40 de hoți: Sesam, deschide-te! (1965)",
+  "sourceId": "yt-teatru-pe-vinil",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "zk2WQXjC9BI",
+    "via": "Teatru pe Vinil"
+   }
+  ],
+  "duration": 1753,
+  "year": 1965,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "addedAt": "2026-11-23",
+  "credits": {
+   "adaptation": "Marin Traian",
+   "director": "Dan Puican",
+   "cast": [
+    {
+     "role": "Ali Baba",
+     "name": "Ștefan Mihăilescu-Brăila"
+    },
+    {
+     "role": "Șeful",
+     "name": "Nicolae Gărdescu"
+    },
+    {
+     "role": "Cassim",
+     "name": "Nucu Păunescu"
+    },
+    {
+     "role": "Margiana",
+     "name": "Coca Andronescu"
+    },
+    {
+     "role": "Mustafa",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Hoțul",
+     "name": "Marian Hudac"
+    },
+    {
+     "role": "Crainica",
+     "name": "Magda Popovici"
+    }
+   ]
+  }
  }
 ]

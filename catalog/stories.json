@@ -26623,52 +26623,6 @@
   }
  },
  {
-  "id": "aventura-capitanului-vic-in-lumea-reala",
-  "title": "Aventura Căpitanului Vic în Lumea Reală",
-  "author": "George Cocoș",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 2021,
-  "themes": [
-   "pirati",
-   "aventura",
-   "umor",
-   "prietenie",
-   "curaj"
-  ],
-  "characters": [
-   "Căpitanul Vic",
-   "Jerry",
-   "Dr. Neboon"
-  ],
-  "summary": {
-   "ro": "Când mașinăria de teleportare a lui Dr. Neboon dă greș, căpitanul de pirați Vic și aghiotantul său pufos Jerry ajung din Lumea Virtuală în Lumea Reală. Întâlnind o mumie egipteană și un aztec vorbăreț, pornesc să îi strice planurile doctorului.",
-   "en": "When Dr. Neboon’s teleportation machine malfunctions, pirate captain Vic and his fluffy sidekick Jerry land in the Real World and team up with an ancient mummy and a chatty Aztec to foil his plans."
-  }
- },
- {
-  "id": "hermann",
-  "title": "Hermann",
-  "author": "Daniel Chirilă",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 2021,
-  "themes": [
-   "copilarie",
-   "vis",
-   "eroi",
-   "aventura",
-   "umor"
-  ],
-  "characters": [
-   "Hermann"
-  ],
-  "summary": {
-   "ro": "În drumul său de luni dimineață spre școală, micul Hermann se lasă purtat de imaginație și transformă fiecare colț de stradă într-o misiune de supererou care salvează întregul oraș.",
-   "en": "On a Monday morning walk to school, daydreaming young Hermann turns every street corner into an epic superhero quest to save the whole town."
-  }
- },
- {
   "id": "magicianul-oache",
   "title": "Magicianul Oache",
   "author": "Geta Heimerl",
@@ -29311,26 +29265,6 @@
   "origin": "american"
  },
  {
-  "id": "broscoiul-alex-gorghe",
-  "title": "Broscoiul",
-  "author": "Alex Gorghe",
-  "genre": "poveste",
-  "themes": [
-   "magie",
-   "prietenie",
-   "adevar"
-  ],
-  "characters": [
-   "Zâna",
-   "Broscoiul"
-  ],
-  "summary": {
-   "ro": "Într-o pădure fermecată, Broscoiul răspândește un secret intim pe care Zâna i l-a încredințat. Când toată pădurea începe să vorbească despre ea, Zâna descoperă cât costă trădarea cuiva în care ai avut încredere.",
-   "en": "In an enchanted forest, the Frog spreads an intimate secret the Fairy trusted him with. When the whole forest starts talking about her, the Fairy must face the fallout of that betrayal."
-  },
-  "origin": "romanian"
- },
- {
   "id": "muntele-de-sticla",
   "title": "Muntele de sticlă",
   "author": "Poveste populară poloneză",
@@ -30214,5 +30148,1633 @@
   },
   "origin": "romanian",
   "year": 2008
+ },
+ {
+  "id": "piatra-cea-fierbinte",
+  "title": "Piatra cea fierbinte",
+  "author": "Arkadi Gaidar",
+  "genre": "poveste",
+  "themes": [
+   "curaj",
+   "alegeri"
+  ],
+  "characters": [
+   "Ivashka Kudryashkin",
+   "Paznicul livezii"
+  ],
+  "summary": {
+   "ro": "Ivashka găsește o piatră despre care se spune că poate întoarce tinerețea și o duce la bătrânul paznic al unei livezi. Bătrânul își amintește viața și refuză să o ia de la capăt.",
+   "en": "Ivashka finds a stone said to restore youth and brings it to an old orchard keeper. The man looks back on his life and refuses to start it over."
+  },
+  "year": 1941,
+  "origin": "russian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "focul-de-pe-munte",
+  "title": "Focul de pe munte",
+  "author": "Folclor etiopian",
+  "genre": "poveste",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "origin": "african",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "trandafirul-incapatanat",
+  "title": "Trandafirul încăpățânat",
+  "author": "Florina Bumbaru",
+  "genre": "poveste",
+  "themes": [
+   "identitate",
+   "frumusete",
+   "curaj"
+  ],
+  "characters": [
+   "Muguraș",
+   "Luna",
+   "Soarele",
+   "Grădinarul",
+   "Trandafirii"
+  ],
+  "summary": {
+   "ro": "Muguraș se ascunde după ce ceilalți trandafiri îl critică. Cu ajutorul Lunii și al Soarelui, învață să se asculte și să se accepte.",
+   "en": "Muguraș hides after the other roses criticize him. With help from the Moon and the Sun, he learns to listen to and accept himself."
+  },
+  "year": 2016,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "domnisoara-poimaine-si-joaca-de-a-timpul",
+  "title": "Domnișoara Poimâine și joaca de-a timpul",
+  "author": "Adina Rosetti",
+  "genre": "basm",
+  "themes": [
+   "copilarie",
+   "aventura"
+  ],
+  "characters": [
+   "Tempus Întâiul",
+   "Domnul Azi",
+   "Doamna Ieri",
+   "Domnișoara Mâine",
+   "Domnișoara Poimâine",
+   "Niciodată",
+   "Clara"
+  ],
+  "summary": {
+   "ro": "Nerăbdătoare să crească, Domnișoara Poimâine o ajută pe vrăjitoarea Niciodată să grăbească timpul, iar lumea ajunge în dezordine.",
+   "en": "Eager to grow up, Miss The Day After Tomorrow helps the witch Never speed up time, throwing the world into disarray."
+  },
+  "year": 2014,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "purcelusa-roscata",
+  "title": "Purcelușa roșcată",
+  "author": "Folclor maghiar",
+  "genre": "poveste",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "origin": "hungarian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "vanatoarea-ion-lila",
+  "title": "Vânătoarea",
+  "author": "Ion Lilă",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "glasurile-marian-dopcea",
+  "title": "Glasurile",
+  "author": "Marian Dopcea",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "poveste-egipteana",
+  "title": "Poveste egipteană",
+  "author": "Ana Ripka-Rus",
+  "genre": "poveste",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "gandacelul-garleanu",
+  "title": "Gândăcelul",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "characters": [
+   "Gândăcelul",
+   "Soarele",
+   "Crinul"
+  ],
+  "summary": {
+   "ro": "Un gândăcel crede că a căzut din soare și pornește să urce pe un crin ca să se întoarcă la el. După mult drum, vede cât de departe este încă.",
+   "en": "A tiny beetle thinks it fell from the sun and climbs a lily to return there. After a long climb, it sees how far away the sun still is."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "manusa-ucraineana",
+  "title": "Mănușa",
+  "author": "Folclor ucrainean",
+  "genre": "poveste",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "origin": "ukrainian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "fat-frumos-mazarean",
+  "title": "Făt-Frumos Măzărean",
+  "author": "Mihail Sadoveanu",
+  "genre": "poveste",
+  "summary": {
+   "ro": "În fiecare seară, trei nepoți îi cer bunicii povestea lui Făt-Frumos Măzărean. Ea începe cu fiul unui boier sărac, plecat în lume după noroc, dar obosește și amestecă povestea cu treburile casei. Copiii îi amintesc amănuntele, însă bunica adoarme înainte de final.",
+   "en": "Each evening, three grandchildren ask their grandmother for the story of Făt-Frumos Măzărean. She begins with a poor boyar’s son who sets out to seek his fortune, but grows tired and mixes the tale with household chores. The children remind her of details, yet she falls asleep before the ending."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-23",
+  "themes": [
+   "familie",
+   "copilarie"
+  ],
+  "characters": [
+   "Bunica",
+   "Niculăieș",
+   "Sandu",
+   "Lucia",
+   "Făt-Frumos Măzărean"
+  ]
+ },
+ {
+  "id": "imparateasa-norilor",
+  "title": "Împărăteasa norilor",
+  "author": "Virginia Carianopol",
+  "genre": "poveste",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-23",
+  "year": 1986
+ },
+ {
+  "id": "printesa-curajoasa",
+  "title": "Prințesa curajoasă",
+  "author": "Josef Lada",
+  "genre": "basm",
+  "themes": [
+   "curaj",
+   "aventura",
+   "magie"
+  ],
+  "characters": [
+   "Prințesa Máňa",
+   "Honza Bártů",
+   "Belzebub"
+  ],
+  "summary": {
+   "ro": "Prințesa Máňa pornește să-l salveze pe Honza Bártů, pe care Belzebub l-a dus din greșeală în iad.",
+   "en": "Princess Máňa sets out to rescue Honza Bártů, whom Belzebub has accidentally taken to hell."
+  },
+  "year": 1939,
+  "origin": "czech",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-pupezei",
+  "title": "Povestea pupezei",
+  "author": "Călin Gruia",
+  "genre": "poveste",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-vrajitoarei-pana-de-gaita",
+  "title": "Povestea vrăjitoarei Pană-de-Gaiță",
+  "author": "Passionaria Stoicescu",
+  "genre": "poveste",
+  "themes": [
+   "educatie",
+   "scoala",
+   "incredere"
+  ],
+  "characters": [
+   "Învățătoarea",
+   "Radu",
+   "Alin",
+   "Gaița"
+  ],
+  "summary": {
+   "ro": "O învățătoare împrumută unui elev o pană de gaiță și glumește că este vrăjită, ca să-l încurajeze să exerseze. Copiii răspândesc povestea, iar fiul ei se plânge că nu l-a ajutat la matematică.",
+   "en": "A teacher lends a pupil a jay feather and jokes that it is enchanted to encourage him to practise. The children spread the story, while her son complains that she did not help him with maths."
+  },
+  "year": 1986,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ciocarlia-vulpea-si-ogarul",
+  "title": "Ciocârlia, vulpea și ogarul",
+  "author": "Folclor românesc",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "istetime",
+   "ajutor"
+  ],
+  "characters": [
+   "Ciocârlia",
+   "Vulpea",
+   "Ogarul",
+   "Puii ciocârliei"
+  ],
+  "summary": {
+   "ro": "Vulpea păcălește ciocârlia ca să o îndepărteze de puii ei. Ogarul o ajută apoi să scape de vulpe.",
+   "en": "The fox tricks the lark into leaving her chicks. The greyhound later helps her escape from the fox."
+  },
+  "year": 1912,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "poveste-de-iarna-silvia-kerim",
+  "title": "Poveste de iarnă",
+  "author": "Silvia Kerim",
+  "genre": "poveste",
+  "themes": [
+   "calatorie",
+   "iarna",
+   "intalnire"
+  ],
+  "characters": [
+   "Albă-ca-Zăpada",
+   "Fram",
+   "Cei șapte pitici"
+  ],
+  "summary": {
+   "ro": "Albă-ca-Zăpada pleacă din povestea ei împreună cu piticii și îl întâlnește pe Fram, ursul polar, care îi vorbește despre gerul de afară.",
+   "en": "Snow White leaves her story with the dwarfs and meets Fram, the polar bear, who warns her about the cold outside."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "legenda-cucului",
+  "title": "Legenda cucului",
+  "author": "Călin Gruia",
+  "genre": "legenda",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cat-un-fir-de-neghina",
+  "title": "Cât un fir de neghină",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "supravietuire",
+   "rostul-vietii"
+  ],
+  "characters": [
+   "Gângania",
+   "Furnica",
+   "Rândunica",
+   "Puii rândunicii"
+  ],
+  "summary": {
+   "ro": "O gânganie caută rostul vieții, trece prin primejdii și înțelege că viețuitoarele mici ajung hrană pentru păsări.",
+   "en": "A tiny insect searches for life’s purpose, survives several dangers, and realizes that small creatures become food for birds."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "calatoare",
+  "title": "Călătoare",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "curiozitate",
+   "supravietuire",
+   "vanatoare"
+  ],
+  "characters": [
+   "Furnica",
+   "Vânătorul",
+   "Prepelița"
+  ],
+  "summary": {
+   "ro": "O furnică cercetează hainele unui vânător, îl vede împușcând o prepeliță și fuge după ce găsește sânge pe firimitura din tolba lui.",
+   "en": "An ant explores a hunter’s clothes, sees him shoot a quail, and flees after finding blood on a crumb in his game bag."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "musculita",
+  "title": "Musculița",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "foame",
+   "ironie"
+  ],
+  "characters": [
+   "Musculița",
+   "Părintele Gheorghe"
+  ],
+  "summary": {
+   "ro": "O musculiță găsește dulceață pe un ceaslov, mănâncă și adoarme; preotul închide cartea și o strivește.",
+   "en": "A fly finds a sweet spot on a prayer book, eats and falls asleep; the priest closes the book and crushes it."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cantaretul",
+  "title": "Cântărețul",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "mandrie",
+   "vanitate",
+   "muzica"
+  ],
+  "characters": [
+   "Greierul",
+   "Privighetoarea",
+   "Văcuțele-Domnului"
+  ],
+  "summary": {
+   "ro": "Un greier mândru se supără pe cântecul privighetorii și le cântă buburuzelor până obosește și adoarme la umbră.",
+   "en": "A boastful cricket resents the nightingale’s song and sings for ladybugs until he tires and rests in the shade."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "hoinar",
+  "title": "Hoinar",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "vanitate",
+   "nestatornicie",
+   "natura"
+  ],
+  "characters": [
+   "Fluturele",
+   "Florile"
+  ],
+  "summary": {
+   "ro": "Un fluture hoinărește printr-o grădină, găsește defecte fiecărei flori și rămâne afară când se lasă noaptea.",
+   "en": "A butterfly wanders through a garden, finds fault with every flower, and is left outside when night falls."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "in-curtea-mea",
+  "title": "În curtea mea",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "natura",
+   "viata-la-tara"
+  ],
+  "characters": [
+   "Cocoșii",
+   "Bibilica",
+   "Gâștele",
+   "Rațele",
+   "Găinile",
+   "Curcanul",
+   "Dudaș",
+   "Vultanul",
+   "Naratorul"
+  ],
+  "summary": {
+   "ro": "Naratorul descrie păsările din curte, iar curcanul desparte doi cocoși și ține la distanță un vultan.",
+   "en": "The narrator describes the birds in a farmyard, where a turkey breaks up a cockfight and deters a hawk."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "dupa-asemanarea-lor",
+  "title": "După asemănarea lor",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "creatie",
+   "egoism",
+   "generozitate",
+   "natura"
+  ],
+  "characters": [
+   "Dumnezeu",
+   "Broasca",
+   "Albina",
+   "Fluturele",
+   "Păianjenul",
+   "Șopârla",
+   "Rândunica",
+   "Libelula",
+   "Lăstunul"
+  ],
+  "summary": {
+   "ro": "Dumnezeu lasă câteva animale să alcătuiască o vietate nouă după propriile trăsături; din sfatul lor se naște libelula, iar rândunica cere în dar un lăstun.",
+   "en": "God lets several animals design a new creature from their own features; their plan creates the dragonfly, while the swallow asks for a swift."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "in-fel-de-fel-de-fete",
+  "title": "În fel de fel de fețe",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "frumusete",
+   "origini"
+  ],
+  "characters": [
+   "Gaița",
+   "Naratorul",
+   "Dumnezeu",
+   "Păunul",
+   "Ciocănitoarea",
+   "Privighetoarea",
+   "Păsările"
+  ],
+  "summary": {
+   "ro": "O gaiță povestește cum au primit păsările culori diferite, iar ciocănitoarea și privighetoarea au dobândit semnele lor distinctive.",
+   "en": "A jay tells how birds acquired different colors, including the woodpecker’s red mark and the nightingale’s song."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "mai-sus",
+  "title": "Mai sus!",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "aspiratie",
+   "natura",
+   "moarte"
+  ],
+  "characters": [
+   "Ciocârlia",
+   "Prepelița",
+   "Raza soarelui"
+  ],
+  "summary": {
+   "ro": "O ciocârlie urmărește raza soarelui tot mai sus, își cheltuiește ultimele puteri și cade la pământ, în timp ce cântecul ei continuă să se înalțe.",
+   "en": "A skylark follows a sunbeam higher and higher until its strength gives out; its song continues to rise as its body falls."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "nedespartite",
+  "title": "Nedespărțite",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "iubire",
+   "pierdere",
+   "migratie"
+  ],
+  "characters": [
+   "Perechea de turturele",
+   "Vânătorul",
+   "Stolul"
+  ],
+  "summary": {
+   "ro": "În timpul migrației, o turturică este împușcată; perechea ei o urmărește în zbor deasupra râului.",
+   "en": "During migration, a turtle dove is shot; its mate follows its body as it drifts down the river."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "pasare-de-noapte",
+  "title": "Pasăre de noapte",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "sete",
+   "origini"
+  ],
+  "characters": [
+   "Buhna",
+   "Privighetoarea",
+   "Dumnezeu"
+  ],
+  "summary": {
+   "ro": "În timpul unei secete, o buhnă caută apă și bea picătura păstrată pentru privighetoare; crede apoi că a înghițit lumina stelei și că noaptea îi este menită.",
+   "en": "During a drought, an owl drinks the drop of water kept for the nightingale and believes it has swallowed the star’s light, making the night its proper home."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cocosul",
+  "title": "Cocoșul",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "iubire",
+   "vanitate"
+  ],
+  "characters": [
+   "Pașa",
+   "Puica",
+   "Găinile"
+  ],
+  "summary": {
+   "ro": "Cocoșul Pașa se trezește înaintea celorlalte păsări ca să privească răsăritul și își trezește găinile, deși o preferă pe Puica.",
+   "en": "Pașa the rooster wakes before the other birds to watch the sunrise and rouses the hens, though he favors Puica."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ca-soarele",
+  "title": "Ca soarele",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "iubire",
+   "vanitate",
+   "frumusete"
+  ],
+  "characters": [
+   "Bibilica",
+   "Păunul",
+   "Păsările"
+  ],
+  "summary": {
+   "ro": "O bibilică îndrăgostită de păun îi laudă frumusețea, dar îi reproșează că îi umbrește soarele pe care ea vrea să-l vadă.",
+   "en": "A guinea fowl in love with a peacock praises his beauty, then tells him he blocks the sun she wants to see."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "luptatorii",
+  "title": "Luptătorii",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "rivalitate",
+   "mandrie",
+   "violenta"
+  ],
+  "characters": [
+   "Cocoșul negru",
+   "Cocoșul alb",
+   "Găinile"
+  ],
+  "summary": {
+   "ro": "Doi cocoși rivali se luptă până sunt răniți și epuizați, apoi se despart fără ca vreunul să fie învingător.",
+   "en": "Two rival roosters fight until they are wounded and exhausted, then part without a victor."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "filozoful",
+  "title": "Filozoful",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "singuratate",
+   "libertate",
+   "contemplatie"
+  ],
+  "characters": [
+   "Motanul",
+   "Oamenii"
+  ],
+  "summary": {
+   "ro": "Un motan singuratic cutreieră noaptea acoperișurile și contemplă cerul și viața oamenilor, ajungând la concluzia că fericirea înseamnă să nu aparții nimănui.",
+   "en": "A solitary cat roams the rooftops at night, reflects on the sky and human life, and concludes that happiness means belonging to no one."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "grivei",
+  "title": "Grivei",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "loialitate",
+   "batranete",
+   "abandon",
+   "moarte"
+  ],
+  "characters": [
+   "Grivei",
+   "Stăpânul",
+   "Familia",
+   "Hoțul"
+  ],
+  "summary": {
+   "ro": "Un câine bătrân și bolnav, neglijat de stăpâni după douăzeci de ani de pază, se retrage în pădure și moare singur.",
+   "en": "An old, sick dog neglected after twenty years of guarding the home retreats to the woods and dies alone."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "gaza",
+  "title": "Gâza",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "oboseala",
+   "alinare",
+   "natura"
+  ],
+  "characters": [
+   "Calul",
+   "Gâza",
+   "Călărețul"
+  ],
+  "summary": {
+   "ro": "Un cal obosit de drum se liniștește când o gâză plină de miros de flori îi intră în nară și se plimbă pe capul lui.",
+   "en": "An exhausted horse is soothed when a flower-dusted insect enters its nostril and moves across its head."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "parasita",
+  "title": "Părăsită",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "singuratate",
+   "pierdere",
+   "batranete",
+   "moarte"
+  ],
+  "characters": [
+   "Iapa Marta",
+   "Herghelia",
+   "Îngrijitorii"
+  ],
+  "summary": {
+   "ro": "O iapă albă, bătrână și oarbă, trăiește singură după ce și-a pierdut vederea și se prăbușește într-o râpă în timpul furtunii.",
+   "en": "An old, blind white mare lives alone after losing her sight and falls into a ravine during a storm."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "calul",
+  "title": "Calul",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "libertate",
+   "prietenie",
+   "batranete",
+   "moarte"
+  ],
+  "characters": [
+   "Calul tânăr",
+   "Calul bătrân",
+   "Iapa-mamă",
+   "Oamenii"
+  ],
+  "summary": {
+   "ro": "Un cal crescut liber este prins și ajunge să se atașeze de un cal bătrân; când acesta moare, cel tânăr îl jelește.",
+   "en": "A horse raised in freedom is captured and grows close to an old stablemate; when the older horse dies, the younger one grieves."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "tovarasii",
+  "title": "Tovarășii",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "munca",
+   "tovarasie",
+   "empatie",
+   "viata-la-tara"
+  ],
+  "characters": [
+   "Duman",
+   "Joian",
+   "Plugarul",
+   "Băiatul",
+   "Păsările"
+  ],
+  "summary": {
+   "ro": "Doi boi, Duman și Joian, trag plugul într-o zi toridă; Duman se așază lângă plugarul adormit și îl acoperă cu umbra lui.",
+   "en": "Two oxen, Duman and Joian, plow through a hot day; Duman stands beside the sleeping farmer and shades him."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "trandafirul",
+  "title": "Trandafirul",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "frumusete",
+   "invidie",
+   "vanitate"
+  ],
+  "characters": [
+   "Trandafirul",
+   "Spinul",
+   "Dumnezeu",
+   "Ciocârlia",
+   "Sticlețul",
+   "Drumeții"
+  ],
+  "summary": {
+   "ro": "Un trandafir admirat de drumeți cere spini ca să-și apere florile; sângele trecătorilor îi colorează petalele, iar spinul ajunge și el să-l invidieze.",
+   "en": "A rose admired by passersby asks for thorns to protect its flowers; their blood colors its petals, while the neighboring thorn grows envious."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "frunza",
+  "title": "Frunza",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "schimbare",
+   "prietenie",
+   "pierdere"
+  ],
+  "characters": [
+   "Frunza",
+   "Scatiul",
+   "Rândunica",
+   "Soarele"
+  ],
+  "summary": {
+   "ro": "O frunză oferă umbră unui scatiu în timpul verii; toamna, pasărea trece fără s-o recunoască, iar frunza cade.",
+   "en": "A leaf shelters a siskin through the summer; in autumn, the bird passes without recognizing it, and the leaf falls."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "o-raza",
+  "title": "O rază",
+  "author": "Emil Gârleanu",
+  "genre": "poveste",
+  "themes": [
+   "suferinta",
+   "compasiune",
+   "speranta",
+   "razboi"
+  ],
+  "characters": [
+   "Raza",
+   "Lupul",
+   "Căprioara",
+   "Soldații",
+   "Cântăreața",
+   "Mama",
+   "Copilul"
+  ],
+  "summary": {
+   "ro": "O rază de soare vede vânătoare, război și vanitate, apoi se așază pe lacrima unei mame care își ține copilul bolnav; copilul îi zâmbește.",
+   "en": "A sunbeam witnesses hunting, war, and vanity before settling on the tear of a mother holding her sick child; the child smiles."
+  },
+  "year": 1910,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "mariuca-mihai-manescu",
+  "title": "Măriuca",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "istorie",
+   "curaj",
+   "sacrificiu",
+   "memorie"
+  ],
+  "characters": [
+   "Măriuca Zaharia",
+   "Bunicul Ion Zaharia",
+   "Militarii"
+  ],
+  "summary": {
+   "ro": "Măriuca Zaharia ajută artileria română să localizeze pozițiile germane în Primul Război Mondial, transmițând observații dintr-un nuc. Povestea urmărește sacrificiul ei și păstrarea memoriei eroinei.",
+   "en": "During World War I, Măriuca Zaharia helps Romanian artillery locate German positions from a walnut tree. The story follows her sacrifice and the preservation of her memory."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "calatoria-de-la-miezul-noptii",
+  "title": "Călătoria de la miezul nopții",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "curaj",
+   "siguranta",
+   "dizabilitate"
+  ],
+  "characters": [
+   "Flori",
+   "Cipi",
+   "Mama",
+   "Tatăl",
+   "Căpitanul Pufi"
+  ],
+  "summary": {
+   "ro": "Flori și fratele ei Cipi, care are tetrapareză spastică, fug noaptea dintr-o casă nesigură și străbat Bucureștiul, bazându-se pe curajul lor și pe ajutorul primit, până își regăsesc mama.",
+   "en": "Flori and her brother Cipi, who has spastic quadriparesis, leave an unsafe home at night and cross Bucharest, relying on their courage and help from others until they find their mother."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "balerina-minipovesti",
+  "title": "Balerina",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "schimbare",
+   "prietenie",
+   "perseverenta"
+  ],
+  "characters": [
+   "Eliza",
+   "Ana-Maria",
+   "Doamna Ileana",
+   "Mama"
+  ],
+  "summary": {
+   "ro": "După despărțirea părinților, Eliza se mută din Germania la Sighișoara și se teme că trebuie să renunțe la balet. La noua școală întâlnește fantoma fostei balerine Ana-Maria; apropierea lor o ajută să-și recapete încrederea și să înțeleagă trecutul spiritului.",
+   "en": "After her parents separate, Eliza moves from Germany to Sighișoara and fears she must give up ballet. At her new dance school she meets the ghost of former ballerina Ana-Maria; their bond helps Eliza regain confidence and understand the spirit’s past."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "tramvaiul-fermecat-minipovesti",
+  "title": "Tramvaiul fermecat",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "lectura",
+   "calatorie-in-timp",
+   "generatii"
+  ],
+  "characters": [
+   "Ana",
+   "Petre Ispirescu",
+   "Mama Anei",
+   "Tatăl Anei"
+  ],
+  "summary": {
+   "ro": "Ana, o fetiță de 10 ani căreia îi lipsește tatăl mereu ocupat, călătorește cu un tramvai fermecat în Bucureștiul anilor 1870 și îl întâlnește pe Petre Ispirescu. Călătoria prin povești o ajută să se apropie din nou de tatăl ei.",
+   "en": "Ten-year-old Ana misses her always-busy father. A magical tram takes her to 1870s Bucharest, where she meets Petre Ispirescu; the journey through stories helps her reconnect with her father."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "uneltele-mesterului-tica",
+  "title": "Uneltele meșterului Tică",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "cooperare",
+   "curaj",
+   "empatie",
+   "rezolvarea-problemelor"
+  ],
+  "characters": [
+   "Meșterul Tică",
+   "Cioc-Cioc",
+   "Rotiță",
+   "Strânsuț",
+   "Hărnicuț",
+   "Perie",
+   "Câinele",
+   "Pisica",
+   "Pasărea"
+  ],
+  "summary": {
+   "ro": "Ciocanul Cioc-Cioc dispare din atelier, iar Rotiță, Strânsuț și Hărnicuț îi caută urma prin curte. Îl găsesc într-un cuib și ajută pasărea să înlocuiască lemnul de care avea nevoie.",
+   "en": "Cioc-Cioc the hammer disappears from the workshop, so Rotiță, Strânsuț and Hărnicuț search the yard for him. They find him in a nest and help the bird replace the wood she needed."
+  },
+  "year": 2025,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "ridichea-care-n-a-vrut-sa-fie-smulsa",
+  "title": "Ridichea care n-a vrut să fie smulsă",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "autonomie",
+   "prietenie",
+   "perseverenta",
+   "respect"
+  ],
+  "characters": [
+   "Ridichea",
+   "Mitică Viermișorul",
+   "Moșul",
+   "Baba",
+   "Nepoata",
+   "Animalele din grădină"
+  ],
+  "summary": {
+   "ro": "O ridiche vrea să rămână în pământ, unde are liniște și prietenul ei, Mitică Viermișorul. Oamenii și animalele încearcă s-o scoată, dar ridichea își ține hotărârea și își păstrează locul.",
+   "en": "A radish wants to stay in the soil, where it has peace and its friend Mitică the Worm. People and animals try to pull it out, but the radish stands firm and keeps her home."
+  },
+  "year": 2025,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "portretul-unui-baietel",
+  "title": "Portretul unui băiețel",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "memorie",
+   "arta",
+   "patrimoniu",
+   "familie"
+  ],
+  "characters": [
+   "Domnul Isaac",
+   "David",
+   "Familia lui David",
+   "Cei care redescoperă portretul"
+  ],
+  "summary": {
+   "ro": "Portretul lui David, fiul bancherului Isaac, leagă un conac din București de amintirea familiei și de cei care descoperă și restaurează tabloul peste generații.",
+   "en": "The portrait of David, banker Isaac’s son, links a Bucharest mansion to the family’s memory and to the people who discover and restore the painting generations later."
+  },
+  "year": 2025,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "madam-batiste",
+  "title": "Madam Batiște",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "razboi",
+   "prejudecati",
+   "bunatate",
+   "speranta",
+   "prietenie"
+  ],
+  "characters": [
+   "Mircea",
+   "Madam Batiște",
+   "Elena",
+   "Prietenii lui Mircea"
+  ],
+  "summary": {
+   "ro": "În Bucureștiul anului 1944, Mircea, un băiat de 12 ani, se împrietenește cu Madam Batiște, o negustoreasă evreică de antichități. În timpul războiului și al prejudecăților, legătura lor îi dă lui Mircea speranță.",
+   "en": "In 1944 Bucharest, twelve-year-old Mircea befriends Madam Batiște, a Jewish antiques dealer. Amid war and prejudice, their friendship gives Mircea hope."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "marele-jaf-al-tortului",
+  "title": "Marele jaf al tortului",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "prietenie",
+   "cooperare",
+   "planificare",
+   "impartire"
+  ],
+  "characters": [
+   "Nucu",
+   "Veverițele",
+   "Animalele-prietene",
+   "Ciorile"
+  ],
+  "summary": {
+   "ro": "Veverița Nucu adună animalele din cartier pentru un plan îndrăzneț: să ia tortul de la o petrecere și să-l împartă cu ciorile. Echipa reușește prin planificare și cooperare.",
+   "en": "Nucu the squirrel recruits neighborhood animals for a daring plan to take a party cake and share it with the crows. The team succeeds through planning and cooperation."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "borcanul-cu-dorinte",
+  "title": "Borcanul cu dorințe",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "responsabilitate",
+   "consecinte",
+   "empatie",
+   "repararea-greselilor"
+  ],
+  "characters": [
+   "Silviu",
+   "Domnul Bică",
+   "Cornelia",
+   "Părinții lui Silviu",
+   "Coco"
+  ],
+  "summary": {
+   "ro": "După ce îi pune sare în cafea profesorului Bică, Silviu primește două săptămâni fără ecrane. În pod găsește un borcan cu bile fermecate și jucăria Coco piratul; când vede că o farsă îi rănește pe alți copii, folosește ultima bilă ca să repare ce a făcut.",
+   "en": "After salting teacher Bică’s coffee, Silviu is grounded from screens for two weeks. In the attic he finds a jar of magical marbles and Coco the pirate toy; when he sees that a prank has hurt other children, he uses his last marble to make things right."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "noni-elefantelul",
+  "title": "Noni elefănțelul",
+  "author": "Maria Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "curiozitate",
+   "siguranta",
+   "ascultare",
+   "familie"
+  ],
+  "characters": [
+   "Noni",
+   "Mama lui Noni",
+   "Sora lui Noni",
+   "Tucanul Oco",
+   "Animalele din junglă"
+  ],
+  "summary": {
+   "ro": "Noni pleacă singur în junglă, deși mama i-a interzis. După ce tucanul Oco îl avertizează și întâlnește primejdiile pădurii, se întoarce acasă și învață să asculte.",
+   "en": "Noni goes into the jungle alone despite his mother’s warning. After toucan Oco alerts him and he encounters the dangers of the forest, he returns home and learns to listen."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "zapsnack",
+  "title": "Zapsnack",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "alimentatie",
+   "publicitate",
+   "responsabilitate-civica",
+   "coruptie",
+   "colaborare"
+  ],
+  "characters": [
+   "Alex",
+   "Colegii lui Alex",
+   "Directorul Dobre",
+   "Profesorul Ionescu"
+  ],
+  "summary": {
+   "ro": "Un elev de clasa a VII-a și colegii lui contestă reclamele insistente la gustarea ZapSnack din școală. Provocarea lor scoate la iveală interesul personal al directorului Dobre, iar școala adoptă ulterior un program de alimentație mai sănătoasă.",
+   "en": "A seventh-grader and his classmates challenge the school’s aggressive promotion of ZapSnack. Their campaign exposes headmaster Dobre’s personal interest, and the school later adopts a healthier food program."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "sarangi",
+  "title": "Sarangi",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "migratie",
+   "apartenta",
+   "identitate-culturala",
+   "prietenie",
+   "curaj"
+  ],
+  "characters": [
+   "Dipak",
+   "Izabella",
+   "Bunicul lui Dipak",
+   "Colegii",
+   "Profesorul"
+  ],
+  "summary": {
+   "ro": "Dipak, un băiat venit din Nepal, se simte străin la școala din București și își ascunde sarangiul primit de la bunicul său. Izabella îl încurajează să le vorbească colegilor despre instrument și despre țara lui.",
+   "en": "Dipak, a boy who has moved from Nepal, feels like an outsider at his Bucharest school and hides the sarangi given to him by his grandfather. Izabella encourages him to tell his classmates about the instrument and his country."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "vulpea-si-corbul",
+  "title": "Vulpea și corbul",
+  "author": "Esop",
+  "genre": "poveste",
+  "origin": "greek",
+  "themes": [
+   "animale",
+   "istetime",
+   "vanitate"
+  ],
+  "characters": [
+   "Vulpea",
+   "Corbul"
+  ],
+  "summary": {
+   "ro": "Un corb găsește o bucată de brânză și se așază cu ea într-un copac. O vulpe îl laudă până când acesta deschide ciocul să cânte, iar brânza cade în gura ei.",
+   "en": "A crow finds a piece of cheese and settles in a tree with it. A fox flatters the bird until it opens its beak to sing, and the cheese falls into her mouth."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "sir-christopher-cockleshell",
+  "title": "Sir Christopher Cockleshell",
+  "author": "E. Nesbit",
+  "genre": "poveste",
+  "origin": "english",
+  "year": 1905,
+  "themes": [
+   "bunatate",
+   "compasiune",
+   "copilarie",
+   "craciun",
+   "pierdere",
+   "singuratate"
+  ],
+  "characters": [
+   "Phyllis",
+   "Mabel",
+   "Guy",
+   "Sir Christopher",
+   "Fiica lui Sir Christopher"
+  ],
+  "summary": {
+   "ro": "În preajma Crăciunului, Phyllis, Mabel și Guy îi duc un brad împodobit singuraticului Sir Christopher. Gestul lor îl alină și o apropie pe Phyllis de durerea lui: și-a pierdut soția și fiica, iar averea moștenită a venit prea târziu ca să-i salveze copilul. Mai târziu, el îi încredințează Phyllis misiunea de a-i ajuta pe copiii săraci.",
+   "en": "At Christmas, Phyllis, Mabel and Guy bring a decorated tree to the lonely Sir Christopher. Their kindness comforts him and brings Phyllis close to his grief: he lost his wife and daughter, and his inheritance arrived too late to save his child. He later entrusts Phyllis with helping poor children."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "privighetoarea-si-trandafirul",
+  "title": "Privighetoarea și trandafirul",
+  "author": "Oscar Wilde",
+  "genre": "poveste",
+  "origin": "irish",
+  "year": 1888,
+  "themes": [
+   "iubire",
+   "sacrificiu",
+   "egoism",
+   "suferinta"
+  ],
+  "characters": [
+   "Studentul",
+   "Fiica profesorului",
+   "Privighetoarea",
+   "Stejarul",
+   "Trandafirul"
+  ],
+  "summary": {
+   "ro": "Un student are nevoie de un trandafir roșu ca să danseze cu fiica profesorului la balul prințului. O privighetoare își sacrifică viața ca să facă trandafirul să înflorească, dar fata îl refuză, iar studentul se întoarce la cărțile lui, convins că iubirea nu-i este de folos.",
+   "en": "A student needs a red rose to dance with the professor’s daughter at the Prince’s ball. A nightingale gives her life to make the rose bloom, but the girl rejects it, and the student returns to his books, convinced that love is useless."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "remarcabila-racheta",
+  "title": "Remarcabila rachetă",
+  "author": "Oscar Wilde",
+  "genre": "poveste",
+  "origin": "irish",
+  "year": 1888,
+  "themes": [
+   "vanitate",
+   "mandrie",
+   "umor",
+   "consecinte"
+  ],
+  "characters": [
+   "Racheta remarcabilă",
+   "Artificiile",
+   "Broasca",
+   "Libelula",
+   "Rața",
+   "Doi băieți"
+  ],
+  "summary": {
+   "ro": "O rachetă îngâmfată se laudă în fața celorlalte artificii și se emoționează atât de tare, încât se udă și nu se aprinde la nunta prințului. Ajunsă într-un șanț, continuă să se creadă importantă; doi băieți o folosesc mai târziu drept combustibil, iar ea explodează ziua, fără spectatori, convinsă că a făcut senzație.",
+   "en": "A vain rocket boasts to the other fireworks and becomes so emotional that it wets itself and fails to ignite at the Prince’s wedding. Left in a ditch, it still thinks itself important; two boys later use it as kindling, and it explodes in daylight with no audience, still convinced it has made a sensation."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-lui-samuel-whiskers",
+  "title": "Povestea lui Samuel Whiskers sau budinca Roly-Poly",
+  "author": "Beatrix Potter",
+  "genre": "poveste",
+  "origin": "english",
+  "year": 1908,
+  "themes": [
+   "animale",
+   "familie",
+   "nazbatii",
+   "pericol",
+   "salvare"
+  ],
+  "characters": [
+   "Tom Kitten",
+   "Samuel Whiskers",
+   "Anna Maria",
+   "Moppet",
+   "Mittens",
+   "John Joiner",
+   "Tabitha Twitchit"
+  ],
+  "summary": {
+   "ro": "Tom Kitten se strecoară în spatele pereților podului, unde șobolanii Samuel Whiskers și Anna Maria îl leagă și îl acoperă cu aluat. Moppet și Mittens cer ajutor, iar tâmplarul John Joiner îl salvează înainte să fie făcut budincă.",
+   "en": "Tom Kitten sneaks behind the attic walls, where the rats Samuel Whiskers and Anna Maria tie him up and cover him in dough. Moppet and Mittens call for help, and the carpenter John Joiner rescues him before he can be made into pudding."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-doamnei-arici-scrobelici",
+  "title": "Povestea doamnei Arici Scrobelici",
+  "author": "Beatrix Potter",
+  "genre": "poveste",
+  "origin": "english",
+  "year": 1905,
+  "themes": [
+   "animale",
+   "munca",
+   "ajutor",
+   "natura",
+   "descoperire"
+  ],
+  "characters": [
+   "Lucie",
+   "Doamna Arici Scrobelici",
+   "Peter Rabbit",
+   "Benjamin Bunny",
+   "Găina pestriță",
+   "Cock Robin"
+  ],
+  "summary": {
+   "ro": "Lucie își caută batistele pierdute și urcă dealul până la căsuța spălătoresei, doamna Arici Scrobelici. O ajută să ducă rufele curate animalelor din vecinătate, apoi descoperă că gazda ei este, de fapt, un arici.",
+   "en": "Lucie searches for her lost handkerchiefs and climbs the hill to the washerwoman Mrs. Tiggy-Winkle’s cottage. She helps deliver clean laundry to the neighborhood animals, then discovers that her host is really a hedgehog."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-locomotivei-care-credea-ca-poate",
+  "title": "Povestea locomotivei care credea că poate",
+  "author": "Charles S. Wing",
+  "genre": "poveste",
+  "origin": "american",
+  "themes": [
+   "perseverenta",
+   "incredere",
+   "optimism"
+  ],
+  "characters": [
+   "Supraveghetorul",
+   "Locomotiva nouă",
+   "Locomotiva mare și puternică",
+   "O altă locomotivă",
+   "Trenul"
+  ],
+  "summary": {
+   "ro": "Un supraveghetor întreabă mai multe locomotive dacă pot trage un tren greu peste un deal. Celelalte refuză, dar locomotiva nouă acceptă și își repetă că poate până ajunge în vârf.",
+   "en": "A superintendent asks several engines if they can pull a heavy train over a hill. The others refuse, but a new engine agrees and keeps telling itself it can until it reaches the top."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-doamnei-tittlemouse",
+  "title": "Povestea doamnei Tittlemouse",
+  "author": "Beatrix Potter",
+  "genre": "poveste",
+  "origin": "english",
+  "year": 1910,
+  "themes": [
+   "animale",
+   "ordine",
+   "ospitalitate",
+   "vecinatate"
+  ],
+  "characters": [
+   "Doamna Tittlemouse",
+   "Domnul Jackson",
+   "Babbitty Bumble",
+   "Păianjenul cel mare și gras"
+  ],
+  "summary": {
+   "ro": "Doamna Tittlemouse, un șoricel foarte ordonat, încearcă să-și păstreze casa curată, dar insectele și domnul Jackson, un broscoi dezordonat, îi lasă tunelurile pline de mizerie. După ce face curățenie, le primește pe albine la o petrecere.",
+   "en": "Mrs. Tittlemouse, a very tidy wood mouse, tries to keep her home clean, but insects and Mr. Jackson, a messy toad, leave her tunnels in disarray. After cleaning up, she hosts the bees for a party."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-lui-johnny-town-mouse",
+  "title": "Povestea lui Johnny Town-Mouse",
+  "author": "Beatrix Potter",
+  "genre": "poveste",
+  "origin": "english",
+  "year": 1918,
+  "themes": [
+   "animale",
+   "oras-si-sat",
+   "prietenie",
+   "casa"
+  ],
+  "characters": [
+   "Johnny Town-Mouse",
+   "Timmie Willie",
+   "Bucătăreasa",
+   "Animalele de la țară"
+  ],
+  "summary": {
+   "ro": "Timmie Willie, un șoricel de la țară, ajunge din greșeală în oraș într-un coș cu legume și îl întâlnește pe Johnny Town-Mouse. Mai târziu, Johnny îl vizitează la țară, iar fiecare descoperă că preferă propria casă.",
+   "en": "Timmie Willie, a country mouse, reaches town by accident in a vegetable hamper and meets Johnny Town-Mouse. Later, Johnny visits the countryside, and each discovers that he prefers his own home."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "povestea-placintei-si-a-tavitei-pentru-tarte",
+  "title": "Povestea plăcintei și a tăviței pentru tarte",
+  "author": "Beatrix Potter",
+  "genre": "poveste",
+  "origin": "english",
+  "year": 1905,
+  "themes": [
+   "animale",
+   "ospitalitate",
+   "neintelegere",
+   "mancare",
+   "umor"
+  ],
+  "characters": [
+   "Ribby",
+   "Duchess",
+   "Dr. Maggotty",
+   "Tabitha Twitchit"
+  ],
+  "summary": {
+   "ro": "Ribby o invită la ceai pe Duchess și pregătește o plăcintă. Duchess se teme că plăcinta va conține șoarece și încearcă să o schimbe cu propria plăcintă cu carne; vasele identice îi încurcă planul și o fac să creadă că a înghițit tăvița de copt.",
+   "en": "Ribby invites Duchess to tea and prepares a pie. Duchess fears Ribby’s pie contains mouse and tries to swap it for her own meat pie; the identical dishes confuse her plan and make her think she has swallowed the baking pan."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "cei-trei-fii-de-imparat-si-porunca-parinteasca",
+  "title": "Cei trei fii de împărat și porunca părintească",
+  "altTitles": [
+   "Poveste. Imitație"
+  ],
+  "author": "Ion Luca Caragiale",
+  "genre": "basm",
+  "origin": "romanian",
+  "year": 1894,
+  "themes": [
+   "familie",
+   "responsabilitate",
+   "aventura",
+   "intelepciune",
+   "magie"
+  ],
+  "characters": [
+   "Împăratul",
+   "Împărăteasa",
+   "Cei trei fii",
+   "Ileana"
+  ],
+  "summary": {
+   "ro": "Împăratul își trimite cei trei fii în lume cu o poruncă părintească. La iarmaroc, fiecare alege un dar minunat, iar darurile lor îi ajută să o salveze pe Ileana.",
+   "en": "An emperor sends his three sons into the world under a paternal command. At a fair, each chooses a wondrous gift, and together the gifts help them rescue Ileana."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "inima-rece",
+  "title": "Inima rece",
+  "author": "Wilhelm Hauff",
+  "genre": "basm",
+  "origin": "german",
+  "year": 1827,
+  "themes": [
+   "alegeri",
+   "egoism",
+   "bunatate",
+   "fericire"
+  ],
+  "characters": [
+   "Peter Munk",
+   "Michel Olandezul",
+   "Omulețul de sticlă"
+  ],
+  "summary": {
+   "ro": "Peter Munk, un cărbunar sărac din Pădurea Neagră, își vinde inima pentru bogăție și învață că averea fără bunătate nu-i aduce fericirea.",
+   "en": "Peter Munk, a poor charcoal burner in the Black Forest, trades his heart for wealth and learns that riches without kindness cannot bring him happiness."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "legenda-de-pe-valea-cernei",
+  "title": "Legenda de pe Valea Cernei",
+  "author": "autor anonim",
+  "genre": "legenda",
+  "origin": "romanian",
+  "themes": [
+   "mister",
+   "natura",
+   "sacrificiu",
+   "traditii"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "În inima Văii Cernei, comunitatea locală este martora unor întâmplări misterioase care dezvăluie legătura dintre oameni și forțele naturii.",
+   "en": "In the heart of the Cerna Valley, the local community witnesses mysterious events that reveal the connection between people and the forces of nature."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "piatra-craiului",
+  "title": "Piatra Craiului",
+  "author": "autor anonim",
+  "genre": "legenda",
+  "origin": "romanian",
+  "themes": [
+   "mitologie",
+   "istorie",
+   "natura"
+  ],
+  "characters": [],
+  "summary": {
+   "ro": "O legendă românească despre Piatra Craiului, în care mitologia și istoria se împletesc, iar eroii și ființele mitologice trăiesc în armonie cu muntele.",
+   "en": "A Romanian legend about Piatra Craiului, where mythology and history meet and heroes and mythical creatures live in harmony with the mountain."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "sarlatanul-si-bolnavul",
+  "title": "Șarlatanul și bolnavul",
+  "author": "Grigore Alexandrescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "inselaciune",
+   "exploatare",
+   "credulitate",
+   "demagogie"
+  ],
+  "characters": [
+   "Negustorul bolnav",
+   "Doctorul șarlatan"
+  ],
+  "summary": {
+   "ro": "Un doctor cu diplome inventate îi leagă ochii unui negustor și îi fură treptat bunurile; după o săptămână, negustorul descoperă că a rămas fără ele.",
+   "en": "A doctor with fabricated credentials treats a merchant by bandaging his eyes, then gradually steals his valuables; after a week, the merchant finds them gone."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "privighetoarea-si-magarul",
+  "title": "Privighetoarea și măgarul",
+  "author": "Grigore Alexandrescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "year": 1838,
+  "themes": [
+   "critica-nepriceputa",
+   "aroganta",
+   "discernamant"
+  ],
+  "characters": [
+   "Privighetoarea",
+   "Măgarul"
+  ],
+  "summary": {
+   "ro": "Un măgar îi critică privighetorii cântecul și îi propune propria cântare drept model. Ea respinge sfatul, spunând că l-ar urma doar dacă ar vrea să ajungă măgar.",
+   "en": "A donkey criticizes a nightingale’s song and offers his own as a model. She rejects the advice, saying she would become a donkey if she followed it."
+  },
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "vulpea-calul-si-lupul",
+  "title": "Vulpea, calul și lupul",
+  "author": "Grigore Alexandrescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "year": 1838,
+  "themes": [
+   "prudenta",
+   "viclenie",
+   "lingusire",
+   "autoprotectie"
+  ],
+  "characters": [
+   "Vulpea",
+   "Calul",
+   "Lupul"
+  ],
+  "summary": {
+   "ro": "O vulpe lingușește un cal și ademenește un lup să se apropie. Calul pricepe primejdia și îl lovește, iar fabula arată că omul înțelept se ferește de necunoscut.",
+   "en": "A fox flatters a horse and lures a wolf closer. The horse recognizes the danger and kicks him; the fable concludes that the wise avoid the unknown."
+  },
+  "addedAt": "2026-11-23"
  }
 ]

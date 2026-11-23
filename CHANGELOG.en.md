@@ -2,6 +2,15 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.19.0] - 2026-11-23
+
+### Added
+- **New stories:** 71 stories and 93 recordings from Gong, Culturalia, LaTimp.eu, Povești Alese, MiniPovești, LibriVox, Teatru pe Vinil, Teatrul Colibri, Teatrul Stela Popescu and Internet Archive.
+- 111 verified links were added to existing recordings.
+
+### Removed
+- Sources with fewer than three recordings were removed, along with the three recordings found only there.
+
 ## [1.18.0] - 2026-11-23
 
 ### Added

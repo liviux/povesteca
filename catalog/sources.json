@@ -90,16 +90,6 @@
   }
  },
  {
-  "id": "yt-electrecord",
-  "name": "Electrecord",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@Electrecord-Romania",
-  "description": {
-   "ro": "Canalul oficial al casei de discuri Electrecord, cu albume de povești reeditate.",
-   "en": "The official channel of the Electrecord record label, with reissued story albums."
-  }
- },
- {
   "id": "yt-teatru-subtitrat",
   "name": "Teatru Subtitrat",
   "type": "youtube",
@@ -210,16 +200,6 @@
   }
  },
  {
-  "id": "arteka",
-  "name": "Asociația Arteka (Teatru Radiofonic pentru Copii)",
-  "type": "audio",
-  "url": "https://podcasters.spotify.com/pod/show/asociatia-arteka5",
-  "description": {
-   "ro": "Spectacole de teatru radiofonic contemporan pentru copii din proiectul cultural al Asociației Arteka (finanțat de Ministerul Culturii), jucate de actori ieșeni, cu regie, sound design și ascultare directă MP3.",
-   "en": "Contemporary children’s radio plays from Asociația Arteka’s cultural project (funded by the Ministry of Culture), performed by Iași actors with full direction, sound design and direct MP3 streaming."
-  }
- },
- {
   "id": "cutiuta-cu-povesti",
   "name": "Cutiuța cu povești & Povești ascultătoare",
   "type": "audio",
@@ -270,16 +250,6 @@
   }
  },
  {
-  "id": "auzit",
-  "name": "AUZIT. Teatru Radiofonic",
-  "type": "youtube",
-  "url": "https://www.auzit.online/episoade",
-  "description": {
-   "ro": "Producții independente de teatru radiofonic din Cluj. „Broscoiul” e o fabulă contemporană despre intimitate și rușine publică.",
-   "en": "Independent radio drama from Cluj. “Broscoiul” is a modern fable about privacy and public shaming."
-  }
- },
- {
   "id": "latimp",
   "name": "LaTimp.eu",
   "type": "audio",
@@ -287,6 +257,46 @@
   "description": {
    "ro": "Înregistrări de teatru radiofonic și povești pentru copii, cu fișe de distribuție pentru montările din arhiva Radio România.",
    "en": "Radio plays and stories for children, with cast and production credits for recordings from the Radio România archive."
+  }
+ },
+ {
+  "id": "povesti-alese",
+  "name": "Povești alese",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@mihaiamarie7370",
+  "description": {
+   "ro": "Canalul actorului și povestitorului Mihai Amarie, cu lecturi de povești și texte literare, între care volumul „Din lumea celor care nu cuvântă” de Emil Gârleanu.",
+   "en": "Actor and storyteller Mihai Amarie’s channel, with readings of stories and literary works, including Emil Gârleanu’s collection “Din lumea celor care nu cuvântă”."
+  }
+ },
+ {
+  "id": "minipovesti",
+  "name": "MiniPovești",
+  "type": "audio",
+  "url": "https://minipovesti.ro/",
+  "description": {
+   "ro": "Povești pentru copii publicate de proiectul MiniPovești, cu texte integrale, lecturi înregistrate de actori și redare audio directă.",
+   "en": "Children’s stories published by the MiniPovești project, with full texts, actor-read recordings and direct audio playback."
+  }
+ },
+ {
+  "id": "librivox",
+  "name": "LibriVox",
+  "type": "audio",
+  "url": "https://librivox.org/",
+  "description": {
+   "ro": "Bibliotecă de cărți audio în domeniul public, citite de voluntari. Aceste înregistrări sunt lecturi dramatizate cu distribuție.",
+   "en": "A library of public-domain audiobooks read by volunteers. These recordings are dramatic readings with a cast."
+  }
+ },
+ {
+  "id": "yt-teatrul-stela-popescu",
+  "name": "Teatrul Stela Popescu",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@teatrulstelapopescu3930",
+  "description": {
+   "ro": "Canalul Teatrului Stela Popescu publică fabule interpretate de actorii teatrului.",
+   "en": "The Teatrul Stela Popescu channel publishes fables performed by the theatre’s actors."
   }
  }
 ]
