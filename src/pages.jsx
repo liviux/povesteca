@@ -121,7 +121,7 @@ export function Explore({ query }) {
   const [open, setOpen] = useState(false);
   const [limit, setLimit] = useState(PAGE_SIZE);
   const rel = useMemo(() => search(q), [q]);
-  const sort = p.get('sort') || (rel ? 'relevanta' : 'recomandate');
+  const sort = p.get('sort') || (rel ? 'relevanta' : 'aleator');
   useEffect(() => { title(t.explore); set({ filters: f }); setLimit(PAGE_SIZE); }, [query]);
 
   const update = (k, v) => {

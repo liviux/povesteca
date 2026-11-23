@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.7.0] - 2026-11-23
+
+### Added
+- **Browse** has a **Random** order.
+
+### Changed
+- **Browse** now opens with the recordings shuffled, in a different order on every visit, so you keep finding something new. The order stays the same while you browse, and a search still shows the best matches first.
+
 ## [1.6.1] - 2026-11-23
 
 ### Changed

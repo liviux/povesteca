@@ -35,7 +35,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 ## Ce poți face
 
 - **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
-- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă și disc sau colecție, apoi ordonezi rezultatele.
+- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă și disc sau colecție, apoi ordonezi rezultatele. La prima deschidere, înregistrările apar la întâmplare, în altă ordine la fiecare vizită.
 - **Pagină pentru fiecare autor**: apasă pe numele autorului pe pagina poveștii sau a înregistrării ca să îi vezi toate poveștile.
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas. Viteza se schimbă de la 0,5× la 2×.
 - **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.

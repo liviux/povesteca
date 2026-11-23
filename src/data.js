@@ -179,6 +179,7 @@ export const FILTER_KEYS = ['kind', 'voices', 'sfx', 'music', 'mood', 'age', 'du
 export function sortVersions(list, sort, ratings = {}, rel) {
   const by = {
     relevanta: (a, b) => (rel?.get(b.id) || 0) - (rel?.get(a.id) || 0),
+    aleator: (a, b) => randomRank.get(a.id) - randomRank.get(b.id),
     recomandate: byRecommended(ratings),
     rating: (a, b) => score(ratings[b.id]) - score(ratings[a.id]),
     scurte: (a, b) => a.duration - b.duration,
@@ -194,6 +195,8 @@ export const shuffle = (list) => {
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
 };
+// a new random order on every visit, kept while browsing so "show more" and Back don't reshuffle
+const randomRank = new Map(shuffle(versions).map((v, i) => [v.id, i]));
 
 const ORIGINAL_MODERN = new Set([
   'afostodata', 'oameni-mici-si-mari',

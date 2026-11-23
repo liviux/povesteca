@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.7.0] - 2026-11-23
+
+### Added
+- În **Explorează** există ordinea **La întâmplare**.
+
+### Changed
+- **Explorează** se deschide acum cu înregistrările amestecate la întâmplare, în altă ordine la fiecare vizită, ca să dai mereu peste altceva. Ordinea rămâne aceeași cât răsfoiești, iar când cauți ceva, primele sunt tot cele mai potrivite.
+
 ## [1.6.1] - 2026-11-23
 
 ### Changed
