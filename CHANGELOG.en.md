@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.15.6] - 2026-11-23
+
+### Changed
+- On recording pages, the current rating and the “How was it?” star picker now sit on the same line on wider screens.
+
 ## [1.15.5] - 2026-11-23
 
 ### Changed

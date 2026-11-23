@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.15.6] - 2026-11-23
+
+### Changed
+- Pe pagina înregistrării, nota actuală și stelele pentru vot („Cum ți s-a părut?”) stau acum pe aceeași linie pe ecranele late.
+
 ## [1.15.5] - 2026-11-23
 
 ### Changed
