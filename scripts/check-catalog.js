@@ -47,7 +47,8 @@ for (const [id, s] of Object.entries(wiki.stories)) {
 
 for (const s of stories) {
   if (!s.title || !s.author) err(`story ${s.id}: title and author are required`);
-  if (!s.summary?.ro) err(`story ${s.id}: summary.ro is required`);
+  // an empty summary is allowed: what can't be found from a source stays empty (AGENTS.md)
+  if (typeof s.summary?.ro !== 'string' || typeof s.summary?.en !== 'string') err(`story ${s.id}: summary.ro and summary.en must be text (empty when unknown)`);
   if (s.year != null && (!Number.isInteger(s.year) || s.year < 0 || s.year > 2100)) err(`story ${s.id}: bad year "${s.year}"`);
   if (s.genre && !ENUM.genre.includes(s.genre)) err(`story ${s.id}: genre "${s.genre}"`);
   if (!versions.some((v) => v.storyId === s.id)) warn(`story ${s.id} has no recordings`);

@@ -71,13 +71,13 @@ export function PlayButton({ v, cls = 'play-btn', label: text, from }) {
   );
 }
 
-export function FavButton({ list, id, title, withText }) {
+export function FavButton({ list, id, title, withText, onText }) {
   const s = useStore();
   const [t] = useT();
   const on = s[list].includes(id);
   return (
     <button type="button" class={'fav-btn' + (on ? ' on' : '')} aria-pressed={on} aria-label={withText ? null : t.saveA(title)} onClick={() => toggleIn(list, id)}>
-      <Icon n="heart" />{withText && <span>{on ? t.saved : t.save}</span>}
+      <Icon n="heart" />{withText && <span>{on ? onText || t.saved : t.save}</span>}
     </button>
   );
 }

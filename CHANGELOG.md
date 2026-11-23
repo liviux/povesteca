@@ -2,6 +2,21 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.15.0] - 2026-11-23
+
+### Added
+- Poți pune la favorite și **oameni** (autori, actori, regizori), **surse** și **discuri sau serii**, cu inima de pe pagina lor. Le găsești în **Ale mele**, lângă poveștile și înregistrările salvate. Totul rămâne doar în browser, fără cont.
+- În **Ale mele**, butonul **Surprinde-mă din favorite** pornește o înregistrare la întâmplare din tot ce ai la favorite.
+
+### Changed
+- 185 de povești au primit rezumate adevărate, scrise după descrierea de la sursă sau după textul poveștii. Rezumatele copiate de pe YouTube („I have no intent to sell…”) și cele de forma „Poveste: „Titlu”.” au dispărut. Unde nu se știe despre ce e povestea, pagina nu mai arată niciun rezumat.
+- Rezumatele care nu aveau diacritice le au acum.
+- 21 de colecții și discuri au primit o descriere.
+
+### Fixed
+- „Moșneagul și merii” (disc) arăta o durată de 26 de secunde. Acum arată 4 minute, cât are înregistrarea.
+- Originea poveștilor rrome apare acum ca „rromă”, nu „romani”.
+
 ## [1.14.0] - 2026-11-23
 
 ### Added

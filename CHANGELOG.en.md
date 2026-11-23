@@ -2,6 +2,21 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.15.0] - 2026-11-23
+
+### Added
+- You can now favourite **people** (authors, actors, directors), **sources** and **records or series** too, with the heart on their page. They show up in **My stuff** next to your saved stories and recordings. Everything stays in your browser, with no account.
+- In **My stuff**, **Surprise me from favourites** plays a random recording from everything you favourited.
+
+### Changed
+- 185 stories got real summaries, written from the source's description or the story's text. Summaries copied from YouTube (“I have no intent to sell…”) and placeholders like “Story: “Title”.” are gone. Where nobody knows what a story is about, its page shows no summary at all.
+- Summaries that lacked Romanian diacritics have them now.
+- 21 collections and records got a description.
+
+### Fixed
+- “Moșneagul și merii” (record) showed a length of 26 seconds. It now shows 4 minutes, the length of the recording.
+- The origin of Romani stories now reads “rromă” in Romanian instead of “romani”.
+
 ## [1.14.0] - 2026-11-23
 
 ### Added

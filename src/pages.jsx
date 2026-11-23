@@ -323,7 +323,7 @@ export function StoryPage({ id }) {
           <p class="eyebrow"><a href={find('genre', story.genre)}>{label('genre', story.genre, lang)}</a></p>
           <h1>{story.title}</h1>
           <p class="byline">{t.by} <PersonLink name={story.author} />{story.year ? ` · ${story.year}` : ''}</p>
-          <p class="lead">{story.summary[lang] || story.summary.ro}</p>
+          {(story.summary[lang] || story.summary.ro) && <p class="lead">{story.summary[lang] || story.summary.ro}</p>}
           <div class="actions">
             {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
             <FavButton list="favStories" id={story.id} title={story.title} withText />
@@ -625,6 +625,7 @@ export function PersonPage({ name }) {
           <p class="lead muted">{stats(written.length && t.nStories(written.length), t.nRec(allVs.length))}</p>
           <div class="actions">
             <button type="button" class="btn accent" disabled={!allVs.length} onClick={() => surprise(allVs)}><Icon n="shuffle" size={16} />{t.surprise}</button>
+            <FavButton list="favPeople" id={name} title={name} withText onText={t.favOn} />
             <a class="btn ghost" href={`/explorare?${written.length ? 'author' : 'person'}=${encodeURIComponent(name)}`}>{t.filterInExplore}</a>
             {ext(w?.wikipedia, 'Wikipedia')}{ext(w?.goodreads, 'Goodreads')}
           </div>
@@ -670,7 +671,7 @@ export function SourcePage({ id }) {
         <h1>{src.name}</h1>
         <p class="lead muted">{stats(t.nStories(new Set(vs.map((v) => v.storyId)).size), t.nRec(vs.length))}</p>
         <p class="lead">{src.description[lang] || src.description.ro}</p>
-        <p><a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a></p>
+        <div class="actions"><FavButton list="favSources" id={src.id} title={src.name} withText onText={t.favOn} /><a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a></div>
       </header>
       {cols.length > 0 && (
         <section class="shelf-section" aria-labelledby="cols">
@@ -703,7 +704,7 @@ export function CollectionPage({ id }) {
         <p class="eyebrow"><Icon n="disc" size={16} /> {c.code && <>{c.code} · </>}<a href={`/sursa/${src.id}`}>{src.name}</a></p>
         <h1>{c.title}</h1>
         {c.description && <p class="lead">{c.description[lang] || c.description.ro}</p>}
-        {c.url && <p><a class="btn ghost" href={c.url} target="_blank" rel="noopener">{c.url.includes('discogs.com') ? 'Discogs' : t.sourceSite}<Icon n="ext" size={16} /></a></p>}
+        <div class="actions"><FavButton list="favCols" id={c.id} title={c.title} withText onText={t.favOn} />{c.url && <a class="btn ghost" href={c.url} target="_blank" rel="noopener">{c.url.includes('discogs.com') ? 'Discogs' : t.sourceSite}<Icon n="ext" size={16} /></a>}</div>
       </header>
       <section class="shelf-section" aria-labelledby="on-disc">
         <div class="shelf-head"><h2 id="on-disc">{c.type === 'disc' ? t.onDisc : t.inCol} {cnt(c.items.length)}</h2></div>
@@ -739,12 +740,52 @@ export function Mine() {
   ];
   const queue = rec(s.queue, (id) => toggleIn('queue', id));
   const hist = rec(s.history.map((h) => h.id), (id) => set({ history: s.history.filter((h) => h.id !== id) }), true);
-  const none = !saved.length && !queue.length && !hist.length;
+  // people, sources and records: one row each, with a remove button
+  const rows = (id, heading, key, item) => {
+    const items = s[key].map(item).filter(Boolean);
+    return items.length > 0 && (
+      <section class="shelf-section" aria-labelledby={'m-' + id}>
+        <div class="shelf-head"><h2 id={'m-' + id}>{heading} {cnt(items.length)}</h2></div>
+        <ul class="col-list">{items.map((x) => (
+          <li class="fav-row" key={x.key}>
+            <a href={x.href}>{x.icon}<span class="fav-text"><strong>{x.title}</strong>{x.sub && <span class="muted">{x.sub}</span>}</span></a>
+            <button type="button" class="icon-btn" aria-label={t.removeA(x.title)} onClick={() => toggleIn(key, x.key)}><Icon n="close" size={16} /></button>
+          </li>
+        ))}</ul>
+      </section>
+    );
+  };
+  const withPerson = (n) => versions.filter((v) => people(v).includes(n) || storyById.get(v.storyId)?.author === n);
+  // everything kept in favourites, as recordings: the button below picks one of them at random
+  const pool = [...new Set([
+    ...s.favVersions.map((id) => versionById.get(id)),
+    ...s.favStories.flatMap((id) => versionsByStory.get(id) || []),
+    ...s.favPeople.flatMap(withPerson),
+    ...s.favSources.flatMap((id) => versionsBySource.get(id) || []),
+    ...s.favCols.flatMap((id) => (collectionById.get(id)?.items || []).map((x) => versionById.get(x))),
+  ].filter(Boolean))];
+  const none = !saved.length && !queue.length && !hist.length && !s.favPeople.length && !s.favSources.length && !s.favCols.length;
   return (
     <main id="main" tabindex="-1" class="wrap page">
-      <header class="page-head"><h1>{t.mine}</h1><p class="muted">{t.mineSub}</p></header>
+      <header class="page-head">
+        <h1>{t.mine}</h1><p class="muted">{t.mineSub}</p>
+        {pool.length > 0 && <div class="actions"><button type="button" class="btn accent" onClick={() => surprise(pool)}><Icon n="shuffle" />{t.surpriseFav}</button></div>}
+      </header>
       {none && <p class="empty">{t.mineEmpty}</p>}
       {block('saved', t.savedH, saved)}
+      {rows('people', t.peopleH, 'favPeople', (n) => {
+        const photo = personInfo(n)?.photo;
+        return { key: n, title: n, href: personUrl(n), sub: t.nRec(withPerson(n).length),
+          icon: photo ? <img class="avatar" src={photo.src} alt="" width="32" height="32" loading="lazy" /> : <span class="avatar initial" aria-hidden="true">{n[0]}</span> };
+      })}
+      {rows('sources', t.sources, 'favSources', (id) => {
+        const x = sourceById.get(id);
+        return x && { key: id, title: x.name, href: `/sursa/${id}`, sub: t.nRec(versionsBySource.get(id)?.length || 0), icon: <Icon n="library" size={18} /> };
+      })}
+      {rows('cols', t.collections, 'favCols', (id) => {
+        const c = collectionById.get(id);
+        return c && { key: id, title: c.title, href: `/colectie/${id}`, sub: c.code, icon: <Icon n="disc" size={18} /> };
+      })}
       {block('queue', t.queue, queue)}
       {block('history', t.history, hist,
         <button type="button" class="link-btn" onClick={() => set({ history: [], pos: {} })}>{t.clearHistory}</button>)}
