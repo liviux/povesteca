@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.5.1] - 2026-11-23
+
+### Changed
+- Pe prima pagină, rafturile **Pentru seara asta**, **Teatru radiofonic**, **Cu mulți actori** și **Povești scurte** arată alte povești la fiecare vizită, alese la întâmplare. Cât navighezi prin site rămân aceleași, ca să le găsești când te întorci.
+
 ## [1.5.0] - 2026-11-23
 
 ### Added

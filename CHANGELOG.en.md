@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.5.1] - 2026-11-23
+
+### Changed
+- On the home page, the **For tonight**, **Radio plays**, **Big casts** and **Short stories** shelves show different stories on every visit, picked at random. They stay the same while you move around the site, so you can find them again when you come back.
+
 ## [1.5.0] - 2026-11-23
 
 ### Added

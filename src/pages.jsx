@@ -31,6 +31,15 @@ function Shelf({ id, heading, more, children, action }) {
   );
 }
 
+// a new random pick on every visit, kept while browsing so Back shows the same cards
+const pick = (f) => shuffle(versions.filter(f)).slice(0, 12);
+const picks = {
+  tonight: pick((v) => v.moods.includes('linistitoare')),
+  radio: pick((v) => v.kind === 'teatru-radiofonic'),
+  cast: pick((v) => (v.credits?.cast?.length || 0) >= 8),
+  short: pick((v) => v.duration < 900),
+};
+
 export function Home() {
   const s = useStore();
   const [t] = useT();
@@ -43,11 +52,10 @@ export function Home() {
   const R = s.ratings;
   const rows = [
     ['continue', cont, null],
-    // shelf and "See all" use the same filter and order, so "See all" starts with the same cards
-    ['tonight', sortVersions(versions.filter((v) => v.moods.includes('linistitoare')), 'scurte', R).slice(0, 12), '/explorare?mood=linistitoare&sort=scurte'],
-    ['radio', sortVersions(versions.filter((v) => v.kind === 'teatru-radiofonic'), 'recomandate', R).slice(0, 12), '/explorare?kind=teatru-radiofonic'],
-    ['cast', [...versions].filter((v) => (v.credits?.cast?.length || 0) >= 8).sort((a, b) => b.credits.cast.length - a.credits.cast.length).slice(0, 12), '/explorare?voices=distributie'],
-    ['short', sortVersions(versions.filter((v) => v.duration < 900), 'scurte', R).slice(0, 12), '/explorare?dur=scurt&sort=scurte'],
+    ['tonight', picks.tonight, '/explorare?mood=linistitoare&sort=scurte'],
+    ['radio', picks.radio, '/explorare?kind=teatru-radiofonic'],
+    ['cast', picks.cast, '/explorare?voices=distributie'],
+    ['short', picks.short, '/explorare?dur=scurt&sort=scurte'],
     ['top', sortVersions(versions.filter((v) => R[v.id]?.[1]), 'rating', R).slice(0, 12), '/explorare?sort=rating'],
   ];
   return (
