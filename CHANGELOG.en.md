@@ -2,6 +2,13 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.19.1] - 2026-11-23
+
+### Fixed
+- The app loads when a recording has no known mood; unknown metadata no longer appears as empty rows.
+- Estimated classifications on new recordings now show “≈”.
+- Summaries, themes and characters were filled in where sources confirmed them.
+
 ## [1.19.0] - 2026-11-23
 
 ### Added

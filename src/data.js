@@ -5,6 +5,9 @@ import { label, ENUMS } from './i18n.js';
 export const { stories, versions, sources, collections } = catalog;
 export const REPO = 'https://github.com/liviux/povesteca';
 
+// Mood filters run before rendering, so keep missing values list-shaped too.
+for (const v of versions) v.moods ??= [];
+
 const map = (list) => new Map(list.map((x) => [x.id, x]));
 export const storyById = map(stories);
 export const versionById = map(versions);

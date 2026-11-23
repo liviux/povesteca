@@ -30180,7 +30180,9 @@
    "en": ""
   },
   "origin": "african",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "themes": [],
+  "characters": []
  },
  {
   "id": "trandafirul-incapatanat",
@@ -30243,7 +30245,9 @@
    "en": ""
   },
   "origin": "hungarian",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "themes": [],
+  "characters": []
  },
  {
   "id": "vanatoarea-ion-lila",
@@ -30253,7 +30257,11 @@
    "ro": "",
    "en": ""
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [],
+  "characters": []
  },
  {
   "id": "glasurile-marian-dopcea",
@@ -30263,7 +30271,11 @@
    "ro": "",
    "en": ""
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [],
+  "characters": []
  },
  {
   "id": "poveste-egipteana",
@@ -30274,7 +30286,10 @@
    "ro": "",
    "en": ""
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "origin": "romanian",
+  "themes": [],
+  "characters": []
  },
  {
   "id": "gandacelul-garleanu",
@@ -30292,7 +30307,11 @@
   },
   "year": 1910,
   "origin": "romanian",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "themes": [
+   "curiozitate",
+   "natura"
+  ]
  },
  {
   "id": "manusa-ucraineana",
@@ -30300,11 +30319,27 @@
   "author": "Folclor ucrainean",
   "genre": "poveste",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un moșneag scapă o mănușă în pădurea de iarnă. Un șoricel se adăpostește înăuntru, apoi i se alătură alte animale, pe rând, până când mănușa se umple.",
+   "en": "An old man drops a mitten in a winter forest. A mouse takes shelter inside, then other animals join one by one until the mitten is full."
   },
   "origin": "ukrainian",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "themes": [
+   "animale",
+   "iarna",
+   "prietenie"
+  ],
+  "characters": [
+   "Moșneagul",
+   "Cățelul",
+   "Șoricelul",
+   "Broscuța",
+   "Iepurașul",
+   "Vulpea",
+   "Lupul",
+   "Mistrețul",
+   "Ursul"
+  ]
  },
  {
   "id": "fat-frumos-mazarean",
@@ -30335,12 +30370,21 @@
   "author": "Virginia Carianopol",
   "genre": "poveste",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Luna părăsește cetatea norilor urmând o stea strălucitoare. Departe de părinți, rătăcește prin cer și tânjește după drumul spre casă.",
+   "en": "Luna leaves the cloud kingdom to follow a shining star. Far from her parents, she wanders the sky and longs to find her way home."
   },
   "origin": "romanian",
   "addedAt": "2026-11-23",
-  "year": 1986
+  "year": 1986,
+  "themes": [
+   "dor",
+   "familie",
+   "calatorie"
+  ],
+  "characters": [
+   "Luna",
+   "Nor-împărat"
+  ]
  },
  {
   "id": "printesa-curajoasa",
@@ -30375,7 +30419,14 @@
    "en": ""
   },
   "origin": "romanian",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "themes": [],
+  "characters": [
+   "Baba",
+   "Crăiasa lunii",
+   "Moșul",
+   "Sfetnicul"
+  ]
  },
  {
   "id": "povestea-vrajitoarei-pana-de-gaita",
@@ -30457,7 +30508,9 @@
    "en": ""
   },
   "origin": "romanian",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "themes": [],
+  "characters": []
  },
  {
   "id": "cat-un-fir-de-neghina",

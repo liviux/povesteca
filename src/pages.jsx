@@ -450,9 +450,9 @@ export function VersionPage({ id }) {
             {story.year && <><dt>{t.facts.storyYear}</dt><dd>{story.year}</dd></>}
             {v.year && <><dt>{t.facts.recYear}</dt><dd>{v.year}</dd></>}
             {story.origin && <><dt>{t.facts.origin}</dt><dd><a href={`/explorare?origin=${encodeURIComponent(story.origin)}`}>{label('origin', story.origin, lang)}</a></dd></>}
-            {['kind', 'voices', 'music', 'sfx'].map((k) => <><dt>{t.facts[k]}</dt><dd><a href={find(k, v[k])}>{label(k, v[k], lang)}</a>{est(k)}</dd></>)}
-            <dt>{t.facts.moods}</dt><dd>{v.moods.map((m, i) => <>{i ? ', ' : ''}<a href={find('mood', m)}>{label('moods', m, lang)}</a></>)}{est('moods')}</dd>
-            <dt>{t.facts.age}</dt><dd>{t.ageFrom(v.age)}{est('age')}</dd>
+            {['kind', 'voices', 'music', 'sfx'].filter((k) => v[k] != null).map((k) => <><dt>{t.facts[k]}</dt><dd><a href={find(k, v[k])}>{label(k, v[k], lang)}</a>{est(k)}</dd></>)}
+            {v.moods.length > 0 && <><dt>{t.facts.moods}</dt><dd>{v.moods.map((m, i) => <>{i ? ', ' : ''}<a href={find('mood', m)}>{label('moods', m, lang)}</a></>)}{est('moods')}</dd></>}
+            {v.age != null && <><dt>{t.facts.age}</dt><dd>{t.ageFrom(v.age)}{est('age')}</dd></>}
             <dt>{t.facts.source}</dt><dd><a href={`/sursa/${src.id}`}>{src.name}</a></dd>
             {col && <><dt>{t.facts.disc}</dt><dd>{col.c.code ? <><a href={`/colectie/${col.c.id}`}>{col.c.code}</a> · {col.c.title}</> : <a href={`/colectie/${col.c.id}`}>{col.c.title}</a>}</dd></>}
             <dt>{t.facts.links}</dt>

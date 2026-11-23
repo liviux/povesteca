@@ -64,8 +64,12 @@ for (const v of versions) {
   if (!Number.isInteger(v.duration) || v.duration <= 0) err(`${at}: duration must be seconds (integer > 0)`);
   if (v.year != null && (!Number.isInteger(v.year) || v.year < 1900 || v.year > 2100)) err(`${at}: bad year "${v.year}"`);
   for (const k of ['kind', 'voices', 'sfx', 'music']) if (v[k] != null && !ENUM[k].includes(v[k])) err(`${at}: ${k} "${v[k]}"`);
-  for (const m of v.moods || []) if (!ENUM.moods.includes(m)) err(`${at}: mood "${m}"`);
-  for (const e of v.estimated || []) if (!ENUM.estimated.includes(e)) err(`${at}: estimated "${e}"`);
+  const moods = Array.isArray(v.moods) ? v.moods : [];
+  if (!Array.isArray(v.moods)) err(`${at}: moods must be an array (use [] when unknown)`);
+  for (const m of moods) if (!ENUM.moods.includes(m)) err(`${at}: mood "${m}"`);
+  if (v.estimated != null && !Array.isArray(v.estimated)) err(`${at}: estimated must be an array`);
+  for (const e of Array.isArray(v.estimated) ? v.estimated : []) if (!ENUM.estimated.includes(e)) err(`${at}: estimated "${e}"`);
+  if (moods.length && !v.estimated?.includes('moods')) err(`${at}: mood judgements must be marked estimated`);
   if (v.age != null && !(Number.isInteger(v.age) && v.age >= 0 && v.age <= 18)) err(`${at}: age`);
   if (v.quality != null && !(Number.isInteger(v.quality) && v.quality >= 1 && v.quality <= 5)) err(`${at}: quality must be 1-5`);
   if (v.start != null && v.end != null && v.end <= v.start) err(`${at}: end before start`);

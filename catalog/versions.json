@@ -95909,6 +95909,8 @@
   "age": 7,
   "moods": [],
   "estimated": [
+   "kind",
+   "voices",
    "age"
   ]
  },
@@ -96296,7 +96298,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "vrajitoarea-pana-de-gaita-electrecord",
@@ -96573,7 +96576,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "bunicul-silvia-chicos",
@@ -96604,7 +96608,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "copiii-capitanului-grant-1965",
@@ -96673,7 +96678,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "cat-un-fir-de-neghina-povesti-alese",
@@ -96699,7 +96705,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "calatoare-povesti-alese",
@@ -96725,7 +96732,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "musculita-povesti-alese",
@@ -96751,7 +96759,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "cantaretul-povesti-alese",
@@ -96777,7 +96786,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "hoinar-povesti-alese",
@@ -96803,7 +96813,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "in-curtea-mea-povesti-alese",
@@ -96829,7 +96840,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "dupa-asemanarea-lor-povesti-alese",
@@ -96855,7 +96867,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "in-fel-de-fel-de-fete-povesti-alese",
@@ -96881,7 +96894,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "mai-sus-povesti-alese",
@@ -96907,7 +96921,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "nedespartite-povesti-alese",
@@ -96933,7 +96948,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "pasare-de-noapte-povesti-alese",
@@ -96959,7 +96975,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "cocosul-povesti-alese",
@@ -96985,7 +97002,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "ca-soarele-povesti-alese",
@@ -97011,7 +97029,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "luptatorii-povesti-alese",
@@ -97037,7 +97056,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "filozoful-povesti-alese",
@@ -97063,7 +97083,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "grivei-povesti-alese",
@@ -97089,7 +97110,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "gaza-povesti-alese",
@@ -97115,7 +97137,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "parasita-povesti-alese",
@@ -97141,7 +97164,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "calul-povesti-alese",
@@ -97167,7 +97191,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "tovarasii-povesti-alese",
@@ -97193,7 +97218,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "trandafirul-povesti-alese",
@@ -97219,7 +97245,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "frunza-povesti-alese",
@@ -97245,7 +97272,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "o-raza-povesti-alese",
@@ -97271,7 +97299,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "gandacelul-povesti-alese",
@@ -97297,7 +97326,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "saracutul-povesti-alese",
@@ -97323,7 +97353,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "cioc-cioc-cioc-povesti-alese",
@@ -97349,7 +97380,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "vulturul-povesti-alese",
@@ -97375,7 +97407,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "cand-stapanul-nu-i-acasa-povesti-alese",
@@ -97401,7 +97434,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "ghiocelul-povesti-alese",
@@ -97427,7 +97461,8 @@
   "estimated": [
    "kind",
    "voices"
-  ]
+  ],
+  "moods": []
  },
  {
   "id": "mariuca-mihai-manescu-minipovesti",
@@ -97465,7 +97500,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97503,7 +97539,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97542,7 +97579,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97581,7 +97619,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97621,7 +97660,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97661,7 +97701,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97699,7 +97740,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97737,7 +97779,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97775,7 +97818,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97814,7 +97858,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97853,7 +97898,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97893,7 +97939,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97931,7 +97978,8 @@
   "estimated": [
    "kind",
    "voices",
-   "moods"
+   "moods",
+   "age"
   ]
  },
  {
@@ -97981,7 +98029,12 @@
     }
    ]
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "rapunzel-librivox",
@@ -98026,7 +98079,12 @@
     }
    ]
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "sir-christopher-cockleshell-librivox",
@@ -98079,7 +98137,12 @@
     }
    ]
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "printul-fericit-librivox",
@@ -98097,7 +98160,12 @@
   "duration": 1241,
   "kind": "dramatizare",
   "voices": "distributie",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "privighetoarea-si-trandafirul-librivox",
@@ -98115,7 +98183,12 @@
   "duration": 874,
   "kind": "dramatizare",
   "voices": "distributie",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "uriasul-cel-egoist-librivox",
@@ -98133,7 +98206,12 @@
   "duration": 632,
   "kind": "dramatizare",
   "voices": "distributie",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "prietenul-devotat-librivox",
@@ -98151,7 +98229,12 @@
   "duration": 1545,
   "kind": "dramatizare",
   "voices": "distributie",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "remarcabila-racheta-librivox",
@@ -98169,7 +98252,12 @@
   "duration": 1785,
   "kind": "dramatizare",
   "voices": "distributie",
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "scoala-din-humulesti-1963",
@@ -98209,7 +98297,12 @@
     }
    ]
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "povestea-scufitei-rosii-colibri",
@@ -98333,7 +98426,8 @@
      "name": "Vanessa Cooley"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "povestea-doamnei-arici-scrobelici-librivox",
@@ -98374,7 +98468,8 @@
      "name": "Marie Christian"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "povestea-locomotivei-care-credea-ca-poate-librivox",
@@ -98419,7 +98514,8 @@
      "name": "The Countess"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "povestea-doamnei-tittlemouse-librivox",
@@ -98464,7 +98560,8 @@
      "name": "LifeisButaDream"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "povestea-lui-johnny-town-mouse-librivox",
@@ -98505,7 +98602,8 @@
      "name": "Norah Nelson"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "povestea-placintei-si-a-tavitei-pentru-tarte-librivox",
@@ -98550,7 +98648,8 @@
      "name": "Devorah Allen"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "copilul-din-stele-librivox-005",
@@ -98627,7 +98726,8 @@
      "name": "Agnes Robert Behr"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "remarcabila-racheta-librivox-002",
@@ -98696,7 +98796,8 @@
      "name": "Grace Buchanan"
     }
    ]
-  }
+  },
+  "moods": []
  },
  {
   "id": "cei-trei-fii-de-imparat-2012",
@@ -98765,7 +98866,12 @@
      "name": "Liviu Chițu"
     }
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "inima-rece-vinil",
@@ -98829,7 +98935,12 @@
      "name": "Paul Sava"
     }
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "legenda-de-pe-valea-cernei-1974",
@@ -98894,7 +99005,12 @@
      "name": "Vasile Pupezea"
     }
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "piatra-craiului-1972",
@@ -98947,7 +99063,12 @@
      "name": "Dinu Ianculescu"
     }
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "sarlatanul-si-bolnavul-stela-popescu",
@@ -98969,7 +99090,12 @@
    "narrator": [
     "Sorin Aurel Sandu"
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "privighetoarea-si-magarul-stela-popescu",
@@ -98991,7 +99117,12 @@
    "narrator": [
     "Cătălin Frăsinescu"
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "vulpea-calul-si-lupul-stela-popescu",
@@ -99013,7 +99144,12 @@
    "narrator": [
     "Cătălin Frăsinescu"
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  },
  {
   "id": "ali-baba-si-cei-40-de-hoti-sesam-1965",
@@ -99065,6 +99201,11 @@
      "name": "Magda Popovici"
     }
    ]
-  }
+  },
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices"
+  ]
  }
 ]

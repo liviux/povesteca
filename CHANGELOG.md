@@ -2,6 +2,13 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.19.1] - 2026-11-23
+
+### Fixed
+- Aplicația se încarcă și când nu se cunoaște dispoziția unei înregistrări; metadatele necunoscute nu mai apar ca rânduri goale.
+- Marcajul „≈” apare pentru clasificările estimate din înregistrările noi.
+- Au fost completate rezumate, teme și personaje acolo unde sursele le confirmă.
+
 ## [1.19.0] - 2026-11-23
 
 ### Added
