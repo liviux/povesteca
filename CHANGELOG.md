@@ -2,6 +2,16 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.11.0] - 2026-11-23
+
+### Added
+- **Povești noi:** 43 de povești și 56 de înregistrări din cinci surse noi de teatru radiofonic și povești dramatizate — **MiniREACTOR & Radio Cluj** (6 spectacole radiofonice contemporane în regia Selmei Dragoș), **Teatrul „Colibri” Craiova** (6 adaptări de teatru radiofonic de Adriana Ioncu), **Asociația Arteka** (*Aventura Căpitanului Vic în Lumea Reală* și *Hermann*, audio direct MP3), **Cutiuța cu povești & Povești ascultătoare** (albumele cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea) și **Pippin cel Curios** (11 povești audio dramatizate pe roluri despre patrimoniu).
+- Spectacolul *Fereastra care n-avea somn* de Selma Dragoș (regia Mihnea Chelaru, 2025) de pe **eTeatru** și montarea radiofonică *Un Paște fericit!* (cu Ruxandra Sireteanu, Marius Rizea și Mircea Constantinescu).
+- Șapte colecții noi pentru seriile și albumele adăugate, plus fotografii și legături noi din Wikidata pentru actorii și autorii noi.
+
+### Changed
+- Oglinzi YouTube suplimentare de rezervă pentru *Papuciada*, *Țugulea* și *Legenda ouălor roșii* (completată cu anul 1993 și restul distribuției).
+
 ## [1.10.1] - 2026-11-23
 
 ### Changed

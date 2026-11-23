@@ -8,7 +8,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog.
 
-Acum sunt 1178 de povești și 1452 de înregistrări, din 19 surse gratuite:
+Acum sunt 1215 povești și 1488 de înregistrări, din 24 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -21,6 +21,9 @@ Acum sunt 1178 de povești și 1452 de înregistrări, din 19 surse gratuite:
 - [Teatrul de Păpuși „Puck” Cluj-Napoca](https://teatrulpuck.ro/audiopuck-2/) (audio direct MP3, AudioPuck)
 - [Teatrul pentru Copii și Tineret „Gong” Sibiu](https://teatrulgong.ro/podcast) (audio direct MP3 și YouTube oficial)
 - [Somnoroși Povești Audio](https://somnorosi.ro) (audio direct MP3, episoadele gratuite cu Mihaela Tatu)
+- [Asociația Arteka (Teatru Radiofonic pentru Copii)](https://podcasters.spotify.com/pod/show/asociatia-arteka5) (audio direct MP3, actori ieșeni)
+- [Cutiuța cu povești & Povești ascultătoare](https://www.youtube.com/@CutiutaMuzicalaOficial) (audio direct și YouTube oficial, cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea)
+- [Pippin cel Curios („De vorbă cu patrimoniul”)](https://pippincelcurios.ro/) (audio direct MP3, povești dramatizate pe roluri)
 - [Teatru Radiofonic](https://www.youtube.com/@teatruradiofonic6362) (YouTube)
 - [Electrecord](https://www.youtube.com/@Electrecord-Romania) (YouTube)
 - [Teatru Subtitrat](https://www.youtube.com/playlist?list=PLPr2UQwCNy3kz-JkNoXZoKXcb3K0lW34h) (YouTube)
@@ -29,6 +32,8 @@ Acum sunt 1178 de povești și 1452 de înregistrări, din 19 surse gratuite:
 - [Ady Magdici (Teatru Radiofonic)](https://www.youtube.com/@AdyMagdici) (YouTube)
 - [Teatrul Ion Creangă](https://www.youtube.com/@TeatrulIonCreanga) (YouTube)
 - [Opera Comică pentru Copii](https://www.youtube.com/channel/UCugenozY7jOD2yUHIQU4awA) (YouTube, „Povești cu Bubu”)
+- [MiniREACTOR & Radio Cluj](https://www.youtube.com/playlist?list=PL60ohYFl3MjZphRgScTHpvHd7OfAhHLwY) (YouTube, teatru radiofonic contemporan)
+- [Teatrul pentru Copii și Tineret „Colibri” Craiova](https://www.youtube.com/@TeatrulColibriCraiova) (YouTube, teatru radiofonic)
 
 O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compari după durată, tip de producție și distribuție. Micul Prinț, de exemplu, are două montări diferite. Unele detalii, cum ar fi vârsta potrivită, atmosfera sau cât de multe efecte sonore are o înregistrare, sunt estimate și apar cu semnul „≈”.
 

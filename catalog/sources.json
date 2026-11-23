@@ -188,5 +188,55 @@
    "ro": "Canalul oficial al Teatrului Ion Creangă din București: povești citite și dramatizate de actorii teatrului, serii pentru cei mici precum „Emoțiile lui Noni”, „Aventurile lui Chiț și Ronț” și „Acasă la Moș Crăciun”.",
    "en": "The official channel of Bucharest’s Ion Creangă Theatre: stories read and dramatized by the theatre’s actors, including series for younger listeners such as “Emoțiile lui Noni”, “Aventurile lui Chiț și Ronț”, and “Acasă la Moș Crăciun”."
   }
+ },
+ {
+  "id": "yt-minireactor",
+  "name": "MiniREACTOR & Radio Cluj",
+  "type": "youtube",
+  "url": "https://www.youtube.com/playlist?list=PL60ohYFl3MjZphRgScTHpvHd7OfAhHLwY",
+  "description": {
+   "ro": "Spectacole de teatru radiofonic contemporan pentru copii, produse de MiniREACTOR Cluj-Napoca în parteneriat cu Radio Cluj (proiect cofinanțat AFCN), în regia Selmei Dragoș, cu actori clujeni și muzică originală.",
+   "en": "Contemporary Romanian children’s radio plays produced by MiniREACTOR Cluj-Napoca in partnership with Radio Cluj (co-funded by AFCN), directed by Selma Dragoș with Cluj actors and original music."
+  }
+ },
+ {
+  "id": "yt-teatrul-colibri",
+  "name": "Teatrul pentru Copii și Tineret „Colibri” Craiova",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@TeatrulColibriCraiova",
+  "description": {
+   "ro": "Seria de teatru radiofonic pentru copii a Teatrului „Colibri” din Craiova: basme românești și universale adaptate de Adriana Ioncu și jucate pe roluri de actorii teatrului, cu montaj sonor și ilustrație muzicală.",
+   "en": "The children’s radio drama series of the “Colibri” Theatre in Craiova: Romanian and world fairy tales adapted by Adriana Ioncu and performed by the theatre’s actors with sound design and music."
+  }
+ },
+ {
+  "id": "arteka",
+  "name": "Asociația Arteka (Teatru Radiofonic pentru Copii)",
+  "type": "audio",
+  "url": "https://podcasters.spotify.com/pod/show/asociatia-arteka5",
+  "description": {
+   "ro": "Spectacole de teatru radiofonic contemporan pentru copii din proiectul cultural al Asociației Arteka (finanțat de Ministerul Culturii), jucate de actori ieșeni, cu regie, sound design și ascultare directă MP3.",
+   "en": "Contemporary children’s radio plays from Asociația Arteka’s cultural project (funded by the Ministry of Culture), performed by Iași actors with full direction, sound design and direct MP3 streaming."
+  }
+ },
+ {
+  "id": "cutiuta-cu-povesti",
+  "name": "Cutiuța cu povești & Povești ascultătoare",
+  "type": "audio",
+  "url": "https://www.youtube.com/@CutiutaMuzicalaOficial",
+  "description": {
+   "ro": "Albumele de povești audio „Cutiuța cu povești” (Vol. 1 și 2, MediaPro Music) și seria „Povești ascultătoare”: povești dramatizate și basme clasice cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea, cu audio direct și oglinzi pe canalul oficial YouTube.",
+   "en": "The “Cutiuța cu povești” (Vol. 1 & 2, MediaPro Music) audio albums and the “Povești ascultătoare” series: dramatized stories and classic tales performed by Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea and Damian Victor Oancea, with direct audio and official YouTube mirrors."
+  }
+ },
+ {
+  "id": "pippin-cel-curios",
+  "name": "Pippin cel Curios („De vorbă cu patrimoniul”)",
+  "type": "audio",
+  "url": "https://pippincelcurios.ro/",
+  "description": {
+   "ro": "Povești audio dramatizate pe roluri din proiectul cultural „De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, cofinanțat AFCN), scrise de Laura Hangiu și interpretate cu actori, muzică și efecte sonore.",
+   "en": "Acted audio stories from the cultural heritage project “De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, co-funded by AFCN), written by Laura Hangiu and performed by actors with music and sound design."
+  }
  }
 ]

@@ -2,6 +2,16 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.11.0] - 2026-11-23
+
+### Added
+- **New stories:** 43 stories and 56 recordings from five new sources of radio plays and acted audio stories — **MiniREACTOR & Radio Cluj** (6 contemporary children's radio plays directed by Selma Dragoș), **Colibri Theatre Craiova** (6 radio drama adaptations by Adriana Ioncu), **Asociația Arteka** (*Aventura Căpitanului Vic în Lumea Reală* and *Hermann*, direct MP3), **Cutiuța cu povești & Povești ascultătoare** (albums featuring Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea and Damian Victor Oancea), and **Pippin cel Curios** (11 acted cultural-heritage audio stories).
+- Selma Dragoș's radio play *Fereastra care n-avea somn* (directed by Mihnea Chelaru, 2025) from **eTeatru**, and the radio drama *Un Paște fericit!* (with Ruxandra Sireteanu, Marius Rizea and Mircea Constantinescu).
+- Seven new collections for the newly added series and albums, plus Wikidata photos and links for the newly added actors and authors.
+
+### Changed
+- Added backup YouTube mirrors for *Papuciada*, *Țugulea* and *Legenda ouălor roșii* (also updated with its 1993 year and full cast).
+
 ## [1.10.1] - 2026-11-23
 
 ### Changed

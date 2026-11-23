@@ -798,6 +798,10 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Daniela-Carmen_Cr%C4%83snaru"
   },
+  "Daniela Nane": {
+   "wikidata": "Q1163497",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Daniela_Nane"
+  },
   "David Esrig": {
    "wikidata": "Q1174364",
    "photo": {
@@ -1202,6 +1206,16 @@
   "Florin Busuioc": {
    "wikidata": "Q18538455",
    "wikipedia": "https://ro.wikipedia.org/wiki/Florin_Busuioc"
+  },
+  "Florin Piersic Jr.": {
+   "wikidata": "Q15150925",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Florin_Piersic%2C_Jr._01.jpg/330px-Florin_Piersic%2C_Jr._01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Florin_Piersic,_Jr._01.jpg",
+    "license": "CC BY-SA 3.0",
+    "by": "Joe Mabel"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Florin_Piersic,_Jr."
   },
   "Florin Scărlătescu": {
    "wikidata": "Q18547753",
@@ -1956,7 +1970,7 @@
     "by": "Unidentified painter"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Jeanne-Marie_Leprince_de_Beaumont",
-   "goodreads": "https://www.goodreads.com/author/show/21721134"
+   "goodreads": "https://www.goodreads.com/author/show/38424980"
   },
   "Jerome K. Jerome": {
    "wikidata": "Q218698",
@@ -3310,6 +3324,10 @@
     "license": "Public domain",
     "by": null
    }
+  },
+  "Teodor Corban": {
+   "wikidata": "Q12742058",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Teodor_Corban"
   },
   "Theodor Danetti": {
    "wikidata": "Q18539580",
