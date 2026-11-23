@@ -494,12 +494,13 @@ dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
 .release code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-radius: 6px; }
 
 /* ============ Player dock ============ */
-.dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: none; }
+/* the player's layout follows its own width, not the page's: zoomed in, it is phone-sized (pinDock in player.jsx) */
+.dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: none; container-type: inline-size; transform-origin: 0 0; }
 .dock.open { display: block; }
 .yt-frame { display: none; }
 .dock.has-video .yt-frame { display: block; aspect-ratio: 16 / 9; width: 100%; max-height: 34vh; background: #000; }
 .yt-frame iframe { width: 100%; height: 100%; display: block; border: 0; }
-@media (min-width: 760px) {
+@container (min-width: 760px) {
   .dock.has-video .yt-frame { position: absolute; right: 16px; bottom: calc(100% + 12px); width: 384px; max-height: none; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-hover); }
 }
 .dock-bar {
@@ -520,8 +521,8 @@ dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
 .dock-switch { display: inline-flex; align-items: center; gap: 4px; min-height: 36px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface-2); color: var(--ink); font-size: 13px; font-weight: 800; white-space: nowrap; cursor: pointer; }
 .dock-switch:hover { border-color: var(--ink); }
 /* phones: the title needs the room; the other sources stay on the recording page and in Good night */
-@media (max-width: 480px) { .dock-switch { display: none; } }
-@media (max-width: 360px) { .dock-bar { column-gap: 6px; } .dock-side { gap: 2px; } }
+@container (max-width: 480px) { .dock-switch { display: none; } }
+@container (max-width: 360px) { .dock-bar { column-gap: 6px; } .dock-side { gap: 2px; } }
 .dock-rate { min-width: 44px; height: 44px; padding: 0 6px; border: 0; border-radius: 12px; background: none; color: var(--ink); font: inherit; font-size: 14px; font-weight: 800; text-align: center; -webkit-appearance: none; appearance: none; cursor: pointer; }
 .dock-rate:hover { background: var(--surface-2); }
 .dock-rate.on { background: var(--surface-2); box-shadow: inset 0 0 0 1.5px var(--line); }
@@ -551,13 +552,13 @@ input[type='range']::-moz-range-thumb { width: 16px; height: 16px; border-radius
 .sleep-chip { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 800; background: var(--surface-2); padding: 4px 8px; border-radius: 999px; font-variant-numeric: tabular-nums; }
 @media (min-width: 360px) { .controls .skip { display: inline-grid; } }
 /* phones: the seek bar gets its own row, edge to edge, with the buttons centred under it */
-@media (max-width: 599px) {
-  body:has(.dock.open) { --dock-h: 180px; }
+@media (max-width: 599px) { body:has(.dock.open) { --dock-h: 180px; } }
+@container (max-width: 599px) {
   .dock-main { flex-wrap: wrap; justify-content: center; row-gap: 0; }
   .dock-main .progress-row { order: -1; flex-basis: 100%; }
 }
-@media (min-width: 900px) {
-  body:has(.dock.open) { --dock-h: 96px; }
+@media (min-width: 900px) { body:has(.dock.open) { --dock-h: 96px; } }
+@container (min-width: 900px) {
   .dock-bar { grid-template-columns: minmax(220px, 1fr) minmax(360px, 1.6fr) auto; grid-template-areas: 'info main side'; padding-inline: 24px; align-items: center; }
   .dock-info .cover { width: 56px; }
 }

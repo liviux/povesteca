@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.20.2] - 2026-11-23
+
+### Fixed
+- Pe telefon, în modul „Versiune pentru desktop” sau cu pagina mărită cu două degete, playerul stă acum jos pe ecran, la mărimea obișnuită, în loc să dispară sau să se miște.
+
 ## [1.20.1] - 2026-11-23
 
 ### Removed

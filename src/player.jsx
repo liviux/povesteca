@@ -330,6 +330,22 @@ function mediaSession(v) {
   for (const k in h) try { navigator.mediaSession.setActionHandler(k, h[k]); } catch {}
 }
 
+// "Desktop site" on a phone, or a page zoomed in with two fingers: the browser keeps fixed bars at the bottom of
+// the zoomed-out page, often off screen. Then the player goes to the bottom of what is on screen, at its phone size.
+const vv = window.visualViewport;
+function pinDock() {
+  const el = document.querySelector('.dock');
+  if (!el || !vv) return;
+  const z = Math.abs(vv.scale - 1) > 0.01 || Math.abs(vv.width - document.documentElement.clientWidth) > 1;
+  Object.assign(el.style, z
+    ? { top: `${vv.offsetTop + vv.height}px`, bottom: 'auto', left: `${vv.offsetLeft}px`, width: `${vv.width * vv.scale}px`, transform: `scale(${1 / vv.scale}) translateY(-100%)` }
+    : { top: '', bottom: '', left: '', width: '', transform: '' });
+  // room at the end of the page, so the player doesn't cover it
+  document.body.style.setProperty('--dock-h', z ? `${el.offsetHeight / vv.scale}px` : '');
+}
+vv?.addEventListener('resize', pinDock);
+vv?.addEventListener('scroll', pinDock);
+
 // ---------- UI ----------
 function Progress({ big }) {
   const c = useClock();
@@ -403,6 +419,7 @@ export function Dock() {
   const v = versionById.get(p.id);
   const link = v?.links[p.link];
   const mirrorName = link && v.links.length > 1 ? linkLabel(link, sourceById.get(v.sourceId), v.links) : null;
+  useEffect(pinDock); // its height changes when it opens, closes or shows a video
   return (
     <div class={'dock' + (v ? ' open' : '') + (link?.type === 'youtube' ? ' has-video' : '')} aria-hidden={!v}>
       <div class="yt-frame" ref={(el) => { ytHost = el; }} />

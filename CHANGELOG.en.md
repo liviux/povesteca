@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.20.2] - 2026-11-23
+
+### Fixed
+- On a phone in “Desktop site” mode, or with the page zoomed in with two fingers, the player now stays at the bottom of the screen at its usual size instead of disappearing or moving around.
+
 ## [1.20.1] - 2026-11-23
 
 ### Removed
