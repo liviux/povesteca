@@ -240,16 +240,6 @@
   }
  },
  {
-  "id": "radioactiv-3g",
-  "name": "3g RadioActiv (3g HUB)",
-  "type": "audio",
-  "url": "https://3ghub.ro/product/3g-radioactiv/",
-  "description": {
-   "ro": "Producții audio de 3g HUB din Târgu Mureș: „Aventurile lui Jonathan Gullible” și seria de opt povești „S-a întâmplat într-o joi”, de Elise Wilk.",
-   "en": "Audio productions by 3g HUB in Târgu Mureș: “The Adventures of Jonathan Gullible” and Elise Wilk’s eight-story series “It Happened on a Thursday.”"
-  }
- },
- {
   "id": "latimp",
   "name": "LaTimp.eu",
   "type": "audio",
@@ -277,16 +267,6 @@
   "description": {
    "ro": "Povești pentru copii publicate de proiectul MiniPovești, cu texte integrale, lecturi înregistrate de actori și redare audio directă.",
    "en": "Children’s stories published by the MiniPovești project, with full texts, actor-read recordings and direct audio playback."
-  }
- },
- {
-  "id": "yt-teatrul-stela-popescu",
-  "name": "Teatrul Stela Popescu",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@teatrulstelapopescu3930",
-  "description": {
-   "ro": "Canalul Teatrului Stela Popescu publică fabule interpretate de actorii teatrului.",
-   "en": "The Teatrul Stela Popescu channel publishes fables performed by the theatre’s actors."
   }
  }
 ]

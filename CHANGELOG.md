@@ -2,6 +2,18 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.20.1] - 2026-11-23
+
+### Removed
+- Au fost scoase 48 de povești nepotrivite pentru copii: satire și comedii pentru adulți, povești despre sinucidere, crimă sau infidelitate, legende dobrogene prea dure și cele opt monologuri 13+ de la 3g RadioActiv.
+- Sursele 3g RadioActiv și Teatrul Stela Popescu nu mai apar, pentru că au rămas cu trei înregistrări sau mai puțin.
+
+### Fixed
+- 13 povești care erau de fapt aceeași poveste sub alt titlu au fost unite, de exemplu „Spiridușii” și „Darul spiridușilor” sau „Rapunzel” și „Sălățica”.
+- Același actor nu mai apare cu două nume diferite (de exemplu Florian Pittiș și Florian Pitis), iar „X și alții” nu mai e tratat ca un singur nume.
+- Unele înregistrări mai grele, ca „Barbă Albastră”, „Oliver Twist” sau „Hanul Ancuței”, au acum o vârstă recomandată mai mare.
+- Titluri corectate: „Cei trei mușchetari”, „Penelul fermecat” și altele.
+
 ## [1.20.0] - 2026-11-23
 
 ### Added

@@ -1838,7 +1838,7 @@
  },
  {
   "id": "haiawatha",
-  "title": "Haiawatha",
+  "title": "Cântecul lui Hiawatha",
   "author": "Henry Wadsworth Longfellow",
   "origin": "american",
   "genre": "poveste",
@@ -1862,6 +1862,9 @@
    "Wenonah",
    "Mudjekeewis",
    "Pau-Puk-Keewis"
+  ],
+  "altTitles": [
+   "Haiawatha"
   ]
  },
  {
@@ -2235,32 +2238,6 @@
   "age": 5,
   "addedAt": "2026-11-22",
   "year": 1910
- },
- {
-  "id": "zeii-din-olimp-episodul-6-iubirile-lui-zeus",
-  "title": "Zeii din Olimp. Episodul 6 – Iubirile lui Zeus",
-  "author": "Sanda Socoliuc",
-  "origin": "romanian",
-  "genre": "legenda",
-  "themes": [
-   "mitologie",
-   "curaj",
-   "aventura"
-  ],
-  "summary": {
-   "ro": "Episodul urmărește iubirile lui Zeus și felul în care zeul se apropie de muritoare, prefăcut în ploaie de aur, lebădă sau taur.",
-   "en": "The episode follows Zeus's loves and the ways the god approaches mortal women, disguised as a shower of gold, a swan or a bull."
-  },
-  "age": 9,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Zeus",
-   "Danae",
-   "Leda",
-   "Europa",
-   "Io",
-   "Semele"
-  ]
  },
  {
   "id": "baldemar-si-zmeul",
@@ -3392,32 +3369,6 @@
   ]
  },
  {
-  "id": "povestea-lui-stan-patitu",
-  "title": "Povestea lui Stan zis și Ipate sau La orice treabă pe Stan Pățitu’ întreabă",
-  "author": "Ion Creangă",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "istetime",
-   "umor",
-   "magie"
-  ],
-  "summary": {
-   "ro": "Stan, un flăcău harnic și singur, lasă în pădure un boț de mămăligă, iar drăcușorul Chirică îl mănâncă fără să mulțumească. Drept pedeapsă, Chirică îi este slugă trei ani: îi înmulțește averea, îl ajută să se însoare și, la plecare, ia în iad o babă vicleană.",
-   "en": "Stan, a hard-working, lonely young man, leaves some polenta in the forest, and the little devil Chirică eats it without saying thanks. As punishment, Chirică must serve Stan for three years: he multiplies his wealth, helps him marry and, when he leaves, takes a scheming old woman to hell."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1877,
-  "characters": [
-   "Stan",
-   "Chirică",
-   "Scaraoțchi",
-   "Nevasta lui Stan",
-   "Baba"
-  ]
- },
- {
   "id": "salvat-de-marmelada",
   "title": "Salvat de marmeladă",
   "author": "poveste populară",
@@ -4190,6 +4141,9 @@
    "Vrăjitoarea",
    "Tatăl",
    "Mama"
+  ],
+  "altTitles": [
+   "Sălățica"
   ]
  },
  {
@@ -4596,31 +4550,6 @@
    "Iohana",
    "Străbunicul",
    "Lupul de mare"
-  ]
- },
- {
-  "id": "darul-spiridusilor",
-  "title": "Darul spiridușilor",
-  "author": "Frații Grimm",
-  "origin": "german",
-  "genre": "basm",
-  "themes": [
-   "magie",
-   "harnicie",
-   "bunatate",
-   "familie"
-  ],
-  "summary": {
-   "ro": "Un cizmar sărac și soția lui primesc un dar neobișnuit: în fiecare noapte, doi spiriduși le croiesc pantofii la care ei doar visează. Când vor să-i prindă și să le mulțumească, spiridușii se sperie de hainele pregătite pentru ei și dispar.",
-   "en": "A poor shoemaker and his wife receive an unusual gift: every night two elves make the shoes they can only dream of. When they try to catch the elves and thank them, the little men are frightened by the clothes left out for them and vanish."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1812,
-  "characters": [
-   "Cizmarul",
-   "Soția cizmarului",
-   "Spiridușii"
   ]
  },
  {
@@ -5847,6 +5776,9 @@
    "Crăiasa albinelor",
    "Moșneagul",
    "Prințesa cea mică"
+  ],
+  "altTitles": [
+   "Regina albinelor"
   ]
  },
  {
@@ -7028,6 +6960,9 @@
    "Împăratul Cioc-de-Sturz",
    "Tatăl prințesei",
    "Cântărețul"
+  ],
+  "altTitles": [
+   "Frumoasa Așenel"
   ]
  },
  {
@@ -7329,7 +7264,7 @@
  },
  {
   "id": "cei-trei-muschetari",
-  "title": "Cei trei muschetari",
+  "title": "Cei trei mușchetari",
   "author": "Alexandre Dumas",
   "origin": "french",
   "genre": "roman",
@@ -7746,6 +7681,9 @@
    "Morarul",
    "Împăratul",
    "Piticul"
+  ],
+  "altTitles": [
+   "Fata morarului (Rumpelstiltskin)"
   ]
  },
  {
@@ -8021,36 +7959,6 @@
    "Bătrânica",
    "Vrăjitorul",
    "Fratele"
-  ]
- },
- {
-  "id": "fiul-faraonului",
-  "title": "Fiul faraonului",
-  "author": "basm popular egiptean",
-  "origin": "egyptian",
-  "genre": "basm",
-  "themes": [
-   "animale",
-   "printese",
-   "calatorie",
-   "familie",
-   "mitologie",
-   "curaj"
-  ],
-  "summary": {
-   "ro": "Un prinț egiptean este blestemat de ursitoare să piară de trei primejdii: un șarpe, un crocodil sau un câine. Tatăl lui îl ascunde într-un palat, dar prințul pornește în lume, ajunge în țara Naharin și își câștigă mireasa trecând probele de vitejie.",
-   "en": "An Egyptian prince is fated to die by one of three dangers: a snake, a crocodile or a dog. His father hides him in a palace, but the prince sets out into the world, reaches the land of Naharin and wins his bride by passing feats of valour."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Fiul faraonului",
-   "Faraonul",
-   "Naharina",
-   "Tibbu",
-   "Gamar",
-   "Ramiru",
-   "Împăratul"
   ]
  },
  {
@@ -8700,7 +8608,7 @@
  },
  {
   "id": "doi-motani",
-  "title": "Doi Motani",
+  "title": "Doi motani",
   "author": "Virginia Carianopol",
   "origin": "romanian",
   "genre": "poveste",
@@ -9409,26 +9317,6 @@
    "Corbul",
    "Lupoaica"
   ]
- },
- {
-  "id": "marasesti",
-  "title": "Mărășești",
-  "author": "Mihail Sadoveanu",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "istorie",
-   "curaj",
-   "sacrificiu"
-  ],
-  "summary": {
-   "ro": "O pagină de reportaj despre bătălia de la Mărășești din vara anului 1917. Ostașii români rezistă două săptămâni în fața ofensivei germane, iar textul păstrează ritmul și tensiunea cronicii de front.",
-   "en": "A page of reportage about the battle of Mărășești in the summer of 1917. Romanian soldiers hold out for two weeks against the German offensive, and the text keeps the rhythm and tension of a front-line chronicle."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1917,
-  "characters": []
  },
  {
   "id": "vorba-dulce-mult-aduce",
@@ -10366,32 +10254,6 @@
   ]
  },
  {
-  "id": "soacra-cu-trei-nurori",
-  "title": "Soacra cu trei nurori",
-  "author": "Ion Creangă",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "familie",
-   "umor",
-   "istetime"
-  ],
-  "summary": {
-   "ro": "O babă cu trei feciori își ține nurorile din scurt: le pune la muncă ziua și noaptea și le spune că are un ochi la ceafă, care vede tot. Cea mai tânără noră pune la cale răzbunarea: cele trei o lovesc pe soacră și îi rănesc limba, apoi, când feciorii se întorc, prefac că baba e pe moarte și tălmăcesc semnele ei ca pe o diată care le dă casele. Baba moare și e îngropată cu alai.",
-   "en": "An old woman with three sons keeps her daughters-in-law hard at work day and night, boasting that she has an eye in the back of her head that sees everything. The youngest daughter-in-law plans the revenge: the three women beat her and injure her tongue, then, when the sons come home, pretend she is dying and read her gestures as a will that gives them the houses. The old woman dies and is buried with honours."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1875,
-  "characters": [
-   "Soacra",
-   "Nora cea mare",
-   "Nora cea mijlocie",
-   "Nora cea mică",
-   "Cei trei feciori"
-  ]
- },
- {
   "id": "lupul-cel-nazdravan-si-fat-frumos",
   "title": "Lupul cel năzdrăvan și Făt-Frumos",
   "author": "Petre Ispirescu",
@@ -10414,6 +10276,9 @@
    "Lupul năzdrăvan",
    "Împăratul",
    "Zâna Crăiasă"
+  ],
+  "altTitles": [
+   "Lupul cel năzdrăvan și Prințul"
   ]
  },
  {
@@ -10438,35 +10303,6 @@
    "Prințesa",
    "Regele",
    "Frații lui Hans"
-  ]
- },
- {
-  "id": "sluga-la-doi-stapani",
-  "title": "Sluga la doi stăpâni",
-  "author": "Carlo Goldoni",
-  "origin": "italian",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "istetime",
-   "familie"
-  ],
-  "summary": {
-   "ro": "Truffaldino, un slujitor mereu flămând, se tocmește pe ascuns la doi stăpâni deodată: Beatrice, deghizată în fratele ei mort, și Florindo, iubitul ei. Șiretlicurile lui încurcă totul, până când adevărul iese la iveală și perechile se împacă.",
-   "en": "Truffaldino, an always-hungry servant, secretly works for two masters at once: Beatrice, disguised as her dead brother, and Florindo, the man she loves. His tricks cause endless mix-ups until the truth comes out and the couples are reunited."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1746,
-  "characters": [
-   "Truffaldino",
-   "Beatrice",
-   "Florindo",
-   "Pantalone",
-   "Clarice",
-   "Silvio",
-   "Smeraldina",
-   "Brighella"
   ]
  },
  {
@@ -10606,22 +10442,6 @@
   "genre": "basm",
   "themes": [
    "printese"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
-  "id": "stapana-ploilor",
-  "title": "Stăpâna ploilor",
-  "author": "legendă germană",
-  "origin": "german",
-  "genre": "basm",
-  "themes": [
-   "iarna"
   ],
   "summary": {
    "ro": "",
@@ -11049,28 +10869,6 @@
   ]
  },
  {
-  "id": "poveste-de-carnaval-de-vasile-alecsandri",
-  "title": "Poveste de carnaval",
-  "author": "Vasile Alecsandri",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "traditii",
-   "muzica"
-  ],
-  "summary": {
-   "ro": "În ajunul Anului Nou, Iașii sunt cuprinși de carnaval: măști, costume, lăutari și mai-marele lor, Barbu. Povestirea lui Vasile Alecsandri readuce în față întâmplările unei seri de carnaval din prima jumătate a secolului al XIX-lea.",
-   "en": "On New Year's Eve, Iași is taken over by carnival: masks, costumes, fiddlers and their leader, Barbu. Vasile Alecsandri's story brings back the events of a carnival evening from the first half of the nineteenth century."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Barbu",
-   "Lăutarii"
-  ]
- },
- {
   "id": "popeye-marinarul",
   "title": "Popeye marinarul",
   "author": "E. C. Segar",
@@ -11251,46 +11049,6 @@
   ]
  },
  {
-  "id": "frumoasa-asenel",
-  "title": "Frumoasa Așenel",
-  "author": "Frații Grimm",
-  "origin": "german",
-  "genre": "poveste",
-  "themes": [
-   "printese",
-   "intelepciune"
-  ],
-  "summary": {
-   "ro": "Prințesa Așenel e frumoasă, dar mândră și leneșă, și își bate joc de toți pețitorii. Supărat, tatăl ei o mărită cu un menestrel sărac, lângă care învață ce înseamnă munca grea, până când află cine este de fapt soțul ei.",
-   "en": "Princess Așenel is beautiful but proud and lazy, and she mocks every suitor. Her angry father marries her off to a poor minstrel, and with him she learns what hard work means, until she finds out who her husband really is."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1812,
-  "characters": [
-   "Așenel",
-   "Împăratul",
-   "Menestrelul"
-  ]
- },
- {
-  "id": "salatica",
-  "title": "Sălățica",
-  "author": "Frații Grimm",
-  "origin": "german",
-  "genre": "poveste",
-  "themes": [
-   "familie",
-   "frati"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
   "id": "povestea-hamalului",
   "title": "Povestea hamalului",
   "author": "1001 de nopți",
@@ -11346,29 +11104,6 @@
    "Știuca",
    "Corbul",
    "Tăunul"
-  ]
- },
- {
-  "id": "cele-12-fete-de-imparat-si-palatul-fermecat",
-  "title": "Cele 12 fete de împărat și palatul fermecat",
-  "author": "Petre Ispirescu",
-  "origin": "romanian",
-  "genre": "basm",
-  "themes": [
-   "printese",
-   "magie"
-  ],
-  "summary": {
-   "ro": "Cele douăsprezece fete ale împăratului rup în fiecare noapte câte o pereche de pantofi și nimeni nu știe unde merg. Un flăcău sărac, ajutor de grădinar la curte, se face nevăzut cu niște dafini fermecați, le urmărește până la palatul unde dansează și o ia de soție pe cea mai mică.",
-   "en": "The emperor's twelve daughters wear out a pair of shoes every night, and no one knows where they go. A poor gardener's helper at court makes himself invisible with enchanted laurels, follows them to the palace where they dance, and marries the youngest."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1882,
-  "characters": [
-   "Împăratul",
-   "Cele douăsprezece fete",
-   "Flăcăul grădinar"
   ]
  },
  {
@@ -11797,6 +11532,9 @@
    "Cizmarul",
    "Soția cizmarului",
    "Spiridușii"
+  ],
+  "altTitles": [
+   "Darul spiridușilor"
   ]
  },
  {
@@ -11913,29 +11651,6 @@
    "Broscuța",
    "Sticletele",
    "Păsările"
-  ]
- },
- {
-  "id": "ciobanul-la-insuratoare",
-  "title": "Ciobanul la însurătoare",
-  "author": "poveste populară",
-  "origin": "universal",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "istetime"
-  ],
-  "summary": {
-   "ro": "Un cioban de la munte coboară în sat să-și caute nevastă și apelează la o babă văduvă, pricepută în descântece, să-i vorbească fetei pe care o alesese. Baba, care îl vrea pentru ea, îl păcălește cu o probă de vedere, iar ciobanul rămâne cu ea.",
-   "en": "A mountain shepherd comes down to the village to find a wife and asks a widowed old woman skilled in charms to plead his case with the girl he has chosen. The old woman, who wants him for herself, tricks him with a test of eyesight, and the shepherd ends up with her."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Ciobanul",
-   "Baba văduvă",
-   "Fetișcana",
-   "Iepurele"
   ]
  },
  {
@@ -12306,30 +12021,6 @@
   "addedAt": "2026-11-22"
  },
  {
-  "id": "misterul-lui-edwin-drood-charles-dickens",
-  "title": "Misterul lui Edwin Drood",
-  "author": "Charles Dickens",
-  "origin": "british",
-  "genre": "roman",
-  "themes": [
-   "invidie"
-  ],
-  "summary": {
-   "ro": "Dispariția tânărului Edwin Drood într-un orășel cu catedrală din Anglia lasă în urmă bănuieli și enigme.",
-   "en": "The sudden disappearance of young Edwin Drood in an English cathedral town sparks suspicion and mystery."
-  },
-  "age": 9,
-  "addedAt": "2026-11-22",
-  "year": 1870,
-  "characters": [
-   "Edwin Drood",
-   "John Jasper",
-   "Rosa Bud",
-   "Neville Landless",
-   "Domnul Grewgious"
-  ]
- },
- {
   "id": "legenda-naiului",
   "title": "Legenda naiului",
   "author": "poveste populară",
@@ -12586,7 +12277,7 @@
  },
  {
   "id": "jocul-fecioresc",
-  "title": "Jocul Fecioresc",
+  "title": "Jocul fecioresc",
   "author": "A Fost Odată",
   "origin": "romanian",
   "genre": "poveste",
@@ -15036,6 +14727,9 @@
    "Crocodilul",
    "Șarpele",
    "Ocrotitorul apelor"
+  ],
+  "altTitles": [
+   "Fiul faraonului"
   ]
  },
  {
@@ -15276,32 +14970,6 @@
   ]
  },
  {
-  "id": "romeo-si-julieta",
-  "title": "Romeo și Julieta",
-  "author": "William Shakespeare",
-  "origin": "british",
-  "genre": "poveste",
-  "themes": [
-   "sacrificiu",
-   "familie",
-   "dor"
-  ],
-  "summary": {
-   "ro": "În Verona, Romeo Montague se strecoară mascat la petrecerea familiei Capulet și se îndrăgostește pe loc de Julieta. Cei doi se căsătoresc în secret cu ajutorul călugărului Lorenzo, dar ura dintre familii și un plan de salvare nereușit îi duc la o moarte prematură.",
-   "en": "In Verona, Romeo Montague slips into a Capulet party in disguise and falls in love with Julieta at first sight. The two marry in secret with Friar Lorenzo's help, but the feud between their families and a failed rescue plan lead them to an early death."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1597,
-  "characters": [
-   "Romeo",
-   "Julieta",
-   "Călugărul Lorenzo",
-   "Tybalt",
-   "Paris"
-  ]
- },
- {
   "id": "craiasa-zapezii",
   "title": "Crăiasa Zăpezii",
   "author": "Hans Christian Andersen",
@@ -15459,7 +15127,7 @@
  },
  {
   "id": "penelul-fermecat",
-  "title": "Penelul Fermecat",
+  "title": "Penelul fermecat",
   "author": "basm popular chinezesc",
   "origin": "chinese",
   "genre": "basm",
@@ -15653,6 +15321,9 @@
    "Nicolae",
    "Tatăl cel sărac",
    "Cele trei fete"
+  ],
+  "altTitles": [
+   "Povestea Sfântului Nicolae"
   ]
  },
  {
@@ -15951,32 +15622,6 @@
    "Pădurarul",
    "Soția pădurarului",
    "Căprița albă"
-  ]
- },
- {
-  "id": "lupul-cel-nazdravan-si-printul",
-  "title": "Lupul cel năzdrăvan și Prințul",
-  "author": "folclor românesc",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "animale",
-   "magie",
-   "curaj",
-   "calatorie"
-  ],
-  "summary": {
-   "ro": "Fiul cel mic al împăratului descoperă că niște păsări cu pene de aur fură merele din grădină și pornește pe urmele lor. Un lup năzdrăvan îl ajută să înfrunte împărații, să câștige o iapă fermecată și să o ia de soție pe Zâna Zânelor.",
-   "en": "The emperor's youngest son discovers that golden-feathered birds are stealing the golden apples and follows their trail. A wondrous wolf helps him face the kings, win an enchanted mare and marry the Fairy of Fairies."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Făt-Frumos",
-   "Lupul cel năzdrăvan",
-   "Zâna Zânelor",
-   "Împăratul",
-   "Împăratul vecin"
   ]
  },
  {
@@ -16724,24 +16369,6 @@
   ]
  },
  {
-  "id": "o-poveste-asa-cum-nu-este",
-  "title": "O poveste așa cum nu este",
-  "author": "Dan Ursuleanu, Gh. Bunescu, Constantin Horbovanu, Emanuel Vîrgolici",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "zmei",
-   "aventura"
-  ],
-  "summary": {
-   "ro": "Un basm vechi „făcut ca nou” în emisiunea „Unda Veselă”, jucat de o distribuție de comici ai teatrului românesc. Textul e semnat de Dan Ursuleanu, Gh. Bunescu, Constantin Horbovanu și Emanuel Vîrgolici.",
-   "en": "An old fairy tale “made new again” on the Unda Veselă show, performed by a cast of Romanian stage comedians. The script is by Dan Ursuleanu, Gh. Bunescu, Constantin Horbovanu and Emanuel Vîrgolici."
-  },
-  "age": 6,
-  "addedAt": "2026-11-22"
- },
- {
   "id": "d-ale-lui-pacala",
   "title": "D-ale lui Păcală",
   "author": "Tudor Mușatescu",
@@ -16786,30 +16413,6 @@
    "Aligru",
    "Miorlana",
    "Animalul greșit"
-  ]
- },
- {
-  "id": "cei-3-1-muschetari-dupa-20-de-ani",
-  "title": "Cei 3+1 mușchetari după 20 de ani",
-  "author": "Sacha Lichy",
-  "origin": "russian",
-  "genre": "roman",
-  "themes": [
-   "umor",
-   "aventura",
-   "prietenie"
-  ],
-  "summary": {
-   "ro": "Parodie romantică radiofonică după „Căpitanul D'Artagnan” de Alexandre Dumas: după zece ani de absență, d'Artagnan revine și o regăsește pe Magdalena, iar Porthos și ceilalți mușchetari se amestecă în noile încurcături. Comedia lui Sacha Lichy merge pe replici rapide și pe scene de iubire jucate în parodie.",
-   "en": "A romantic radio parody of Dumas's Captain d'Artagnan: after ten years away, d'Artagnan comes back to Magdalena while Porthos and the other musketeers get mixed up in the new complications. Sacha Lichy's comedy runs on quick repartee and love scenes played for laughs."
-  },
-  "age": 9,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "d'Artagnan",
-   "Porthos",
-   "Planchet",
-   "Magdalena"
   ]
  },
  {
@@ -18782,6 +18385,9 @@
    "Andrees",
    "Maren",
    "Zâna ploilor"
+  ],
+  "altTitles": [
+   "Stăpâna ploilor"
   ]
  },
  {
@@ -19899,24 +19505,6 @@
   ]
  },
  {
-  "id": "copiii-coloreaza-viata",
-  "title": "Copiii colorează viața",
-  "author": "Itsy Bitsy FM",
-  "origin": "romanian",
-  "genre": "poveste-muzicala",
-  "themes": [
-   "muzica",
-   "copilarie"
-  ],
-  "summary": {
-   "ro": "Cântecul Itsy Bitsy FM despre copiii care aduc culoare în viața celor din jur. Piesa este folosită în campaniile și evenimentele radioului și nu este o poveste narată.",
-   "en": "Itsy Bitsy FM's song about children who bring colour into the lives of those around them. It is used in the station's campaigns and events and is not a narrated story."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 2021
- },
- {
   "id": "maimutica-miky",
   "title": "Maimuțica Miky",
   "author": "Itsy Bitsy FM",
@@ -20138,73 +19726,6 @@
   "summary": {
    "ro": "Scenariu radiofonic despre lumea poveștilor lui Ion Creangă, în care eroii săi celebri prind glas alături de povestitor.",
    "en": "A radio dramatization exploring Ion Creangă’s storytelling world, where his best-known characters come to life alongside their creator."
-  }
- },
- {
-  "id": "un-pedagog-de-scoala-noua",
-  "title": "Un pedagog de școală nouă",
-  "author": "Ion Luca Caragiale",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 1893,
-  "themes": [
-   "umor",
-   "copilarie",
-   "istetime"
-  ],
-  "characters": [
-   "Marius Chicoș Rostogan",
-   "Anibal Ionescu",
-   "Ottilia"
-  ],
-  "summary": {
-   "ro": "Domnul profesor Marius Chicoș Rostogan ține o lecție deschisă plină de replici savuroase și încurcături comice cu elevii săi.",
-   "en": "The pompous schoolmaster Marius Chicoș Rostogan holds an open lesson full of comic misunderstandings with his pupils."
-  }
- },
- {
-  "id": "tren-de-placere",
-  "title": "Tren de plăcere",
-  "author": "Ion Luca Caragiale",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 1900,
-  "themes": [
-   "umor",
-   "familie",
-   "calatorie"
-  ],
-  "characters": [
-   "Domnul Georgescu",
-   "Mița",
-   "Ionel",
-   "Bunica"
-  ],
-  "summary": {
-   "ro": "Familia Georgescu pleacă într-o excursie de duminică la Sinaia cu trenul de plăcere, dar reușește să se rătăcească și să petreacă toată ziua căutându-se prin gară și prin stațiune.",
-   "en": "The Georgescu family sets off on a Sunday excursion train to Sinaia, only to split up and spend the whole day frantically hunting for one another."
-  }
- },
- {
-  "id": "farsa-maestrului-pathelin",
-  "title": "Farsa maestrului Pathelin",
-  "author": "autor anonim",
-  "genre": "poveste",
-  "origin": "french",
-  "themes": [
-   "umor",
-   "istetime",
-   "dreptate"
-  ],
-  "characters": [
-   "Maestrul Pathelin",
-   "Guillemette",
-   "Guillaume Joceaume",
-   "Thibault Agnelet"
-  ],
-  "summary": {
-   "ro": "Un avocat isteț, dar fără bani, păcălește un negustor de postav să-i dea marfa pe datorie, însă propriul său vicleșug se întoarce împotriva lui la judecată.",
-   "en": "A penniless lawyer tricks a cloth merchant out of fine fabric, only to find his own courtroom scheme turned back on him by a clever shepherd."
   }
  },
  {
@@ -21074,7 +20595,7 @@
  },
  {
   "id": "fermierul-harnic-si-samanta-cu-puteri-magice",
-  "title": "Fermierul Harnic și Sămânța cu Puteri Magice",
+  "title": "Fermierul harnic și sămânța cu puteri magice",
   "author": "A Fost Odată",
   "genre": "poveste",
   "origin": "romanian",
@@ -21246,7 +20767,11 @@
    "en": "Twelve princesses wear through their shoes every night without their father knowing where they go. A clever lad follows them to an enchanted underground palace and uncovers their secret."
   },
   "origin": "romanian",
-  "year": 1882
+  "year": 1882,
+  "altTitles": [
+   "Cele 12 fete de împărat și palatul fermecat"
+  ],
+  "age": 5
  },
  {
   "id": "doi-feti-cu-stea-in-frunte",
@@ -21291,49 +20816,11 @@
    "en": "A bachelor named Ipate takes on a young imp serving penance as his farmhand; the imp brings him wealth and helps him test and choose a good wife."
   },
   "origin": "romanian",
-  "year": 1877
- },
- {
-  "id": "bacalaureat",
-  "title": "Bacalaureat",
-  "author": "Ion Luca Caragiale",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "familie"
+  "year": 1877,
+  "altTitles": [
+   "Povestea lui Stan zis și Ipate sau La orice treabă pe Stan Pățitu’ întreabă"
   ],
-  "characters": [
-   "Doamna Caliopi Georgescu",
-   "Ovidiu",
-   "Profesorul de morală"
-  ],
-  "summary": {
-   "ro": "Doamna Caliopi Georgescu aleargă prin tot orașul să pună o pilă pentru fiul ei, Ovidiu, care a rămas corigent la morală tocmai la examenul de bacalaureat.",
-   "en": "Mrs. Caliopi Georgescu races across town pulling strings for her son Ovidiu, who managed to fail Ethics at his final high-school exams."
-  },
-  "origin": "romanian",
-  "year": 1900
- },
- {
-  "id": "lantul-slabiciunilor",
-  "title": "Lanțul slăbiciunilor",
-  "author": "Ion Luca Caragiale",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "familie"
-  ],
-  "characters": [
-   "Mitică Dăscălescu",
-   "Profesorul Costică Ionescu",
-   "Coana Mari Popescu"
-  ],
-  "summary": {
-   "ro": "Ca să-i treacă la examen un elev leneș, un lanț întreg de rude, cunoștințe și prieteni schimbă bilețele de recomandare, până când rugămintea se întoarce de unde a plecat.",
-   "en": "To get a lazy student through an exam, a chain of relatives and friends pass favour notes down the line until the plea loops right back to the start."
-  },
-  "origin": "romanian",
-  "year": 1901
+  "age": 5
  },
  {
   "id": "harap-alb-partea-1",
@@ -21708,27 +21195,6 @@
   "year": 1882
  },
  {
-  "id": "povestea-sfantului-nicolae",
-  "title": "Povestea Sfântului Nicolae",
-  "author": "folclor universal",
-  "genre": "legenda",
-  "themes": [
-   "bunatate",
-   "iarna",
-   "familie"
-  ],
-  "characters": [
-   "Sfântul Nicolae",
-   "Tatăl",
-   "Cele trei fete"
-  ],
-  "summary": {
-   "ro": "Legenda Sfântului Nicolae, care ajută pe ascuns un tată sărac lăsându-i noaptea pungi cu galbeni ca să-și poată mărita cele trei fete.",
-   "en": "The legend of Saint Nicholas, who secretly leaves bags of gold in the night so a poor father can provide dowries for his three daughters."
-  },
-  "origin": "universal"
- },
- {
   "id": "povestea-celei-mai-frumoase-pasari-din-lume",
   "title": "Povestea celei mai frumoase păsări din lume",
   "author": "folclor universal",
@@ -21943,30 +21409,6 @@
    "en": "A hungry traveller arrives in a stingy village and starts boiling a stone in water, coaxing each neighbour to add vegetables and herbs until everyone shares a hearty soup."
   },
   "origin": "universal"
- },
- {
-  "id": "regina-albinelor",
-  "title": "Regina albinelor",
-  "author": "Frații Grimm",
-  "genre": "basm",
-  "themes": [
-   "animale",
-   "bunatate",
-   "magie",
-   "frati"
-  ],
-  "characters": [
-   "Mezinul",
-   "Furnicile",
-   "Rațele",
-   "Regina albinelor"
-  ],
-  "summary": {
-   "ro": "Doi frați mai mari vor să strice un mușuroi, un stol de rațe și un stup, dar mezinul îi oprește; mai târziu, vietățile salvate îl ajută să dezlege vraja unui castel împietrit.",
-   "en": "Two older brothers want to destroy an anthill, ducks and a beehive, but the youngest stops them; later, the grateful creatures help him break a spell over a castle turned to stone."
-  },
-  "origin": "german",
-  "year": 1812
  },
  {
   "id": "cum-s-a-ingustat-gatul-balenei",
@@ -22770,29 +22212,6 @@
   }
  },
  {
-  "id": "kir-ianulea",
-  "title": "Kir Ianulea",
-  "author": "Ion Luca Caragiale",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 1909,
-  "themes": [
-   "umor",
-   "istetime",
-   "familie"
-  ],
-  "characters": [
-   "Kir Ianulea",
-   "Acrivița",
-   "Negoiță",
-   "Dardarot"
-  ],
-  "summary": {
-   "ro": "Trimis pe pământ să vadă dacă oamenii dau pe nedrept vina pe neveste, drăcușorul Aghiuță se însoară în București cu Acrivița și ajunge să fugă de ea cât vede cu ochii.",
-   "en": "Sent to earth to test why men blame their wives, a little devil marries Acrivița in Bucharest and soon wishes he were back in the underworld."
-  }
- },
- {
   "id": "zori-de-ziua-si-inia-dinia",
   "title": "Zori de ziuă și Inia Dinia",
   "author": "Gheorghe Ștefan",
@@ -22836,30 +22255,6 @@
    "ro": "Un băiat găsit în pădure de un tăietor de lemne se crede fiu de stea și își alungă mama sărmană. Rămas fără frumusețe, colindă lumea până învață mila și își cere iertare.",
    "en": "A boy found in the woods by a woodcutter believes himself a star’s child and turns away his poor mother. Stripped of his beauty, he wanders until he learns kindness and forgiveness."
   }
- },
- {
-  "id": "chira-chiralina",
-  "title": "Chira Chiralina",
-  "author": "Panait Istrati",
-  "genre": "roman",
-  "origin": "romanian",
-  "themes": [
-   "familie",
-   "frati",
-   "calatorie",
-   "dreptate"
-  ],
-  "characters": [
-   "Chira Chiralina",
-   "Stavru",
-   "Adrian Zografi",
-   "Mihail"
-  ],
-  "summary": {
-   "ro": "Stavru, un limonagiu hoinar pe numele lui adevărat Dragomir, îl ia pe tânărul său văr Adrian la târgul din Slobozia și, cu Mihail de față, îi spune povestea familiei sale. În centru se află sora lui, frumoasa Chira Chiralina, măritată de tată pentru bani cu un om pe care nu-l iubește, și copilăria lor într-un port dunărean, între sărăcie, dor de ducă și nedreptate.",
-   "en": "Stavru, a wandering lemonade seller whose real name is Dragomir, takes his young cousin Adrian to the Slobozia fair and, with Mihail listening, tells him the story of his family. At its centre is his beautiful sister Chira Chiralina, married off by their father for money to a man she does not love, and their childhood in a Danubian port caught between poverty, longing for elsewhere and injustice."
-  },
-  "year": 1923
  },
  {
   "id": "revolutia-lui-louis-braille",
@@ -23503,30 +22898,6 @@
   }
  },
  {
-  "id": "inima-de-piatra",
-  "title": "Inima de piatră",
-  "author": "Wilhelm Hauff",
-  "genre": "basm",
-  "origin": "german",
-  "year": 1827,
-  "themes": [
-   "magie",
-   "padure",
-   "bunatate",
-   "intelepciune"
-  ],
-  "characters": [
-   "Peter Munk",
-   "Lisbeth",
-   "Omulețul de Sticlă",
-   "Michel Cât un Munte"
-  ],
-  "summary": {
-   "ro": "Sătul de sărăcie, cărbunarul Peter Munk din Pădurea Neagră își vinde inima unui duh rău în schimbul bogăției, dar își dă seama că fără suflet a pierdut tot ce iubea.",
-   "en": "Tired of poverty, Black Forest charcoal-burner Peter Munk trades his heart to a dark spirit for wealth, only to learn that riches mean nothing without feeling."
-  }
- },
- {
   "id": "momo",
   "title": "Momo",
   "author": "Michael Ende",
@@ -23570,62 +22941,6 @@
   "summary": {
    "ro": "Sătui de școală și de mustrările adulților, Tom Sawyer și Huckleberry Finn fug cu o plută pe fluviul Mississippi și se joacă de-a pirații pe o insulă pustie.",
    "en": "Tired of school and grown-up rules, Tom Sawyer and Huckleberry Finn raft down the Mississippi to live like pirates on a deserted island."
-  }
- },
- {
-  "id": "jucarii-pentru-copii",
-  "title": "Jucării pentru copii",
-  "author": "Eduard Jurist, Manole Pavel Dan și Grigore Cazacu",
-  "genre": "poveste",
-  "origin": "romanian",
-  "themes": [
-   "umor",
-   "copilarie",
-   "jucarii"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "O ediție „Unda Veselă” plină de scenete comice și parodii de basme despre copilărie, de la „Scufița Roșie de Hollywood” până la „Hainele împăratului”.",
-   "en": "A playful “Unda Veselă” radio comedy broadcast packed with sketches and fairy-tale parodies about childhood, performed by classic Romanian comic actors."
-  }
- },
- {
-  "id": "poveste-in-2-timpi-si-3-muschetari",
-  "title": "Poveste în 2 timpi și 3 mușchetari",
-  "author": "Alexandru Vilan și Dan Ursuleanu",
-  "genre": "poveste",
-  "origin": "romanian",
-  "themes": [
-   "umor",
-   "aventura",
-   "prietenie"
-  ],
-  "characters": [
-   "Mușchetarii"
-  ],
-  "summary": {
-   "ro": "Emisiunea „Unda Veselă” ia în râs lumea mușchetarilor: scenete, cântece și parodii în care eroii lui Dumas ajung în situații de zi cu zi. Textele sunt de Alexandru Vilan și Dan Ursuleanu, jucate de o distribuție de comici ai teatrului românesc.",
-   "en": "The Unda Veselă show sends up the world of the musketeers with sketches, songs and parodies that drop Dumas's heroes into everyday situations. The scripts are by Alexandru Vilan and Dan Ursuleanu, performed by a cast of Romanian stage comedians."
-  }
- },
- {
-  "id": "de-ce-n-are-vulpea-coada",
-  "title": "De ce n-are vulpea coadă",
-  "author": "Constantin Zărnescu, Alexandru Darian și Manole Pavel Dan",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 1990,
-  "themes": [
-   "umor",
-   "animale"
-  ],
-  "characters": [
-   "Vulpea",
-   "Corbul"
-  ],
-  "summary": {
-   "ro": "Emisiune comică „Unda Veselă” din 1990 cu scenete și fabule pline de haz, de la „Vulpea la cotineață” și „Vulpea și corbul” până la dialoguri cu Dem Rădulescu și Ștefan Mihăilescu-Brăila.",
-   "en": "A 1990 “Unda Veselă” radio comedy special featuring humorous animal sketches and dialogues with Dem Rădulescu, Ștefan Mihăilescu-Brăila and friends."
   }
  },
  {
@@ -24174,29 +23489,6 @@
   "summary": {
    "ro": "O mamă sărmană de la marginea satului, care își crește cu greu cei șapte copii, le pregătește de Paște o surpriză plină de dragoste, dând naștere legendei iepurașului.",
    "en": "A poor mother on the edge of a village prepares an Easter surprise for her seven children, giving rise to the legend of the Easter Bunny."
-  }
- },
- {
-  "id": "fata-morarului",
-  "title": "Fata morarului (Rumpelstiltskin)",
-  "author": "Frații Grimm",
-  "genre": "basm",
-  "origin": "german",
-  "year": 1812,
-  "themes": [
-   "magie",
-   "istetime",
-   "adevar"
-  ],
-  "characters": [
-   "Fata morarului",
-   "Piticul",
-   "Regele",
-   "Morarul"
-  ],
-  "summary": {
-   "ro": "Un pitic misterios o ajută pe fata morarului să toarcă paiele în aur, dar cere în schimb primul ei copil — dacă nu reușește să-i ghicească numele.",
-   "en": "A strange little man helps a miller’s daughter spin straw into gold, demanding her firstborn child unless she can guess his name."
   }
  },
  {
@@ -26084,7 +25376,7 @@
  {
   "id": "voinicul-bob-de-grau",
   "title": "Voinicul Bob de Grâu",
-  "author": "Ion Lila",
+  "author": "Ion Lilă",
   "genre": "basm",
   "origin": "romanian",
   "themes": [
@@ -27451,47 +26743,6 @@
   "addedAt": "2026-11-23"
  },
  {
-  "id": "milionul-agarbiceanu",
-  "title": "Milionul",
-  "author": "Ion Agârbiceanu",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "prietenie",
-   "adevar"
-  ],
-  "characters": [
-   "Niculae Dragomirescu"
-  ],
-  "summary": {
-   "ro": "Schiță radiofonică după Ion Agârbiceanu: zvonul unui câștig fabulos îi schimbă brusc lui Niculae Dragomirescu privirea asupra cunoscuților dintr-un orășel de provincie.",
-   "en": "A radio sketch adapted from Ion Agârbiceanu: rumors of a sudden fortune change how Niculae Dragomirescu sees his acquaintances in a small provincial town."
-  },
-  "addedAt": "2026-11-23"
- },
- {
-  "id": "cum-ne-inselam-agarbiceanu",
-  "title": "Cum ne înșelăm",
-  "author": "Ion Agârbiceanu",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "adevar",
-   "invidie"
-  ],
-  "characters": [
-   "Matilda",
-   "Octavia"
-  ],
-  "summary": {
-   "ro": "Comedie scurtă după Ion Agârbiceanu: Matilda și Octavia privesc pe fereastră o doamnă elegantă pe care o bârfesc fără s-o cunoască, stârnind încurcături pline de umor.",
-   "en": "A short comedy adapted from Ion Agârbiceanu: Matilda and Octavia gossip from the window about an elegant passerby they misjudge, sparking comic misunderstandings."
-  },
-  "addedAt": "2026-11-23"
- },
- {
   "id": "capitanul-oceanului-stelar",
   "title": "Căpitanul oceanului stelar",
   "author": "Ion Golban",
@@ -28787,28 +28038,6 @@
   "year": 2014
  },
  {
-  "id": "fantana-de-leac-din-muntii-macinului",
-  "title": "Fântâna de leac din Munții Măcinului",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "dreptate",
-   "natura",
-   "mitologie"
-  ],
-  "characters": [
-   "Fiica lui Stroe",
-   "Stroe",
-   "Sătenii"
-  ],
-  "summary": {
-   "ro": "Când o molimă lovește satul de lângă Măcin, trei săteni o învinovățesc pe fiica ciobanului Stroe, numită „Sfânta lui Stroe”, și o ucid în pădure. Din stânca de lângă mormântul ei țâșnește un izvor despre care se spune că vindecă bolnavii.",
-   "en": "When an epidemic strikes the village near Măcin, three villagers blame the shepherd Stroe’s daughter, known as “Stroe’s saint”, and kill her in the forest. A spring said to cure the sick bursts from the rock beside her grave."
-  },
-  "origin": "romanian",
-  "year": 2014
- },
- {
   "id": "legenda-comunei-ciocarlia",
   "title": "Legenda comunei Ciocârlia",
   "author": "Cristian Cealera",
@@ -28848,28 +28077,6 @@
   "summary": {
    "ro": "Pe o mică insulă din lacul Tașaul, numită și Insula Fără Nume, ar fi îngropată o comoară. Legenda spune că acolo trăiau niște călugări prefăcuți, care jefuiau drumeții; când au fost descoperiți, au fugit jurând să nu dezgroape prada decât atunci când se vor întâlni cu toții din nou.",
    "en": "A treasure is said to lie buried on a small island in Lake Tașaul, also called the Nameless Island. Legend says that false monks lived there and robbed travellers; when they were found out, they fled, swearing not to dig up the loot until they were all together again."
-  },
-  "origin": "romanian",
-  "year": 2014
- },
- {
-  "id": "padurea-mortii-de-la-almalau",
-  "title": "Pădurea Morții de la Almalău",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "padure",
-   "magie",
-   "natura"
-  ],
-  "characters": [
-   "Tătăroaica",
-   "Soldații",
-   "Păstorul"
-  ],
-  "summary": {
-   "ro": "O tânără tătăroaică sădește o pădure de stejari și lasă un blestem asupra celor care vor tăia copacii. Când niște soldați se opresc să facă focul, un păstor încearcă să-i avertizeze, dar a doua zi tabăra e goală: soldații au pierit fără urmă.",
-   "en": "A young Tatar woman plants an oak forest and lays a curse on anyone who cuts its trees. When soldiers stop to make a fire, a shepherd tries to warn them, but the next day their camp is empty: the soldiers have vanished without a trace."
   },
   "origin": "romanian",
   "year": 2014
@@ -28918,28 +28125,6 @@
   },
   "origin": "romanian",
   "year": 2014
- },
- {
-  "id": "cap-caliacra-legenda-piratului-ac-baba",
-  "title": "Cap Caliacra – legenda piratului Ac Baba",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "pirati",
-   "mare",
-   "bunatate"
-  ],
-  "characters": [
-   "Ac Baba",
-   "Pruncul",
-   "Bătrânul"
-  ],
-  "summary": {
-   "ro": "Piratul musulman Ac Baba, numit Șoimul Alb, jefuiește corăbiile de lângă Capul Caliacra. După ce atacă o corabie despre care crede că duce o comoară, găsește un prunc ascuns sub haina unui bătrân pe care tocmai l-a ucis; ia copilul, îl crește și își petrece restul vieții aprinzând focuri de avertizare pentru corăbii.",
-   "en": "The Muslim pirate Ac Baba, known as the White Falcon, plunders ships off Cape Kaliakra. After attacking a vessel he believes is carrying treasure, he finds an infant hidden under the coat of an old man he has just killed; he takes the child, raises him, and spends the rest of his life lighting warning fires for ships."
-  },
-  "origin": "romanian",
-  "year": 2016
  },
  {
   "id": "muntele-fericirii-de-la-tatlageac",
@@ -29029,49 +28214,6 @@
   },
   "origin": "romanian",
   "year": 2015
- },
- {
-  "id": "stejarul-ingenunchiat-de-la-caraorman",
-  "title": "Stejarul îngenunchiat de la Caraorman",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "padure",
-   "curaj",
-   "mitologie"
-  ],
-  "characters": [
-   "Mireasa",
-   "Cazacul",
-   "Turcul"
-  ],
-  "summary": {
-   "ro": "O mireasă din Crișan este răpită înainte de nuntă de un turc pe care îl refuzase. Logodnicul ei, un cazac viteaz, o urmărește în pădurea Caraorman și îi înfrânge pe răpitori; pe locul luptei răsare mai târziu Stejarul Îngenunchiat.",
-   "en": "A bride from Crișan is abducted before her wedding by a Turk she had rejected. Her Cossack fiancé follows her into Caraorman forest and defeats the kidnappers; the Kneeling Oak is said to have grown on the spot of the fight."
-  },
-  "origin": "romanian",
-  "year": 2014
- },
- {
-  "id": "samca-samodiva-duhul-de-pe-pacuiul-lui-soare",
-  "title": "Samca Samodiva, duhul de pe Păcuiul lui Soare",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "magie",
-   "mitologie",
-   "aventura"
-  ],
-  "characters": [
-   "Samca Samodiva",
-   "Pescarii"
-  ],
-  "summary": {
-   "ro": "Pescarii din Ostrov spun că ruinele cetății de pe Păcuiul lui Soare sunt păzite de Samca Samodiva, zâna cea rea din folclorul bulgăresc, care trăiește în apele Dunării. Cine se apropie de cetate sau caută comoara de pe fundul apei poate fi înecat ori lovit de sferele ei de foc.",
-   "en": "Fishers from Ostrov say the ruins of the fortress on Păcuiul lui Soare are guarded by Samca Samodiva, the evil fairy of Bulgarian folklore, who lives in the waters of the Danube. Anyone who approaches the fortress or seeks the treasure at the bottom of the river may be drowned or struck by her fireballs."
-  },
-  "origin": "romanian",
-  "year": 2014
  },
  {
   "id": "ronciu-si-frumoasa-aise",
@@ -29182,87 +28324,6 @@
   },
   "origin": "romanian",
   "year": 2014
- },
- {
-  "id": "padurea-mireselor-si-frumoasa-furnica",
-  "title": "Pădurea Mireselor și Frumoasa Furnica",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "padure",
-   "mitologie",
-   "dreptate"
-  ],
-  "characters": [
-   "Furnica",
-   "Tâlharii tătari",
-   "Sătenii"
-  ],
-  "summary": {
-   "ro": "Furnica, o fată frumoasă și fără astâmpăr din Dumbrăveni, își petrece zilele prin pădurea de la marginea satului și refuză să se mărite. Într-o toamnă, niște tâlhari tătari o prind, o batjocoresc și o ucid, iar Dumnezeu îi pedepsește cu o furtună; de atunci, năluca ei îmbrăcată în mireasă bântuie codrul.",
-   "en": "Furnica, a beautiful, restless girl from Dumbrăveni, spends her days in the forest at the edge of the village and refuses to marry. One autumn a band of Tatar robbers seize her, assault her and kill her, and God punishes them with a storm; ever since, her ghost in a bride’s dress has haunted the woods."
-  },
-  "origin": "romanian",
-  "altTitles": [
-   "Pădurea Mireselor din Canarale"
-  ],
-  "year": 2014
- },
- {
-  "id": "jonathan-gullible-o-mare-furtuna",
-  "title": "O mare furtună",
-  "author": "Ken Schoolland",
-  "genre": "poveste",
-  "themes": [
-   "calatorie",
-   "aventura"
-  ],
-  "characters": [
-   "Jonathan Gullible"
-  ],
-  "summary": {
-   "ro": "Jonathan iese cu barca pe mare. O furtună îl prinde departe de casă și îl aruncă pe țărmul unei insule necunoscute.",
-   "en": "Jonathan takes his boat out to sea. A storm catches him far from home and washes him ashore on an unfamiliar island."
-  },
-  "origin": "american"
- },
- {
-  "id": "jonathan-gullible-cei-care-o-cauta-cu-lumanarea",
-  "title": "Cei care o caută cu lumânarea",
-  "author": "Ken Schoolland",
-  "genre": "poveste",
-  "themes": [
-   "aventura",
-   "dreptate"
-  ],
-  "characters": [
-   "Jonathan Gullible",
-   "Femeia din pădure"
-  ],
-  "summary": {
-   "ro": "Jonathan urmărește o pisică prin junglă și aude o femeie strigând după ajutor. Încercând s-o ajute, descoperă o regulă ciudată a insulei.",
-   "en": "Jonathan follows a cat into the jungle and hears a woman calling for help. Trying to help her leads him to discover one of the island’s strange rules."
-  },
-  "origin": "american"
- },
- {
-  "id": "jonathan-gullible-o-tragedie-comuna",
-  "title": "O tragedie comună",
-  "author": "Ken Schoolland",
-  "genre": "poveste",
-  "themes": [
-   "natura",
-   "intelepciune"
-  ],
-  "characters": [
-   "Jonathan Gullible",
-   "Pescarul"
-  ],
-  "summary": {
-   "ro": "Un pescar își împarte prânzul cu Jonathan și îi povestește cum a ajuns un lac plin de pești mari să le mai dea pescarilor doar câțiva peștișori.",
-   "en": "A fisherman shares his lunch with Jonathan and tells him how a lake once full of large fish came to yield only a few tiny ones."
-  },
-  "origin": "american"
  },
  {
   "id": "muntele-de-sticla",
@@ -29662,22 +28723,6 @@
   "origin": "romanian"
  },
  {
-  "id": "tema-pentru-acasa",
-  "title": "Temă pentru acasă",
-  "author": "Mile Poposki",
-  "genre": "poveste",
-  "themes": [
-   "familie",
-   "scoala",
-   "umor"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "O temă pentru acasă pare simplă, dar ajunge să le dea bătăi de cap părinților copiilor de școală.",
-   "en": "A homework assignment seems simple, but ends up troubling the parents of schoolchildren."
-  }
- },
- {
   "id": "calatoria-silvia-kerim",
   "title": "Călătoria",
   "author": "Silvia Kerim",
@@ -29730,26 +28775,6 @@
   "origin": "romanian"
  },
  {
-  "id": "cantecul-lui-hiawatha",
-  "title": "Cântecul lui Hiawatha",
-  "author": "Henry Wadsworth Longfellow",
-  "genre": "legenda",
-  "themes": [
-   "aventura",
-   "dragoste",
-   "mitologie"
-  ],
-  "characters": [
-   "Hiawatha",
-   "Minnehaha"
-  ],
-  "summary": {
-   "ro": "Epopeea urmărește aventurile lui Hiawatha, războinic ojibwe, și iubirea lui pentru Minnehaha, din neamul Dakota.",
-   "en": "The epic follows Hiawatha, an Ojibwe warrior, and his love for Minnehaha, a Dakota woman."
-  },
-  "origin": "american"
- },
- {
   "id": "buzdugan-de-aur-coada-de-balaur",
   "title": "Buzdugan de aur, coadă de balaur",
   "author": "Autor necunoscut",
@@ -29764,44 +28789,6 @@
    "en": "A Romanian folk tale preserved in a children's radio production."
   },
   "origin": "romanian"
- },
- {
-  "id": "rusalka",
-  "title": "Rusalka",
-  "author": "Aleksandr Pușkin",
-  "genre": "poveste",
-  "themes": [
-   "dragoste",
-   "mitologie"
-  ],
-  "characters": [
-   "Fiica morarului",
-   "Nobilul"
-  ],
-  "summary": {
-   "ro": "Fiica unui morar se îndrăgostește de un nobil, iar după o trădare devine rusalcă, spirit al apelor.",
-   "en": "A miller's daughter falls in love with a nobleman. After betrayal, she becomes a rusalka, a spirit of the waters."
-  },
-  "origin": "russian"
- },
- {
-  "id": "povestea-bratarii-de-glezna",
-  "title": "Povestea brățării de gleznă",
-  "author": "Ilango Adigal",
-  "genre": "poveste",
-  "themes": [
-   "dragoste",
-   "dreptate"
-  ],
-  "characters": [
-   "Kovalan",
-   "Madhavi"
-  ],
-  "summary": {
-   "ro": "Dramatizare după poemul tamil antic „Silappatikaram”, cu Kovalan, Madhavi și curtea regelui Pandyan.",
-   "en": "A radio adaptation of the ancient Tamil poem “Silappatikaram”, featuring Kovalan, Madhavi and the Pandyan king's court."
-  },
-  "origin": "indian"
  },
  {
   "id": "valea-frumoasei",
@@ -29853,38 +28840,6 @@
    "en": "A story by Émile Zola, presented in a children's audio production from 2010."
   },
   "origin": "french"
- },
- {
-  "id": "pavilionul-de-pe-malul-raului",
-  "title": "Pavilionul de pe malul râului",
-  "author": "Guan Hanqing",
-  "genre": "poveste",
-  "themes": [
-   "dragoste",
-   "dreptate"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "Poveste radiofonică după o operă a dramaturgului chinez Guan Hanqing, înregistrată în 1978.",
-   "en": "A radio story based on a work by Chinese playwright Guan Hanqing, recorded in 1978."
-  },
-  "origin": "chinese"
- },
- {
-  "id": "zapada-in-toiul-verii",
-  "title": "Zăpada în toiul verii",
-  "author": "Guan Hanqing",
-  "genre": "legenda",
-  "themes": [
-   "dreptate",
-   "istorie"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "Legendă chinezească dramatizată pentru radio, după Guan Hanqing, înregistrată în 1978.",
-   "en": "A Chinese legend adapted for radio from Guan Hanqing, recorded in 1978."
-  },
-  "origin": "chinese"
  },
  {
   "id": "voievodul-posadei",
@@ -29992,162 +28947,6 @@
    "en": "A legend by Mihai Jemăneanu, preserved in a 1974 radio production."
   },
   "origin": "romanian"
- },
- {
-  "id": "somerul-elise-wilk",
-  "title": "Șomerul",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "familie",
-   "munca",
-   "umor"
-  ],
-  "characters": [
-   "Șomerul",
-   "Soția"
-  ],
-  "summary": {
-   "ro": "Un bărbat concediat de la fabrica de gumă de mestecat își ascunde șomajul de soție.",
-   "en": "A man laid off from a chewing-gum factory hides his unemployment from his wife."
-  },
-  "origin": "romanian",
-  "year": 2008
- },
- {
-  "id": "studenta-elise-wilk",
-  "title": "Studenta",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "studenti",
-   "singuratate"
-  ],
-  "characters": [
-   "Studenta",
-   "Amalia"
-  ],
-  "summary": {
-   "ro": "O studentă își povestește neînțelegerile cu colega ei de cameră, Amalia.",
-   "en": "A student tells of her friction with her roommate Amalia."
-  },
-  "origin": "romanian",
-  "year": 2008
- },
- {
-  "id": "elevul-elise-wilk",
-  "title": "Elevul",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "scoala",
-   "tehnologie"
-  ],
-  "characters": [
-   "Elevul"
-  ],
-  "summary": {
-   "ro": "Un elev conștiincios și perseverent își amintește de vremea când internet café-urile deschideau lumi noi.",
-   "en": "A diligent pupil recalls when internet cafés opened new worlds."
-  },
-  "origin": "romanian",
-  "year": 2008
- },
- {
-  "id": "menajera-elise-wilk",
-  "title": "Menajera",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "munca",
-   "singuratate"
-  ],
-  "characters": [
-   "Menajera"
-  ],
-  "summary": {
-   "ro": "Într-o zi obișnuită de joi, o menajeră se întreabă ce i s-ar putea întâmpla.",
-   "en": "On an ordinary Thursday, a cleaner wonders what could happen to her."
-  },
-  "origin": "romanian",
-  "year": 2008
- },
- {
-  "id": "secretara-elise-wilk",
-  "title": "Secretara",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "familie",
-   "mister"
-  ],
-  "characters": [
-   "Secretara"
-  ],
-  "summary": {
-   "ro": "O secretară trăiește într-o casă plină de statuete stranii aduse de bărbatul din viața ei.",
-   "en": "A secretary lives in a house filled with strange statuettes brought home by the man in her life."
-  },
-  "origin": "romanian",
-  "year": 2008
- },
- {
-  "id": "taximetristul-elise-wilk",
-  "title": "Taximetristul",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "munca",
-   "singuratate"
-  ],
-  "characters": [
-   "Taximetristul"
-  ],
-  "summary": {
-   "ro": "De la o cursă la alta, un taximetrist întâlnește clienți și le ascultă poveștile de viață.",
-   "en": "From one ride to the next, a taxi driver meets passengers and listens to their stories."
-  },
-  "origin": "romanian",
-  "year": 2008
- },
- {
-  "id": "adolescentul-elise-wilk",
-  "title": "Adolescentul",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "adolescenta",
-   "familie"
-  ],
-  "characters": [
-   "Adolescentul",
-   "Părinții"
-  ],
-  "summary": {
-   "ro": "Monolog despre adolescență și neînțelegerile cu părinții.",
-   "en": "A monologue about adolescence and misunderstandings with parents."
-  },
-  "origin": "romanian",
-  "year": 2008
- },
- {
-  "id": "vanzatoarea-elise-wilk",
-  "title": "Vânzătoarea",
-  "author": "Elise Wilk",
-  "genre": "poveste",
-  "themes": [
-   "munca",
-   "singuratate"
-  ],
-  "characters": [
-   "Vânzătoarea"
-  ],
-  "summary": {
-   "ro": "Portretul unei vânzătoare rebele, într-o poveste despre oameni și ciudățeniile lor.",
-   "en": "A portrait of a rebellious shop assistant in a series about people and their oddities."
-  },
-  "origin": "romanian",
-  "year": 2008
  },
  {
   "id": "piatra-cea-fierbinte",
@@ -30455,7 +29254,7 @@
  {
   "id": "ciocarlia-vulpea-si-ogarul",
   "title": "Ciocârlia, vulpea și ogarul",
-  "author": "Folclor românesc",
+  "author": "folclor românesc",
   "genre": "poveste",
   "themes": [
    "animale",
@@ -31485,7 +30284,10 @@
    "ro": "Peter Munk, un cărbunar sărac din Pădurea Neagră, își vinde inima pentru bogăție și învață că averea fără bunătate nu-i aduce fericirea.",
    "en": "Peter Munk, a poor charcoal burner in the Black Forest, trades his heart for wealth and learns that riches without kindness cannot bring him happiness."
   },
-  "addedAt": "2026-11-23"
+  "addedAt": "2026-11-23",
+  "altTitles": [
+   "Inima de piatră"
+  ]
  },
  {
   "id": "legenda-de-pe-valea-cernei",
@@ -31521,74 +30323,6 @@
   "summary": {
    "ro": "O legendă românească despre Piatra Craiului, în care mitologia și istoria se împletesc, iar eroii și ființele mitologice trăiesc în armonie cu muntele.",
    "en": "A Romanian legend about Piatra Craiului, where mythology and history meet and heroes and mythical creatures live in harmony with the mountain."
-  },
-  "addedAt": "2026-11-23"
- },
- {
-  "id": "sarlatanul-si-bolnavul",
-  "title": "Șarlatanul și bolnavul",
-  "author": "Grigore Alexandrescu",
-  "genre": "poveste",
-  "origin": "romanian",
-  "themes": [
-   "inselaciune",
-   "exploatare",
-   "credulitate",
-   "demagogie"
-  ],
-  "characters": [
-   "Negustorul bolnav",
-   "Doctorul șarlatan"
-  ],
-  "summary": {
-   "ro": "Un doctor cu diplome inventate îi leagă ochii unui negustor și îi fură treptat bunurile; după o săptămână, negustorul descoperă că a rămas fără ele.",
-   "en": "A doctor with fabricated credentials treats a merchant by bandaging his eyes, then gradually steals his valuables; after a week, the merchant finds them gone."
-  },
-  "addedAt": "2026-11-23"
- },
- {
-  "id": "privighetoarea-si-magarul",
-  "title": "Privighetoarea și măgarul",
-  "author": "Grigore Alexandrescu",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 1838,
-  "themes": [
-   "critica-nepriceputa",
-   "aroganta",
-   "discernamant"
-  ],
-  "characters": [
-   "Privighetoarea",
-   "Măgarul"
-  ],
-  "summary": {
-   "ro": "Un măgar îi critică privighetorii cântecul și îi propune propria cântare drept model. Ea respinge sfatul, spunând că l-ar urma doar dacă ar vrea să ajungă măgar.",
-   "en": "A donkey criticizes a nightingale’s song and offers his own as a model. She rejects the advice, saying she would become a donkey if she followed it."
-  },
-  "addedAt": "2026-11-23"
- },
- {
-  "id": "vulpea-calul-si-lupul",
-  "title": "Vulpea, calul și lupul",
-  "author": "Grigore Alexandrescu",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 1838,
-  "themes": [
-   "prudenta",
-   "viclenie",
-   "lingusire",
-   "autoprotectie"
-  ],
-  "characters": [
-   "Vulpea",
-   "Calul",
-   "Lupul"
-  ],
-  "summary": {
-   "ro": "O vulpe lingușește un cal și ademenește un lup să se apropie. Calul pricepe primejdia și îl lovește, iar fabula arată că omul înțelept se ferește de necunoscut.",
-   "en": "A fox flatters a horse and lures a wolf closer. The horse recognizes the danger and kicks him; the fable concludes that the wise avoid the unknown."
   },
   "addedAt": "2026-11-23"
  }

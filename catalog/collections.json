@@ -960,7 +960,6 @@
   "code": "CS 042",
   "url": "https://www.discogs.com/release/6891418",
   "items": [
-   "marasesti-disc",
    "la-scaldat-disc"
   ],
   "description": {
@@ -1045,7 +1044,6 @@
    "zeii-din-olimp-episodul-3-lupta-cu-titanii-2001",
    "zeii-din-olimp-episodul-4-zeus-prometeu-oamenii-2001",
    "zeii-din-olimp-episodul-5-potopul-2001",
-   "zeii-din-olimp-episodul-6-iubirile-lui-zeus-2001",
    "zeii-din-olimp-episodul-7-hera-2001",
    "zeii-din-olimp-episodul-8-artemis-2001",
    "zeii-din-olimp-episodul-9-apollo-2001",
@@ -1451,7 +1449,6 @@
    "tapul-si-cocosul-itsy",
    "gradina-botanica-itsy",
    "iepurasul-care-nu-spune-niciodata-multumesc-itsy",
-   "copiii-coloreaza-viata-itsy",
    "maimutica-miky-itsy",
    "ziua-sporturilor-itsy"
   ],
@@ -1701,7 +1698,6 @@
    "aleodor-imparat-gong-soptite",
    "flautistul-din-hamelin-gong-soptite",
    "punguta-cu-doi-bani-gong-soptite",
-   "soacra-cu-trei-nurori-gong-soptite",
    "cei-sapte-corbi-gong-soptite",
    "alba-ca-zapada-gong-soptite",
    "matusica-holle-gong-soptite",
@@ -1721,8 +1717,8 @@
    "cele-sase-rodii-aurite-gong-soptite"
   ],
   "description": {
-   "ro": "Selecție de 68 de basme și povești clasice din literatura română și universală, citite de actorii Teatrului „Gong” din Sibiu.",
-   "en": "A curated selection of 68 classic Romanian and world fairy tales read aloud by actors of the “Gong” Theatre in Sibiu."
+   "ro": "Selecție de basme și povești clasice din literatura română și universală, citite de actorii Teatrului „Gong” din Sibiu.",
+   "en": "A curated selection of classic Romanian and world fairy tales read aloud by actors of the “Gong” Theatre in Sibiu."
   }
  },
  {
@@ -2158,19 +2154,6 @@
   }
  },
  {
-  "id": "povestiri-din-provincia-de-altadata",
-  "sourceId": "arhiva-maia-martin",
-  "title": "Povestiri din provincia de altădată (Ion Agârbiceanu)",
-  "items": [
-   "milionul-agarbiceanu-arhiva",
-   "cum-ne-inselam-agarbiceanu-arhiva"
-  ],
-  "description": {
-   "ro": "Înregistrarea „Povestiri din provincia de altădată” după Ion Agârbiceanu, cu 2 povestiri, din colecția Biblioteca Maia Martin de pe Internet Archive.",
-   "en": "The recording “Povestiri din provincia de altădată” after Ion Agârbiceanu, with 2 stories, from the Biblioteca Maia Martin collection on the Internet Archive."
-  }
- },
- {
   "id": "radio-moldova-teatru-copii",
   "sourceId": "radio-moldova",
   "title": "Radio Moldova – Teatru la microfon pentru copii",
@@ -2285,66 +2268,23 @@
   "url": "https://legendeledobrogei.ro/spectacole/",
   "items": [
    "visul-sultanului-la-babadag-legendele-dobrogei-2023",
-   "fantana-de-leac-din-muntii-macinului-legendele-dobrogei-2023",
    "legenda-comunei-ciocarlia-legendele-dobrogei-2023",
    "comoara-din-insula-fara-nume-legendele-dobrogei-2023",
-   "padurea-mortii-de-la-almalau-legendele-dobrogei-2023",
    "insula-lui-ovidiu-legendele-dobrogei-2023",
    "sfantul-foca-si-musulmanii-legendele-dobrogei-2023",
-   "cap-caliacra-legenda-piratului-ac-baba-legendele-dobrogei-2023",
    "muntele-fericirii-de-la-tatlageac-legendele-dobrogei-2023",
    "sarichioi-si-legenda-vitei-de-vie-legendele-dobrogei-2023",
    "soleiman-magnificul-si-comoara-de-la-kustenge-legendele-dobrogei-2023",
    "cismeaua-beiului-si-ciuta-ranita-legendele-dobrogei-2023",
-   "stejarul-ingenunchiat-de-la-caraorman-legendele-dobrogei-2023",
-   "samca-samodiva-duhul-de-pe-pacuiul-lui-soare-legendele-dobrogei-2023",
    "ronciu-si-frumoasa-aise-legendele-dobrogei-2023",
    "satul-lui-topal-schiopul-legendele-dobrogei-2023",
    "calugarul-liinad-si-dervisul-legendele-dobrogei-2023",
    "legenda-marelui-lup-alb-legendele-dobrogei-2023",
-   "legenda-lacului-tuzla-legendele-dobrogei-2023",
-   "padurea-mireselor-si-frumoasa-furnica-legendele-dobrogei-2023"
+   "legenda-lacului-tuzla-legendele-dobrogei-2023"
   ],
   "description": {
-   "ro": "De la Babadag la țărmul Mării Negre, douăzeci de legende dobrogene, în ordinea difuzării la radio.",
-   "en": "From Babadag to the Black Sea coast, twenty Dobrujan legends in their original broadcast order."
-  }
- },
- {
-  "id": "jonathan-gullible",
-  "title": "Aventurile lui Jonathan Gullible",
-  "type": "series",
-  "sourceId": "radioactiv-3g",
-  "url": "https://3ghub.ro/product/aventurile-lui-jonathan-gullible-o-odisee-liber-schimbista/",
-  "items": [
-   "jonathan-gullible-o-mare-furtuna-3g",
-   "jonathan-gullible-cei-care-o-cauta-cu-lumanarea-3g",
-   "jonathan-gullible-o-tragedie-comuna-3g"
-  ],
-  "description": {
-   "ro": "Primele trei aventuri ale lui Jonathan, după cartea lui Ken Schoolland. Pe o insulă necunoscută, întâlnește localnici și află regulile după care trăiesc.",
-   "en": "Jonathan’s first three adventures, adapted from Ken Schoolland’s book. On an unfamiliar island, he meets the locals and learns the rules they live by."
-  }
- },
- {
-  "id": "s-a-intamplat-intr-o-joi-3g",
-  "title": "S-a întâmplat într-o joi (8 povești)",
-  "type": "series",
-  "sourceId": "radioactiv-3g",
-  "url": "https://3ghub.ro/product/3g-radioactiv/",
-  "items": [
-   "somerul-3g-radioactiv",
-   "studenta-3g-radioactiv",
-   "elevul-3g-radioactiv",
-   "menajera-3g-radioactiv",
-   "secretara-3g-radioactiv",
-   "taximetristul-3g-radioactiv",
-   "adolescentul-3g-radioactiv",
-   "vanzatoarea-3g-radioactiv"
-  ],
-  "description": {
-   "ro": "Opt povești de Elise Wilk despre singurătate și nevoia de a fi auziți, interpretate de actorii 3g HUB.",
-   "en": "Eight stories by Elise Wilk about loneliness and the need to be heard, performed by 3g HUB actors."
+   "ro": "De la Babadag la țărmul Mării Negre, legende dobrogene potrivite pentru copii, în ordinea difuzării la radio.",
+   "en": "From Babadag to the Black Sea coast, Dobrujan legends suited to children, in their original broadcast order."
   }
  }
 ]

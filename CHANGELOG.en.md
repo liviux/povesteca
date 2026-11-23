@@ -2,6 +2,18 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.20.1] - 2026-11-23
+
+### Removed
+- Removed 48 stories that weren't right for children: satire and comedy for adults, stories about suicide, murder or infidelity, the harshest Dobruja legends, and 3g RadioActiv's eight 13+ monologues.
+- The 3g RadioActiv and Teatrul Stela Popescu sources are gone, since they were left with three recordings or fewer.
+
+### Fixed
+- Merged 13 stories that were the same tale under another title, such as “Spiridușii” and “Darul spiridușilor” or “Rapunzel” and “Sălățica”.
+- The same actor no longer shows up under two spellings (Florian Pittiș and Florian Pitis, for example), and “X and others” is no longer treated as one name.
+- Some darker recordings, such as “Barbă Albastră”, “Oliver Twist” and “Hanul Ancuței”, now have a higher recommended age.
+- Corrected titles, including “Cei trei mușchetari” and “Penelul fermecat”.
+
 ## [1.20.0] - 2026-11-23
 
 ### Added

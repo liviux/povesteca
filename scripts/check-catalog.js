@@ -101,6 +101,12 @@ for (const v of versions) {
   }
 }
 
+// a source with 3 recordings or fewer is removed completely (AGENTS.md)
+for (const src of sources) {
+  const n = versions.filter((v) => v.sourceId === src.id).length;
+  if (n <= 3) err(`source ${src.id}: only ${n} recordings (a source needs more than 3)`);
+}
+
 const inCol = new Map();
 for (const c of collections) {
   if (!SRC.has(c.sourceId)) err(`collection ${c.id}: unknown sourceId`);

@@ -8,9 +8,9 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 ## Ce fel de povești găsești
 
-Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog.
+Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română și potrivite pentru copii.
 
-Acum sunt 1350 de povești și 1651 de înregistrări, din 29 de surse gratuite:
+Acum sunt 1348 de povești și 1674 de înregistrări, din 27 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -24,11 +24,9 @@ Acum sunt 1350 de povești și 1651 de înregistrări, din 29 de surse gratuite:
 - [Teatrul de Păpuși „Puck” Cluj-Napoca](https://teatrulpuck.ro/audiopuck-2/) (audio direct MP3, AudioPuck)
 - [Teatrul pentru Copii și Tineret „Gong” Sibiu](https://teatrulgong.ro/podcast) (audio direct MP3 și YouTube oficial)
 - [Somnoroși Povești Audio](https://somnorosi.ro) (audio direct MP3, episoadele gratuite cu Mihaela Tatu)
-- [Asociația Arteka (Teatru Radiofonic pentru Copii)](https://podcasters.spotify.com/pod/show/asociatia-arteka5) (audio direct MP3, actori ieșeni)
 - [Cutiuța cu povești & Povești ascultătoare](https://www.youtube.com/@CutiutaMuzicalaOficial) (audio direct și YouTube oficial, cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea)
 - [Pippin cel Curios („De vorbă cu patrimoniul”)](https://pippincelcurios.ro/) (audio direct MP3, povești dramatizate pe roluri)
 - [Teatru Radiofonic](https://www.youtube.com/@teatruradiofonic6362) (YouTube)
-- [Electrecord](https://www.youtube.com/@Electrecord-Romania) (YouTube)
 - [Teatru Subtitrat](https://www.youtube.com/playlist?list=PLPr2UQwCNy3kz-JkNoXZoKXcb3K0lW34h) (YouTube)
 - [Teatru pe Vinil](https://www.youtube.com/@TeatruPeVinil) (YouTube)
 - [Itsy Bitsy & Leon Magdan](https://www.youtube.com/@RadioItsyBitsy) (YouTube)
@@ -37,10 +35,10 @@ Acum sunt 1350 de povești și 1651 de înregistrări, din 29 de surse gratuite:
 - [Opera Comică pentru Copii](https://www.youtube.com/channel/UCugenozY7jOD2yUHIQU4awA) (YouTube, „Povești cu Bubu”)
 - [MiniREACTOR & Radio Cluj](https://www.youtube.com/playlist?list=PL60ohYFl3MjZphRgScTHpvHd7OfAhHLwY) (YouTube, teatru radiofonic contemporan)
 - [Teatrul pentru Copii și Tineret „Colibri” Craiova](https://www.youtube.com/@TeatrulColibriCraiova) (YouTube, teatru radiofonic)
-- [Legendele Dobrogei](https://legendeledobrogei.ro/spectacole/) (20 de spectacole radiofonice, pe YouTube)
-- [3g RadioActiv](https://3ghub.ro/product/3g-radioactiv/) („Aventurile lui Jonathan Gullible” și „S-a întâmplat într-o joi”, audio direct și YouTube)
-- [AUZIT. Teatru Radiofonic](https://www.auzit.online/episoade) („Broscoiul”, pe YouTube)
+- [Legendele Dobrogei](https://legendeledobrogei.ro/spectacole/) (spectacole radiofonice, pe YouTube)
 - [LaTimp.eu](https://latimp.eu/category/teatru-audio-copii/) (montări din arhiva Radio România, audio direct)
+- [Povești alese](https://www.youtube.com/@mihaiamarie7370) (YouTube)
+- [MiniPovești](https://minipovesti.ro/) (audio direct MP3 și YouTube)
 
 O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compari după durată, tip de producție și distribuție. Micul Prinț, de exemplu, are două montări diferite. Unele detalii, cum ar fi vârsta potrivită, atmosfera sau cât de multe efecte sonore are o înregistrare, sunt estimate și apar cu semnul „≈”.
 
@@ -68,7 +66,6 @@ Ce s-a schimbat de la o versiune la alta e în [CHANGELOG.md](CHANGELOG.md) (în
 |---|---|
 | Internet Archive & Audio direct | Redare directă din fișier MP3/MP4 sau flux audio HLS (`.m3u8`): pauză, derulare, viteză, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
 | YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, viteză, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul. E regula lor și aplicația n-o ocolește. |
-| Altă sursă | Buton „Deschide la sursă”. |
 
 Când o înregistrare are mai multe linkuri, alegi din player pe care îl asculți. Dacă un link nu mai pornește, playerul încearcă alt link al aceleiași înregistrări. Când nu mai are niciunul, arată butonul spre sursă.
 
@@ -119,18 +116,6 @@ O poveste nouă, cu o înregistrare:
   "estimated": ["sfx", "moods", "age"],
   "addedAt": "2026-11-22" }
 ```
-
-Reguli:
-
-- **O producție înseamnă o singură înregistrare**, chiar dacă e urcată în mai multe locuri. Linkurile în plus merg în același `links`, iar playerul trece la următorul dacă primul nu mai merge. O sursă în plus e binevenită, pentru că povestea pornește și când una dispare. Ordinea preferată e audio direct, apoi YouTube, iar Internet Archive la final ca rezervă (înregistrările de pe Internet Archive sunt adesea transferuri de amator, pe când celelalte surse au de obicei sunet de studio).
-- **Ce nu știi, lași gol.** Câmpurile lipsă nu apar în pagină.
-- **Ce e ghicit se trece în `estimated`.** Pagina arată un „≈” lângă valoarea respectivă.
-- `duration` e în secunde. Când o înregistrare cuprinde mai multe povești, fiecare poveste intră separat, cu `start` și `end` (în secunde) verificate, astfel încât playerul să pornească singur de unde începe povestea aleasă și să se oprească la finalul ei.
-- `quality` (1–5) arată cât de bogată e producția (distribuție, muzică, regie), nu cât de populară e. Nu apare în pagină; ajută doar la ordinea „Recomandate”.
-- `"cover": false` e pentru înregistrările care n-au copertă la sursă. Fără el, archive.org arată în loc de copertă o formă de undă neagră; cu el, aplicația pune inițiala poveștii pe un fundal colorat.
-- Valorile permise pentru `kind`, `voices`, `sfx`, `music`, `moods` și `genre` sunt în `scripts/check-catalog.js`.
-- **Copertele pot fi orice, inclusiv imagini făcute cu AI. Sunetul nu**: vocile, narațiunea și muzica sunt ale unor oameni.
-- După ce adaugi povești sau nume în distribuție, rulează `node scripts/wiki.js`. Caută pe Wikidata fiecare om și fiecare carte, îmbină completările verificate din `catalog/wiki-manual.json` (linkuri Wikipedia, Goodreads și fotografii din surse deschise care nu sunt pe Wikidata) și păstrează doar potrivirile sigure. Fotografiile au doar licențe care permit refolosirea cu credit într-un proiect non-comercial — domeniu public, CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, GFDL, Free Art License, Open Government Licence sau altă licență clar liberă — cu autor, licență și link către sursă la finalul paginii persoanei.
 
 Numele fișierului audio și durata unei înregistrări de pe archive.org le găsești la `https://archive.org/metadata/IDENTIFICATOR` (câmpul `length`). Înainte să trimiți un pull request, rulează `npm run check`: verifică legăturile dintre fișiere, valorile permise și linkurile care apar la două înregistrări.
 
