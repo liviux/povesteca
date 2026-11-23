@@ -37,7 +37,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 - **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
 - **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, actor, sursă și disc sau colecție, apoi ordonezi rezultatele.
 - **Pagină pentru fiecare autor**: apasă pe numele autorului pe pagina poveștii sau a înregistrării ca să îi vezi toate poveștile.
-- **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas.
+- **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas. Viteza se schimbă de la 0,5× la 2×.
 - **„Surprinde-mă!”** alege o poveste la întâmplare, potrivită filtrelor tale.
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
 - **Ale mele**: favorite, lista „De ascultat” și istoricul.
@@ -54,15 +54,15 @@ Ce s-a schimbat de la o versiune la alta e în [CHANGELOG.md](CHANGELOG.md) (în
 
 | Sursa | Ce merge |
 |---|---|
-| Internet Archive & Audio direct | Redare directă din fișier MP3/MP4: pauză, derulare, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
-| YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul. E regula lor și aplicația n-o ocolește. |
+| Internet Archive & Audio direct | Redare directă din fișier MP3/MP4: pauză, derulare, viteză, poziția salvată, controale pe ecranul blocat, temporizator cu stingere treptată. |
+| YouTube | Playerul oficial YouTube, vizibil în pagină: pauză, derulare, viteză, poziția salvată, temporizator. Pe telefon, YouTube se oprește când blochezi ecranul. E regula lor și aplicația n-o ocolește. |
 | Altă sursă | Buton „Deschide la sursă”. |
 
 Dacă un link nu mai pornește, playerul încearcă alt link al aceleiași înregistrări. Când nu mai are niciunul, arată butonul spre sursă.
 
 ## Ce date se păstrează
 
-- Favoritele, istoricul, poziția din fiecare poveste, filtrele, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
+- Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, filtrele, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
 - Nu există conturi, cookie-uri proprii sau statistici de trafic.
 - Pagina încarcă fonturile de la Google Fonts, copertele, sunetul și playerul video de la Internet Archive și YouTube, iar fotografiile oamenilor de la Wikimedia Commons.

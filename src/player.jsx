@@ -83,6 +83,7 @@ function startAudio(v, l, at) {
   }
   audio.volume = 1;
   audio.src = audioUrl(l) + (at ? `#t=${Math.floor(at)}` : '');
+  audio.defaultPlaybackRate = audio.playbackRate = state.rate; // a new src resets playbackRate to the default
   audio.play().catch(() => setPlayer({ status: 'paused' }));
 }
 
@@ -103,7 +104,8 @@ async function startYouTube(v, l, at) {
     host: 'https://www.youtube-nocookie.com', videoId: l.id, width: '100%', height: '100%',
     playerVars: { start: Math.floor(at), ...(v.end ? { end: v.end } : {}), autoplay: 1, playsinline: 1, rel: 0 },
     events: {
-      onReady: (e) => e.target.playVideo(),
+      onReady: (e) => { e.target.setPlaybackRate(state.rate); e.target.playVideo(); },
+      onPlaybackRateChange: (e) => set({ rate: e.data }), // changed from YouTube's own settings menu
       onStateChange: (e) => {
         const S = window.YT.PlayerState;
         if (e.data === S.PLAYING) setPlayer({ status: 'playing' });
@@ -149,6 +151,12 @@ export function toggle() {
 export function seekTo(t) {
   if (isAudio(engineType()) && audio) audio.currentTime = t; else yt?.seekTo?.(t, true);
   tick(t);
+}
+export const RATES = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
+export function setRate(r) {
+  set({ rate: r });
+  if (audio) audio.defaultPlaybackRate = audio.playbackRate = r;
+  yt?.setPlaybackRate?.(r);
 }
 export const seekBy = (d) => seekTo(Math.max(0, Math.min(clock.duration || 1e9, clock.time + d)));
 export function closePlayer() {
@@ -258,10 +266,13 @@ export function Dock() {
           <div class="dock-side">
             {v.links.length > 1 && (
               <button type="button" class="dock-switch" title={`${t.switchSource} (${mirrorName})`} aria-label={`${t.switchSource} (${p.link + 1}/${v.links.length})`} onClick={() => switchLink()}>
-                {`${p.link + 1}/${v.links.length} · ${t.switchShort}`}
+                <span class="n">{`${p.link + 1}/${v.links.length} · `}</span>{t.switchShort}
               </button>
             )}
             <SleepChip />
+            <select class={'dock-rate' + (s.rate !== 1 ? ' on' : '')} aria-label={t.speed} title={t.speed} value={s.rate} onChange={(e) => setRate(+e.currentTarget.value)}>
+              {RATES.map((r) => <option value={r}>{r.toLocaleString(s.lang) + '×'}</option>)}
+            </select>
             <button type="button" class="icon-btn" aria-label={t.night} onClick={() => setPlayer({ night: true })}><Icon n="moon" /></button>
             <button type="button" class="icon-btn" aria-label={t.closePlayer} onClick={closePlayer}><Icon n="close" /></button>
           </div>

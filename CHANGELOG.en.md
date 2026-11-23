@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.6.0] - 2026-11-23
+
+### Added
+- **Playback speed** in the player: the “1×” button next to the moon changes the speed from 0.5× to 2× in quarter steps. It works on YouTube and on audio files, and the chosen speed carries over to the next story.
+
+### Changed
+- On phones, the player's “Other source” button is shorter, so it fits next to the speed.
+
 ## [1.5.1] - 2026-11-23
 
 ### Changed

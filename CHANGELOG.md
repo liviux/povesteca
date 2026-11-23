@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.6.0] - 2026-11-23
+
+### Added
+- **Viteza de redare** în player: butonul „1×”, lângă lună, schimbă viteza de la 0,5× la 2×, din sfert în sfert. Merge și pe YouTube, și pe fișierele audio, iar viteza aleasă rămâne și la următoarea poveste.
+
+### Changed
+- Pe telefon, butonul „Altă sursă” din player e mai scurt, ca să încapă lângă viteză.
+
 ## [1.5.1] - 2026-11-23
 
 ### Changed

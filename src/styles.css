@@ -466,7 +466,11 @@ dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
 .dock-side { grid-area: side; display: flex; align-items: center; gap: 4px; }
 .dock-switch { display: inline-flex; align-items: center; gap: 4px; min-height: 36px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface-2); color: var(--ink); font-size: 13px; font-weight: 800; white-space: nowrap; cursor: pointer; }
 .dock-switch:hover { border-color: var(--ink); }
-@media (max-width: 480px) { .dock-switch { padding: 4px 8px; font-size: 12px; } }
+@media (max-width: 480px) { .dock-switch { padding: 4px 8px; font-size: 12px; } .dock-switch .n { display: none; } }
+@media (max-width: 360px) { .dock-bar { column-gap: 6px; } .dock-side { gap: 2px; } }
+.dock-rate { min-width: 44px; height: 44px; padding: 0 6px; border: 0; border-radius: 12px; background: none; color: var(--ink); font: inherit; font-size: 14px; font-weight: 800; text-align: center; -webkit-appearance: none; appearance: none; cursor: pointer; }
+.dock-rate:hover { background: var(--surface-2); }
+.dock-rate.on { background: var(--surface-2); box-shadow: inset 0 0 0 1.5px var(--line); }
 .controls { display: flex; align-items: center; gap: 4px; }
 .controls .skip { display: none; }
 .controls .skip small { position: absolute; font-size: 9px; font-weight: 800; top: 50%; left: 50%; transform: translate(-50%, -38%); }
