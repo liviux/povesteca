@@ -8,7 +8,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 ## Ce fel de povești găsești
 
-Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
+Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Înregistrările cu voci generate cu AI sau sintetice și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
 Acum sunt 1287 de povești și 1595 de înregistrări, din 25 de surse gratuite:
 

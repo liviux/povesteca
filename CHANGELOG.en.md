@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.24.1] - 2026-11-24
+
+### Changed
+- Clearer rule: no recording with AI-generated voices joins the catalogue, not even for a single character in an otherwise human-acted production.
+
 ## [1.24.0] - 2026-11-24
 
 ### Added

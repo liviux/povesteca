@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.24.1] - 2026-11-24
+
+### Changed
+- Regulă mai clară: în catalog nu intră înregistrări cu voci generate cu AI, nici măcar pentru un singur personaj dintr-o producție cu actori.
+
 ## [1.24.0] - 2026-11-24
 
 ### Added
