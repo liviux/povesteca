@@ -707,6 +707,9 @@
 @media (min-width: 640px) { [data-theme='abtibild'] .shelf { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (min-width: 960px) { [data-theme='abtibild'] .shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 [data-theme='abtibild'] .shelves .shelf:has(> :nth-child(10)) > :is(:nth-child(1), :nth-child(8)) { grid-column: span 2; grid-row: span 2; }
+/* a big sticker spans two rows: its picture grows to fill them, so no empty band is left under the text */
+[data-theme='abtibild'] .shelves .shelf:has(> :nth-child(10)) > :is(:nth-child(1), :nth-child(8)) .card-link { display: flex; flex-direction: column; }
+[data-theme='abtibild'] .shelves .shelf:has(> :nth-child(10)) > :is(:nth-child(1), :nth-child(8)) .cover { aspect-ratio: auto; flex: 1; min-height: 200px; }
 [data-theme='abtibild'] .shelves .shelf > :nth-child(n + 11) { display: none; }
 @media (min-width: 640px) and (max-width: 959px) { [data-theme='abtibild'] .shelves .shelf > :nth-child(n + 10) { display: none; } }
 [data-theme='abtibild'] .card { rotate: -2deg; }

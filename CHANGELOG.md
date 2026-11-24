@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.24.5] - 2026-11-24
+
+### Fixed
+- În tema Abțibilduri, abțibildurile mari de pe rafturi nu mai au o bandă goală sub text: poza crește cât să le umple.
+
 ## [1.24.4] - 2026-11-24
 
 ### Added

@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.24.5] - 2026-11-24
+
+### Fixed
+- In the Stickers theme, the big stickers on the shelves no longer have an empty band under the text: the picture grows to fill them.
+
 ## [1.24.4] - 2026-11-24
 
 ### Added
