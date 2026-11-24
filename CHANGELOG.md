@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.22.1] - 2026-11-24
+
+### Changed
+- La poveștile de pe YouTube, video-ul apare acum într-un pătrat mic, de 200×200, în dreapta, deasupra playerului. Pe telefon nu mai ocupă toată lățimea ecranului, iar pe calculator e mai mic decât înainte.
+
 ## [1.22.0] - 2026-11-24
 
 ### Removed

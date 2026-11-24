@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.22.1] - 2026-11-24
+
+### Changed
+- For stories played from YouTube, the video now sits in a small 200×200 square on the right, above the player. On phones it no longer takes the full width of the screen, and on computers it is smaller than before.
+
 ## [1.22.0] - 2026-11-24
 
 ### Removed
