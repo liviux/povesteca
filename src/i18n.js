@@ -126,7 +126,7 @@ export const label = (group, value, lang = 'ro') => ENUMS[group]?.[value]?.[lang
 const RO = {
   skip: 'Sari la conținut',
   explore: 'Explorează', mine: 'Ale mele', night: 'Noapte bună', theme: 'Temă', otherLang: 'English',
-  themes: { clasic: 'Clasică', baieti: 'Băieți', fete: 'Fete' },
+  themes: { clasic: 'Clasică', plastilina: 'Plastilină', caiet: 'Caiet', galerie: 'Galerie', afis: 'Afiș', harta: 'Hartă', cosmos: 'Cosmos', jeleu: 'Jeleu', vinil: 'Vinil', hartie: 'Hârtie', abtibild: 'Abțibilduri' },
   heroTitle: 'Povești pentru copii, făcute ca să fie ascultate',
   heroSub: 'Teatru radiofonic și discuri de povești, jucate de actori, cu regie, muzică și efecte sonore. Nu e nimic de privit: totul se petrece în imaginația copilului.',
   searchPh: 'Poveste, autor sau actor',
@@ -203,7 +203,7 @@ const EN = {
   ...RO,
   skip: 'Skip to content',
   explore: 'Browse', mine: 'My stuff', night: 'Good night', theme: 'Theme', otherLang: 'Română',
-  themes: { clasic: 'Classic', baieti: 'Boys', fete: 'Girls' },
+  themes: { clasic: 'Classic', plastilina: 'Clay', caiet: 'Notebook', galerie: 'Gallery', afis: 'Playbill', harta: 'Map', cosmos: 'Space', jeleu: 'Jelly', vinil: 'Vinyl', hartie: 'Paper', abtibild: 'Stickers' },
   heroTitle: 'Romanian children\'s stories, made for listening',
   heroSub: 'Radio plays and story records performed by actors, with direction, music and sound effects. There is nothing to watch: it all happens in the child\'s imagination.',
   searchPh: 'Story, author or actor',

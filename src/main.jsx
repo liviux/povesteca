@@ -8,8 +8,12 @@ import { Changelog } from './changelog.jsx';
 import { REPO, loadDetails } from './data.js';
 import { version } from '../package.json';
 import './styles.css';
+import './themes.css';
 
-const THEMES = ['clasic', 'baieti', 'fete'];
+// in pairs, each pair built on one design guide (see themes.css)
+const THEMES = ['clasic', 'plastilina', 'caiet', 'galerie', 'afis', 'harta', 'cosmos', 'jeleu', 'vinil', 'hartie', 'abtibild'];
+// a theme saved before it was retired (Băieți, Fete) falls back to the classic one
+if (!THEMES.includes(state.theme)) state.theme = 'clasic';
 
 function ThemeMenu() {
   const s = useStore();
@@ -34,6 +38,7 @@ function ThemeMenu() {
               <i /><span>{t.themes[x]}</span>
             </button>
           ))}
+          <hr />
           <button type="button" class="swatch lang-in-menu" lang={s.lang === 'ro' ? 'en' : 'ro'} onClick={() => { set({ lang: s.lang === 'ro' ? 'en' : 'ro' }); setOpen(false); }}>
             <i aria-hidden="true">{s.lang === 'ro' ? 'EN' : 'RO'}</i><span>{t.otherLang}</span>
           </button>

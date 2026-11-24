@@ -1,0 +1,736 @@
+/* ============ Themes ============
+   The classic theme is in styles.css; the ten below come in pairs, each pair built on one design guide:
+   UI UX Pro Max (Plastilină, Caiet), Taste Skill (Galerie, Afiș), Impeccable (Hartă, Cosmos),
+   Emil Kowalski's skills (Jeleu, Vinil) and Hallmark (Hârtie, Abțibilduri).
+   A theme changes colours, letters and where things sit on the page; the page keeps the same content and
+   controls. Each has a dark version for [data-dark] (set by index.html), except Cosmos, which is dark anyway. */
+
+/* ---- Letters used by one theme each (SIL Open Font License, src/fonts/OFL-*.txt). The browser downloads
+   a file only while the theme that uses it shows text in its range, so the other themes don't pay for it. ---- */
+@font-face { font-family: 'Kalam'; font-weight: 700; font-display: swap; src: url('./fonts/kalam-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Kalam'; font-weight: 700; font-display: swap; src: url('./fonts/kalam-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Fraunces'; font-weight: 700; font-display: swap; src: url('./fonts/fraunces-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Fraunces'; font-weight: 700; font-display: swap; src: url('./fonts/fraunces-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Oswald'; font-weight: 500 700; font-display: swap; src: url('./fonts/oswald-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Oswald'; font-weight: 500 700; font-display: swap; src: url('./fonts/oswald-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Grandstander'; font-weight: 800; font-display: swap; src: url('./fonts/grandstander-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Grandstander'; font-weight: 800; font-display: swap; src: url('./fonts/grandstander-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Bowlby One SC'; font-weight: 400; font-display: swap; src: url('./fonts/bowlby-one-sc-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Bowlby One SC'; font-weight: 400; font-display: swap; src: url('./fonts/bowlby-one-sc-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* crooked stickers and taped photos may poke out a pixel past the screen edge; that must not let the page scroll sideways */
+:is([data-theme='caiet'], [data-theme='abtibild']), :is([data-theme='caiet'], [data-theme='abtibild']) body { overflow-x: clip; }
+/* a rotated card turns back straight when the pointer is on it */
+.card { transition: transform .18s ease, box-shadow .18s ease, rotate .18s ease, translate .18s ease; }
+@keyframes spin { to { rotate: 1turn; } }
+
+
+/* =====================================================================================================
+   Plastilină · UI UX Pro Max, "Claymorphism" (children's apps): soft, chunky, toy-like, pastel ground,
+   thick rounded shapes with an inner light and an inner shade, buttons that squash when pressed.
+   Layout: the menu floats in a clay pill, the welcome sits in a big clay blob in the middle,
+   shelves are grids of chunky tiles with the Listen button stuck to the bottom of the picture.
+   ===================================================================================================== */
+[data-theme='plastilina'] {
+  --bg: #edf2fb; --surface: #ffffff; --surface-2: #e2eaf8; --ink: #27304a; --muted: #555f78; --line: #d2dcef;
+  --primary: #c63d31; --primary-ink: #ffffff; --accent: #ffc94d; --accent-ink: #27304a; --focus: #2b67d6;
+  --radius: 30px; --radius-sm: 20px; --btn-radius: 999px; --cover-radius: 24px;
+  --clay: inset 0 -7px 12px rgb(39 48 74 / 9%), inset 0 7px 10px rgb(255 255 255 / 90%);
+  --shadow: 0 14px 26px -14px rgb(39 48 74 / 34%), var(--clay);
+  --shadow-hover: 0 20px 34px -14px rgb(39 48 74 / 40%), var(--clay);
+  --cover-bg: linear-gradient(140deg, #a6d4ff, #6aa3f2);
+  --blob-1: #ffe2d4; --blob-2: #d8f4e4;
+}
+[data-dark][data-theme='plastilina'] {
+  --bg: #1a2032; --surface: #262e46; --surface-2: #303a56; --ink: #f1f4fb; --muted: #aeb8cf; --line: #3b4664;
+  --primary: #ff8b7b; --primary-ink: #2b0d09; --accent: #ffc94d; --accent-ink: #27304a; --focus: #8fb6ff;
+  --clay: inset 0 -7px 12px rgb(0 0 0 / 26%), inset 0 7px 10px rgb(255 255 255 / 7%);
+  --shadow: 0 14px 26px -14px rgb(0 0 0 / 70%), var(--clay);
+  --shadow-hover: 0 20px 34px -14px rgb(0 0 0 / 80%), var(--clay);
+  --cover-bg: linear-gradient(140deg, #5486d6, #2f5aa8);
+  --blob-1: #33304a; --blob-2: #213a3a;
+}
+[data-theme='plastilina'] body { background: radial-gradient(520px 360px at 8% 0, var(--blob-1), transparent 70%) no-repeat, radial-gradient(460px 340px at 96% 12%, var(--blob-2), transparent 70%) no-repeat, var(--bg); }
+[data-theme='plastilina'] :is(h1, h2) { letter-spacing: 0; }
+/* the menu is a clay pill: the whole bar from a tablet up, only the buttons on a phone */
+[data-theme='plastilina'] .site-head { padding-top: 10px; }
+[data-theme='plastilina'] .head-nav { background: var(--surface); border-radius: 999px; padding: 4px; box-shadow: var(--shadow); }
+@media (max-width: 360px) { [data-theme='plastilina'] .head-inner { padding-inline: 8px; } [data-theme='plastilina'] .head-nav { padding: 2px; } }
+@media (min-width: 600px) {
+  [data-theme='plastilina'] .head-inner { width: calc(100% - 24px); background: var(--surface); border-radius: 999px; box-shadow: var(--shadow); padding: 6px 8px 6px 18px; }
+  [data-theme='plastilina'] .head-nav { box-shadow: none; padding: 0; }
+}
+[data-theme='plastilina'] :is(.nav-link, .theme-menu > .icon-btn) { border-radius: 999px; }
+[data-theme='plastilina'] .nav-link[aria-current='page'] { background: var(--accent); color: var(--accent-ink); box-shadow: var(--clay); }
+/* clay buttons: lit on top, shaded below, squashed when pressed */
+[data-theme='plastilina'] :is(.btn, .fav-btn, .chip, .main-play) { border: 0; box-shadow: 0 8px 14px -8px rgb(0 0 0 / 35%), inset 0 -4px 6px rgb(0 0 0 / 12%), inset 0 4px 6px rgb(255 255 255 / 45%); }
+[data-theme='plastilina'] :is(.btn.ghost, .fav-btn, .chip:not([aria-pressed='true'])) { background: var(--surface); box-shadow: 0 8px 14px -8px rgb(0 0 0 / 30%), var(--clay); }
+[data-theme='plastilina'] :is(.btn, .fav-btn, .chip, .main-play, .card-play):active { transform: scale(.94); box-shadow: inset 0 3px 8px rgb(0 0 0 / 18%); }
+[data-theme='plastilina'] .fav-btn.on { box-shadow: inset 0 0 0 3px var(--primary), var(--clay); }
+[data-theme='plastilina'] .search { border: 0; box-shadow: inset 0 3px 8px rgb(0 0 0 / 10%); background: var(--surface-2); }
+[data-theme='plastilina'] .search:focus-within { box-shadow: inset 0 3px 8px rgb(0 0 0 / 10%), 0 0 0 3px var(--focus); }
+/* the welcome: one clay blob in the middle, the logo bobbing on top */
+[data-theme='plastilina'] .hero-inner { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; width: calc(100% - 24px); max-width: 860px; margin-top: 22px; padding: 26px 18px 30px; background: var(--surface); border-radius: 44px; box-shadow: var(--shadow); }
+[data-theme='plastilina'] .hero h1, [data-theme='plastilina'] .hero .lead { margin-inline: auto; }
+[data-theme='plastilina'] .hero-mark { margin-inline: auto; width: 116px; animation: bob 3.4s ease-in-out infinite; }
+@keyframes bob { 50% { translate: 0 -7px; rotate: -3deg; } }
+[data-theme='plastilina'] .hero-box { width: 100%; max-width: 560px; background: none; box-shadow: none; padding: 0; }
+[data-theme='plastilina'] .hero-actions { justify-content: center; }
+/* shelves: chunky tiles in a grid */
+[data-theme='plastilina'] .shelves { padding-top: 32px; }
+[data-theme='plastilina'] .shelf-head h2 { background: var(--surface); padding: 4px 20px 6px; border-radius: 999px; box-shadow: var(--shadow); }
+[data-theme='plastilina'] .shelf { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; margin-inline: 0; padding: 4px 0 0; gap: 18px 14px; }
+@media (min-width: 640px) { [data-theme='plastilina'] .shelf { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 960px) { [data-theme='plastilina'] .shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 22px; } }
+[data-theme='plastilina'] .shelves .shelf > :nth-child(n + 9) { display: none; }
+[data-theme='plastilina'] .card { padding: 8px; container-type: inline-size; }
+[data-theme='plastilina'] .card .cover { border-radius: var(--cover-radius); box-shadow: inset 0 -6px 10px rgb(0 0 0 / 12%); }
+[data-theme='plastilina'] .card-body { padding: 34px 6px 8px; justify-items: center; text-align: center; }
+[data-theme='plastilina'] .card .card-foot { justify-content: center; }
+[data-theme='plastilina'] .card-play { top: calc(8px + 100cqw - 28px); right: 50%; translate: 50% 0; width: 56px; height: 56px; box-shadow: 0 8px 14px -6px rgb(0 0 0 / 40%), inset 0 -4px 6px rgb(0 0 0 / 14%), inset 0 4px 6px rgb(255 255 255 / 60%); }
+[data-theme='plastilina'] .traits li { border-radius: 999px; }
+/* pages */
+[data-theme='plastilina'] .detail-hero { background: var(--surface); border-radius: 40px; padding: 20px; box-shadow: var(--shadow); }
+[data-theme='plastilina'] .detail-hero > .cover { border: 6px solid var(--surface); box-shadow: var(--shadow); rotate: -2deg; }
+[data-theme='plastilina'] .vrow, [data-theme='plastilina'] .src-card { border-radius: 30px; }
+[data-theme='plastilina'] .dock-bar { margin: 0 8px 8px; border: 0; border-radius: 28px; box-shadow: 0 -2px 30px rgb(0 0 0 / 16%), var(--clay); }
+.sw-plastilina i { background: radial-gradient(circle at 34% 28%, #fffc 0 16%, transparent 18%), conic-gradient(#c63d31 0 34%, #ffc94d 0 67%, #6aa3f2 0); box-shadow: inset 0 -3px 4px #0003; }
+
+
+/* =====================================================================================================
+   Caiet · UI UX Pro Max, "Sketch Hand-Drawn" (children's picture-book apps): ruled paper, pencil lines with
+   wobbly corners, hard pencil shadows, handwriting for the titles, a highlighter, tape.
+   Layout: the welcome box is a sticky note, the shelves are photos taped crookedly on the page.
+   In the dark it turns into a chalkboard.
+   ===================================================================================================== */
+[data-theme='caiet'] {
+  --bg: #fdfbf3; --surface: #fffefa; --surface-2: #f3eedd; --ink: #2d2a26; --muted: #5a544d; --line: #d8d0bf;
+  --primary: #1d4fb5; --primary-ink: #ffffff; --accent: #ffe066; --accent-ink: #2d2a26; --focus: #d93636;
+  --radius: 8px; --radius-sm: 6px; --btn-radius: 6px; --cover-radius: 2px;
+  --wobble: 255px 14px 225px 14px / 14px 225px 14px 255px;
+  --wobble-box: 14px 4px 18px 6px / 6px 16px 4px 14px;
+  --pencil: var(--ink);
+  --shadow: 3px 4px 0 var(--pencil); --shadow-hover: 5px 7px 0 var(--pencil);
+  --cover-bg: repeating-linear-gradient(-45deg, #ffcf99 0 10px, #ffe2bd 0 20px);
+  --font-head: 'Kalam', 'Baloo 2', cursive;
+  --rule: #dce8f6; --margin: #f3b1b1; --note: #fff3a1; --tape: rgb(255 224 102 / 78%);
+}
+[data-dark][data-theme='caiet'] {
+  --bg: #24322a; --surface: #2c3c33; --surface-2: #36493e; --ink: #f2f0e6; --muted: #c6cdbf; --line: #4e6556;
+  --primary: #ffe27a; --primary-ink: #24322a; --accent: #ffe27a; --accent-ink: #24322a; --focus: #ff9fb2;
+  --pencil: rgb(0 0 0 / 45%); --cover-bg: repeating-linear-gradient(-45deg, #3d5547 0 10px, #456052 0 20px);
+  --rule: rgb(255 255 255 / 5%); --margin: transparent; --note: #3a5044; --tape: rgb(255 255 255 / 22%);
+}
+[data-theme='caiet'] body { background: repeating-linear-gradient(transparent 0 31px, var(--rule) 31px 32px), var(--bg); }
+@media (min-width: 1000px) { [data-theme='caiet'] body { background: linear-gradient(90deg, transparent 47px, var(--margin) 47px 49px, transparent 49px), repeating-linear-gradient(transparent 0 31px, var(--rule) 31px 32px), var(--bg); } }
+[data-theme='caiet'] :is(h1, h2, h3) { letter-spacing: 0; }
+[data-theme='caiet'] .site-head { border-bottom: 2px dashed var(--ink); }
+[data-theme='caiet'] .brand { rotate: -2deg; }
+[data-theme='caiet'] .nav-link[aria-current='page'] { color: var(--ink); box-shadow: none; outline: 2px solid var(--focus); outline-offset: -4px; border-radius: var(--wobble); }
+/* pencil boxes and buttons */
+[data-theme='caiet'] :is(.btn, .chip, .fav-btn, .pick-btn, .tag, .mirror-btn, .dock-switch) { border: 2px solid var(--ink); border-radius: var(--wobble); }
+[data-theme='caiet'] :is(.btn, .fav-btn):not(:disabled) { box-shadow: 2px 3px 0 var(--pencil); }
+[data-theme='caiet'] :is(.btn, .fav-btn):active { translate: 2px 3px; box-shadow: none; }
+[data-theme='caiet'] .tag { background: var(--surface); }
+[data-theme='caiet'] .tag:hover { background: var(--accent); color: var(--accent-ink); }
+[data-theme='caiet'] :is(.search, .facts, .vrow, .src-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, .combo-field input, .theme-pop, dialog.log) { border: 2px solid var(--ink); border-radius: var(--wobble-box); }
+[data-theme='caiet'] .col-list .fav-row a { border: 0; }
+[data-theme='caiet'] .vrow.best { box-shadow: var(--shadow), inset 0 0 0 3px var(--accent); }
+/* the welcome: a highlighted title, the search on a sticky note */
+[data-theme='caiet'] .hero h1 { text-decoration: underline var(--accent); text-decoration-thickness: .34em; text-underline-offset: -.2em; text-decoration-skip-ink: none; }
+[data-theme='caiet'] .hero-mark { rotate: -6deg; }
+[data-theme='caiet'] .hero-box { position: relative; background: var(--note); padding: 26px 16px 18px; border-radius: 2px; box-shadow: 0 12px 18px -10px rgb(0 0 0 / 35%); rotate: 1.2deg; }
+[data-theme='caiet'] .hero-box::before, [data-theme='caiet'] .card::before { content: ''; position: absolute; z-index: 2; top: -11px; left: 50%; width: 74px; height: 22px; translate: -50% 0; rotate: -4deg; background: var(--tape); box-shadow: 0 1px 2px rgb(0 0 0 / 12%); pointer-events: none; }
+[data-theme='caiet'] .hero-box .search { box-shadow: none; }
+/* shelves: photos taped on the page, each a little crooked */
+[data-theme='caiet'] .shelf-head h2 { text-decoration: underline wavy var(--focus) 2px; text-underline-offset: 8px; }
+[data-theme='caiet'] .shelf { grid-auto-flow: row; grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); overflow: visible; margin-inline: 0; padding: 14px 4px 8px; gap: 30px 16px; }
+@media (min-width: 768px) { [data-theme='caiet'] .shelf { grid-template-columns: repeat(auto-fill, minmax(176px, 1fr)); gap: 36px 28px; } }
+[data-theme='caiet'] .shelves .shelf > :nth-child(n + 9) { display: none; }
+[data-theme='caiet'] .card { padding: 10px 10px 4px; border: 2px solid var(--ink); border-radius: var(--wobble-box); box-shadow: var(--shadow); rotate: -1.6deg; }
+[data-theme='caiet'] .card:nth-child(2n) { rotate: 1.3deg; }
+[data-theme='caiet'] .card:nth-child(3n) { rotate: -.5deg; }
+[data-theme='caiet'] .card:hover { rotate: 0deg; box-shadow: var(--shadow-hover); }
+[data-theme='caiet'] .card .cover { border: 2px solid var(--ink); border-radius: 2px; }
+[data-theme='caiet'] .card-body { padding: 10px 2px 8px; }
+[data-theme='caiet'] .card-title { font-size: 20px; line-height: 1.15; }
+[data-theme='caiet'] .card-kind { text-transform: none; letter-spacing: 0; font-size: 14px; }
+[data-theme='caiet'] .card-play { top: 18px; right: 18px; background: var(--surface); color: var(--ink); border: 2px solid var(--ink); box-shadow: 2px 3px 0 var(--pencil); }
+[data-theme='caiet'] .traits li { background: none; border: 1.5px dashed var(--muted); }
+/* pages: the cover is a taped photo */
+[data-theme='caiet'] .detail-hero > .cover { border: 10px solid var(--surface); outline: 2px solid var(--ink); box-shadow: var(--shadow); rotate: -2deg; }
+[data-theme='caiet'] .dock-bar { border-top: 2px dashed var(--ink); }
+.sw-caiet i { background: repeating-linear-gradient(#fdfbf3 0 5px, #8fb3e0 5px 6px); border: 2px solid #2d2a26; border-radius: 255px 14px 225px 14px / 14px 225px 14px 255px; }
+
+
+/* =====================================================================================================
+   Galerie · Taste Skill: the pictures lead, flat ground, one big piece of type, equal edges, square photos,
+   one button style, quiet hover (a 2px lift, the picture zooms a little).
+   Layout: the menu sits in the middle, the welcome is one huge title, shelves are a gallery wall where the
+   first picture is four times bigger, the footer ends on the name set huge; covers stand on the right.
+   ===================================================================================================== */
+[data-theme='galerie'] {
+  --bg: #f4f1ea; --surface: #fffdf8; --surface-2: #e9e4d8; --ink: #1c1a17; --muted: #5a554c; --line: #d8d1c3;
+  --primary: #1c1a17; --primary-ink: #f4f1ea; --accent: #f05a37; --accent-ink: #1c1a17; --focus: #d9431f;
+  --radius: 4px; --radius-sm: 4px; --btn-radius: 999px; --cover-radius: 3px;
+  --shadow: 0 0 0 1px var(--line); --shadow-hover: 0 0 0 1px var(--line), 0 14px 28px -16px rgb(28 26 23 / 35%);
+  --cover-bg: #cfc6b5;
+  --font-head: 'Fraunces', Georgia, serif;
+}
+[data-dark][data-theme='galerie'] {
+  --bg: #141311; --surface: #1d1b18; --surface-2: #2a2723; --ink: #f1ece2; --muted: #b5ad9f; --line: #39352e;
+  --primary: #f1ece2; --primary-ink: #141311; --accent: #ff7a57; --accent-ink: #141311; --focus: #ff7a57;
+  --shadow: 0 0 0 1px var(--line); --shadow-hover: 0 0 0 1px var(--line), 0 14px 28px -16px rgb(0 0 0 / 80%);
+  --cover-bg: #34302a;
+}
+[data-theme='galerie'] :is(h1, h2) { letter-spacing: -0.025em; }
+[data-theme='galerie'] .site-head { border-bottom: 1px solid var(--ink); }
+/* from a tablet up the name sits in the middle with the menu centred under it, like the sign over a museum door */
+@media (min-width: 900px) { [data-theme='galerie'] .head-inner { flex-direction: column; gap: 4px; padding-block: 16px 8px; } }
+[data-theme='galerie'] .nav-link[aria-current='page'] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--ink); border-radius: 0; }
+[data-theme='galerie'] .btn.ghost { border-color: var(--ink); background: transparent; }
+/* the welcome: one huge title, the search underneath on one line */
+[data-theme='galerie'] .hero-inner { grid-template-columns: minmax(0, 1fr); padding-block: 36px 44px; gap: 30px; }
+[data-theme='galerie'] .hero-mark { display: none; }
+[data-theme='galerie'] .hero h1 { font-size: clamp(40px, 6.8vw, 96px); line-height: 1; letter-spacing: -0.035em; max-width: 13ch; }
+[data-theme='galerie'] .search { border: 0; border-bottom: 2px solid var(--ink); border-radius: 0; background: transparent; box-shadow: none; padding-left: 0; }
+[data-theme='galerie'] .hero-box { background: none; box-shadow: none; padding: 0; }
+@media (min-width: 900px) {
+  [data-theme='galerie'] .hero-text { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); align-items: end; gap: 40px; }
+  [data-theme='galerie'] .hero h1 { max-width: none; }
+  [data-theme='galerie'] .hero .lead { margin: 0 0 12px; }
+  [data-theme='galerie'] .hero-box { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 20px; }
+  [data-theme='galerie'] .hero-actions { flex-wrap: nowrap; }
+  [data-theme='galerie'] .hero-actions .btn, [data-theme='galerie'] .hero-actions .btn.accent { flex: none; padding-inline: 18px; }
+}
+/* shelves: a gallery wall, the first picture as big as four */
+[data-theme='galerie'] .shelves { gap: 52px; }
+[data-theme='galerie'] .shelf-section { border-top: 1px solid var(--ink); padding-top: 14px; }
+[data-theme='galerie'] .shelf-head h2 { font-size: clamp(26px, 3.2vw, 40px); }
+[data-theme='galerie'] .shelf { grid-auto-flow: row dense; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; margin-inline: 0; padding: 4px 0 0; gap: 30px 16px; }
+@media (min-width: 720px) { [data-theme='galerie'] .shelf { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 24px; } }
+@media (min-width: 1040px) { [data-theme='galerie'] .shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+[data-theme='galerie'] .shelves .shelf:has(> :nth-child(9)) > :first-child { grid-column: span 2; grid-row: span 2; }
+[data-theme='galerie'] .shelves .shelf:has(> :nth-child(9)) > :first-child .card-title { font-size: clamp(22px, 2.6vw, 32px); }
+[data-theme='galerie'] .shelves .shelf > :nth-child(n + 10) { display: none; }
+[data-theme='galerie'] .card { background: none; box-shadow: none; border-radius: 0; container-type: inline-size; }
+[data-theme='galerie'] .card:hover { box-shadow: none; transform: translateY(-2px); }
+[data-theme='galerie'] .card .cover { border-radius: var(--cover-radius); }
+[data-theme='galerie'] .card-body { padding: 12px 0 0; }
+[data-theme='galerie'] .card-title { font-size: 19px; }
+[data-theme='galerie'] .card-play { top: calc(100cqw - 58px); right: 10px; background: var(--ink); color: var(--bg); box-shadow: none; }
+[data-theme='galerie'] .traits li { background: none; border: 1px solid var(--line); }
+/* pages: text on the left, the cover on the right */
+@media (min-width: 760px) {
+  [data-theme='galerie'] .detail-hero { grid-template-columns: minmax(0, 1fr) minmax(240px, 360px); gap: 48px; }
+  [data-theme='galerie'] .detail-hero > .cover { order: 2; }
+}
+[data-theme='galerie'] .detail-hero h1 { font-size: clamp(34px, 5.6vw, 68px); }
+/* the footer ends on the name, set huge */
+[data-theme='galerie'] .site-foot { border-top: 1px solid var(--ink); }
+[data-theme='galerie'] .site-foot .wrap::after { content: 'Povesteca' / ''; display: block; margin-top: 28px; font: 700 clamp(54px, 16.5vw, 230px)/.9 var(--font-head); letter-spacing: -0.045em; color: var(--ink); }
+.sw-galerie i { border-radius: 3px; background: linear-gradient(#1c1a17 0 0) 50% 50% / 60% 60% no-repeat, linear-gradient(135deg, #f05a37 50%, #f4f1ea 0); box-shadow: inset 0 0 0 1px #0003; }
+
+
+/* =====================================================================================================
+   Afiș · Taste Skill, second take: a theatre playbill. A dark red band on top, a condensed poster face,
+   square corners, one hard fact set big (the number), cream paper, mustard for the ticket.
+   Layout: the search is a ticket inside the red band, every shelf is a numbered programme in two columns,
+   with the picture small on the right; the page boxes have a double frame.
+   ===================================================================================================== */
+[data-theme='afis'] {
+  --bg: #f5ecd7; --surface: #fffaf0; --surface-2: #ebdcbc; --ink: #211915; --muted: #5c4e44; --line: #d6c4a2;
+  --primary: #9e1f1a; --primary-ink: #fff6e6; --accent: #f0b429; --accent-ink: #211915; --focus: #9e1f1a;
+  --band: #9e1f1a; --band-ink: #fff6e6; --hero-bg: var(--band); --hero-ink: var(--band-ink);
+  --radius: 0px; --radius-sm: 0px; --btn-radius: 0px; --cover-radius: 0px;
+  --shadow: 0 0 0 1px var(--line); --shadow-hover: 0 0 0 1px var(--ink);
+  --cover-bg: linear-gradient(160deg, #c8402f, #7d1612);
+  --font-head: 'Oswald', 'Baloo 2', sans-serif;
+}
+[data-dark][data-theme='afis'] {
+  --bg: #1a1411; --surface: #241c17; --surface-2: #33281f; --ink: #f5ecd7; --muted: #c6b69e; --line: #4a3b2e;
+  --primary: #ff8169; --primary-ink: #1a1411; --accent: #f0b429; --accent-ink: #211915; --focus: #f0b429;
+  --band: #6b1410; --shadow: 0 0 0 1px var(--line); --shadow-hover: 0 0 0 1px var(--ink);
+  --cover-bg: linear-gradient(160deg, #a8352a, #5a100d);
+}
+[data-theme='afis'] :is(h1, h2, h3) { font-weight: 600; letter-spacing: .005em; }
+[data-theme='afis'] .site-head { background: var(--band); color: var(--band-ink); }
+[data-theme='afis'] .brand img:first-child { background: #fef5ea; padding: 3px; }
+[data-theme='afis'] .wordmark { filter: brightness(0) invert(.96); }
+[data-theme='afis'] :is(.nav-link, .theme-menu > .icon-btn):hover { background: rgb(255 255 255 / 14%); }
+[data-theme='afis'] .nav-link[aria-current='page'] { color: var(--band-ink); box-shadow: inset 0 -4px 0 var(--accent); border-radius: 0; }
+[data-theme='afis'] :focus-visible { outline-color: var(--accent); }
+[data-theme='afis'] main :focus-visible, [data-theme='afis'] .theme-pop :focus-visible { outline-color: var(--focus); }
+/* the welcome: a red poster with a ticket on it */
+[data-theme='afis'] .hero { border-bottom: 8px solid var(--accent); }
+[data-theme='afis'] .hero-mark { display: none; }
+[data-theme='afis'] .hero h1 { font-size: clamp(40px, 7.4vw, 92px); line-height: 1.12; text-transform: uppercase; max-width: 14ch; }
+[data-theme='afis'] .hero .lead { opacity: .92; }
+[data-theme='afis'] .hero-box { position: relative; color: var(--ink); background: var(--surface); padding: 22px 26px; outline: 2px dashed var(--line); outline-offset: -10px;
+  mask: radial-gradient(circle 13px at 0 50%, #0000 97%, #000) left / 51% 100% no-repeat, radial-gradient(circle 13px at 100% 50%, #0000 97%, #000) right / 51% 100% no-repeat; }
+[data-theme='afis'] .hero-box .search { box-shadow: none; }
+@media (max-width: 400px) { [data-theme='afis'] .hero-box { padding: 20px 18px; } }
+@media (min-width: 900px) { [data-theme='afis'] .hero-box { rotate: 2deg; padding: 30px 34px; } }
+/* shelves: a numbered programme */
+[data-theme='afis'] .shelf-head { border-bottom: 6px double var(--ink); padding-bottom: 6px; }
+[data-theme='afis'] .shelf-head h2 { text-transform: uppercase; }
+[data-theme='afis'] .shelf { grid-auto-flow: row; grid-template-columns: minmax(0, 1fr); overflow: visible; margin-inline: 0; padding: 0; gap: 0 48px; counter-reset: act; }
+@media (min-width: 900px) { [data-theme='afis'] .shelf { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+[data-theme='afis'] .shelves .shelf > :nth-child(n + 9) { display: none; }
+[data-theme='afis'] .card { background: none; box-shadow: none; border-bottom: 2px dotted var(--ink); counter-increment: act; }
+[data-theme='afis'] .card:hover { transform: none; box-shadow: none; background: var(--surface); }
+[data-theme='afis'] .card-link { display: grid; grid-template-columns: 54px minmax(0, 1fr) 76px; align-items: center; gap: 14px; padding: 14px 64px 14px 0; }
+[data-theme='afis'] .card-link::before { content: counter(act, decimal-leading-zero); font: 600 38px/1 var(--font-head); color: var(--primary); text-align: right; }
+[data-theme='afis'] .card .cover { order: 2; }
+[data-theme='afis'] .card .cover::before { font-size: 30px; }
+[data-theme='afis'] .card:hover .cover img { transform: none; }
+[data-theme='afis'] .card-body { padding: 0; }
+[data-theme='afis'] .card-title { font-size: 21px; font-weight: 500; }
+[data-theme='afis'] .card-kind { letter-spacing: .08em; color: var(--primary); }
+[data-theme='afis'] .card-play { top: 50%; translate: 0 -50%; right: 2px; background: var(--primary); color: var(--primary-ink); box-shadow: none; }
+@media (max-width: 400px) { [data-theme='afis'] .card-link { grid-template-columns: 40px minmax(0, 1fr); padding-right: 56px; } [data-theme='afis'] .card-link::before { font-size: 28px; } [data-theme='afis'] .card .cover { display: none; } }
+/* pages: a double frame, the cover framed in red and mustard */
+[data-theme='afis'] .detail-hero { border: 6px double var(--ink); padding: 18px; background: var(--surface); }
+@media (min-width: 760px) { [data-theme='afis'] .detail-hero { padding: 28px; } }
+[data-theme='afis'] .detail-hero > .cover { border: 5px solid var(--accent); outline: 5px solid var(--primary); outline-offset: 0; margin: 5px; }
+[data-theme='afis'] .detail-hero h1 { font-size: clamp(34px, 5vw, 60px); }
+[data-theme='afis'] .site-foot { background: var(--band); color: var(--band-ink); border: 0; }
+[data-theme='afis'] .site-foot :focus-visible { outline-color: var(--accent); }
+.sw-afis i { border-radius: 0; background: linear-gradient(#9e1f1a 0 58%, #f0b429 0 72%, #f5ecd7 0); box-shadow: inset 0 0 0 1px #0003; }
+
+
+/* =====================================================================================================
+   Hartă · Impeccable: commit to the subject's own world instead of a generic look. Here the world is a
+   treasure map: parchment with contour lines, sepia ink, sea teal, a red pin, covers as postage stamps.
+   Layout: the search is the dashed treasure spot marked with an X, every shelf is a trail with pins,
+   the stops zig-zag on both sides of it.
+   ===================================================================================================== */
+[data-theme='harta'] {
+  --bg: #f3e6c8; --surface: #fbf4e2; --surface-2: #ead8b0; --ink: #3a2816; --muted: #634c33; --line: #d3bb8d;
+  --primary: #1b6570; --primary-ink: #ffffff; --accent: #e8a33b; --accent-ink: #3a2816; --focus: #c2412d;
+  --pin: #c2412d; --stamp: #fffaf0; --contour: rgb(99 76 51 / 9%);
+  --radius: 14px; --radius-sm: 10px; --btn-radius: 12px; --cover-radius: 6px;
+  --shadow: 0 2px 0 rgb(58 40 22 / 10%), 0 10px 22px -14px rgb(58 40 22 / 45%);
+  --shadow-hover: 0 2px 0 rgb(58 40 22 / 12%), 0 16px 30px -14px rgb(58 40 22 / 55%);
+  --cover-bg: radial-gradient(circle at 30% 30%, #7cc2c7, #1b6570);
+}
+[data-dark][data-theme='harta'] {
+  --bg: #0f2427; --surface: #163236; --surface-2: #1e4146; --ink: #f2e6cc; --muted: #bcc6b6; --line: #2f5459;
+  --primary: #f0b84a; --primary-ink: #1a1408; --accent: #f0b84a; --accent-ink: #1a1408; --focus: #ff8f6b;
+  --pin: #ff8f6b; --stamp: #22474c; --contour: rgb(242 230 204 / 6%);
+  --shadow: 0 10px 22px -14px rgb(0 0 0 / 70%); --shadow-hover: 0 16px 30px -14px rgb(0 0 0 / 80%);
+  --cover-bg: radial-gradient(circle at 30% 30%, #3f8f96, #13484f);
+}
+[data-theme='harta'] body { background: repeating-radial-gradient(circle at 10% 14%, transparent 0 26px, var(--contour) 26px 28px), repeating-radial-gradient(circle at 92% 64%, transparent 0 30px, var(--contour) 30px 32px), var(--bg); }
+[data-theme='harta'] .site-head { border-bottom: 3px double var(--line); }
+[data-theme='harta'] .nav-link[aria-current='page'] { color: var(--ink); box-shadow: inset 0 -3px 0 var(--pin); }
+/* the welcome: the search box is the dashed treasure spot, marked with an X */
+[data-theme='harta'] .hero-box { position: relative; border: 3px dashed var(--ink); border-radius: 22px; padding: 22px 18px 18px; background: color-mix(in srgb, var(--surface) 70%, transparent); }
+[data-theme='harta'] .hero-box::after { content: '✕' / ''; position: absolute; top: -26px; right: -8px; font: 800 44px/1 var(--font-head); color: var(--pin); rotate: 10deg; }
+[data-theme='harta'] .hero-box .search { box-shadow: none; }
+@media (min-width: 900px) { [data-theme='harta'] .hero-box { box-shadow: none; } }
+/* covers are postage stamps: a paper edge with round bites taken out */
+[data-theme='harta'] :is(.card, .detail-hero) > :is(.cover, .card-link > .cover), [data-theme='harta'] .card .cover {
+  --r: 4px; border-radius: 0; padding: calc(2.4 * var(--r));
+  background: radial-gradient(var(--r), #0000 96%, var(--stamp)) round calc(-1.5 * var(--r)) calc(-1.5 * var(--r)) / calc(3 * var(--r)) calc(3 * var(--r)), linear-gradient(var(--stamp) 0 0) 50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r)) no-repeat;
+}
+[data-theme='harta'] :is(.card, .detail-hero) .cover::before { inset: calc(2.4 * var(--r)); background: var(--cover-bg); }
+[data-theme='harta'] :is(.card, .detail-hero) .cover img { inset: calc(2.4 * var(--r)); width: calc(100% - 4.8 * var(--r)); height: calc(100% - 4.8 * var(--r)); }
+[data-theme='harta'] .card:hover .cover img { transform: none; }
+/* shelves: a trail with a pin at every stop */
+[data-theme='harta'] .shelf-head h2::before { content: ''; display: inline-block; width: 16px; height: 16px; margin-right: 12px; background: var(--pin); border-radius: 50% 50% 50% 0; rotate: -45deg; vertical-align: 2px; }
+[data-theme='harta'] .shelf { position: relative; grid-auto-flow: row; grid-template-columns: minmax(0, 1fr); overflow: visible; margin-inline: 0; padding: 6px 0 6px 36px; gap: 18px; }
+[data-theme='harta'] .shelf::before { content: ''; position: absolute; left: 12px; top: 0; bottom: 0; border-left: 3px dashed var(--pin); }
+[data-theme='harta'] .shelves .shelf > :nth-child(n + 7) { display: none; }
+[data-theme='harta'] .card::before { content: ''; position: absolute; left: -33px; top: 50%; width: 18px; height: 18px; margin-top: -9px; border-radius: 50%; background: var(--pin); box-shadow: 0 0 0 4px var(--bg); }
+[data-theme='harta'] .card-link { display: grid; grid-template-columns: 96px minmax(0, 1fr); align-items: center; gap: 4px; padding: 10px 64px 10px 10px; }
+[data-theme='harta'] .card-play { top: 50%; translate: 0 -50%; background: var(--primary); color: var(--primary-ink); }
+@media (max-width: 400px) { [data-theme='harta'] .card-link { grid-template-columns: 72px minmax(0, 1fr); padding-right: 58px; } [data-theme='harta'] .card-play { right: 6px; } }
+@media (min-width: 760px) {
+  [data-theme='harta'] .shelf { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 76px; padding: 6px 0 60px; }
+  [data-theme='harta'] .shelf::before { left: 50%; margin-left: -1.5px; }
+  [data-theme='harta'] .shelf > :nth-child(even) { margin-top: 52px; margin-bottom: -52px; }
+  [data-theme='harta'] .card:nth-child(odd)::before { left: auto; right: -47px; }
+  [data-theme='harta'] .card:nth-child(even)::before { left: -47px; }
+}
+/* pages: the cover is a stamp, a little crooked */
+[data-theme='harta'] .detail-hero > .cover { --r: 6px; rotate: -3deg; filter: drop-shadow(0 8px 10px rgb(58 40 22 / 30%)); }
+[data-theme='harta'] .facts { border: 2px dashed var(--line); box-shadow: none; }
+.sw-harta i { background: radial-gradient(circle, #c2412d 0 24%, #f3e6c8 26%); border: 2px dashed #1b6570; }
+
+
+/* =====================================================================================================
+   Cosmos · Impeccable, the bolder take: dark with stars, every story a planet, the logo a glowing moon.
+   Dark in both light and dark mode.
+   Layout: on a computer the menu becomes a column on the left, the welcome is centred under the moon,
+   the shelves are rows of round planets floating up and down.
+   ===================================================================================================== */
+[data-theme='cosmos'], [data-dark][data-theme='cosmos'] {
+  color-scheme: dark;
+  --bg: #0b1430; --surface: #142050; --surface-2: #1d2b63; --ink: #f6f1e4; --muted: #b4bedd; --line: #2c3b79;
+  --primary: #ffd166; --primary-ink: #0b1430; --accent: #ff8f70; --accent-ink: #0b1430; --focus: #ffd166;
+  --radius: 22px; --radius-sm: 14px; --btn-radius: 999px; --cover-radius: 50%;
+  --shadow: 0 0 0 1px rgb(255 255 255 / 6%), 0 14px 30px -14px rgb(0 0 0 / 80%);
+  --shadow-hover: 0 0 0 1px rgb(255 209 102 / 35%), 0 18px 36px -14px rgb(0 0 0 / 90%);
+  --cover-bg: radial-gradient(circle at 32% 28%, #ffb38a, #e0603f 55%, #8a2f3a);
+}
+[data-theme='cosmos'] body { background: radial-gradient(1.5px 1.5px at 24px 34px, #fff 50%, transparent 51%), radial-gradient(1px 1px at 120px 86px, #fffa 50%, transparent 51%), radial-gradient(1.6px 1.6px at 206px 160px, #ffd166 50%, transparent 51%), radial-gradient(1px 1px at 64px 196px, #fff9 50%, transparent 51%), radial-gradient(1.2px 1.2px at 176px 22px, #fffb 50%, transparent 51%), radial-gradient(1px 1px at 236px 236px, #fff7 50%, transparent 51%), var(--bg); background-size: 260px 260px; }
+[data-theme='cosmos'] .brand img:first-child { background: #fef5ea; border-radius: 50%; padding: 6px; }
+[data-theme='cosmos'] .wordmark { filter: brightness(0) invert(.92); }
+/* on a computer the menu is a column on the left */
+@media (min-width: 900px) {
+  [data-theme='cosmos'], [data-dark][data-theme='cosmos'] { --rail: 108px; }
+  [data-theme='cosmos'] body { padding-left: var(--rail); }
+  [data-theme='cosmos'] .site-head { position: fixed; z-index: 21; left: 0; top: 0; bottom: 0; width: var(--rail); background: rgb(11 20 48 / 88%); border-right: 1px solid var(--line); }
+  [data-theme='cosmos'] .head-inner { flex-direction: column; justify-content: flex-start; height: 100%; padding: 16px 8px; gap: 18px; }
+  [data-theme='cosmos'] .wordmark { display: none; }
+  [data-theme='cosmos'] .head-nav { flex-direction: column; flex: 1; width: 100%; gap: 4px; }
+  [data-theme='cosmos'] :is(.nav-link, .theme-menu > .icon-btn) { flex-direction: column; gap: 4px; width: 100%; height: auto; min-height: 66px; padding: 8px 4px; border-radius: 18px; font-size: 13px; line-height: 1.15; text-align: center; }
+  [data-theme='cosmos'] .nav-txt { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; }
+  [data-theme='cosmos'] .nav-link[aria-current='page'] { box-shadow: inset 0 0 0 2px var(--primary); }
+  [data-theme='cosmos'] .theme-menu { margin-top: auto; width: 100%; }
+  [data-theme='cosmos'] .theme-pop { top: auto; bottom: 0; right: auto; left: calc(100% + 14px); }
+  [data-theme='cosmos'] .dock { left: var(--rail); }
+}
+/* the welcome: centred under a glowing moon */
+[data-theme='cosmos'] .hero-inner { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; max-width: 860px; padding-block: 34px 40px; }
+[data-theme='cosmos'] .hero h1, [data-theme='cosmos'] .hero .lead { margin-inline: auto; }
+[data-theme='cosmos'] .hero-mark, [data-dark][data-theme='cosmos'] .hero-mark { width: 132px; height: 132px; margin: 0 auto 22px; padding: 22px; object-fit: contain; border-radius: 50%; background: radial-gradient(circle at 36% 30%, #fffaf0, #f7dca8); box-shadow: 0 0 0 12px rgb(255 209 102 / 10%), 0 0 0 26px rgb(255 209 102 / 5%), 0 0 70px rgb(255 209 102 / 40%); }
+[data-theme='cosmos'] .hero-box { width: 100%; max-width: 600px; background: none; box-shadow: none; padding: 0; }
+[data-theme='cosmos'] .hero-actions { justify-content: center; }
+[data-theme='cosmos'] .search { border-color: var(--line); background: var(--surface); }
+/* shelves: planets floating up and down */
+[data-theme='cosmos'] .shelf-head h2::before { content: '✦' / ''; margin-right: 10px; color: var(--primary); }
+[data-theme='cosmos'] .shelf { grid-auto-columns: 152px; gap: 22px; }
+[data-theme='cosmos'] .shelves .shelf { padding-bottom: 48px; }
+[data-theme='cosmos'] .shelves .shelf > :nth-child(even) { translate: 0 30px; }
+[data-theme='cosmos'] .card { background: none; box-shadow: none; container-type: inline-size; }
+[data-theme='cosmos'] .card:hover { box-shadow: none; transform: translateY(-4px); }
+[data-theme='cosmos'] .card .cover { border-radius: 50%; box-shadow: 0 0 0 5px rgb(255 255 255 / 5%), 0 0 0 6px var(--line), 0 18px 30px -12px rgb(0 0 0 / 80%); }
+[data-theme='cosmos'] .card-body { padding: 14px 4px 0; justify-items: center; text-align: center; }
+[data-theme='cosmos'] .card .card-foot { justify-content: center; }
+[data-theme='cosmos'] .card-play { top: calc(100cqw - 50px); right: 0; background: var(--primary); color: var(--primary-ink); box-shadow: 0 0 0 4px var(--bg), 0 0 24px rgb(255 209 102 / 45%); }
+[data-theme='cosmos'] .card-link::after { content: ''; position: absolute; z-index: 1; left: -8%; top: calc(50cqw - 9cqw); width: 116%; height: 18cqw; border: 2px solid rgb(255 209 102 / 50%); border-top-color: transparent; border-radius: 50%; rotate: -14deg; pointer-events: none; }
+[data-theme='cosmos'] .card:not(:nth-child(3n + 1)) .card-link::after { display: none; }
+[data-theme='cosmos'] .shelf.grid, [data-theme='cosmos'] .results .shelf { row-gap: 28px; }
+/* pages: a big planet in the middle */
+[data-theme='cosmos'] .detail-hero { justify-items: center; text-align: center; grid-template-columns: minmax(0, 1fr); max-width: 760px; margin-inline: auto; }
+[data-theme='cosmos'] .detail-hero > .cover { width: min(240px, 64vw); box-shadow: 0 0 0 10px rgb(255 255 255 / 4%), 0 0 60px rgb(255 143 112 / 30%); }
+[data-theme='cosmos'] :is(.detail-hero .actions, .detail-hero .eyebrow, .detail-hero .rate, .detail-hero .stars) { justify-content: center; }
+[data-theme='cosmos'] .detail-hero .lead { margin-inline: auto; }
+[data-theme='cosmos'] .tags { text-align: left; }
+[data-theme='cosmos'] .vrow .cover { border-radius: 50%; }
+[data-theme='cosmos'] .site-foot { border-top-color: var(--line); }
+.sw-cosmos i { background: radial-gradient(circle at 30% 30%, #ffd166 0 18%, transparent 20%), radial-gradient(1.5px 1.5px at 70% 30%, #fff 50%, transparent 51%), radial-gradient(1.5px 1.5px at 60% 75%, #fff 50%, transparent 51%), #0b1430; }
+
+
+/* =====================================================================================================
+   Jeleu · Emil Kowalski (design engineering, Apple design): every press answers at once (a quick squeeze,
+   then a soft springy release), menus open from the button that opened them, nothing animates for show.
+   Layout: on phones and tablets the menu is a bar at the bottom of the screen, like an app; the shelves are
+   grids of app icons inside rounded panels; a story page looks like an app's page in a store;
+   the player floats as an island above the menu.
+   ===================================================================================================== */
+[data-theme='jeleu'] {
+  --bg: #f2f2f7; --surface: #ffffff; --surface-2: #e8e8ef; --ink: #1c1c1e; --muted: #5d5d65; --line: #d6d6de;
+  --primary: #0062cc; --primary-ink: #ffffff; --accent: #ffcc00; --accent-ink: #1c1c1e; --focus: #0062cc;
+  --radius: 22px; --radius-sm: 14px; --btn-radius: 14px; --cover-radius: 22%;
+  --shadow: 0 1px 2px rgb(0 0 0 / 4%), 0 6px 16px rgb(0 0 0 / 6%); --shadow-hover: 0 2px 4px rgb(0 0 0 / 6%), 0 12px 28px rgb(0 0 0 / 12%);
+  --cover-bg: linear-gradient(160deg, #6fd3ff, #3a7bfd);
+  --font-head: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ease-out: cubic-bezier(.23, 1, .32, 1); --ease-jelly: cubic-bezier(.34, 1.56, .64, 1);
+  --material: color-mix(in srgb, var(--surface) 84%, transparent);
+  --tab-h: 0px;
+}
+[data-dark][data-theme='jeleu'] {
+  --bg: #0b0b0d; --surface: #1c1c1e; --surface-2: #2c2c2e; --ink: #f2f2f7; --muted: #a3a3ab; --line: #3a3a3d;
+  --primary: #4da3ff; --primary-ink: #001a33; --accent: #ffd60a; --accent-ink: #1c1c1e; --focus: #4da3ff;
+  --shadow: 0 0 0 1px rgb(255 255 255 / 4%); --shadow-hover: 0 0 0 1px rgb(255 255 255 / 8%), 0 12px 28px rgb(0 0 0 / 60%);
+  --cover-bg: linear-gradient(160deg, #2b6fd6, #183f8a);
+}
+[data-theme='jeleu'] :is(h1, h2, h3) { font-weight: 800; letter-spacing: -0.02em; }
+/* a press squeezes at once and springs back softly */
+[data-theme='jeleu'] :is(.btn, .chip, .nav-link, .icon-btn, .main-play, .card-play, .fav-btn, .tag, .swatch) { transition: transform .5s var(--ease-jelly), background-color .2s ease, box-shadow .2s ease; }
+[data-theme='jeleu'] :is(.btn, .chip, .nav-link, .icon-btn, .main-play, .card-play, .fav-btn, .tag, .swatch):active { transform: scale(.93); transition-duration: .12s; transition-timing-function: var(--ease-out); }
+[data-theme='jeleu'] .card { transition: transform .5s var(--ease-jelly); }
+[data-theme='jeleu'] .card:hover { transform: none; box-shadow: none; }
+[data-theme='jeleu'] .card:active { transform: scale(.95); transition-duration: .12s; }
+/* the theme menu grows out of its button */
+[data-theme='jeleu'] .theme-pop { transform-origin: top right; transition: transform .2s var(--ease-out), opacity .2s var(--ease-out); }
+@starting-style { [data-theme='jeleu'] .theme-pop { transform: scale(.94); opacity: 0; } }
+[data-theme='jeleu'] .btn.ghost { border-color: transparent; background: var(--surface); box-shadow: var(--shadow); }
+[data-theme='jeleu'] .search { border: 0; background: var(--surface-2); box-shadow: none; border-radius: 12px; }
+[data-theme='jeleu'] .search:focus-within { box-shadow: 0 0 0 3px var(--focus); }
+[data-theme='jeleu'] .nav-link[aria-current='page'] { color: var(--primary); box-shadow: none; }
+/* phones and tablets: the menu is a bar at the bottom, with a label under each icon */
+@media (max-width: 899px) {
+  [data-theme='jeleu'] { --tab-h: calc(62px + env(safe-area-inset-bottom)); }
+  [data-theme='jeleu'] body { padding-bottom: var(--tab-h); }
+  [data-theme='jeleu'] body:has(.dock.open) { padding-bottom: calc(var(--dock-h) + var(--tab-h)); }
+  [data-theme='jeleu'] body:has(.dock.has-video) { padding-bottom: calc(var(--dock-h) + var(--tab-h) + 212px); }
+  [data-theme='jeleu'] .wordmark { display: block; }
+  [data-theme='jeleu'] .head-inner { justify-content: flex-start; padding-block: 10px 4px; }
+  [data-theme='jeleu'] .head-nav { position: fixed; z-index: 21; left: 0; right: 0; bottom: 0; gap: 0; padding: 3px 4px calc(3px + env(safe-area-inset-bottom)); background: var(--material); -webkit-backdrop-filter: saturate(1.8) blur(18px); backdrop-filter: saturate(1.8) blur(18px); border-top: 1px solid var(--line); }
+  [data-theme='jeleu'] .head-nav > * { flex: 1 1 0; min-width: 0; }
+  [data-theme='jeleu'] :is(.nav-link, .theme-menu > .icon-btn) { flex-direction: column; gap: 2px; width: 100%; height: auto; min-width: 0; min-height: 56px; padding: 4px 2px; border-radius: 14px; font-size: 11px; font-weight: 700; }
+  [data-theme='jeleu'] .nav-link:hover, [data-theme='jeleu'] .theme-menu > .icon-btn:hover { background: none; }
+  [data-theme='jeleu'] .nav-txt { position: static; width: auto; height: auto; max-width: 100%; clip: auto; overflow: hidden; text-overflow: ellipsis; }
+  [data-theme='jeleu'] .theme-menu { display: flex; }
+  [data-theme='jeleu'] .theme-pop { top: auto; bottom: calc(100% + 10px); right: 4px; transform-origin: bottom right; max-height: calc(100dvh - var(--tab-h) - 24px); }
+  [data-theme='jeleu'] .dock { bottom: var(--tab-h); }
+}
+@media (max-width: 359px) { [data-theme='jeleu'] .nav-txt { position: absolute; width: 1px; height: 1px; } }
+/* computers: the menu is a segmented control in a bar that stays on top */
+@media (min-width: 900px) {
+  [data-theme='jeleu'] .site-head { position: sticky; top: 0; z-index: 15; background: color-mix(in srgb, var(--bg) 82%, transparent); -webkit-backdrop-filter: saturate(1.8) blur(18px); backdrop-filter: saturate(1.8) blur(18px); }
+  [data-theme='jeleu'] .head-nav { background: var(--surface-2); padding: 4px; border-radius: 14px; gap: 2px; }
+  [data-theme='jeleu'] :is(.nav-link, .theme-menu > .icon-btn) { border-radius: 10px; }
+  [data-theme='jeleu'] .nav-link[aria-current='page'] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgb(0 0 0 / 14%); }
+  [data-theme='jeleu'] .filters { top: 84px; }
+}
+/* the welcome: a large title, shortcuts as tiles */
+[data-theme='jeleu'] .hero-mark { display: none; }
+[data-theme='jeleu'] .hero-inner { padding-block: 8px 26px; }
+[data-theme='jeleu'] .hero h1 { font-size: clamp(32px, 5vw, 54px); letter-spacing: -0.03em; }
+[data-theme='jeleu'] .hero-actions { flex-wrap: nowrap; }
+[data-theme='jeleu'] .hero-actions .btn, [data-theme='jeleu'] .hero-actions .btn.accent { flex: 1 1 0; min-width: 0; overflow-wrap: anywhere; flex-direction: column; gap: 4px; min-height: 78px; padding: 8px 6px; border-radius: 20px; white-space: normal; font-size: 15px; line-height: 1.15; text-align: center; }
+/* shelves: app icons inside rounded panels */
+[data-theme='jeleu'] .shelves { gap: 18px; }
+[data-theme='jeleu'] .shelves .shelf-section { background: var(--surface); border-radius: var(--radius); padding: 12px 14px 18px; box-shadow: var(--shadow); }
+[data-theme='jeleu'] .shelf-head { margin-bottom: 10px; }
+[data-theme='jeleu'] .shelf-head h2 { font-size: 22px; }
+[data-theme='jeleu'] .shelf { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; margin-inline: 0; padding: 0; gap: 18px 14px; }
+@media (min-width: 400px) { [data-theme='jeleu'] .shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px 12px; } }
+@media (min-width: 600px) { [data-theme='jeleu'] .shelf { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+@media (min-width: 960px) { [data-theme='jeleu'] .shelf { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 22px 18px; } }
+[data-theme='jeleu'] .shelves .shelf > :nth-child(n + 9) { display: none; }
+@media (max-width: 399px) { [data-theme='jeleu'] .shelves .shelf > :nth-child(n + 7) { display: none; } }
+@media (min-width: 600px) and (max-width: 959px) { [data-theme='jeleu'] .shelves .shelf > :nth-child(n + 9) { display: block; } [data-theme='jeleu'] .shelves .shelf > :nth-child(n + 13) { display: none; } }
+/* elsewhere (Browse, pages) the icons are a little bigger and keep their author line */
+[data-theme='jeleu'] :is(.shelf.grid, .results .shelf) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (min-width: 600px) { [data-theme='jeleu'] :is(.shelf.grid, .results .shelf) { grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); } }
+[data-theme='jeleu'] .card { background: none; box-shadow: none; border-radius: 0; container-type: inline-size; }
+[data-theme='jeleu'] .card .cover { border-radius: 22%; box-shadow: 0 4px 10px rgb(0 0 0 / 14%); }
+[data-theme='jeleu'] .card:hover .cover img { transform: none; }
+[data-theme='jeleu'] .card-body { padding: 7px 0 0; gap: 0; justify-items: center; text-align: center; overflow-wrap: anywhere; }
+[data-theme='jeleu'] .card-title { font-size: 13.5px; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; overflow-wrap: anywhere; hyphens: auto; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+[data-theme='jeleu'] :is(.card-kind, .card-foot) { display: none; }
+[data-theme='jeleu'] .card-sub { font-size: 12px; line-height: 1.25; margin-top: 2px; }
+[data-theme='jeleu'] .shelves .card-sub { display: none; }
+[data-theme='jeleu'] .card-play { top: calc(100cqw - 30px); right: -4px; width: 34px; height: 34px; box-shadow: 0 0 0 3px var(--surface), 0 2px 6px rgb(0 0 0 / 25%); }
+[data-theme='jeleu'] .card-play .icon { width: 17px; height: 17px; }
+[data-theme='jeleu'] .card-play::after { content: ''; position: absolute; inset: -6px; }
+/* a story page is an app's page in a store: the icon on the left, the name next to it */
+[data-theme='jeleu'] .detail-hero { grid-template-columns: 112px minmax(0, 1fr); column-gap: 16px; row-gap: 10px; align-items: start; }
+[data-theme='jeleu'] .detail-text { display: contents; }
+[data-theme='jeleu'] .detail-hero > .cover { grid-row: 1 / span 3; width: 100%; border-radius: 22%; box-shadow: 0 8px 20px rgb(0 0 0 / 18%); }
+[data-theme='jeleu'] .detail-text > :not(.eyebrow, h1, .byline) { grid-column: 1 / -1; }
+/* on a phone the name line needs the whole width */
+@media (max-width: 599px) { [data-theme='jeleu'] .detail-text > .byline { grid-column: 1 / -1; } [data-theme='jeleu'] .detail-hero > .cover { grid-row: 1 / span 2; } }
+[data-theme='jeleu'] .detail-hero h1 { font-size: clamp(24px, 4vw, 40px); }
+@media (min-width: 760px) { [data-theme='jeleu'] .detail-hero { grid-template-columns: 180px minmax(0, 1fr); column-gap: 28px; } [data-theme='jeleu'] .detail-hero > .cover { width: 100%; } }
+[data-theme='jeleu'] .vrow .cover { border-radius: 22%; }
+/* the player floats as an island */
+[data-theme='jeleu'] .dock-bar { margin: 0 8px 8px; border: 0; border-radius: 24px; background: var(--material); -webkit-backdrop-filter: saturate(1.8) blur(18px); backdrop-filter: saturate(1.8) blur(18px); box-shadow: 0 10px 34px rgb(0 0 0 / 20%); padding-bottom: 8px; }
+@media (min-width: 900px) { [data-theme='jeleu'] .dock-bar { padding-bottom: calc(8px + env(safe-area-inset-bottom)); } }
+.sw-jeleu i { border-radius: 28%; background: linear-gradient(160deg, #6fd3ff, #3a7bfd); box-shadow: inset 0 -3px 5px #0003, inset 0 3px 4px #fff6; }
+
+
+/* =====================================================================================================
+   Vinil · Emil Kowalski, the second take: motion that says something. Covers are record sleeves with the
+   disc peeking out; the disc slides out when you point at it, and the record in the player turns only
+   while a story is playing (33⅓ turns a minute), so you can see at a glance that it plays.
+   Layout: rows of sleeves standing on wooden shelves, the logo is the label of a record,
+   on a story page the disc comes halfway out of its sleeve.
+   ===================================================================================================== */
+[data-theme='vinil'] {
+  --bg: #f1e7d6; --surface: #fffaf1; --surface-2: #e8dac3; --ink: #2a1d14; --muted: #66523f; --line: #dac8ad;
+  --primary: #b3302a; --primary-ink: #fff7ec; --accent: #f2b134; --accent-ink: #2a1d14; --focus: #b3302a;
+  --radius: 10px; --radius-sm: 8px; --btn-radius: 999px; --cover-radius: 4px;
+  --shadow: 0 1px 2px rgb(42 29 20 / 10%), 0 10px 22px -12px rgb(42 29 20 / 40%);
+  --shadow-hover: 0 2px 4px rgb(42 29 20 / 12%), 0 16px 30px -12px rgb(42 29 20 / 50%);
+  --cover-bg: linear-gradient(135deg, #e9c46a, #e76f51);
+  --groove: #1d1713; --groove-2: #2c241e; --wood: #b98a58; --wood-2: #8f6339;
+  --disc: radial-gradient(circle, var(--accent) 0 15%, var(--groove) 15.5% 17%, transparent 17.5%), conic-gradient(from 20deg, #fff0 0 9%, #ffffff24 13%, #fff0 18% 58%, #ffffff1a 63%, #fff0 68%), repeating-radial-gradient(circle, var(--groove) 0 2px, var(--groove-2) 2px 3px);
+  --ease-out: cubic-bezier(.23, 1, .32, 1);
+}
+[data-dark][data-theme='vinil'] {
+  --bg: #16110d; --surface: #211a14; --surface-2: #2e251d; --ink: #f4e9d8; --muted: #c5b49e; --line: #3d3127;
+  --primary: #ff6b57; --primary-ink: #1a0d08; --accent: #f2b134; --accent-ink: #2a1d14; --focus: #f2b134;
+  --shadow: 0 10px 22px -12px rgb(0 0 0 / 75%); --shadow-hover: 0 16px 30px -12px rgb(0 0 0 / 85%);
+  --groove: #060504; --groove-2: #17120e; --wood: #5d3f25; --wood-2: #3e2916;
+}
+/* two stripes under the menu, like an old record label */
+[data-theme='vinil'] .site-head { box-shadow: 0 5px 0 var(--primary), 0 11px 0 var(--accent); margin-bottom: 11px; }
+[data-theme='vinil'] .nav-link[aria-current='page'] { box-shadow: inset 0 -3px 0 var(--primary); }
+/* the logo is the label of a record; it turns while a story plays */
+[data-theme='vinil'] .hero-mark, [data-dark][data-theme='vinil'] .hero-mark { width: 156px; height: 156px; padding: 44px; object-fit: contain; border-radius: 50%; background: radial-gradient(circle, #fef5ea 0 35%, var(--groove) 35.5% 37%, transparent 37.5%), conic-gradient(from 20deg, #fff0 0 9%, #ffffff24 13%, #fff0 18% 58%, #ffffff1a 63%, #fff0 68%), repeating-radial-gradient(circle, var(--groove) 0 2px, var(--groove-2) 2px 3px); box-shadow: var(--shadow); }
+[data-theme='vinil'] body:has(.dock.playing) .hero-mark { animation: spin 1.8s linear infinite; }
+/* shelves: sleeves on wooden planks, the disc peeking out and sliding further when pointed at */
+[data-theme='vinil'] .shelf-head h2::before { content: ''; display: inline-block; width: 24px; height: 24px; margin-right: 10px; vertical-align: -3px; border-radius: 50%; background: var(--disc); }
+[data-theme='vinil'] .shelf { grid-auto-columns: 196px; gap: 16px; padding-bottom: 14px; }
+[data-theme='vinil'] .shelves .shelf { box-shadow: inset 0 -12px 0 var(--wood), inset 0 -16px 0 var(--wood-2); padding-bottom: 30px; }
+[data-theme='vinil'] .card { background: none; box-shadow: none; padding-right: 17%; }
+[data-theme='vinil'] .card:hover { transform: none; box-shadow: none; }
+[data-theme='vinil'] .card-link { position: relative; }
+[data-theme='vinil'] .card-link::before { content: ''; position: absolute; top: 2%; left: 18%; width: 96%; aspect-ratio: 1; border-radius: 50%; background: var(--disc); transition: transform .35s var(--ease-out); }
+[data-theme='vinil'] .card:hover .card-link::before, [data-theme='vinil'] .card:focus-within .card-link::before { transform: translateX(12%) rotate(50deg); }
+[data-theme='vinil'] .card .cover { z-index: 1; box-shadow: var(--shadow); }
+[data-theme='vinil'] .card:hover .cover img { transform: none; }
+[data-theme='vinil'] .card-body { position: relative; padding: 12px 0 4px; }
+[data-theme='vinil'] .card-play { top: 10px; right: calc(17% + 10px); z-index: 2; }
+/* pages: the disc comes halfway out of its sleeve */
+[data-theme='vinil'] .detail-hero { position: relative; }
+[data-theme='vinil'] .detail-hero > .cover { z-index: 1; width: min(200px, 56vw); }
+[data-theme='vinil'] .detail-hero::before { content: ''; position: absolute; top: 2%; left: calc(min(200px, 56vw) * .45); width: calc(min(200px, 56vw) * .96); aspect-ratio: 1; border-radius: 50%; background: var(--disc); }
+@media (min-width: 760px) {
+  [data-theme='vinil'] .detail-hero { grid-template-columns: 330px minmax(0, 1fr); }
+  [data-theme='vinil'] .detail-hero > .cover { width: 220px; }
+  [data-theme='vinil'] .detail-hero::before { top: 5px; left: 100px; width: 212px; }
+}
+/* the player: the picture is the label of a turning record */
+[data-theme='vinil'] .dock-info .cover { border-radius: 50%; background: radial-gradient(circle, var(--surface) 0 6%, transparent 6.5%), repeating-radial-gradient(circle, var(--groove) 0 1px, var(--groove-2) 1px 2px); }
+[data-theme='vinil'] .dock-info .cover img { inset: 22%; width: 56%; height: 56%; border-radius: 50%; }
+[data-theme='vinil'] .dock-info .cover::after { content: ''; position: absolute; inset: 46%; border-radius: 50%; background: var(--surface); }
+[data-theme='vinil'] .dock.playing .dock-info .cover { animation: spin 1.8s linear infinite; }
+.sw-vinil i { background: radial-gradient(circle, #f2b134 0 26%, #1d1713 28% 31%, transparent 32%), repeating-radial-gradient(circle, #1d1713 0 1.5px, #3a2f27 1.5px 2.5px); }
+
+
+/* =====================================================================================================
+   Hârtie · Hallmark, the "Hum" theme (kids, family, learning): cut paper made by hand. Cream paper,
+   sheets with a torn edge, card-stock buttons that press down, all lit from the top left, a round
+   friendly face for the titles, three colours that never blend: pear for actions, blue for links,
+   coral for one loud moment, plus mint for progress. No labels in capitals.
+   Layout: a heavy yellow bar on top with a torn edge, the shelves are paper sheets lying side by side on
+   the desk, each with a few stories.
+   ===================================================================================================== */
+[data-theme='hartie'] {
+  --bg: oklch(96.5% .014 95); --surface: oklch(99% .006 95); --surface-2: oklch(93.5% .02 95); --ink: oklch(22% .02 255); --muted: oklch(45% .016 255); --line: oklch(87% .02 95);
+  --primary: oklch(48% .17 250); --primary-ink: oklch(99% .005 95); --accent: oklch(87% .175 96); --accent-ink: oklch(22% .02 255); --focus: oklch(48% .17 250);
+  --press-primary: oklch(36% .14 250); --press-accent: oklch(70% .15 92); --press: oklch(82% .04 88);
+  --coral: oklch(72% .17 28); --press-coral: oklch(56% .16 28); --mint: oklch(62% .14 155);
+  --radius: 6px; --radius-sm: 6px; --btn-radius: 12px; --cover-radius: 4px;
+  --shadow: -1px -1px 0 rgb(255 255 255 / 80%), 2px 3px 0 oklch(84% .035 88), 4px 10px 16px -8px oklch(22% .02 255 / 25%);
+  --shadow-hover: -1px -1px 0 rgb(255 255 255 / 80%), 3px 5px 0 oklch(84% .035 88), 6px 16px 22px -10px oklch(22% .02 255 / 30%);
+  --cover-bg: linear-gradient(140deg, oklch(86% .12 155), oklch(68% .13 160));
+  --font-head: 'Grandstander', 'Baloo 2', Nunito, sans-serif;
+  --torn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 12' preserveAspectRatio='none'%3E%3Cpath d='M0 0H240V7L228 10L215 6L203 11L190 7L176 9L165 5L150 10L139 7L126 11L112 6L99 9L86 5L73 10L60 7L47 11L34 6L21 9L10 6L0 8Z'/%3E%3C/svg%3E");
+  --sheet-1: oklch(99% .006 95); --sheet-2: oklch(95.5% .03 118); --sheet-3: oklch(95% .025 236);
+}
+[data-dark][data-theme='hartie'] {
+  --bg: oklch(23% .02 255); --surface: oklch(28% .022 255); --surface-2: oklch(33% .024 255); --ink: oklch(95% .012 95); --muted: oklch(80% .02 95); --line: oklch(39% .025 255);
+  --primary: oklch(78% .11 250); --primary-ink: oklch(20% .03 255); --accent: oklch(87% .175 96); --accent-ink: oklch(22% .02 255); --focus: oklch(82% .11 250);
+  --press-primary: oklch(58% .12 250); --press: oklch(17% .02 255); --mint: oklch(75% .14 155);
+  --shadow: 2px 3px 0 oklch(17% .02 255), 4px 12px 18px -8px rgb(0 0 0 / 55%); --shadow-hover: 3px 5px 0 oklch(17% .02 255), 6px 16px 22px -10px rgb(0 0 0 / 65%);
+  --cover-bg: linear-gradient(140deg, oklch(55% .1 155), oklch(42% .09 160));
+  --sheet-1: oklch(28% .022 255); --sheet-2: oklch(29% .03 140); --sheet-3: oklch(29% .03 236);
+}
+[data-theme='hartie'] :is(h1, h2, h3) { font-weight: 800; letter-spacing: 0; }
+/* no labels in capitals */
+[data-theme='hartie'] :is(.eyebrow, .card-kind, .release h4) { text-transform: none; letter-spacing: 0; font-size: 14.5px; }
+/* a heavy yellow bar, torn along the bottom */
+[data-theme='hartie'] .site-head { position: relative; background: var(--accent); color: var(--accent-ink); margin-bottom: 12px; }
+[data-theme='hartie'] .site-head::after { content: ''; position: absolute; left: 0; right: 0; top: 100%; height: 12px; background: var(--accent); -webkit-mask: var(--torn) 0 0 / 240px 12px repeat-x; mask: var(--torn) 0 0 / 240px 12px repeat-x; }
+[data-theme='hartie'] .brand img:first-child { background: none; padding: 0; }
+[data-theme='hartie'] .wordmark { filter: none; }
+[data-theme='hartie'] :is(.nav-link, .theme-menu > .icon-btn):hover { background: rgb(255 255 255 / 40%); }
+[data-theme='hartie'] .nav-link[aria-current='page'] { color: var(--accent-ink); background: var(--surface); box-shadow: 2px 3px 0 var(--press-accent); }
+[data-theme='hartie'] :focus-visible { outline-color: var(--focus); }
+/* card-stock buttons: they sit on a paper edge and press down onto it */
+[data-theme='hartie'] .btn { box-shadow: 0 4px 0 var(--press); transition: transform .1s ease, box-shadow .1s ease; }
+[data-theme='hartie'] .btn.primary { box-shadow: 0 4px 0 var(--press-primary); }
+[data-theme='hartie'] .btn.accent { box-shadow: 0 4px 0 var(--press-accent); }
+[data-theme='hartie'] .btn:hover { transform: none; }
+[data-theme='hartie'] .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--press); }
+[data-theme='hartie'] .hero .btn.accent { background: var(--coral); color: var(--ink); box-shadow: 0 4px 0 var(--press-coral); }
+[data-theme='hartie'] .progress i { background: var(--mint); }
+/* the welcome: the search box is a torn sheet */
+[data-theme='hartie'] .hero-box { background: var(--surface); padding: 22px 18px 34px; box-shadow: none; filter: drop-shadow(3px 6px 8px oklch(22% .02 255 / 20%)); -webkit-mask: linear-gradient(#000 0 0) top / 100% calc(100% - 11px) no-repeat, var(--torn) bottom / 240px 12px repeat-x; mask: linear-gradient(#000 0 0) top / 100% calc(100% - 11px) no-repeat, var(--torn) bottom / 240px 12px repeat-x; }
+[data-theme='hartie'] .hero-box .search { box-shadow: none; }
+/* shelves: paper sheets side by side on the desk */
+[data-theme='hartie'] .shelves { grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 30px 26px; padding-top: 24px; }
+[data-theme='hartie'] .shelves .shelf-section { background: var(--sheet-1); padding: 18px 18px 36px; box-shadow: var(--shadow); -webkit-mask: linear-gradient(#000 0 0) top / 100% calc(100% - 11px) no-repeat, var(--torn) bottom / 240px 12px repeat-x; mask: linear-gradient(#000 0 0) top / 100% calc(100% - 11px) no-repeat, var(--torn) bottom / 240px 12px repeat-x; }
+[data-theme='hartie'] .shelves .shelf-section:nth-child(3n + 2) { background: var(--sheet-2); }
+[data-theme='hartie'] .shelves .shelf-section:nth-child(3n) { background: var(--sheet-3); }
+[data-theme='hartie'] .shelf-head h2 { font-size: 24px; }
+[data-theme='hartie'] .shelf { grid-auto-flow: row; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); overflow: visible; margin-inline: 0; padding: 4px 0 0; gap: 18px 14px; }
+@media (min-width: 768px) { [data-theme='hartie'] .shelf { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); } [data-theme='hartie'] :is(.shelf.grid, .results .shelf) { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); } }
+[data-theme='hartie'] .shelves .shelf > :nth-child(n + 7) { display: none; }
+[data-theme='hartie'] .card { border-radius: 4px; }
+[data-theme='hartie'] .card .cover { border-radius: 4px 4px 0 0; }
+[data-theme='hartie'] .card-title { font-size: 17px; }
+[data-theme='hartie'] .card-play { width: 44px; height: 44px; top: 8px; right: 8px; background: var(--accent); color: var(--accent-ink); box-shadow: 0 3px 0 var(--press-accent); }
+[data-theme='hartie'] .card-play:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--press-accent); }
+/* pages */
+[data-theme='hartie'] .detail-hero { background: var(--surface); padding: 20px 20px 38px; filter: drop-shadow(3px 6px 8px oklch(22% .02 255 / 18%)); -webkit-mask: linear-gradient(#000 0 0) top / 100% calc(100% - 11px) no-repeat, var(--torn) bottom / 240px 12px repeat-x; mask: linear-gradient(#000 0 0) top / 100% calc(100% - 11px) no-repeat, var(--torn) bottom / 240px 12px repeat-x; }
+.sw-hartie i { border-radius: 4px; background: conic-gradient(oklch(87% .175 96) 0 50%, oklch(48% .17 250) 0 70%, oklch(72% .17 28) 0 85%, oklch(62% .14 155) 0); box-shadow: 2px 2px 0 #0002; }
+
+
+/* =====================================================================================================
+   Abțibilduri · Hallmark, the "Sticker" theme: a print shop's sheet of stickers. Warm off-white paper, warm
+   black ink, a heavy display face, hot pink and lime fills, every raised thing cut out with a thick white
+   edge on a hard ink shadow. No soft shadows, no gradients.
+   Layout: the title is a big lime sticker, shelves are sticker sheets where some stickers are bigger
+   than others, every sticker a little crooked.
+   ===================================================================================================== */
+[data-theme='abtibild'] {
+  --bg: oklch(95.7% .013 82); --surface: oklch(99.4% .007 89); --surface-2: oklch(92.8% .021 79); --ink: oklch(21% .011 81); --muted: oklch(44% .017 64); --line: oklch(86% .02 80);
+  --primary: oklch(52% .215 2); --primary-ink: oklch(99.5% .003 82); --accent: oklch(87.6% .179 119); --accent-ink: oklch(21% .011 81); --focus: oklch(45% .2 2);
+  --die: oklch(99.5% .003 82); --hard: var(--ink);
+  --radius: 18px; --radius-sm: 14px; --btn-radius: 999px; --cover-radius: 12px;
+  --shadow: 0 0 0 5px var(--die), 5px 6px 0 5px var(--hard); --shadow-hover: 0 0 0 5px var(--die), 8px 10px 0 5px var(--hard);
+  --cover-bg: oklch(80% .14 350);
+  --font-head: 'Bowlby One SC', 'Baloo 2', sans-serif;
+}
+[data-dark][data-theme='abtibild'] {
+  --bg: oklch(21% .011 81); --surface: oklch(26% .013 72); --surface-2: oklch(31% .015 72); --ink: oklch(95.7% .013 82); --muted: oklch(79% .015 80); --line: oklch(36% .016 75);
+  --primary: oklch(72% .18 2); --primary-ink: oklch(18% .02 2); --accent: oklch(87.6% .179 119); --accent-ink: oklch(21% .011 81); --focus: oklch(87.6% .179 119);
+  --die: oklch(38% .014 75); --hard: #000;
+  --cover-bg: oklch(52% .15 350);
+}
+[data-theme='abtibild'] :is(h1, h2) { font-weight: 400; letter-spacing: .005em; line-height: 1.2; }
+[data-theme='abtibild'] h3 { font-weight: 800; font-family: var(--font-body); }
+[data-theme='abtibild'] :is(.eyebrow, .card-kind) { text-transform: none; letter-spacing: 0; }
+[data-theme='abtibild'] .brand { rotate: -4deg; }
+[data-theme='abtibild'] .brand img:first-child { background: var(--die); border-radius: 16px; padding: 3px; box-shadow: 2px 3px 0 var(--hard); }
+[data-theme='abtibild'] .nav-link[aria-current='page'] { background: var(--primary); color: var(--primary-ink); box-shadow: none; border-radius: 999px; }
+[data-theme='abtibild'] :is(.btn, .fav-btn, .chip[aria-pressed='true'], .chip.on) { border: 0; box-shadow: 0 0 0 3px var(--die), 3px 4px 0 3px var(--hard); }
+[data-theme='abtibild'] :is(.btn, .fav-btn):active { translate: 3px 4px; box-shadow: 0 0 0 3px var(--die), 0 0 0 3px var(--hard); }
+[data-theme='abtibild'] .btn.ghost { border: 0; }
+/* the welcome: the title is a big lime sticker */
+[data-theme='abtibild'] .hero-mark { background: var(--die); border-radius: 26px; padding: 10px; box-shadow: 4px 5px 0 var(--hard); rotate: -7deg; }
+[data-theme='abtibild'] .hero h1 { display: inline-block; background: var(--accent); color: var(--accent-ink); padding: 12px 18px 14px; border-radius: 18px; box-shadow: var(--shadow); rotate: -2deg; font-size: clamp(30px, 5.4vw, 58px); margin: 6px 6px 8px; }
+[data-theme='abtibild'] .hero .lead { margin-top: 18px; }
+[data-theme='abtibild'] .hero-box { background: var(--surface); padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow); rotate: 1.5deg; }
+[data-theme='abtibild'] .hero-box .search { box-shadow: none; }
+/* shelves: sticker sheets, some stickers bigger, all a little crooked */
+[data-theme='abtibild'] .shelf-head h2 { font-size: clamp(22px, 2.8vw, 30px); }
+[data-theme='abtibild'] .shelf { grid-auto-flow: row dense; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; margin-inline: 0; padding: 10px 8px 14px; gap: 30px 26px; }
+@media (min-width: 640px) { [data-theme='abtibild'] .shelf { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 960px) { [data-theme='abtibild'] .shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+[data-theme='abtibild'] .shelves .shelf:has(> :nth-child(10)) > :is(:nth-child(1), :nth-child(8)) { grid-column: span 2; grid-row: span 2; }
+[data-theme='abtibild'] .shelves .shelf > :nth-child(n + 11) { display: none; }
+@media (min-width: 640px) and (max-width: 959px) { [data-theme='abtibild'] .shelves .shelf > :nth-child(n + 10) { display: none; } }
+[data-theme='abtibild'] .card { rotate: -2deg; }
+[data-theme='abtibild'] .card:nth-child(2n) { rotate: 1.6deg; }
+[data-theme='abtibild'] .card:nth-child(3n) { rotate: -.8deg; }
+[data-theme='abtibild'] .card:hover { rotate: 0deg; transform: translate(-2px, -3px); box-shadow: var(--shadow-hover); }
+[data-theme='abtibild'] .card .cover { border-radius: var(--radius) var(--radius) 0 0; }
+[data-theme='abtibild'] .card-title { font-size: 18px; font-weight: 800; }
+[data-theme='abtibild'] .card-play { background: var(--primary); color: var(--primary-ink); box-shadow: 0 0 0 3px var(--die), 2px 3px 0 3px var(--hard); }
+[data-theme='abtibild'] .traits li { background: var(--accent); color: var(--accent-ink); }
+[data-theme='abtibild'] .vrow.best { box-shadow: var(--shadow), 0 0 0 5px var(--accent); }
+/* pages: the cover is a crooked sticker */
+[data-theme='abtibild'] .detail-hero > .cover { box-shadow: var(--shadow); rotate: -3deg; margin: 8px; }
+[data-theme='abtibild'] :is(.facts, .src-card, .vrow, .filters, .cast li, .col-list a, .col-list .fav-row) { margin: 5px; }
+.sw-abtibild i { background: oklch(52% .215 2); box-shadow: 0 0 0 3px #fff, 2px 3px 0 3px #222; rotate: -8deg; scale: .8; }

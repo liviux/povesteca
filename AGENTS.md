@@ -45,7 +45,8 @@ Rules for every AI agent working in this repository (Claude, Codex, Copilot, Cur
 
 - A parent should understand every filter, label and button without an explanation. If a term needs one, first ask whether it needs to exist at all.
 - Romanian text uses ș and ț with a comma below, not ş and ţ with a cedilla. Any new font must have ă, â, î, ș and ț.
-- Check every visible change in the browser (`npm run dev`) before you commit it: all three themes, a 320 px phone and a desktop, Romanian and English, with the player open. Nothing scrolls sideways, tap targets are at least 44 px and everything works from the keyboard.
+- Check every visible change in the browser (`npm run dev`) before you commit it: every theme, a 320 px phone and a desktop, Romanian and English, light and dark, with the player open. Nothing scrolls sideways, tap targets are at least 44 px and everything works from the keyboard.
+- Every UX or UI change (a new control, page, label, layout or style) is checked and fixed in all the themes, not only the classic one. The themes in `src/themes.css` move things around, not only the colours (the menu sits at the bottom in one, in a left column in another; shelves become lists, grids or trails), so a change that looks right in one theme can break in another.
 
 ## Git
 

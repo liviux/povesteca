@@ -2,6 +2,18 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.23.0] - 2026-11-24
+
+### Added
+- Zece teme noi, vesele, pentru copii, care schimbă nu doar culorile, ci și locul lucrurilor pe pagină: Plastilină, Caiet, Galerie, Afiș, Hartă, Cosmos, Jeleu, Vinil, Hârtie și Abțibilduri.
+- În Jeleu meniul stă jos, ca într-o aplicație; în Cosmos stă într-o coloană în stânga; în Afiș poveștile sunt un program numerotat, în Hartă o potecă, în Vinil discul iese din copertă și se învârte cât timp asculți.
+
+### Changed
+- În meniul „Temă”, temele stau pe două coloane, iar schimbarea limbii e la sfârșit, după o linie.
+
+### Removed
+- Temele Băieți și Fete. Cine le alesese vede acum tema Clasică.
+
 ## [1.22.1] - 2026-11-24
 
 ### Changed

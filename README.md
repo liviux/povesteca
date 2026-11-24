@@ -50,7 +50,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
 - **Ale mele**: poveștile, înregistrările, oamenii, sursele și discurile puse la favorite și istoricul, toate păstrate doar în browser, fără cont. Butonul „Surprinde-mă din favorite” pornește o înregistrare la întâmplare din tot ce ai acolo.
 - **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
-- **Trei teme** (Clasică, Băieți, Fete), care schimbă și culorile, și așezarea paginii. Fiecare are o variantă întunecată, care pornește singură când dispozitivul e pe modul întunecat sau când folosești Dark Reader.
+- **Unsprezece teme** (Clasică, Plastilină, Caiet, Galerie, Afiș, Hartă, Cosmos, Jeleu, Vinil, Hârtie, Abțibilduri), care schimbă culorile, literele și așezarea paginii: meniul jos sau într-o coloană, raftul ca listă numerotată, ca hartă sau ca foaie de abțibilduri. Fiecare are o variantă întunecată, care pornește singură când dispozitivul e pe modul întunecat sau când folosești Dark Reader (Cosmos e întunecată mereu). Limba se schimbă din același meniu, sub teme.
 - **Surse**: o pagină cu arhivele și canalele de unde vin înregistrările și cu regulile catalogului.
 - **Oameni și cărți**: fiecare autor, actor sau regizor are o pagină cu poveștile și înregistrările lui. Unde se poate, are o fotografie cu licență liberă și linkuri spre Wikipedia și Goodreads. Poveștile au linkuri spre cartea lor.
 

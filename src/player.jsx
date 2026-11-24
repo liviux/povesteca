@@ -421,7 +421,7 @@ export function Dock() {
   const mirrorName = link && v.links.length > 1 ? linkLabel(link, sourceById.get(v.sourceId), v.links) : null;
   useEffect(pinDock); // its height changes when it opens, closes or shows a video
   return (
-    <div class={'dock' + (v ? ' open' : '') + (link?.type === 'youtube' ? ' has-video' : '')} aria-hidden={!v}>
+    <div class={'dock' + (v ? ' open' : '') + (link?.type === 'youtube' ? ' has-video' : '') + (p.status === 'playing' ? ' playing' : '')} aria-hidden={!v}>
       <div class="yt-frame" ref={(el) => { ytHost = el; }} />
       {v && (
         <div class="dock-bar" role="region" aria-label={t.nowPlaying}>

@@ -2,6 +2,18 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.23.0] - 2026-11-24
+
+### Added
+- Ten new playful themes for children that change not only the colours but where things sit on the page: Clay, Notebook, Gallery, Playbill, Map, Space, Jelly, Vinyl, Paper and Stickers.
+- In Jelly the menu sits at the bottom, like in an app; in Space it is a column on the left; in Playbill the stories are a numbered programme, in Map a trail, and in Vinyl the record slides out of its sleeve and turns while you listen.
+
+### Changed
+- In the “Theme” menu the themes sit in two columns, and the language switch comes last, after a line.
+
+### Removed
+- The Boys and Girls themes. Anyone who had picked one now sees the Classic theme.
+
 ## [1.22.1] - 2026-11-24
 
 ### Changed
