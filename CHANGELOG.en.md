@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.23.2] - 2026-11-24
+
+### Fixed
+- Under “Cast” on a recording page, the box with the director, narrator and the rest no longer shows up empty when the recording only lists actors, and the actor list no longer shows when it only has a director or narrator.
+
 ## [1.23.1] - 2026-11-24
 
 ### Removed

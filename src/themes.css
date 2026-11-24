@@ -721,4 +721,5 @@
 /* pages: the cover is a crooked sticker */
 [data-theme='abtibild'] .detail-hero > .cover { box-shadow: var(--shadow); rotate: -3deg; margin: 8px; }
 [data-theme='abtibild'] :is(.facts, .src-card, .vrow, .filters, .cast li, .col-list a, .col-list .fav-row) { margin: 5px; }
+[data-theme='abtibild'] :is(.cast, .col-list) { gap: 18px 20px; }
 .sw-abtibild i { background: oklch(52% .215 2); box-shadow: 0 0 0 3px #fff, 2px 3px 0 3px #222; rotate: -8deg; scale: .8; }

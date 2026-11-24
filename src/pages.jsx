@@ -395,6 +395,8 @@ export function VersionPage({ id }) {
   const src = sourceById.get(v.sourceId);
   const col = collectionOf.get(v.id);
   const c = v.credits || {};
+  // the credits that go in the top box, in this order (the cast has its own list below it)
+  const crew = ['director', 'adaptation', 'music', 'songs', 'soundDesign', 'narrator'].filter((k) => c[k]?.length);
   const est = (k) => v.estimated?.includes(k) && <abbr class="est" title={t.estimated}>≈</abbr>;
   const pos = savedOffset(v, s.pos[v.id]);
   const person = (n) => <PersonLink name={n} />;
@@ -452,14 +454,16 @@ export function VersionPage({ id }) {
             })}</ul></dd>
           </dl>
         </section>
-        {(c.cast || c.director || c.narrator || c.soundDesign) && (
+        {(crew.length > 0 || c.cast?.length > 0) && (
           <section aria-labelledby="cr">
             <h2 id="cr">{t.credits.cast}</h2>
-            <dl class="facts">
-              {['director', 'adaptation', 'music', 'songs', 'soundDesign'].filter((k) => c[k]).map((k) => <><dt>{t.credits[k]}</dt><dd>{splitNames(c[k]).map((n, i) => <>{i ? ', ' : ''}{person(n)}</>)}</dd></>)}
-              {c.narrator && <><dt>{t.credits.narrator}</dt><dd>{c.narrator.map((n, i) => <>{i ? ', ' : ''}{person(n)}</>)}</dd></>}
-            </dl>
-            {c.cast && <ul class="cast">{c.cast.map((x) => <li>{x.role && <span class="muted">{x.role}</span>}{person(x.name)}</li>)}</ul>}
+            {/* each box only when it has someone in it: a recording with only a cast shows no empty box above it, and the other way round */}
+            {crew.length > 0 && (
+              <dl class="facts">
+                {crew.map((k) => <><dt>{t.credits[k]}</dt><dd>{(Array.isArray(c[k]) ? c[k] : splitNames(c[k])).map((n, i) => <>{i ? ', ' : ''}{person(n)}</>)}</dd></>)}
+              </dl>
+            )}
+            {c.cast?.length > 0 && <ul class="cast">{c.cast.map((x) => <li>{x.role && <span class="muted">{x.role}</span>}{person(x.name)}</li>)}</ul>}
           </section>
         )}
       </div>

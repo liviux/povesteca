@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.23.2] - 2026-11-24
+
+### Fixed
+- La „Distribuția” de pe pagina unei înregistrări, caseta cu regia, povestitorul și ceilalți nu mai apare goală când înregistrarea are doar actori, și nici lista de actori când are doar regie sau povestitor.
+
 ## [1.23.1] - 2026-11-24
 
 ### Removed
