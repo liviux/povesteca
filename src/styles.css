@@ -381,6 +381,7 @@ dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
 .log-inner { padding: 0 20px 20px; display: grid; gap: 18px; }
 .log-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 8px; padding: 14px 0 12px; background: var(--surface); border-bottom: 2px solid var(--line); }
 .log-head h2 { margin-right: auto; }
+.log-head h2 .muted { white-space: nowrap; }
 .log-foot { display: flex; flex-wrap: wrap; gap: 10px; border-top: 2px solid var(--line); padding-top: 16px; }
 .release { display: grid; gap: 6px; }
 .release + .release { border-top: 2px solid var(--line); padding-top: 16px; }

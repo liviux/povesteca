@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.24.0] - 2026-11-24
+
+### Added
+- “What's new” now shows next to its title how many changes the app has had so far, for example “What's new (54 changes)”.
+
 ## [1.23.2] - 2026-11-24
 
 ### Fixed

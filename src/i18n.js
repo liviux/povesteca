@@ -145,6 +145,8 @@ const RO = {
   nSources: (n) => plural(n, 'sursă', 'surse', 'de surse'),
   nRec: (n) => plural(n, 'înregistrare', 'înregistrări', 'de înregistrări'),
   nRes: (n) => plural(n, 'rezultat', 'rezultate', 'de rezultate'),
+  // every change saved to the app's code (a commit), counted when the app is built
+  nChanges: (n) => plural(n, 'schimbare', 'schimbări', 'de schimbări'),
   sortBy: 'Ordine',
   sorts: { relevanta: 'Cele mai potrivite', aleator: 'La întâmplare', recomandate: 'Recomandate', rating: 'Nota ascultătorilor', scurte: 'Cele mai scurte', lungi: 'Cele mai lungi', titlu: 'După titlu', recente: 'Adăugate recent' },
   recommended: 'Recomandată',
@@ -221,6 +223,7 @@ const EN = {
   nStories: (n) => `${n} stor${n === 1 ? 'y' : 'ies'}`,
   nSources: (n) => `${n} source${n === 1 ? '' : 's'}`,
   nRec: (n) => `${n} recording${n === 1 ? '' : 's'}`,
+  nChanges: (n) => `${n} change${n === 1 ? '' : 's'}`,
   nRes: (n) => `${n} result${n === 1 ? '' : 's'}`,
   sortBy: 'Order',
   sorts: { relevanta: 'Best match', aleator: 'Random', recomandate: 'Recommended', rating: 'Listener rating', scurte: 'Shortest', lungi: 'Longest', titlu: 'By title', recente: 'Recently added' },

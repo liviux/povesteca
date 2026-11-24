@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs';
+import { execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import preact from '@preact/preset-vite';
@@ -39,7 +40,28 @@ function catalog() {
   };
 }
 
-export default defineConfig({
+// How many commits the app has, for "What's new (53 changes)". From the full git history when there is one;
+// Vercel builds from a shallow clone (git clone --depth=10, vercel.com/docs/builds/configure-a-build), so there
+// the number comes from GitHub's API, once per build: visitors never contact GitHub. Unknown: null, nothing shown.
+async function commitCount() {
+  const git = (args) => execSync('git ' + args, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();
+  let sha = process.env.VERCEL_GIT_COMMIT_SHA;
+  try {
+    if (git('rev-parse --is-shallow-repository') === 'false') return +git('rev-list --count HEAD');
+    sha = git('rev-parse HEAD');
+  } catch {}
+  if (!sha) return null;
+  try {
+    // one commit per page: the number of the last page is the number of commits
+    const r = await fetch(`https://api.github.com/repos/liviux/povesteca/commits?per_page=1&sha=${sha}`);
+    return r.ok ? +(r.headers.get('link')?.match(/[?&]page=(\d+)>; rel="last"/)?.[1] || 1) : null;
+  } catch {
+    return null;
+  }
+}
+
+export default defineConfig(async () => ({
+  define: { __COMMITS__: JSON.stringify(await commitCount()) },
   plugins: [
     preact(),
     catalog(),
@@ -74,4 +96,4 @@ export default defineConfig({
       },
     },
   },
-});
+}));
