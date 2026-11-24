@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.21.1] - 2026-11-24
+
+### Removed
+- Sursa „Legendele Dobrogei” și cele 9 legende rămase de acolo: au fost făcute pentru publicul larg, nu pentru copii.
+
 ## [1.21.0] - 2026-11-24
 
 ### Added

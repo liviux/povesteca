@@ -2222,27 +2222,5 @@
    "ro": "60 de povești citite la Radio Moldova în emisiunea „Povestea de seară”, înregistrate între 1973 și 2005: Spiridon Vangheli, Ion Creangă, Ion Druță, Grigore Vieru, Frații Grimm, Gianni Rodari și povești populare. Ordinea e cea de pe pagina emisiunii.",
    "en": "60 stories read on Radio Moldova’s bedtime programme “Povestea de seară”, recorded between 1973 and 2005: Spiridon Vangheli, Ion Creangă, Ion Druță, Grigore Vieru, the Brothers Grimm, Gianni Rodari and folk tales. The order follows the programme’s page."
   }
- },
- {
-  "id": "seria-legendele-dobrogei",
-  "title": "Legendele Dobrogei",
-  "type": "series",
-  "sourceId": "legendele-dobrogei",
-  "url": "https://legendeledobrogei.ro/spectacole/",
-  "items": [
-   "legenda-comunei-ciocarlia-legendele-dobrogei-2023",
-   "comoara-din-insula-fara-nume-legendele-dobrogei-2023",
-   "insula-lui-ovidiu-legendele-dobrogei-2023",
-   "muntele-fericirii-de-la-tatlageac-legendele-dobrogei-2023",
-   "sarichioi-si-legenda-vitei-de-vie-legendele-dobrogei-2023",
-   "soleiman-magnificul-si-comoara-de-la-kustenge-legendele-dobrogei-2023",
-   "cismeaua-beiului-si-ciuta-ranita-legendele-dobrogei-2023",
-   "satul-lui-topal-schiopul-legendele-dobrogei-2023",
-   "legenda-lacului-tuzla-legendele-dobrogei-2023"
-  ],
-  "description": {
-   "ro": "De la Babadag la țărmul Mării Negre, legende dobrogene potrivite pentru copii, în ordinea difuzării la radio.",
-   "en": "From Babadag to the Black Sea coast, Dobrujan legends suited to children, in their original broadcast order."
-  }
  }
 ]

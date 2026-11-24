@@ -220,16 +220,6 @@
   }
  },
  {
-  "id": "legendele-dobrogei",
-  "name": "Legendele Dobrogei",
-  "type": "youtube",
-  "url": "https://legendeledobrogei.ro/spectacole/",
-  "description": {
-   "ro": "Douăzeci de spectacole radiofonice după „Poveștile Mării Negre” de Cristian Cealera, produse în 2023 de Asociația Cultural-Artistică „Vulturii Carpaților” cu Concordia Oslo.",
-   "en": "Twenty radio plays based on Cristian Cealera’s Poveștile Mării Negre, produced in 2023 by Asociația Cultural-Artistică Vulturii Carpaților with Concordia Oslo."
-  }
- },
- {
   "id": "latimp",
   "name": "LaTimp.eu",
   "type": "audio",

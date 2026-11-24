@@ -10,7 +10,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
-Acum sunt 1296 de povești și 1604 de înregistrări, din 26 de surse gratuite:
+Acum sunt 1287 de povești și 1595 de înregistrări, din 25 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -34,7 +34,6 @@ Acum sunt 1296 de povești și 1604 de înregistrări, din 26 de surse gratuite:
 - [Opera Comică pentru Copii](https://www.youtube.com/channel/UCugenozY7jOD2yUHIQU4awA) (YouTube, „Povești cu Bubu”)
 - [MiniREACTOR & Radio Cluj](https://www.youtube.com/playlist?list=PL60ohYFl3MjZphRgScTHpvHd7OfAhHLwY) (YouTube, teatru radiofonic contemporan)
 - [Teatrul pentru Copii și Tineret „Colibri” Craiova](https://www.youtube.com/@TeatrulColibriCraiova) (YouTube, teatru radiofonic)
-- [Legendele Dobrogei](https://legendeledobrogei.ro/spectacole/) (spectacole radiofonice, pe YouTube)
 - [LaTimp.eu](https://latimp.eu/category/teatru-audio-copii/) (montări din arhiva Radio România, audio direct)
 - [Povești alese](https://www.youtube.com/@mihaiamarie7370) (YouTube)
 - [MiniPovești](https://minipovesti.ro/) (audio direct MP3 și YouTube)
