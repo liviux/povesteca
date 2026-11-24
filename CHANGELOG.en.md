@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.24.4] - 2026-11-24
+
+### Added
+- In “What's new”, releases that removed stories from the catalog now carry a “Removed stories” label, just as those with new stories carry “New stories”.
+
+### Fixed
+- On a computer with the player open, the last filters in “Explore” no longer hide under the player before you scroll the page.
+
 ## [1.24.3] - 2026-11-24
 
 ### Fixed
@@ -18,7 +26,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 - Corrected casts: “Vulpea albă” now lists its own actors instead of those from “Ochii mamei”, and the narrator of “Fata din dafin” is Dinu Ianculescu.
 
 ### Removed
-- Removed 129 recordings that aren't stories for children up to 10: the “Români de poveste” and “Patrimoniu” documentaries, biographies, educational lessons, productions for older children and duplicates.
+- **Removed stories:** Removed 129 recordings that aren't stories for children up to 10: the “Români de poveste” and “Patrimoniu” documentaries, biographies, educational lessons, productions for older children and duplicates.
 
 ## [1.24.1] - 2026-11-24
 
@@ -76,7 +84,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 ## [1.21.1] - 2026-11-24
 
 ### Removed
-- The “Legendele Dobrogei” source and its 9 remaining legends: they were made for a general audience, not for children.
+- **Removed stories:** The “Legendele Dobrogei” source and its 9 remaining legends: they were made for a general audience, not for children.
 
 ## [1.21.0] - 2026-11-24
 
@@ -89,9 +97,9 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 - A source needs at least 5 recordings. “Teatru Subtitrat” was left with 4 and is gone.
 
 ### Removed
-- Deeply religious stories: those about Jesus, the Nativity, saints or other faiths (28 stories).
-- Stories that turned out to be for older children or adults after checking, such as “Hanul Ancuței”, “Luceafărul”, “Călin (file din poveste)”, “Cocoșatul de la Notre-Dame” and “Meșterul Manole”.
-- Recordings that no longer started in the player: 14 YouTube videos that can't be played on other sites any more, and 14 LaTimp files their site no longer serves to other sites.
+- **Removed stories:** Deeply religious stories: those about Jesus, the Nativity, saints or other faiths (28 stories).
+- **Removed stories:** Stories that turned out to be for older children or adults after checking, such as “Hanul Ancuței”, “Luceafărul”, “Călin (file din poveste)”, “Cocoșatul de la Notre-Dame” and “Meșterul Manole”.
+- **Removed stories:** Recordings that no longer started in the player: 14 YouTube videos that can't be played on other sites any more, and 14 LaTimp files their site no longer serves to other sites.
 
 ### Fixed
 - 5 recordings entered twice and 2 duplicated stories (“Feciorul cel vrednic” is “Zâna Zorilor”, for example) are now one each.
@@ -106,7 +114,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 ## [1.20.1] - 2026-11-23
 
 ### Removed
-- Removed 48 stories that weren't right for children: satire and comedy for adults, stories about suicide, murder or infidelity, the harshest Dobruja legends, and 3g RadioActiv's eight 13+ monologues.
+- **Removed stories:** Removed 48 stories that weren't right for children: satire and comedy for adults, stories about suicide, murder or infidelity, the harshest Dobruja legends, and 3g RadioActiv's eight 13+ monologues.
 - The 3g RadioActiv and Teatrul Stela Popescu sources are gone, since they were left with three recordings or fewer.
 
 ### Fixed
@@ -126,7 +134,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 ## [1.19.2] - 2026-11-23
 
 ### Removed
-- Removed LibriVox’s 16 English recordings, the source, and the nine stories with no other recordings.
+- **Removed stories:** Removed LibriVox’s 16 English recordings, the source, and the nine stories with no other recordings.
 
 ## [1.19.1] - 2026-11-23
 
@@ -142,7 +150,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 - 111 verified links were added to existing recordings.
 
 ### Removed
-- Sources with fewer than three recordings were removed, along with the three recordings found only there.
+- **Removed stories:** Sources with fewer than three recordings were removed, along with the three recordings found only there.
 
 ## [1.18.0] - 2026-11-23
 
@@ -171,7 +179,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 - 3g HUB recordings now include a sound design credit.
 
 ### Removed
-- Removed the seven inCAP recordings that could only be played on SoundCloud.
+- **Removed stories:** Removed the seven inCAP recordings that could only be played on SoundCloud.
 
 ## [1.15.7] - 2026-11-23
 
@@ -331,7 +339,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 - Swapped cast lists between *David Copperfield* (1954) and *Oliver Twist* (1954), and mis-grouped links in *Punguța cu doi bani* (1963 / 2003), *Povestea unui om leneș* and *Amintiri din copilărie* (chapters 1 and 2).
 
 ### Removed
-- Three AI-voiced recordings and two amateur recordings that did not meet the catalog rules.
+- **Removed stories:** Three AI-voiced recordings and two amateur recordings that did not meet the catalog rules.
 
 ## [1.8.0] - 2026-11-23
 

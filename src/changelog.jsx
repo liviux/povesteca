@@ -9,8 +9,9 @@ import { Icon } from './ui.jsx';
 // loaded only when the dialog opens, so the notes never weigh on the first page load
 const FILES = { ro: () => import('../CHANGELOG.md?raw'), en: () => import('../CHANGELOG.en.md?raw') };
 const PAGE = 20;
-// a bullet that starts with this marker flags the release with a "New stories" badge
+// a bullet that starts with one of these markers flags the release with a "New stories" / "Removed stories" badge
 const NEW = /^\*\*(Povești noi|New stories):\*\*/;
+const GONE = /^\*\*(Povești scoase|Removed stories):\*\*/;
 
 // **bold** and `code`, nothing else
 const inline = (text) => text.split(/(\*\*.+?\*\*|`[^`]+`)/).map((part) =>
@@ -25,11 +26,11 @@ function Release({ text }) {
   return (
     <section class="release">
       <h3>
-        <span>v{version || '?'}{items.some(([, i]) => i && NEW.test(i[2])) && <span class="badge">{t.newStories}</span>}</span>
+        <span>v{version || '?'}{items.some(([, i]) => i && NEW.test(i[2])) && <span class="badge">{t.newStories}</span>}{items.some(([, i]) => i && GONE.test(i[2])) && <span class="badge gone">{t.removedStories}</span>}</span>
         <small>{isNaN(day) ? date : day.toLocaleDateString(lang, { day: 'numeric', month: 'long', year: 'numeric' })}</small>
       </h3>
       {items.map(([cat, item]) => cat ? <h4>{t.newsCats[cat[1]] || cat[1]}</h4>
-        : item ? <p class={'release-item' + (item[1] ? ' nested' : '') + (NEW.test(item[2]) ? ' fresh' : '')}>{inline(item[2])}</p>
+        : item ? <p class={'release-item' + (item[1] ? ' nested' : '') + (NEW.test(item[2]) ? ' fresh' : GONE.test(item[2]) ? ' gone' : '')}>{inline(item[2])}</p>
         : null)}
     </section>
   );

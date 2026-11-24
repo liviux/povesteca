@@ -257,8 +257,6 @@ img { display: block; max-width: 100%; }
 @media (min-width: 960px) {
   .explore-grid { grid-template-columns: 290px 1fr; }
   .filters { display: grid; gap: 18px; position: sticky; top: 16px; max-height: calc(100dvh - 32px); overflow: hidden auto; overscroll-behavior: contain; }
-  /* keep the bottom of the panel above the player bar */
-  body:has(.dock.open) .filters { max-height: calc(100dvh - 32px - var(--dock-h)); }
   .filters-toggle { display: none; }
 }
 
@@ -284,7 +282,7 @@ img { display: block; max-width: 100%; }
 .vrow-body { display: grid; gap: 4px; align-content: start; min-width: 0; }
 .vrow-badges { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 2px; }
 .vrow-badges .badge { margin-bottom: 0; }
-.badge.dup { background: var(--surface-2); color: var(--muted); border: 1.5px solid var(--line); }
+.badge:is(.dup, .gone) { background: var(--surface-2); color: var(--muted); border: 1.5px solid var(--line); }
 .vrow-mirrors { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 6px; font-size: 13.5px; }
 .mirror-btn { display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); font-weight: 700; font-size: 13px; cursor: pointer; }
 .mirror-btn:hover { border-color: var(--ink); }
@@ -393,6 +391,7 @@ dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
 .release-item { font-size: 16px; }
 .release-item.nested { margin-left: 18px; }
 .release-item.fresh { border-left: 4px solid var(--accent); padding-left: 10px; }
+.release-item.gone { border-left: 4px solid var(--line); padding-left: 10px; }
 .release code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-radius: 6px; }
 
 /* ============ Player dock ============ */

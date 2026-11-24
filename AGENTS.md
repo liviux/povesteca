@@ -92,7 +92,7 @@ For other changes committed and pushed to `main`:
    ```
 
    Use only the headings you need, and keep them in English in both files; the app shows them translated. Keep each line short and say what changed for the listener, not which files moved.
-   When a release adds stories to the catalog, start that bullet with `**Povești noi:**` in `CHANGELOG.md` and `**New stories:**` in `CHANGELOG.en.md`. The app's “Noutăți” dialog marks that release with a badge.
+   When a release adds stories to the catalog, start that bullet with `**Povești noi:**` in `CHANGELOG.md` and `**New stories:**` in `CHANGELOG.en.md`. When a release removes stories or recordings from the catalog, start that bullet with `**Povești scoase:**` and `**Removed stories:**`. The app's “Noutăți” dialog marks each such release with its own badge.
 3. **Commit** the version bump and both changelogs together with the change (or as the last commit before the push).
 
 `npm run check` (also part of `npm run build`) fails when `package.json`, `package-lock.json` and the two changelogs don't agree on the version.

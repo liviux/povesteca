@@ -197,7 +197,7 @@ const RO = {
   suggest: 'Lipsește o poveste bună sau un link nu mai merge?', suggestLink: 'Scrie-ne pe GitHub',
   news: 'Noutăți', newsAll: 'Tot istoricul', newsMore: 'Arată mai multe', newsErr: 'Lista de noutăți nu s-a încărcat.',
   newsCats: { Added: 'Lucruri noi', Changed: 'Îmbunătățiri', Fixed: 'Reparații', Removed: 'Scoase' },
-  newStories: 'Povești noi', code: 'Codul pe GitHub', contact: 'Contact/feedback', version: (v) => `Versiunea ${v}`,
+  newStories: 'Povești noi', removedStories: 'Povești scoase', code: 'Codul pe GitHub', contact: 'Contact/feedback', version: (v) => `Versiunea ${v}`,
   min: 'min',
 };
 
@@ -275,7 +275,7 @@ const EN = {
   suggest: 'Is a good story missing, or a link broken?', suggestLink: 'Tell us on GitHub',
   news: "What's new", newsAll: 'Full changelog', newsMore: 'Read more', newsErr: "The list of changes didn't load.",
   newsCats: { Added: 'New features', Changed: 'Improvements', Fixed: 'Bug fixes', Removed: 'Removed features' },
-  newStories: 'New stories', code: 'Code on GitHub', contact: 'Contact/feedback', version: (v) => `Version ${v}`,
+  newStories: 'New stories', removedStories: 'Removed stories', code: 'Code on GitHub', contact: 'Contact/feedback', version: (v) => `Version ${v}`,
 };
 
 export const DICT = { ro: RO, en: EN };

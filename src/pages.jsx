@@ -178,6 +178,25 @@ function Combo({ id, legend, value, items, onPick }) {
 export function Explore({ query }) {
   const s = useStore();
   const [t, lang] = useT();
+  // the sticky filter panel starts lower than its sticky spot until the page scrolls, so a CSS max-height
+  // pushes its end under the player: size it to what is actually visible between its top and the player
+  const filtersRef = useRef();
+  useEffect(() => {
+    const fit = () => {
+      const el = filtersRef.current;
+      if (!el) return;
+      if (getComputedStyle(el).position !== 'sticky') { el.style.maxHeight = ''; return; }
+      const dock = document.querySelector('.dock.open');
+      const bottom = dock ? dock.getBoundingClientRect().top : innerHeight;
+      el.style.maxHeight = `${Math.max(200, bottom - Math.max(el.getBoundingClientRect().top, 0) - 16)}px`;
+    };
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(document.body);
+    addEventListener('scroll', fit, { passive: true });
+    addEventListener('resize', fit);
+    return () => { ro.disconnect(); removeEventListener('scroll', fit); removeEventListener('resize', fit); };
+  }, []);
   const p = new URLSearchParams(query);
   const f = Object.fromEntries(FILTER_KEYS.filter((k) => p.get(k)).map((k) => [k, p.get(k)]));
   const q = p.get('q') || '';
@@ -245,7 +264,7 @@ export function Explore({ query }) {
         </div>
       )}
       <div class="explore-grid">
-        <aside class={'filters' + (open ? ' open' : '')} aria-label={t.filters}>
+        <aside ref={filtersRef} class={'filters' + (open ? ' open' : '')} aria-label={t.filters}>
           <fieldset class="fgroup"><legend>{t.f.show}</legend><div class="chips">{opt('show', 'povesti', t.storiesH)}{opt('show', 'inregistrari', t.recordings)}</div></fieldset>
           {chips('genre')}{chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>

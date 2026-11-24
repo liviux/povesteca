@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.24.4] - 2026-11-24
+
+### Added
+- La „Noutăți”, versiunile care au scos povești din catalog au acum eticheta „Povești scoase”, la fel cum cele cu povești noi au „Povești noi”.
+
+### Fixed
+- Pe calculator, cu playerul pornit, ultimele filtre din „Explorează” nu mai rămân ascunse sub player înainte să derulezi pagina.
+
 ## [1.24.3] - 2026-11-24
 
 ### Fixed
@@ -18,7 +26,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 - Distribuții corectate: „Vulpea albă” are actorii ei, nu pe cei de la „Ochii mamei”, iar la „Fata din dafin” povestitor e Dinu Ianculescu.
 
 ### Removed
-- Au fost scoase 129 de înregistrări care nu sunt povești pentru copii de până la 10 ani: documentarele „Români de poveste” și „Patrimoniu”, biografii, lecții educative, producții pentru copii mai mari și dubluri.
+- **Povești scoase:** Au fost scoase 129 de înregistrări care nu sunt povești pentru copii de până la 10 ani: documentarele „Români de poveste” și „Patrimoniu”, biografii, lecții educative, producții pentru copii mai mari și dubluri.
 
 ## [1.24.1] - 2026-11-24
 
@@ -76,7 +84,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 ## [1.21.1] - 2026-11-24
 
 ### Removed
-- Sursa „Legendele Dobrogei” și cele 9 legende rămase de acolo: au fost făcute pentru publicul larg, nu pentru copii.
+- **Povești scoase:** Sursa „Legendele Dobrogei” și cele 9 legende rămase de acolo: au fost făcute pentru publicul larg, nu pentru copii.
 
 ## [1.21.0] - 2026-11-24
 
@@ -89,9 +97,9 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 - O sursă trebuie să aibă cel puțin 5 înregistrări. „Teatru Subtitrat” a rămas cu 4 și nu mai apare.
 
 ### Removed
-- Poveștile profund religioase: cele despre Iisus, Nașterea Domnului, sfinți sau alte credințe (28 de povești).
-- Poveștile care sunt pentru copii mai mari sau adulți, după ce au fost verificate: „Hanul Ancuței”, „Luceafărul”, „Călin (file din poveste)”, „Cocoșatul de la Notre-Dame”, „Meșterul Manole” și altele.
-- Înregistrările care nu mai porneau în player: 14 videoclipuri YouTube care nu mai pot fi redate pe alte site-uri și 14 fișiere LaTimp pe care site-ul lor nu le mai dă altor site-uri.
+- **Povești scoase:** Poveștile profund religioase: cele despre Iisus, Nașterea Domnului, sfinți sau alte credințe (28 de povești).
+- **Povești scoase:** Poveștile care sunt pentru copii mai mari sau adulți, după ce au fost verificate: „Hanul Ancuței”, „Luceafărul”, „Călin (file din poveste)”, „Cocoșatul de la Notre-Dame”, „Meșterul Manole” și altele.
+- **Povești scoase:** Înregistrările care nu mai porneau în player: 14 videoclipuri YouTube care nu mai pot fi redate pe alte site-uri și 14 fișiere LaTimp pe care site-ul lor nu le mai dă altor site-uri.
 
 ### Fixed
 - 5 înregistrări puse de două ori și 2 povești dublate (de exemplu „Feciorul cel vrednic” e „Zâna Zorilor”) sunt acum una singură.
@@ -106,7 +114,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 ## [1.20.1] - 2026-11-23
 
 ### Removed
-- Au fost scoase 48 de povești nepotrivite pentru copii: satire și comedii pentru adulți, povești despre sinucidere, crimă sau infidelitate, legende dobrogene prea dure și cele opt monologuri 13+ de la 3g RadioActiv.
+- **Povești scoase:** Au fost scoase 48 de povești nepotrivite pentru copii: satire și comedii pentru adulți, povești despre sinucidere, crimă sau infidelitate, legende dobrogene prea dure și cele opt monologuri 13+ de la 3g RadioActiv.
 - Sursele 3g RadioActiv și Teatrul Stela Popescu nu mai apar, pentru că au rămas cu trei înregistrări sau mai puțin.
 
 ### Fixed
@@ -126,7 +134,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 ## [1.19.2] - 2026-11-23
 
 ### Removed
-- Au fost eliminate cele 16 înregistrări LibriVox în engleză, sursa și cele 9 povești care nu aveau alte înregistrări.
+- **Povești scoase:** Au fost eliminate cele 16 înregistrări LibriVox în engleză, sursa și cele 9 povești care nu aveau alte înregistrări.
 
 ## [1.19.1] - 2026-11-23
 
@@ -142,7 +150,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 - 111 linkuri verificate au fost adăugate la înregistrări existente.
 
 ### Removed
-- Au fost scoase sursele cu mai puțin de trei înregistrări și cele trei înregistrări care existau doar acolo.
+- **Povești scoase:** Au fost scoase sursele cu mai puțin de trei înregistrări și cele trei înregistrări care existau doar acolo.
 
 ## [1.18.0] - 2026-11-23
 
@@ -171,7 +179,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 - În înregistrările 3g HUB apare și creditul pentru realizarea sunetului.
 
 ### Removed
-- Au fost scoase cele 7 înregistrări inCAP care se ascultau doar pe SoundCloud.
+- **Povești scoase:** Au fost scoase cele 7 înregistrări inCAP care se ascultau doar pe SoundCloud.
 
 ## [1.15.7] - 2026-11-23
 
@@ -331,7 +339,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 - Distribuțiile inversate dintre *David Copperfield* (1954) și *Oliver Twist* (1954), precum și linkurile amestecate între *Punguța cu doi bani* (1963 / 2003), *Povestea unui om leneș* și *Amintiri din copilărie* (capitolele 1 și 2).
 
 ### Removed
-- Trei înregistrări cu voci sintetice (AI) și două înregistrări de amatori care nu respectau regulile catalogului.
+- **Povești scoase:** Trei înregistrări cu voci sintetice (AI) și două înregistrări de amatori care nu respectau regulile catalogului.
 
 ## [1.8.0] - 2026-11-23
 
