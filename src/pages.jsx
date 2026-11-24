@@ -309,6 +309,7 @@ export function StoryPage({ id }) {
           <p class="byline">{t.by} <Authors s={story} />{story.year ? ` · ${story.year}` : ''}</p>
           {summary && <p class="lead">{summary}</p>}
           <div class="actions">
+            {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
             <FavButton list="favStories" id={story.id} title={story.title} withText />
           </div>
           <dl class="tags">
@@ -344,7 +345,6 @@ function VersionRow({ v, best, dupOf }) {
   const s = useStore();
   const [t, lang] = useT();
   const who = names(v, t);
-  const later = s.queue.includes(v.id);
   const p = s.player;
   const src = sourceById.get(v.sourceId);
   return (
@@ -380,7 +380,6 @@ function VersionRow({ v, best, dupOf }) {
       </div>
       <div class="vrow-actions">
         <PlayButton v={v} cls="btn primary" label={t.play} />
-        <button type="button" class="btn ghost small" aria-pressed={later} onClick={() => toggleIn('queue', v.id)}><Icon n={later ? 'check' : 'later'} size={16} />{later ? t.laterOn : t.later}</button>
       </div>
     </article>
   );
@@ -399,7 +398,6 @@ export function VersionPage({ id }) {
   const c = v.credits || {};
   const est = (k) => v.estimated?.includes(k) && <abbr class="est" title={t.estimated}>≈</abbr>;
   const pos = savedOffset(v, s.pos[v.id]);
-  const later = s.queue.includes(v.id);
   const person = (n) => <PersonLink name={n} />;
   const others = (versionsByStory.get(story.id) || []).filter((x) => x.id !== v.id);
   const p = s.player;
@@ -416,7 +414,6 @@ export function VersionPage({ id }) {
               ? <><PlayButton v={v} cls="btn primary big" label={t.resume(fmtTime(pos))} /><PlayButton v={v} cls="btn ghost" label={t.fromStart} from="start" /></>
               : <PlayButton v={v} cls="btn primary big" label={t.play} />}
             <FavButton list="favVersions" id={v.id} title={v.title} withText />
-            <button type="button" class="btn ghost" aria-pressed={later} onClick={() => toggleIn('queue', v.id)}><Icon n={later ? 'check' : 'later'} size={18} />{later ? t.laterOn : t.later}</button>
           </div>
           <Rate id={v.id} />
         </div>
@@ -716,7 +713,6 @@ export function Mine() {
     ...s.favStories.map((id) => storyById.get(id)).filter(Boolean).map((x) => ({ key: x.id, title: x.title, remove: () => toggleIn('favStories', x.id), card: <StoryCard s={x} /> })),
     ...rec(s.favVersions, (id) => toggleIn('favVersions', id)),
   ];
-  const queue = rec(s.queue, (id) => toggleIn('queue', id));
   const hist = rec(s.history.map((h) => h.id), (id) => set({ history: s.history.filter((h) => h.id !== id) }), true);
   // people, sources and records: one row each, with a remove button
   const rows = (id, heading, key, item) => {
@@ -742,7 +738,7 @@ export function Mine() {
     ...s.favSources.flatMap((id) => versionsBySource.get(id) || []),
     ...s.favCols.flatMap((id) => (collectionById.get(id)?.items || []).map((x) => versionById.get(x))),
   ].filter(Boolean))];
-  const none = !saved.length && !queue.length && !hist.length && !s.favPeople.length && !s.favSources.length && !s.favCols.length;
+  const none = !saved.length && !hist.length && !s.favPeople.length && !s.favSources.length && !s.favCols.length;
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
@@ -764,7 +760,6 @@ export function Mine() {
         const c = collectionById.get(id);
         return c && { key: id, title: c.title, href: `/colectie/${id}`, sub: c.code, icon: <Icon n="disc" size={18} /> };
       })}
-      {block('queue', t.queue, queue)}
       {block('history', t.history, hist,
         <button type="button" class="link-btn" onClick={() => set({ history: [], pos: {} })}>{t.clearHistory}</button>)}
     </main>

@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.22.0] - 2026-11-24
+
+### Removed
+- Butonul „De ascultat” de la înregistrări și lista „De ascultat” din „Ale mele”. Ce vrei să păstrezi pui la favorite, cu „Salvează”.
+
+### Fixed
+- Butonul „Ascultă” e din nou pe pagina unei povești. Versiunea 1.21.2 îl scosese din greșeală.
+
 ## [1.21.2] - 2026-11-24
 
 ### Added

@@ -48,7 +48,7 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas. Viteza se schimbă de la 0,5× la 2×.
 - **„Surprinde-mă!”** alege o poveste la întâmplare și nu o repetă până nu le-a dat pe toate. În Explorează alege doar dintre rezultatele filtrelor tale.
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
-- **Ale mele**: poveștile, înregistrările, oamenii, sursele și discurile puse la favorite, lista „De ascultat” și istoricul, toate păstrate doar în browser, fără cont. Butonul „Surprinde-mă din favorite” pornește o înregistrare la întâmplare din tot ce ai acolo.
+- **Ale mele**: poveștile, înregistrările, oamenii, sursele și discurile puse la favorite și istoricul, toate păstrate doar în browser, fără cont. Butonul „Surprinde-mă din favorite” pornește o înregistrare la întâmplare din tot ce ai acolo.
 - **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
 - **Trei teme** (Clasică, Băieți, Fete), care schimbă și culorile, și așezarea paginii. Fiecare are o variantă întunecată, care pornește singură când dispozitivul e pe modul întunecat sau când folosești Dark Reader.
 - **Surse**: o pagină cu arhivele și canalele de unde vin înregistrările și cu regulile catalogului.
