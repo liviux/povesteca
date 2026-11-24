@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.24.6] - 2026-11-24
+
+### Fixed
+- When you close the player, the filter panel in “Explore” reaches the bottom again right away, without scrolling.
+
 ## [1.24.5] - 2026-11-24
 
 ### Fixed

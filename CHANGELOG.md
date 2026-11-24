@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.24.6] - 2026-11-24
+
+### Fixed
+- Când închizi playerul, panoul de filtre din „Explorează” coboară din nou până jos, fără să mai trebuiască să derulezi.
+
 ## [1.24.5] - 2026-11-24
 
 ### Fixed

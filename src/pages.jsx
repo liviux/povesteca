@@ -193,9 +193,12 @@ export function Explore({ query }) {
     fit();
     const ro = new ResizeObserver(fit);
     ro.observe(document.body);
+    // the player opening or closing changes only a class, so watch for that too
+    const mo = new MutationObserver(fit);
+    mo.observe(document.body, { subtree: true, attributes: true, attributeFilter: ['class'] });
     addEventListener('scroll', fit, { passive: true });
     addEventListener('resize', fit);
-    return () => { ro.disconnect(); removeEventListener('scroll', fit); removeEventListener('resize', fit); };
+    return () => { ro.disconnect(); mo.disconnect(); removeEventListener('scroll', fit); removeEventListener('resize', fit); };
   }, []);
   const p = new URLSearchParams(query);
   const f = Object.fromEntries(FILTER_KEYS.filter((k) => p.get(k)).map((k) => [k, p.get(k)]));
