@@ -32,7 +32,10 @@ const group = (list, key) => {
 };
 export const versionsByStory = group(versions, 'storyId');
 export const versionsBySource = group(versions, 'sourceId');
-export const storiesByAuthor = group(stories, 'author');
+// `author` is one name, or a list when a story has several authors
+export const authorsOf = (s) => [].concat(s?.author || []);
+export const storiesByAuthor = new Map();
+for (const s of stories) for (const a of authorsOf(s)) (storiesByAuthor.get(a) || storiesByAuthor.set(a, []).get(a)).push(s);
 export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
 
@@ -128,7 +131,7 @@ function* indexer() {
       v,
       fields: [
         [10, words([s.title, ...(s.altTitles || []), v.title].join(' ')).map(id)],
-        [6, words([s.author, ...(s.characters || []), ...people(v)].join(' ')).map(id)],
+        [6, words([...authorsOf(s), ...(s.characters || []), ...people(v)].join(' ')).map(id)],
         [4, words([sourceById.get(v.sourceId)?.name, col?.title, col?.code, s.year, v.year, label('origin', s.origin, 'ro'), label('origin', s.origin, 'en')].join(' ')).map(id)],
         [2, [...cached(s.id, () => [s.summary?.ro, s.summary?.en].join(' ')), ...(s.themes || []).flatMap((t) => en('themes', t)), ...(v.moods || []).flatMap((m) => en('moods', m)),
           ...en('kind', v.kind), ...en('voices', v.voices), ...en('sfx', v.sfx), ...en('music', v.music), ...en('genre', s.genre)]],
@@ -224,7 +227,7 @@ export function applyFilters(list, f, ratings = {}) {
     if (f.dur) { const [a, b] = DURATIONS[f.dur] || [0, 1e9]; if (v.duration < a || v.duration >= b) return false; }
     if (f.genre && s.genre !== f.genre) return false;
     if (f.origin && s.origin !== f.origin) return false;
-    if (f.author && s.author !== f.author) return false;
+    if (f.author && !authorsOf(s).includes(f.author)) return false;
     if (f.char && !s.characters?.includes(f.char)) return false;
     if (f.source && v.sourceId !== f.source) return false;
     if (f.col && !collectionById.get(f.col)?.items.includes(v.id)) return false;
@@ -260,7 +263,7 @@ const randomRank = new Map(shuffle(versions).map((v, i) => [v.id, i]));
 const ORIGINAL_MODERN = new Set([
   'afostodata', 'oameni-mici-si-mari',
   'teatrul-puck', 'teatrul-gong', 'somnorosi', 'yt-teatrul-ion-creanga', 'yt-opera-comica',
-  'yt-minireactor', 'yt-teatrul-colibri', 'arteka', 'cutiuta-cu-povesti', 'pippin-cel-curios',
+  'yt-minireactor', 'yt-teatrul-colibri', 'cutiuta-cu-povesti', 'pippin-cel-curios',
   'radio-moldova',
 ]);
 const creditSet = (v) => new Set(people(v).map((n) => norm(n)).filter((n) => n.length >= 4));

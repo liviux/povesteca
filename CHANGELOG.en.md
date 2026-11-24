@@ -2,6 +2,26 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.21.0] - 2026-11-24
+
+### Added
+- Stories with several authors show each of them separately, with their own page, such as Sanda Socoliuc and Vasile Socoliuc, or Charles and Mary Lamb.
+- 70 stories that had no summary now have one, written after listening to the recording.
+
+### Changed
+- The catalog is for children up to 10: the age filter stops at 10, and recommended ages were checked against the source and the content (51 corrected).
+- A source needs at least 5 recordings. “Teatru Subtitrat” was left with 4 and is gone.
+
+### Removed
+- Deeply religious stories: those about Jesus, the Nativity, saints or other faiths (28 stories).
+- Stories that turned out to be for older children or adults after checking, such as “Hanul Ancuței”, “Luceafărul”, “Călin (file din poveste)”, “Cocoșatul de la Notre-Dame” and “Meșterul Manole”.
+- Recordings that no longer started in the player: 14 YouTube videos that can't be played on other sites any more, and 14 LaTimp files their site no longer serves to other sites.
+
+### Fixed
+- 5 recordings entered twice and 2 duplicated stories (“Feciorul cel vrednic” is “Zâna Zorilor”, for example) are now one each.
+- 248 cast roles now have their diacritics, and a few titles and authors were corrected.
+- “Mărășești” is back: it comes from a record made for third graders.
+
 ## [1.20.2] - 2026-11-23
 
 ### Fixed

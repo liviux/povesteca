@@ -1323,9 +1323,6 @@
     "ber-caciula": {
       "goodreads": "https://www.goodreads.com/book/show/259497682"
     },
-    "bubico": {
-      "goodreads": "https://www.goodreads.com/book/show/38925976"
-    },
     "bucur-ciobanul": {
       "wikidata": "Q2274298",
       "wikipedia": "https://ro.wikipedia.org/wiki/Ciobanul_Bucur"
@@ -1365,9 +1362,6 @@
     },
     "califul-barza": {
       "goodreads": "https://www.goodreads.com/book/show/57859306"
-    },
-    "calin-file-din-poveste": {
-      "goodreads": "https://www.goodreads.com/book/show/101093556"
     },
     "calin-nebunul": {
       "wikidata": "Q12726182",
@@ -1519,11 +1513,6 @@
     "cizmele-cocostarcului": {
       "goodreads": "https://www.goodreads.com/book/show/20552924"
     },
-    "cocosatul-de-la-notre-dame": {
-      "wikidata": "Q191380",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
-      "goodreads": "https://www.goodreads.com/work/editions/3043569"
-    },
     "cocoselul-de-aur": {
       "wikidata": "Q4421382",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_the_Golden_Cockerel",
@@ -1574,10 +1563,6 @@
     },
     "curaj-ida-o-micuta-veverita-un-curaj-de-urias": {
       "goodreads": "https://www.goodreads.com/book/show/57698069"
-    },
-    "d-ale-lui-pacala": {
-      "wikidata": "Q2908201",
-      "wikipedia": "https://ro.wikipedia.org/wiki/P%C4%83cal%C4%83"
     },
     "danila-prepeleac": {
       "goodreads": "https://www.goodreads.com/book/show/12117772"
@@ -1829,11 +1814,6 @@
     "hansel-si-gretel": {
       "goodreads": "https://www.goodreads.com/book/show/48505299"
     },
-    "hanul-ancutei": {
-      "wikidata": "Q18540692",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Hanu-Ancu%C8%9Bei",
-      "goodreads": "https://www.goodreads.com/book/show/5198851"
-    },
     "harap-alb": {
       "wikidata": "Q104841346",
       "wikipedia": "https://ro.wikipedia.org/wiki/Povestea_lui_Harap-Alb",
@@ -2001,10 +1981,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Swans",
       "goodreads": "https://www.goodreads.com/book/show/24493013"
     },
-    "legenda-cocosului-de-barcelos": {
-      "wikidata": "Q2996913",
-      "wikipedia": "https://en.wikipedia.org/wiki/Rooster_of_Barcelos"
-    },
     "legenda-dragonului-wawel": {
       "wikidata": "Q463190",
       "wikipedia": "https://en.wikipedia.org/wiki/Wawel_Dragon"
@@ -2021,15 +1997,9 @@
       "wikidata": "Q1212214",
       "wikipedia": "https://ro.wikipedia.org/wiki/M%C4%83r%C8%9Bi%C8%99or"
     },
-    "legenda-oualor-rosii": {
-      "goodreads": "https://www.goodreads.com/book/show/108203813"
-    },
     "legenda-regelui-laurin-si-gradina-de-trandafiri": {
       "wikidata": "Q55616629",
       "wikipedia": "https://en.wikipedia.org/wiki/King_Laurin"
-    },
-    "legende-despre-iisus": {
-      "goodreads": "https://www.goodreads.com/book/show/238288661"
     },
     "legendele-olimpului": {
       "wikidata": "Q15910026",
@@ -2049,21 +2019,11 @@
     "limir-imparat": {
       "goodreads": "https://www.goodreads.com/book/show/22927742"
     },
-    "luceafarul": {
-      "wikidata": "Q1586176",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Luceaf%C4%83rul",
-      "goodreads": "https://www.goodreads.com/book/show/6353149"
-    },
     "lupul-cel-nazdravan-si-fat-frumos": {
       "goodreads": "https://www.goodreads.com/book/show/263244581"
     },
     "lupul-parcalab": {
       "goodreads": "https://www.goodreads.com/book/show/50370983"
-    },
-    "marile-sperante-lectura-irina-velcescu": {
-      "wikidata": "Q219552",
-      "wikipedia": "https://en.wikipedia.org/wiki/Great_Expectations",
-      "goodreads": "https://www.goodreads.com/work/editions/2612809"
     },
     "mariuca": {
       "goodreads": "https://www.goodreads.com/book/show/258565767"
@@ -2145,9 +2105,6 @@
     },
     "nils-holgersson": {
       "goodreads": "https://www.goodreads.com/book/show/21950006"
-    },
-    "ninigra-si-aligru": {
-      "goodreads": "https://www.goodreads.com/book/show/40540572"
     },
     "noi-intamplari-cu-mary-poppins": {
       "wikidata": "Q858705",
@@ -2388,11 +2345,6 @@
       "wikidata": "Q1212806",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Frog_Princess"
     },
-    "printesa-turandot": {
-      "wikidata": "Q354748",
-      "wikipedia": "https://en.wikipedia.org/wiki/Turandot_(Gozzi)",
-      "goodreads": "https://www.goodreads.com/book/show/9257135"
-    },
     "printul-blestemat": {
       "wikidata": "Q467520",
       "wikipedia": "https://en.wikipedia.org/wiki/Tale_of_the_Doomed_Prince",
@@ -2569,10 +2521,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Tom_Sawyer%2C_Detective",
       "goodreads": "https://www.goodreads.com/work/editions/1031833"
     },
-    "toma-alimos": {
-      "wikidata": "Q2836986",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Toma_Alimo%C8%99"
-    },
     "tomita-un-ghemotoc-dupa-un-ghem": {
       "goodreads": "https://www.goodreads.com/book/show/247274630"
     },
@@ -2719,9 +2667,6 @@
     },
     "melcusorul": {
       "goodreads": "https://www.goodreads.com/book/show/49885947-melcu-orul"
-    },
-    "printesa-curcubeu": {
-      "goodreads": "https://www.goodreads.com/book/show/11734249-the-blue-rose-fairy-book"
     },
     "piatra-cea-fierbinte": {
       "wikipedia": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C",

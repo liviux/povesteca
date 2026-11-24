@@ -90,16 +90,6 @@
   }
  },
  {
-  "id": "yt-teatru-subtitrat",
-  "name": "Teatru Subtitrat",
-  "type": "youtube",
-  "url": "https://www.youtube.com/playlist?list=PLPr2UQwCNy3kz-JkNoXZoKXcb3K0lW34h",
-  "description": {
-   "ro": "Canal YouTube cu înregistrări clasice de teatru radiofonic din anii ’50–’70 și povești pentru copii, însoțite de subtitrare îngrijită.",
-   "en": "A YouTube channel sharing 1950s–1970s Romanian radio drama and children’s tales with carefully prepared Romanian subtitles."
-  }
- },
- {
   "id": "yt-teatru-pe-vinil",
   "name": "Teatru pe Vinil",
   "type": "youtube",

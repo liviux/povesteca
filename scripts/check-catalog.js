@@ -47,6 +47,9 @@ for (const [id, s] of Object.entries(wiki.stories)) {
 
 for (const s of stories) {
   if (!s.title || !s.author) err(`story ${s.id}: title and author are required`);
+  // co-authors are a list of names, not one text with "și" or commas, so each gets a page of their own
+  if (Array.isArray(s.author) ? s.author.length < 2 || !s.author.every((a) => typeof a === 'string' && a) : typeof s.author !== 'string') err(`story ${s.id}: author must be a name or a list of 2+ names`);
+  if (typeof s.author === 'string' && /, /.test(s.author)) err(`story ${s.id}: author "${s.author}" looks like several names; use a list`);
   // an empty summary is allowed: what can't be found from a source stays empty (AGENTS.md)
   if (typeof s.summary?.ro !== 'string' || typeof s.summary?.en !== 'string') err(`story ${s.id}: summary.ro and summary.en must be text (empty when unknown)`);
   if (s.year != null && (!Number.isInteger(s.year) || s.year < 0 || s.year > 2100)) err(`story ${s.id}: bad year "${s.year}"`);
@@ -70,7 +73,8 @@ for (const v of versions) {
   if (v.estimated != null && !Array.isArray(v.estimated)) err(`${at}: estimated must be an array`);
   for (const e of Array.isArray(v.estimated) ? v.estimated : []) if (!ENUM.estimated.includes(e)) err(`${at}: estimated "${e}"`);
   if (moods.length && !v.estimated?.includes('moods')) err(`${at}: mood judgements must be marked estimated`);
-  if (v.age != null && !(Number.isInteger(v.age) && v.age >= 0 && v.age <= 18)) err(`${at}: age`);
+  // the catalog is for children up to 10 (AGENTS.md)
+  if (v.age != null && !(Number.isInteger(v.age) && v.age >= 0 && v.age <= 10)) err(`${at}: age must be 0-10`);
   if (v.quality != null && !(Number.isInteger(v.quality) && v.quality >= 1 && v.quality <= 5)) err(`${at}: quality must be 1-5`);
   if (v.start != null && v.end != null && v.end <= v.start) err(`${at}: end before start`);
   if ('cover' in v && v.cover !== false && (typeof v.cover !== 'string' || !/^https?:\/\//.test(v.cover))) err(`${at}: cover can only be false or an image URL`);
@@ -101,10 +105,10 @@ for (const v of versions) {
   }
 }
 
-// a source with 3 recordings or fewer is removed completely (AGENTS.md)
+// a source with fewer than 5 recordings is removed completely (AGENTS.md)
 for (const src of sources) {
   const n = versions.filter((v) => v.sourceId === src.id).length;
-  if (n <= 3) err(`source ${src.id}: only ${n} recordings (a source needs more than 3)`);
+  if (n < 5) err(`source ${src.id}: only ${n} recordings (a source needs at least 5)`);
 }
 
 const inCol = new Map();

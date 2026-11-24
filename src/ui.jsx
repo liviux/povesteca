@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'preact/hooks';
-import { storyById, cover, storyCover, bestVersion, versionsByStory, linkUrl } from './data.js';
+import { storyById, authorsOf, cover, storyCover, bestVersion, versionsByStory, linkUrl } from './data.js';
 import { label, fmtDur } from './i18n.js';
 import { useStore, useT, toggleIn } from './store.js';
 import { play, toggle, closePlayer } from './player.jsx';
@@ -165,7 +165,7 @@ export function VersionCard({ v, progress, badge }) {
           {badge && <span class="badge">{badge}</span>}
           <p class="card-kind">{label('kind', v.kind, lang)}</p>
           <h3 class="card-title">{s.title}</h3>
-          <p class="card-sub">{s.author} · {fmtDur(v.duration)}{v.year ? ` · ${v.year}` : ''}</p>
+          <p class="card-sub">{authorsOf(s).join(', ')} · {fmtDur(v.duration)}{v.year ? ` · ${v.year}` : ''}</p>
           <div class="card-foot"><Traits v={v} /><Rating id={v.id} compact /></div>
           {progress != null && <div class="progress" role="presentation"><i style={{ width: `${Math.min(100, progress * 100)}%` }} /></div>}
         </div>
@@ -187,7 +187,7 @@ export function StoryCard({ s: story }) {
         <div class="card-body">
           <p class="card-kind">{label('genre', story.genre, lang)}</p>
           <h3 class="card-title">{story.title}</h3>
-          <p class="card-sub">{story.author}{story.year ? ` · ${story.year}` : ''}</p>
+          <p class="card-sub">{authorsOf(story).join(', ')}{story.year ? ` · ${story.year}` : ''}</p>
           {recs > 1 && <p class="card-sub card-count">{t.nRec(recs)}</p>}
         </div>
       </a>

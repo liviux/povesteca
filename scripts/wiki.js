@@ -57,7 +57,8 @@ const WRONG = {
 const split = (x) => (x ? x.split(/; |, | si | și /) : []);
 const roles = new Map();
 const add = (n, r) => { n = n?.trim(); if (n) { if (!roles.has(n)) roles.set(n, new Set()); roles.get(n).add(r); } };
-for (const s of stories) add(s.author, 'author');
+const authorsOf = (s) => [].concat(s.author || []); // one name, or a list for co-authors
+for (const s of stories) authorsOf(s).forEach((a) => add(a, 'author'));
 for (const v of versions) {
   const c = v.credits || {};
   (c.narrator || []).forEach((n) => add(n, 'narrator'));
@@ -208,11 +209,14 @@ const manualStories = manual.stories || {};
 for (const s of stories) {
   let w = null;
   for (const title of [s.title, ...(s.altTitles || [])]) {
-    const m = works.get(s.author + '\n' + norm(title));
-    if (m && m.size === 1) { w = [...m.values()][0]; break; }
+    for (const a of authorsOf(s)) {
+      const m = works.get(a + '\n' + norm(title));
+      if (m && m.size === 1) { w = [...m.values()][0]; break; }
+    }
+    if (w) break;
   }
   const ms = manualStories[s.id] || {};
-  const autoWiki = w ? wikipedia(w, romanian(people[s.author] || {})) : undefined;
+  const autoWiki = w ? wikipedia(w, romanian(people[authorsOf(s)[0]] || {})) : undefined;
   const autoGr = w?.grWork ? `https://www.goodreads.com/work/editions/${w.grWork}` : w?.grBook ? `https://www.goodreads.com/book/show/${w.grBook}` : undefined;
   const e = {
     wikidata: ms.wikidata || (w && qid(w.work)) || undefined,

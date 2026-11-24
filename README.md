@@ -8,9 +8,9 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 ## Ce fel de povești găsești
 
-Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română și potrivite pentru copii.
+Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
-Acum sunt 1348 de povești și 1674 de înregistrări, din 27 de surse gratuite:
+Acum sunt 1296 de povești și 1604 de înregistrări, din 26 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -27,7 +27,6 @@ Acum sunt 1348 de povești și 1674 de înregistrări, din 27 de surse gratuite:
 - [Cutiuța cu povești & Povești ascultătoare](https://www.youtube.com/@CutiutaMuzicalaOficial) (audio direct și YouTube oficial, cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea)
 - [Pippin cel Curios („De vorbă cu patrimoniul”)](https://pippincelcurios.ro/) (audio direct MP3, povești dramatizate pe roluri)
 - [Teatru Radiofonic](https://www.youtube.com/@teatruradiofonic6362) (YouTube)
-- [Teatru Subtitrat](https://www.youtube.com/playlist?list=PLPr2UQwCNy3kz-JkNoXZoKXcb3K0lW34h) (YouTube)
 - [Teatru pe Vinil](https://www.youtube.com/@TeatruPeVinil) (YouTube)
 - [Itsy Bitsy & Leon Magdan](https://www.youtube.com/@RadioItsyBitsy) (YouTube)
 - [Ady Magdici (Teatru Radiofonic)](https://www.youtube.com/@AdyMagdici) (YouTube)

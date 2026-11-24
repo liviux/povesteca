@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  storiesByAuthor, collectionOf, people, norm, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
+  storiesByAuthor, authorsOf, collectionOf, people, norm, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -250,7 +250,7 @@ export function Explore({ query }) {
           <fieldset class="fgroup"><legend>{t.f.show}</legend><div class="chips">{opt('show', 'povesti', t.storiesH)}{opt('show', 'inregistrari', t.recordings)}</div></fieldset>
           {chips('genre')}{chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>
-          {combo('age',[3, 4, 5, 6, 7, 8, 9, 10, 12].map((n) => [String(n), t.ageOpt(n)]))}
+          {combo('age',[3, 4, 5, 6, 7, 8, 9, 10].map((n) => [String(n), t.ageOpt(n)]))}
           {/* how many there are of each, in the whole catalogue: stories for story fields, recordings for the rest */}
           {combo('origin', L.origins.map((o) => [o, label('origin', o, lang), t.nStories(L.storiesFrom.get(o))]))}
           {combo('author', L.authors.map((a) => [a, a, t.nStories(storiesByAuthor.get(a).length)]))}
@@ -306,7 +306,7 @@ export function StoryPage({ id }) {
         <div class="detail-text">
           <p class="eyebrow"><a href={find('genre', story.genre)}>{label('genre', story.genre, lang)}</a></p>
           <h1>{story.title}</h1>
-          <p class="byline">{t.by} <PersonLink name={story.author} />{story.year ? ` · ${story.year}` : ''}</p>
+          <p class="byline">{t.by} <Authors s={story} />{story.year ? ` · ${story.year}` : ''}</p>
           {summary && <p class="lead">{summary}</p>}
           <div class="actions">
             {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
@@ -411,7 +411,7 @@ export function VersionPage({ id }) {
         <div class="detail-text">
           <p class="eyebrow"><a href={`/poveste/${story.id}`}>{t.story}: {story.title}</a></p>
           <h1>{v.title}</h1>
-          <p class="byline"><PersonLink name={story.author} /> · {label('kind', v.kind, lang)} · {fmtDur(v.duration)}</p>
+          <p class="byline"><Authors s={story} /> · {label('kind', v.kind, lang)} · {fmtDur(v.duration)}</p>
           <div class="actions">
             {pos > 10 && pos < v.duration - 20
               ? <><PlayButton v={v} cls="btn primary big" label={t.resume(fmtTime(pos))} /><PlayButton v={v} cls="btn ghost" label={t.fromStart} from="start" /></>
@@ -565,6 +565,8 @@ function PersonLink({ name }) {
   const photo = personInfo(name)?.photo;
   return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={photo.src} alt="" width="32" height="32" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}{name}</a>;
 }
+
+const Authors = ({ s }) => authorsOf(s).map((a, i) => <>{i ? ', ' : ''}<PersonLink name={a} /></>);
 
 function photoSource(p) {
   if (p.source) return p.source;
@@ -732,7 +734,7 @@ export function Mine() {
       </section>
     );
   };
-  const withPerson = (n) => versions.filter((v) => people(v).includes(n) || storyById.get(v.storyId)?.author === n);
+  const withPerson = (n) => versions.filter((v) => people(v).includes(n) || authorsOf(storyById.get(v.storyId)).includes(n));
   // everything kept in favourites, as recordings: the button below picks one of them at random
   const pool = [...new Set([
     ...s.favVersions.map((id) => versionById.get(id)),

@@ -2,6 +2,26 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.21.0] - 2026-11-24
+
+### Added
+- Poveștile scrise de mai mulți autori îi arată pe fiecare separat, cu pagina lui, de exemplu Sanda Socoliuc și Vasile Socoliuc sau Charles și Mary Lamb.
+- 70 de povești care nu aveau rezumat au acum unul, scris după ce s-a ascultat înregistrarea.
+
+### Changed
+- Catalogul e pentru copii de până la 10 ani: filtrul de vârstă se oprește la 10 ani, iar vârstele recomandate au fost verificate după sursă și după conținut (51 corectate).
+- O sursă trebuie să aibă cel puțin 5 înregistrări. „Teatru Subtitrat” a rămas cu 4 și nu mai apare.
+
+### Removed
+- Poveștile profund religioase: cele despre Iisus, Nașterea Domnului, sfinți sau alte credințe (28 de povești).
+- Poveștile care sunt pentru copii mai mari sau adulți, după ce au fost verificate: „Hanul Ancuței”, „Luceafărul”, „Călin (file din poveste)”, „Cocoșatul de la Notre-Dame”, „Meșterul Manole” și altele.
+- Înregistrările care nu mai porneau în player: 14 videoclipuri YouTube care nu mai pot fi redate pe alte site-uri și 14 fișiere LaTimp pe care site-ul lor nu le mai dă altor site-uri.
+
+### Fixed
+- 5 înregistrări puse de două ori și 2 povești dublate (de exemplu „Feciorul cel vrednic” e „Zâna Zorilor”) sunt acum una singură.
+- 248 de roluri din distribuții au acum diacritice, iar câteva titluri și autori au fost corectați.
+- „Mărășești” a revenit: e de pe un disc pentru elevii de clasa a III-a.
+
 ## [1.20.2] - 2026-11-23
 
 ### Fixed

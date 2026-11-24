@@ -960,6 +960,7 @@
   "code": "CS 042",
   "url": "https://www.discogs.com/release/6891418",
   "items": [
+   "marasesti-disc",
    "la-scaldat-disc"
   ],
   "description": {
@@ -1458,25 +1459,6 @@
   }
  },
  {
-  "id": "seria-hanul-ancutei-1968",
-  "title": "Hanul Ancuței (Teatrul Național Radiofonic, 1968)",
-  "type": "series",
-  "sourceId": "eteatru",
-  "url": "https://eteatru.ro/spectacole/hanul-ancutei-id456.html",
-  "items": [
-   "hanul-ancutei-ep-1-1968",
-   "hanul-ancutei-ep-2-1968",
-   "hanul-ancutei-ep-3-1968",
-   "hanul-ancutei-ep-4-1968",
-   "hanul-ancutei-ep-5-1968",
-   "hanul-ancutei-ep-6-1968"
-  ],
-  "description": {
-   "ro": "Serialul radiofonic în 6 episoade după Mihail Sadoveanu, în regia Elenei Negreanu, cu Toma Caragiu, Amza Pellea, George Calboreanu și Costache Antoniu.",
-   "en": "Six-episode 1968 radio adaptation of Mihail Sadoveanu’s stories, directed by Elena Negreanu with an all-star Romanian cast."
-  }
- },
- {
   "id": "seria-elena-pop-nbc-1962-1965",
   "title": "Elena Pop – Eu eram zâna și alte povești de seară (1962–1965)",
   "type": "series",
@@ -1621,24 +1603,6 @@
   "description": {
    "ro": "Trei spectacole de teatru radiofonic după basmele lui Petre Ispirescu, în regia Évei Lábadi-Megyes (Teatrul „Gong” Sibiu, 2021).",
    "en": "Three full-cast radio plays adapted from Petre Ispirescu’s tales, directed by Éva Lábadi-Megyes (“Gong” Theatre Sibiu, 2021)."
-  }
- },
- {
-  "id": "seria-povesti-de-iarna-marian-ralea-gong",
-  "title": "Povești de iarnă cu Marian Râlea (Teatrul „Gong”)",
-  "type": "series",
-  "sourceId": "teatrul-gong",
-  "url": "https://www.youtube.com/playlist?list=PLB9hVa5j9oNvUfeOvz-WGnlBZJVh7QcDn",
-  "items": [
-   "povestea-sfantului-nicolae-marian-ralea-gong",
-   "povestea-celei-mai-frumoase-pasari-din-lume-marian-ralea-gong",
-   "povestea-bradutului-marian-ralea-gong",
-   "povestea-icoanei-marian-ralea-gong",
-   "povestea-nasterii-domnului-marian-ralea-gong"
-  ],
-  "description": {
-   "ro": "Cinci povești de iarnă și Crăciun spuse de actorul Marian Râlea pentru Teatrul „Gong” din Sibiu (2020).",
-   "en": "Five winter and Christmas stories told by actor Marian Râlea for the “Gong” Theatre in Sibiu (2020)."
   }
  },
  {
@@ -2162,7 +2126,6 @@
    "capitan-la-15-ani-rm",
    "cipollino-rm",
    "capitanul-oceanului-stelar-rm",
-   "facerea-lumii-arghezi-rm",
    "domnita-pastorita-rm",
    "print-si-cersetor-rm",
    "insula-misterioasa-rm",
@@ -2267,19 +2230,14 @@
   "sourceId": "legendele-dobrogei",
   "url": "https://legendeledobrogei.ro/spectacole/",
   "items": [
-   "visul-sultanului-la-babadag-legendele-dobrogei-2023",
    "legenda-comunei-ciocarlia-legendele-dobrogei-2023",
    "comoara-din-insula-fara-nume-legendele-dobrogei-2023",
    "insula-lui-ovidiu-legendele-dobrogei-2023",
-   "sfantul-foca-si-musulmanii-legendele-dobrogei-2023",
    "muntele-fericirii-de-la-tatlageac-legendele-dobrogei-2023",
    "sarichioi-si-legenda-vitei-de-vie-legendele-dobrogei-2023",
    "soleiman-magnificul-si-comoara-de-la-kustenge-legendele-dobrogei-2023",
    "cismeaua-beiului-si-ciuta-ranita-legendele-dobrogei-2023",
-   "ronciu-si-frumoasa-aise-legendele-dobrogei-2023",
    "satul-lui-topal-schiopul-legendele-dobrogei-2023",
-   "calugarul-liinad-si-dervisul-legendele-dobrogei-2023",
-   "legenda-marelui-lup-alb-legendele-dobrogei-2023",
    "legenda-lacului-tuzla-legendele-dobrogei-2023"
   ],
   "description": {

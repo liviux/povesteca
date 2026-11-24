@@ -234,10 +234,6 @@
    "wikidata": "Q12720577",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Lupan"
   },
-  "Ana Maria Moldovan": {
-   "wikidata": "Q12720582",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Maria_Moldovan"
-  },
   "Ana Vlădescu": {
    "wikidata": "Q134590477",
    "photo": {
@@ -671,6 +667,17 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Dickens",
    "goodreads": "https://www.goodreads.com/author/show/239579"
+  },
+  "Charles Lamb": {
+   "wikidata": "Q372984",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Charles_Lamb_by_Henry_Hoppner_Meyer.jpg/330px-Charles_Lamb_by_Henry_Hoppner_Meyer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Charles_Lamb_by_Henry_Hoppner_Meyer.jpg",
+    "license": "Public domain",
+    "by": "After Henry Hoppner Meyer"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Charles_Lamb",
+   "goodreads": "https://www.goodreads.com/author/show/6237"
   },
   "Charles Perrault": {
    "wikidata": "Q128460",
@@ -1251,16 +1258,6 @@
    "wikidata": "Q28657901",
    "wikipedia": "https://ro.wikipedia.org/wiki/Doru_Ana"
   },
-  "Draga Olteanu": {
-   "wikidata": "Q12726998",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Draga_Olteanu.jpg/330px-Draga_Olteanu.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Draga_Olteanu.jpg",
-    "license": "Attribution",
-    "by": "The National Museum of Romanian History"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Draga_Olteanu-Matei"
-  },
   "Dumitru Almaș": {
    "wikidata": "Q12727125",
    "photo": {
@@ -1441,16 +1438,6 @@
     "by": "Cinema magazine from October 1, 1963 (No. 10, year I), available at Digiteca Arcanum . This is a cropped version of the "
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Emanoil_Petru%C8%9B"
-  },
-  "Emil Botta": {
-   "wikidata": "Q371755",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Emil_Botta.jpg/330px-Emil_Botta.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Emil_Botta.jpg",
-    "license": "Attribution",
-    "by": "The National Museum of Romanian History"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Emil_Botta"
   },
   "Emil Coșeru": {
    "wikidata": "Q66456994",
@@ -1636,16 +1623,6 @@
   "Felicia Filip": {
    "wikidata": "Q3742243",
    "wikipedia": "https://ro.wikipedia.org/wiki/Felicia_Filip"
-  },
-  "Felix Alexa": {
-   "wikidata": "Q47468741",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Felix_Alexa_%282016%29.jpg/330px-Felix_Alexa_%282016%29.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Felix_Alexa_(2016).jpg",
-    "license": "CC BY-SA 4.0",
-    "by": "Razvan Socol"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Felix_Alexa"
   },
   "Felix Salten": {
    "wikidata": "Q163747",
@@ -2119,10 +2096,6 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Grigore_Gon%C8%9Ba",
    "goodreads": "https://www.goodreads.com/author/show/17085345"
   },
-  "Grigore Rusu": {
-   "wikidata": "Q92717823",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Grigore_Rusu"
-  },
   "Grigore Vasiliu-Birlic": {
    "wikidata": "Q5609053",
    "photo": {
@@ -2168,17 +2141,6 @@
   "Gundi Herget": {
    "wikidata": "Q133394723",
    "goodreads": "https://www.goodreads.com/author/show/14968433"
-  },
-  "H. G. Wells": {
-   "wikidata": "Q42511",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/H.G._Wells_by_Beresford.jpg/330px-H.G._Wells_by_Beresford.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:H.G._Wells_by_Beresford.jpg",
-    "license": "Public domain",
-    "by": "George Charles Beresford"
-   },
-   "wikipedia": "https://en.wikipedia.org/wiki/H._G._Wells",
-   "goodreads": "https://www.goodreads.com/author/show/880695"
   },
   "Hamdi Cerchez": {
    "wikidata": "Q12729839",
@@ -2415,6 +2377,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Dichiseanu"
   },
+  "Ion Dragoslav": {
+   "wikidata": "Q5967972",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ioan_Dragoslav.png/330px-Ioan_Dragoslav.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Ioan_Dragoslav.png",
+    "license": "Public domain",
+    "by": "Artistul nu este menționat. Cartea este în domeniul public."
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Dragoslav"
+  },
   "Ion Druță": {
    "wikidata": "Q2628989",
    "photo": {
@@ -2433,10 +2405,6 @@
   "Ion Lilă": {
    "wikidata": "Q112461387",
    "goodreads": "https://www.goodreads.com/author/show/5786977.Ion_Lil_"
-  },
-  "Ion Luca": {
-   "wikidata": "Q27321659",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Luca"
   },
   "Ion Luca Caragiale": {
    "wikidata": "Q315132",
@@ -3150,16 +3118,6 @@
    "wikidata": "Q6761146",
    "wikipedia": "https://ro.wikipedia.org/wiki/Maria_Dinulescu"
   },
-  "Maria Filotti": {
-   "wikidata": "Q3304507",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Maria_Filotti.jpg/330px-Maria_Filotti.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Maria_Filotti.jpg",
-    "license": "Attribution",
-    "by": "The National Museum of Romanian History"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Maria_Filotti"
-  },
   "Maria Rotaru": {
    "wikidata": "Q28589644",
    "photo": {
@@ -3310,6 +3268,17 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Mark_Twain",
    "goodreads": "https://www.goodreads.com/author/show/1244"
+  },
+  "Mary Lamb": {
+   "wikidata": "Q276126",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Mary_Lamb_Portrait.jpg/330px-Mary_Lamb_Portrait.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_Lamb_Portrait.jpg",
+    "license": "Public domain",
+    "by": null
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Mary_Lamb",
+   "goodreads": "https://www.goodreads.com/author/show/6236"
   },
   "Matei Alexandru": {
    "wikidata": "Q23296639",
@@ -4717,9 +4686,6 @@
    "wikidata": "Q118950483",
    "wikipedia": "https://ro.wikipedia.org/wiki/Titel_Constantinescu"
   },
-  "Titela Haque": {
-   "goodreads": "https://www.goodreads.com/author/show/27829347"
-  },
   "Titus Lapteș": {
    "wikidata": "Q12742347",
    "wikipedia": "https://ro.wikipedia.org/wiki/Titus_Lapte%C8%99"
@@ -4768,16 +4734,6 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Tudor_Arghezi",
    "goodreads": "https://www.goodreads.com/author/show/787513"
-  },
-  "Tudor Mușatescu": {
-   "wikidata": "Q4685505",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Tudor_Musatescu.jpg/330px-Tudor_Musatescu.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Tudor_Musatescu.jpg",
-    "license": "Attribution",
-    "by": "The National Museum of Romanian History"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Tudor_Mu%C8%99atescu"
   },
   "Tudorel Filimon": {
    "wikidata": "Q26973839",
@@ -4851,10 +4807,6 @@
     "by": "Ileana Muncaciu"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Valeria_Seciu"
-  },
-  "Valeriu Anania": {
-   "wikidata": "Q809525",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Bartolomeu_Anania"
   },
   "Valeriu Cazacu": {
    "wikidata": "Q12743063",
@@ -4966,17 +4918,6 @@
     "by": "Ion Chibzii from Chisinau. , Moldova."
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Victor_Gherlac"
-  },
-  "Victor Hugo": {
-   "wikidata": "Q535",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg/330px-Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
-    "license": "Public domain",
-    "by": "Étienne Carjat"
-   },
-   "wikipedia": "https://en.wikipedia.org/wiki/Victor_Hugo",
-   "goodreads": "https://www.goodreads.com/author/show/13661"
   },
   "Victor Rebengiuc": {
    "wikidata": "Q554690",
@@ -5163,11 +5104,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
    "goodreads": "https://www.goodreads.com/work/editions/55548884"
   },
-  "alice-in-tara-oglinzilor": {
-   "wikidata": "Q220331",
-   "wikipedia": "https://en.wikipedia.org/wiki/Through_the_Looking-Glass",
-   "goodreads": "https://www.goodreads.com/work/editions/45962572"
-  },
   "amintiri-din-copilarie": {
    "wikidata": "Q3817660",
    "wikipedia": "https://ro.wikipedia.org/wiki/Amintiri_din_copil%C4%83rie",
@@ -5257,11 +5193,6 @@
   "ber-caciula": {
    "goodreads": "https://www.goodreads.com/book/show/259497682"
   },
-  "bubico": {
-   "wikidata": "Q12723004",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Bubico",
-   "goodreads": "https://www.goodreads.com/book/show/38925976"
-  },
   "bucur-ciobanul": {
    "wikidata": "Q2274298",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ciobanul_Bucur"
@@ -5307,11 +5238,6 @@
   },
   "califul-barza": {
    "goodreads": "https://www.goodreads.com/book/show/57859306"
-  },
-  "calin-file-din-poveste": {
-   "wikidata": "Q12726182",
-   "wikipedia": "https://ro.wikipedia.org/wiki/C%C4%83lin_(file_din_poveste)",
-   "goodreads": "https://www.goodreads.com/book/show/101093556"
   },
   "calin-nebunul": {
    "wikidata": "Q12726182",
@@ -5492,11 +5418,6 @@
   "cizmele-cocostarcului": {
    "goodreads": "https://www.goodreads.com/book/show/20552924"
   },
-  "cocosatul-de-la-notre-dame": {
-   "wikidata": "Q191380",
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
-   "goodreads": "https://www.goodreads.com/work/editions/3043569"
-  },
   "cocoselul-de-aur": {
    "wikidata": "Q4421382",
    "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_the_Golden_Cockerel",
@@ -5569,10 +5490,6 @@
   },
   "curaj-ida-o-micuta-veverita-un-curaj-de-urias": {
    "goodreads": "https://www.goodreads.com/book/show/57698069"
-  },
-  "d-ale-lui-pacala": {
-   "wikidata": "Q2908201",
-   "wikipedia": "https://ro.wikipedia.org/wiki/P%C4%83cal%C4%83"
   },
   "danila-prepeleac": {
    "wikidata": "Q5320494",
@@ -5881,11 +5798,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Hansel_and_Gretel",
    "goodreads": "https://www.goodreads.com/book/show/48505299"
   },
-  "hanul-ancutei": {
-   "wikidata": "Q18540692",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Hanu-Ancu%C8%9Bei",
-   "goodreads": "https://www.goodreads.com/book/show/5198851"
-  },
   "harap-alb": {
    "wikidata": "Q104841346",
    "wikipedia": "https://ro.wikipedia.org/wiki/Povestea_lui_Harap-Alb",
@@ -6087,10 +5999,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Swans",
    "goodreads": "https://www.goodreads.com/book/show/24493013"
   },
-  "legenda-cocosului-de-barcelos": {
-   "wikidata": "Q2996913",
-   "wikipedia": "https://en.wikipedia.org/wiki/Rooster_of_Barcelos"
-  },
   "legenda-cucului": {
    "goodreads": "https://www.goodreads.com/book/show/107527580-povesti-ciubotelele-ogarului-nuielusa-de-alun-si-alte-povesti"
   },
@@ -6110,15 +6018,9 @@
    "wikidata": "Q1212214",
    "wikipedia": "https://ro.wikipedia.org/wiki/M%C4%83r%C8%9Bi%C8%99or"
   },
-  "legenda-oualor-rosii": {
-   "goodreads": "https://www.goodreads.com/book/show/108203813"
-  },
   "legenda-regelui-laurin-si-gradina-de-trandafiri": {
    "wikidata": "Q55616629",
    "wikipedia": "https://en.wikipedia.org/wiki/King_Laurin"
-  },
-  "legende-despre-iisus": {
-   "goodreads": "https://www.goodreads.com/book/show/238288661"
   },
   "legendele-olimpului": {
    "wikidata": "Q15910026",
@@ -6139,11 +6041,6 @@
    "wikidata": "Q19833585",
    "goodreads": "https://www.goodreads.com/book/show/22927742"
   },
-  "luceafarul": {
-   "wikidata": "Q1586176",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Luceaf%C4%83rul",
-   "goodreads": "https://www.goodreads.com/book/show/6353149"
-  },
   "luptatorii": {
    "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
   },
@@ -6162,11 +6059,6 @@
   },
   "manusa-ucraineana": {
    "wikipedia": "https://en.wikipedia.org/wiki/The_Mitten_(folk_tale)"
-  },
-  "marile-sperante-lectura-irina-velcescu": {
-   "wikidata": "Q219552",
-   "wikipedia": "https://en.wikipedia.org/wiki/Great_Expectations",
-   "goodreads": "https://www.goodreads.com/work/editions/2612809"
   },
   "mariuca": {
    "goodreads": "https://www.goodreads.com/book/show/258565767"
@@ -6292,9 +6184,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/The_Wonderful_Adventures_of_Nils",
    "goodreads": "https://www.goodreads.com/book/show/21950006"
   },
-  "ninigra-si-aligru": {
-   "goodreads": "https://www.goodreads.com/book/show/40540572"
-  },
   "noi-intamplari-cu-mary-poppins": {
    "wikidata": "Q858705",
    "wikipedia": "https://en.wikipedia.org/wiki/Mary_Poppins_(book_series)",
@@ -6335,11 +6224,6 @@
    "wikidata": "Q2483367",
    "wikipedia": "https://en.wikipedia.org/wiki/The_Snowman_(fairy_tale)",
    "goodreads": "https://www.goodreads.com/work/editions/27151323"
-  },
-  "omul-invizibil": {
-   "wikidata": "Q1539509",
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Invisible_Man",
-   "goodreads": "https://www.goodreads.com/work/editions/1326579"
   },
   "pacala-creanga": {
    "wikidata": "Q2908201",
@@ -6587,14 +6471,6 @@
   "printesa-curajoasa": {
    "goodreads": "https://www.goodreads.com/book/show/13576314-nezbedn-poh-dky"
   },
-  "printesa-curcubeu": {
-   "goodreads": "https://www.goodreads.com/book/show/11734249-the-blue-rose-fairy-book"
-  },
-  "printesa-turandot": {
-   "wikidata": "Q354748",
-   "wikipedia": "https://en.wikipedia.org/wiki/Turandot_(Gozzi)",
-   "goodreads": "https://www.goodreads.com/book/show/9257135"
-  },
   "printul-blestemat": {
    "wikidata": "Q467520",
    "wikipedia": "https://en.wikipedia.org/wiki/Tale_of_the_Doomed_Prince",
@@ -6791,10 +6667,6 @@
    "wikidata": "Q4460113",
    "wikipedia": "https://en.wikipedia.org/wiki/Tom_Sawyer%2C_Detective",
    "goodreads": "https://www.goodreads.com/work/editions/1031833"
-  },
-  "toma-alimos": {
-   "wikidata": "Q2836986",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Toma_Alimo%C8%99"
   },
   "tomita-un-ghemotoc-dupa-un-ghem": {
    "goodreads": "https://www.goodreads.com/book/show/247274630"

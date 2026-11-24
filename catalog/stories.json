@@ -1489,8 +1489,8 @@
    "muzica"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "La sfârșitul secolului al XIV-lea, la curtea de la Suceava, voievodul e tot mai frământat: a început să îmbătrânească și nu are un fecior căruia să-i lase tronul. Sfetnicii încearcă să afle ce-l apasă și să-l ajute.",
+   "en": "At the end of the 14th century, at the court in Suceava, the prince of Moldavia is more and more troubled: he is growing old and has no son to leave his throne to. His counsellors try to find out what weighs on him and to help."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -1646,8 +1646,8 @@
    "muzica"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un sultan bogat și aspru se crede foarte hazliu, deși glumele lui nu-l amuză decât pe el. Într-o zi coboară deghizat în bazar cu curtenii lui, ca să pună la cale cea mai bună glumă de până atunci.",
+   "en": "A rich, harsh sultan thinks he is very funny, though his jokes amuse no one but himself. One day he goes down to the bazaar in disguise with his courtiers to play his best joke yet."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -1965,7 +1965,10 @@
  {
   "id": "povestea-fecioarei-gudrun",
   "title": "Povestea fecioarei Gudrun",
-  "author": "Sanda și Vasile Socoliuc",
+  "author": [
+   "Sanda Socoliuc",
+   "Vasile Socoliuc"
+  ],
   "origin": "romanian",
   "genre": "legenda",
   "themes": [
@@ -2044,7 +2047,10 @@
  {
   "id": "siegfried-si-kriemhilde",
   "title": "Siegfried și Kriemhilde",
-  "author": "Sanda și Vasile Socoliuc",
+  "author": [
+   "Sanda Socoliuc",
+   "Vasile Socoliuc"
+  ],
   "origin": "romanian",
   "genre": "legenda",
   "themes": [
@@ -2119,7 +2125,10 @@
  {
   "id": "razbunarea-kriemhildei-si-amurgul-nibelungilor",
   "title": "Răzbunarea Kriemhildei și amurgul Nibelungilor",
-  "author": "Sanda și Vasile Socoliuc",
+  "author": [
+   "Sanda Socoliuc",
+   "Vasile Socoliuc"
+  ],
   "origin": "romanian",
   "genre": "legenda",
   "themes": [
@@ -2363,8 +2372,8 @@
    "muzica"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Prințul Zoltan se rătăcește în ceață la vânătoare și ajunge prizonierul a două vrăjitoare. O fată săracă, ce îl iubește în taină, pleacă să-l caute și îl ajută să afle secretul vrăjilor.",
+   "en": "Prince Zoltan gets lost in the fog while hunting and becomes the prisoner of two witches. A poor girl who secretly loves him goes looking for him and helps him learn the secret of their spells."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -2471,8 +2480,8 @@
    "muzica"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O fată săracă și bună își dă pâinea unei bătrâne din pădure și primește în dar o ulcică fermecată care face mămăligă. Fata leneșă a vecinei i-o fură, dar nu știe cum s-o oprească.",
+   "en": "A poor, kind girl gives her bread to an old woman in the forest and is given a magic pot that makes polenta. The neighbour's lazy daughter steals it but doesn't know how to make it stop."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -4296,8 +4305,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Bătrânul Titi și tânărul Toto vâslesc cu două schifuri până pe insula pescarilor, ca să ducă chibrituri și o stație radio și să aducă înapoi pește. Titi vâslește potolit, iar Toto o ia cu viteză înainte și nu vrea să-l asculte.",
+   "en": "Old Titi and young Toto row two skiffs out to the fishermen's island to deliver matches and a radio and bring back fish. Titi rows at a steady pace, while Toto races ahead and won't listen to him."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -4433,8 +4442,8 @@
    "mare"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Pe insula Arania, o singură barcă pleacă o dată pe an să prindă peștii zburători pentru Ziua Peștelui. Anul acesta e trasă la sorți barca lui Lukas, un tânăr bun, dar tare lacom, iar în dimineața sărbătorii el nu se mai întoarce.",
+   "en": "On the island of Arania, a single boat goes out once a year to catch flying fish for the Day of the Fish. This year the lot falls to Lukas, a good-hearted but very greedy young man, and on the morning of the festival he doesn't come back."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -4449,8 +4458,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Străbunicul duce cu șalupa un grup de cercetători pe Insula Țestoasei, printre stâncile primejdioase numite Colții Dracului. La întoarcere, pe întuneric și pe ceață, șalupa se înțepenește pe o stâncă, iar din beznă apare o corabie misterioasă cu trei catarge.",
+   "en": "The great-grandfather takes a group of scientists by motor launch to Turtle Island, past the dangerous rocks known as the Devil's Fangs. On the way back, in darkness and fog, the launch gets stuck on a rock, and out of the night appears a mysterious three-masted ship."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -6773,8 +6782,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O numărătoare în versuri: zece mâțe pornesc la un ceai și, după fiecare pățanie, rămân tot mai puține.",
+   "en": "A counting rhyme: ten cats set off for tea, and after each mishap there are fewer of them left."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -6793,8 +6802,8 @@
    "muzica"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Andrei, fiul unui pescar sărac de la mare, îndrăgește mai mult lăuta decât năvodul. Când duce peștele la oraș, ajunge în casa Mariei, fiica unui negustor, unde dă peste lăuta rămasă de la bunicul ei.",
+   "en": "Andrei, the son of a poor fisherman by the sea, loves his lute more than his nets. Selling fish in town, he ends up in the house of Maria, a merchant's daughter, where he comes across the lute her grandfather left behind."
   },
   "age": 5,
   "addedAt": "2026-11-22",
@@ -6820,8 +6829,8 @@
    "mitologie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un băiat își duce la ceasornicărie ceasul deșteptător, care o ia razna. Peste noapte, ceasul se ceartă cu pendula, cu ceasul cu cuc și cu celelalte ceasuri bolnave despre care dintre ele e cel mai important.",
+   "en": "A boy takes his alarm clock, which has started going haywire, to the watchmaker's. During the night the clock argues with the pendulum clock, the cuckoo clock and the other broken clocks about which of them matters most."
   },
   "age": 9,
   "addedAt": "2026-11-22"
@@ -7032,8 +7041,8 @@
    "familie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un calif tânăr, înconjurat de sfetnici lingușitori, se deghizează în negustor la sfatul mamei sale și pleacă prin țară cu slujitorul lui credincios, Ben Sur. Așa află cât de greu o duc supușii lui și cât de necinstiți sunt dregătorii.",
+   "en": "A young caliph surrounded by flattering advisers disguises himself as a merchant on his mother's advice and travels the country with his faithful servant, Ben Sur. That is how he learns how hard his people's lives are and how dishonest his officials have become."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -7048,8 +7057,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "După ce dacii sunt înfrânți de romani, căpetenia Scorilo se retrage în munți cu o comoară mare, ascunsă în taină. Îl însoțesc fiica lui, Geta, și tânărul Vezina, căruia i se arată în vis zeul Zamolxe.",
+   "en": "After the Dacians are defeated by the Romans, the chieftain Scorilo withdraws into the mountains with a great treasure, hidden in secret. With him are his daughter Geta and young Vezina, to whom the god Zalmoxis appears in a dream."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -7142,8 +7151,8 @@
    "intelepciune"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Petru, un flăcău sărac și harnic pe care îl urmărește ghinionul, pleacă în lume să-și caute norocul. Pe drum găsește, legat de un copac, un cal bătrân care a purtat cândva un viteaz prin tărâmuri cu zmei și balauri.",
+   "en": "Petru, a poor, hard-working lad dogged by bad luck, sets out into the world to find his fortune. On the way he finds an old horse tied to a tree, who once carried a hero through lands of dragons and monsters."
   },
   "age": 5,
   "addedAt": "2026-11-22",
@@ -7411,8 +7420,8 @@
    "familie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Doi nepoței abia așteaptă povestea de seară, dar bunica le spune că întâi trebuie terminate treburile casei. Așa că se apucă s-o ajute, începând cu mâncarea pentru păsările din curte.",
+   "en": "Two grandchildren can't wait for the bedtime story, but Grandma says the chores come first. So they set about helping her, starting with feeding the birds in the yard."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -7456,8 +7465,8 @@
    "animale"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un croitor sărac dintr-un târg de la mare visează toată viața la un client căruia să-i coasă haine care să-l facă vestit. Anii trec în așteptare, cu motanul lui drept singur tovarăș, până când într-o dimineață de toamnă îi bate la ușă primarul târgului.",
+   "en": "A poor tailor in a seaside town dreams all his life of a customer whose clothes would make his name. The years go by with only his cat for company, until one autumn morning the town's mayor knocks at his door."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -7474,8 +7483,8 @@
    "mitologie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un băiat ține supărare pe prietenul lui, Cornel, și stă trist de unul singur în loc să se joace. Jucându-se cu vorbele, povestitorul înșiră câte lucruri bune poți să ții în loc de o supărare.",
+   "en": "A boy is holding a grudge against his friend Cornel and sits sadly on his own instead of playing. Playing with words, the narrator lists all the good things you can hold instead of a grudge."
   },
   "age": 9,
   "addedAt": "2026-11-22"
@@ -7491,8 +7500,8 @@
    "frati"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Păcălit de o capră mincinoasă, un croitor își alungă pe rând cei trei feciori de acasă. Plecați în lume, frații învață câte o meserie și primesc fiecare câte un dar fermecat.",
+   "en": "Fooled by a lying goat, a tailor drives his three sons out of the house one after another. Out in the world, each brother learns a trade and is given a magic gift."
   },
   "age": 5,
   "addedAt": "2026-11-22",
@@ -7510,8 +7519,8 @@
    "muzica"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un zmeu și o zmeoaică le strică sătenilor holdele și plugurile. Bogdan, un flăcău harnic, pornește peste munți la o zână înțeleaptă, să afle cum poate scăpa satul de ei.",
+   "en": "A dragon and his wife ruin the villagers' fields and ploughs. Bogdan, a hard-working young man, sets off over the mountains to ask a wise fairy how the village can be rid of them."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -7529,8 +7538,8 @@
    "mare"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O dată la o mie de ani, Pasărea Măiastră lasă o pană de aur peste casa unde se naște un copil și îi face un dar. Împăratul vrea darul pentru fiul lui, dar pana cade peste coliba grădinarului, unde tocmai s-a născut un băiat.",
+   "en": "Once every thousand years, the Magic Bird drops a golden feather over a house where a child is being born and gives that child a gift. The emperor wants the gift for his own son, but the feather lands on the gardener's hut, where a boy has just been born."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -7778,25 +7787,6 @@
   "year": 1910
  },
  {
-  "id": "feciorul-cel-vrednic",
-  "title": "Feciorul cel vrednic",
-  "author": "Ioan Slavici",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "iarna",
-   "animale",
-   "magie",
-   "familie"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
   "id": "natangul-si-domnita-intristata",
   "title": "Nătângul și domnița întristată",
   "author": "folclor românesc",
@@ -7901,8 +7891,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Copiii află povestea cireșului din curte: a fost sădit cu mulți ani în urmă, într-o primăvară, pentru o fetiță căreia îi plăceau mult cireșele.",
+   "en": "The children hear the story of the cherry tree in the yard: it was planted one spring long ago for a little girl who loved cherries."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -8257,8 +8247,8 @@
    "dreptate"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Vasile prinde la baltă doar doi peștișori, dar dintr-un copac coboară Minciuna, cu traista ei. Curând, cei doi pești ai lui Vasile se fac opt, apoi o căruță întreagă.",
+   "en": "Vasile catches only two little fish at the pond, but then Lie climbs down from a tree with her bag. Soon Vasile's two fish become eight, and then a whole cartload."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -8321,7 +8311,10 @@
  {
   "id": "floare-de-soare",
   "title": "Floare de soare",
-  "author": "Nicolae Coban și Evdochia Pavel",
+  "author": [
+   "Nicolae Coban",
+   "Evdochia Pavel"
+  ],
   "origin": "romanian",
   "genre": "poveste",
   "themes": [
@@ -8329,8 +8322,8 @@
    "muzica"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Minciotcă, vestit pentru poveștile lui gogonate, pornește să-și viziteze prietenul, morarul Pletea. Pe drum o întâlnește pe Floare de soare, care îl duce în împărăția ei de sub pământ, întocmai ca în poveștile lui.",
+   "en": "Minciotcă, famous for his tall tales, sets off to visit his friend Pletea the miller. On the way he meets Floare de soare (Sunflower), who takes him down to her kingdom under the earth, just like the ones in his stories."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -8600,8 +8593,8 @@
    "mare"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Șahim, un vânător priceput care își împarte prada cu cei săraci, salvează de fiare un cal năzdrăvan care vorbește, pe Mingo. Când padișahul poruncește ca toată țara să stea nouă nopți în întuneric, o piatră strălucitoare găsită de Mingo îl bagă pe Șahim în necaz.",
+   "en": "Șahim, a skilled hunter who shares his catch with the poor, saves a magic talking horse named Mingo from wild beasts. When the padishah orders the whole land to stay dark for nine nights, a shining stone that Mingo found gets Șahim into trouble."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -8616,8 +8609,8 @@
    "animale"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un motan alb și răsfățat e mândria casei până când stăpâna aduce acasă un pisoi negru și speriat, pe Negruț. Gelos, motanul cel mare se poartă urât cu noul venit.",
+   "en": "A pampered white cat is the pride of the house until his mistress brings home a frightened black kitten called Negruț. Jealous, the big cat is unkind to the newcomer."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -8632,8 +8625,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Salcia, o fată frumoasă, cu plete lungi până la glezne, merge des la râu, iar râul, care fusese cândva un flăcău chipeș, se îndrăgostește de ea. Când un tânăr din sat îi pune inelul în deget, fata nu mai știe ce vrea inima ei.",
+   "en": "Salcia, a beautiful girl with hair down to her ankles, often goes down to the river, and the river, once a handsome young man, falls in love with her. When a young man from the village puts a ring on her finger, she no longer knows what her heart wants."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -8782,8 +8775,8 @@
    "mare"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Moș Culai și baba Chiva trăiesc sărmani la marginea unei păduri întunecate. Piticul Barbă-Cot le aduce vestea că doi zmei, feciorii babei Negura, chinuie lumea și că doar cine scoate paloșul fermecat din fundul unui lac i-ar putea învinge.",
+   "en": "Old Culai and Granny Chiva live in poverty at the edge of a dark forest. The dwarf Barbă-Cot brings word that two dragons, sons of the hag Negura, are tormenting people, and that only someone who brings up the magic sword from the bottom of a lake could defeat them."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -8964,7 +8957,10 @@
  {
   "id": "diamantul-buclucas",
   "title": "Diamantul buclucaș",
-  "author": "Nicolae Coban și Evdochia Pavel",
+  "author": [
+   "Nicolae Coban",
+   "Evdochia Pavel"
+  ],
   "origin": "romanian",
   "genre": "poveste",
   "themes": [
@@ -9003,8 +8999,8 @@
    "familie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un împărat pătimaș după vânătoare vrea cu orice preț blana Vulpii Albe, despre care se spune că e vrăjită. Cel mai bun arcaș al lui o are în bătaia săgeții, dar o cruță când vulpea îl roagă să-i lase viața.",
+   "en": "An emperor obsessed with hunting wants the pelt of the White Fox, said to be enchanted, at any cost. His best archer has her within arrow's reach but spares her when she begs for her life."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -9048,8 +9044,8 @@
    "animale"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Ariciul Țepoșilă, cam ursuz din fire, le ajută pe trei zâne: uneia îi face un pieptene din țepii lui, alteia îi scoate un ghimpe din talpă, iar celei triste îi aduce ac și gherghef. Drept mulțumire, fiecare zână îi face câte un dar.",
+   "en": "Țepoșilă the hedgehog, a bit grumpy by nature, helps three fairies: he makes one a comb from his spines, pulls a thorn from another's foot and brings the sad one a needle and an embroidery hoop. To thank him, each fairy gives him a gift."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -9079,32 +9075,6 @@
    "Meropa",
    "Moartea",
    "Persephona"
-  ]
- },
- {
-  "id": "fantana-celor-trei-magi",
-  "title": "Fântâna celor trei magi",
-  "author": "Selma Lagerlöf",
-  "origin": "swedish",
-  "genre": "legenda",
-  "themes": [
-   "craciun",
-   "calatorie",
-   "intelepciune"
-  ],
-  "summary": {
-   "ro": "Seceta stă lângă o fântână din Iudeea care e pe cale să sece. Trei călători ascultă de la ea povestea celor trei magi care au regăsit, în apa fântânii, steaua spre pruncul din Betleem. La sfârșit, călătorii se dovedesc a fi chiar magii și umplu fântâna cu apă.",
-   "en": "Drought sits by a well in Judea that is about to run dry. Three travellers hear from him how the three wise men once found the star to the child in Bethlehem again, reflected in the well's water. At the end the travellers turn out to be the wise men themselves, and they fill the well with water."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1904,
-  "characters": [
-   "Primul mag",
-   "Al doilea mag",
-   "Al treilea mag",
-   "Seceta",
-   "Fântâna"
   ]
  },
  {
@@ -9319,6 +9289,26 @@
   ]
  },
  {
+  "id": "marasesti",
+  "title": "Mărășești",
+  "author": "Mihail Sadoveanu",
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "istorie",
+   "curaj",
+   "sacrificiu"
+  ],
+  "summary": {
+   "ro": "O pagină de reportaj despre bătălia de la Mărășești din vara anului 1917. Ostașii români rezistă două săptămâni în fața ofensivei germane, iar textul păstrează ritmul și tensiunea cronicii de front.",
+   "en": "A page of reportage about the battle of Mărășești in the summer of 1917. Romanian soldiers hold out for two weeks against the German offensive, and the text keeps the rhythm and tension of a front-line chronicle."
+  },
+  "age": 5,
+  "addedAt": "2026-11-22",
+  "year": 1917,
+  "characters": []
+ },
+ {
   "id": "vorba-dulce-mult-aduce",
   "title": "Vorba dulce mult aduce",
   "author": "Steliana Fumărel",
@@ -9355,8 +9345,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un aligator de la Grădina Zoologică Băneasa tânjește după fluviul Mississippi. Când în bazinul vecin e adus un pui de caiman neastâmpărat, aligatorul îl primește bucuros, cu lacrimi de crocodil.",
+   "en": "An alligator at Băneasa Zoo longs for the Mississippi. When a restless young caiman is brought to the next pool, the alligator welcomes him gladly, with crocodile tears."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -9617,8 +9607,8 @@
    "calatorie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Voinicul Dor-Călător colindă lumea în căutarea trandafirului albastru, floarea fericirii. La marginea unui lac o zărește pe Frumoasa lumii și uită de floare, dar fata nu se încrede în vorbe până nu-l vede la fapte.",
+   "en": "The young hero Dor-Călător roams the world in search of the blue rose, the flower of happiness. By a lake he glimpses the Fairest in the World and forgets all about the flower, but she won't trust his words until she sees his deeds."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -9802,8 +9792,8 @@
    "printese"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Ionică, fiul pădurarului, se scaldă într-un pârâu fermecat și părul i se face de aur. De rușine pleacă în lume, găsește trei nuci năzdrăvane, iar un cal bătrân îl duce la curtea unui împărat, unde se tocmește ajutor de grădinar.",
+   "en": "Ionică, the forester's son, bathes in an enchanted stream and his hair turns to gold. Ashamed, he wanders off, finds three magic nuts, and an old horse carries him to an emperor's court, where he takes work as a gardener's helper."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -9948,8 +9938,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Cosina e singura fiică a unor părinți care o iubesc mult, dar ea nu prea îi ascultă. Deși tatăl a avertizat-o, de ziua ei pleacă singură călare și ajunge în țara omului rău, care preface oamenii în păsări urâte.",
+   "en": "Cosina is the only daughter of parents who love her dearly, but she seldom listens to them. Despite her father's warning, on her birthday she rides off alone and reaches the land of the wicked man who turns people into ugly birds."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10125,8 +10115,8 @@
    "mitologie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Matei, singur la părinți, are 144 de jucării, dar nu se joacă, nu mănâncă și e mereu trist. Familia îl cheamă pe povestitor să-l ajute, iar în vizită vine și bunicul de la stână, Badea Miron.",
+   "en": "Matei, an only child, has 144 toys, yet he won't play, won't eat and is always sad. The family call in the storyteller to help, and his grandfather, Badea Miron, comes down from the sheepfold to visit."
   },
   "age": 9,
   "addedAt": "2026-11-22"
@@ -10144,8 +10134,8 @@
    "dreptate"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un luntraș bătrân îi trece pe oameni peste apă fără să le ceară nimic, doar o vorbă bună. Când un dregător rău îl bănuiește că îi ajută pe răsculații din codru, cei pe care i-a ajutat pornesc să-l scape.",
+   "en": "An old boatman ferries people across the water and asks for nothing but a kind word. When a cruel official suspects him of helping the rebels in the forest, the people he once helped set out to save him."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10315,8 +10305,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Surorile mai mari ale reginei, roase de invidie, îi fură gemenii nou-născuți și îi aruncă în râu într-un coșuleț. Copiii sunt găsiți de un negustor bogat, care îi crește ca pe ai lui și le pune numele Juanillo și Juanilla.",
+   "en": "Eaten up by envy, the queen's older sisters steal her newborn twins and throw them into the river in a basket. A rich merchant finds the children, raises them as his own and names them Juanillo and Juanilla."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10346,15 +10336,15 @@
  {
   "id": "zdrentuita",
   "title": "Zdrențuita",
-  "author": "poveste populară",
-  "origin": "universal",
+  "author": "basm popular englez",
+  "origin": "english",
   "genre": "basm",
   "themes": [
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Bunicul ei bogat n-o poate suferi, așa că fata, poreclită Zdrențuita, crește printre slugi și își petrece zilele cu băiatul care păzește gâștele. Când regele dă un bal, un tânăr întâlnit pe drum se îndrăgostește de ea și o roagă să vină chiar așa, în rochița ruptă.",
+   "en": "Her rich grandfather can't bear her, so the girl they call Tattercoats grows up among the servants and spends her days with the goose boy. When the king gives a ball, a young man she meets on the road falls in love with her and begs her to come just as she is, in her torn dress."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10444,8 +10434,8 @@
    "printese"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Verde-Împărat are trei sfetnici grași și fuduli, iar vistieria țării se golește an de an. Prințul îi ia pe sfetnici la o plimbare pe jos prin țară, ca să vadă cum trăiește norodul și unde se duc bogățiile ei.",
+   "en": "Emperor Green has three fat, pompous advisers, and the treasury grows emptier every year. The prince takes the advisers on a walk across the country, on foot, to see how the people live and where the country's riches go."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10461,8 +10451,8 @@
    "harnicie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "La strânsul orezului, bunicul le povestește nepoților de ce nu lasă să se piardă niciun pai. Pe când era tânăr și sărac, a pornit spre Kyoto să-și caute norocul, alături de înțeleptul Magoșiro, care i-a spus că norocul și-l face omul cu mâinile lui.",
+   "en": "At the rice harvest, Grandpa tells his grandchildren why he won't let a single straw go to waste. When he was young and poor, he set off for Kyoto to seek his fortune with wise old Magoshiro, who told him that people make their own luck with their own hands."
   },
   "age": 5,
   "addedAt": "2026-11-22",
@@ -10484,8 +10474,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "George, un băiețel, pleacă fără să-și ia rămas-bun de la ai lui spre un oraș al bogăției, aflat pe vârful unui munte. Pe drum, fiecare trecere îl costă câte o bucățică din inimă.",
+   "en": "George, a little boy, leaves without saying goodbye to his family and heads for a city of riches on top of a mountain. On the way, every crossing costs him a piece of his heart."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10500,8 +10490,8 @@
    "bunatate"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Patru muzicanți rătăcitori cântă pentru stăpânul unor ruine, iar un pitic îi dăruiește fiecăruia câte o crenguță de nuc. Trei dintre ei o aruncă pe drum, doar unul o păstrează pentru băiețelul lui.",
+   "en": "Four wandering musicians sing for the master of some ruins, and a dwarf gives each of them a walnut twig. Three throw theirs away on the road; only one keeps it for his little boy."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10516,69 +10506,11 @@
    "printese"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un împărat crud îi dă starețului unei mănăstiri zece zile să răspundă la trei întrebări, altfel îl spânzură. Un călugăr tânăr și isteț se duce la curte în locul lui.",
+   "en": "A cruel emperor gives the abbot of a monastery ten days to answer three questions, or be hanged. A clever young monk goes to court in his place."
   },
   "age": 5,
   "addedAt": "2026-11-22"
- },
- {
-  "id": "vegheati-asupra-sufletului",
-  "title": "Vegheați asupra sufletului",
-  "author": "poveste populară",
-  "origin": "universal",
-  "genre": "poveste",
-  "themes": [
-   "copilarie"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
-  "id": "leaganul-de-aur",
-  "title": "Leagănul de aur",
-  "author": "poveste populară",
-  "origin": "universal",
-  "genre": "poveste",
-  "themes": [
-   "craciun"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
-  "id": "calin-file-din-poveste",
-  "title": "Călin (file din poveste)",
-  "author": "Mihai Eminescu",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "animale",
-   "padure",
-   "natura",
-   "vis"
-  ],
-  "summary": {
-   "ro": "Poemul lui Mihai Eminescu despre dragostea dintre Zburător și fata de împărat, nunta lor din codru și nunta gâzelor.",
-   "en": "Mihai Eminescu's fairy-tale poem of love in the forest, ending with the wedding of the princess and the insects' feast."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1876,
-  "characters": [
-   "Călin",
-   "Fata de împărat",
-   "Împăratul",
-   "Copilul"
-  ]
  },
  {
   "id": "poveste-cu-trei-frati-si-un-capcaun",
@@ -10592,8 +10524,8 @@
    "frati"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Trei frați neastâmpărați, două fete și un băiat, intră în pădure după fragi, deși mama i-a avertizat că acolo trăiește un căpcăun. Cei mari fug, iar mezina ajunge în peștera căpcăunului, unde încearcă să-l îmbuneze cu vorba.",
+   "en": "Three naughty siblings, two girls and a boy, go into the forest for wild strawberries, although their mother warned them an ogre lives there. The older two run away, and the youngest girl ends up in the ogre's cave, where she tries to talk him round."
   },
   "age": 6,
   "addedAt": "2026-11-22"
@@ -10657,8 +10589,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un tată își trimite cei trei feciori în lume să învețe câte un meșteșug. Când se întorc, păsările le spun că fiica regelui a fost răpită de un balaur, iar frații pornesc s-o salveze, fiecare cu ce a învățat.",
+   "en": "A father sends his three sons out into the world to learn a trade. When they come back, the birds tell them a dragon has carried off the king's daughter, and the brothers set out to rescue her, each with what he has learned."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10673,8 +10605,8 @@
    "printese"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Ursitoarele i-au hotărât unui fecior de împărat s-o ia de soție pe Prințesa Rouă, plămădită de douăsprezece zâne din picături de rouă. Împreună cu un prieten care se poate face nevăzut, prințul pleacă s-o caute și cere drumul de la Sfânta Vineri, Sfânta Sâmbătă și Sfânta Duminică.",
+   "en": "The Fates have decided that a prince will marry Princess Dew, whom twelve fairies shaped from drops of dew. With a friend who can turn invisible, the prince sets out to find her, asking the way of Saint Friday, Saint Saturday and Saint Sunday."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10689,8 +10621,8 @@
    "intelepciune"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un băiat însurat de mic de tatăl lui fuge în lume după ce nevasta îl bate pentru o năzdrăvănie. Când se face mare și pornește înapoi spre casă, omul care l-a crescut îi dă la plecare trei sfaturi bune.",
+   "en": "A boy married off young by his father runs away after his wife beats him for a prank. When he has grown up and sets off for home, the man who raised him gives him three pieces of good advice."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10705,8 +10637,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Soarele nu suportă un loc acoperit de gheață pe care razele lui nu-l pot topi și cheamă în ajutor vântul și ploaia. Din peștera înghețată iese însă o umbră care îl sperie până și pe el, iar de atunci ziua și noaptea își împart timpul.",
+   "en": "The Sun can't stand a place covered in ice that his rays cannot melt, so he calls the wind and the rain to help. But out of the frozen cave comes a shadow that frightens even him, and ever since, day and night have shared the hours."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10833,8 +10765,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un rege își răsfață fiul și îi împlinește orice dorință. Când prințul visează că atinge luna, regele pune un tâmplar să înalțe pentru el un turn din cutii de lemn până la cer.",
+   "en": "A king spoils his son and grants his every wish. When the prince dreams of touching the moon, the king has a carpenter build him a tower of wooden boxes up to the sky."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -10878,8 +10810,8 @@
    "mare"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Popeye pleacă în croazieră pe vasul căpitanului Brutus, care nu-i dă pace lui Olive. Când e la ananghie, Popeye mănâncă spanac și îi cresc mușchii.",
+   "en": "Popeye goes on a cruise aboard Captain Brutus's ship, and Brutus won't leave Olive alone. When things get tough, Popeye eats his spinach and his muscles grow."
   },
   "age": 5,
   "addedAt": "2026-11-22",
@@ -10923,36 +10855,12 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un băiețel răcit primește ceai de soc, iar bătrânul vecin de la etaj îi spune o poveste. Din ceainic crește un soc înflorit, iar în ramurile lui stă Mătușica din soc, care știe povestea a doi bătrâni ce își așteaptă nunta de aur.",
+   "en": "A little boy with a cold is given elderflower tea, and the old neighbour from upstairs tells him a story. A blossoming elder tree grows out of the teapot, and in its branches sits the Elder-Tree Mother, who knows the story of an old couple soon to celebrate their golden wedding."
   },
   "age": 5,
   "addedAt": "2026-11-22",
   "year": 1844
- },
- {
-  "id": "bubico",
-  "title": "Bubico",
-  "author": "Ion Luca Caragiale",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "calatorie",
-   "animale"
-  ],
-  "summary": {
-   "ro": "Într-un compartiment de tren, povestitorul călătorește cu o cucoană și cu cățelul ei răsfățat, Bubico, care latră la el fără oprire. Se preface că se împrietenește cu câinele, apoi, când trenul trece peste podul Prahovei, îl aruncă pe fereastră. Cucoana trage semnalul de alarmă și primește amendă, iar naratorul își recunoaște fapta.",
-   "en": "On a train, the narrator shares a compartment with a lady and her spoiled little dog, Bubico, who keeps barking at him. He pretends to make friends with the dog, then throws it out of the window as the train crosses the Prahova bridge. The lady pulls the alarm and is fined, and the narrator admits what he did."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1901,
-  "characters": [
-   "Naratorul",
-   "Bubico",
-   "Stăpâna lui Bubico"
-  ]
  },
  {
   "id": "fata-saracului-cea-isteata",
@@ -11116,8 +11024,8 @@
    "craciun"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Într-un ținut înghețat, viscolul și lupii nu-i lasă pe oameni să plece spre locurile de iernat. Ca să-l îmbuneze pe uriașul zăpezilor, ei hotărăsc s-o lase pe bunica lor singură în viscol, dar bătrâna nu se lasă învinsă.",
+   "en": "In a frozen land, a terrible blizzard and the wolves keep people from leaving for their winter grounds. To appease the giant of the snows, they decide to leave their old grandmother alone in the storm, but she refuses to be beaten."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11229,24 +11137,8 @@
    "printese"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
-  "id": "cucul",
-  "title": "Cucul",
-  "author": "poveste populară",
-  "origin": "universal",
-  "genre": "basm",
-  "themes": [
-   "aventura"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un rege tânăr pleacă singur să-și caute mireasă și de fiecare dată trece pe lângă o păstoriță frumoasă, care îi spune că o va duce și mai bine când va fi soția regelui. Între timp, prima treaptă a palatului dă în vileag adevărul despre fiecare prințesă care pășește pe ea.",
+   "en": "A young king sets off alone to find a bride, and each time he passes a beautiful shepherdess who tells him she'll be even better off once she's the king's wife. Meanwhile, the first step of the palace stairs reveals the truth about every princess who sets foot on it."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11261,39 +11153,11 @@
    "familie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un moș și o babă, vecini din copilărie și cei mai bătrâni din sat, nu-și mai vorbesc de multă vreme. Într-o dimineață, amândoi pornesc cu trenul la oraș, să-și vadă nepoții, și se întâlnesc în gară.",
+   "en": "An old man and an old woman, neighbours since childhood and the oldest people in the village, haven't spoken to each other in years. One morning both set off by train to visit their grandchildren in town and run into each other at the station."
   },
   "age": 5,
   "addedAt": "2026-11-22"
- },
- {
-  "id": "marile-sperante-lectura-irina-velcescu",
-  "title": "Marile speranțe",
-  "author": "Charles Dickens",
-  "origin": "british",
-  "genre": "roman",
-  "themes": [
-   "copilarie",
-   "dreptate",
-   "prietenie",
-   "bunatate"
-  ],
-  "summary": {
-   "ro": "Orfanul Pip crește în casa surorii sale și a fierarului Joe, până când un binefăcător misterios îi plătește educația la Londra. Acolo încearcă să devină un domn pe măsura Estellei, fata rece a domnișoarei Havisham, și descoperă că averea lui vine de la un condamnat pe care l-a ajutat în copilărie.",
-   "en": "The orphan Pip grows up in his sister's house with the blacksmith Joe, until a mysterious benefactor pays for his education in London. There he tries to become a gentleman worthy of Estella, the cold girl raised by Miss Havisham, and learns that his fortune comes from a convict he once helped as a child."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1861,
-  "characters": [
-   "Pip",
-   "Magwitch",
-   "Estella",
-   "Miss Havisham",
-   "Joe Gargery",
-   "Herbert Pocket"
-  ]
  },
  {
   "id": "olaf-si-regina-ielelor",
@@ -11354,24 +11218,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
-  "id": "pantoful-de-lemn",
-  "title": "Pantoful de lemn",
-  "author": "legendă germană",
-  "origin": "german",
-  "genre": "basm",
-  "themes": [
-   "iarna"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Cucurigu, un pui pocit, cu un singur ochi, o singură aripă și un singur picior, se crede cea mai frumoasă făptură și pleacă la Roma, să-l vadă papa. Pe drum nu-i ajută pe cei care îi cer ajutorul: nici pârâul, nici focul, nici vântul.",
+   "en": "Cucurigu, a misshapen chick with just one eye, one wing and one leg, thinks he is the handsomest creature alive and sets off for Rome to be seen by the Pope. On the way he refuses to help those who ask him: not the stream, not the fire, not the wind."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11432,8 +11280,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Lăbuță Buclucașă, un vulpoi tare curios, intră pe furiș în castelul celor trei urși cât ei nu sunt acasă. Gustă din castroanele lor, le strică un scăunel și adoarme în patul cel mic.",
+   "en": "Lăbuță Buclucașă, a very curious fox, sneaks into the three bears' castle while they're out. He tastes from their bowls, breaks a little chair and falls asleep in the smallest bed."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11474,8 +11322,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Mezinul a trei frați nu are decât un miel, dar îl taie ca să ospăteze un bătrân flămând, iar a doua zi mielul e viu, cu flori de aur în blană. Cu el pleacă la curtea regelui a cărui fiică nu râde niciodată.",
+   "en": "The youngest of three brothers owns only a lamb, but he kills it to feed a hungry old man, and the next morning the lamb is alive again with golden flowers in its fleece. He takes it to the court of the king whose daughter never laughs."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11567,15 +11415,15 @@
  {
   "id": "povestea-crinului",
   "title": "Povestea crinului",
-  "author": "folclor românesc",
+  "author": "Ion Dragoslav",
   "origin": "romanian",
   "genre": "poveste",
   "themes": [
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un împărat își trimite feciorii în lume să-și găsească singuri mirese. Povestea lui Crin, mezinul, și a fetei care îl iubește se încheie în grădina Sfintei Vineri, ca legendă a crinului alb și a crinului roșu.",
+   "en": "An emperor sends his sons out into the world to find brides for themselves. The story of Crin, the youngest, and the girl who loves him ends in Saint Friday's garden, as the legend of the white lily and the red lily."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11583,15 +11431,15 @@
  {
   "id": "zanele",
   "title": "Zânele",
-  "author": "poveste populară",
-  "origin": "universal",
+  "author": "Charles Perrault",
+  "origin": "french",
   "genre": "poveste",
   "themes": [
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O văduvă o răsfață pe fiica cea mare și o pune pe cea mică la toate treburile. La fântână, o zână le răsplătește pe fiecare după cum se poartă cu ea.",
+   "en": "A widow spoils her elder daughter and makes the younger one do all the chores. At the well, a fairy rewards each girl according to how she treats her."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11606,24 +11454,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
-  "id": "inmultirea-painilor",
-  "title": "Înmulțirea pâinilor",
-  "author": "poveste populară",
-  "origin": "universal",
-  "genre": "basm",
-  "themes": [
-   "aventura"
-  ],
-  "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un flăcău care vrea să se îmbogățească pleacă spre un munte cu pietre scumpe și îi fură punga unui moșneag. Bătrânul îl învață care sunt adevăratele pietre prețioase ale unui om.",
+   "en": "A young man who wants to get rich sets off for a mountain of precious stones and steals an old man's pouch. The old man shows him which treasures really matter."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11663,8 +11495,8 @@
    "printese"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O prințesă se îndrăgostește de un păstor care cântă minunat din fluier și îl ascunde la palat. Împăratul află și poruncește ca păstorul să fie aruncat în mare, dar acesta ajunge înot pe o insulă pustie, unde crește doi pui de cocor.",
+   "en": "A princess falls for a shepherd who plays the flute beautifully and hides him in the palace. The emperor finds out and has the shepherd thrown into the sea, but he swims to a deserted island, where he raises two crane chicks."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11727,7 +11559,10 @@
  {
   "id": "legenda-craitei-basm-romanesc",
   "title": "Legenda Crăiței",
-  "author": "Gabriela Popescu și Val Moldoveanu",
+  "author": [
+   "Gabriela Popescu",
+   "Val Moldoveanu"
+  ],
   "origin": "romanian",
   "genre": "legenda",
   "themes": [
@@ -11873,8 +11708,8 @@
    "animale"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Înainte să moară, un tigru bătrân îi spune fiului său că omul e cea mai puternică ființă de pe pământ. Tigrul cel tânăr, care se credea cel mai tare, pleacă să vadă cum arată omul și o ia mai întâi drept om pe o zebră.",
+   "en": "Before he dies, an old tiger tells his son that man is the strongest creature on earth. The young tiger, who thought tigers were the strongest, sets off to see what a man looks like and first mistakes a zebra for one."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11890,8 +11725,8 @@
    "frati"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Trei frați din Oltenia cosesc fără voie livada unui zmeu, iar zmeul îi ia la el acasă, chipurile ca să-i plătească. Doar Roman, fratele năzdrăvan, vede capcanele zmeului, deși ceilalți doi nu prea vor să-l asculte.",
+   "en": "Three brothers in Oltenia mow a dragon's meadow without asking, and the dragon takes them home, supposedly to pay them. Only Roman, the brother with magic gifts, sees through the dragon's traps, though the other two don't much care to listen to him."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11982,8 +11817,8 @@
    "copilarie"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O nevastă se plânge că bărbatul ei stă la vorbă cu toată lumea, dar acasă abia dacă îi spune câteva cuvinte pe zi. Și-a făcut chiar socoteala vorbelor și cere ajutor ca să-l dezlege la limbă.",
+   "en": "A wife complains that her husband chats with everyone else but at home barely says a few words to her a day. She has even counted the words, and she asks for help to get him talking."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -11998,8 +11833,8 @@
    "padure"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "În iarna lui 1474, un tânăr călăreț vine în taină la Suceava, la Ștefan cel Mare, care se pregătește să înfrunte oastea turcească. Îi povestește domnitorului că l-a întâlnit pe bunicul său, starostele pădurarilor, plecând în plină iarnă spre codru.",
+   "en": "In the winter of 1474, a young rider comes secretly to Suceava to see Stephen the Great, who is preparing to face the Ottoman army. He tells the prince he has met his grandfather, the head of the foresters, heading into the woods in the middle of winter."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -12030,8 +11865,8 @@
    "aventura"
   ],
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Negurul, zmeul distrugerii, a pustiit pădurile, a robit cele trei fiice ale Păsării Măiestre și a întunecat mintea oamenilor. Pasărea Măiastră îl găsește pe bătrânul Pan, zeul pădurilor, legat cu lanțuri de trunchiul mort al Pomului Vieții.",
+   "en": "Negurul, the dragon of destruction, has laid waste to the forests, enslaved the three daughters of the Magic Bird and clouded people's minds. The Magic Bird finds old Pan, god of the forests, chained to the dead trunk of the Tree of Life."
   },
   "age": 5,
   "addedAt": "2026-11-22"
@@ -12458,7 +12293,10 @@
  {
   "id": "pisicile-aristocrate",
   "title": "Pisicile aristocrate",
-  "author": "Tom McGowan și Tom Rowe",
+  "author": [
+   "Tom McGowan",
+   "Tom Rowe"
+  ],
   "origin": "american",
   "genre": "poveste",
   "themes": [
@@ -13067,30 +12905,6 @@
    "Regina Apelor",
    "Barza",
    "Peștele de aur"
-  ]
- },
- {
-  "id": "legenda-cocosului-de-barcelos",
-  "title": "Legenda Cocoșului de Barcelos",
-  "author": "legendă portugheză",
-  "origin": "portuguese",
-  "genre": "legenda",
-  "themes": [
-   "animale",
-   "dreptate",
-   "adevar",
-   "calatorie"
-  ],
-  "summary": {
-   "ro": "Un pelerin sărac e acuzat pe nedrept de furt și condamnat la moarte. În fața judecătorului, el jură că un cocoș fript va cânta pentru a-i dovedi nevinovăția, iar minunea se întâmplă.",
-   "en": "A poor pilgrim is wrongly accused of theft and sentenced to death. Before the judge he swears that a roasted rooster will crow to prove his innocence, and the miracle happens."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Pelerinul",
-   "Judecătorul",
-   "Cocoșul"
   ]
  },
  {
@@ -14837,34 +14651,6 @@
   ]
  },
  {
-  "id": "siddhartha-si-lebada",
-  "title": "Siddhartha și lebăda",
-  "author": "poveste populară indiană",
-  "origin": "indian",
-  "genre": "legenda",
-  "themes": [
-   "animale",
-   "bunatate",
-   "intelepciune",
-   "curaj",
-   "familie"
-  ],
-  "summary": {
-   "ro": "Micuțul prinț Siddhartha salvează o lebădă rănită de săgeata vărului său Devadatta. La sfatul unui bătrân înțelept, regele hotărăște că lebăda rămâne la cel care o îngrijește, iar cei doi băieți învață împreună ce înseamnă mila și prietenia.",
-   "en": "The young prince Siddhartha saves a swan wounded by an arrow from his cousin Devadatta. On the advice of an old wise man, the king decides that the swan belongs to whoever cares for it, and the two boys learn together what mercy and friendship mean."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Siddhartha",
-   "Regele Șuddhodana",
-   "Regina Maya",
-   "Devadatta",
-   "Bătrânul înțelept",
-   "Lebăda"
-  ]
- },
- {
   "id": "maimuta-si-broasca-testoasa",
   "title": "Maimuța și broasca țestoasă",
   "author": "poveste populară indiană",
@@ -15297,33 +15083,6 @@
    "Băiatul",
    "Zâna în roșu",
    "Bătrâna"
-  ]
- },
- {
-  "id": "legenda-lui-mos-nicolae",
-  "title": "Legenda lui Moș Nicolae",
-  "author": "folclor românesc",
-  "origin": "romanian",
-  "genre": "legenda",
-  "themes": [
-   "craciun",
-   "iarna",
-   "bunatate",
-   "familie"
-  ],
-  "summary": {
-   "ro": "Nicolae, un băiat dintr-o familie bogată, împarte în secret hrană și haine săracilor. Când un tată nu are zestre pentru cele trei fete ale sale, Nicolae lasă pungi cu bani pe fereastră și pe horn, iar obiceiul dăruirii rămâne până azi.",
-   "en": "Nicholas, a boy from a wealthy family, secretly shares food and clothes with the poor. When a father cannot provide dowries for his three daughters, Nicholas leaves bags of money at the window and down the chimney, and the custom of giving lasts to this day."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Nicolae",
-   "Tatăl cel sărac",
-   "Cele trei fete"
-  ],
-  "altTitles": [
-   "Povestea Sfântului Nicolae"
   ]
  },
  {
@@ -15778,7 +15537,10 @@
  {
   "id": "pestisorii-si-zana",
   "title": "Peștișorii și zâna",
-  "author": "Ema Oprean și Andra Oprean",
+  "author": [
+   "Ema Oprean",
+   "Andra Oprean"
+  ],
   "origin": "romanian",
   "genre": "basm",
   "themes": [
@@ -16312,107 +16074,6 @@
    "Tudorel",
    "Moșul din pădure",
    "Împăratul"
-  ]
- },
- {
-  "id": "printesa-turandot",
-  "title": "Prințesa Turandot",
-  "author": "Carlo Gozzi",
-  "origin": "italian",
-  "genre": "basm",
-  "themes": [
-   "printese",
-   "istetime",
-   "umor"
-  ],
-  "summary": {
-   "ro": "Prințesa Turandot le pune pețitorilor ghicitori de viață și de moarte, iar prințul Calaf primește șansa să le dezlege și să o cucerească. Adaptarea radiofonică a comediei lui Carlo Gozzi păstrează măștile commediei dell'arte din jurul prințesei.",
-   "en": "Princess Turandot sets life-and-death riddles for her suitors, and Prince Calaf takes his chance at solving them and winning her. The radio adaptation of Carlo Gozzi's play keeps the commedia dell'arte masks around the princess."
-  },
-  "age": 9,
-  "addedAt": "2026-11-22",
-  "year": 1762,
-  "characters": [
-   "Turandot",
-   "Calaf",
-   "Împăratul",
-   "Pantalone",
-   "Tartaglia",
-   "Adelma"
-  ]
- },
- {
-  "id": "omul-invizibil",
-  "title": "Omul invizibil",
-  "author": "H. G. Wells",
-  "origin": "british",
-  "genre": "roman",
-  "themes": [
-   "stiinta",
-   "aventura",
-   "curiozitate"
-  ],
-  "summary": {
-   "ro": "Griffin, un om de știință care a reușit să devină invizibil, ajunge într-un sat englez unde ascunde un secret tot mai greu de păstrat. Fuga lui de lume și încercarea de a-și recupera notele declanșează o urmărire care se termină tragic.",
-   "en": "Griffin, a scientist who has made himself invisible, arrives in an English village hiding a secret that becomes harder and harder to keep. His flight from the world and his attempt to recover his notes set off a manhunt that ends in tragedy."
-  },
-  "age": 9,
-  "addedAt": "2026-11-22",
-  "year": 1897,
-  "characters": [
-   "Griffin",
-   "Doctorul Kemp",
-   "Thomas Marvel",
-   "Domnul Hall",
-   "Doamna Hall",
-   "Vicarul Bunting"
-  ]
- },
- {
-  "id": "d-ale-lui-pacala",
-  "title": "D-ale lui Păcală",
-  "author": "Tudor Mușatescu",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "umor",
-   "istetime",
-   "muzica"
-  ],
-  "summary": {
-   "ro": "Păcală și frații lui moștenesc de la tatăl lor o vacă, Joiana, și nu se înțeleg cum să o împartă. Comedia radiofonică scrisă de Tudor Mușatescu pornește de la snoavele populare despre Păcală și de la cearta pentru vacă.",
-   "en": "Păcală and his brothers inherit a cow, Joiana, from their father and cannot agree on how to share it. Tudor Mușatescu's radio comedy starts from the folk anecdotes about Păcală and the quarrel over the cow."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Păcală",
-   "Joiana"
-  ]
- },
- {
-  "id": "ninigra-si-aligru",
-  "title": "Ninigra și Aligru",
-  "author": "Nina Cassian",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "animale",
-   "prietenie",
-   "curaj",
-   "bunatate"
-  ],
-  "summary": {
-   "ro": "Doi pui de tigru, Ninigra și Aligru, se rătăcesc în junglă, ajung prizonierii unor animale stranii și se aliază cu un papagal care le cunoaște secretele. Povestea Ninei Cassian vorbește despre prietenie și curaj, cu un strat de alegorie pentru adulți.",
-   "en": "Two tiger cubs, Ninigra and Aligru, get lost in the jungle, fall captive to strange animals and team up with a parrot who knows its secrets. Nina Cassian's tale is about friendship and courage, with a layer of allegory for grown-ups."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Ninigra",
-   "Aligru",
-   "Miorlana",
-   "Animalul greșit"
   ]
  },
  {
@@ -17299,26 +16960,6 @@
   "year": 2021
  },
  {
-  "id": "colinde-colinde",
-  "title": "Colinde, colinde",
-  "author": "Valeriu Anania",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "craciun",
-   "iarna",
-   "traditii",
-   "familie",
-   "bunatate"
-  ],
-  "summary": {
-   "ro": "Într-un sat românesc, copiii pornesc la colindat prin zăpadă și vestesc Nașterea Domnului din casă în casă. Povestea urmărește colindele, darurile mărunte și lumina sărbătorii care îi apropie pe oameni.",
-   "en": "In a Romanian village, children go carol-singing through the snow, announcing Christ's birth from house to house. The story follows the old carols, the small gifts and the light of the feast that draws people together."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22"
- },
- {
   "id": "zurgalaii-cei-nastrusnici",
   "title": "Zurgălăii cei năstrușnici",
   "author": "Ina Sterescu",
@@ -17402,32 +17043,6 @@
    "Doamna Banks",
    "Domnul Banks",
    "Bert"
-  ]
- },
- {
-  "id": "povestea-floriilor",
-  "title": "Povestea Floriilor",
-  "author": "Maria Ioana Vasiloiu",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "traditii",
-   "copilarie",
-   "bunatate",
-   "familie"
-  ],
-  "summary": {
-   "ro": "Înaintea sărbătorii Floriilor, Ionuț, Magda și scepticul Toma merg cu doamna învățătoare după flori de seră și rămurele de salcie pentru biserica satului. Drept mulțumire, părintele le spune povestea Intrării Domnului în Ierusalim, iar copiii o trăiesc ca și cum ar fi acolo.",
-   "en": "On the eve of Palm Sunday, Ionuț, Magda and the sceptical Toma go with their teacher to gather greenhouse flowers and willow branches for the village church. As a reward, the priest tells them the story of Christ's entry into Jerusalem, and the children experience it as if they were there."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Ionuț",
-   "Magda",
-   "Toma",
-   "Doamna învățătoare",
-   "Părintele"
   ]
  },
  {
@@ -18457,30 +18072,6 @@
   "addedAt": "2026-11-22"
  },
  {
-  "id": "toma-alimos",
-  "title": "Toma Alimoș",
-  "author": "folclor românesc",
-  "origin": "romanian",
-  "genre": "legenda",
-  "themes": [
-   "eroi",
-   "curaj",
-   "dreptate",
-   "sacrificiu"
-  ],
-  "summary": {
-   "ro": "Balada haiducului Toma Alimoș, care îl primește la masă pe Manea, un boier lacom și viclean. Rănit pe nedrept, Toma se ridică pe cal și își urmărește dușmanul până își ia răzbunarea, lăsându-și murgul să-i sape groapa sub ulmi.",
-   "en": "The ballad of the outlaw Toma Alimoș, who welcomes Manea, a greedy and treacherous boyar, to his table. Wounded by foul play, Toma mounts his horse and chases his enemy until he takes his revenge, then lets his stallion dig his grave beneath the elms."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 1850,
-  "characters": [
-   "Toma Alimoș",
-   "Manea"
-  ]
- },
- {
   "id": "tovaras-de-drum",
   "title": "Tovarăș de drum",
   "author": "Hans Christian Andersen",
@@ -18555,30 +18146,6 @@
    "Lăcrămioara",
    "Vrăjitorul",
    "Inimă Rea"
-  ]
- },
- {
-  "id": "legenda-mesterului-manole",
-  "title": "Legenda Meșterului Manole",
-  "author": "folclor românesc",
-  "origin": "romanian",
-  "genre": "legenda",
-  "themes": [
-   "sacrificiu",
-   "arte",
-   "traditii",
-   "curaj"
-  ],
-  "summary": {
-   "ro": "Negru Vodă poruncește zidirea unei mănăstiri pe Argeș, dar zidurile se surpă în fiecare noapte. Un vis îi arată meșterului Manole că lucrarea va sta doar dacă va zidi de vie prima femeie care va veni cu bucate în zori, iar soarta o aduce chiar pe Ana, soția lui.",
-   "en": "Negru Vodă orders a monastery built on the Argeș, but the walls collapse every night. A dream tells the master builder Manole that the work will stand only if he walls up alive the first woman to bring food at dawn, and fate brings his own wife Ana."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Manole",
-   "Ana",
-   "Negru Vodă"
   ]
  },
  {
@@ -19596,29 +19163,6 @@
   }
  },
  {
-  "id": "cocosatul-de-la-notre-dame",
-  "title": "Cocoșatul de la Notre-Dame",
-  "author": "Victor Hugo",
-  "genre": "roman",
-  "origin": "french",
-  "year": 1831,
-  "themes": [
-   "curaj",
-   "bunatate",
-   "dreptate"
-  ],
-  "characters": [
-   "Quasimodo",
-   "Esmeralda",
-   "Claude Frollo",
-   "Phoebus"
-  ],
-  "summary": {
-   "ro": "În Parisul medieval, clopotarul Quasimodo, temut pentru înfățișarea sa, o apără cu devotament pe Esmeralda sub bolțile catedralei Notre-Dame.",
-   "en": "In medieval Paris, the bell-ringer Quasimodo hides a gentle heart beneath his appearance and protects Esmeralda inside Notre-Dame Cathedral."
-  }
- },
- {
   "id": "fantoma-din-canterville",
   "title": "Fantoma din Canterville",
   "author": "Oscar Wilde",
@@ -19639,52 +19183,6 @@
   "summary": {
    "ro": "O familie americană se mută într-un conac englezesc bântuit și nu se sperie deloc de bătrâna fantomă, până când micuța Virginia îi aduce liniștea mult așteptată.",
    "en": "An American family moves into a haunted English manor and refuses to be frightened by its resident ghost, until young Virginia helps him find peace."
-  }
- },
- {
-  "id": "hanul-ancutei",
-  "title": "Hanul Ancuței",
-  "author": "Mihail Sadoveanu",
-  "genre": "poveste",
-  "origin": "romanian",
-  "year": 1928,
-  "themes": [
-   "calatorie",
-   "traditii",
-   "prietenie"
-  ],
-  "characters": [
-   "Ancuța",
-   "Comisul Ioniță",
-   "Moș Leonte",
-   "Căpitanul Neculai Isac"
-  ],
-  "summary": {
-   "ro": "Drumeți din toate colțurile Moldovei poposesc toamna la hanul Ancuței și deapănă, pe rând, întâmplări cu haiduci, vrăji și fapte de demult.",
-   "en": "Travellers from across Moldavia gather at Ancuța’s inn in autumn to swap tales of outlaws, strange encounters and bygone times."
-  }
- },
- {
-  "id": "luceafarul",
-  "title": "Luceafărul",
-  "author": "Mihai Eminescu",
-  "genre": "basm",
-  "origin": "romanian",
-  "year": 1883,
-  "themes": [
-   "magie",
-   "printese",
-   "vis"
-  ],
-  "characters": [
-   "Hyperion",
-   "Cătălina",
-   "Cătălin",
-   "Demiurgul"
-  ],
-  "summary": {
-   "ro": "Poemul-basm al lui Mihai Eminescu despre fata de împărat care îl cheamă pe Luceafăr din ceruri și despre distanța dintre lumea nemuritoare și cea pământească.",
-   "en": "Mihai Eminescu’s classic fairy-tale poem about an emperor’s daughter who calls the Evening Star down from the sky and the gulf between mortal and immortal worlds."
   }
  },
  {
@@ -21195,94 +20693,12 @@
   "year": 1882
  },
  {
-  "id": "povestea-celei-mai-frumoase-pasari-din-lume",
-  "title": "Povestea celei mai frumoase păsări din lume",
-  "author": "folclor universal",
-  "genre": "legenda",
-  "themes": [
-   "animale",
-   "intelepciune",
-   "natura"
-  ],
-  "characters": [
-   "Noe",
-   "Pasărea cea mândră"
-  ],
-  "summary": {
-   "ro": "Când Noe cheamă vietățile pe arcă înaintea potopului, cea mai frumoasă pasăre de pe pământ refuză din mândrie să urce și învață prea târziu prețul trufiei.",
-   "en": "When Noah gathers every creature onto the ark before the flood, the loveliest bird on earth is too proud to board and pays the price for its vanity."
-  },
-  "origin": "universal"
- },
- {
-  "id": "povestea-bradutului",
-  "title": "Povestea brăduțului",
-  "author": "folclor universal",
-  "genre": "poveste",
-  "themes": [
-   "iarna",
-   "craciun",
-   "bunatate",
-   "familie",
-   "animale"
-  ],
-  "characters": [
-   "Tatăl",
-   "Fiul",
-   "Sfântul Nicolae",
-   "Animalele pădurii"
-  ],
-  "summary": {
-   "ro": "În Ajunul Crăciunului, un tată sărac merge în pădure să caute un brăduț pentru fiul lui bolnav, fiindcă nu are bani să cumpere unul. Sfântul Nicolae îi ascultă rugăciunea și pune animalele pădurii să împodobească bradul cu globulețe și lumini.",
-   "en": "On Christmas Eve a poor father goes into the forest to find a fir tree for his sick son, since he cannot afford to buy one. Saint Nicholas hears his prayer and has the forest animals decorate the tree with baubles and lights."
-  },
-  "origin": "universal"
- },
- {
-  "id": "povestea-icoanei",
-  "title": "Povestea Icoanei",
-  "author": "folclor universal",
-  "genre": "legenda",
-  "themes": [
-   "intelepciune",
-   "dreptate",
-   "adevar"
-  ],
-  "characters": [
-   "Turcul",
-   "Hoții"
-  ],
-  "summary": {
-   "ro": "La Istanbul, un bărbat cumpără de la un vânzător ambulant o icoană despre care se spune că face minuni și o lasă să-i păzească casa cu ușile și geamurile deschise. Într-o zi se laudă cu ea într-o crâșmă, iar hoții care îl aud îi jefuiesc casa în lipsa lui, luând și icoana.",
-   "en": "In Istanbul a man buys a wonder-working icon from a peddler and leaves it to guard his house with the doors and windows open. When he boasts about it in a tavern, thieves overhear him and ransack the house while he is away, taking the icon too."
-  },
-  "origin": "universal"
- },
- {
-  "id": "povestea-nasterii-domnului",
-  "title": "Povestea Nașterii Domnului",
-  "author": "folclor universal",
-  "genre": "legenda",
-  "themes": [
-   "craciun",
-   "bunatate",
-   "familie"
-  ],
-  "characters": [
-   "Fecioara Maria",
-   "Iosif",
-   "Femeia cea bună"
-  ],
-  "summary": {
-   "ro": "În noaptea de Ajun, Maria și Iosif caută adăpost și sunt primiți într-o iesle de o femeie cu suflet mare, în ciuda împotrivirii soțului ei.",
-   "en": "On Christmas Eve, Mary and Joseph search for shelter and are welcomed into a stable by a kind-hearted woman despite her husband’s refusal."
-  },
-  "origin": "universal"
- },
- {
   "id": "furtuna-lamb",
   "title": "Furtuna",
-  "author": "Charles și Mary Lamb",
+  "author": [
+   "Charles Lamb",
+   "Mary Lamb"
+  ],
   "genre": "poveste",
   "themes": [
    "magie",
@@ -22279,30 +21695,6 @@
   "year": 1988
  },
  {
-  "id": "legenda-oualor-rosii",
-  "title": "Legenda ouălor roșii",
-  "author": "Titela Haque",
-  "genre": "legenda",
-  "origin": "romanian",
-  "themes": [
-   "bunatate",
-   "traditii",
-   "sacrificiu"
-  ],
-  "characters": [
-   "Miriana",
-   "Sefir",
-   "Bunicul Simon",
-   "Iisus",
-   "Maica Maria",
-   "Maria Magdalena"
-  ],
-  "summary": {
-   "ro": "Miriana, o fată orfană care trăiește cu bunicul Simon, pornește împreună cu prietenul ei Sefir spre Golgota, cu un coș de ouă. Acolo, sub cruce, ouăle se înroșesc, iar povestea leagă întâmplarea de obiceiul ouălor roșii de Paști.",
-   "en": "Miriana, an orphan girl living with her grandfather Simon, sets off for Golgotha with her friend Sefir and a basket of eggs. Beneath the cross the eggs turn red, and the story ties the event to the Easter tradition of red eggs."
-  }
- },
- {
   "id": "ispravile-lui-pacala",
   "title": "Isprăvile lui Păcală",
   "author": "Traian Chelariu",
@@ -22694,26 +22086,6 @@
   "summary": {
    "ro": "Ursitoarele îi hărăzesc mezinului unui pădurar un drum greu spre Muntele Spiritelor. Când fiica Craiului se îmbolnăvește, flăcăul pleacă după Floarea cea Roșie ca să o vindece.",
    "en": "The Fates foretell a perilous path for a forester’s youngest son. When the king’s daughter falls ill, he journeys to the Mountain of Spirits for the Red Flower."
-  }
- },
- {
-  "id": "povesti-despre-iisus",
-  "title": "Povești despre Iisus: La apa Iordanului",
-  "author": "Noul Testament",
-  "genre": "poveste",
-  "origin": "universal",
-  "themes": [
-   "bunatate",
-   "intelepciune",
-   "traditii"
-  ],
-  "characters": [
-   "Iisus",
-   "Ioan Botezătorul"
-  ],
-  "summary": {
-   "ro": "Ioan Botezătorul propovăduiește în deșert și îl botează pe Iisus în apele Iordanului. Cerul se deschide, iar o voce îl numește Fiul lui Dumnezeu.",
-   "en": "John the Baptist preaches in the desert and baptises Jesus in the River Jordan. The heavens open and a voice names him the Son of God."
   }
  },
  {
@@ -23514,7 +22886,10 @@
  {
   "id": "secretul-micilor-gradinari",
   "title": "Secretul micilor grădinari",
-  "author": "Maija Hurme și Lina Laurent",
+  "author": [
+   "Maija Hurme",
+   "Lina Laurent"
+  ],
   "genre": "poveste",
   "origin": "finnish",
   "themes": [
@@ -24590,7 +23965,10 @@
   "summary": {
    "ro": "Împăratul are un ochi care râde și unul care plânge, iar mezinul Petru pornește după apa din fântâna Zânei Zorilor, singurul leac. Cu ajutorul calului fermecat și al Sfintelor Miercuri, Joi și Vineri, înfruntă balaurul și pădurile de aramă, argint și aur.",
    "en": "The emperor has one eye that laughs and one that weeps, and his youngest son Petru sets out for water from the Fairy of Dawn's well, the only cure. With a magic horse and the help of the saints of Wednesday, Thursday and Friday, he faces the dragon and the forests of copper, silver and gold."
-  }
+  },
+  "altTitles": [
+   "Feciorul cel vrednic"
+  ]
  },
  {
   "id": "crancu-vanatorul-codrilor",
@@ -25049,72 +24427,6 @@
   "summary": {
    "ro": "O fetiță sclipitoare și pasionată de cărți, neînțeleasă de părinți, își descoperă puteri neașteptate și o înfruntă pe temuta directoare a școlii.",
    "en": "A brilliant book-loving girl ignored by her parents discovers extraordinary powers and stands up to her school’s terrifying headmistress."
-  }
- },
- {
-  "id": "legende-despre-iisus",
-  "title": "Legende despre Iisus",
-  "author": "Selma Lagerlöf",
-  "genre": "legenda",
-  "origin": "swedish",
-  "year": 1904,
-  "themes": [
-   "bunatate",
-   "traditii",
-   "magie",
-   "sacrificiu"
-  ],
-  "characters": [
-   "Iisus",
-   "Soldatul roman"
-  ],
-  "summary": {
-   "ro": "Povestiri calde din volumul Selmei Lagerlöf despre copilăria lui Iisus și minunile mărunte care schimbă inimile oamenilor.",
-   "en": "Warm tales from Selma Lagerlöf’s “Christ Legends” about the childhood of Jesus and quiet miracles that transform people’s hearts."
-  }
- },
- {
-  "id": "minunile-din-templu",
-  "title": "Minunile din templu",
-  "author": "Selma Lagerlöf",
-  "genre": "legenda",
-  "origin": "swedish",
-  "year": 1904,
-  "themes": [
-   "intelepciune",
-   "familie",
-   "traditii"
-  ],
-  "characters": [
-   "Iisus copil",
-   "Maria",
-   "Iosif"
-  ],
-  "summary": {
-   "ro": "Legendă din ciclul Selmei Lagerlöf despre drumul spre Templul din Ierusalim și uimirea învățaților în fața întrebărilor și răspunsurilor lui Iisus la doisprezece ani.",
-   "en": "A story from Selma Lagerlöf’s cycle recounting the twelve-year-old Jesus astonishing the scholars at the Temple in Jerusalem."
-  }
- },
- {
-  "id": "pasarile-plamadite-din-lut",
-  "title": "Păsările plămădite din lut",
-  "author": "Selma Lagerlöf",
-  "genre": "legenda",
-  "origin": "swedish",
-  "year": 1904,
-  "themes": [
-   "bunatate",
-   "copilarie",
-   "magie",
-   "animale"
-  ],
-  "characters": [
-   "Iisus copil",
-   "Olarul"
-  ],
-  "summary": {
-   "ro": "În Nazaret, un olar îi dă micului Iisus puțin lut umed, iar păsărelele modelate de mâinile lui prind aripi și se înalță spre cer.",
-   "en": "In Nazareth, a potter gives young Jesus a lump of wet clay, and the little birds he shapes take flight into the sky."
   }
  },
  {
@@ -25600,88 +24912,6 @@
   }
  },
  {
-  "id": "povesti-despre-iisus-minunile",
-  "title": "Povești despre Iisus: Minunile",
-  "author": "Noul Testament",
-  "genre": "poveste",
-  "origin": "universal",
-  "themes": [
-   "bunatate",
-   "sacrificiu",
-   "intelepciune"
-  ],
-  "characters": [
-   "Iisus",
-   "Petru"
-  ],
-  "summary": {
-   "ro": "Iisus străbate Galileea și săvârșește minuni: vindecă bolnavi, alungă duhurile rele și hrănește mulțimile. Oamenii rămân uimiți de puterea lui.",
-   "en": "Jesus travels through Galilee performing miracles: he heals the sick, drives out evil spirits and feeds the crowds. The people are left astonished by his power."
-  }
- },
- {
-  "id": "povesti-despre-iisus-predica-de-pe-munte",
-  "title": "Povești despre Iisus: Predica de pe Munte",
-  "author": "Noul Testament",
-  "genre": "poveste",
-  "origin": "universal",
-  "themes": [
-   "bunatate",
-   "sacrificiu",
-   "intelepciune"
-  ],
-  "characters": [
-   "Iisus",
-   "Petru"
-  ],
-  "summary": {
-   "ro": "Iisus urcă pe munte și rostește Fericirile, rugăciunea Tatăl Nostru și învățături despre milă, iertare și grija de fiecare zi. Vorbele lui schimbă felul în care oamenii privesc legea și credința.",
-   "en": "Jesus goes up the mountain and delivers the Beatitudes, the Lord's Prayer and teachings about mercy, forgiveness and everyday worry. His words change how people understand the law and faith."
-  }
- },
- {
-  "id": "povesti-despre-iisus-cina-cea-de-taina",
-  "title": "Povești despre Iisus: Cina cea de Taină",
-  "author": "Noul Testament",
-  "genre": "poveste",
-  "origin": "universal",
-  "themes": [
-   "bunatate",
-   "sacrificiu",
-   "intelepciune"
-  ],
-  "characters": [
-   "Iisus",
-   "Iuda",
-   "Petru"
-  ],
-  "summary": {
-   "ro": "Iisus intră în Ierusalim și împarte pâinea și vinul cu ucenicii la Cina cea de Taină. Le vorbește despre jertfa sa și despre trădarea care urmează.",
-   "en": "Jesus enters Jerusalem and shares bread and wine with his disciples at the Last Supper. He speaks of his sacrifice and of the betrayal to come."
-  }
- },
- {
-  "id": "povesti-despre-iisus-rastignirea-domnului",
-  "title": "Povești despre Iisus: Răstignirea și Învierea",
-  "author": "Noul Testament",
-  "genre": "poveste",
-  "origin": "universal",
-  "themes": [
-   "bunatate",
-   "sacrificiu",
-   "intelepciune"
-  ],
-  "characters": [
-   "Iisus",
-   "Pilat din Pont",
-   "Maria"
-  ],
-  "summary": {
-   "ro": "Iisus este judecat, răstignit pe Golgota și pus în mormânt. A treia zi mormântul este gol, iar Iisus li se arată ucenicilor; vestea Învierii schimbă cursul poveștii.",
-   "en": "Jesus is tried, crucified on Golgotha and laid in the tomb. On the third day the tomb is empty and Jesus appears to his disciples; the news of the Resurrection changes everything."
-  }
- },
- {
   "id": "fereastra-care-n-avea-somn",
   "title": "Fereastra care n-avea somn",
   "author": "Selma Dragoș",
@@ -25706,7 +24936,10 @@
  {
   "id": "gemenii-ikrek",
   "title": "Gemenii Ikrek",
-  "author": "Petra Traistă și Bianca Murariu",
+  "author": [
+   "Petra Traistă",
+   "Bianca Murariu"
+  ],
   "genre": "poveste",
   "origin": "romanian",
   "year": 2021,
@@ -25726,7 +24959,10 @@
  {
   "id": "o-minte-doua-minti",
   "title": "O minte, două minți",
-  "author": "Ilina Ruxandra și Oana Mureșan",
+  "author": [
+   "Ilina Ruxandra",
+   "Oana Mureșan"
+  ],
   "genre": "poveste",
   "origin": "romanian",
   "year": 2021,
@@ -25748,7 +24984,10 @@
  {
   "id": "propria-mea-lume",
   "title": "Propria mea lume",
-  "author": "Victor Alexandru și Radu Popescu",
+  "author": [
+   "Victor Alexandru",
+   "Radu Popescu"
+  ],
   "genre": "poveste",
   "origin": "romanian",
   "year": 2021,
@@ -25769,7 +25008,10 @@
  {
   "id": "perseverance",
   "title": "Perseverance",
-  "author": "Catinca și Roxana Dăiciulescu",
+  "author": [
+   "Catinca Dăiciulescu",
+   "Roxana Dăiciulescu"
+  ],
   "genre": "poveste",
   "origin": "romanian",
   "year": 2021,
@@ -25791,7 +25033,10 @@
  {
   "id": "povesti-adevarate-sau-inventate",
   "title": "Povești adevărate sau inventate",
-  "author": "Andrei Mihai și Mihaela Ramona Bar",
+  "author": [
+   "Andrei Mihai",
+   "Mihaela Ramona Bar"
+  ],
   "genre": "poveste",
   "origin": "romanian",
   "year": 2021,
@@ -25813,7 +25058,10 @@
  {
   "id": "o-gheara-de-ajutor",
   "title": "O gheară de ajutor",
-  "author": "Carla și Liana Precup",
+  "author": [
+   "Carla Precup",
+   "Liana Precup"
+  ],
   "genre": "poveste",
   "origin": "romanian",
   "year": 2021,
@@ -26763,30 +26011,6 @@
   },
   "addedAt": "2026-11-23",
   "year": 1977
- },
- {
-  "id": "facerea-lumii-arghezi",
-  "title": "Facerea Lumii",
-  "author": "Tudor Arghezi",
-  "origin": "romanian",
-  "genre": "legenda",
-  "themes": [
-   "natura",
-   "animale",
-   "intelepciune",
-   "umor"
-  ],
-  "characters": [
-   "Dumnezeu",
-   "Adam",
-   "Eva"
-  ],
-  "summary": {
-   "ro": "Poveștile pline de tâlc și umor blând ale lui Tudor Arghezi despre începuturile lumii, ale viețuitoarelor și ale oamenilor, dramatizate pentru copii.",
-   "en": "Tudor Arghezi’s warm, gently humorous tales of how the world, animals and people came to be, dramatized for young listeners."
-  },
-  "addedAt": "2026-11-23",
-  "year": 1931
  },
  {
   "id": "domnita-pastorita",
@@ -28015,29 +27239,6 @@
   "addedAt": "2026-11-23"
  },
  {
-  "id": "visul-sultanului-la-babadag",
-  "title": "Visul sultanului la Babadag",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "vis",
-   "istorie",
-   "calatorie"
-  ],
-  "characters": [
-   "Baiazid al II-lea",
-   "Dervișul",
-   "Sari Saltîk",
-   "Păstorul"
-  ],
-  "summary": {
-   "ro": "Sultanul Baiazid al II-lea, bolnav fără leac, visează un derviș care îi spune că se va vindeca în numele sfântului Sari Saltîk, ale cărui oseminte trebuie găsite. Trezit sănătos, pornește spre Dobrogea, iar un bătrân păstor din Babadag îl duce la mormântul uitat, unde sultanul ridică un mausoleu în 1484.",
-   "en": "Sultan Bayezid II, gravely ill, dreams of a dervish who tells him he will be healed in the name of Saint Sari Saltik, whose bones must be found. He wakes cured, travels to Dobruja, and an old shepherd in Babadag leads him to the forgotten grave, where the sultan has a mausoleum built in 1484."
-  },
-  "origin": "romanian",
-  "year": 2014
- },
- {
   "id": "legenda-comunei-ciocarlia",
   "title": "Legenda comunei Ciocârlia",
   "author": "Cristian Cealera",
@@ -28103,28 +27304,6 @@
   },
   "origin": "romanian",
   "year": 2013
- },
- {
-  "id": "sfantul-foca-si-musulmanii",
-  "title": "Sfântul Foca și musulmanii",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "traditii",
-   "mitologie",
-   "natura"
-  ],
-  "characters": [
-   "Stăpânul turc",
-   "Lucrătorii",
-   "Sfântul Foca"
-  ],
-  "summary": {
-   "ro": "Un stăpân turc îi pune pe argații săi creștini să strângă grâul chiar de Sfântul Foca, pe 22 iulie, deși oamenii îl avertizează că e sărbătoare. La întoarcere, o furtună aprinde căruțele și holdele, iar musulmanii din Dobrogea înțeleg pedeapsa cerească și încep să țină și ei sărbătoarea sfântului.",
-   "en": "A Turkish landowner makes his Christian labourers gather the wheat on Saint Phocas’s day, 22 July, though they warn him it is a feast day. On the way home a storm sets the carts and fields alight, and the Muslims of Dobruja read it as divine punishment and begin to observe the saint’s feast themselves."
-  },
-  "origin": "romanian",
-  "year": 2014
  },
  {
   "id": "muntele-fericirii-de-la-tatlageac",
@@ -28216,30 +27395,6 @@
   "year": 2015
  },
  {
-  "id": "ronciu-si-frumoasa-aise",
-  "title": "Ronciu și frumoasa Aișe – Anadolchioi",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "familie",
-   "traditii",
-   "curaj",
-   "sacrificiu"
-  ],
-  "characters": [
-   "Ronciu",
-   "Aișe",
-   "Fatima",
-   "Elias"
-  ],
-  "summary": {
-   "ro": "Ronciu, un mocan venit din Ardeal, ajunge staroste peste păstorii din jurul Kiustengei și se îndrăgostește de Aișe, fiica văduvei Fatima. Ca să se poată căsători, se leapădă de credința creștină și ia numele Rașid; din așezarea turcilor veniți din Anatolia se naște Anadolchioi.",
-   "en": "Ronciu, a shepherd from Transylvania, becomes headman of the herdsmen around Kiustenge and falls in love with Aișe, the widow Fatima’s daughter. To marry her he gives up his Christian faith and takes the name Rașid; the settlement of Turks from Anatolia grows into Anadolchioi."
-  },
-  "origin": "romanian",
-  "year": 2014
- },
- {
   "id": "satul-lui-topal-schiopul",
   "title": "Satul lui Topal Șchiopul",
   "author": "Cristian Cealera",
@@ -28259,49 +27414,6 @@
   },
   "origin": "romanian",
   "year": 2013
- },
- {
-  "id": "calugarul-liinad-si-dervisul",
-  "title": "Călugărul Liinad și dervișul",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "prietenie",
-   "traditii",
-   "mitologie"
-  ],
-  "characters": [
-   "Liinad",
-   "Dervișul"
-  ],
-  "summary": {
-   "ro": "La Dervent, sihastrul creștin Liinad se împrietenește cu un derviș musulman venit în zonă cu migratorii pecenegi. Când Liinad moare, dervișul îl îngroapă și îi pune la cap o cruce cu rubine; din pământ răsare o cruce de piatră, iar din locul chiliei lui țâșnește un izvor tămăduitor.",
-   "en": "At Dervent, the Christian hermit Liinad befriends a Muslim dervish who arrived with the Pecheneg migrations. When Liinad dies, the dervish buries him and places a ruby cross at his head; a stone cross rises from the ground, and a healing spring bursts from the site of his cell."
-  },
-  "origin": "romanian",
-  "year": 2013
- },
- {
-  "id": "legenda-marelui-lup-alb",
-  "title": "Legenda Marelui Lup Alb",
-  "author": "Cristian Cealera",
-  "genre": "legenda",
-  "themes": [
-   "animale",
-   "mitologie",
-   "calatorie"
-  ],
-  "characters": [
-   "Marele Lup Alb",
-   "Sfântul Andrei",
-   "Leandru"
-  ],
-  "summary": {
-   "ro": "Rătăcit prin pustia Dobrogei într-o noapte de furtună, Sfântul Andrei este ajutat de o haită de lupi, iar uriașul lup alb care o conduce îl duce până la peștera ce îi va purta numele. În lupul alb se ascunde Leandru, preotul lui Zamolxis prefăcut în fiară, care a unit cândva lupii Daciei într-o armată.",
-   "en": "Lost in the Dobrujan wilderness on a stormy night, Saint Andrew is helped by a pack of wolves, and the giant white wolf leading them takes him to the cave that will bear his name. The white wolf is Leandru, a priest of Zalmoxis turned into a beast, who once gathered the wolves of Dacia into an army."
-  },
-  "origin": "romanian",
-  "year": 2014
  },
  {
   "id": "legenda-lacului-tuzla",
@@ -28456,46 +27568,6 @@
   "addedAt": "2026-11-23"
  },
  {
-  "id": "printesa-curcubeu",
-  "title": "Prințesa Curcubeu",
-  "author": "Maurice Baring",
-  "genre": "basm",
-  "themes": [
-   "magie",
-   "printese",
-   "muzica",
-   "curaj"
-  ],
-  "characters": [
-   "Prințesa Curcubeu",
-   "Tânărul geamgiu",
-   "Zâna"
-  ],
-  "summary": {
-   "ro": "O zână blestemă o prințesă la botez, iar primăvara devine un pericol pentru ea. Crescută departe de lumea de afară, prințesa aude într-o zi melodia unui tânăr geamgiu.",
-   "en": "A fairy curses a princess at her christening, making spring dangerous for her. Kept apart from the world outside, the princess one day hears a young glazier playing a tune."
-  },
-  "year": 1910,
-  "origin": "english"
- },
- {
-  "id": "pasarea-galbena",
-  "title": "Pasărea galbenă",
-  "author": "Ana Ripka-Rus",
-  "genre": "basm",
-  "themes": [
-   "animale"
-  ],
-  "characters": [
-   "Pasărea galbenă"
-  ],
-  "summary": {
-   "ro": "Ana Ripka-Rus aduce la microfon un basm popular suedez despre pasărea galbenă.",
-   "en": "Ana Ripka-Rus adapts a Swedish folk tale about a yellow bird for radio."
-  },
-  "origin": "swedish"
- },
- {
   "id": "melcusorul",
   "title": "Melcușorul",
   "author": "Lavinia Braniște",
@@ -28592,46 +27664,6 @@
   "origin": "french"
  },
  {
-  "id": "alice-in-tara-oglinzilor",
-  "title": "Alice în Țara Oglinzilor",
-  "author": "Lewis Carroll",
-  "genre": "roman",
-  "themes": [
-   "fantezie",
-   "calatorie",
-   "aventura"
-  ],
-  "characters": [
-   "Alice"
-  ],
-  "summary": {
-   "ro": "Alice trece dincolo de oglindă într-o lume ca o tablă de șah și pornește spre rangul de regină.",
-   "en": "Alice passes through the looking glass into a world like a chessboard and sets out to become a queen."
-  },
-  "origin": "british",
-  "year": 1871
- },
- {
-  "id": "trista-poveste-a-printesei-din-cel-mai-mic-regat",
-  "title": "Trista poveste a Prințesei din cel mai mic Regat",
-  "author": "Autor necunoscut",
-  "genre": "poveste",
-  "themes": [
-   "alegeri",
-   "bunatate",
-   "echilibru"
-  ],
-  "characters": [
-   "Prințesa",
-   "Bufonul"
-  ],
-  "summary": {
-   "ro": "O prințesă vrea să fie mare, deșteaptă și puternică. Povestea pune la îndoială împărțirea lumii în bine și rău, alb și negru.",
-   "en": "A princess wants to be great, clever and strong. The story questions dividing the world into good and bad, black and white."
-  },
-  "origin": "romanian"
- },
- {
   "id": "tara-bunului-plac",
   "title": "Țara bunului plac",
   "author": "André Maurois",
@@ -28646,42 +27678,6 @@
    "en": "A children's radio adaptation by Adriana Vișoiu of André Maurois's story."
   },
   "origin": "french"
- },
- {
-  "id": "dupa-fapta-si-rasplata",
-  "title": "După faptă și răsplată",
-  "author": "Aleksandr Pușkin",
-  "genre": "poveste",
-  "themes": [
-   "morala",
-   "consecinte"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "Poveste radiofonică moralizatoare pentru copii despre urmările faptelor.",
-   "en": "A moral radio story for children about the consequences of one's actions."
-  },
-  "origin": "russian"
- },
- {
-  "id": "getar-fiul-marii",
-  "title": "Getar, fiul mării",
-  "author": "Autor necunoscut",
-  "genre": "basm",
-  "themes": [
-   "calatorie",
-   "curaj",
-   "identitate",
-   "dragoste"
-  ],
-  "characters": [
-   "Getar"
-  ],
-  "summary": {
-   "ro": "Getar, crescut sub mare, pornește să-și afle locul în lume. Basmul vorbește despre curaj, iubire și sacrificiu.",
-   "en": "Raised beneath the sea, Getar sets out to find his place in the world. The tale is about courage, love and sacrifice."
-  },
-  "origin": "romanian"
  },
  {
   "id": "mihai-voda-si-calaul",
@@ -28975,8 +27971,8 @@
   "author": "Folclor etiopian",
   "genre": "poveste",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Arha, un tânăr slujitor din Addis Abeba, primește rămășagul stăpânului său bogat: să stea o noapte întreagă pe vârful muntelui, în vânt, fără haine și fără foc. Un bătrân înțelept îi promite că va aprinde un foc pe dealul din față, ca să aibă la ce privi toată noaptea.",
+   "en": "Arha, a young servant in Addis Ababa, takes up his rich master's bet: to spend a whole night on the windy mountaintop with no clothes and no fire. A wise old man promises to light a fire on the facing hill, so he has something to watch all night."
   },
   "origin": "african",
   "addedAt": "2026-11-23",
@@ -29040,8 +28036,8 @@
   "author": "Folclor maghiar",
   "genre": "poveste",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O femeie bătrână care își dorea un copil aduce pe lume o purcică roșcată. Purcica merge la școală cu ceilalți copii, iar în pădure băiatul vecinilor descoperă că sub pielea ei se ascunde o fată foarte frumoasă.",
+   "en": "An old woman who longed for a child gives birth to a little red pig. The piglet goes to school with the other children, and in the forest the neighbours' boy discovers that a beautiful girl hides under its skin."
   },
   "origin": "hungarian",
   "addedAt": "2026-11-23",
@@ -29053,8 +28049,8 @@
   "title": "Vânătoarea",
   "author": "Ion Lilă",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Călin pleacă în parc „la vânătoare de tigri” cu pușca lui de jucărie, sub ochii părinților. După ce se ciocnește cu bicicleta de Daria, o ia și pe ea la vânătoare.",
+   "en": "Călin goes “tiger hunting” in the park with his toy gun while his parents watch from a bench. After he crashes his bike into a girl named Daria, he takes her hunting too."
   },
   "addedAt": "2026-11-23",
   "genre": "poveste",
@@ -29067,25 +28063,11 @@
   "title": "Glasurile",
   "author": "Marian Dopcea",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un călător obosit, plecat de mulți ani de acasă, adoarme la umbra unui stejar. Pe rând, piatra, greierele, vântul și frunzele își spun cum l-ar putea alina și ce l-ar putea învăța.",
+   "en": "A weary traveller, away from home for many years, falls asleep in the shade of an oak. One by one, the stone, the cricket, the wind and the leaves say how they could comfort him and what they could teach him."
   },
   "addedAt": "2026-11-23",
   "genre": "poveste",
-  "origin": "romanian",
-  "themes": [],
-  "characters": []
- },
- {
-  "id": "poveste-egipteana",
-  "title": "Poveste egipteană",
-  "author": "Ana Ripka-Rus",
-  "genre": "poveste",
-  "summary": {
-   "ro": "",
-   "en": ""
-  },
-  "addedAt": "2026-11-23",
   "origin": "romanian",
   "themes": [],
   "characters": []
@@ -29214,8 +28196,8 @@
   "author": "Călin Gruia",
   "genre": "poveste",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un moșneag sărac are o babă leneșă și cârcotașă, care visează numai bogății și îl ceartă toată ziua. Într-o zi, moșul găsește în pod o boabă strălucitoare, care prinde rădăcini și crește văzând cu ochii.",
+   "en": "A poor old man has a lazy, nagging wife who dreams only of riches and scolds him all day long. One day he finds a shining bean in the attic, which takes root and grows before their eyes."
   },
   "origin": "romanian",
   "addedAt": "2026-11-23",
@@ -29303,13 +28285,16 @@
   "author": "Călin Gruia",
   "genre": "legenda",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Doi frați orfani, Zarea și Cucu, pleacă în lume după ce mama lor i-a rugat să nu se despartă niciodată. Zarea se ia după un iepure de aur și își pierde fratele, apoi îl caută ani în șir prin toată lumea.",
+   "en": "Two orphaned brothers, Zarea and Cucu, set out into the world after their mother begged them never to part. Zarea chases a golden hare and loses his brother, then searches the whole world for him for years."
   },
   "origin": "romanian",
   "addedAt": "2026-11-23",
   "themes": [],
-  "characters": []
+  "characters": [],
+  "altTitles": [
+   "Cucul"
+  ]
  },
  {
   "id": "cat-un-fir-de-neghina",
@@ -30234,35 +29219,6 @@
   "addedAt": "2026-11-23"
  },
  {
-  "id": "cei-trei-fii-de-imparat-si-porunca-parinteasca",
-  "title": "Cei trei fii de împărat și porunca părintească",
-  "altTitles": [
-   "Poveste. Imitație"
-  ],
-  "author": "Ion Luca Caragiale",
-  "genre": "basm",
-  "origin": "romanian",
-  "year": 1894,
-  "themes": [
-   "familie",
-   "responsabilitate",
-   "aventura",
-   "intelepciune",
-   "magie"
-  ],
-  "characters": [
-   "Împăratul",
-   "Împărăteasa",
-   "Cei trei fii",
-   "Ileana"
-  ],
-  "summary": {
-   "ro": "Împăratul își trimite cei trei fii în lume cu o poruncă părintească. La iarmaroc, fiecare alege un dar minunat, iar darurile lor îi ajută să o salveze pe Ileana.",
-   "en": "An emperor sends his three sons into the world under a paternal command. At a fair, each chooses a wondrous gift, and together the gifts help them rescue Ileana."
-  },
-  "addedAt": "2026-11-23"
- },
- {
   "id": "inima-rece",
   "title": "Inima rece",
   "author": "Wilhelm Hauff",
@@ -30288,42 +29244,5 @@
   "altTitles": [
    "Inima de piatră"
   ]
- },
- {
-  "id": "legenda-de-pe-valea-cernei",
-  "title": "Legenda de pe Valea Cernei",
-  "author": "autor anonim",
-  "genre": "legenda",
-  "origin": "romanian",
-  "themes": [
-   "mister",
-   "natura",
-   "sacrificiu",
-   "traditii"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "În inima Văii Cernei, comunitatea locală este martora unor întâmplări misterioase care dezvăluie legătura dintre oameni și forțele naturii.",
-   "en": "In the heart of the Cerna Valley, the local community witnesses mysterious events that reveal the connection between people and the forces of nature."
-  },
-  "addedAt": "2026-11-23"
- },
- {
-  "id": "piatra-craiului",
-  "title": "Piatra Craiului",
-  "author": "autor anonim",
-  "genre": "legenda",
-  "origin": "romanian",
-  "themes": [
-   "mitologie",
-   "istorie",
-   "natura"
-  ],
-  "characters": [],
-  "summary": {
-   "ro": "O legendă românească despre Piatra Craiului, în care mitologia și istoria se împletesc, iar eroii și ființele mitologice trăiesc în armonie cu muntele.",
-   "en": "A Romanian legend about Piatra Craiului, where mythology and history meet and heroes and mythical creatures live in harmony with the mountain."
-  },
-  "addedAt": "2026-11-23"
  }
 ]
