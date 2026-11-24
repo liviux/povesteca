@@ -104,8 +104,7 @@
   "url": "https://www.discogs.com/release/6683925",
   "items": [
    "motanul-incaltat-disc",
-   "povestea-boabelor-de-diamant-disc",
-   "din-porunca-stiucii-disc"
+   "povestea-boabelor-de-diamant-disc"
   ],
   "description": {
    "ro": "Disc Electrecord EXE 01167, cu 2 povești. Ordinea e cea de pe disc.",
@@ -285,7 +284,6 @@
   "code": "EXE 04106",
   "url": "https://www.discogs.com/release/4287156",
   "items": [
-   "barba-albastra-disc",
    "riquet-cel-motat-disc"
   ],
   "description": {
@@ -301,8 +299,7 @@
   "code": "CS 068",
   "url": "https://www.discogs.com/release/13958766",
   "items": [
-   "la-brosteni-disc",
-   "hultanul-disc"
+   "la-brosteni-disc"
   ],
   "description": {
    "ro": "Disc Electrecord CS 068, cu 2 povești din arhiva radiofonică.",
@@ -960,7 +957,6 @@
   "code": "CS 042",
   "url": "https://www.discogs.com/release/6891418",
   "items": [
-   "marasesti-disc",
    "la-scaldat-disc"
   ],
   "description": {
@@ -1024,7 +1020,6 @@
   "code": "CS 0122",
   "url": "https://www.discogs.com/release/8627286",
   "items": [
-   "amintiri-din-copilarie-cap-1-disc",
    "amintiri-din-copilarie-disc",
    "amintiri-din-copilarie-disc-2"
   ],
@@ -1231,115 +1226,6 @@
   }
  },
  {
-  "id": "seria-romani-de-poveste",
-  "title": "Români de poveste (A Fost Odată)",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/category/romani-de-poveste/",
-  "items": [
-   "constantin-brancusi-afostodata",
-   "nichita-stanescu-afostodata",
-   "mihai-viteazul-afostodata",
-   "gheorghe-hagi-afostodata",
-   "tudor-vladimirescu-afostodata",
-   "petrache-poenaru-afostodata",
-   "traian-vuia-afostodata",
-   "ana-aslan-afostodata",
-   "stefan-luchian-afostodata",
-   "bogdan-petriceicu-hasdeu-afostodata",
-   "vlad-tepes-afostodata",
-   "ecaterina-teodoroiu-afostodata",
-   "grigore-antipa-afostodata",
-   "emil-racovita-afostodata",
-   "lucian-blaga-afostodata",
-   "i-l-caragiale-afostodata",
-   "nicolae-iorga-afostodata",
-   "aurel-vlaicu-afostodata",
-   "nicolae-grigorescu-afostodata",
-   "sofia-nadejde-afostodata",
-   "ana-maria-branza-afostodata",
-   "smaranda-braescu-afostodata",
-   "hariclea-darclee-afostodata",
-   "alexandru-ioan-cuza-afostodata",
-   "ion-creanga-afostodata",
-   "henri-coanda-afostodata",
-   "stefan-cel-mare-afostodata",
-   "nadia-comaneci-afostodata",
-   "mihai-eminescu-afostodata",
-   "george-enescu-afostodata"
-  ],
-  "description": {
-   "ro": "Seria completă de 30 de povești biografice despre mari personalități românești, spusă pe înțelesul copiilor.",
-   "en": "Complete 30-episode biographical audio series introducing children to notable Romanian historical and cultural figures."
-  }
- },
- {
-  "id": "seria-patrimoniu-unesco",
-  "title": "Patrimoniu și tradiții românești",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/",
-  "items": [
-   "transhumanta-afostodata",
-   "camasa-cu-altita-afostodata",
-   "caii-lipitani-afostodata",
-   "ceramica-de-horezu-afostodata",
-   "jocul-fecioresc-afostodata",
-   "ceata-barbateasca-afostodata",
-   "doina-afostodata",
-   "scoarta-afostodata",
-   "martisorul-afostodata",
-   "ritualul-calusului-afostodata"
-  ],
-  "description": {
-   "ro": "Povești audio dedicate tradițiilor și valorilor din patrimoniul cultural al României: doina, ia cu altiță, ceramica de Horezu, transhumanța și mărțișorul.",
-   "en": "Audio stories for children about Romanian cultural heritage and traditions: doina, traditional blouse, Horezu pottery, and Mărțișor."
-  }
- },
- {
-  "id": "seria-in-jurul-lumii",
-  "title": "În jurul lumii – povești despre țări",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/",
-  "items": [
-   "austria-in-jurul-lumii-afostodata",
-   "belgia-in-jurul-lumii-afostodata",
-   "cuba-in-jurul-lumii-afostodata",
-   "portugalia-in-jurul-lumii-afostodata",
-   "ungaria-in-jurul-lumii-afostodata",
-   "olanda-in-jurul-lumii-afostodata",
-   "marea-britanie-in-jurul-lumii-afostodata",
-   "suedia-in-jurul-lumii-afostodata",
-   "spania-in-jurul-lumii-afostodata",
-   "croatia-in-jurul-lumii-afostodata",
-   "polonia-in-jurul-lumii-afostodata",
-   "kenya-in-jurul-lumii-afostodata",
-   "turcia-in-jurul-lumii-afostodata",
-   "statele-unite-ale-americii-in-jurul-lumii-afostodata",
-   "japonia-in-jurul-lumii-afostodata",
-   "argentina-in-jurul-lumii-afostodata",
-   "elvetia-in-jurul-lumii-afostodata",
-   "israel-in-jurul-lumii-afostodata",
-   "franta-in-jurul-lumii-afostodata",
-   "grecia-in-jurul-lumii-afostodata",
-   "romania-in-jurul-lumii-afostodata",
-   "germania-in-jurul-lumii-afostodata",
-   "mexic-in-jurul-lumii-afostodata",
-   "italia-in-jurul-lumii-afostodata",
-   "rusia-in-jurul-lumii-afostodata",
-   "china-in-jurul-lumii-afostodata",
-   "india-in-jurul-lumii-afostodata",
-   "brazilia-in-jurul-lumii-afostodata",
-   "australia-in-jurul-lumii-afostodata",
-   "egipt-in-jurul-lumii-afostodata"
-  ],
-  "description": {
-   "ro": "Călătorie audio prin culturile și geografia a 18 țări ale lumii, de la România și Franța la Japonia, Mexic și Kenya.",
-   "en": "Audio journeys introducing children to 18 countries around the world, from Romania and France to Japan, Mexico and Kenya."
-  }
- },
- {
   "id": "seria-jules-verne-radiofonic",
   "title": "Jules Verne – Teatru Radiofonic",
   "type": "series",
@@ -1350,7 +1236,7 @@
    "keraban-incapatanatul-disc",
    "arhipelagul-in-flacari-jules-verne-radio",
    "cinci-saptamani-in-balon-disc",
-   "copiii-capitanului-grant-1985",
+   "copiii-capitanului-grant-1965",
    "capitan-la-15-ani-disc",
    "sfinxul-ghetarilor-disc",
    "20000-de-leghe-sub-mari-disc",
@@ -1361,7 +1247,6 @@
    "o-iarna-printre-ghetari-1966",
    "domnul-re-diez-si-domnisoara-mi-bemol-2008",
    "a-fost-odata-o-familie-de-soricei-2008",
-   "ocolul-pamantului-in-80-de-zile-1959",
    "naufragiatii-de-pe-jonathan-2012-radio-iasi-radio-iasi",
    "calatorie-prin-imposibil-arhiva",
    "ocolul-pamantului-in-80-de-zile-afostodata"
@@ -1422,7 +1307,9 @@
    "misiunile-itsy-bitsy-cutia-cu-pui-de-soare-itsy",
    "misiunile-itsy-bitsy-in-mintea-lui-zimitot-itsy",
    "misiunile-itsy-bitsy-lama-fata-lui-lamar-itsy",
-   "misiunile-itsy-bitsy-corpul-meteoric-itsy"
+   "misiunile-itsy-bitsy-corpul-meteoric-itsy",
+   "misiunile-itsy-bitsy-exterminatorul-de-planete-itsy",
+   "misiunile-itsy-bitsy-sombrozaurul-itsy"
   ],
   "description": {
    "ro": "Serial radiofonic modern de aventuri pe roluri, cu efecte sonore și umor, realizat de Itsy Bitsy FM.",
@@ -1481,41 +1368,6 @@
   }
  },
  {
-  "id": "seria-aventurile-lui-gritty",
-  "title": "Aventurile lui Gritty (A Fost Odată)",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/category/gritty/",
-  "items": [
-   "gritty-caracterul-afostodata",
-   "gritty-tenacitatea-afostodata",
-   "gritty-autocontrolul-afostodata",
-   "gritty-inteligenta-sociala-afostodata",
-   "gritty-optimismul-afostodata"
-  ],
-  "description": {
-   "ro": "Seria în 5 episoade cu micul extraterestru Gritty, despre caracter, tenacitate, autocontrol, prietenie și optimism.",
-   "en": "A five-episode children’s audio series following little alien Gritty as he learns about character, perseverance, self-control, empathy and optimism."
-  }
- },
- {
-  "id": "seria-expeditia-belgica",
-  "title": "Expediția Belgica (A Fost Odată)",
-  "type": "series",
-  "sourceId": "afostodata",
-  "url": "https://afostodata.ro/category/belgica/",
-  "items": [
-   "belgica-corabia-afostodata",
-   "belgica-echipajul-afostodata",
-   "belgica-calatoria-afostodata",
-   "belgica-descoperirile-afostodata"
-  ],
-  "description": {
-   "ro": "Patru episoade despre expediția antarctică a corăbiei Belgica (1897–1899) și rolul naturalistului român Emil Racoviță.",
-   "en": "Four audio episodes retelling the 1897–1899 Belgica Antarctic expedition and Romanian naturalist Emil Racoviță’s discoveries."
-  }
- },
- {
   "id": "seria-regele-poftila-si-gradina",
   "title": "Povești din Bombonezia și grădina curcubeu (A Fost Odată)",
   "type": "series",
@@ -1525,7 +1377,6 @@
    "regele-poftila-si-podul-de-sfoara-afostodata",
    "printesa-verdeata-si-gradina-curcubeu-afostodata",
    "curcubeul-pofticios-afostodata",
-   "calatoria-lui-picurel-cel-voinicel-afostodata",
    "fermierul-harnic-si-samanta-cu-puteri-magice-afostodata"
   ],
   "description": {
@@ -1780,9 +1631,7 @@
   "items": [
    "secretul-micilor-gradinari-partea-1-tic",
    "secretul-micilor-gradinari-partea-2-tic",
-   "barnabe-vindeca-planeta-tic",
-   "ema-si-eric-au-grija-de-natura-tic",
-   "planeta-e-casa-noastra-ema-si-eric-recicleaza-tic"
+   "barnabe-vindeca-planeta-tic"
   ],
   "description": {
    "ro": "Povești despre grădinărit, reciclare și grija față de natură din seria „Colecția pentru micii ecologiști” a Teatrului Ion Creangă.",
@@ -1907,20 +1756,6 @@
   "description": {
    "ro": "Disc Electrecord EXE 02363 (1984), cu 2 povești. Ordinea e cea de pe disc.",
    "en": "Electrecord record EXE 02363 (1984), with 2 stories, in record order."
-  }
- },
- {
-  "id": "disc-exe-03819",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 03819",
-  "title": "Apolodor din Damasc / Marele duel Volta–Galvani",
-  "items": [
-   "apolodor-din-damasc-vinil",
-   "marele-duel-volta-galvani-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 03819 (1990) din seria „Evocări: Mari personalități ale culturii universale”, cu 2 piese de teatru radiofonic. Ordinea e cea de pe disc.",
-   "en": "Electrecord record EXE 03819 (1990) from the series “Evocări: Mari personalități ale culturii universale”, with 2 radio plays, in record order."
   }
  },
  {
@@ -2070,7 +1905,6 @@
   "items": [
    "pippin-zboara-la-tara-acs",
    "craciunul-cu-pippin-acs",
-   "pippin-cauta-frumosul-acs",
    "pippin-si-fiarele-vechi-acs",
    "petrecerea-din-balcon-acs",
    "ce-bine-e-acasa-pippin-acs",
@@ -2142,7 +1976,6 @@
    "danila-prepeleac-rm",
    "floarea-iubirii-rm",
    "apolodor-rm",
-   "painica-de-la-iepurele-cel-schiop-rm",
    "mica-vrajitoare-rm",
    "degetica-craita-florilor-rm",
    "cartea-junglei-mowgli-rm"
@@ -2159,7 +1992,6 @@
   "items": [
    "fata-de-imparat-matcovschi-rm",
    "cuibul-ciocarliei-rm",
-   "cetatea-veche-dabija-rm",
    "salba-veveritei-rm",
    "creioane-colorate-rm",
    "ploaie-ciobaneasca-rm",

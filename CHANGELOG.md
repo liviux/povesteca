@@ -2,6 +2,18 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.24.2] - 2026-11-24
+
+### Changed
+- Vârstele, tipul producției, efectele, muzica, temele, personajele și creditele au fost verificate și actualizate la sute de povești și înregistrări, ascultând înregistrările și comparându-le cu sursele.
+- Șase povești care erau puse greșit sub alt titlu au acum pagina lor, iar poveștile din înregistrările cu mai multe povești pornesc și se opresc la momentul potrivit.
+
+### Fixed
+- Distribuții corectate: „Vulpea albă” are actorii ei, nu pe cei de la „Ochii mamei”, iar la „Fata din dafin” povestitor e Dinu Ianculescu.
+
+### Removed
+- Au fost scoase 129 de înregistrări care nu sunt povești pentru copii de până la 10 ani: documentarele „Români de poveste” și „Patrimoniu”, biografii, lecții educative, producții pentru copii mai mari și dubluri.
+
 ## [1.24.1] - 2026-11-24
 
 ### Changed

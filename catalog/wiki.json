@@ -205,6 +205,10 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Alexandru_Repan"
   },
+  "Alina Chivulescu": {
+   "wikidata": "Q20430958",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Alina_Chivulescu"
+  },
   "Alphonse Daudet": {
    "wikidata": "Q228546",
    "photo": {
@@ -230,9 +234,9 @@
    "wikidata": "Q107466222",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Ciontea"
   },
-  "Ana Lupan": {
-   "wikidata": "Q12720577",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Lupan"
+  "Ana Maria Moldovan": {
+   "wikidata": "Q12720582",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ana_Maria_Moldovan"
   },
   "Ana Vlădescu": {
    "wikidata": "Q134590477",
@@ -316,17 +320,6 @@
   "Andrea Reitmeyer": {
    "wikidata": "Q64737843",
    "goodreads": "https://www.goodreads.com/author/show/5752467"
-  },
-  "Andreea Bibiri": {
-   "wikidata": "Q12720640",
-   "photo": {
-    "src": "https://live.staticflickr.com/3248/3088311643_bfc02c4fcf_n.jpg",
-    "page": "https://www.flickr.com/photos/10752848@N07/3088311643",
-    "license": "CC BY-NC 2.0",
-    "by": "energeticspell",
-    "source": "Flickr"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Andreea_Bibiri"
   },
   "Andrei Codarcea": {
    "wikidata": "Q12720665",
@@ -447,6 +440,10 @@
    "wikidata": "Q12721250",
    "wikipedia": "https://ro.wikipedia.org/wiki/Aurel_Rogalschi"
   },
+  "Aurel Rogalski": {
+   "wikidata": "Q12721250",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Aurel_Rogalschi"
+  },
   "Aurelia Sorescu": {
    "wikidata": "Q125763253",
    "photo": {
@@ -504,17 +501,6 @@
    "wikidata": "Q131782371",
    "wikipedia": "https://ro.wikipedia.org/wiki/Benedict_Dabija"
   },
-  "Bertolt Brecht": {
-   "wikidata": "Q38757",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Bundesarchiv_Bild_183-W0409-300%2C_Bertolt_Brecht.jpg/330px-Bundesarchiv_Bild_183-W0409-300%2C_Bertolt_Brecht.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-W0409-300,_Bertolt_Brecht.jpg",
-    "license": "CC BY-SA 3.0 de",
-    "by": "Kolbe, Jörg"
-   },
-   "wikipedia": "https://en.wikipedia.org/wiki/Bertolt_Brecht",
-   "goodreads": "https://www.goodreads.com/author/show/26853"
-  },
   "Bianca Brad": {
    "wikidata": "Q56460265",
    "photo": {
@@ -525,6 +511,10 @@
     "source": "Culturalia"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Bianca_Brad"
+  },
+  "Bogdan Dumitrache": {
+   "wikidata": "Q15915101",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Bogdan_Dumitrache"
   },
   "Bogdan Farcaș": {
    "wikidata": "Q116205487",
@@ -636,16 +626,6 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Cezar_Petrescu",
    "goodreads": "https://www.goodreads.com/author/show/404899"
   },
-  "Cezara Dafinescu": {
-   "wikidata": "Q16593303",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Cezara_Dafinescu_in_Flacara_magazine%2C_February_1973.jpg/330px-Cezara_Dafinescu_in_Flacara_magazine%2C_February_1973.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Cezara_Dafinescu_in_Flacara_magazine,_February_1973.jpg",
-    "license": "Public domain",
-    "by": "Flacăra , anul XXI, nr. 917, 1 februarie 1973, copertă"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Cezara_Dafinescu"
-  },
   "Charles de Coster": {
    "wikidata": "Q315176",
    "photo": {
@@ -699,10 +679,6 @@
     "by": "Gikü"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Chiril_%C8%98tirbu"
-  },
-  "Ciupi Rădulescu": {
-   "wikidata": "Q12724137",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Ciupi_R%C4%83dulescu"
   },
   "Claudia Partole": {
    "wikidata": "Q51099459",
@@ -834,6 +810,10 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Constantin_Constantinov"
   },
+  "Constantin Cotimanis": {
+   "wikidata": "Q18543895",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Constantin_Cotimanis"
+  },
   "Constantin Dinischiotu": {
    "wikidata": "Q12725496",
    "wikipedia": "https://ro.wikipedia.org/wiki/Constantin_Dinischiotu"
@@ -910,16 +890,6 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Corado_Negreanu"
   },
-  "Cornel Ciupercescu": {
-   "wikidata": "Q18539048",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Cornel_Ciupercescu.jpg/330px-Cornel_Ciupercescu.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Cornel_Ciupercescu.jpg",
-    "license": "Public domain",
-    "by": "CINEMA, Nr. 3 anul XIX (219), martie 1981"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Cornel_Ciupercescu"
-  },
   "Cornel Gârbea": {
    "wikidata": "Q12725747",
    "photo": {
@@ -970,6 +940,17 @@
   "Cosmin Șofron": {
    "wikidata": "Q18548404",
    "wikipedia": "https://ro.wikipedia.org/wiki/Cosmin_%C8%98ofron"
+  },
+  "Costache Anton": {
+   "wikidata": "Q107570617",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Costache_Anton.jpg/330px-Costache_Anton.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Costache_Anton.jpg",
+    "license": "Public domain",
+    "by": "Flacăra, 1 ianuarie 1956"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Costache_Anton",
+   "goodreads": "https://www.goodreads.com/author/show/1541826"
   },
   "Costache Antoniu": {
    "wikidata": "Q12725798",
@@ -1048,6 +1029,10 @@
   "Damian Crâșmaru": {
    "wikidata": "Q63791108",
    "wikipedia": "https://ro.wikipedia.org/wiki/Damian_Cr%C3%A2%C8%99maru"
+  },
+  "Dan Bordeianu": {
+   "wikidata": "Q5213175",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Dan_Bordeianu_(actor)"
   },
   "Dan Condurache": {
    "wikidata": "Q12726301",
@@ -1130,17 +1115,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Defoe",
    "goodreads": "https://www.goodreads.com/author/show/2007"
   },
-  "Daniela Crăsnaru": {
-   "wikidata": "Q13529374",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Daniela_Cr%C4%83snaru_at_G%C3%B6teborg_Book_Fair_2013_03.jpg/330px-Daniela_Cr%C4%83snaru_at_G%C3%B6teborg_Book_Fair_2013_03.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Daniela_Cr%C4%83snaru_at_G%C3%B6teborg_Book_Fair_2013_03.jpg",
-    "license": "CC BY-SA 3.0",
-    "by": "Arild Vågen"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Daniela-Carmen_Cr%C4%83snaru",
-   "goodreads": "https://www.goodreads.com/author/show/1006114"
-  },
   "Daniela Nane": {
    "wikidata": "Q1163497",
    "wikipedia": "https://ro.wikipedia.org/wiki/Daniela_Nane"
@@ -1201,6 +1175,16 @@
    "wikidata": "Q18540839",
    "wikipedia": "https://ro.wikipedia.org/wiki/Dinu_Ianculescu"
   },
+  "Dinu Manolache": {
+   "wikidata": "Q18541662",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dinu_Manolache.jpg/330px-Dinu_Manolache.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dinu_Manolache.jpg",
+    "license": "Public domain",
+    "by": "Ileana Muncaciu"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Dinu_Manolache"
+  },
   "Dmitri Naghișkin": {
    "goodreads": "https://www.goodreads.com/author/show/2106855"
   },
@@ -1254,6 +1238,16 @@
   "Doru Ana": {
    "wikidata": "Q28657901",
    "wikipedia": "https://ro.wikipedia.org/wiki/Doru_Ana"
+  },
+  "Dragoș Bucur": {
+   "wikidata": "Q3622994",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Dragos_Bucur.jpg/330px-Dragos_Bucur.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dragos_Bucur.jpg",
+    "license": "CC BY 3.0",
+    "by": "AGERPRES, cropped by Ionutzmovie"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Drago%C8%99_Bucur"
   },
   "Dumitru Almaș": {
    "wikidata": "Q12727125",
@@ -1426,6 +1420,10 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Elly_Roman"
   },
+  "Elvira Deatcu": {
+   "wikidata": "Q12727548",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Elvira_Deatcu"
+  },
   "Emanoil Petruț": {
    "wikidata": "Q1334575",
    "photo": {
@@ -1569,16 +1567,6 @@
     "by": "Femeia magazine from August 1, 1961 (No. 8), available at Digiteca Arcanum . This is a cropped version of the image on p"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Eugenia_Popovici"
-  },
-  "Eugenia Zaharia": {
-   "wikidata": "Q125536261",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Eugenia_Zaharia.04.jpg/330px-Eugenia_Zaharia.04.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Eugenia_Zaharia.04.jpg",
-    "license": "Public domain",
-    "by": "Cinema magazine from May 17, 1942 (No. 581, year XIX), available at Digiteca Arcanum . This is a cropped version of the "
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Eugenia_Zaharia"
   },
   "Eugenia Zaimu": {
    "goodreads": "https://www.goodreads.com/author/show/20751160"
@@ -1745,17 +1733,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_F%C3%A9nelon",
    "goodreads": "https://www.goodreads.com/author/show/638856"
   },
-  "François Rabelais": {
-   "wikidata": "Q131018",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Francois_Rabelais_-_Portrait.jpg/330px-Francois_Rabelais_-_Portrait.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Francois_Rabelais_-_Portrait.jpg",
-    "license": "Public domain",
-    "by": "anonymous / Unidentified painter"
-   },
-   "wikipedia": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais",
-   "goodreads": "https://www.goodreads.com/author/show/11029"
-  },
   "Franz Caspar": {
    "wikidata": "Q20925106",
    "goodreads": "https://www.goodreads.com/author/show/621750"
@@ -1810,16 +1787,6 @@
     "by": "Arhiva Națională de Filme",
     "source": "Culturalia"
    }
-  },
-  "Geo Barton": {
-   "wikidata": "Q13534581",
-   "photo": {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Geo_Barton.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Geo_Barton.jpg",
-    "license": "Public domain",
-    "by": "Ileana Muncaciu"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Geo_Barton"
   },
   "George Aurelian": {
    "wikidata": "Q12728941",
@@ -2008,6 +1975,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Gheorghe_Ionescu_Gion_(actor)"
   },
+  "Gheorghe Mustea": {
+   "wikidata": "Q4308573",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Stamp_of_Moldova_066.jpg/330px-Stamp_of_Moldova_066.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stamp_of_Moldova_066.jpg",
+    "license": "Public domain",
+    "by": "Post of Moldova"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Gheorghe_Mustea"
+  },
   "Gheorghe Soare": {
    "wikidata": "Q28726246",
    "wikipedia": "https://ro.wikipedia.org/wiki/Gheorghe_Soare"
@@ -2093,6 +2070,16 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Grigore_Gon%C8%9Ba",
    "goodreads": "https://www.goodreads.com/author/show/17085345"
   },
+  "Grigore Grigoriu": {
+   "wikidata": "Q5609039",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Grigore_Grigoriu_-_2_%281976%29._%2810753931594%29.jpg/330px-Grigore_Grigoriu_-_2_%281976%29._%2810753931594%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grigore_Grigoriu_-_2_(1976)._(10753931594).jpg",
+    "license": "CC BY-SA 2.0",
+    "by": "Ion Chibzii from Chisinau. , Moldova."
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Grigore_Grigoriu"
+  },
   "Grigore Vasiliu-Birlic": {
    "wikidata": "Q5609053",
    "photo": {
@@ -2174,6 +2161,16 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Henri_Queff%C3%A9lec",
    "goodreads": "https://www.goodreads.com/author/show/5507775"
   },
+  "Henry Mălineanu": {
+   "wikidata": "Q1607080",
+   "photo": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Henry_Malineanu.02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Henry_Malineanu.02.jpg",
+    "license": "Public domain",
+    "by": "Realitatea Ilustrată magazine from April 25, 1939 (No. 640, year XIII), available at Digiteca Arcanum . This is a croppe"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Henry_M%C4%83lineanu"
+  },
   "Henry Wadsworth Longfellow": {
    "wikidata": "Q152513",
    "photo": {
@@ -2236,6 +2233,10 @@
     "by": null
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Ileana_Stana-Ionescu"
+  },
+  "Ilinca Manolache": {
+   "wikidata": "Q107480211",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ilinca_Manolache"
   },
   "Ilinca Tomoroveanu": {
    "wikidata": "Q211838",
@@ -2316,6 +2317,16 @@
   "Ion Anghel": {
    "wikidata": "Q12730787",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Anghel"
+  },
+  "Ion Arachelu": {
+   "wikidata": "Q16975957",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Flickr_-_Ion_Chibzii_-_The_Moldavian_actor_Ion_Arachelu%2C_during_shootings_%2860th_years%29.jpg/330px-Flickr_-_Ion_Chibzii_-_The_Moldavian_actor_Ion_Arachelu%2C_during_shootings_%2860th_years%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Ion_Chibzii_-_The_Moldavian_actor_Ion_Arachelu,_during_shootings_(60th_years).jpg",
+    "license": "CC BY-SA 2.0",
+    "by": "Ion Chibzii from Chisinau. , Moldova."
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Arachelu"
   },
   "Ion Arcudeanu": {
    "photo": {
@@ -2403,6 +2414,10 @@
    "wikidata": "Q112461387",
    "goodreads": "https://www.goodreads.com/author/show/5786977.Ion_Lil_"
   },
+  "Ion Luca": {
+   "wikidata": "Q27321659",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Luca"
+  },
   "Ion Luca Caragiale": {
    "wikidata": "Q315132",
    "photo": {
@@ -2474,6 +2489,16 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Pop-Reteganul",
    "goodreads": "https://www.goodreads.com/author/show/6859024"
   },
+  "Ion Sapdaru": {
+   "wikidata": "Q18547685",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ion_Sapdaru.jpg/330px-Ion_Sapdaru.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ion_Sapdaru.jpg",
+    "license": "CC BY-SA 3.0",
+    "by": "Dan.chent"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Sapdaru"
+  },
   "Ion Siminie": {
    "wikidata": "Q12730949",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Siminie"
@@ -2491,9 +2516,6 @@
   "Ion Vova": {
    "wikidata": "Q26270161",
    "wikipedia": "https://ro.wikipedia.org/wiki/Ion_Vova"
-  },
-  "Ionel Hristea": {
-   "goodreads": "https://www.goodreads.com/author/show/8426331"
   },
   "Ionel Teodoreanu": {
    "wikidata": "Q647963",
@@ -2676,7 +2698,7 @@
     "by": "Unidentified painter"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Jeanne-Marie_Leprince_de_Beaumont",
-   "goodreads": "https://www.goodreads.com/author/show/38424980"
+   "goodreads": "https://www.goodreads.com/author/show/21834179"
   },
   "Jerome K. Jerome": {
    "wikidata": "Q218698",
@@ -2856,17 +2878,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/L._Frank_Baum",
    "goodreads": "https://www.goodreads.com/author/show/3242"
   },
-  "Larisa Turea": {
-   "wikidata": "Q18548747",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Larisa_Turea.jpg/330px-Larisa_Turea.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Larisa_Turea.jpg",
-    "license": "CC BY-SA 4.0",
-    "by": "Blateratio"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Larisa_Turea",
-   "goodreads": "https://www.goodreads.com/author/show/13734333"
-  },
   "Laura Cosoi": {
    "wikidata": "Q4943463",
    "photo": {
@@ -2959,10 +2970,6 @@
   "Liliana Mocanu": {
    "wikidata": "Q141538069",
    "wikipedia": "https://ro.wikipedia.org/wiki/Liliana_Mocanu"
-  },
-  "Liliana Tomescu": {
-   "wikidata": "Q12732250",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Liliana_Tomescu"
   },
   "Liviu Lucaci": {
    "wikidata": "Q20430372",
@@ -3190,16 +3197,6 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Mariella_Petrescu"
   },
-  "Marieta Deculescu": {
-   "wikidata": "Q95714837",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Marietta_Deculescu.02.jpg/330px-Marietta_Deculescu.02.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Marietta_Deculescu.02.jpg",
-    "license": "Public domain",
-    "by": "Realitatea Ilustrată magazine from October 20 – November 5, 1945 (No. 937–938), available at Digiteca Arcanum . This is "
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Marietta_Deculescu"
-  },
   "Marieta Rareș": {
    "wikidata": "Q95738602",
    "photo": {
@@ -3360,10 +3357,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
    "goodreads": "https://www.goodreads.com/author/show/4037220"
   },
-  "Mihaela Michailov": {
-   "wikidata": "Q139898892",
-   "goodreads": "https://www.goodreads.com/author/show/14089520"
-  },
   "Mihaela Sârbu": {
    "wikidata": "Q19707615",
    "wikipedia": "https://ro.wikipedia.org/wiki/Mihaela_S%C3%AErbu"
@@ -3507,17 +3500,6 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Mihai_Stan_(actor)"
   },
-  "Mihai Tican-Rumano": {
-   "wikidata": "Q18548559",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/1928-12-14%2C_La_Libertad%2C_Mihai_Tican_%28cropped%29.jpg/330px-1928-12-14%2C_La_Libertad%2C_Mihai_Tican_%28cropped%29.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:1928-12-14,_La_Libertad,_Mihai_Tican_(cropped).jpg",
-    "license": "Public domain",
-    "by": "This file comes from Biblioteca Virtual de Prensa Histórica , Ministry of Culture of Spain (link to the original file)"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Mihai_Tican_Rumano",
-   "goodreads": "https://www.goodreads.com/author/show/7031976"
-  },
   "Mihai Verbițchi": {
    "wikidata": "Q125457079",
    "wikipedia": "https://en.wikipedia.org/wiki/Mihai_Verbi%C8%9Bchi"
@@ -3531,6 +3513,20 @@
     "by": "Radio-Adevěrul magazine from October 16, 1938 (No. 526, year XI), available at Digiteca Arcanum . This is a cropped vers"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Mihai_Zirra"
+  },
+  "Mihail Curagău": {
+   "wikidata": "Q12735456",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Mihai_Curag%C4%83u"
+  },
+  "Mihail Drumeș": {
+   "wikidata": "Q16658367",
+   "photo": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mihail_Drume%C8%99.01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mihail_Drume%C8%99.01.jpg",
+    "license": "Public domain",
+    "by": "Universul newspaper from May 2, 1941 (No. 115, year LVIII), available at Digiteca Arcanum . This is a cropped version of"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Mihail_Drume%C8%99"
   },
   "Mihail Garaz": {
    "goodreads": "https://www.goodreads.com/author/show/28621710"
@@ -3745,17 +3741,6 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Nicolae_Brancomir"
   },
-  "Nicolae Dabija": {
-   "wikidata": "Q4153526",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Nicolae_Dabija._Sala_de_lectur%C4%83_a_BC_%2810710012563%29.jpg/330px-Nicolae_Dabija._Sala_de_lectur%C4%83_a_BC_%2810710012563%29.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Nicolae_Dabija._Sala_de_lectur%C4%83_a_BC_(10710012563).jpg",
-    "license": "CC BY 2.0",
-    "by": "Biblioteca Centrală a BM \"B.P.Hasdeu\" from Chisinau, Moldova"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Nicolae_Dabija",
-   "goodreads": "https://www.goodreads.com/author/show/4016353"
-  },
   "Nicolae Darie": {
    "wikidata": "Q12736637",
    "photo": {
@@ -3831,6 +3816,10 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Nicolae_Stroe"
   },
+  "Nicolae Urs": {
+   "wikidata": "Q24525337",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Niculae_Urs"
+  },
   "Nicu Dimitriu": {
    "wikidata": "Q137782422",
    "wikipedia": "https://ro.wikipedia.org/wiki/Nicu_Dimitriu"
@@ -3857,8 +3846,6 @@
    "goodreads": "https://www.goodreads.com/author/show/639993"
   },
   "Nina Stănculescu": {
-   "wikidata": "Q75841523",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Nina_St%C4%83nculescu",
    "goodreads": "https://www.goodreads.com/author/show/4314576"
   },
   "Nineta Gusti": {
@@ -4221,6 +4208,16 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Rodica_Mandache"
   },
+  "Rodica Negrea": {
+   "wikidata": "Q12739487",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Rodica_Negrea.01.jpg/330px-Rodica_Negrea.01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodica_Negrea.01.jpg",
+    "license": "Public domain",
+    "by": "Cinema magazine from June 1, 1984 (No. 6, year XXII), available at Digiteca Arcanum . This is a cropped version of the i"
+   },
+   "wikipedia": "https://ro.wikipedia.org/wiki/Rodica_Negrea"
+  },
   "Rodica Popescu Bitănescu": {
    "wikidata": "Q7356774",
    "photo": {
@@ -4362,6 +4359,10 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Sergei_Prokofiev",
    "goodreads": "https://www.goodreads.com/author/show/19315"
   },
+  "Sergiu Finiti": {
+   "wikidata": "Q12740680",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Sergiu_Finiti"
+  },
   "Sidonia Drăgușanu": {
    "wikidata": "Q12740803",
    "photo": {
@@ -4382,16 +4383,6 @@
     "by": "The National Museum of Romanian History"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Silvia_Dumitrescu-Timic%C4%83"
-  },
-  "Silvia Fulda": {
-   "wikidata": "Q12740840",
-   "photo": {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sylvia_Fulda.01.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Sylvia_Fulda.01.jpg",
-    "license": "Public domain",
-    "by": "Rampa newspaper from August 5, 1937 (No. 5868), available at Digiteca Arcanum . This is a cropped version of the image o"
-   },
-   "wikipedia": "https://ro.wikipedia.org/wiki/Silvia_Fulda"
   },
   "Silvia Kerim": {
    "wikidata": "Q66385736",
@@ -4646,6 +4637,10 @@
     "by": "Universul Literar journal from June 29, 1940 (No. 27, year LVIII), available at Digiteca Arcanum . This is a cropped ver"
    }
   },
+  "Teodor Danetti": {
+   "wikidata": "Q18539580",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Theodor_Danetti"
+  },
   "Theodor Danetti": {
    "wikidata": "Q18539580",
    "photo": {
@@ -4780,6 +4775,10 @@
     "by": "Ileana Muncaciu"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Valentin_Uritescu"
+  },
+  "Valentina Izbeșciuc": {
+   "wikidata": "Q43231496",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Valentina_Izbe%C8%99ciuc"
   },
   "Valeria Gagealov": {
    "wikidata": "Q27195991",
@@ -4943,6 +4942,10 @@
   "Viorel Burlacu": {
    "wikidata": "Q79385227",
    "wikipedia": "https://ro.wikipedia.org/wiki/Viorel_Burlacu_(scriitor)"
+  },
+  "Viorica Huber": {
+   "wikidata": "Q66370354",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Georgina_Viorica_Rogoz"
   },
   "Viorica Nicoară": {
    "goodreads": "https://www.goodreads.com/author/show/14234440"
@@ -5179,11 +5182,6 @@
   "banutul-de-argint": {
    "goodreads": "https://www.goodreads.com/book/show/16028526"
   },
-  "barba-albastra": {
-   "wikidata": "Q161138",
-   "wikipedia": "https://en.wikipedia.org/wiki/Bluebeard",
-   "goodreads": "https://www.goodreads.com/book/show/1125423"
-  },
   "barnabe-vindeca-planeta": {
    "goodreads": "https://www.goodreads.com/book/show/60830154"
   },
@@ -5259,11 +5257,6 @@
   },
   "cantaretul": {
    "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-  },
-  "cantecul-nibelungilor": {
-   "wikidata": "Q131554",
-   "wikipedia": "https://en.wikipedia.org/wiki/Nibelungenlied",
-   "goodreads": "https://www.goodreads.com/work/editions/1145339"
   },
   "capitan-la-15-ani": {
    "wikidata": "Q472291",
@@ -5431,11 +5424,6 @@
    "wikidata": "Q185118",
    "wikipedia": "https://en.wikipedia.org/wiki/Treasure_Island",
    "goodreads": "https://www.goodreads.com/work/editions/3077988"
-  },
-  "contele-de-monte-cristo": {
-   "wikidata": "Q191838",
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo",
-   "goodreads": "https://www.goodreads.com/work/editions/391568"
   },
   "copiii-capitanului-grant": {
    "wikidata": "Q1213902",
@@ -5708,11 +5696,6 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Fram%2C_ursul_polar",
    "goodreads": "https://www.goodreads.com/book/show/6121266"
   },
-  "fratii-jderi": {
-   "wikidata": "Q18540256",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Fra%C8%9Bii_Jderi_(roman)",
-   "goodreads": "https://www.goodreads.com/book/show/6405236"
-  },
   "fratior-si-surioara": {
    "wikidata": "Q513544",
    "wikipedia": "https://en.wikipedia.org/wiki/Brother_and_Sister",
@@ -5740,11 +5723,6 @@
   },
   "gandacelul-garleanu": {
    "goodreads": "https://www.goodreads.com/book/show/32807873-g-ndacelul"
-  },
-  "gargantua-si-pantagruel": {
-   "wikidata": "Q822290",
-   "wikipedia": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel",
-   "goodreads": "https://www.goodreads.com/work/editions/2663468"
   },
   "gasca-de-aur": {
    "wikidata": "Q652607",
@@ -5907,11 +5885,6 @@
   "inelul-fermecat-brentano": {
    "goodreads": "https://www.goodreads.com/book/show/209890975"
   },
-  "inima-rece": {
-   "wikidata": "Q1171377",
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Cold_Heart",
-   "goodreads": "https://www.goodreads.com/book/show/11127322-inima-rece"
-  },
   "insir-te-margarite": {
    "goodreads": "https://www.goodreads.com/book/show/35580113"
   },
@@ -5977,9 +5950,6 @@
   "lacomia-lui-midas": {
    "wikidata": "Q308398",
    "wikipedia": "https://en.wikipedia.org/wiki/Midas"
-  },
-  "lacul-cu-elefanti": {
-   "goodreads": "https://www.goodreads.com/book/show/32857464"
   },
   "laleaua-neagra": {
    "wikidata": "Q1141764",
@@ -6056,9 +6026,6 @@
   },
   "manusa-ucraineana": {
    "wikipedia": "https://en.wikipedia.org/wiki/The_Mitten_(folk_tale)"
-  },
-  "mariuca": {
-   "goodreads": "https://www.goodreads.com/book/show/258565767"
   },
   "mary-poppins": {
    "wikidata": "Q858705",
@@ -6157,11 +6124,6 @@
    "wikipedia": "https://en.wikipedia.org/wiki/The_Survivors_of_the_%22Jonathan%22",
    "goodreads": "https://www.goodreads.com/book/show/13624273"
   },
-  "neamul-soimarestilor": {
-   "wikidata": "Q18544278",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Neamul_%C8%98oim%C4%83re%C8%99tilor_(roman)",
-   "goodreads": "https://www.goodreads.com/book/show/7147796"
-  },
   "nedespartite": {
    "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
   },
@@ -6208,11 +6170,6 @@
    "wikidata": "Q164974",
    "wikipedia": "https://en.wikipedia.org/wiki/Oliver_Twist",
    "goodreads": "https://www.goodreads.com/work/editions/3057979"
-  },
-  "omul-cu-masca-de-fier": {
-   "wikidata": "Q769001",
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Viscount_of_Bragelonne%2FBetween_Two_Kings",
-   "goodreads": "https://www.goodreads.com/work/editions/2971402"
   },
   "omul-de-flori-cu-barba-de-matase": {
    "goodreads": "https://www.goodreads.com/book/show/74044472"
@@ -6281,9 +6238,8 @@
    "goodreads": "https://www.goodreads.com/book/show/2585182"
   },
   "pazitoarea-de-gaste": {
-   "wikidata": "Q542305",
-   "wikipedia": "https://en.wikipedia.org/wiki/The_Goose_Girl",
-   "goodreads": "https://www.goodreads.com/work/editions/535084"
+   "wikidata": "Q874923",
+   "wikipedia": "https://en.wikipedia.org/wiki/The_Goose-Girl_at_the_Well"
   },
   "peppi-ciorap-lung": {
    "wikidata": "Q2446285",
@@ -6395,9 +6351,6 @@
   "povestea-gastelor": {
    "goodreads": "https://www.goodreads.com/book/show/106391670"
   },
-  "povestea-hamalului": {
-   "goodreads": "https://www.goodreads.com/book/show/15901853"
-  },
   "povestea-iepurasului-peter": {
    "wikidata": "Q580463",
    "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_Peter_Rabbit",
@@ -6429,19 +6382,8 @@
   "povestea-ursului-cafeniu": {
    "goodreads": "https://www.goodreads.com/book/show/112370907"
   },
-  "povestea-vorbii": {
-   "goodreads": "https://www.goodreads.com/book/show/4948776"
-  },
   "povesti-citite-de-elena-pop-6-11": {
    "goodreads": "https://www.goodreads.com/book/show/53177686"
-  },
-  "povestile-seherezadei": {
-   "wikidata": "Q8258",
-   "wikipedia": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
-   "goodreads": "https://www.goodreads.com/work/editions/859375"
-  },
-  "povestiri-istorice-almas": {
-   "goodreads": "https://www.goodreads.com/book/show/31000687"
   },
   "praslea-cel-voinic": {
    "wikidata": "Q7253801",
@@ -6742,11 +6684,6 @@
    "wikidata": "Q62879",
    "wikipedia": "https://en.wikipedia.org/wiki/A_Christmas_Carol",
    "goodreads": "https://www.goodreads.com/work/editions/3097440"
-  },
-  "un-yankeu-la-curtea-regelui-arthur": {
-   "wikidata": "Q848612",
-   "wikipedia": "https://en.wikipedia.org/wiki/A_Connecticut_Yankee_in_King_Arthur's_Court",
-   "goodreads": "https://www.goodreads.com/work/editions/2621763"
   },
   "urashima-si-broasca-testoasa": {
    "wikidata": "Q55617997",

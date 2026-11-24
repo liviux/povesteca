@@ -2,6 +2,18 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.24.2] - 2026-11-24
+
+### Changed
+- Ages, production type, sound effects, music, themes, characters and credits were checked and updated for hundreds of stories and recordings, by listening to them and comparing with the sources.
+- Six stories that were filed under the wrong title now have their own page, and stories inside multi-story recordings start and stop at the right moment.
+
+### Fixed
+- Corrected casts: “Vulpea albă” now lists its own actors instead of those from “Ochii mamei”, and the narrator of “Fata din dafin” is Dinu Ianculescu.
+
+### Removed
+- Removed 129 recordings that aren't stories for children up to 10: the “Români de poveste” and “Patrimoniu” documentaries, biographies, educational lessons, productions for older children and duplicates.
+
 ## [1.24.1] - 2026-11-24
 
 ### Changed
