@@ -12270,9 +12270,31 @@
    "Cizmarul",
    "Soția cizmarului",
    "Spiridușii"
+  ]
+ },
+ {
+  "id": "darul-spiridusilor",
+  "title": "Darul spiridușilor",
+  "author": "Frații Grimm",
+  "origin": "german",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "calatorie",
+   "dreptate",
+   "egoism"
   ],
-  "altTitles": [
-   "Darul spiridușilor"
+  "summary": {
+   "ro": "Un croitor și un fierar plecați la drum dau peste o ceată de spiriduși care dansează noaptea pe o colină. Spiridușii le umplu buzunarele cu cărbuni ce se prefac în aur până dimineața, dar când fierarul se întoarce din lăcomie după mai mult, primește o lecție aspră.",
+   "en": "A tailor and a blacksmith traveling together come upon a band of elves dancing on a hill at night. The elves fill their pockets with coals that turn to gold by morning, but when the greedy blacksmith goes back for more, he is taught a harsh lesson."
+  },
+  "age": 5,
+  "addedAt": "2026-11-22",
+  "year": 1850,
+  "characters": [
+   "Croitorul",
+   "Fierarul",
+   "Spiridușii"
   ]
  },
  {

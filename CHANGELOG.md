@@ -2,6 +2,12 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.24.3] - 2026-11-24
+
+### Fixed
+- „Darul spiridușilor” are din nou pagina ei. E altă poveste a Fraților Grimm decât „Spiridușii” cu cizmarul.
+- „Zeii din Olimp – Poseidon” are distribuția episodului, luată de pe eTeatru, nu pe cea a întregului serial.
+
 ## [1.24.2] - 2026-11-24
 
 ### Changed

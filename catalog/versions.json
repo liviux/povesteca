@@ -11088,95 +11088,7 @@
     },
     {
      "role": "Distribuție",
-     "name": "Mircea Constantinescu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Coca Bloos"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Ștefan Velniciuc"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Bogdan Caragea"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Alexandrina Halic"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Jeanine Stavarache"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Genoveva Preda"
-    },
-    {
-     "role": "Distribuție",
      "name": "Mihai Niculescu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Nicolae Pomoje"
-    },
-    {
-     "role": "Distribuție",
-     "name": "George Grigore"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Lucia Mureșan"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Petronela Stiopu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Ion Punea"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Anne-Marie Ziegler"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Orodel Olaru"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Valentin Teodosiu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Romeo Stavăr"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Sorin Gheorghiu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Gheorghe Pufulete"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Tatiana Iekel"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Ruxandra Medeleanu"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Eugen Racoți"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Titi Dumitrescu"
     },
     {
      "role": "Distribuție",
@@ -11185,6 +11097,30 @@
     {
      "role": "Distribuție",
      "name": "Dumitru Chesa"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Dan Tudor"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Maria Tudose"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Petronela Stiopu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Anne-Marie Ziegler"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "role": "Distribuție",
+     "name": "Violeta Berbiuc"
     }
    ],
    "director": "Vasile Manta",
@@ -18307,7 +18243,7 @@
  },
  {
   "id": "darul-spiridusilor-radio-1959",
-  "storyId": "spiridusii",
+  "storyId": "darul-spiridusilor",
   "title": "Darul spiridușilor (1959)",
   "sourceId": "radio-arhive",
   "links": [

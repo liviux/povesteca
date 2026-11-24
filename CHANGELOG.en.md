@@ -2,6 +2,12 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.24.3] - 2026-11-24
+
+### Fixed
+- “Darul spiridușilor” has its own page again. It's a different Brothers Grimm tale from “Spiridușii”, the one with the shoemaker.
+- “Zeii din Olimp – Poseidon” now lists the episode's own cast from eTeatru, not the whole series.
+
 ## [1.24.2] - 2026-11-24
 
 ### Changed

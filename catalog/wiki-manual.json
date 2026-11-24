@@ -2321,9 +2321,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
       "goodreads": "https://www.goodreads.com/work/editions/859375"
     },
-    "povestiri-istorice-almas": {
-      "goodreads": "https://www.goodreads.com/book/show/31000687"
-    },
     "praslea-cel-voinic": {
       "wikidata": "Q7253801",
       "wikipedia": "https://ro.wikipedia.org/wiki/Pr%C3%A2slea_cel_voinic_%C8%99i_merele_de_aur",
@@ -2763,6 +2760,10 @@
       "wikidata": "Q322188",
       "wikipedia": "https://en.wikipedia.org/wiki/Rumpelstiltskin",
       "goodreads": "https://www.goodreads.com/book/show/61854840"
+    },
+    "darul-spiridusilor": {
+      "wikidata": "Q473871",
+      "wikipedia": "https://de.wikipedia.org/wiki/Die_Geschenke_des_kleinen_Volkes"
     }
   }
 }
