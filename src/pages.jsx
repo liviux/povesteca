@@ -56,7 +56,6 @@ export function Home() {
       <section class="hero">
         <div class="wrap hero-inner">
           <div class="hero-text">
-            <img class="hero-mark" src="/mark.webp" alt="" width="112" height="95" />
             <h1>{t.heroTitle}</h1>
             <p class="lead">{t.heroSub}</p>
           </div>

@@ -79,11 +79,9 @@
 [data-theme='plastilina'] .fav-btn.on { box-shadow: inset 0 0 0 3px var(--primary), var(--clay); }
 [data-theme='plastilina'] .search { border: 0; box-shadow: inset 0 3px 8px rgb(0 0 0 / 10%); background: var(--surface-2); }
 [data-theme='plastilina'] .search:focus-within { box-shadow: inset 0 3px 8px rgb(0 0 0 / 10%), 0 0 0 3px var(--focus); }
-/* the welcome: one clay blob in the middle, the logo bobbing on top */
+/* the welcome: one clay blob in the middle */
 [data-theme='plastilina'] .hero-inner { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; width: calc(100% - 24px); max-width: 860px; margin-top: 22px; padding: 26px 18px 30px; background: var(--surface); border-radius: 44px; box-shadow: var(--shadow); }
 [data-theme='plastilina'] .hero h1, [data-theme='plastilina'] .hero .lead { margin-inline: auto; }
-[data-theme='plastilina'] .hero-mark { margin-inline: auto; width: 116px; animation: bob 3.4s ease-in-out infinite; }
-@keyframes bob { 50% { translate: 0 -7px; rotate: -3deg; } }
 [data-theme='plastilina'] .hero-box { width: 100%; max-width: 560px; background: none; box-shadow: none; padding: 0; }
 [data-theme='plastilina'] .hero-actions { justify-content: center; }
 /* shelves: chunky tiles in a grid */
@@ -148,7 +146,6 @@
 [data-theme='caiet'] .vrow.best { box-shadow: var(--shadow), inset 0 0 0 3px var(--accent); }
 /* the welcome: a highlighted title, the search on a sticky note */
 [data-theme='caiet'] .hero h1 { text-decoration: underline var(--accent); text-decoration-thickness: .34em; text-underline-offset: -.2em; text-decoration-skip-ink: none; }
-[data-theme='caiet'] .hero-mark { rotate: -6deg; }
 [data-theme='caiet'] .hero-box { position: relative; background: var(--note); padding: 26px 16px 18px; border-radius: 2px; box-shadow: 0 12px 18px -10px rgb(0 0 0 / 35%); rotate: 1.2deg; }
 [data-theme='caiet'] .hero-box::before, [data-theme='caiet'] .card::before { content: ''; position: absolute; z-index: 2; top: -11px; left: 50%; width: 74px; height: 22px; translate: -50% 0; rotate: -4deg; background: var(--tape); box-shadow: 0 1px 2px rgb(0 0 0 / 12%); pointer-events: none; }
 [data-theme='caiet'] .hero-box .search { box-shadow: none; }
@@ -201,7 +198,6 @@
 [data-theme='galerie'] .btn.ghost { border-color: var(--ink); background: transparent; }
 /* the welcome: one huge title, the search underneath on one line */
 [data-theme='galerie'] .hero-inner { grid-template-columns: minmax(0, 1fr); padding-block: 36px 44px; gap: 30px; }
-[data-theme='galerie'] .hero-mark { display: none; }
 [data-theme='galerie'] .hero h1 { font-size: clamp(40px, 6.8vw, 96px); line-height: 1; letter-spacing: -0.035em; max-width: 13ch; }
 [data-theme='galerie'] .search { border: 0; border-bottom: 2px solid var(--ink); border-radius: 0; background: transparent; box-shadow: none; padding-left: 0; }
 [data-theme='galerie'] .hero-box { background: none; box-shadow: none; padding: 0; }
@@ -273,7 +269,6 @@
 [data-theme='afis'] main :focus-visible, [data-theme='afis'] .theme-pop :focus-visible { outline-color: var(--focus); }
 /* the welcome: a red poster with a ticket on it */
 [data-theme='afis'] .hero { border-bottom: 8px solid var(--accent); }
-[data-theme='afis'] .hero-mark { display: none; }
 [data-theme='afis'] .hero h1 { font-size: clamp(40px, 7.4vw, 92px); line-height: 1.12; text-transform: uppercase; max-width: 14ch; }
 [data-theme='afis'] .hero .lead { opacity: .92; }
 [data-theme='afis'] .hero-box { position: relative; color: var(--ink); background: var(--surface); padding: 22px 26px; outline: 2px dashed var(--line); outline-offset: -10px;
@@ -370,9 +365,9 @@
 
 
 /* =====================================================================================================
-   Cosmos · Impeccable, the bolder take: dark with stars, every story a planet, the logo a glowing moon.
+   Cosmos · Impeccable, the bolder take: dark with stars, every story a planet.
    Dark in both light and dark mode.
-   Layout: on a computer the menu becomes a column on the left, the welcome is centred under the moon,
+   Layout: on a computer the menu becomes a column on the left, the welcome is centred,
    the shelves are rows of round planets floating up and down.
    ===================================================================================================== */
 [data-theme='cosmos'], [data-dark][data-theme='cosmos'] {
@@ -402,10 +397,9 @@
   [data-theme='cosmos'] .theme-pop { top: auto; bottom: 0; right: auto; left: calc(100% + 14px); }
   [data-theme='cosmos'] .dock { left: var(--rail); }
 }
-/* the welcome: centred under a glowing moon */
+/* the welcome: centred */
 [data-theme='cosmos'] .hero-inner { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; max-width: 860px; padding-block: 34px 40px; }
 [data-theme='cosmos'] .hero h1, [data-theme='cosmos'] .hero .lead { margin-inline: auto; }
-[data-theme='cosmos'] .hero-mark, [data-dark][data-theme='cosmos'] .hero-mark { width: 132px; height: 132px; margin: 0 auto 22px; padding: 22px; object-fit: contain; border-radius: 50%; background: radial-gradient(circle at 36% 30%, #fffaf0, #f7dca8); box-shadow: 0 0 0 12px rgb(255 209 102 / 10%), 0 0 0 26px rgb(255 209 102 / 5%), 0 0 70px rgb(255 209 102 / 40%); }
 [data-theme='cosmos'] .hero-box { width: 100%; max-width: 600px; background: none; box-shadow: none; padding: 0; }
 [data-theme='cosmos'] .hero-actions { justify-content: center; }
 [data-theme='cosmos'] .search { border-color: var(--line); background: var(--surface); }
@@ -499,7 +493,6 @@
   [data-theme='jeleu'] .filters { top: 84px; }
 }
 /* the welcome: a large title, shortcuts as tiles */
-[data-theme='jeleu'] .hero-mark { display: none; }
 [data-theme='jeleu'] .hero-inner { padding-block: 8px 26px; }
 [data-theme='jeleu'] .hero h1 { font-size: clamp(32px, 5vw, 54px); letter-spacing: -0.03em; }
 [data-theme='jeleu'] .hero-actions { flex-wrap: nowrap; }
@@ -550,8 +543,7 @@
    Vinil · Emil Kowalski, the second take: motion that says something. Covers are record sleeves with the
    disc peeking out; the disc slides out when you point at it, and the record in the player turns only
    while a story is playing (33⅓ turns a minute), so you can see at a glance that it plays.
-   Layout: rows of sleeves standing on wooden shelves, the logo is the label of a record,
-   on a story page the disc comes halfway out of its sleeve.
+   Layout: rows of sleeves standing on wooden shelves; on a story page the disc comes halfway out of its sleeve.
    ===================================================================================================== */
 [data-theme='vinil'] {
   --bg: #f1e7d6; --surface: #fffaf1; --surface-2: #e8dac3; --ink: #2a1d14; --muted: #66523f; --line: #dac8ad;
@@ -573,9 +565,6 @@
 /* two stripes under the menu, like an old record label */
 [data-theme='vinil'] .site-head { box-shadow: 0 5px 0 var(--primary), 0 11px 0 var(--accent); margin-bottom: 11px; }
 [data-theme='vinil'] .nav-link[aria-current='page'] { box-shadow: inset 0 -3px 0 var(--primary); }
-/* the logo is the label of a record; it turns while a story plays */
-[data-theme='vinil'] .hero-mark, [data-dark][data-theme='vinil'] .hero-mark { width: 156px; height: 156px; padding: 44px; object-fit: contain; border-radius: 50%; background: radial-gradient(circle, #fef5ea 0 35%, var(--groove) 35.5% 37%, transparent 37.5%), conic-gradient(from 20deg, #fff0 0 9%, #ffffff24 13%, #fff0 18% 58%, #ffffff1a 63%, #fff0 68%), repeating-radial-gradient(circle, var(--groove) 0 2px, var(--groove-2) 2px 3px); box-shadow: var(--shadow); }
-[data-theme='vinil'] body:has(.dock.playing) .hero-mark { animation: spin 1.8s linear infinite; }
 /* shelves: sleeves on wooden planks, the disc peeking out and sliding further when pointed at */
 [data-theme='vinil'] .shelf-head h2::before { content: ''; display: inline-block; width: 24px; height: 24px; margin-right: 10px; vertical-align: -3px; border-radius: 50%; background: var(--disc); }
 [data-theme='vinil'] .shelf { grid-auto-columns: 196px; gap: 16px; padding-bottom: 14px; }
@@ -708,7 +697,6 @@
 [data-theme='abtibild'] :is(.btn, .fav-btn):active { translate: 3px 4px; box-shadow: 0 0 0 3px var(--die), 0 0 0 3px var(--hard); }
 [data-theme='abtibild'] .btn.ghost { border: 0; }
 /* the welcome: the title is a big lime sticker */
-[data-theme='abtibild'] .hero-mark { background: var(--die); border-radius: 26px; padding: 10px; box-shadow: 4px 5px 0 var(--hard); rotate: -7deg; }
 [data-theme='abtibild'] .hero h1 { display: inline-block; background: var(--accent); color: var(--accent-ink); padding: 12px 18px 14px; border-radius: 18px; box-shadow: var(--shadow); rotate: -2deg; font-size: clamp(30px, 5.4vw, 58px); margin: 6px 6px 8px; }
 [data-theme='abtibild'] .hero .lead { margin-top: 18px; }
 [data-theme='abtibild'] .hero-box { background: var(--surface); padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow); rotate: 1.5deg; }

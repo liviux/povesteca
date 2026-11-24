@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.23.1] - 2026-11-24
+
+### Removed
+- The big logo above the title on the home page, in every theme: the logo showed twice, once in the menu at the top and again right below it.
+
 ## [1.23.0] - 2026-11-24
 
 ### Added

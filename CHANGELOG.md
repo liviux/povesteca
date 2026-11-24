@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.23.1] - 2026-11-24
+
+### Removed
+- Sigla mare de deasupra titlului de pe prima pagină, în toate temele: sigla apărea de două ori, o dată sus, în meniu, și o dată chiar dedesubt.
+
 ## [1.23.0] - 2026-11-24
 
 ### Added

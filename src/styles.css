@@ -44,8 +44,7 @@ body {
   font: 400 17px/1.55 var(--font-body); -webkit-font-smoothing: antialiased;
 }
 /* the logo is drawn in dark navy: in dark mode the moon-and-book mark gets a light tile and the wordmark turns light */
-[data-dark] .brand img:first-child, [data-dark] .hero-mark { background: #fef5ea; border-radius: 14px; padding: 4px; }
-[data-dark] .hero-mark { padding: 8px; }
+[data-dark] .brand img:first-child { background: #fef5ea; border-radius: 14px; padding: 4px; }
 [data-dark] .wordmark { filter: brightness(0) invert(.92); }
 body:has(.dock.open) { --dock-h: 132px; padding-bottom: var(--dock-h); }
 body:has(dialog[open]) { overflow: hidden; }
@@ -151,7 +150,6 @@ img { display: block; max-width: 100%; }
 /* ============ Hero ============ */
 .hero { background: var(--hero-bg); color: var(--hero-ink); }
 .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; padding-block: 20px 32px; align-items: center; }
-.hero-mark { width: 88px; height: auto; margin-bottom: 10px; }
 .hero h1 { max-width: 22ch; text-wrap: balance; }
 .hero .lead { margin-top: 12px; color: inherit; opacity: .85; }
 .hero-box { display: grid; gap: 14px; }
