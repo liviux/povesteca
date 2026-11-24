@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.21.2] - 2026-11-24
+
+### Added
+- In the page footer, on the right: “Contact/feedback - liviu.ovh”, linking to the author's site.
+
+### Removed
+- The “Listen” button on a story's page. “Save” stays there, and every recording in the list still has its own “Listen” button.
+
 ## [1.21.1] - 2026-11-24
 
 ### Removed

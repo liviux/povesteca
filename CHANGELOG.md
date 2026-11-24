@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.21.2] - 2026-11-24
+
+### Added
+- În subsolul paginii, în dreapta: „Contact/feedback - liviu.ovh”, cu link spre site-ul autorului.
+
+### Removed
+- Butonul „Ascultă” de pe pagina unei povești. Acolo rămâne „Salvează”; fiecare înregistrare din listă are în continuare butonul ei „Ascultă”.
+
 ## [1.21.1] - 2026-11-24
 
 ### Removed

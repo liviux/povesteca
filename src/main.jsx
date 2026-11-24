@@ -80,6 +80,7 @@ function Footer() {
         <p class="foot-links">
           <button type="button" class="link-btn" title={t.version(version)} onClick={() => setLog(true)}>v{version} · {t.news}</button>
           <a href={REPO} target="_blank" rel="noopener">{t.code}<Icon n="ext" size={14} /></a>
+          <span class="foot-contact">{t.contact} - <a href="https://liviu.ovh" target="_blank" rel="noopener">liviu.ovh</a></span>
         </p>
       </div>
       {log && <Changelog onClose={() => setLog(false)} />}

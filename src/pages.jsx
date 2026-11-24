@@ -309,7 +309,6 @@ export function StoryPage({ id }) {
           <p class="byline">{t.by} <Authors s={story} />{story.year ? ` · ${story.year}` : ''}</p>
           {summary && <p class="lead">{summary}</p>}
           <div class="actions">
-            {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
             <FavButton list="favStories" id={story.id} title={story.title} withText />
           </div>
           <dl class="tags">

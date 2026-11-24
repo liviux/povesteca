@@ -460,6 +460,7 @@ img { display: block; max-width: 100%; }
 .foot-links { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 18px; }
 .foot-links .link-btn { padding: 0; color: inherit; font-weight: 700; }
 .foot-links a { display: inline-flex; align-items: center; gap: 4px; min-height: 44px; font-weight: 700; }
+.foot-contact { margin-left: auto; }
 
 /* ============ Sources ============ */
 .src-list { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 16px; }
