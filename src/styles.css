@@ -339,7 +339,12 @@ img { display: block; max-width: 100%; }
 .facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 .est { text-decoration: none; margin-left: 6px; color: var(--muted); cursor: help; font-weight: 800; }
 .links { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
-.links .link-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.links .link-row { display: flex; align-items: center; gap: 6px; }
+.links .mirror-btn { min-width: 0; }
+/* the label at the height of the first button's text, not above it */
+.facts .links-dt { padding-top: 6px; }
+/* phones: the list takes the card's whole width under its label, so each link and its "open outside" icon share a line */
+@media (max-width: 599px) { .facts :is(.links-dt, .links-dd) { grid-column: 1 / -1; } .facts .links-dt { padding-top: 0; } }
 .mirror-ext { display: inline-grid; place-items: center; min-width: 36px; min-height: 36px; border-radius: 999px; color: var(--muted); }
 .mirror-ext:hover { color: var(--ink); background: var(--surface-2); }
 /* names in the credits are text links: a taller hit area without moving the text */

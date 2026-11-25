@@ -579,8 +579,8 @@ export function VersionPage({ id }) {
             {v.age != null && <><dt>{t.facts.age}</dt><dd>{t.ageFrom(v.age)}{est('age')}</dd></>}
             <dt>{t.facts.source}</dt><dd><a href={`/sursa/${src.id}`}>{src.name}</a></dd>
             {col && <><dt>{t.facts.disc}</dt><dd>{col.c.code ? <><a href={`/colectie/${col.c.id}`}>{col.c.code}</a> · {col.c.title}</> : <a href={`/colectie/${col.c.id}`}>{col.c.title}</a>}</dd></>}
-            <dt>{t.facts.links}</dt>
-            <dd><ul class="links">{v.links.map((l, i) => {
+            <dt class="links-dt">{t.facts.links}</dt>
+            <dd class="links-dd"><ul class="links">{v.links.map((l, i) => {
               const lbl = linkLabel(l, src, v.links);
               if (l.type === 'link') return <li class="link-row"><a class="mirror-btn" href={linkUrl(l)} target="_blank" rel="noopener"><span>{lbl}</span><Icon n="ext" size={16} /></a></li>;
               const active = p.id === v.id && p.link === i && p.status !== 'ended';

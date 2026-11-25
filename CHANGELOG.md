@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.32.4] - 2026-11-25
+
+### Fixed
+- Pe pagina unei înregistrări, „Unde se găsește” stă la nivelul primei surse, iar pe telefon fiecare sursă are butonul de deschis în afară pe același rând.
+
 ## [1.32.3] - 2026-11-25
 
 ### Changed
