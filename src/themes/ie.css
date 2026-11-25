@@ -1,0 +1,133 @@
+/* =====================================================================================================
+   Ie · the whole app hand cross-stitched: red and black thread on linen, Romanian folk motifs.
+   Behind the page a 3D linen cloth waves in a breeze (src/fx/ie.js): motifs sew themselves in, the cursor
+   presses ripples into it, and a tap on an empty spot sews a new motif there, stitch by stitch, with a needle.
+   Layout: the header is the embroidered end of a towel, every shelf on the home page is a ștergar (a long
+   towel with embroidered bands and a fringe), cards and boxes are patches with a running stitch inside,
+   headings get a wave stitched under them. In the dark: red and gold thread on dark wool.
+   The bands are SVG cross-stitch tiles (two legs per stitch, the second one on top).
+   ===================================================================================================== */
+[data-theme='ie'] {
+  --bg: #efe7d6; --surface: #fcf9f2; --surface-2: #efe5d2; --ink: #1d1814; --muted: #574b40; --line: #d3c4a9;
+  --primary: #a3111b; --primary-ink: #fff8ee; --accent: #1d1814; --accent-ink: #fbf3e4; --focus: #a3111b;
+  --radius: 6px; --radius-sm: 4px; --btn-radius: 4px; --cover-radius: 3px;
+  --shadow: 0 1px 0 rgb(80 50 20 / 10%), 0 6px 14px -6px rgb(80 50 20 / 30%);
+  --shadow-hover: 0 2px 0 rgb(80 50 20 / 12%), 0 14px 26px -8px rgb(80 50 20 / 38%);
+  --cover-bg: repeating-linear-gradient(45deg, #b3121d 0 3px, transparent 3px 9px), repeating-linear-gradient(-45deg, #b3121d 0 3px, transparent 3px 9px), #e9dcc3;
+  --font-head: 'Fraunces', Georgia, serif;
+  --stitch: rgb(163 17 27 / 55%); --towel: #f7f1e5; --halo: #efe7d6;
+  --weave: rgb(120 90 50 / 8%);
+  --ie-band: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='110' viewBox='0 0 160 110'%3E%3Cg stroke-linecap='round' stroke-width='2.8'%3E%3Cpath stroke='%23000' d='M2 8L8 2'/%3E%3Cpath stroke='%232a2420' d='M2 2L8 8'/%3E%3Cpath stroke='%23000' d='M22 8L28 2'/%3E%3Cpath stroke='%232a2420' d='M22 2L28 8'/%3E%3Cpath stroke='%23000' d='M42 8L48 2'/%3E%3Cpath stroke='%232a2420' d='M42 2L48 8'/%3E%3Cpath stroke='%23000' d='M62 8L68 2'/%3E%3Cpath stroke='%232a2420' d='M62 2L68 8'/%3E%3Cpath stroke='%23000' d='M82 8L88 2'/%3E%3Cpath stroke='%232a2420' d='M82 2L88 8'/%3E%3Cpath stroke='%23000' d='M102 8L108 2'/%3E%3Cpath stroke='%232a2420' d='M102 2L108 8'/%3E%3Cpath stroke='%23000' d='M122 8L128 2'/%3E%3Cpath stroke='%232a2420' d='M122 2L128 8'/%3E%3Cpath stroke='%23000' d='M142 8L148 2'/%3E%3Cpath stroke='%232a2420' d='M142 2L148 8'/%3E%3Cpath stroke='%238a0e17' d='M72 28L78 22'/%3E%3Cpath stroke='%23b3121d' d='M72 22L78 28'/%3E%3Cpath stroke='%238a0e17' d='M62 38L68 32'/%3E%3Cpath stroke='%23b3121d' d='M62 32L68 38'/%3E%3Cpath stroke='%238a0e17' d='M82 38L88 32'/%3E%3Cpath stroke='%23b3121d' d='M82 32L88 38'/%3E%3Cpath stroke='%23000' d='M142 38L148 32'/%3E%3Cpath stroke='%232a2420' d='M142 32L148 38'/%3E%3Cpath stroke='%238a0e17' d='M52 48L58 42'/%3E%3Cpath stroke='%23b3121d' d='M52 42L58 48'/%3E%3Cpath stroke='%23000' d='M72 48L78 42'/%3E%3Cpath stroke='%232a2420' d='M72 42L78 48'/%3E%3Cpath stroke='%238a0e17' d='M92 48L98 42'/%3E%3Cpath stroke='%23b3121d' d='M92 42L98 48'/%3E%3Cpath stroke='%23000' d='M132 48L138 42'/%3E%3Cpath stroke='%232a2420' d='M132 42L138 48'/%3E%3Cpath stroke='%23000' d='M2 58L8 52'/%3E%3Cpath stroke='%232a2420' d='M2 52L8 58'/%3E%3Cpath stroke='%238a0e17' d='M42 58L48 52'/%3E%3Cpath stroke='%23b3121d' d='M42 52L48 58'/%3E%3Cpath stroke='%23000' d='M62 58L68 52'/%3E%3Cpath stroke='%232a2420' d='M62 52L68 58'/%3E%3Cpath stroke='%23000' d='M72 58L78 52'/%3E%3Cpath stroke='%232a2420' d='M72 52L78 58'/%3E%3Cpath stroke='%23000' d='M82 58L88 52'/%3E%3Cpath stroke='%232a2420' d='M82 52L88 58'/%3E%3Cpath stroke='%238a0e17' d='M102 58L108 52'/%3E%3Cpath stroke='%23b3121d' d='M102 52L108 58'/%3E%3Cpath stroke='%23000' d='M132 58L138 52'/%3E%3Cpath stroke='%232a2420' d='M132 52L138 58'/%3E%3Cpath stroke='%23000' d='M152 58L158 52'/%3E%3Cpath stroke='%232a2420' d='M152 52L158 58'/%3E%3Cpath stroke='%238a0e17' d='M52 68L58 62'/%3E%3Cpath stroke='%23b3121d' d='M52 62L58 68'/%3E%3Cpath stroke='%23000' d='M72 68L78 62'/%3E%3Cpath stroke='%232a2420' d='M72 62L78 68'/%3E%3Cpath stroke='%238a0e17' d='M92 68L98 62'/%3E%3Cpath stroke='%23b3121d' d='M92 62L98 68'/%3E%3Cpath stroke='%23000' d='M132 68L138 62'/%3E%3Cpath stroke='%232a2420' d='M132 62L138 68'/%3E%3Cpath stroke='%238a0e17' d='M62 78L68 72'/%3E%3Cpath stroke='%23b3121d' d='M62 72L68 78'/%3E%3Cpath stroke='%238a0e17' d='M82 78L88 72'/%3E%3Cpath stroke='%23b3121d' d='M82 72L88 78'/%3E%3Cpath stroke='%23000' d='M142 78L148 72'/%3E%3Cpath stroke='%232a2420' d='M142 72L148 78'/%3E%3Cpath stroke='%238a0e17' d='M72 88L78 82'/%3E%3Cpath stroke='%23b3121d' d='M72 82L78 88'/%3E%3Cpath stroke='%23000' d='M2 108L8 102'/%3E%3Cpath stroke='%232a2420' d='M2 102L8 108'/%3E%3Cpath stroke='%23000' d='M22 108L28 102'/%3E%3Cpath stroke='%232a2420' d='M22 102L28 108'/%3E%3Cpath stroke='%23000' d='M42 108L48 102'/%3E%3Cpath stroke='%232a2420' d='M42 102L48 108'/%3E%3Cpath stroke='%23000' d='M62 108L68 102'/%3E%3Cpath stroke='%232a2420' d='M62 102L68 108'/%3E%3Cpath stroke='%23000' d='M82 108L88 102'/%3E%3Cpath stroke='%232a2420' d='M82 102L88 108'/%3E%3Cpath stroke='%23000' d='M102 108L108 102'/%3E%3Cpath stroke='%232a2420' d='M102 102L108 108'/%3E%3Cpath stroke='%23000' d='M122 108L128 102'/%3E%3Cpath stroke='%232a2420' d='M122 102L128 108'/%3E%3Cpath stroke='%23000' d='M142 108L148 102'/%3E%3Cpath stroke='%232a2420' d='M142 102L148 108'/%3E%3C/g%3E%3C/svg%3E");
+  --ie-wave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='50' viewBox='0 0 80 50'%3E%3Cg stroke-linecap='round' stroke-width='2.8'%3E%3Cpath stroke='%238a0e17' d='M2 8L8 2'/%3E%3Cpath stroke='%23b3121d' d='M2 2L8 8'/%3E%3Cpath stroke='%238a0e17' d='M12 18L18 12'/%3E%3Cpath stroke='%23b3121d' d='M12 12L18 18'/%3E%3Cpath stroke='%238a0e17' d='M72 18L78 12'/%3E%3Cpath stroke='%23b3121d' d='M72 12L78 18'/%3E%3Cpath stroke='%238a0e17' d='M22 28L28 22'/%3E%3Cpath stroke='%23b3121d' d='M22 22L28 28'/%3E%3Cpath stroke='%238a0e17' d='M62 28L68 22'/%3E%3Cpath stroke='%23b3121d' d='M62 22L68 28'/%3E%3Cpath stroke='%238a0e17' d='M32 38L38 32'/%3E%3Cpath stroke='%23b3121d' d='M32 32L38 38'/%3E%3Cpath stroke='%238a0e17' d='M52 38L58 32'/%3E%3Cpath stroke='%23b3121d' d='M52 32L58 38'/%3E%3Cpath stroke='%238a0e17' d='M42 48L48 42'/%3E%3Cpath stroke='%23b3121d' d='M42 42L48 48'/%3E%3C/g%3E%3C/svg%3E");
+  --ie-star: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' viewBox='0 0 70 70'%3E%3Cg stroke-linecap='round' stroke-width='2.8'%3E%3Cpath stroke='%238a0e17' d='M32 8L38 2'/%3E%3Cpath stroke='%23b3121d' d='M32 2L38 8'/%3E%3Cpath stroke='%238a0e17' d='M22 18L28 12'/%3E%3Cpath stroke='%23b3121d' d='M22 12L28 18'/%3E%3Cpath stroke='%23000' d='M32 18L38 12'/%3E%3Cpath stroke='%232a2420' d='M32 12L38 18'/%3E%3Cpath stroke='%238a0e17' d='M42 18L48 12'/%3E%3Cpath stroke='%23b3121d' d='M42 12L48 18'/%3E%3Cpath stroke='%238a0e17' d='M12 28L18 22'/%3E%3Cpath stroke='%23b3121d' d='M12 22L18 28'/%3E%3Cpath stroke='%23000' d='M22 28L28 22'/%3E%3Cpath stroke='%232a2420' d='M22 22L28 28'/%3E%3Cpath stroke='%23000' d='M42 28L48 22'/%3E%3Cpath stroke='%232a2420' d='M42 22L48 28'/%3E%3Cpath stroke='%238a0e17' d='M52 28L58 22'/%3E%3Cpath stroke='%23b3121d' d='M52 22L58 28'/%3E%3Cpath stroke='%238a0e17' d='M2 38L8 32'/%3E%3Cpath stroke='%23b3121d' d='M2 32L8 38'/%3E%3Cpath stroke='%23000' d='M12 38L18 32'/%3E%3Cpath stroke='%232a2420' d='M12 32L18 38'/%3E%3Cpath stroke='%238a0e17' d='M32 38L38 32'/%3E%3Cpath stroke='%23b3121d' d='M32 32L38 38'/%3E%3Cpath stroke='%23000' d='M52 38L58 32'/%3E%3Cpath stroke='%232a2420' d='M52 32L58 38'/%3E%3Cpath stroke='%238a0e17' d='M62 38L68 32'/%3E%3Cpath stroke='%23b3121d' d='M62 32L68 38'/%3E%3Cpath stroke='%238a0e17' d='M12 48L18 42'/%3E%3Cpath stroke='%23b3121d' d='M12 42L18 48'/%3E%3Cpath stroke='%23000' d='M22 48L28 42'/%3E%3Cpath stroke='%232a2420' d='M22 42L28 48'/%3E%3Cpath stroke='%23000' d='M42 48L48 42'/%3E%3Cpath stroke='%232a2420' d='M42 42L48 48'/%3E%3Cpath stroke='%238a0e17' d='M52 48L58 42'/%3E%3Cpath stroke='%23b3121d' d='M52 42L58 48'/%3E%3Cpath stroke='%238a0e17' d='M22 58L28 52'/%3E%3Cpath stroke='%23b3121d' d='M22 52L28 58'/%3E%3Cpath stroke='%23000' d='M32 58L38 52'/%3E%3Cpath stroke='%232a2420' d='M32 52L38 58'/%3E%3Cpath stroke='%238a0e17' d='M42 58L48 52'/%3E%3Cpath stroke='%23b3121d' d='M42 52L48 58'/%3E%3Cpath stroke='%238a0e17' d='M32 68L38 62'/%3E%3Cpath stroke='%23b3121d' d='M32 62L38 68'/%3E%3C/g%3E%3C/svg%3E");
+}
+[data-dark][data-theme='ie'] {
+  --bg: #1b1814; --surface: #262019; --surface-2: #322a21; --ink: #f3eadb; --muted: #c9bba6; --line: #4a3f33;
+  --primary: #e8646c; --primary-ink: #1b1814; --accent: #e2b04f; --accent-ink: #1b1814; --focus: #e2b04f;
+  --shadow: 0 1px 0 rgb(0 0 0 / 30%), 0 8px 18px -8px rgb(0 0 0 / 70%);
+  --shadow-hover: 0 2px 0 rgb(0 0 0 / 30%), 0 16px 28px -8px rgb(0 0 0 / 80%);
+  --cover-bg: repeating-linear-gradient(45deg, #d63a44 0 3px, transparent 3px 9px), repeating-linear-gradient(-45deg, #e2b04f 0 2px, transparent 2px 9px), #2c251d;
+  --stitch: rgb(226 176 79 / 60%); --towel: #221d17; --halo: #1b1814;
+  --weave: rgb(255 240 210 / 5%);
+  --ie-band: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='110' viewBox='0 0 160 110'%3E%3Cg stroke-linecap='round' stroke-width='2.8'%3E%3Cpath stroke='%23b07d23' d='M2 8L8 2'/%3E%3Cpath stroke='%23e2b04f' d='M2 2L8 8'/%3E%3Cpath stroke='%23b07d23' d='M22 8L28 2'/%3E%3Cpath stroke='%23e2b04f' d='M22 2L28 8'/%3E%3Cpath stroke='%23b07d23' d='M42 8L48 2'/%3E%3Cpath stroke='%23e2b04f' d='M42 2L48 8'/%3E%3Cpath stroke='%23b07d23' d='M62 8L68 2'/%3E%3Cpath stroke='%23e2b04f' d='M62 2L68 8'/%3E%3Cpath stroke='%23b07d23' d='M82 8L88 2'/%3E%3Cpath stroke='%23e2b04f' d='M82 2L88 8'/%3E%3Cpath stroke='%23b07d23' d='M102 8L108 2'/%3E%3Cpath stroke='%23e2b04f' d='M102 2L108 8'/%3E%3Cpath stroke='%23b07d23' d='M122 8L128 2'/%3E%3Cpath stroke='%23e2b04f' d='M122 2L128 8'/%3E%3Cpath stroke='%23b07d23' d='M142 8L148 2'/%3E%3Cpath stroke='%23e2b04f' d='M142 2L148 8'/%3E%3Cpath stroke='%23a81f2a' d='M72 28L78 22'/%3E%3Cpath stroke='%23e0444e' d='M72 22L78 28'/%3E%3Cpath stroke='%23a81f2a' d='M62 38L68 32'/%3E%3Cpath stroke='%23e0444e' d='M62 32L68 38'/%3E%3Cpath stroke='%23a81f2a' d='M82 38L88 32'/%3E%3Cpath stroke='%23e0444e' d='M82 32L88 38'/%3E%3Cpath stroke='%23b07d23' d='M142 38L148 32'/%3E%3Cpath stroke='%23e2b04f' d='M142 32L148 38'/%3E%3Cpath stroke='%23a81f2a' d='M52 48L58 42'/%3E%3Cpath stroke='%23e0444e' d='M52 42L58 48'/%3E%3Cpath stroke='%23b07d23' d='M72 48L78 42'/%3E%3Cpath stroke='%23e2b04f' d='M72 42L78 48'/%3E%3Cpath stroke='%23a81f2a' d='M92 48L98 42'/%3E%3Cpath stroke='%23e0444e' d='M92 42L98 48'/%3E%3Cpath stroke='%23b07d23' d='M132 48L138 42'/%3E%3Cpath stroke='%23e2b04f' d='M132 42L138 48'/%3E%3Cpath stroke='%23b07d23' d='M2 58L8 52'/%3E%3Cpath stroke='%23e2b04f' d='M2 52L8 58'/%3E%3Cpath stroke='%23a81f2a' d='M42 58L48 52'/%3E%3Cpath stroke='%23e0444e' d='M42 52L48 58'/%3E%3Cpath stroke='%23b07d23' d='M62 58L68 52'/%3E%3Cpath stroke='%23e2b04f' d='M62 52L68 58'/%3E%3Cpath stroke='%23b07d23' d='M72 58L78 52'/%3E%3Cpath stroke='%23e2b04f' d='M72 52L78 58'/%3E%3Cpath stroke='%23b07d23' d='M82 58L88 52'/%3E%3Cpath stroke='%23e2b04f' d='M82 52L88 58'/%3E%3Cpath stroke='%23a81f2a' d='M102 58L108 52'/%3E%3Cpath stroke='%23e0444e' d='M102 52L108 58'/%3E%3Cpath stroke='%23b07d23' d='M132 58L138 52'/%3E%3Cpath stroke='%23e2b04f' d='M132 52L138 58'/%3E%3Cpath stroke='%23b07d23' d='M152 58L158 52'/%3E%3Cpath stroke='%23e2b04f' d='M152 52L158 58'/%3E%3Cpath stroke='%23a81f2a' d='M52 68L58 62'/%3E%3Cpath stroke='%23e0444e' d='M52 62L58 68'/%3E%3Cpath stroke='%23b07d23' d='M72 68L78 62'/%3E%3Cpath stroke='%23e2b04f' d='M72 62L78 68'/%3E%3Cpath stroke='%23a81f2a' d='M92 68L98 62'/%3E%3Cpath stroke='%23e0444e' d='M92 62L98 68'/%3E%3Cpath stroke='%23b07d23' d='M132 68L138 62'/%3E%3Cpath stroke='%23e2b04f' d='M132 62L138 68'/%3E%3Cpath stroke='%23a81f2a' d='M62 78L68 72'/%3E%3Cpath stroke='%23e0444e' d='M62 72L68 78'/%3E%3Cpath stroke='%23a81f2a' d='M82 78L88 72'/%3E%3Cpath stroke='%23e0444e' d='M82 72L88 78'/%3E%3Cpath stroke='%23b07d23' d='M142 78L148 72'/%3E%3Cpath stroke='%23e2b04f' d='M142 72L148 78'/%3E%3Cpath stroke='%23a81f2a' d='M72 88L78 82'/%3E%3Cpath stroke='%23e0444e' d='M72 82L78 88'/%3E%3Cpath stroke='%23b07d23' d='M2 108L8 102'/%3E%3Cpath stroke='%23e2b04f' d='M2 102L8 108'/%3E%3Cpath stroke='%23b07d23' d='M22 108L28 102'/%3E%3Cpath stroke='%23e2b04f' d='M22 102L28 108'/%3E%3Cpath stroke='%23b07d23' d='M42 108L48 102'/%3E%3Cpath stroke='%23e2b04f' d='M42 102L48 108'/%3E%3Cpath stroke='%23b07d23' d='M62 108L68 102'/%3E%3Cpath stroke='%23e2b04f' d='M62 102L68 108'/%3E%3Cpath stroke='%23b07d23' d='M82 108L88 102'/%3E%3Cpath stroke='%23e2b04f' d='M82 102L88 108'/%3E%3Cpath stroke='%23b07d23' d='M102 108L108 102'/%3E%3Cpath stroke='%23e2b04f' d='M102 102L108 108'/%3E%3Cpath stroke='%23b07d23' d='M122 108L128 102'/%3E%3Cpath stroke='%23e2b04f' d='M122 102L128 108'/%3E%3Cpath stroke='%23b07d23' d='M142 108L148 102'/%3E%3Cpath stroke='%23e2b04f' d='M142 102L148 108'/%3E%3C/g%3E%3C/svg%3E");
+  --ie-wave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='50' viewBox='0 0 80 50'%3E%3Cg stroke-linecap='round' stroke-width='2.8'%3E%3Cpath stroke='%23a81f2a' d='M2 8L8 2'/%3E%3Cpath stroke='%23e0444e' d='M2 2L8 8'/%3E%3Cpath stroke='%23a81f2a' d='M12 18L18 12'/%3E%3Cpath stroke='%23e0444e' d='M12 12L18 18'/%3E%3Cpath stroke='%23a81f2a' d='M72 18L78 12'/%3E%3Cpath stroke='%23e0444e' d='M72 12L78 18'/%3E%3Cpath stroke='%23a81f2a' d='M22 28L28 22'/%3E%3Cpath stroke='%23e0444e' d='M22 22L28 28'/%3E%3Cpath stroke='%23a81f2a' d='M62 28L68 22'/%3E%3Cpath stroke='%23e0444e' d='M62 22L68 28'/%3E%3Cpath stroke='%23a81f2a' d='M32 38L38 32'/%3E%3Cpath stroke='%23e0444e' d='M32 32L38 38'/%3E%3Cpath stroke='%23a81f2a' d='M52 38L58 32'/%3E%3Cpath stroke='%23e0444e' d='M52 32L58 38'/%3E%3Cpath stroke='%23a81f2a' d='M42 48L48 42'/%3E%3Cpath stroke='%23e0444e' d='M42 42L48 48'/%3E%3C/g%3E%3C/svg%3E");
+  --ie-star: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' viewBox='0 0 70 70'%3E%3Cg stroke-linecap='round' stroke-width='2.8'%3E%3Cpath stroke='%23a81f2a' d='M32 8L38 2'/%3E%3Cpath stroke='%23e0444e' d='M32 2L38 8'/%3E%3Cpath stroke='%23a81f2a' d='M22 18L28 12'/%3E%3Cpath stroke='%23e0444e' d='M22 12L28 18'/%3E%3Cpath stroke='%23b07d23' d='M32 18L38 12'/%3E%3Cpath stroke='%23e2b04f' d='M32 12L38 18'/%3E%3Cpath stroke='%23a81f2a' d='M42 18L48 12'/%3E%3Cpath stroke='%23e0444e' d='M42 12L48 18'/%3E%3Cpath stroke='%23a81f2a' d='M12 28L18 22'/%3E%3Cpath stroke='%23e0444e' d='M12 22L18 28'/%3E%3Cpath stroke='%23b07d23' d='M22 28L28 22'/%3E%3Cpath stroke='%23e2b04f' d='M22 22L28 28'/%3E%3Cpath stroke='%23b07d23' d='M42 28L48 22'/%3E%3Cpath stroke='%23e2b04f' d='M42 22L48 28'/%3E%3Cpath stroke='%23a81f2a' d='M52 28L58 22'/%3E%3Cpath stroke='%23e0444e' d='M52 22L58 28'/%3E%3Cpath stroke='%23a81f2a' d='M2 38L8 32'/%3E%3Cpath stroke='%23e0444e' d='M2 32L8 38'/%3E%3Cpath stroke='%23b07d23' d='M12 38L18 32'/%3E%3Cpath stroke='%23e2b04f' d='M12 32L18 38'/%3E%3Cpath stroke='%23a81f2a' d='M32 38L38 32'/%3E%3Cpath stroke='%23e0444e' d='M32 32L38 38'/%3E%3Cpath stroke='%23b07d23' d='M52 38L58 32'/%3E%3Cpath stroke='%23e2b04f' d='M52 32L58 38'/%3E%3Cpath stroke='%23a81f2a' d='M62 38L68 32'/%3E%3Cpath stroke='%23e0444e' d='M62 32L68 38'/%3E%3Cpath stroke='%23a81f2a' d='M12 48L18 42'/%3E%3Cpath stroke='%23e0444e' d='M12 42L18 48'/%3E%3Cpath stroke='%23b07d23' d='M22 48L28 42'/%3E%3Cpath stroke='%23e2b04f' d='M22 42L28 48'/%3E%3Cpath stroke='%23b07d23' d='M42 48L48 42'/%3E%3Cpath stroke='%23e2b04f' d='M42 42L48 48'/%3E%3Cpath stroke='%23a81f2a' d='M52 48L58 42'/%3E%3Cpath stroke='%23e0444e' d='M52 42L58 48'/%3E%3Cpath stroke='%23a81f2a' d='M22 58L28 52'/%3E%3Cpath stroke='%23e0444e' d='M22 52L28 58'/%3E%3Cpath stroke='%23b07d23' d='M32 58L38 52'/%3E%3Cpath stroke='%23e2b04f' d='M32 52L38 58'/%3E%3Cpath stroke='%23a81f2a' d='M42 58L48 52'/%3E%3Cpath stroke='%23e0444e' d='M42 52L48 58'/%3E%3Cpath stroke='%23a81f2a' d='M32 68L38 62'/%3E%3Cpath stroke='%23e0444e' d='M32 62L38 68'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* linen: the scene paints over it; without WebGL this is the cloth */
+[data-theme='ie'] body {
+  background: repeating-linear-gradient(0deg, var(--weave) 0 1px, transparent 1px 4px), repeating-linear-gradient(90deg, var(--weave) 0 1px, transparent 1px 4px), var(--bg);
+}
+/* text set straight on the cloth gets a linen halo, so a motif behind it never gets in the way */
+[data-theme='ie'] :is(main h1, main h2, .lead, .eyebrow, .byline, .page-head, .detail-text, .results-head .count, .shelf-head, .site-foot, .empty, .rules, .tags, .photo-credit, .active-filters, .more, .detail-cols, .compare > li) {
+  text-shadow: 0 0 2px var(--halo), 0 0 4px var(--halo), 0 0 8px var(--halo), 0 0 14px var(--halo);
+}
+[data-theme='ie'] :is(.btn, .chip, .tag, .fav-btn, .card, .facts, .vrow, .stars, .rate, .src-card, .cast li, .mirror-btn, .pick-btn, .search, .badge) { text-shadow: none; }
+/* and blocks of text sit on a patch of cloth ironed smooth: the motifs fade around them */
+[data-theme='ie'] :is(.page-head, .detail-text, .detail-cols > section > h2, main > section > .shelf-head, .results-head, .active-filters, .rules, .empty-page, .photo-credit, .site-foot .wrap) {
+  --scrim: color-mix(in srgb, var(--bg) 88%, transparent);
+  background: var(--scrim); box-shadow: 0 0 16px 12px var(--scrim); border-radius: 12px;
+}
+
+/* the header: the embroidered end of a towel */
+[data-theme='ie'] .site-head { background: var(--ie-band) left 0 bottom 6px / 38.4px 26.4px repeat-x, var(--surface); padding-bottom: 34px; box-shadow: 0 6px 14px -10px rgb(60 30 10 / 40%); }
+[data-theme='ie'] .nav-link[aria-current='page'] { box-shadow: inset 0 -3px 0 var(--primary); border-radius: 2px; }
+[data-theme='ie'] :is(.nav-link, .theme-menu > .icon-btn) { border-radius: 4px; }
+
+/* patches: a running stitch just inside the edge */
+[data-theme='ie'] :is(.btn, .fav-btn) { position: relative; border-radius: 4px; }
+[data-theme='ie'] :is(.btn, .fav-btn)::after { content: ''; position: absolute; inset: 3px; border: 1.5px dashed currentColor; border-radius: 2px; opacity: .5; pointer-events: none; }
+[data-theme='ie'] .btn.ghost, [data-theme='ie'] .fav-btn { background: var(--surface); border-color: var(--line); }
+[data-theme='ie'] .btn.ghost:hover, [data-theme='ie'] .fav-btn:hover { border-color: var(--primary); }
+[data-theme='ie'] .chip { border-radius: 4px; border-style: dashed; border-color: color-mix(in srgb, var(--ink) 38%, transparent); background: var(--surface); }
+[data-theme='ie'] .chip:hover { border-color: var(--primary); }
+[data-theme='ie'] :is(.chip[aria-pressed='true'], .chip.on) { border-style: solid; background: var(--primary); border-color: var(--primary); color: var(--primary-ink); }
+[data-theme='ie'] .tag { border-radius: 3px; background: var(--surface); border: 1.5px dashed color-mix(in srgb, var(--ink) 30%, transparent); }
+[data-theme='ie'] .tag:hover { border-color: var(--primary); background: var(--surface-2); }
+[data-theme='ie'] :is(.vrow, .facts, .src-card, .filters, .cast li, .disc-nav, .theme-pop, dialog.log, .col-list .fav-row, .combo-list) {
+  border-radius: 4px; outline: 1.5px dashed var(--stitch); outline-offset: -6px;
+}
+[data-theme='ie'] .col-list .fav-row a { border: 0; }
+[data-theme='ie'] .col-list > li > a { border-radius: 4px; border: 1.5px dashed var(--stitch); }
+[data-theme='ie'] .disc-nav { background: var(--surface); }
+[data-theme='ie'] :is(.search, .pick-btn, .combo-field input, .mirror-btn, .dock-switch) { border-radius: 4px; }
+[data-theme='ie'] .search { border-color: var(--line); }
+[data-theme='ie'] .search:focus-within { border-color: var(--primary); }
+[data-theme='ie'] .badge { border-radius: 3px; }
+[data-theme='ie'] .traits li { border-radius: 3px; background: none; border: 1.5px dashed color-mix(in srgb, var(--ink) 28%, transparent); }
+
+/* the welcome: the title on a sampler between two stitched waves; the scene shows all around it */
+[data-theme='ie'] .hero-text {
+  position: relative; padding: 38px 22px; border-radius: 4px; box-shadow: var(--shadow);
+  background: var(--ie-wave) left 0 top 12px / 19.2px 12px repeat-x, var(--ie-wave) left 9.6px bottom 12px / 19.2px 12px repeat-x, var(--surface);
+}
+[data-theme='ie'] .hero-text::after { content: ''; position: absolute; inset: 4px; border: 1.5px dashed var(--stitch); border-radius: 2px; pointer-events: none; }
+[data-theme='ie'] .hero h1 { font-size: clamp(30px, 4.6vw, 50px); letter-spacing: -0.015em; }
+[data-theme='ie'] .hero .lead { opacity: 1; }
+@media (min-width: 900px) {
+  [data-theme='ie'] .hero-text { padding: 46px 34px; }
+  [data-theme='ie'] .hero-box { border-radius: 4px; outline: 1.5px dashed var(--stitch); outline-offset: -6px; }
+}
+
+/* shelves on the home page: each one a ștergar, a towel with embroidered ends and a fringe */
+[data-theme='ie'] .shelves { gap: 52px; }
+[data-theme='ie'] .shelves .shelf-section {
+  position: relative; padding: 46px 16px 40px; border-radius: 2px; box-shadow: var(--shadow);
+  background: var(--ie-band) left 0 top 8px / 38.4px 26.4px repeat-x, var(--ie-band) left 0 bottom 8px / 38.4px 26.4px repeat-x, var(--towel);
+}
+[data-theme='ie'] .shelves .shelf-section::after {
+  content: ''; position: absolute; left: 4px; right: 4px; top: 100%; height: 16px; pointer-events: none;
+  background: repeating-linear-gradient(90deg, var(--towel) 0 2px, transparent 2px 5px);
+  -webkit-mask: linear-gradient(#000 40%, transparent); mask: linear-gradient(#000 40%, transparent);
+}
+@media (min-width: 768px) { [data-theme='ie'] .shelves .shelf-section { padding-inline: 28px; } }
+/* a wave stitched under each heading */
+[data-theme='ie'] :is(.shelf-head h2, .page-head h1, .detail-cols h2)::after { content: ''; display: block; width: min(100%, 230px); height: 12px; margin-top: 8px; background: var(--ie-wave) left / 19.2px 12px repeat-x; }
+[data-theme='ie'] .shelf-head { align-items: end; }
+
+/* cards: small patches, the cover sewn in a frame */
+[data-theme='ie'] .card { padding: 7px; border-radius: 3px; }
+[data-theme='ie'] .card::after { content: ''; position: absolute; inset: 3px; border: 1.5px dashed var(--stitch); border-radius: 2px; pointer-events: none; transition: border-color .2s; }
+[data-theme='ie'] .card:hover { transform: translateY(-2px) rotate(-.6deg); }
+[data-theme='ie'] .card:hover::after { border-color: var(--primary); }
+[data-theme='ie'] :is(.card .cover, .card-link) { border-radius: 2px; }
+[data-theme='ie'] .card-body { padding: 10px 8px 8px; }
+[data-theme='ie'] .card-play { top: 15px; right: 15px; background: var(--primary); color: var(--primary-ink); box-shadow: 0 0 0 3px var(--surface), 0 4px 10px rgb(0 0 0 / 25%); }
+[data-theme='ie'] .card-title { font-family: var(--font-head); font-weight: 700; }
+
+/* pages: the cover framed with a stitched border */
+[data-theme='ie'] :is(.detail-hero > .cover, .person-photo) { box-shadow: 0 0 0 9px var(--surface), var(--shadow); outline: 2px dashed var(--primary); outline-offset: 4px; border-radius: 2px; margin: 10px; }
+@media (max-width: 759px) { [data-theme='ie'] .detail-hero > .cover { width: min(220px, 62vw); } }
+@media (min-width: 760px) { [data-theme='ie'] .detail-hero > .cover { width: calc(100% - 20px); } }
+[data-theme='ie'] .facts dt { color: var(--muted); }
+
+/* the footer: the other end of the towel */
+[data-theme='ie'] .site-foot { border-top: 0; padding-top: 50px; background: var(--ie-band) left 0 top 10px / 38.4px 26.4px repeat-x; }
+
+/* the player: a stitched wave along its top */
+[data-theme='ie'] .dock-bar { border-top: 0; background: var(--ie-wave) left 0 top 3px / 14.4px 9px repeat-x, var(--surface); padding-top: 14px; }
+[data-theme='ie'] .main-play { box-shadow: 0 0 0 3px var(--surface), 0 0 0 4.5px var(--primary); }
+
+[data-theme='ie'] .theme-pop { box-shadow: var(--shadow-hover); }
+[data-theme='ie'] .age-badge { border-radius: 3px; }
+
+.sw-ie i { border-radius: 4px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' viewBox='0 0 70 70'%3E%3Cg stroke-linecap='round' stroke-width='2.8'%3E%3Cpath stroke='%238a0e17' d='M32 8L38 2'/%3E%3Cpath stroke='%23b3121d' d='M32 2L38 8'/%3E%3Cpath stroke='%238a0e17' d='M22 18L28 12'/%3E%3Cpath stroke='%23b3121d' d='M22 12L28 18'/%3E%3Cpath stroke='%23000' d='M32 18L38 12'/%3E%3Cpath stroke='%232a2420' d='M32 12L38 18'/%3E%3Cpath stroke='%238a0e17' d='M42 18L48 12'/%3E%3Cpath stroke='%23b3121d' d='M42 12L48 18'/%3E%3Cpath stroke='%238a0e17' d='M12 28L18 22'/%3E%3Cpath stroke='%23b3121d' d='M12 22L18 28'/%3E%3Cpath stroke='%23000' d='M22 28L28 22'/%3E%3Cpath stroke='%232a2420' d='M22 22L28 28'/%3E%3Cpath stroke='%23000' d='M42 28L48 22'/%3E%3Cpath stroke='%232a2420' d='M42 22L48 28'/%3E%3Cpath stroke='%238a0e17' d='M52 28L58 22'/%3E%3Cpath stroke='%23b3121d' d='M52 22L58 28'/%3E%3Cpath stroke='%238a0e17' d='M2 38L8 32'/%3E%3Cpath stroke='%23b3121d' d='M2 32L8 38'/%3E%3Cpath stroke='%23000' d='M12 38L18 32'/%3E%3Cpath stroke='%232a2420' d='M12 32L18 38'/%3E%3Cpath stroke='%238a0e17' d='M32 38L38 32'/%3E%3Cpath stroke='%23b3121d' d='M32 32L38 38'/%3E%3Cpath stroke='%23000' d='M52 38L58 32'/%3E%3Cpath stroke='%232a2420' d='M52 32L58 38'/%3E%3Cpath stroke='%238a0e17' d='M62 38L68 32'/%3E%3Cpath stroke='%23b3121d' d='M62 32L68 38'/%3E%3Cpath stroke='%238a0e17' d='M12 48L18 42'/%3E%3Cpath stroke='%23b3121d' d='M12 42L18 48'/%3E%3Cpath stroke='%23000' d='M22 48L28 42'/%3E%3Cpath stroke='%232a2420' d='M22 42L28 48'/%3E%3Cpath stroke='%23000' d='M42 48L48 42'/%3E%3Cpath stroke='%232a2420' d='M42 42L48 48'/%3E%3Cpath stroke='%238a0e17' d='M52 48L58 42'/%3E%3Cpath stroke='%23b3121d' d='M52 42L58 48'/%3E%3Cpath stroke='%238a0e17' d='M22 58L28 52'/%3E%3Cpath stroke='%23b3121d' d='M22 52L28 58'/%3E%3Cpath stroke='%23000' d='M32 58L38 52'/%3E%3Cpath stroke='%232a2420' d='M32 52L38 58'/%3E%3Cpath stroke='%238a0e17' d='M42 58L48 52'/%3E%3Cpath stroke='%23b3121d' d='M42 52L48 58'/%3E%3Cpath stroke='%238a0e17' d='M32 68L38 62'/%3E%3Cpath stroke='%23b3121d' d='M32 62L38 68'/%3E%3C/g%3E%3C/svg%3E") center / 20px 20px no-repeat, #f4eddf; box-shadow: inset 0 0 0 1px #0002; }

@@ -2,6 +2,17 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.32.0] - 2026-11-25
+
+### Added
+- A “Settings” button (the gear) replaces the theme button: choose the language, the maximum age and the theme there.
+- Maximum age: stories for older children no longer show anywhere, not in “Surprise me!”, favourites or history either. The gear shows the chosen age, and sources, records, people and search say how many recordings are hidden.
+- A link to a story hidden by the age says what age it's for and has a “Show anyway” button.
+- Three new themes with a moving 3D scene behind the page that answers to taps: Embroidery, Shadow play and Valve radio.
+
+### Removed
+- The age filter in Browse; the age is now chosen once, in Settings.
+
 ## [1.31.2] - 2026-11-25
 
 ### Removed

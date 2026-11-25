@@ -2,6 +2,17 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.32.0] - 2026-11-25
+
+### Added
+- Butonul „Setări” (rotița) înlocuiește butonul de teme: de acolo alegi limba, vârsta maximă și tema.
+- Vârsta maximă: poveștile pentru copii mai mari nu mai apar nicăieri, nici în „Surprinde-mă!”, nici în favorite sau în istoric. Pe rotiță apare vârsta aleasă, iar sursele, discurile, oamenii și căutarea spun câte înregistrări sunt ascunse.
+- Un link spre o poveste ascunsă de vârstă spune pentru ce vârstă e și are butonul „Arată oricum”.
+- Trei teme noi, cu o scenă 3D care se mișcă în spatele paginii și răspunde la atingeri: Ie, Teatru de umbre și Radio cu lămpi.
+
+### Removed
+- Filtrul de vârstă din Explorează; acum vârsta se alege o singură dată, în Setări.
+
 ## [1.31.2] - 2026-11-25
 
 ### Removed

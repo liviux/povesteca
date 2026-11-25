@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
+  allVersions, allVersionsByStory, allVersionsBySource, fits, storyFits, hiddenCount,
   storiesByAuthor, authorsOf, collectionOf, peopleByVersion, catalogFilters, loadBrowse, norm, compareRo, cover, storyCover, portrait, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
@@ -24,25 +25,31 @@ function Shelf({ id, heading, more, children, action }) {
   );
 }
 
-// a new random pick on every visit, kept while browsing so Back shows the same cards
+// a new random pick on every visit, kept while browsing so Back shows the same cards (a new age picks again)
 const pick = (f) => shuffle(versions.filter(f)).slice(0, 12);
-const picks = {
-  tonight: pick((v) => v.moods.includes('linistitoare')),
-  radio: pick((v) => v.kind === 'teatru-radiofonic'),
-  cast: pick((v) => (v.castCount || 0) >= 8),
-  short: pick((v) => v.duration < 900),
-};
+let picks, picksAge;
+function homePicks() {
+  if (picks && picksAge === state.maxAge) return picks;
+  picksAge = state.maxAge;
+  return (picks = {
+    tonight: pick((v) => v.moods.includes('linistitoare')),
+    radio: pick((v) => v.kind === 'teatru-radiofonic'),
+    cast: pick((v) => (v.castCount || 0) >= 8),
+    short: pick((v) => v.duration < 900),
+  });
+}
 
 export function Home() {
   const s = useStore();
   const [t] = useT();
   const [seed, setSeed] = useState(0);
-  const discover = useMemo(() => shuffle(stories).slice(0, 8), [seed]);
+  const discover = useMemo(() => shuffle(stories).slice(0, 8), [seed, s.maxAge]);
   useEffect(() => title(''), []);
   if (!versions.length) return <main id="main" tabindex="-1" class="wrap page"><p class="empty">{t.empty}</p></main>;
 
-  const cont = s.history.map((h) => versionById.get(h.id)).filter((v) => v && savedOffset(v, s.pos[v.id]) > 10).slice(0, 10);
+  const cont = s.history.map((h) => versionById.get(h.id)).filter((v) => v && fits(v) && savedOffset(v, s.pos[v.id]) > 10).slice(0, 10);
   const R = s.ratings;
+  const picks = homePicks();
   const rows = [
     ['continue', cont, null],
     ['tonight', picks.tonight, '/explorare?mood=linistitoare&sort=scurte'],
@@ -110,13 +117,33 @@ const find = (k, v) => `/explorare?${k}=${encodeURIComponent(v)}`;
 const stats = (...parts) => parts.filter(Boolean).map((x) => x.replace(/ /g, '\u00a0')).join(' · ');
 const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
 const byName = compareRo;
+// a record's or series' recordings that fit the age chosen in Settings
+const colItems = (c) => c.items.map((id) => versionById.get(id)).filter((v) => v && fits(v));
+// "(3 ascunse de vârsta aleasă)" after a count, only when something is hidden
+const hiddenNote = (n, t) => n > 0 && <small class="muted hidden-note"> ({t.hiddenByAge(n)})</small>;
+
+// a story or recording only for older children than the age in Settings, opened from a link someone sent
+function TooOld({ age, onShow }) {
+  const [t] = useT();
+  return (
+    <main id="main" tabindex="-1" class="wrap page empty-page">
+      <img src="/mark.webp" alt="" width="112" height="95" />
+      <h1>{t.tooOldH}</h1>
+      <p class="lead">{t.tooOld(age, state.maxAge)}</p>
+      <div class="actions">
+        <button type="button" class="btn primary" onClick={onShow}>{t.showAnyway}</button>
+        <a class="btn ghost" href="/">{t.home}</a>
+      </div>
+    </main>
+  );
+}
 // the long lists in Explore's filters, A to Z, with how many there are of each in the whole catalogue.
 // Worked out the first time Explore opens, not when the app starts.
 let lists, listsKey;
 function filterLists() {
   // the sorted lists and counts are built with the details; until then only the values that come
   // from the main catalog (authors, origins, kinds) are available, and it costs nothing to wait
-  const key = catalogFilters ? 'details' : 'main';
+  const key = (catalogFilters ? 'details' : 'main') + state.maxAge + state.details;
   if (lists && listsKey === key) return lists;
   const available = {
     kind: new Set(versions.map((v) => v.kind)),
@@ -138,12 +165,23 @@ function filterLists() {
   }
   const toMap = (o) => new Map(Object.entries(o || {}));
   listsKey = key;
-  return (lists = {
+  if (!state.maxAge) return (lists = {
     ...catalogFilters,
     storiesWithChar: toMap(catalogFilters.storiesWithChar),
     storiesFrom: toMap(catalogFilters.storiesFrom),
     recsWith: toMap(catalogFilters.recsWith),
     available,
+  });
+  // with an age chosen, count again over what fits, and leave out the names left with nothing
+  const storiesWithChar = countBy(stories, (s) => s.characters || []);
+  const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
+  const recsWith = countBy(versions, (v) => new Set(peopleByVersion.get(v.id) || []));
+  return (lists = {
+    storiesWithChar, storiesFrom, recsWith, available,
+    authors: catalogFilters.authors.filter((a) => storiesByAuthor.has(a)),
+    characters: catalogFilters.characters.filter((c) => storiesWithChar.has(c)),
+    crew: catalogFilters.crew.filter((n) => recsWith.has(n)),
+    origins: catalogFilters.origins.filter((o) => storiesFrom.has(o)),
   });
 }
 
@@ -283,7 +321,12 @@ export function Explore({ query }) {
   };
   const list = useMemo(
     () => (waiting ? [] : sortVersions(applyFilters(rel ? versions.filter((v) => rel.has(v.id)) : versions, f, s.ratings), sort, s.ratings, rel)),
-    [query, s.details, s.ratings, sort, rel, waiting],
+    [query, s.details, s.ratings, sort, rel, waiting, s.maxAge],
+  );
+  // what the same search would find without the age in Settings, so "0 results" can say why
+  const hiddenN = useMemo(
+    () => (waiting || !s.maxAge ? 0 : applyFilters(rel ? allVersions.filter((v) => rel.has(v.id)) : allVersions, f).length - list.length),
+    [list],
   );
   // a story is in the results when one of its recordings is, in the order of its first recording
   const storyList = [...new Set(list.map((v) => v.storyId))].map((id) => storyById.get(id));
@@ -339,18 +382,17 @@ export function Explore({ query }) {
           <fieldset class="fgroup"><legend>{t.f.show}</legend><div class="chips">{opt('show', 'povesti', t.storiesH)}{opt('show', 'inregistrari', t.recordings)}</div></fieldset>
           {chips('genre')}{chips('kind')}{chips('voices')}{chips('sfx')}{chips('music')}{chips('mood', 'moods')}
           <fieldset class="fgroup"><legend>{t.f.dur}</legend><div class="chips">{Object.keys(DURATIONS).map((d) => opt('dur', d, t.durOpt[d]))}</div></fieldset>
-          {combo('age',[3, 4, 5, 6, 7, 8, 9, 10].map((n) => [String(n), t.ageOpt(n)]))}
           {/* how many there are of each, in the whole catalogue: stories for story fields, recordings for the rest */}
           {combo('origin', L.origins.map((o) => [o, label('origin', o, lang), t.nStories(L.storiesFrom.get(o))]))}
           {combo('author', L.authors.map((a) => [a, a, t.nStories(storiesByAuthor.get(a).length)]))}
           {combo('char', L.characters.map((c) => [c, c, t.nStories(L.storiesWithChar.get(c))]))}
           {combo('person', L.crew.map((n) => [n, n, t.nRec(L.recsWith.get(n))]))}
-          {combo('source', sources.map((x) => [x.id, x.name, t.nRec(versionsBySource.get(x.id)?.length || 0)]))}
-          {combo('col', collections.map((c) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title, t.nRec(c.items.length)]))}
+          {combo('source', sources.filter((x) => versionsBySource.has(x.id)).map((x) => [x.id, x.name, t.nRec(versionsBySource.get(x.id).length)]))}
+          {combo('col', collections.map((c) => [c, colItems(c).length]).filter(([, n]) => n).map(([c, n]) => [c.id, c.code ? `${c.code} · ${c.title}` : c.title, t.nRec(n)]))}
         </aside>
         <section class="results">
           <div class="results-head">
-            <p class="count" aria-live="polite">{waiting ? t.loading : f.show === 'povesti' ? t.nStories(storyList.length) : f.show ? t.nRec(list.length) : `${t.nStories(storyList.length)} · ${t.nRec(list.length)}`}</p>
+            <p class="count" aria-live="polite">{waiting ? t.loading : f.show === 'povesti' ? t.nStories(storyList.length) : f.show ? t.nRec(list.length) : `${t.nStories(storyList.length)} · ${t.nRec(list.length)}`}{hiddenNote(hiddenN, t)}</p>
             <Pick label={t.sortBy} value={sort} items={Object.entries(t.sorts).filter(([k]) => k !== 'relevanta' || rel)} onPick={(v) => update('sort', v)} />
             <button type="button" class="btn small accent" disabled={!list.length} onClick={() => surprise(list)}><Icon n="shuffle" size={16} />{t.surprise}</button>
           </div>
@@ -381,10 +423,14 @@ export function StoryPage({ id }) {
   const [t, lang] = useT();
   const story = storyById.get(id);
   const [sort, setSort] = useState('recomandate');
-  useEffect(() => story && title(story.title), [id]);
+  const [all, setAll] = useState(false); // "Arată oricum": the recordings hidden by the age too
+  useEffect(() => { story && title(story.title); setAll(false); }, [id]);
   if (!story) return <NotFound />;
-  const vs = sortVersions(versionsByStory.get(id) || [], sort, s.ratings);
-  const best = bestVersion(id, s.ratings);
+  const every = allVersionsByStory.get(id) || [];
+  const hidden = all ? 0 : hiddenCount(every);
+  if (hidden && hidden === every.length) return <TooOld age={Math.min(...every.map((v) => v.age || 0))} onShow={() => setAll(true)} />;
+  const vs = sortVersions(all ? every : versionsByStory.get(id) || [], sort, s.ratings);
+  const best = bestVersion(id, s.ratings, all);
   const dups = duplicateMap(vs);
   const book = storyLinks(story.id);
   const summary = story.summary?.[lang] || story.summary?.ro || story.summary?.en;
@@ -415,6 +461,7 @@ export function StoryPage({ id }) {
       <section aria-labelledby="vh">
         <div class="shelf-head">
           <h2 id="vh">{t.recordings} {cnt(vs.length)}</h2>
+          {hidden > 0 && <button type="button" class="link-btn" onClick={() => setAll(true)}>{t.hiddenByAge(hidden)} · {t.showThem}</button>}
           {vs.length > 1 && (
             <Pick label={t.sortBy} value={sort} items={['recomandate', 'rating', 'scurte', 'lungi'].map((k) => [k, t.sorts[k]])} onPick={setSort} />
           )}
@@ -481,11 +528,17 @@ export function VersionPage({ id }) {
   const s = useStore();
   const [t, lang] = useT();
   const v = versionById.get(id);
-  useEffect(() => v && title(storyById.get(v.storyId).title), [id]);
+  const [all, setAll] = useState(false);
+  useEffect(() => { v && title(storyById.get(v.storyId).title); setAll(false); }, [id]);
   if (!v) return <NotFound />;
+  if (!all && !fits(v)) return <TooOld age={v.age} onShow={() => setAll(true)} />;
   const story = storyById.get(v.storyId);
   const src = sourceById.get(v.sourceId);
-  const col = collectionOf.get(v.id);
+  // the record's neighbours that fit the age; one opened anyway still gets its place on the record
+  const colOf = collectionOf.get(v.id);
+  const items = colOf && colItems(colOf.c).map((x) => x.id);
+  if (items && !items.includes(v.id)) items.splice(colOf.c.items.filter((x) => items.includes(x) || x === v.id).indexOf(v.id), 0, v.id);
+  const col = colOf && { c: colOf.c, i: items.indexOf(v.id), items };
   const c = v.credits || {};
   // the credits that go in the top box, in this order (the cast has its own list below it)
   const crew = ['director', 'adaptation', 'music', 'songs', 'soundDesign', 'narrator'].filter((k) => c[k]?.length);
@@ -571,8 +624,8 @@ export function VersionPage({ id }) {
         <nav class="disc-nav" aria-label={col.c.type === 'disc' ? t.fromDisc : t.fromCol}>
           <p><Icon n="disc" size={18} />{col.c.type === 'disc' ? t.fromDisc : t.fromCol} <a href={`/colectie/${col.c.id}`}>{col.c.title}</a></p>
           <div>
-            {col.i > 0 && <a class="btn ghost small" href={`/inregistrare/${col.c.items[col.i - 1]}`}><Icon n="left" size={16} />{storyById.get(versionById.get(col.c.items[col.i - 1]).storyId).title}</a>}
-            {col.i < col.c.items.length - 1 && <a class="btn ghost small" href={`/inregistrare/${col.c.items[col.i + 1]}`}>{storyById.get(versionById.get(col.c.items[col.i + 1]).storyId).title}<Icon n="right" size={16} /></a>}
+            {col.i > 0 && <a class="btn ghost small" href={`/inregistrare/${col.items[col.i - 1]}`}><Icon n="left" size={16} />{storyById.get(versionById.get(col.items[col.i - 1]).storyId).title}</a>}
+            {col.i < col.items.length - 1 && <a class="btn ghost small" href={`/inregistrare/${col.items[col.i + 1]}`}>{storyById.get(versionById.get(col.items[col.i + 1]).storyId).title}<Icon n="right" size={16} /></a>}
           </div>
         </nav>
       )}
@@ -618,13 +671,14 @@ function Rate({ id }) {
 
 // ---------- Sources ----------
 export function SourcesPage() {
+  useStore();
   const [t, lang] = useT();
   useEffect(() => title(t.sources), []);
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
         <h1>{t.sources}</h1>
-        <p class="lead muted">{stats(t.nSources(sources.length), t.nStories(stories.length), t.nRec(versions.length))}</p>
+        <p class="lead muted">{stats(t.nSources(sources.length), t.nStories(stories.length), t.nRec(versions.length))}{hiddenNote(hiddenCount(allVersions), t)}</p>
         <p class="lead">{t.sourcesLead}</p>
       </header>
       <ul class="src-list">
@@ -633,7 +687,7 @@ export function SourcesPage() {
           return (
             <li class="src-card">
               <div class="src-body">
-                <p class="eyebrow">{t.platform[src.type] || src.type} · {t.nRec(vs.length)}</p>
+                <p class="eyebrow">{t.platform[src.type] || src.type} · {t.nRec(vs.length)}{hiddenNote(hiddenCount(allVersionsBySource.get(src.id)), t)}</p>
                 <h2><a href={`/sursa/${src.id}`}>{src.name}</a></h2>
                 <p>{src.description[lang] || src.description.ro}</p>
                 <div class="actions">
@@ -685,11 +739,14 @@ export function PersonPage({ name }) {
   const s = useStore();
   const [t] = useT();
   const written = storiesByAuthor.get(name) || [];
-  const performed = useMemo(() => versions.filter((v) => rolesIn(v, name).length), [name, s.details]);
+  const performedAll = useMemo(() => allVersions.filter((v) => rolesIn(v, name).length), [name, s.details]);
+  const performed = performedAll.filter(fits);
   const [limit, setLimit] = useState({ s: PAGE_SIZE, v: PAGE_SIZE });
   useEffect(() => { name && title(name); setLimit({ s: PAGE_SIZE, v: PAGE_SIZE }); }, [name]);
   const ready = s.details;
-  if (ready && !written.length && !performed.length) return <NotFound />;
+  // everything of theirs, the age aside: a person with only recordings for older children isn't "not found"
+  const everyVs = useMemo(() => [...new Set([...allVersions.filter((v) => authorsOf(storyById.get(v.storyId)).includes(name)), ...performedAll])], [name, performedAll]);
+  if (ready && !everyVs.length && !written.length) return <NotFound />;
   const w = personInfo(name);
   const sorted = [...written].sort((a, b) => (a.year || 9999) - (b.year || 9999) || compareRo(a.title, b.title));
   const allVs = [...new Set([...sorted.flatMap((st) => versionsByStory.get(st.id) || []), ...performed])];
@@ -702,7 +759,7 @@ export function PersonPage({ name }) {
         <div class="person-text">
           <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {roles.map((r) => t.roleNames[r]).join(' · ')}</p>
           <h1>{name}</h1>
-          <p class="lead muted">{stats(written.length && t.nStories(written.length), ready ? t.nRec(allVs.length) : t.loading)}</p>
+          <p class="lead muted">{stats(written.length && t.nStories(written.length), ready ? t.nRec(allVs.length) : t.loading)}{ready && hiddenNote(hiddenCount(everyVs), t)}</p>
           <div class="actions">
             <button type="button" class="btn accent" disabled={!allVs.length} onClick={() => surprise(allVs)}><Icon n="shuffle" size={16} />{t.surprise}</button>
             <FavButton list="favPeople" id={name} title={name} withText onText={t.favOn} />
@@ -742,6 +799,7 @@ export function PersonPage({ name }) {
 
 // ---------- Source & collection ----------
 export function SourcePage({ id }) {
+  useStore();
   const [t, lang] = useT();
   const src = sourceById.get(id);
   const [limit, setLimit] = useState(PAGE_SIZE);
@@ -749,13 +807,13 @@ export function SourcePage({ id }) {
   if (!src) return <NotFound />;
   const vs = sortVersions(versionsBySource.get(id) || [], 'titlu');
   const shown = vs.slice(0, limit);
-  const cols = collections.filter((c) => c.sourceId === id);
+  const cols = collections.filter((c) => c.sourceId === id && colItems(c).length);
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
         <p class="eyebrow"><a href="/surse">{t.sources}</a> · {t.platform[src.type] || src.type}</p>
         <h1>{src.name}</h1>
-        <p class="lead muted">{stats(t.nStories(new Set(vs.map((v) => v.storyId)).size), t.nRec(vs.length))}</p>
+        <p class="lead muted">{stats(t.nStories(new Set(vs.map((v) => v.storyId)).size), t.nRec(vs.length))}{hiddenNote(hiddenCount(allVersionsBySource.get(id)), t)}</p>
         <p class="lead">{src.description[lang] || src.description.ro}</p>
         <div class="actions"><FavButton list="favSources" id={src.id} title={src.name} withText onText={t.favOn} /><a class="btn ghost" href={src.url} target="_blank" rel="noopener">{t.sourceSite}<Icon n="ext" size={16} /></a></div>
       </header>
@@ -779,6 +837,7 @@ export function SourcePage({ id }) {
 }
 
 export function CollectionPage({ id }) {
+  useStore();
   const [t, lang] = useT();
   const c = collectionById.get(id);
   useEffect(() => c && title(c.title), [id]);
@@ -793,8 +852,8 @@ export function CollectionPage({ id }) {
         <div class="actions"><FavButton list="favCols" id={c.id} title={c.title} withText onText={t.favOn} />{c.url && <a class="btn ghost" href={c.url} target="_blank" rel="noopener">{c.url.includes('discogs.com') ? 'Discogs' : t.sourceSite}<Icon n="ext" size={16} /></a>}</div>
       </header>
       <section class="shelf-section" aria-labelledby="on-disc">
-        <div class="shelf-head"><h2 id="on-disc">{c.type === 'disc' ? t.onDisc : t.inCol} {cnt(c.items.length)}</h2></div>
-        <ol class="compare">{c.items.map((vid) => <li><VersionRow v={versionById.get(vid)} /></li>)}</ol>
+        <div class="shelf-head"><h2 id="on-disc">{c.type === 'disc' ? t.onDisc : t.inCol} {cnt(colItems(c).length)}{hiddenNote(hiddenCount(c.items.map((x) => versionById.get(x))), t)}</h2></div>
+        <ol class="compare">{colItems(c).map((v) => <li><VersionRow v={v} /></li>)}</ol>
       </section>
     </main>
   );
@@ -816,12 +875,12 @@ export function Mine() {
       ))}</div>
     </section>
   );
-  const rec = (list, remove, progress) => list.map((id) => versionById.get(id)).filter(Boolean).map((v) => ({
+  const rec = (list, remove, progress) => list.map((id) => versionById.get(id)).filter((v) => v && fits(v)).map((v) => ({
     key: v.id, title: storyById.get(v.storyId).title, remove: () => remove(v.id),
     card: <VersionCard v={v} progress={progress ? Math.min(1, savedOffset(v, s.pos[v.id]) / v.duration) : null} />,
   }));
   const saved = [
-    ...s.favStories.map((id) => storyById.get(id)).filter(Boolean).map((x) => ({ key: x.id, title: x.title, remove: () => toggleIn('favStories', x.id), card: <StoryCard s={x} /> })),
+    ...s.favStories.map((id) => storyById.get(id)).filter((x) => x && storyFits(x)).map((x) => ({ key: x.id, title: x.title, remove: () => toggleIn('favStories', x.id), card: <StoryCard s={x} /> })),
     ...rec(s.favVersions, (id) => toggleIn('favVersions', id)),
   ];
   const hist = rec(s.history.map((h) => h.id), (id) => set({ history: s.history.filter((h) => h.id !== id) }), true);
@@ -843,13 +902,16 @@ export function Mine() {
   const withPerson = (n) => versions.filter((v) => (peopleByVersion.get(v.id) || []).includes(n) || authorsOf(storyById.get(v.storyId)).includes(n));
   // everything kept in favourites, as recordings: the button below picks one of them at random
   const pool = [...new Set([
-    ...s.favVersions.map((id) => versionById.get(id)),
+    ...s.favVersions.map((id) => versionById.get(id)).filter((v) => v && fits(v)),
     ...s.favStories.flatMap((id) => versionsByStory.get(id) || []),
     ...s.favPeople.flatMap(withPerson),
     ...s.favSources.flatMap((id) => versionsBySource.get(id) || []),
-    ...s.favCols.flatMap((id) => (collectionById.get(id)?.items || []).map((x) => versionById.get(x))),
+    ...s.favCols.flatMap((id) => { const c = collectionById.get(id); return c ? colItems(c) : []; }),
   ].filter(Boolean))];
   const none = !saved.length && !hist.length && !s.favPeople.length && !s.favSources.length && !s.favCols.length;
+  // favourites and history kept but hidden by the age in Settings
+  const hiddenMine = state.maxAge ? s.favStories.filter((id) => storyById.get(id) && !storyFits(storyById.get(id))).length
+    + new Set([...s.favVersions, ...s.history.map((h) => h.id)].filter((id) => versionById.get(id) && !fits(versionById.get(id)))).size : 0;
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class="page-head">
@@ -857,6 +919,7 @@ export function Mine() {
         {pool.length > 0 && <div class="actions"><button type="button" class="btn accent" onClick={() => surprise(pool)}><Icon n="shuffle" />{t.surpriseFav}</button></div>}
       </header>
       {none && <p class="empty">{t.mineEmpty}</p>}
+      {hiddenMine > 0 && <p class="muted">{t.hiddenMine(hiddenMine)}</p>}
       {block('saved', t.savedH, saved)}
       {rows('people', t.peopleH, 'favPeople', (n) => {
         const photo = personInfo(n)?.photo;

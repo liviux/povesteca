@@ -1,7 +1,7 @@
 // the catalog without its long texts; see vite.config.js
 import urls from 'virtual:catalog-urls';
 import { label, ENUMS } from './i18n.js';
-import { set } from './store.js';
+import { set, state } from './store.js';
 
 let catalog = { stories: [], versions: [], sources: [], collections: [] };
 export let loadError = null;
@@ -14,15 +14,19 @@ try {
   console.error('catalog:', e);
 }
 
-export const { stories, versions, sources, collections } = catalog;
+export const { sources, collections } = catalog;
+// the whole catalogue; `stories` and `versions` below hold only what fits the age chosen in Settings
+export const allStories = catalog.stories;
+export const allVersions = catalog.versions;
 export const REPO = 'https://github.com/liviux/povesteca';
 
 // Mood filters run before rendering, so keep missing values list-shaped too.
-for (const v of versions) v.moods ??= [];
+for (const v of allVersions) v.moods ??= [];
 
 const map = (list) => new Map(list.map((x) => [x.id, x]));
-export const storyById = map(stories);
-export const versionById = map(versions);
+// by id: everything, so a saved or shared link still finds its story; pages check fits() before showing it
+export const storyById = map(allStories);
+export const versionById = map(allVersions);
 export const sourceById = map(sources);
 export const collectionById = map(collections);
 
@@ -96,12 +100,36 @@ const group = (list, key) => {
   for (const x of list) (m.get(x[key]) || m.set(x[key], []).get(x[key])).push(x);
   return m;
 };
-export const versionsByStory = group(versions, 'storyId');
-export const versionsBySource = group(versions, 'sourceId');
+export const allVersionsByStory = group(allVersions, 'storyId');
+export const allVersionsBySource = group(allVersions, 'sourceId');
 // `author` is one name, or a list when a story has several authors
 export const authorsOf = (s) => [].concat(s?.author || []);
-export const storiesByAuthor = new Map();
-for (const s of stories) for (const a of authorsOf(s)) (storiesByAuthor.get(a) || storiesByAuthor.set(a, []).get(a)).push(s);
+
+// --- the age chosen in Settings ("Vârsta maximă"): a recording for older children doesn't show anywhere,
+// and a story shows only while one of its recordings fits. 0 = every age.
+export const fits = (v) => !state.maxAge || (v.age || 0) <= state.maxAge;
+export const storyFits = (s) => (allVersionsByStory.get(s.id) || []).some(fits);
+export const stories = [], versions = [];
+export const versionsByStory = new Map(), versionsBySource = new Map(), storiesByAuthor = new Map();
+// the lists are refilled in place, so every page that imported them sees the new age
+function refit() {
+  versions.splice(0, Infinity, ...allVersions.filter(fits));
+  stories.splice(0, Infinity, ...allStories.filter(storyFits));
+  for (const [m, k] of [[versionsByStory, 'storyId'], [versionsBySource, 'sourceId']]) {
+    m.clear();
+    for (const [id, list] of group(versions, k)) m.set(id, list);
+  }
+  storiesByAuthor.clear();
+  for (const s of stories) for (const a of authorsOf(s)) (storiesByAuthor.get(a) || storiesByAuthor.set(a, []).get(a)).push(s);
+}
+refit();
+export function setMaxAge(n) {
+  state.maxAge = n;
+  refit();
+  set({ maxAge: n });
+}
+// "(3 ascunse de vârsta aleasă)": how many of a list don't fit the age
+export const hiddenCount = (list) => (state.maxAge ? (list || []).filter((v) => !fits(v)).length : 0);
 export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
 
@@ -177,7 +205,7 @@ export const people = (v) => {
 // everyone credited on each recording, once, for filters, people pages and search
 export const peopleByVersion = new Map();
 export function refreshPeople() {
-  for (const v of versions) peopleByVersion.set(v.id, people(v));
+  for (const v of allVersions) peopleByVersion.set(v.id, people(v));
 }
 
 // --- ratings live outside the catalog; this is only the math
@@ -187,8 +215,8 @@ export function score(r) {
   return (3 * 3.5 + sum) / (3 + n);
 }
 
-export function bestVersion(storyId, ratings = {}) {
-  const vs = versionsByStory.get(storyId) || [];
+export function bestVersion(storyId, ratings = {}, all = false) {
+  const vs = (all ? allVersionsByStory : versionsByStory).get(storyId) || [];
   return [...vs].sort(byRecommended(ratings))[0];
 }
 const linkRank = (v) => ({ audio: 0, youtube: 1, archive: 2 }[v.links[0].type] ?? 3);
@@ -225,7 +253,7 @@ function* indexer() {
   const once = new Map();
   const cached = (key, text) => once.get(key) || once.set(key, words(text()).map(id)).get(key);
   const en = (k, val) => cached(k + ':' + val, () => [label(k, val, 'ro'), label(k, val, 'en'), ...(ENUMS[k]?.[val]?.kw || [])].join(' '));
-  for (const v of versions) {
+  for (const v of allVersions) {
     const s = storyById.get(v.storyId);
     const col = collectionOf.get(v.id)?.c;
     list.push({
@@ -384,7 +412,7 @@ export const shuffle = (list) => {
   return a;
 };
 // a new random order on every visit, kept while browsing so "show more" and Back don't reshuffle
-const randomRank = new Map(shuffle(versions).map((v, i) => [v.id, i]));
+const randomRank = new Map(shuffle(allVersions).map((v, i) => [v.id, i]));
 
 const ORIGINAL_MODERN = new Set([
   'afostodata', 'oameni-mici-si-mari',

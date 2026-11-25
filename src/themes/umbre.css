@@ -1,0 +1,150 @@
+/* =====================================================================================================
+   Teatru de umbre · a paper screen lit from behind by an oil lamp, with cut-out puppets on rods.
+   The same in light and dark mode: the screen is always lit, the frame always dark wood.
+   Layout: the header is the top of a wooden puppet theatre with a red velvet valance; the page is the
+   lit screen, its text black like a shadow; cards are lit paper puppets held up on a rod and sway when
+   touched; red curtains at the sides on wide screens; the footer is the stage floor.
+   The moving puppets, the lamp and the flame are drawn by src/fx/umbre.js; without it (no WebGL) the
+   screen still glows, from the CSS below.
+   ===================================================================================================== */
+[data-theme='umbre'], [data-dark][data-theme='umbre'] {
+  color-scheme: light;
+  --screen: #f2a956;
+  --bg: #e99a4b; --surface: #f9e4bb; --surface-2: #efd09a; --ink: #1c0e05; --muted: #45250e; --line: #b98548;
+  --primary: #1c0e05; --primary-ink: #fbe8c3; --accent: #9b2216; --accent-ink: #fff2d8; --focus: #1c0e05;
+  --hero-bg: transparent; --hero-ink: var(--ink);
+  --wood: #45210e; --wood-2: #26120a; --wood-ink: #f8e5c1; --velvet: #8f1d16; --gold: #e0a43c;
+  --radius: 6px; --radius-sm: 5px; --btn-radius: 10px 3px 12px 4px / 4px 12px 3px 10px; --cover-radius: 4px;
+  --shadow: 0 0 0 2px var(--ink), 0 12px 24px -12px rgb(70 22 0 / 60%);
+  --shadow-hover: 0 0 0 2px var(--ink), 0 0 0 6px rgb(255 226 160 / 55%), 0 0 40px rgb(255 214 140 / 80%);
+  --cover-bg: radial-gradient(circle at 50% 38%, #ffe0a2, #e38c3b 62%, #7c3410);
+  --font-head: 'Fraunces', Georgia, serif;
+}
+/* the screen, lit from the middle; the scene from src/fx paints over it */
+[data-theme='umbre'] body {
+  background:
+    radial-gradient(70% 60% at 50% 45%, #ffe3a8 0%, rgb(255 210 140 / 0%) 60%) fixed,
+    radial-gradient(130% 100% at 50% 45%, #f6b462 0%, #ec9e4c 55%, #dc8a3d 100%) fixed;
+}
+/* black text with a halo of lamp light, so a shadow passing behind it never hides it */
+[data-theme='umbre'] main { text-shadow: 0 0 2px var(--screen), 0 0 6px var(--screen), 0 0 12px var(--screen); }
+[data-theme='umbre'] :is(.card, .vrow, .facts, .src-card, .filters, .hero-box, .search, .cast li, .col-list, .disc-nav, .combo-list, .btn, .chip, .tag,
+  .badge, .mirror-btn, .fav-btn, .pick-btn, .combo-field, .skeleton-card, .removable .remove, .traits, .rate .stars button, .page-head .actions) { text-shadow: none; }
+[data-theme='umbre'] :is(h1, h2, h3) { font-weight: 700; letter-spacing: -0.005em; }
+[data-theme='umbre'] .lead, [data-theme='umbre'] .hero .lead { opacity: 1; color: var(--muted); }
+
+/* ---- the theatre: wooden top, velvet valance with a gold fringe ---- */
+[data-theme='umbre'] .site-head {
+  position: relative; z-index: 3; margin-bottom: 30px; color: var(--wood-ink);
+  background: repeating-linear-gradient(90deg, rgb(0 0 0 / 0%) 0 46px, rgb(0 0 0 / 14%) 47px, rgb(0 0 0 / 0%) 49px 140px), linear-gradient(#5a2c12, var(--wood) 55%, var(--wood-2));
+  box-shadow: inset 0 2px 0 rgb(255 220 170 / 18%), inset 0 -3px 0 #140803;
+}
+[data-theme='umbre'] .site-head::after {
+  content: ''; position: absolute; left: 0; right: 0; top: 100%; height: 30px; pointer-events: none;
+  background:
+    linear-gradient(var(--gold), var(--gold)) top / 100% 3px no-repeat,
+    radial-gradient(circle at 50% 0, var(--velvet) 0 19px, transparent 20px) 0 3px / 52px 22px repeat-x,
+    radial-gradient(circle at 50% 0, var(--gold) 0 22px, transparent 23px) 0 3px / 52px 26px repeat-x,
+    repeating-linear-gradient(90deg, #6d120d 0 6px, #a8281d 13px, #6d120d 26px) top / 100% 13px no-repeat;
+  filter: drop-shadow(0 6px 6px rgb(60 20 0 / 45%));
+}
+[data-theme='umbre'] .brand img:first-child { background: #fbe8c3; border-radius: 50%; padding: 5px; box-shadow: 0 0 18px rgb(255 200 110 / 55%); }
+[data-theme='umbre'] .wordmark { filter: brightness(0) invert(.93) sepia(.35); }
+[data-theme='umbre'] :is(.nav-link, .theme-menu > .icon-btn):hover { background: rgb(255 230 190 / 12%); }
+[data-theme='umbre'] .nav-link[aria-current='page'] { color: #ffd48a; box-shadow: inset 0 -3px 0 var(--gold); }
+[data-theme='umbre'] .site-head :focus-visible, [data-theme='umbre'] .site-foot :focus-visible { outline-color: #ffd48a; }
+[data-theme='umbre'] .theme-pop { color: var(--ink); background: var(--surface); box-shadow: 0 0 0 2px var(--ink), 0 18px 40px -10px rgb(30 10 0 / 70%); }
+[data-theme='umbre'] .theme-pop :focus-visible { outline-color: var(--ink); }
+[data-theme='umbre'] .age-badge { background: var(--gold); color: var(--ink); }
+
+/* red curtains at the sides, where a wide screen leaves room outside the page */
+@media (min-width: 1380px) {
+  [data-theme='umbre'] body::after {
+    content: ''; position: fixed; z-index: -1; inset: 0; pointer-events: none;
+    --c: repeating-linear-gradient(90deg, #5e100b 0 5px, #9c251a 14px, #c23a28 18px, #7a1610 26px, #5e100b 34px);
+    background: var(--c) left / 84px 100% no-repeat, var(--c) right / 84px 100% no-repeat;
+    -webkit-mask: radial-gradient(130px 70% at 0 55%, #000 99%, #0000) left / 84px 100% no-repeat, radial-gradient(130px 70% at 100% 55%, #000 99%, #0000) right / 84px 100% no-repeat;
+    mask: radial-gradient(130px 70% at 0 55%, #000 99%, #0000) left / 84px 100% no-repeat, radial-gradient(130px 70% at 100% 55%, #000 99%, #0000) right / 84px 100% no-repeat;
+  }
+}
+
+/* ---- buttons cut from card ---- */
+[data-theme='umbre'] .btn.primary:hover { background: #3a1c0a; box-shadow: 0 0 0 3px rgb(255 226 160 / 70%); }
+[data-theme='umbre'] .btn.accent:hover { background: #7e1a10; box-shadow: 0 0 0 3px rgb(255 226 160 / 70%); }
+[data-theme='umbre'] :is(.btn.ghost, .fav-btn, .chip, .tag, .pick-btn, .combo-field input) { background: var(--surface); border-color: var(--ink); }
+[data-theme='umbre'] .chip { border-radius: var(--btn-radius); }
+[data-theme='umbre'] :is(.chip[aria-pressed='true'], .chip.on) { background: var(--ink); border-color: var(--ink); color: var(--primary-ink); }
+[data-theme='umbre'] .tag:hover { background: var(--surface-2); }
+[data-theme='umbre'] .fav-btn.on { color: var(--accent); border-color: var(--accent); }
+[data-theme='umbre'] .search { border-color: var(--ink); background: var(--surface); }
+[data-theme='umbre'] .search .icon, [data-theme='umbre'] .search input::placeholder { color: var(--muted); }
+[data-theme='umbre'] .card-play, [data-theme='umbre'] .play-btn { background: var(--ink); color: var(--primary-ink); box-shadow: 0 0 0 3px var(--surface), 0 0 18px rgb(255 200 110 / 70%); }
+
+/* ---- the welcome: the title is a shadow on the screen, the search a paper puppet ---- */
+[data-theme='umbre'] .hero h1 { font-size: clamp(34px, 5.6vw, 66px); line-height: 1.04; color: #140802; }
+[data-theme='umbre'] .hero-box { position: relative; }
+@media (min-width: 900px) {
+  [data-theme='umbre'] .hero-box { background: radial-gradient(120% 90% at 50% 0%, #fff3d6, var(--surface) 55%, #f1d39e); box-shadow: var(--shadow); rotate: -1.2deg; }
+  [data-theme='umbre'] .hero-box::after { content: ''; position: absolute; left: 50%; top: 100%; width: 4px; height: 60px; translate: -50%; background: linear-gradient(var(--ink), rgb(28 14 5 / 0%)); }
+}
+
+/* ---- shelves: cards are paper puppets, each on its rod; touched, it sways ---- */
+[data-theme='umbre'] .shelf-head h2 { display: flex; align-items: center; gap: 10px; }
+[data-theme='umbre'] .shelf-head h2::before, [data-theme='umbre'] .page-head h1::before {
+  content: ''; flex: none; width: .9em; height: .9em; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M12 0l2.6 6.3L21 3l-3.3 6.4L24 12l-6.3 2.6L21 21l-6.4-3.3L12 24l-2.6-6.3L3 21l3.3-6.4L0 12l6.3-2.6L3 3l6.4 3.3zM12 8.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M12 0l2.6 6.3L21 3l-3.3 6.4L24 12l-6.3 2.6L21 21l-6.4-3.3L12 24l-2.6-6.3L3 21l3.3-6.4L0 12l6.3-2.6L3 3l6.4 3.3zM12 8.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+[data-theme='umbre'] .page-head h1 { display: flex; align-items: center; gap: 12px; }
+[data-theme='umbre'] .shelf { padding-bottom: 46px; }
+[data-theme='umbre'] .shelf.grid { padding-bottom: 40px; row-gap: 48px; }
+[data-theme='umbre'] .card {
+  background: radial-gradient(130% 70% at 50% 0%, #fff3d8, var(--surface) 50%, #f0d29e);
+  transform-origin: 50% calc(100% + 40px);
+}
+[data-theme='umbre'] .card::after { content: ''; position: absolute; left: 50%; top: 100%; width: 3px; height: 40px; translate: -50%; background: linear-gradient(var(--ink), rgb(28 14 5 / 0%)); pointer-events: none; }
+[data-theme='umbre'] .card:hover { animation: umbre-sway 1.4s ease-in-out; }
+@keyframes umbre-sway { 25% { rotate: 1.8deg; } 60% { rotate: -1.2deg; } 85% { rotate: .5deg; } }
+[data-theme='umbre'] .card .cover { border-bottom: 2px solid var(--ink); }
+[data-theme='umbre'] .card-kind { color: var(--accent); }
+[data-theme='umbre'] .traits li { background: var(--surface-2); color: var(--ink); }
+
+/* ---- pages: lit paper panels with a black edge ---- */
+[data-theme='umbre'] :is(.facts, .vrow, .src-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, dialog.log) { background: var(--surface); box-shadow: var(--shadow); }
+[data-theme='umbre'] .col-list .fav-row a { box-shadow: none; }
+[data-theme='umbre'] .vrow.best { border-color: var(--accent); }
+[data-theme='umbre'] .detail-hero > .cover { box-shadow: 0 0 0 3px var(--ink), 0 0 0 9px rgb(255 228 170 / 60%), 0 0 60px rgb(255 214 140 / 90%); }
+[data-theme='umbre'] .detail-hero h1 { color: #140802; }
+[data-theme='umbre'] .person-photo { box-shadow: 0 0 0 3px var(--ink), 0 0 40px rgb(255 214 140 / 90%); }
+[data-theme='umbre'] .src-body .eyebrow, [data-theme='umbre'] .facts dt { color: var(--muted); }
+[data-theme='umbre'] .badge { background: var(--accent); color: var(--accent-ink); }
+[data-theme='umbre'] .badge:is(.dup, .gone) { background: var(--surface-2); color: var(--ink); border-color: var(--ink); }
+[data-theme='umbre'] .mirror-btn { border-color: var(--ink); }
+[data-theme='umbre'] .stars button { color: #c79a5f; }
+[data-theme='umbre'] .skeleton-text span, [data-theme='umbre'] .skeleton-tags span { background: rgb(28 14 5 / 16%); }
+
+/* ---- the player: the front edge of the stage ---- */
+[data-theme='umbre'] .dock-bar { background: var(--surface); border-top: 0; box-shadow: 0 -3px 0 var(--ink), 0 -8px 0 var(--wood), 0 -14px 30px rgb(40 12 0 / 45%); }
+
+/* ---- the footer: the stage floor ---- */
+[data-theme='umbre'] .site-foot {
+  border-top: 0; color: #f1d9ae;
+  background: repeating-linear-gradient(90deg, rgb(0 0 0 / 0%) 0 118px, rgb(0 0 0 / 30%) 119px 121px, rgb(0 0 0 / 0%) 122px 240px), linear-gradient(#4f2610, var(--wood-2));
+  box-shadow: inset 0 4px 0 #140803, 0 -8px 24px rgb(40 12 0 / 35%);
+}
+[data-theme='umbre'] .site-foot a, [data-theme='umbre'] .site-foot .link-btn { color: var(--wood-ink); }
+
+.sw-umbre i {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%231c0e05' d='M8 28c0-5 1-8 3.5-10.5C10 14 9 9 10 4c2 2 3.4 6 4 9.5C15 9 17 5 19.5 4c1 4-.5 9-3 12.5 2.5 2 4 5 3 11.5z'/%3E%3C/svg%3E") center / 80% no-repeat,
+    radial-gradient(circle at 50% 40%, #ffe6b0, #f0a24c 60%, #9b4a17);
+  box-shadow: inset 0 0 0 2px #45210e;
+}
+
+/* without the moving scene (no WebGL), still a row of hills and a castle along the bottom of the screen */
+[data-theme='umbre'] body:not(:has(> canvas.fx))::before {
+  content: ''; position: fixed; z-index: -1; left: 0; right: 0; bottom: 0; height: 90px; pointer-events: none;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 90'%3E%3Cpath fill='%231c0e05' d='M18 90V52h-8l12-22 12 22h-8v8h20V44h-6l15-26 15 26h-6v16h16v-8h-8l12-22 12 22h-8v38z'/%3E%3C/svg%3E") right 24px bottom 18px / 120px 90px no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 40' preserveAspectRatio='none'%3E%3Cpath fill='%231c0e05' d='M0 40V20C30 8 60 6 90 14s60 14 90 4 45-6 60 2v20z'/%3E%3C/svg%3E") bottom / 480px 40px repeat-x;
+}

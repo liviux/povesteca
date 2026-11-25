@@ -130,18 +130,24 @@ img { display: block; max-width: 100%; }
 .theme-menu > .icon-btn { gap: 8px; display: inline-flex; align-items: center; padding: 0 10px; font-weight: 800; }
 .theme-pop {
   position: absolute; right: 0; top: calc(100% + 8px); z-index: 30; background: var(--surface); color: var(--ink); border-radius: var(--radius-sm); box-shadow: var(--shadow-hover);
-  padding: 8px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; width: min(360px, calc(100vw - 24px));
+  padding: 12px; display: grid; gap: 14px; width: min(372px, calc(100vw - 24px));
   max-height: calc(100dvh - 96px); overflow-y: auto; overscroll-behavior: contain;
 }
-/* the language is not a theme: it sits after a line, across both columns */
-.theme-pop hr { grid-column: 1 / -1; width: 100%; margin: 4px 0; border: 0; border-top: 2px solid var(--line); }
-.theme-pop .lang-in-menu { grid-column: 1 / -1; }
+/* the chosen age, on the gear: a parent sees at a glance that some stories are hidden */
+.gear { position: relative; display: inline-flex; }
+.age-badge { position: absolute; top: -9px; right: -11px; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font: 800 12px/20px var(--font-head); text-align: center; pointer-events: none; }
+.set-group { min-width: 0; }
+.set-group + .set-group { border-top: 2px solid var(--line); padding-top: 12px; }
+.set-label { margin: 0 0 8px; font: 800 15px var(--font-head); }
+.set-hint { margin: -4px 0 8px; font-size: 14px; color: var(--muted); }
+.set-group .chips { gap: 6px; }
+.set-group .chip { min-width: 44px; justify-content: center; padding: 0 12px; }
+.swatches { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
 .swatch { display: flex; align-items: center; gap: 10px; min-height: 44px; min-width: 0; padding: 0 8px; border: 2px solid transparent; border-radius: 10px; background: none; font-weight: 800; text-align: left; }
 .swatch:hover { background: var(--surface-2); }
 .swatch[aria-pressed='true'] { border-color: var(--primary); }
 .swatch i { width: 28px; height: 28px; border-radius: 50%; flex: none; }
 .sw-clasic i { background: conic-gradient(#16324f 0 50%, #f6a457 0 75%, #fef5ea 0); box-shadow: inset 0 0 0 1px #0002; }
-.lang-in-menu i { display: grid; place-items: center; font: 700 13px var(--font-head); font-style: normal; background: var(--surface-2); }
 @media (max-width: 599px) { .wordmark { display: none; } }
 @media (min-width: 1080px) { .nav-txt { position: static; width: auto; height: auto; overflow: visible; clip: auto; } }
 /* after the rules it overrides: the smallest phones need narrower menu buttons */
@@ -541,3 +547,8 @@ body:has(.night) .dock-bar { display: none; }
 
 /* focus lands on <main> after a page change; it is a container, not a control */
 #main:focus { outline: none; }
+
+/* the moving scene of the live themes (src/fx): behind everything, never in the way of a tap */
+.fx { position: fixed; inset: 0; z-index: -1; width: 100%; height: 100%; pointer-events: none; display: block; }
+/* "(3 ascunse de vârsta aleasă)": smaller than a heading, never bigger than the text it follows */
+.hidden-note { font-size: min(1em, max(.7em, 15px)); font-weight: 700; }

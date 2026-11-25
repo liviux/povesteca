@@ -5,22 +5,35 @@ import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourceP
 import { Dock, Night, surprise } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
-import { REPO, loadDetails, loadError } from './data.js';
+import { REPO, loadDetails, loadError, setMaxAge } from './data.js';
 import { version } from '../package.json';
 import './styles.css';
 import './themes.css';
+import './themes/ie.css';
+import './themes/umbre.css';
+import './themes/radio.css';
 
 // in pairs, each pair built on one design guide (see themes.css)
-const THEMES = ['clasic', 'plastilina', 'caiet', 'galerie', 'afis', 'harta', 'cosmos', 'jeleu', 'vinil', 'hartie', 'abtibild'];
+const THEMES = ['clasic', 'plastilina', 'caiet', 'galerie', 'afis', 'harta', 'cosmos', 'jeleu', 'vinil', 'hartie', 'abtibild', 'ie', 'umbre', 'radio'];
 // a theme saved before it was retired (Băieți, Fete) falls back to the classic one
 if (!THEMES.includes(state.theme)) state.theme = 'clasic';
+// the three last themes have a moving scene behind the page (src/fx); three.js is downloaded only for them
+const FX = { ie: () => import('./fx/ie.js'), umbre: () => import('./fx/umbre.js'), radio: () => import('./fx/radio.js') };
+let fxStop = null, fxTheme = null;
+function runFx(theme) {
+  if (theme === fxTheme) return;
+  fxTheme = theme;
+  fxStop?.(); fxStop = null;
+  FX[theme]?.().then((m) => { if (fxTheme === theme) fxStop = m.start(); }, (e) => console.warn('fx:', e));
+}
 
 // pages with credits, photos, summaries or the search index; the rest render from the main catalog alone
 const needsDetails = (path, query) =>
   /^\/(poveste|inregistrare|persoana|autor|ale-mele|colectie)(\/|$)/.test(path) ||
   /^\/explorare(\/|$)/.test(path) || /[?&]q=./.test(query);
 
-function ThemeMenu() {
+// Settings: language, the oldest age to show, theme. Kept in the browser like the rest.
+function Settings() {
   const s = useStore();
   const [t] = useT();
   const [open, setOpen] = useState(false);
@@ -31,22 +44,39 @@ function ThemeMenu() {
     document.addEventListener('click', close); addEventListener('keydown', esc);
     return () => { document.removeEventListener('click', close); removeEventListener('keydown', esc); };
   }, [open]);
+  const label = s.maxAge ? `${t.settings} · ${t.maxAgeOn(s.maxAge)}` : t.settings;
   return (
     <div class="theme-menu">
-      <button type="button" class="icon-btn" aria-expanded={open} aria-haspopup="true" aria-label={t.theme} onClick={() => setOpen(!open)}>
-        <Icon n="palette" /><span class="nav-txt">{t.theme}</span>
+      <button type="button" class="icon-btn" aria-expanded={open} aria-haspopup="true" aria-label={label} title={label} onClick={() => setOpen(!open)}>
+        <span class="gear"><Icon n="gear" />{s.maxAge > 0 && <b class="age-badge" aria-hidden="true">{s.maxAge}</b>}</span>
+        <span class="nav-txt">{t.settings}</span>
       </button>
       {open && (
-        <div class="theme-pop" role="group" aria-label={t.theme}>
-          {THEMES.map((x) => (
-            <button type="button" class={'swatch sw-' + x} aria-pressed={s.theme === x} onClick={() => { set({ theme: x }); setOpen(false); }}>
-              <i /><span>{t.themes[x]}</span>
-            </button>
-          ))}
-          <hr />
-          <button type="button" class="swatch lang-in-menu" lang={s.lang === 'ro' ? 'en' : 'ro'} onClick={() => { set({ lang: s.lang === 'ro' ? 'en' : 'ro' }); setOpen(false); }}>
-            <i aria-hidden="true">{s.lang === 'ro' ? 'EN' : 'RO'}</i><span>{t.otherLang}</span>
-          </button>
+        <div class="theme-pop" role="group" aria-label={t.settings}>
+          <div class="set-group" role="group" aria-labelledby="set-lang"><p class="set-label" id="set-lang">{t.language}</p>
+            <div class="chips">
+              {[['ro', 'Română'], ['en', 'English']].map(([k, txt]) => (
+                <button type="button" class="chip" lang={k} aria-pressed={s.lang === k} onClick={() => set({ lang: k })}>{txt}</button>
+              ))}
+            </div>
+          </div>
+          <div class="set-group" role="group" aria-labelledby="set-age"><p class="set-label" id="set-age">{t.maxAge}</p>
+            <p class="set-hint" id="age-hint">{t.maxAgeHint}</p>
+            <div class="chips" aria-describedby="age-hint">
+              {[0, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
+                <button type="button" class="chip" aria-pressed={s.maxAge === n} aria-label={n ? t.ageOpt(n) : t.ageAll} onClick={() => setMaxAge(n)}>{n || t.ageAll}</button>
+              ))}
+            </div>
+          </div>
+          <div class="set-group" role="group" aria-labelledby="set-theme"><p class="set-label" id="set-theme">{t.theme}</p>
+            <div class="swatches">
+              {THEMES.map((x) => (
+                <button type="button" class={'swatch sw-' + x} aria-pressed={s.theme === x} onClick={() => set({ theme: x })}>
+                  <i /><span>{t.themes[x]}</span>
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       )}
     </div>
@@ -73,7 +103,7 @@ function Header({ path }) {
           {link('/surse', 'library', t.sources, /^\/sursa\//)}
           {link('/ale-mele', 'heart', t.mine)}
           <button type="button" class="nav-link" onClick={() => setPlayer({ night: true })}><Icon n="moon" /><span class="nav-txt">{t.night}</span></button>
-          <ThemeMenu />
+          <Settings />
         </nav>
       </div>
     </header>
@@ -106,6 +136,7 @@ function App() {
   useEffect(() => {
     document.documentElement.dataset.theme = s.theme;
     document.documentElement.lang = s.lang;
+    runFx(s.theme);
   }, [s.theme, s.lang]);
   const [path, query = ''] = url.split('?');
   // the summaries, photos and "≈" marks right after the first page; tried again on the next page if they failed.

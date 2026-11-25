@@ -54,14 +54,16 @@ O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compar
 ## Ce poți face
 
 - **Cauți** după titlu, autor, personaj sau actor. Căutarea merge și fără diacritice, și cu mici greșeli de scriere.
-- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, vârstă, durată, autor, personaj, distribuție și regie (cine citește, cine joacă, cine regizează), sursă și disc sau colecție, apoi ordonezi rezultatele. În listele lungi, cum e cea de autori, scrii câteva litere și rămân doar numele potrivite. Rezultatele arată întâi poveștile, apoi înregistrările lor; poți alege să vezi doar una dintre ele. La prima deschidere apar la întâmplare, în altă ordine la fiecare vizită.
+- **Filtrezi** după gen, origine, tipul producției, voci, efecte sonore, muzică, atmosferă, durată, autor, personaj, distribuție și regie (cine citește, cine joacă, cine regizează), sursă și disc sau colecție, apoi ordonezi rezultatele. În listele lungi, cum e cea de autori, scrii câteva litere și rămân doar numele potrivite. Rezultatele arată întâi poveștile, apoi înregistrările lor; poți alege să vezi doar una dintre ele. La prima deschidere apar la întâmplare, în altă ordine la fiecare vizită.
 - **Pagină pentru fiecare autor**: apasă pe numele autorului pe pagina poveștii sau a înregistrării ca să îi vezi toate poveștile.
 - **Asculți în pagină.** Playerul rămâne jos cât timp navighezi și ține minte unde ai rămas. Viteza se schimbă de la 0,5× la 2×.
 - **„Surprinde-mă!”** alege o poveste la întâmplare și nu o repetă până nu le-a dat pe toate. În Explorează alege doar dintre rezultatele filtrelor tale.
 - **Noapte bună**: ecran întunecat și temporizator de 10, 20 sau 30 de minute sau până la finalul poveștii. Nu pornește singur povestea următoare.
 - **Ale mele**: poveștile, înregistrările, oamenii, sursele și discurile puse la favorite și istoricul, toate păstrate doar în browser, fără cont. Butonul „Surprinde-mă din favorite” pornește o înregistrare la întâmplare din tot ce ai acolo.
 - **Voturi** de la 1 la 5 stele, comune tuturor vizitatorilor.
-- **Unsprezece teme** (Clasică, Plastilină, Caiet, Galerie, Afiș, Hartă, Cosmos, Jeleu, Vinil, Hârtie, Abțibilduri), care schimbă culorile, literele și așezarea paginii: meniul jos sau într-o coloană, raftul ca listă numerotată, ca hartă sau ca foaie de abțibilduri. Fiecare are o variantă întunecată, care pornește singură când dispozitivul e pe modul întunecat sau când folosești Dark Reader (Cosmos e întunecată mereu). Limba se schimbă din același meniu, sub teme.
+- **Setări** (rotița din meniu): limba, vârsta maximă și tema.
+- **Vârsta maximă**: alegi până la ce vârstă să fie poveștile, iar cele pentru copii mai mari nu mai apar nicăieri, nici în „Surprinde-mă!”. Sursele, discurile și căutarea spun câte au rămas ascunse. Un link primit spre o poveste ascunsă arată pentru ce vârstă e și un buton „Arată oricum”.
+- **Paisprezece teme** (Clasică, Plastilină, Caiet, Galerie, Afiș, Hartă, Cosmos, Jeleu, Vinil, Hârtie, Abțibilduri, Ie, Teatru de umbre, Radio cu lămpi), care schimbă culorile, literele și așezarea paginii: meniul jos sau într-o coloană, raftul ca listă numerotată, ca hartă sau ca foaie de abțibilduri. Ultimele trei au în spatele paginii o scenă 3D care se mișcă și răspunde la atingeri. Fiecare temă are o variantă întunecată, care pornește singură când dispozitivul e pe modul întunecat sau când folosești Dark Reader (Cosmos și Teatru de umbre sunt întunecate mereu).
 - **Surse**: o pagină cu arhivele și canalele de unde vin înregistrările și cu regulile catalogului.
 - **Oameni și cărți**: fiecare autor, actor sau regizor are o pagină cu poveștile și înregistrările lui. Unde se poate, are o fotografie cu licență liberă și linkuri spre Wikipedia și Goodreads. Poveștile au linkuri spre cartea lor.
 
@@ -80,7 +82,7 @@ Când o înregistrare are mai multe linkuri, alegi din player pe care îl ascul�
 
 ## Ce date se păstrează
 
-- Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
+- Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, tema, limba și vârsta maximă stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
 - Nu există conturi, cookie-uri proprii sau statistici de trafic.
 - Fonturile vin chiar de pe site-ul Povesteca, nu de la Google. Copertele mari (Discogs, Libsyn, CloudFront, eteatru, SRR, Radio Moldova, Radio Târgu Mureș, MiniPovești, Poveștile Cristinei) sunt redimensionate de `wsrv.nl` înainte să ajungă în pagină; cererea către acel serviciu conține adresa imaginii și IP-ul tău, ca orice cerere web, iar Povesteca nu le stochează. Copertele de pe YouTube și Internet Archive și fotografiile oamenilor se încarcă direct de la sursă; Wikimedia își servește propriile miniaturi. Sunetul și playerul video se încarcă de la Internet Archive, YouTube și sursele audio directe din catalog.
@@ -155,10 +157,12 @@ src/ui.jsx          carduri, butoane, iconițe
 src/i18n.js         textele RO/EN
 src/store.js        preferințe locale, rutare, voturi
 src/styles.css      stilurile de bază și tema clasică
-src/themes.css      celelalte zece teme
+src/themes.css      zece dintre celelalte teme
+src/themes/         Ie, Teatru de umbre, Radio cu lămpi
+src/fx/             scenele 3D ale acestor trei teme (three.js)
 ```
 
-Vite + Preact. Catalogul ajunge în browser separat de cod, ca o actualizare a aplicației să nu-l mai descarce încă o dată: listele și cardurile vin odată cu pagina, listele lungi de filtre doar în Explore, iar rezumatele, creditele, fotografiile și linkurile oamenilor imediat după (vezi `vite.config.js`). `hls.js` se încarcă doar pentru fluxurile HLS.
+Vite + Preact. Catalogul ajunge în browser separat de cod, ca o actualizare a aplicației să nu-l mai descarce încă o dată: listele și cardurile vin odată cu pagina, listele lungi de filtre doar în Explore, iar rezumatele, creditele, fotografiile și linkurile oamenilor imediat după (vezi `vite.config.js`). `hls.js` se încarcă doar pentru fluxurile HLS, iar `three.js` doar când alegi una dintre temele cu scenă 3D.
 
 ## Drepturi
 
