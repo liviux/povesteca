@@ -2,6 +2,16 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.31.0] - 2026-11-25
+
+### Added
+- **New stories:** 4 stories and 5 recordings from Poveștile Cristinei (“Mi-e dor de tine” with Florin Coșuleț, “În căutarea lui Moș Nicolae” with Daniel Nițoiu, “Armăsarul nărăvaș” with Florin Busuioc, and “O girafă în spațiu” in two readings, with Flaviu Crișan and Teo Trandafir).
+- Backup YouTube link for “Povestea Pufosului Mititel Întunecat”, plus Wikipedia and Goodreads links for Sorin Misirianțu, Bianca Mereuță and Serenela Mureșan.
+
+### Fixed
+- Separated “Călătorie în țara jucăriilor” (by Cristian Mitescu) into its own story instead of linking it under “The Nutcracker”, and completed Culturalia credits for 8 recordings.
+- Added Romanian and English labels for the Armenian origin and all previously untranslated story themes in the catalogue.
+
 ## [1.30.0] - 2026-11-25
 
 ### Added

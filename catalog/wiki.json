@@ -120,6 +120,10 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Pushkin",
    "goodreads": "https://www.goodreads.com/author/show/16070"
   },
+  "Alex Donovici": {
+   "goodreads": "https://www.goodreads.com/author/show/18192375.Alex_Donovici",
+   "wikidata": "Q116986972"
+  },
   "Alexandre Dumas": {
    "wikidata": "Q38337",
    "photo": {
@@ -512,6 +516,9 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Bianca_Brad"
   },
+  "Bianca Mereuță": {
+   "goodreads": "https://www.goodreads.com/author/show/18632633.Bianca_Mereuta"
+  },
   "Bogdan Dumitrache": {
    "wikidata": "Q15915101",
    "wikipedia": "https://ro.wikipedia.org/wiki/Bogdan_Dumitrache"
@@ -674,6 +681,16 @@
     "by": "Gikü"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Chiril_%C8%98tirbu"
+  },
+  "Clara Cernat": {
+   "wikidata": "Q16540147",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Clara_Cernat.jpg/330px-Clara_Cernat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clara_Cernat.jpg",
+    "license": "CC BY-SA 3.0",
+    "by": "Leoutre"
+   },
+   "wikipedia": "https://fr.wikipedia.org/wiki/Clara_Cernat"
   },
   "Claudia Partole": {
    "wikidata": "Q51099459",
@@ -1016,6 +1033,9 @@
   "Cristina Deleanu": {
    "wikidata": "Q12725961",
    "wikipedia": "https://ro.wikipedia.org/wiki/Cristina_Deleanu"
+  },
+  "Cristina Donovici": {
+   "goodreads": "https://www.goodreads.com/author/show/18632398.Cristina_Donovici"
   },
   "Cristina Tacoi": {
    "wikidata": "Q16593727",
@@ -1762,6 +1782,16 @@
   "Gabriel Costin": {
    "wikidata": "Q29415951",
    "wikipedia": "https://ro.wikipedia.org/wiki/Gabi_Costin"
+  },
+  "Gabriela Dancău": {
+   "wikidata": "Q72691233",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gabriela_Dancau.jpg/330px-Gabriela_Dancau.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gabriela_Dancau.jpg",
+    "license": "CC BY-SA 4.0",
+    "by": "Gabriela Dancău"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Gabriela_Danc%C4%83u"
   },
   "Gellu Naum": {
    "wikidata": "Q1363653",
@@ -2540,6 +2570,17 @@
     "page": "https://commons.wikimedia.org/wiki/File:Irina_Furdui_(2018).jpg",
     "license": "CC BY-SA 4.0",
     "by": "Razvan Socol"
+   }
+  },
+  "Irina Margareta Nistor": {
+   "wikidata": "Q16730060",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Irina_Margareta_Nistor",
+   "goodreads": "https://www.goodreads.com/author/show/4834235.Irina_Margareta_Nistor",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Irina_Margareta_Nistor.png/330px-Irina_Margareta_Nistor.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Irina_Margareta_Nistor.png",
+    "license": "CC BY 3.0",
+    "by": "startevo, decupaj de Ionutzmovie"
    }
   },
   "Irina Mazanitis": {
@@ -4399,6 +4440,9 @@
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/Septimiu_Sever_(actor)"
   },
+  "Serenela Mureșan": {
+   "goodreads": "https://www.goodreads.com/author/show/62456964.Serenela_Mure_an"
+  },
   "Serghei Prokofiev": {
    "wikidata": "Q49481",
    "photo": {
@@ -4482,6 +4526,10 @@
   "Sorin Medeleni": {
    "wikidata": "Q95560264",
    "wikipedia": "https://ro.wikipedia.org/wiki/Sorin_Medeleni"
+  },
+  "Sorin Misirianțu": {
+   "wikidata": "Q12741116",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Sorin_Misirian%C8%9Bu"
   },
   "Sorin Sandu": {
    "photo": {
@@ -4590,6 +4638,16 @@
     "page": "https://commons.wikimedia.org/wiki/File:Telly_Barbu_Militaru.01.jpg",
     "license": "Public domain",
     "by": "Universul Literar journal from June 29, 1940 (No. 27, year LVIII), available at Digiteca Arcanum . This is a cropped ver"
+   }
+  },
+  "Teo Trandafir": {
+   "wikidata": "Q12742045",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Teo_Trandafir",
+   "photo": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Teo_Trandafir.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Teo_Trandafir.png",
+    "license": "CC BY 3.0",
+    "by": "startevo"
    }
   },
   "Teodor Danetti": {
@@ -5135,54 +5193,6 @@
     "source": "Culturalia"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/%C8%98tefan_Velniciuc"
-  },
-  "Irina Margareta Nistor": {
-   "wikidata": "Q16730060",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Irina_Margareta_Nistor",
-   "goodreads": "https://www.goodreads.com/author/show/4834235.Irina_Margareta_Nistor",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Irina_Margareta_Nistor.png/330px-Irina_Margareta_Nistor.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Irina_Margareta_Nistor.png",
-    "license": "CC BY 3.0",
-    "by": "startevo, decupaj de Ionutzmovie"
-   }
-  },
-  "Alex Donovici": {
-   "goodreads": "https://www.goodreads.com/author/show/18192375.Alex_Donovici",
-   "wikidata": "Q116986972"
-  },
-  "Cristina Donovici": {
-   "goodreads": "https://www.goodreads.com/author/show/18632398.Cristina_Donovici"
-  },
-  "Teo Trandafir": {
-   "wikidata": "Q12742045",
-   "wikipedia": "https://ro.wikipedia.org/wiki/Teo_Trandafir",
-   "photo": {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Teo_Trandafir.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Teo_Trandafir.png",
-    "license": "CC BY 3.0",
-    "by": "startevo"
-   }
-  },
-  "Clara Cernat": {
-   "wikidata": "Q16540147",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Clara_Cernat.jpg/330px-Clara_Cernat.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Clara_Cernat.jpg",
-    "license": "CC BY-SA 3.0",
-    "by": "Leoutre"
-   },
-   "wikipedia": "https://fr.wikipedia.org/wiki/Clara_Cernat"
-  },
-  "Gabriela Dancău": {
-   "wikidata": "Q72691233",
-   "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gabriela_Dancau.jpg/330px-Gabriela_Dancau.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Gabriela_Dancau.jpg",
-    "license": "CC BY-SA 4.0",
-    "by": "Gabriela Dancău"
-   },
-   "wikipedia": "https://en.wikipedia.org/wiki/Gabriela_Danc%C4%83u"
   }
  },
  "stories": {
@@ -5198,6 +5208,11 @@
   },
   "abeille": {
    "goodreads": "https://www.goodreads.com/book/show/142003406"
+  },
+  "acul-de-carpit": {
+   "wikidata": "Q12337329",
+   "wikipedia": "https://en.wikipedia.org/wiki/A_Story_about_a_Darning-needle",
+   "goodreads": "https://www.goodreads.com/book/show/9784893-the-darning-needle"
   },
   "acul-fusul-si-suveica": {
    "wikidata": "Q834506",
@@ -6921,11 +6936,6 @@
    "wikidata": "Q734607",
    "wikipedia": "https://en.wikipedia.org/wiki/A_House_of_Pomegranates",
    "goodreads": "https://www.goodreads.com/book/show/50992242"
-  },
-  "acul-de-carpit": {
-   "wikidata": "Q12337329",
-   "wikipedia": "https://en.wikipedia.org/wiki/A_Story_about_a_Darning-needle",
-   "goodreads": "https://www.goodreads.com/book/show/9784893-the-darning-needle"
   }
  }
 }

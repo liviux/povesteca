@@ -2,7 +2,7 @@
 
 **Ascultă pe [povesteca.vercel.app](https://povesteca.vercel.app/)**
 
-**1263 de povești și 1588 de înregistrări**
+**1268 de povești și 1593 de înregistrări**
 
 Povesteca e o bibliotecă de povești audio în limba română, pentru copii și pentru părinții care le aleg. Adună teatru radiofonic și discuri de povești publicate deja pe Internet Archive și YouTube, le așază pe povești și le poți asculta direct în pagină.
 
@@ -12,7 +12,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
-Acum sunt 1263 de povești și 1588 de înregistrări, din 35 de surse gratuite:
+Acum sunt 1268 de povești și 1593 de înregistrări, din 35 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)

@@ -2,6 +2,16 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.31.0] - 2026-11-25
+
+### Added
+- **Povești noi:** 4 povești și 5 înregistrări de la Poveștile Cristinei („Mi-e dor de tine” cu Florin Coșuleț, „În căutarea lui Moș Nicolae” cu Daniel Nițoiu, „Armăsarul nărăvaș” cu Florin Busuioc și „O girafă în spațiu” în două lecturi, cu Flaviu Crișan și Teo Trandafir).
+- Link de rezervă pe YouTube pentru „Povestea Pufosului Mititel Întunecat” și legături Wikipedia și Goodreads pentru Sorin Misirianțu, Bianca Mereuță și Serenela Mureșan.
+
+### Fixed
+- Am desprins „Călătorie în țara jucăriilor” (de Cristian Mitescu) într-o poveste proprie, în locul legării greșite la „Spărgătorul de nuci”, și am completat creditele pentru 8 înregistrări din arhiva Culturalia.
+- Am adăugat etichetele românești și englezești pentru originea „armeană” și pentru temele fără traducere din catalog.
+
 ## [1.30.0] - 2026-11-25
 
 ### Added

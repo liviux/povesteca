@@ -87838,8 +87838,8 @@
      "name": "Andrei Matei"
     }
    ],
-   "adaptation": "Dan Vasiliu",
-   "director": "Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
    "music": "Mihnea Chelaru"
   },
   "addedAt": "2026-11-25",
@@ -87934,7 +87934,7 @@
     }
    ],
    "adaptation": "Dan Vasiliu",
-   "director": "Jeanina Dicu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
    "music": "Mihnea Chelaru"
   },
   "addedAt": "2026-11-25",
@@ -87984,9 +87984,14 @@
     },
     {
      "name": "Mihai Platon"
+    },
+    {
+     "name": "Andrei Matei"
     }
    ],
-   "director": "Mihnea Chelaru; Jeanina Dicu"
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
   },
   "addedAt": "2026-11-25",
   "estimated": [
@@ -88043,7 +88048,7 @@
      "name": "George Ivașcu"
     }
    ],
-   "director": "Jeanina Dicu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
    "music": "Mihnea Chelaru"
   },
   "addedAt": "2026-11-25",
@@ -88105,7 +88110,7 @@
      "name": "Ioana Chelaru"
     }
    ],
-   "director": "Jeanina Dicu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
    "adaptation": "Georgeta Răboj",
    "music": "Mihnea Chelaru"
   }
@@ -88260,8 +88265,8 @@
    "narrator": [
     "George Ivașcu"
    ],
-   "director": "Jeanina Dicu",
-   "adaptation": "Dan Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
    "music": "Mihnea Chelaru"
   },
   "addedAt": "2026-11-25",
@@ -88316,7 +88321,7 @@
      "name": "Petre Lupu"
     }
    ],
-   "director": "Jeanina Dicu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
    "music": "Mihnea Chelaru"
   },
   "addedAt": "2026-11-25",
@@ -88591,6 +88596,11 @@
     "type": "audio",
     "url": "https://povestilecristinei.ro/wp-content/uploads/2019/05/%C3%8Entuneric-bun.wav",
     "page": "https://povestilecristinei.ro/povestea-pufosului-mititel-intunecat/",
+    "via": "Poveștile Cristinei"
+   },
+   {
+    "type": "youtube",
+    "id": "sX6buaJQLeQ",
     "via": "Poveștile Cristinei"
    }
   ],
@@ -88909,8 +88919,8 @@
  },
  {
   "id": "calatorie-in-tara-jucariilor-culturalia-2003",
-  "storyId": "spargatorul-de-nuci",
-  "title": "Călătorie în țara jucăriilor (adaptare după Spărgătorul de nuci)",
+  "storyId": "calatorie-in-tara-jucariilor",
+  "title": "Călătorie în țara jucăriilor",
   "sourceId": "culturalia-pe-unde",
   "links": [
    {
@@ -88940,9 +88950,12 @@
     },
     {
      "name": "Viorel Cojanu"
+    },
+    {
+     "name": "Cristian Mitescu"
     }
    ],
-   "adaptation": "Cristian Mitescu; Simona Vasiliu; Dan Vasiliu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
    "director": "Mihnea Chelaru; Jeanina Dicu",
    "music": "Mihnea Chelaru"
   },
@@ -90811,5 +90824,213 @@
    "quality"
   ],
   "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mi-e-dor-de-tine-povestile-cristinei",
+  "storyId": "mi-e-dor-de-tine",
+  "title": "Mi-e dor de tine",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "krwg5fKIKlc",
+    "page": "https://povestilecristinei.ro/mi-e-dor-de-tine/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 1230,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2016/07/MI-E-DOR.jpg",
+  "credits": {
+   "narrator": [
+    "Florin Coșuleț"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "fara",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 3,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "in-cautarea-lui-mos-nicolae-povestile-cristinei",
+  "storyId": "in-cautarea-lui-mos-nicolae",
+  "title": "În căutarea lui Moș Nicolae",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2016/11/POVESTILE-CRISTINEI-.wav",
+    "page": "https://povestilecristinei.ro/cautarea-lui-mos-nicolae/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2016,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 556,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2016/11/Mos-Nicolae.jpg",
+  "credits": {
+   "narrator": [
+    "Daniel Nițoiu"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "fara",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "armasarul-naravas-povestile-cristinei",
+  "storyId": "armasarul-naravas",
+  "title": "Armăsarul nărăvaș",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2016/07/POVESTE-ARMASAR-EDITATA.wav",
+    "page": "https://povestilecristinei.ro/armasarul-naravas/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2016,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 588,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2016/07/armasarul-naravas.png",
+  "credits": {
+   "narrator": [
+    "Florin Busuioc"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "fara",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 6,
+  "quality": 3,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "o-girafa-in-spatiu-flaviu-crisan",
+  "storyId": "o-girafa-in-spatiu",
+  "title": "O girafă în spațiu (Flaviu Crișan)",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2016/08/O-girafa-in-spatiu.wav",
+    "page": "https://povestilecristinei.ro/o-girafa-spatiu/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2016,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 347,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2016/09/O-Girafa-in-spatiu_-A.S.jpg",
+  "credits": {
+   "narrator": [
+    "Flaviu Crișan"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "fara",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "o-girafa-in-spatiu-teo-trandafir",
+  "storyId": "o-girafa-in-spatiu",
+  "title": "O girafă în spațiu (Teo Trandafir)",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "JQzMBw902xQ",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2017,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 372,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2016/09/O-Girafa-in-spatiu_-A.S.jpg",
+  "credits": {
+   "narrator": [
+    "Teo Trandafir"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "fara",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
  }
 ]

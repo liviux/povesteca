@@ -29259,7 +29259,7 @@
   "themes": [
    "prietenie",
    "curaj",
-   "ingeniozitate",
+   "istetime",
    "aventura"
   ],
   "characters": [
@@ -29446,7 +29446,7 @@
   "author": "poveste populară armenească",
   "genre": "legenda",
   "themes": [
-   "pasari",
+   "animale",
    "magie",
    "dragoste",
    "transformare"
@@ -29622,7 +29622,8 @@
    "ro": "Un motan fuge din gospodărie împreună cu țapul și oaia. Cei trei se așază lângă un foc și îl primesc și pe Moș Martin, fără să știe că o haită de lupi îi pândește din întuneric.",
    "en": "A cat runs away from the farm with a goat and a sheep. The three settle by a fire and welcome old Martin the bear, unaware that a pack of wolves is watching them from the dark."
   },
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "origin": "russian"
  },
  {
   "id": "povestea-pufosului-mititel-intunecat",
@@ -29804,8 +29805,8 @@
   "themes": [
    "magie",
    "imaginatie",
-   "muzeu",
-   "arta"
+   "curiozitate",
+   "arte"
   ],
   "characters": [
    "Ema",
@@ -30428,5 +30429,124 @@
    "ro": "O fată găsește o broască vorbitoare care îi promite ajutor la nevoie. Când făgăduiala este încălcată, fata pornește să repare ce a stricat și descoperă ce înseamnă cuvântul dat.",
    "en": "A girl finds a talking frog who promises help when she needs it; when the promise is broken, she sets out to put things right and learns what a given word is worth."
   }
+ },
+ {
+  "id": "calatorie-in-tara-jucariilor",
+  "title": "Călătorie în țara jucăriilor",
+  "author": "Cristian Mitescu",
+  "genre": "poveste",
+  "themes": [
+   "jucarii",
+   "imaginatie",
+   "calatorie"
+  ],
+  "characters": [
+   "Silvia"
+  ],
+  "summary": {
+   "ro": "O poveste radiofonică scrisă de Cristian Mitescu despre o călătorie imaginară spre țara jucăriilor.",
+   "en": "A radio story written by Cristian Mitescu about an imaginary flight to the land of toys."
+  },
+  "origin": "romanian",
+  "altTitles": [
+   "Călătorie în lumea jucăriilor"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mi-e-dor-de-tine",
+  "title": "Mi-e dor de tine",
+  "author": "Alex Donovici",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "magie",
+   "copilarie",
+   "jucarii"
+  ],
+  "characters": [
+   "Tia",
+   "Tati",
+   "Mami",
+   "Magicianul"
+  ],
+  "summary": {
+   "ro": "De ziua ei, Tia își dorește să devină invizibilă pentru tatăl ei, care muncește mereu și nu mai are timp de joacă. Magicianul de la petrecere îi împlinește dorința, iar fetița începe să-i lase tatălui indicii prin casă ca să înțeleagă ce îi lipsește.",
+   "en": "On her birthday, Tia wishes to become invisible to her father, who is always busy working and no longer plays with her. The party magician grants her wish, and Tia begins leaving clues around the house so her dad can work out what is missing."
+  },
+  "year": 2018,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "in-cautarea-lui-mos-nicolae",
+  "title": "În căutarea lui Moș Nicolae",
+  "author": "Alex Donovici",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "calatorie",
+   "animale",
+   "curiozitate"
+  ],
+  "characters": [
+   "Natalia",
+   "Noah",
+   "Nevăstuica",
+   "Nagâțul",
+   "Moș Nicolae"
+  ],
+  "summary": {
+   "ro": "Doi frați din Norvegia, Natalia și Noah, vor să-i facă o fotografie lui Moș Nicolae ca să dovedească tuturor că există. Îi roagă pe cosmonauții de la NASA să-l caute din satelit, apoi pornesc spre pădure, unde o nevăstuică și un nagâț îi ajută să zboare deasupra pământului.",
+   "en": "Two siblings in Norway, Natalia and Noah, want to photograph Moș Nicolae to prove he is real. They email NASA astronauts to check from satellites, then head to the forest, where a weasel and a lapwing help them fly above the earth."
+  },
+  "year": 2016,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "armasarul-naravas",
+  "title": "Armăsarul nărăvaș",
+  "author": "Cristina Donovici",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "prietenie",
+   "dor",
+   "harnicie"
+  ],
+  "characters": [
+   "Armăsarul nărăvaș",
+   "Stăpânul"
+  ],
+  "summary": {
+   "ro": "Un om își iubește armăsarul de curse chiar dacă este încăpățânat și îi pune răbdarea la încercare. Când sărăcește și este nevoit să-l vândă la târg, cei doi se despart cu greu, până într-o vară când bărbatul aude din nou un nechezat cunoscut.",
+   "en": "A man loves his stubborn racehorse dearly, calming its tantrums with stories. Forced by poverty to sell it at the fair, he searches for it in vain until one summer day when he hears a familiar neigh in a distant yard."
+  },
+  "year": 2016,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "o-girafa-in-spatiu",
+  "title": "O girafă în spațiu",
+  "author": "Cristina Donovici",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "curiozitate",
+   "prietenie",
+   "aventura"
+  ],
+  "characters": [
+   "Leia"
+  ],
+  "summary": {
+   "ro": "Girafa Leia visează să ajungă în spațiu, să pășească pe Lună și să vadă planetele de aproape. După ce află că nu poate urca singură într-o rachetă, găsește un loc din oraș de unde îi duce pe toți prietenii din pădure în călătorii printre stele.",
+   "en": "Leia the giraffe dreams of going into space to walk on the Moon and see the planets up close. Learning she cannot board a rocket alone, she finds a building in town from which she takes all her forest friends on journeys among the stars."
+  },
+  "year": 2016,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
  }
 ]
