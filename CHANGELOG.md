@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.25.3] - 2026-11-25
+
+### Added
+- În „Noutăți” e acum un buton care reîncarcă pagina, dacă lista nu s-a încărcat.
+
+### Fixed
+- Pe telefoanele înguste, „Noutăți” nu mai iese din ecran în lateral.
+
 ## [1.25.2] - 2026-11-25
 
 ### Changed

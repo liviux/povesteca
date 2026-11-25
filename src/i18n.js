@@ -196,7 +196,7 @@ const RO = {
   rulesH: 'Ce intră în catalog',
   rules: 'Doar producții făcute ca să fie ascultate: teatru radiofonic și discuri de povești, cu actori, muzică și efecte, sau povești spuse de un actor. Înregistrările cu voci generate cu AI sau sintetice și canalele care urcă înregistrări de proveniență neclară nu intră.',
   suggest: 'Lipsește o poveste bună sau un link nu mai merge?', suggestLink: 'Scrie-ne pe GitHub',
-  news: 'Noutăți', newsAll: 'Tot istoricul', newsMore: 'Arată mai multe', newsErr: 'Lista de noutăți nu s-a încărcat.',
+  news: 'Noutăți', newsAll: 'Tot istoricul', newsReload: 'Reîncarcă pagina', newsMore: 'Arată mai multe', newsErr: 'Lista de noutăți nu s-a încărcat.',
   newsCats: { Added: 'Lucruri noi', Changed: 'Îmbunătățiri', Fixed: 'Reparații', Removed: 'Scoase' },
   newStories: 'Povești noi', removedStories: 'Povești scoase', code: 'Codul pe GitHub', contact: 'Contact/feedback', version: (v) => `Versiunea ${v}`,
   min: 'min',
@@ -275,7 +275,7 @@ const EN = {
   rulesH: 'What goes into the catalogue',
   rules: 'Only productions made to be listened to: radio plays and story records with actors, music and sound effects, or stories told by an actor. Recordings with AI-generated or synthetic voices and channels that upload recordings of unclear origin are left out.',
   suggest: 'Is a good story missing, or a link broken?', suggestLink: 'Tell us on GitHub',
-  news: "What's new", newsAll: 'Full changelog', newsMore: 'Read more', newsErr: "The list of changes didn't load.",
+  news: "What's new", newsAll: 'Full changelog', newsReload: 'Reload the page', newsMore: 'Read more', newsErr: "The list of changes didn't load.",
   newsCats: { Added: 'New features', Changed: 'Improvements', Fixed: 'Bug fixes', Removed: 'Removed features' },
   newStories: 'New stories', removedStories: 'Removed stories', code: 'Code on GitHub', contact: 'Contact/feedback', version: (v) => `Version ${v}`,
 };

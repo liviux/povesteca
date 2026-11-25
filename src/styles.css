@@ -376,11 +376,12 @@ img { display: block; max-width: 100%; }
 /* ============ What's new ============ */
 dialog.log { width: min(680px, calc(100% - 24px)); max-height: min(86dvh, 900px); padding: 0; border: 0; border-radius: var(--radius); background: var(--surface); color: var(--ink); box-shadow: var(--shadow-hover); }
 dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
-.log-inner { padding: 0 20px 20px; display: grid; gap: 18px; }
+.log-inner { padding: 0 20px 20px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; overflow-wrap: anywhere; }
 .log-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 8px; padding: 14px 0 12px; background: var(--surface); border-bottom: 2px solid var(--line); }
 .log-head h2 { margin-right: auto; }
 .log-head h2 .muted { white-space: nowrap; }
-.log-foot { display: flex; flex-wrap: wrap; gap: 10px; border-top: 2px solid var(--line); padding-top: 16px; }
+.log-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; border-top: 2px solid var(--line); padding-top: 16px; }
+.log-refresh { margin-left: auto; }
 .release { display: grid; gap: 6px; }
 .release + .release { border-top: 2px solid var(--line); padding-top: 16px; }
 .release h3 { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; font-size: 20px; }

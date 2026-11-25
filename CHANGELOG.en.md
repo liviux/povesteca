@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.25.3] - 2026-11-25
+
+### Added
+- “What's new” now has a button that reloads the page when the list didn't load.
+
+### Fixed
+- On narrow phones, “What's new” no longer spills off the side of the screen.
+
 ## [1.25.2] - 2026-11-25
 
 ### Changed

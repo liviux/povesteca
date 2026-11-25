@@ -59,6 +59,8 @@ export function Changelog({ onClose }) {
         <div class="log-foot">
           {releases && shown < releases.length && <button type="button" class="btn ghost" onClick={() => setShown(shown + PAGE)}>{t.newsMore}</button>}
           <a class="btn ghost" href={`${REPO}/blob/main/CHANGELOG${lang === 'en' ? '.en' : ''}.md`} target="_blank" rel="noopener">{t.newsAll}<Icon n="ext" size={16} /></a>
+          {/* reloads the whole page: a browser won't retry a lazy chunk that failed once */}
+          <button type="button" class="icon-btn log-refresh" aria-label={t.newsReload} title={t.newsReload} onClick={() => location.reload()}><Icon n="refresh" /></button>
         </div>
       </div>
     </dialog>
