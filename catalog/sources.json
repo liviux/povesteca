@@ -298,5 +298,55 @@
    "ro": "Povești de Cristina și Alex Donovici, în interpretarea unor actori precum Serenela Mureșan, Pavel Bartoș și Teo Trandafir.",
    "en": "Stories by Cristina and Alex Donovici, performed by actors including Serenela Mureșan, Pavel Bartoș and Teo Trandafir."
   }
+ },
+ {
+  "id": "sidonia-dragusanu",
+  "name": "Sidonia Drăgușanu",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCBMPavAgV70gjzqQdtoXf2Q",
+  "description": {
+   "ro": "Canalul oficial dedicat scriitoarei Sidonia Drăgușanu: poveștile din volumul „Moața, Creața și Grasu’ la bal”, citite la Radio România Cultural de actrița Rodica Mandache, plus lectura „Moața, Creața și Grasu’ la bal” interpretată de Daniela Ioniță-Marcu. Înregistrări complete.",
+   "en": "The official channel of the Sidonia Drăgușanu literary estate: stories from “Moața, Creața și Grasu’ la bal”, read for Radio România Cultural by actress Rodica Mandache, plus Daniela Ioniță-Marcu’s reading of the title story. Complete recordings."
+  }
+ },
+ {
+  "id": "povestile-de-vineri-seara",
+  "name": "Poveștile de vineri seara",
+  "type": "audio",
+  "url": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+  "description": {
+   "ro": "Seria „Poveștile de vineri seara” a Radio România Actualități și a Ambasadei României în Italia: povești românești și universale citite de actori, scriitori și muzicieni, cu audio direct din arhiva radio, fără reclame.",
+   "en": "Radio România Actualități and the Romanian Embassy in Italy’s “Poveștile de vineri seara”: Romanian and universal stories read by actors, writers and musicians, with direct, ad-free audio from the radio archive."
+  }
+ },
+ {
+  "id": "viorel-ionescu",
+  "name": "Povești de adormit copiii",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCBaxa6qIVMVUSHdPpg_oR7g",
+  "description": {
+   "ro": "Povești originale de seară scrise și spuse de actorul Viorel Ionescu, cunoscut pentru personajele din filmele și serialele pentru copii dublate în română. Basme moderne cu zâne, dragoni și eroi mici.",
+   "en": "Original bedtime stories written and told by actor Viorel Ionescu, known for his Romanian-dubbed children’s film and TV roles. Modern fairy tales with fairies, dragons and small heroes."
+  }
+ },
+ {
+  "id": "povesti-cu-nekta",
+  "name": "Povești cu Nekta",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCEar0g9AvbQct_mot364iqw",
+  "description": {
+   "ro": "Povești clasice și originale scrise și narate de Nekta Ioana Dedu, după aproape zece ani de radio. Basme citite calm, cu voce caldă, pentru seara dinaintea somnului.",
+   "en": "Classic and original stories written and narrated by Nekta Ioana Dedu after almost ten years in radio. Calm, warmly voiced fairy tales for bedtime."
+  }
+ },
+ {
+  "id": "radio-zalau-povesti",
+  "name": "Poveștile de seară ale Radio Zalău",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@RadioZalau",
+  "description": {
+   "ro": "Poveștile de seară ale Radio Zalău, citite de Ioana Dumitru și de realizatorii „Raftului cu povești”: basme, legende de iarnă și povești pentru copii, în înregistrări scurte și liniștite.",
+   "en": "Radio Zalău’s evening stories, read by Ioana Dumitru and the “Raftul cu povești” team: fairy tales, winter legends and children’s stories in short, quiet recordings."
+  }
  }
 ]

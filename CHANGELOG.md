@@ -2,6 +2,15 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.30.0] - 2026-11-25
+
+### Added
+- **Povești noi:** 27 de povești și 47 de înregistrări din cinci surse noi: poveștile Sidoniei Drăgușanu citite la radio de Rodica Mandache, seria „Poveștile de vineri seara” a Radio România Actualități, poveștile originale spuse de actorul Viorel Ionescu, basmele Nektei Ioana Dedu și poveștile de seară ale Radio Zalău.
+- Portrete și legături Wikipedia pentru Clara Cernat și Gabriela Dancău, plus credite pentru vocile noilor înregistrări.
+
+### Changed
+- Am ascultat înregistrările noi și am notat vârsta, personajele, atmosfera și calitatea fiecăreia. Cele de la Radio România Actualități se ascultă direct din arhiva radio, iar restul din YouTube.
+
 ## [1.29.0] - 2026-11-25
 
 ### Changed

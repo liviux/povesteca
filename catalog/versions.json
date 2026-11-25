@@ -88996,5 +88996,1820 @@
    "moods",
    "quality"
   ]
+ },
+ {
+  "id": "amintirea-pantofilor-sidonia",
+  "storyId": "cea-mai-frumoasa-amintire-a-unor-pantofi-de-lac",
+  "title": "Cea mai frumoasă amintire a unor pantofi de lac",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "NtnIS-SEbCI",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 533,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "gradina-insufletita-sidonia",
+  "storyId": "gradina-insufletita",
+  "title": "Grădina însuflețită",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "c0ajLqxYXdQ",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 561,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "jocul-de-a-ce-ar-fi-sidonia",
+  "storyId": "jocul-de-a-ce-ar-fi",
+  "title": "Jocul „De-a ce ar fi”",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "4WF37zcsPAw",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 466,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "adevaratul-mos-craciun-sidonia",
+  "storyId": "adevaratul-sau-neadevaratul-mos-craciun",
+  "title": "Adevăratul sau neadevăratul Moș-Crăciun",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Q1O2Ux5D2-0",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 580,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "o-prietenie-in-padure-sidonia",
+  "storyId": "o-prietenie-in-padure",
+  "title": "O prietenie în pădure",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "jQw5uB6pXPc",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 609,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "a-disparut-un-pitic-sidonia",
+  "storyId": "a-disparut-un-pitic",
+  "title": "A dispărut un pitic",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ZGBdQr1-iW0",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 539,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "tara-parintilor-la-scoala-sidonia",
+  "storyId": "tara-in-care-parintii-se-duc-la-scoala",
+  "title": "Țara în care părinții se duc la școală",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "rZB7RQIvw2g",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 514,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "pufi-canarul-sidonia",
+  "storyId": "de-ce-a-mancat-pisica-pufi-canarul",
+  "title": "De ce a mâncat pisica Pufi canarul",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "VgLwcsljYqg",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 611,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "florile-vietii-sidonia",
+  "storyId": "florile-vietii",
+  "title": "Florile vieții",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "CB0AgmjA5TE",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 617,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "cea-mai-frumoasa-fata-sidonia",
+  "storyId": "cea-mai-frumoasa-fata-din-lume",
+  "title": "Cea mai frumoasă fată din lume",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "2VFnOd7vFmY",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 603,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "judecata-caprelor-sidonia",
+  "storyId": "judecata-cele-doua-capre",
+  "title": "Judecata",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "aGn-RdQn6lE",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 411,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "linistitoare"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "doi-oameni-de-zapada-sidonia",
+  "storyId": "doi-oameni-de-zapada",
+  "title": "Doi oameni de zăpadă",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Eso6Fg-anfI",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 582,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Rodica Mandache"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "moata-creata-sidonia",
+  "storyId": "cand-papusile-iubesc",
+  "title": "Moața, Creața și Grasu’ la bal",
+  "sourceId": "sidonia-dragusanu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ID8qdKRdO5s",
+    "via": "Sidonia Drăgușanu"
+   }
+  ],
+  "duration": 1431,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Daniela Ioniță-Marcu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "capra-cu-trei-iezi-maia",
+  "storyId": "capra-cu-trei-iezi",
+  "title": "Capra cu trei iezi",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-125911-pove_ti_cu_maia_morgenstern.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 1625,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "amuzanta"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "sarea-in-bucate-gabriela",
+  "storyId": "sarea-in-bucate",
+  "title": "Sarea în bucate",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-118381-povestile_de_vineri_seara_gabriela_dancau.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 1096,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Gabriela Dancău"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "praslea-povestile-de-vineri",
+  "storyId": "praslea-cel-voinic",
+  "title": "Prâslea cel voinic și merele de aur",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-134591-pr_slea_cel_voinic_i_merele_de_aur.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 2050,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "fat-frumos-povestile-de-vineri",
+  "storyId": "fat-frumos-din-lacrima",
+  "title": "Făt-Frumos din lacrimă",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-132731-f_t_frumos_din_lacrim_.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 3928,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 5,
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "tinerete-povestile-de-vineri",
+  "storyId": "tinerete-fara-batranete",
+  "title": "Tinerețe fără bătrânețe și viață fără de moarte",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-128301-povestea_de_vineri_seara_cu_emilia_popescu.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 1367,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Emilia Popescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "zana-muntilor-gavrilas",
+  "storyId": "zana-muntilor",
+  "title": "Zâna munților",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-123841-povesti_gavrilas.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 823,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 6,
+  "quality": 4,
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "fata-padurarului-anna",
+  "storyId": "fata-padurarului",
+  "title": "Fata pădurarului",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-137001-podcast_anna_ungureanu.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 1403,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Anna Ungureanu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mandolina-din-livov-clara",
+  "storyId": "mandolina-din-livov",
+  "title": "Mandolina din Livov",
+  "sourceId": "povestile-de-vineri-seara",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://podcast.srr.ro/audio/1/c8901_s/pod-audio-125081-povesti_cu_clara_cernat.mp3",
+    "page": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "via": "Radio România Actualități"
+   }
+  ],
+  "duration": 2313,
+  "year": 2021,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Clara Cernat"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "urechiusa-viorel",
+  "storyId": "urechiusa-iepurasul-cel-pufos",
+  "title": "Urechiușă, iepurașul cel pufos",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "C_1E_FUCL50",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 211,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 3,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "dragonasul-puf-viorel",
+  "storyId": "dragonasul-puf-si-furtuna-de-foc",
+  "title": "Dragonașul Puf și Furtuna de Foc",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "7i1tNGFqKC0",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 298,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "spiridusii-steaua-viorel",
+  "storyId": "spiridusii-si-steaua-fermecata",
+  "title": "Spiridușii și Steaua Fermecată",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "hWxuh2lB22Y",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 373,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "fat-frumos-umbrele-viorel",
+  "storyId": "fat-frumos-si-blestemul-umbrelor",
+  "title": "Făt-Frumos și Blestemul Umbrelor",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "CxWrdi3F5RQ",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 369,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "dinozaurul-zboare-viorel",
+  "storyId": "dinozaurul-care-voia-sa-zboare",
+  "title": "Dinozaurul care voia să zboare",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "BobOC15XAag",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 369,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "piko-pinguinul-viorel",
+  "storyId": "aventurile-lui-piko-pinguinul-curajos",
+  "title": "Aventurile lui Piko, Pinguinul Curajos",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "IQMOfzkn7d4",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 465,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "linistitoare"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "turnul-de-cristal-viorel",
+  "storyId": "misterul-turnului-de-cristal",
+  "title": "Misterul Turnului de Cristal",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "RRMGOvlKGTU",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 838,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "misterioasa",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "regatul-stelelor-viorel",
+  "storyId": "regatul-stelelor-si-blestemul-dragonului",
+  "title": "Regatul Stelelor și Blestemul Dragonului",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "MdqZ27oz9vQ",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 566,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "noki-elefantelul-viorel",
+  "storyId": "elefantelul-noki-si-secretul-apei-fermecate",
+  "title": "Elefănțelul Noki și secretul apei fermecate",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "5G7YW25V19A",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 406,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "linistitoare"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "motu-soricelul-viorel",
+  "storyId": "povestea-lui-motu-soricelul-curajos",
+  "title": "Povestea lui Moțu, șoricelul curajos",
+  "sourceId": "viorel-ionescu",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "P_939TK9A7c",
+    "via": "Povești de adormit copiii"
+   }
+  ],
+  "duration": 253,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "amuzanta"
+  ],
+  "age": 3,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorel Ionescu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "ratusca-urata-nekta",
+  "storyId": "ratusca-cea-urata",
+  "title": "Rățușca cea urâtă",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "QJTGMUXjp_Y",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 1513,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "cenusareasa-nekta",
+  "storyId": "cenusareasa",
+  "title": "Cenușăreasa",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "PO3FjbUB188",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 839,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "scufita-rosie-nekta",
+  "storyId": "scufita-rosie",
+  "title": "Scufița Roșie",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "yfr2Hut77aI",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 539,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "rapunzel-nekta",
+  "storyId": "rapunzel",
+  "title": "Rapunzel",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "9mOc6VxN53g",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 438,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "frumoasa-adormita-nekta",
+  "storyId": "frumoasa-din-padurea-adormita",
+  "title": "Frumoasa Adormită",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "A21gAhjx0K8",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 718,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mica-sirena-nekta",
+  "storyId": "mica-sirena",
+  "title": "Mica Sirenă",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "wEgJUdvSQLs",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 984,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 6,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "soldatelul-cositor-nekta",
+  "storyId": "soldatul-de-plumb",
+  "title": "Soldățelul de cositor",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "LCIOvYrPSug",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 527,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "degetica-nekta",
+  "storyId": "degetica",
+  "title": "Degețica",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "FZ_FXWw-oZE",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 400,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "lebedele-nekta",
+  "storyId": "lebedele",
+  "title": "Lebedele sălbatice",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "3_OZaYB_Z3Q",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 999,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "jack-vrejul-nekta",
+  "storyId": "jack-si-vrejul-de-fasole",
+  "title": "Jack și vrejul de fasole",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "H1Uzhvjh9Ug",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 417,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "spiridusii-cizmari-nekta",
+  "storyId": "spiridusii",
+  "title": "Spiridușii cizmari",
+  "sourceId": "povesti-cu-nekta",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "exY9Mh-A3uE",
+    "via": "Povești cu Nekta"
+   }
+  ],
+  "duration": 265,
+  "year": 2025,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Nekta Ioana Dedu"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "cenusareasa-radio-zalau",
+  "storyId": "cenusareasa",
+  "title": "Cenușăreasa",
+  "sourceId": "radio-zalau-povesti",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "_AJMnFYa6JU",
+    "via": "Radio Zalău"
+   }
+  ],
+  "duration": 419,
+  "year": 2026,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Ioana Dumitru"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mos-nicolae-radio-zalau",
+  "storyId": "mos-nicolae",
+  "title": "Moș Nicolae",
+  "sourceId": "radio-zalau-povesti",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "9BLvOzLc5TI",
+    "via": "Radio Zalău"
+   }
+  ],
+  "duration": 574,
+  "year": 2026,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Ioana Dumitru"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "baba-iarna-radio-zalau",
+  "storyId": "baba-iarna-intra-in-sat",
+  "title": "Baba iarna intră-n sat",
+  "sourceId": "radio-zalau-povesti",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "1ZZ_DOTs01M",
+    "via": "Radio Zalău"
+   }
+  ],
+  "duration": 237,
+  "year": 2026,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 3,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Ioana Dumitru"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "bradul-mereu-verde-radio-zalau",
+  "storyId": "de-ce-bradul-e-mereu-verde",
+  "title": "De ce bradul e mereu verde",
+  "sourceId": "radio-zalau-povesti",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "nL549cqnnNs",
+    "via": "Radio Zalău"
+   }
+  ],
+  "duration": 435,
+  "year": 2026,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Ioana Dumitru"
+   ]
+  },
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "broasca-fermecata-radio-zalau",
+  "storyId": "broasca-cea-fermecata",
+  "title": "Broasca cea fermecată",
+  "sourceId": "radio-zalau-povesti",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "lCcmls--Gpg",
+    "via": "Radio Zalău"
+   }
+  ],
+  "duration": 385,
+  "year": 2026,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 3,
+  "estimated": [
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
  }
 ]

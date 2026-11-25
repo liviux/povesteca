@@ -1268,6 +1268,26 @@
         "license": "CC BY 3.0",
         "by": "startevo"
       }
+    },
+    "Clara Cernat": {
+      "wikidata": "Q16540147",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Clara_Cernat",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Clara_Cernat.jpg/330px-Clara_Cernat.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Clara_Cernat.jpg",
+        "license": "CC BY-SA 3.0",
+        "by": "Leoutre"
+      }
+    },
+    "Gabriela Dancău": {
+      "wikidata": "Q72691233",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gabriela_Danc%C4%83u",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gabriela_Dancau.jpg/330px-Gabriela_Dancau.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Gabriela_Dancau.jpg",
+        "license": "CC BY-SA 4.0",
+        "by": "Gabriela Dancău"
+      }
     }
   },
   "stories": {

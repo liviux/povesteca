@@ -2,6 +2,15 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.30.0] - 2026-11-25
+
+### Added
+- **New stories:** 27 stories and 47 recordings from five new sources: Sidonia Drăgușanu’s stories read on the radio by Rodica Mandache, Radio România Actualități’s “Poveștile de vineri seara” series, original bedtime stories told by actor Viorel Ionescu, Nekta Ioana Dedu’s fairy tales and Radio Zalău’s evening stories.
+- Portraits and Wikipedia links for Clara Cernat and Gabriela Dancău, plus voice credits for the new recordings.
+
+### Changed
+- Listened to the new recordings and noted each one’s age, characters, mood and quality. The Radio România Actualități episodes play directly from the radio archive; the rest play from YouTube.
+
 ## [1.29.0] - 2026-11-25
 
 ### Changed

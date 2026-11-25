@@ -29822,5 +29822,611 @@
   "year": 2024,
   "origin": "romanian",
   "addedAt": "2026-11-25"
+ },
+ {
+  "id": "cea-mai-frumoasa-amintire-a-unor-pantofi-de-lac",
+  "title": "Cea mai frumoasă amintire a unor pantofi de lac, a unui frac și a unei căciuli",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "amintiri",
+   "haine",
+   "bunatate"
+  ],
+  "characters": [
+   "Pantofii de lac",
+   "Fracul",
+   "Căciula",
+   "Stăpânul"
+  ],
+  "summary": {
+   "ro": "Pantofii de lac, fracul și căciula își povestesc amintirile din serile în care stăpânul lor se pregătea pentru bal. Prin vorbele lor prinde viață o lume întreagă de eleganță și de mică magie domestică.",
+   "en": "A pair of patent-leather shoes, a tailcoat and a hat trade memories of the evenings when their owner dressed for a ball, bringing a genteel household quietly to life."
+  },
+  "year": 1945
+ },
+ {
+  "id": "gradina-insufletita",
+  "title": "Grădina însuflețită",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "iarna",
+   "magie",
+   "natura",
+   "craciun"
+  ],
+  "characters": [
+   "Fetița",
+   "Zâna Iernii",
+   "Zarzărul",
+   "Bradul",
+   "Statuile"
+  ],
+  "summary": {
+   "ro": "În Ajunul Crăciunului, grădina înghețată prinde glas: copacii, statuile și zarzărul primesc daruri de la Zâna Iernii. O fetiță ascultă povețile lor despre frig, dorințe și bucuria de a dărui.",
+   "en": "On Christmas Eve a frozen garden comes to life: trees, statues and the old cherry tree receive gifts from the Winter Fairy, and a little girl listens to their stories about cold, wishes and giving."
+  },
+  "year": 1945
+ },
+ {
+  "id": "jocul-de-a-ce-ar-fi",
+  "title": "Jocul „De-a ce ar fi”",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "copilarie",
+   "imaginatie",
+   "joc"
+  ],
+  "characters": [
+   "Băiatul",
+   "Marinarul",
+   "Profesorul",
+   "Trenul"
+  ],
+  "summary": {
+   "ro": "Un băiețel singur pe covorul din cameră își imaginează ce ar fi dacă jucăriile ar prinde viață. Fiecare gând deschide o lume nouă, până când camera se umple de aventuri.",
+   "en": "A little boy alone on the living-room rug imagines what would happen if his toys came alive; each thought opens a new world until the room fills with adventure."
+  },
+  "year": 1945
+ },
+ {
+  "id": "adevaratul-sau-neadevaratul-mos-craciun",
+  "title": "Adevăratul sau neadevăratul Moș-Crăciun",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "craciun",
+   "bunatate",
+   "sarbatori"
+  ],
+  "characters": [
+   "Directorul orfelinatului",
+   "Moș Crăciun",
+   "Copiii"
+  ],
+  "summary": {
+   "ro": "Un om bate la ușa orfelinatului și cere să fie chiar el Moș Crăciun pentru copiii de acolo. Directorarea îl primește, iar seara de Ajun se schimbă într-o sărbătoare pe care nimeni nu o uită.",
+   "en": "A man knocks at the orphanage door asking to be Father Christmas for the children; the director lets him in, and Christmas Eve becomes a celebration no one forgets."
+  },
+  "year": 1945
+ },
+ {
+  "id": "o-prietenie-in-padure",
+  "title": "O prietenie în pădure",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "prietenie",
+   "animale",
+   "natura",
+   "invidie"
+  ],
+  "characters": [
+   "Privighetoarea",
+   "Ulmul",
+   "Bufnița"
+  ],
+  "summary": {
+   "ro": "Privighetoarea cântă seară de seară, iar ulmul o ascultă. Când invidia și vorbele rele se strecoară între ei, cei doi prieteni descoperă cât de fragilă și de prețioasă este prietenia.",
+   "en": "A nightingale sings every evening and an elm listens; when envy and gossip creep between them, the two friends learn how fragile and precious friendship is."
+  },
+  "year": 1945
+ },
+ {
+  "id": "a-disparut-un-pitic",
+  "title": "A dispărut un pitic",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "pitici",
+   "jucarii",
+   "copilarie",
+   "mister"
+  ],
+  "characters": [
+   "Mici",
+   "Piticul",
+   "Servitorul",
+   "Stăpânul"
+  ],
+  "summary": {
+   "ro": "Micul Mici primește un pitic de jucărie, dar acesta dispare într-o noapte. Căutarea lui prin casă și curte se preface într-o mică anchetă plină de haz.",
+   "en": "Little Mici is given a toy dwarf, but it vanishes overnight; the search through house and yard turns into a small, cheerful mystery."
+  },
+  "year": 1945
+ },
+ {
+  "id": "tara-in-care-parintii-se-duc-la-scoala",
+  "title": "Țara în care părinții se duc la școală",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "scoala",
+   "familie",
+   "copilarie",
+   "umor"
+  ],
+  "characters": [
+   "Copiii",
+   "Părinții",
+   "Învățătoarea"
+  ],
+  "summary": {
+   "ro": "Într-o țară răsturnată, părinții merg la școală, iar copiii le pregătesc ghiozdanele. Rând pe rând, adulții descoperă cât de greu este să fii elev și cât de multe au de învățat.",
+   "en": "In a topsy-turvy country parents go to school while the children pack their satchels; one by one the grown-ups discover how hard it is to be a pupil."
+  },
+  "year": 1945
+ },
+ {
+  "id": "de-ce-a-mancat-pisica-pufi-canarul",
+  "title": "De ce a mâncat pisica Pufi canarul",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "animale",
+   "umor",
+   "judecata"
+  ],
+  "characters": [
+   "Pufi",
+   "Canarul",
+   "Pisicile",
+   "Președintele tribunalului"
+  ],
+  "summary": {
+   "ro": "Pufi este acuzată că a mâncat canarul, iar pisicile din cartier se strâng într-un tribunal deocheat. Procesul lor plin de mărturii hazlii explică, în felul lor, de ce pisicile nu se pot abține.",
+   "en": "Pufi is accused of eating the canary, and the neighbourhood cats hold a mock trial full of funny testimony to explain, in their own way, why cats cannot help themselves."
+  },
+  "year": 1945
+ },
+ {
+  "id": "florile-vietii",
+  "title": "Florile vieții",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "magie",
+   "timp",
+   "bunatate",
+   "alegere"
+  ],
+  "characters": [
+   "Floria",
+   "Bătrânul",
+   "Grădinarul"
+  ],
+  "summary": {
+   "ro": "Floria, fata cea bogată și mereu tristă, primește o grădină de flori fermecate: fiecare floare ruptă îi scurtează viața. Descoperă curând că darul cel mai scump nu este timpul, ci bucuria de a-l împărți.",
+   "en": "Floria, a rich and forever unhappy girl, is given a garden of magic flowers: every flower picked shortens her life. She learns that the most precious gift is not time but the joy of sharing it."
+  },
+  "year": 1945
+ },
+ {
+  "id": "cea-mai-frumoasa-fata-din-lume",
+  "title": "Cea mai frumoasă fată din lume",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "frumusete",
+   "adevar",
+   "mandrie",
+   "familie"
+  ],
+  "characters": [
+   "Fata",
+   "Regele",
+   "Străinul",
+   "Slujitorul"
+  ],
+  "summary": {
+   "ro": "Un rege poruncește ca fiica lui să fie crescută în credința că este cea mai frumoasă fată din lume. Când un străin îi spune adevărul, fata descoperă că frumusețea adevărată se vede altfel.",
+   "en": "A king has his daughter raised to believe she is the most beautiful girl in the world; when a stranger tells her the truth, she discovers that true beauty is seen differently."
+  },
+  "year": 1945
+ },
+ {
+  "id": "judecata-cele-doua-capre",
+  "title": "Judecata",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "animale",
+   "intelepciune",
+   "judecata"
+  ],
+  "characters": [
+   "Cele două capre",
+   "Regele",
+   "Ministrul"
+  ],
+  "summary": {
+   "ro": "Două capre se întâlnesc pe o punte îngustă și nu vor să facă loc. Regele cere sfatul unui ministru, iar judecata lui dezvăluie ce înseamnă bunul simț.",
+   "en": "Two goats meet on a narrow bridge and refuse to make way; the king asks his minister for advice, and the judgement reveals what common sense really means."
+  },
+  "year": 1945
+ },
+ {
+  "id": "doi-oameni-de-zapada",
+  "title": "Doi oameni de zăpadă",
+  "author": "Sidonia Drăgușanu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "iarna",
+   "prietenie",
+   "aventura"
+  ],
+  "characters": [
+   "Gogoașă",
+   "Bondoc",
+   "Controlorul"
+  ],
+  "summary": {
+   "ro": "Doi oameni de zăpadă, unul cu ochi de cărbune și altul cu pălărie de ziar, pornesc prin oraș în căutarea unui loc mai bun. Aventura lor de iarnă se sfârșește într-un tren, unde îi așteaptă o surpriză.",
+   "en": "Two snowmen, one with coal eyes and one with a newspaper hat, set off through town looking for a better place; their winter adventure ends on a train, where a surprise awaits."
+  },
+  "year": 1945
+ },
+ {
+  "id": "urechiusa-iepurasul-cel-pufos",
+  "title": "Urechiușă, iepurașul cel pufos",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "animale",
+   "prietenie",
+   "curaj"
+  ],
+  "characters": [
+   "Urechiușă",
+   "prietenii din pădure"
+  ],
+  "summary": {
+   "ro": "Urechiușă, un iepuraș mic și pufos, pornește să își ajute prietenii din pădure și descoperă că puterea cea mare stă în bunătate.",
+   "en": "Urechiușă, a small fluffy rabbit, sets out to help his forest friends and discovers that real strength lies in kindness."
+  },
+  "year": 2025
+ },
+ {
+  "id": "dragonasul-puf-si-furtuna-de-foc",
+  "title": "Dragonașul Puf și Furtuna de Foc",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "dragoni",
+   "curaj",
+   "prietenie"
+  ],
+  "characters": [
+   "Puf",
+   "prietenii din regat"
+  ],
+  "summary": {
+   "ro": "Dragonașul Puf trebuie să înfrunte o furtună de foc care amenință tot regatul. Cu prietenii alături, învață că nu flacăra îl face puternic, ci curajul de a-i ajuta pe ceilalți.",
+   "en": "Little dragon Puf faces a firestorm threatening the whole kingdom; with his friends beside him he learns that strength is not in his flame but in the courage to help others."
+  },
+  "year": 2025
+ },
+ {
+  "id": "spiridusii-si-steaua-fermecata",
+  "title": "Spiridușii și Steaua Fermecată",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "spiridusi",
+   "prietenie",
+   "curaj",
+   "magie"
+  ],
+  "characters": [
+   "Norișor",
+   "Stropița",
+   "Vântul Poznaș"
+  ],
+  "summary": {
+   "ro": "Într-o pădure fermecată, steaua spiridușilor dispare, iar licuricii nu mai găsesc drumul. Norișor și Stropița pornesc să o recupereze de la Vântul Poznaș.",
+   "en": "In an enchanted forest the sprites’ star disappears and the fireflies lose their way; Norișor and Stropița set out to win it back from the mischievous Wind."
+  },
+  "year": 2025
+ },
+ {
+  "id": "fat-frumos-si-blestemul-umbrelor",
+  "title": "Făt-Frumos și Blestemul Umbrelor",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "curaj",
+   "magie",
+   "aventura"
+  ],
+  "characters": [
+   "Făt-Frumos",
+   "Umbrele",
+   "fata împăratului"
+  ],
+  "summary": {
+   "ro": "Un blestem aruncă umbre peste regat, iar Făt-Frumos pornește să-l descânte. Ca să învingă, trebuie să afle ce ascunde frica din inima lui.",
+   "en": "A curse casts shadows over the kingdom, and Făt-Frumos sets out to break it. To win, he must first understand the fear hidden in his own heart."
+  },
+  "year": 2025
+ },
+ {
+  "id": "dinozaurul-care-voia-sa-zboare",
+  "title": "Dinozaurul care voia să zboare",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "animale",
+   "curaj",
+   "prietenie"
+  ],
+  "characters": [
+   "Roco",
+   "pterodactilii"
+  ],
+  "summary": {
+   "ro": "Roco, un mic velociraptor, visează să zboare ca pterodactilii, deși nu are aripi. Aventura lui îl învață că adevărata putere vine din ceea ce are deja.",
+   "en": "Roco, a little velociraptor, dreams of flying like the pterodactyls even though he has no wings; his adventure teaches him that true power comes from what he already has."
+  },
+  "year": 2025
+ },
+ {
+  "id": "aventurile-lui-piko-pinguinul-curajos",
+  "title": "Aventurile lui Piko, Pinguinul Curajos",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "animale",
+   "curaj",
+   "aventura"
+  ],
+  "characters": [
+   "Piko",
+   "prietenii pinguini"
+  ],
+  "summary": {
+   "ro": "Piko, un pinguin mic și curajos, pleacă în larg după o comoară de gheață. Pe drum învață că cel mai prețios lucru este să te întorci acasă la cei dragi.",
+   "en": "Piko, a small and brave penguin, sails out after an ice treasure and learns along the way that the most precious thing is returning home to those he loves."
+  },
+  "year": 2025
+ },
+ {
+  "id": "misterul-turnului-de-cristal",
+  "title": "Misterul Turnului de Cristal",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "magie",
+   "aventura",
+   "curaj",
+   "mister"
+  ],
+  "characters": [
+   "Elior",
+   "vrăjitorul",
+   "turnul"
+  ],
+  "summary": {
+   "ro": "În regatul Valdoria, un turn de cristal ascunde o putere străveche. Elior, un băiat orfan cu o stea pe palmă, pornește să oprească blestemul nopții fără sfârșit.",
+   "en": "In the kingdom of Valdoria an ancient crystal tower hides a forgotten power; Elior, an orphan with a star on his palm, sets out to end the curse of endless night."
+  },
+  "year": 2025
+ },
+ {
+  "id": "regatul-stelelor-si-blestemul-dragonului",
+  "title": "Regatul Stelelor și Blestemul Dragonului",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "dragoni",
+   "aventura",
+   "prietenie",
+   "magie"
+  ],
+  "characters": [
+   "Elara",
+   "Alden",
+   "Umbros",
+   "vrăjitorul",
+   "elful",
+   "uriașul"
+  ],
+  "summary": {
+   "ro": "Dragonul Umbros fură Inima Cerului, iar regatul cade în întuneric. Prințesa Elara și prințul Alden pornesc cu tovarășii lor să o recupereze și descoperă un adevăr care schimbă totul.",
+   "en": "The dragon Umbros steals the Heart of the Sky and the kingdom falls into darkness; Princess Elara and Prince Alden set out with their companions to recover it and discover a truth that changes everything."
+  },
+  "year": 2025
+ },
+ {
+  "id": "elefantelul-noki-si-secretul-apei-fermecate",
+  "title": "Elefănțelul Noki și secretul apei fermecate",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "animale",
+   "prietenie",
+   "curaj"
+  ],
+  "characters": [
+   "Noki",
+   "Kiki",
+   "Tiko",
+   "Vântul Uscat"
+  ],
+  "summary": {
+   "ro": "Elefănțelul Noki aude de o apă fermecată care nu seacă niciodată și pornește spre Muntele Roșu cu maimuțica Kiki și papagalul Tiko. Drumul le arată că magia adevărată este prietenia.",
+   "en": "Little elephant Noki hears of a magic water that never dries and sets off for Red Mountain with Kiki the monkey and Tiko the parrot; the journey shows them that the real magic is friendship."
+  },
+  "year": 2025
+ },
+ {
+  "id": "povestea-lui-motu-soricelul-curajos",
+  "title": "Povestea lui Moțu, șoricelul curajos",
+  "author": "Viorel Ionescu",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "animale",
+   "curiozitate",
+   "prietenie",
+   "familie"
+  ],
+  "characters": [
+   "Moțu",
+   "greierele",
+   "Luma"
+  ],
+  "summary": {
+   "ro": "Moțu, un șoricel curios, pornește într-o noapte dincolo de pădure și întâlnește un greiere muzicant și o licuriciță. Aventura îl învață că cel mai frumos loc rămâne acasă.",
+   "en": "Moțu, a curious little mouse, sets out one night beyond the forest and meets a musical cricket and a firefly; the adventure teaches him that the loveliest place is still home."
+  },
+  "year": 2025
+ },
+ {
+  "id": "mandolina-din-livov",
+  "title": "Mandolina din Livov",
+  "author": "Clara Cernat",
+  "genre": "poveste",
+  "origin": "romanian",
+  "themes": [
+   "muzica",
+   "prietenie",
+   "magie",
+   "iarna"
+  ],
+  "characters": [
+   "Mandolina",
+   "lucrurile din pod",
+   "luna"
+  ],
+  "summary": {
+   "ro": "Într-un orășel din Ucraina, o mandolină uitată într-un pod prinde glas în nopțile senine. Povestea ei despre muzică, singurătate și prietenie se întinde peste casele adormite.",
+   "en": "In a small town in Ukraine a forgotten mandolin in an attic finds its voice on clear nights; its story of music, loneliness and friendship drifts over the sleeping houses."
+  },
+  "year": 2021
+ },
+ {
+  "id": "mos-nicolae",
+  "title": "Moș Nicolae",
+  "author": "folclor românesc",
+  "genre": "legenda",
+  "origin": "romanian",
+  "themes": [
+   "sarbatori",
+   "iarna",
+   "bunatate"
+  ],
+  "characters": [
+   "Moș Nicolae",
+   "copiii"
+  ],
+  "summary": {
+   "ro": "În noaptea de 5 spre 6 decembrie, Moș Nicolae trece pe la casele copiilor cuminți. Legenda spune cum a ajuns bătrânul cu barbă albă să aducă daruri în ghetuțe.",
+   "en": "On the night of 5 December Father Nicholas visits the homes of good children; the legend tells how the white-bearded old man came to leave gifts in their boots."
+  }
+ },
+ {
+  "id": "baba-iarna-intra-in-sat",
+  "title": "Baba iarna intră-n sat",
+  "author": "folclor românesc",
+  "genre": "legenda",
+  "origin": "romanian",
+  "themes": [
+   "iarna",
+   "natura",
+   "sarbatori"
+  ],
+  "characters": [
+   "Baba Iarna",
+   "satul"
+  ],
+  "summary": {
+   "ro": "Baba Iarna coboară din munți cu ger și zăpadă și intră în sat. Oamenii se pregătesc, copiii se bucură, iar iarna își arată puterea și darurile.",
+   "en": "Old Mother Winter comes down from the mountains with frost and snow and enters the village; the people prepare, the children rejoice, and winter shows both its power and its gifts."
+  }
+ },
+ {
+  "id": "de-ce-bradul-e-mereu-verde",
+  "title": "De ce bradul e mereu verde",
+  "author": "legendă populară",
+  "genre": "legenda",
+  "origin": "romanian",
+  "themes": [
+   "iarna",
+   "natura",
+   "legenda"
+  ],
+  "characters": [
+   "Bradul",
+   "iarna",
+   "păsările"
+  ],
+  "summary": {
+   "ro": "O legendă spune de ce bradul rămâne verde când toți ceilalți copaci își pierd frunzele: pentru că a fost milostiv cu păsările într-o iarnă grea.",
+   "en": "A legend explains why the fir tree stays green when the other trees lose their leaves: because it was kind to the birds during a hard winter."
+  }
+ },
+ {
+  "id": "broasca-cea-fermecata",
+  "title": "Broasca cea fermecată",
+  "author": "poveste populară",
+  "genre": "basm",
+  "origin": "universal",
+  "themes": [
+   "magie",
+   "animale",
+   "printese"
+  ],
+  "characters": [
+   "Broasca",
+   "Fata",
+   "Împăratul"
+  ],
+  "summary": {
+   "ro": "O fată găsește o broască vorbitoare care îi promite ajutor la nevoie. Când făgăduiala este încălcată, fata pornește să repare ce a stricat și descoperă ce înseamnă cuvântul dat.",
+   "en": "A girl finds a talking frog who promises help when she needs it; when the promise is broken, she sets out to put things right and learns what a given word is worth."
+  }
  }
 ]
