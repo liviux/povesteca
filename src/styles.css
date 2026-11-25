@@ -188,6 +188,24 @@ img { display: block; max-width: 100%; }
 .cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
 .card:hover .cover img { transform: scale(1.03); }
 .card .cover { border-radius: var(--radius) var(--radius) 0 0; }
+/* a cover drawn by src/art.js: the drawing is --cover-bg, the title is set over it in one of six layouts.
+   Sizes are in cqmin, a hundredth of the cover's shorter side; under 90px the cover is too small to read, so only
+   the drawing stays. A theme moves the title away from its play button or round edge with --art-x (sides),
+   --art-y (top and bottom) and --art-fs (a wide font sets it smaller). */
+.cover.art { container-type: size; }
+.art-t { position: absolute; left: var(--art-x, 9%); right: var(--art-x, 9%); bottom: var(--art-y, 8%); font: 700 calc(var(--fs) * var(--art-fs, 1) * 1cqmin)/1.04 var(--font-head); color: var(--t); letter-spacing: -0.01em; text-wrap: balance; overflow-wrap: anywhere; }
+.art-t i { font-style: normal; }
+.art-t i:nth-child(even) { color: var(--t2); }
+.art-t1 { text-align: end; }
+.art-t2 { right: auto; top: var(--art-y, 8%); writing-mode: vertical-rl; rotate: 180deg; }
+.art-t3, .art-t4 { bottom: auto; top: 50%; translate: 0 -50%; text-align: center; rotate: var(--rot); }
+.art-t3 { line-height: 1.32; rotate: calc(var(--rot) / 2); }
+.art-t3 > span { background: var(--m); padding: 0 .2em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.art-t:is(.art-t3, .art-t5) i { color: var(--mt); }
+.art-t4 { text-shadow: .05em .05em 0 var(--mt), .1em .1em 0 var(--t); }
+.art-t.art-t4 i { color: var(--m); }
+.art-t5 { left: 0; right: 0; bottom: calc(var(--art-y, 8%) + 4%); padding: 5% var(--art-x, 9%); background: var(--m); }
+@container (max-width: 90px) { .art-t { display: none; } }
 .card-body { padding: 12px 14px 14px; display: grid; gap: 4px; align-content: start; }
 .card-title { font-size: 18px; line-height: 1.2; }
 .card-kind { font-size: 12px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }

@@ -3,6 +3,7 @@ import { storyById, authorsOf, cover, storyCover, bestVersion, versionsByStory, 
 import { label, fmtDur } from './i18n.js';
 import { useStore, useT, toggleIn } from './store.js';
 import { play, toggle, closePlayer } from './player.jsx';
+import { art } from './art.js';
 
 const P = {
   play: <path d="M8 5.2v13.6a.8.8 0 0 0 1.2.7l10.6-6.8a.8.8 0 0 0 0-1.4L9.2 4.5A.8.8 0 0 0 8 5.2z" fill="currentColor" stroke="none" />,
@@ -81,9 +82,18 @@ export function Pick({ label, value, items, onPick, cls = 'pick-btn', children }
 export function Cover({ src, title, size = 180 }) {
   // remember which src failed, so the same Cover showing a new picture tries again
   const [failed, setFailed] = useState(null);
+  if (!src || failed === src) {
+    // no picture: a cover drawn in code, with the story's title on it (the card already names it for screen readers)
+    const a = art(title || '');
+    return (
+      <div class="cover art" style={a.style}>
+        <span class={`art-t art-t${a.layout}`} aria-hidden="true"><span>{a.words.map((w, i) => <>{i > 0 && ' '}<i>{w}</i></>)}</span></span>
+      </div>
+    );
+  }
   return (
     <div class="cover" data-initial={title?.[0]}>
-      {src && failed !== src && <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" onError={() => setFailed(src)} />}
+      <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" onError={() => setFailed(src)} />
     </div>
   );
 }

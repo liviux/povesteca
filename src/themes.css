@@ -95,6 +95,7 @@
 [data-theme='plastilina'] .card .cover { border-radius: var(--cover-radius); box-shadow: inset 0 -6px 10px rgb(0 0 0 / 12%); }
 [data-theme='plastilina'] .card-body { padding: 34px 6px 8px; justify-items: center; text-align: center; }
 [data-theme='plastilina'] .card .card-foot { justify-content: center; }
+[data-theme='plastilina'] .card .art-t:is(.art-t0, .art-t1, .art-t5) { bottom: auto; top: 8%; }
 [data-theme='plastilina'] .card-play { top: calc(8px + 100cqw - 28px); right: 50%; translate: 50% 0; width: 56px; height: 56px; box-shadow: 0 8px 14px -6px rgb(0 0 0 / 40%), inset 0 -4px 6px rgb(0 0 0 / 14%), inset 0 4px 6px rgb(255 255 255 / 60%); }
 [data-theme='plastilina'] .traits li { border-radius: 999px; }
 /* pages */
@@ -224,6 +225,8 @@
 [data-theme='galerie'] .card .cover { border-radius: var(--cover-radius); }
 [data-theme='galerie'] .card-body { padding: 12px 0 0; }
 [data-theme='galerie'] .card-title { font-size: 19px; }
+/* the play button sits low on the cover: a drawn cover's title goes to the top */
+[data-theme='galerie'] .card .art-t:is(.art-t0, .art-t1, .art-t5) { bottom: auto; top: 8%; }
 [data-theme='galerie'] .card-play { top: calc(100cqw - 58px); right: 10px; background: var(--ink); color: var(--bg); box-shadow: none; }
 [data-theme='galerie'] .traits li { background: none; border: 1px solid var(--line); }
 /* pages: text on the left, the cover on the right */
@@ -413,6 +416,10 @@
 [data-theme='cosmos'] .card .cover { border-radius: 50%; box-shadow: 0 0 0 5px rgb(255 255 255 / 5%), 0 0 0 6px var(--line), 0 18px 30px -12px rgb(0 0 0 / 80%); }
 [data-theme='cosmos'] .card-body { padding: 14px 4px 0; justify-items: center; text-align: center; }
 [data-theme='cosmos'] .card .card-foot { justify-content: center; }
+/* a drawn cover's title stays inside the circle, and above the play button */
+[data-theme='cosmos'] .cover { --art-x: 17%; --art-y: 16%; }
+[data-theme='cosmos'] .art-t { text-align: center; }
+[data-theme='cosmos'] .card .art-t:is(.art-t0, .art-t1, .art-t5) { bottom: auto; top: 18%; }
 [data-theme='cosmos'] .card-play { top: calc(100cqw - 50px); right: 0; background: var(--primary); color: var(--primary-ink); box-shadow: 0 0 0 4px var(--bg), 0 0 24px rgb(255 209 102 / 45%); }
 [data-theme='cosmos'] .card-link::after { content: ''; position: absolute; z-index: 1; left: -8%; top: calc(50cqw - 9cqw); width: 116%; height: 18cqw; border: 2px solid rgb(255 209 102 / 50%); border-top-color: transparent; border-radius: 50%; rotate: -14deg; pointer-events: none; }
 /* Keep the ring inside the page gutters when one grid card fills a row. */
@@ -522,6 +529,7 @@
 [data-theme='jeleu'] :is(.card-kind, .card-foot) { display: none; }
 [data-theme='jeleu'] .card-sub { font-size: 12px; line-height: 1.25; margin-top: 2px; }
 [data-theme='jeleu'] .shelves .card-sub { display: none; }
+[data-theme='jeleu'] .card .art-t:is(.art-t0, .art-t1, .art-t5) { bottom: auto; top: 8%; }
 [data-theme='jeleu'] .card-play { top: calc(100cqw - 30px); right: -4px; width: 34px; height: 34px; box-shadow: 0 0 0 3px var(--surface), 0 2px 6px rgb(0 0 0 / 25%); }
 [data-theme='jeleu'] .card-play .icon { width: 17px; height: 17px; }
 [data-theme='jeleu'] .card-play::after { content: ''; position: absolute; inset: -6px; }
@@ -592,6 +600,7 @@
 /* the player: the picture is the label of a turning record */
 [data-theme='vinil'] .dock-info .cover { border-radius: 50%; background: radial-gradient(circle, var(--surface) 0 6%, transparent 6.5%), repeating-radial-gradient(circle, var(--groove) 0 1px, var(--groove-2) 1px 2px); }
 [data-theme='vinil'] .dock-info .cover img { inset: 22%; width: 56%; height: 56%; border-radius: 50%; }
+[data-theme='vinil'] .dock-info .cover.art::before { inset: 22%; border-radius: 50%; background: var(--cover-bg); }
 [data-theme='vinil'] .dock-info .cover::after { content: ''; position: absolute; inset: 46%; border-radius: 50%; background: var(--surface); }
 [data-theme='vinil'] .dock.playing .dock-info .cover { animation: spin 1.8s linear infinite; }
 .sw-vinil i { background: radial-gradient(circle, #f2b134 0 26%, #1d1713 28% 31%, transparent 32%), repeating-radial-gradient(circle, #1d1713 0 1.5px, #3a2f27 1.5px 2.5px); }
@@ -677,7 +686,7 @@
 [data-theme='abtibild'] {
   --bg: oklch(95.7% .013 82); --surface: oklch(99.4% .007 89); --surface-2: oklch(92.8% .021 79); --ink: oklch(21% .011 81); --muted: oklch(44% .017 64); --line: oklch(86% .02 80);
   --primary: oklch(52% .215 2); --primary-ink: oklch(99.5% .003 82); --accent: oklch(87.6% .179 119); --accent-ink: oklch(21% .011 81); --focus: oklch(45% .2 2);
-  --die: oklch(99.5% .003 82); --hard: var(--ink);
+  --die: oklch(99.5% .003 82); --hard: var(--ink); --art-fs: .68;
   --radius: 18px; --radius-sm: 14px; --btn-radius: 999px; --cover-radius: 12px;
   --shadow: 0 0 0 5px var(--die), 5px 6px 0 5px var(--hard); --shadow-hover: 0 0 0 5px var(--die), 8px 10px 0 5px var(--hard);
   --cover-bg: oklch(80% .14 350);

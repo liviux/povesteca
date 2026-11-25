@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.28.0] - 2026-11-25
+
+### Added
+- Înregistrările fără poză au acum o copertă desenată pe loc, cu titlul poveștii pe ea: dealuri, raze, valuri, curcubee, cer de noapte și alte desene, în culori care se potrivesc între ele. La fiecare vizită desenele sunt altele.
+
 ## [1.27.0] - 2026-11-25
 
 ### Added
