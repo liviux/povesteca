@@ -5,7 +5,7 @@ import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourceP
 import { Dock, Night, surprise } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
-import { REPO, loadDetails } from './data.js';
+import { REPO, loadDetails, loadError } from './data.js';
 import { version } from '../package.json';
 import './styles.css';
 import './themes.css';
@@ -14,6 +14,11 @@ import './themes.css';
 const THEMES = ['clasic', 'plastilina', 'caiet', 'galerie', 'afis', 'harta', 'cosmos', 'jeleu', 'vinil', 'hartie', 'abtibild'];
 // a theme saved before it was retired (Băieți, Fete) falls back to the classic one
 if (!THEMES.includes(state.theme)) state.theme = 'clasic';
+
+// pages with credits, photos, summaries or the search index; the rest render from the main catalog alone
+const needsDetails = (path, query) =>
+  /^\/(poveste|inregistrare|persoana|autor|ale-mele|colectie)(\/|$)/.test(path) ||
+  /^\/explorare(\/|$)/.test(path) || /[?&]q=./.test(query);
 
 function ThemeMenu() {
   const s = useStore();
@@ -103,8 +108,9 @@ function App() {
     document.documentElement.lang = s.lang;
   }, [s.theme, s.lang]);
   const [path, query = ''] = url.split('?');
-  // the summaries, photos and "≈" marks right after the first page; tried again on the next page if they failed
-  useEffect(() => { details(); }, [path]);
+  // the summaries, photos and "≈" marks right after the first page; tried again on the next page if they failed.
+  // Only pages that show them ask for them; the others don't pay for the download or the search index.
+  useEffect(() => { if (needsDetails(path, query)) details(); }, [path, query, s.lang]);
   // after moving to another page, put keyboard and screen reader focus at its start
   const first = useRef(true);
   useEffect(() => {
@@ -135,9 +141,24 @@ function App() {
   );
 }
 
-const details = () => loadDetails().then(() => state.details || set({ details: true }), () => {});
-// a story, recording or person page opened from a link waits for its texts and photos, and a search for
-// the summaries it looks through, instead of showing up without them and changing when they arrive
-// (index.html decides which pages, and starts the download); every other page starts right away
-if (window.povestecaDetails) await details();
-render(<App />, document.getElementById('app'));
+function LoadError() {
+  const [t] = useT();
+  useEffect(() => { document.title = t.catalogError; }, [t.catalogError]);
+  return (
+    <main id="main" tabIndex="-1" class="wrap page">
+      <h1>{t.catalogError}</h1>
+      <p class="lead">{t.catalogErrorHint}</p>
+      <p><button type="button" class="btn primary" onClick={() => location.reload()}>{t.retry}</button></p>
+    </main>
+  );
+}
+
+// the long texts load after the page is on screen; a language change fetches the other summaries too
+let detailsLang = null;
+const details = () => loadDetails(state.lang).then(() => {
+  if (!state.details || detailsLang !== state.lang) {
+    detailsLang = state.lang;
+    set({ details: true });
+  }
+}, () => {});
+render(loadError ? <LoadError /> : <App />, document.getElementById('app'));

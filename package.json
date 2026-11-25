@@ -1,13 +1,14 @@
 {
   "name": "povesteca",
   "private": true,
-  "version": "1.28.0",
+  "version": "1.29.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "check": "node scripts/check-catalog.js && node scripts/check-changelog.js",
-    "build": "npm run check && vite build",
-    "preview": "vite preview"
+    "build": "npm run check && vite build && node scripts/sitemap.js",
+    "preview": "vite preview",
+    "fonts": "python3 scripts/subset-fonts.py"
   },
   "dependencies": {
     "hls.js": "^1.7.4",

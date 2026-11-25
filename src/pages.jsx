@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  storiesByAuthor, authorsOf, collectionOf, people, norm, cover, storyCover, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
+  storiesByAuthor, authorsOf, collectionOf, peopleByVersion, catalogFilters, loadBrowse, norm, compareRo, cover, storyCover, resized, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -29,7 +29,7 @@ const pick = (f) => shuffle(versions.filter(f)).slice(0, 12);
 const picks = {
   tonight: pick((v) => v.moods.includes('linistitoare')),
   radio: pick((v) => v.kind === 'teatru-radiofonic'),
-  cast: pick((v) => (v.credits?.cast?.length || 0) >= 8),
+  cast: pick((v) => (v.castCount || 0) >= 8),
   short: pick((v) => v.duration < 900),
 };
 
@@ -84,7 +84,7 @@ export function Home() {
   );
 }
 
-function SearchForm({ value = '', onInput }) {
+function SearchForm({ value, onInput, inputRef }) {
   const [t] = useT();
   return (
     <form class="search" role="search" onSubmit={(e) => {
@@ -95,13 +95,13 @@ function SearchForm({ value = '', onInput }) {
       navigate('/explorare' + (q ? '?q=' + encodeURIComponent(q) : ''));
     }}>
       <Icon n="search" />
-      <input name="q" type="search" value={value} onInput={onInput} placeholder={t.searchPh} aria-label={t.searchPh} autocomplete="off" enterkeyhint="search" />
+      <input ref={inputRef} name="q" type="search" defaultValue={value} onInput={onInput} placeholder={t.searchPh} aria-label={t.searchPh} autocomplete="off" enterkeyhint="search" />
       {!onInput && <button type="submit" class="btn primary">{t.search}</button>}
     </form>
   );
 }
 
-const PAGE_SIZE = 48;
+const PAGE_SIZE = 24;
 // "(12)" after a heading, like "Înregistrări (6)" on a story page
 const cnt = (n) => <span class="muted">({n})</span>;
 // a value on a story or recording page that opens Browse filtered by it
@@ -109,22 +109,41 @@ const find = (k, v) => `/explorare?${k}=${encodeURIComponent(v)}`;
 // "19 surse · 1172 de povești": a line may break only between the totals, never inside one
 const stats = (...parts) => parts.filter(Boolean).map((x) => x.replace(/ /g, '\u00a0')).join(' · ');
 const countBy = (list, keys) => { const m = new Map(); for (const x of list) for (const k of keys(x)) m.set(k, (m.get(k) || 0) + 1); return m; };
-const byName = (a, b) => a.localeCompare(b, 'ro');
+const byName = compareRo;
 // the long lists in Explore's filters, A to Z, with how many there are of each in the whole catalogue.
 // Worked out the first time Explore opens, not when the app starts.
-let lists;
+let lists, listsKey;
 function filterLists() {
-  if (lists) return lists;
-  const storiesWithChar = countBy(stories, (s) => s.characters || []);
-  const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
-  // everyone credited on a recording (narrators, cast, directors, adaptation, music and sound)
-  const recsWith = countBy(versions, (v) => new Set(people(v)));
+  // the sorted lists and counts are built with the details; until then only the values that come
+  // from the main catalog (authors, origins, kinds) are available, and it costs nothing to wait
+  const key = catalogFilters ? 'details' : 'main';
+  if (lists && listsKey === key) return lists;
+  const available = {
+    kind: new Set(versions.map((v) => v.kind)),
+    voices: new Set(versions.map((v) => v.voices)),
+    sfx: new Set(versions.map((v) => v.sfx)),
+    music: new Set(versions.map((v) => v.music)),
+    moods: new Set(versions.flatMap((v) => v.moods)),
+    genre: new Set(stories.map((s) => s.genre)),
+  };
+  if (!catalogFilters) {
+    const storiesFrom = countBy(stories, (s) => (s.origin ? [s.origin] : []));
+    listsKey = key;
+    return (lists = {
+      storiesWithChar: new Map(), storiesFrom, recsWith: new Map(), available,
+      crew: [], characters: [],
+      authors: [...storiesByAuthor.keys()].filter(Boolean).sort(byName),
+      origins: [...storiesFrom.keys()].sort((a, b) => byName(label('origin', a, 'ro'), label('origin', b, 'ro'))),
+    });
+  }
+  const toMap = (o) => new Map(Object.entries(o || {}));
+  listsKey = key;
   return (lists = {
-    storiesWithChar, storiesFrom, recsWith,
-    crew: [...recsWith.keys()].sort(byName),
-    authors: [...storiesByAuthor.keys()].filter(Boolean).sort(byName),
-    characters: [...storiesWithChar.keys()].sort(byName),
-    origins: [...storiesFrom.keys()].sort((a, b) => byName(label('origin', a, 'ro'), label('origin', b, 'ro'))),
+    ...catalogFilters,
+    storiesWithChar: toMap(catalogFilters.storiesWithChar),
+    storiesFrom: toMap(catalogFilters.storiesFrom),
+    recsWith: toMap(catalogFilters.recsWith),
+    available,
   });
 }
 
@@ -200,22 +219,72 @@ export function Explore({ query }) {
     addEventListener('resize', fit);
     return () => { ro.disconnect(); mo.disconnect(); removeEventListener('scroll', fit); removeEventListener('resize', fit); };
   }, []);
+  // the sorted lists only Explore needs; they arrive after the page and fill the filter panel
+  useEffect(() => { loadBrowse().catch(() => {}); }, []);
   const p = new URLSearchParams(query);
   const f = Object.fromEntries(FILTER_KEYS.filter((k) => p.get(k)).map((k) => [k, p.get(k)]));
   const q = p.get('q') || '';
   const [open, setOpen] = useState(false);
   const [limit, setLimit] = useState(PAGE_SIZE);
-  const rel = useMemo(() => search(q), [q, s.details]);
+  const typed = useRef(q);
+  const lastCommit = useRef(q);
+  const timer = useRef();
+  const inputRef = useRef();
+  const queryRef = useRef(query);
+  queryRef.current = query;
+  // the input is uncontrolled while typing; the page re-renders only after the debounce, never per key.
+  // A URL we just wrote ourselves must not overwrite what was typed meanwhile (the phone can be slow).
+  useEffect(() => {
+    if (q === lastCommit.current) return;
+    typed.current = q;
+    lastCommit.current = q;
+    if (inputRef.current) inputRef.current.value = q;
+  }, [q]);
+  useEffect(() => () => clearTimeout(timer.current), []);
+  // summaries, credits, filter lists and the index are on their way; character/person filters need the lists
+  const needsCredits = Boolean(f.char || f.person);
+  const waiting = Boolean(q || needsCredits) && (!s.details || (needsCredits && !s.filtersReady) || (Boolean(q) && !s.searchReady));
+  const rel = useMemo(() => (waiting ? null : search(q)), [q, s.details, waiting]);
   const L = filterLists();
   const sort = p.get('sort') || (rel ? 'relevanta' : 'aleator');
   useEffect(() => { title(t.explore); setLimit(PAGE_SIZE); }, [query]);
 
   const update = (k, v) => {
+    clearTimeout(timer.current);
     const n = new URLSearchParams(query);
+    // typing is debounced; a filter clicked meanwhile keeps what was typed
+    if (typed.current !== q) {
+      typed.current ? n.set('q', typed.current) : n.delete('q');
+      lastCommit.current = typed.current;
+    }
     v ? n.set(k, v) : n.delete(k);
     navigate('/explorare' + (n.toString() ? '?' + n : ''), true);
   };
-  const list = sortVersions(applyFilters(rel ? versions.filter((v) => rel.has(v.id)) : versions, f, s.ratings), sort, s.ratings, rel);
+  // 300 ms: the input stays immediate, the search runs after the last key, not on every key.
+  // If another key arrived while the timer was waiting, start the wait again instead of searching
+  // for half a word (on a slow phone the timer can run before the key event behind it).
+  const searchFor = (value) => {
+    typed.current = value;
+    clearTimeout(timer.current);
+    const commit = () => {
+      const current = inputRef.current?.value ?? value;
+      if (current !== value) {
+        value = current;
+        typed.current = current;
+        timer.current = setTimeout(commit, 300);
+        return;
+      }
+      lastCommit.current = value;
+      const n = new URLSearchParams(queryRef.current);
+      value ? n.set('q', value) : n.delete('q');
+      navigate('/explorare' + (n.toString() ? '?' + n : ''), true);
+    };
+    timer.current = setTimeout(commit, 300);
+  };
+  const list = useMemo(
+    () => (waiting ? [] : sortVersions(applyFilters(rel ? versions.filter((v) => rel.has(v.id)) : versions, f, s.ratings), sort, s.ratings, rel)),
+    [query, s.details, s.ratings, sort, rel, waiting],
+  );
   // a story is in the results when one of its recordings is, in the order of its first recording
   const storyList = [...new Set(list.map((v) => v.storyId))].map((id) => storyById.get(id));
   const shown = list.slice(0, limit);
@@ -232,15 +301,14 @@ export function Explore({ query }) {
     const next = k === 'mood' ? (on ? (f.mood || '').split(',').filter((x) => x !== v) : [...(f.mood ? f.mood.split(',') : []), v]).join(',') : on ? '' : v;
     return <button type="button" class="chip" aria-pressed={on} onClick={() => update(k, next)}>{txt}</button>;
   };
-  const chips = (k, group = k) => (
-    <fieldset class="fgroup"><legend>{t.f[k]}</legend>
-      <div class="chips">{Object.keys(ENUMS[group]).filter((v) => versions.some((x) => {
-        if (k === 'mood') return x.moods.includes(v);
-        if (k === 'genre') return storyById.get(x.storyId)?.genre === v;
-        return x[k] === v;
-      })).map((v) => opt(k, v, label(group, v, lang)))}</div>
-    </fieldset>
-  );
+  const chips = (k, group = k) => {
+    const have = L.available[k] || L.available[group];
+    return (
+      <fieldset class="fgroup"><legend>{t.f[k]}</legend>
+        <div class="chips">{Object.keys(ENUMS[group]).filter((v) => have?.has(v)).map((v) => opt(k, v, label(group, v, lang)))}</div>
+      </fieldset>
+    );
+  };
   const combo = (k, items) => <Combo id={'f-' + k} legend={t.f[k]} value={f[k] || ''} items={items} onPick={(v) => update(k, v)} />;
   const activeLabel = (k, v) => k === 'show' ? (v === 'povesti' ? t.storiesH : t.recordings) : k === 'mood' ? v.split(',').map((m) => label('moods', m, lang)).join(', ')
     : k === 'age' ? t.ageOpt(v) : k === 'dur' ? t.durOpt[v] : k === 'source' ? sourceById.get(v)?.name : k === 'col' ? collectionById.get(v)?.title
@@ -250,7 +318,7 @@ export function Explore({ query }) {
     <main id="main" tabindex="-1" class="wrap page explore">
       <h1 class="sr-only">{t.explore}</h1>
       <div class="explore-top">
-        <SearchForm value={q} onInput={(e) => update('q', e.currentTarget.value)} />
+        <SearchForm value={q} inputRef={inputRef} onInput={(e) => searchFor(e.currentTarget.value)} />
         <button type="button" class="btn ghost filters-toggle" aria-expanded={open} onClick={() => setOpen(!open)}>
           <Icon n="filter" />{t.filters}{active.length ? ` (${active.length})` : ''}
         </button>
@@ -282,11 +350,11 @@ export function Explore({ query }) {
         </aside>
         <section class="results">
           <div class="results-head">
-            <p class="count" aria-live="polite">{f.show === 'povesti' ? t.nStories(storyList.length) : f.show ? t.nRec(list.length) : `${t.nStories(storyList.length)} · ${t.nRec(list.length)}`}</p>
+            <p class="count" aria-live="polite">{waiting ? t.loading : f.show === 'povesti' ? t.nStories(storyList.length) : f.show ? t.nRec(list.length) : `${t.nStories(storyList.length)} · ${t.nRec(list.length)}`}</p>
             <Pick label={t.sortBy} value={sort} items={Object.entries(t.sorts).filter(([k]) => k !== 'relevanta' || rel)} onPick={(v) => update('sort', v)} />
             <button type="button" class="btn small accent" disabled={!list.length} onClick={() => surprise(list)}><Icon n="shuffle" size={16} />{t.surprise}</button>
           </div>
-          {list.length === 0 ? <p class="empty">{t.noResults}</p>
+          {waiting ? <p class="empty">{t.loading}</p> : list.length === 0 ? <p class="empty">{t.noResults}</p>
             : f.show === 'povesti' ? <>
                 <div class="shelf grid">{storyList.slice(0, limit).map((x) => <StoryCard s={x} />)}</div>
                 {more(storyList.length)}
@@ -319,16 +387,17 @@ export function StoryPage({ id }) {
   const best = bestVersion(id, s.ratings);
   const dups = duplicateMap(vs);
   const book = storyLinks(story.id);
-  const summary = story.summary?.[lang] || story.summary?.ro;
+  const summary = story.summary?.[lang] || story.summary?.ro || story.summary?.en;
+  const ready = s.details;
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
-        <Cover src={storyCover(story)} title={story.title} />
+        <Cover src={storyCover(story, 240)} title={story.title} />
         <div class="detail-text">
           <p class="eyebrow"><a href={find('genre', story.genre)}>{label('genre', story.genre, lang)}</a></p>
           <h1>{story.title}</h1>
           <p class="byline">{t.by} <Authors s={story} />{story.year ? ` · ${story.year}` : ''}</p>
-          {summary && <p class="lead">{summary}</p>}
+          {summary ? <p class="lead">{summary}</p> : !ready && <div class="skeleton-text" aria-hidden="true"><span /><span /></div>}
           <div class="actions">
             {best && <PlayButton v={best} cls="btn primary big" label={t.play} />}
             <FavButton list="favStories" id={story.id} title={story.title} withText />
@@ -340,6 +409,7 @@ export function StoryPage({ id }) {
             {book && <><dt>{t.aboutBook}</dt><dd>{ext(book.wikipedia, 'Wikipedia', 'tag')}{ext(book.goodreads, 'Goodreads', 'tag')}</dd></>}
             {story.themes?.length > 0 && <><dt>{t.themesH}</dt><dd>{story.themes.map((x) => <a class="tag" href={`/explorare?q=${encodeURIComponent(label('themes', x, lang))}`}>{label('themes', x, lang)}</a>)}</dd></>}
           </dl>
+          {!ready && <div class="skeleton-tags" aria-hidden="true"><span /><span /><span /></div>}
         </div>
       </section>
       <section aria-labelledby="vh">
@@ -349,7 +419,7 @@ export function StoryPage({ id }) {
             <Pick label={t.sortBy} value={sort} items={['recomandate', 'rating', 'scurte', 'lungi'].map((k) => [k, t.sorts[k]])} onPick={setSort} />
           )}
         </div>
-        <div class="compare">{vs.map((v) => <VersionRow v={v} best={vs.length > 1 && v.id === best.id} dupOf={dups.get(v.id)} />)}</div>
+        <div class="compare">{vs.map((v) => <VersionRow key={v.id} v={v} best={vs.length > 1 && v.id === best.id} dupOf={dups.get(v.id)} />)}</div>
       </section>
     </main>
   );
@@ -370,7 +440,7 @@ function VersionRow({ v, best, dupOf }) {
   const src = sourceById.get(v.sourceId);
   return (
     <article class={'vrow' + (best ? ' best' : '')}>
-      <Cover src={cover(v)} title={storyById.get(v.storyId).title} size={96} />
+      <Cover src={cover(v, 96)} title={storyById.get(v.storyId).title} size={96} />
       <div class="vrow-body">
         {(best || dupOf) && (
           <div class="vrow-badges">
@@ -424,10 +494,11 @@ export function VersionPage({ id }) {
   const person = (n) => <PersonLink name={n} />;
   const others = (versionsByStory.get(story.id) || []).filter((x) => x.id !== v.id);
   const p = s.player;
+  const ready = s.details;
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
-        <Cover src={cover(v)} title={story.title} />
+        <Cover src={cover(v, 240)} title={story.title} />
         <div class="detail-text">
           <p class="eyebrow"><a href={`/poveste/${story.id}`}>{t.story}: {story.title}</a></p>
           <h1>{v.title}</h1>
@@ -476,6 +547,12 @@ export function VersionPage({ id }) {
             })}</ul></dd>
           </dl>
         </section>
+        {!ready && (
+          <section aria-labelledby="cr">
+            <h2 id="cr">{t.credits.cast}</h2>
+            <div class="skeleton-text" aria-hidden="true"><span /><span /><span /></div>
+          </section>
+        )}
         {(crew.length > 0 || c.cast?.length > 0) && (
           <section aria-labelledby="cr">
             <h2 id="cr">{t.credits.cast}</h2>
@@ -503,7 +580,7 @@ export function VersionPage({ id }) {
       {others.length > 0 && (
         <section class="shelf-section" aria-labelledby="ov">
           <div class="shelf-head"><h2 id="ov">{t.otherVersions}</h2></div>
-          <div class="shelf">{others.map((x) => <VersionCard v={x} />)}</div>
+          <div class="shelf">{others.map((x) => <VersionCard key={x.id} v={x} />)}</div>
         </section>
       )}
     </main>
@@ -584,7 +661,7 @@ const ext = (href, txt, cls = 'btn ghost') => href && <a class={cls} href={href}
 // a name with its photo, when there is one; the photo's credit is on the person's page
 function PersonLink({ name }) {
   const photo = personInfo(name)?.photo;
-  return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={photo.src} alt="" width="32" height="32" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}{name}</a>;
+  return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={resized(photo.src, 32, 'webp', 'inside')} alt="" width="32" height="32" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}{name}</a>;
 }
 
 const Authors = ({ s }) => authorsOf(s).map((a, i) => <>{i ? ', ' : ''}<PersonLink name={a} /></>);
@@ -605,24 +682,27 @@ function More({ total, shown, onMore }) {
 }
 
 export function PersonPage({ name }) {
+  const s = useStore();
   const [t] = useT();
   const written = storiesByAuthor.get(name) || [];
-  const performed = useMemo(() => versions.filter((v) => rolesIn(v, name).length), [name]);
+  const performed = useMemo(() => versions.filter((v) => rolesIn(v, name).length), [name, s.details]);
   const [limit, setLimit] = useState({ s: PAGE_SIZE, v: PAGE_SIZE });
   useEffect(() => { name && title(name); setLimit({ s: PAGE_SIZE, v: PAGE_SIZE }); }, [name]);
-  if (!written.length && !performed.length) return <NotFound />;
+  const ready = s.details;
+  if (ready && !written.length && !performed.length) return <NotFound />;
   const w = personInfo(name);
-  const sorted = [...written].sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.title.localeCompare(b.title, 'ro'));
+  const sorted = [...written].sort((a, b) => (a.year || 9999) - (b.year || 9999) || compareRo(a.title, b.title));
   const allVs = [...new Set([...sorted.flatMap((st) => versionsByStory.get(st.id) || []), ...performed])];
   const roles = [...new Set([...(written.length ? ['author'] : []), ...performed.flatMap((v) => rolesIn(v, name))])];
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class={'page-head' + (w?.photo ? ' person-head' : '')}>
-        {w?.photo && <img class="person-photo" src={w.photo.src} alt="" width="160" height="160" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}
+        {w?.photo && <img class="person-photo" src={resized(w.photo.src, 160, 'webp', 'inside')} alt="" width="160" height="160" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}
+        {!w?.photo && !ready && <span class="person-photo skeleton" aria-hidden="true" />}
         <div class="person-text">
           <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {roles.map((r) => t.roleNames[r]).join(' · ')}</p>
           <h1>{name}</h1>
-          <p class="lead muted">{stats(written.length && t.nStories(written.length), t.nRec(allVs.length))}</p>
+          <p class="lead muted">{stats(written.length && t.nStories(written.length), ready ? t.nRec(allVs.length) : t.loading)}</p>
           <div class="actions">
             <button type="button" class="btn accent" disabled={!allVs.length} onClick={() => surprise(allVs)}><Icon n="shuffle" size={16} />{t.surprise}</button>
             <FavButton list="favPeople" id={name} title={name} withText onText={t.favOn} />
@@ -634,14 +714,20 @@ export function PersonPage({ name }) {
       {sorted.length > 0 && (
         <section class="shelf-section" aria-labelledby="pers-st">
           <div class="shelf-head"><h2 id="pers-st">{t.storiesH} {cnt(sorted.length)}</h2></div>
-          <div class="shelf grid">{sorted.slice(0, limit.s).map((st) => <StoryCard s={st} />)}</div>
+          <div class="shelf grid">{sorted.slice(0, limit.s).map((st) => <StoryCard key={st.id} s={st} />)}</div>
           <More total={sorted.length} shown={limit.s} onMore={() => setLimit({ ...limit, s: limit.s + PAGE_SIZE })} />
+        </section>
+      )}
+      {!ready && (
+        <section class="shelf-section" aria-labelledby="pers-rec">
+          <div class="shelf-head"><h2 id="pers-rec">{t.recordings}</h2></div>
+          <div class="shelf grid">{[0, 1, 2, 3].map((i) => <div class="card skeleton-card" aria-hidden="true"><span /><span /><span /></div>)}</div>
         </section>
       )}
       {performed.length > 0 && (
         <section class="shelf-section" aria-labelledby="pers-rec">
           <div class="shelf-head"><h2 id="pers-rec">{t.recordings} {cnt(performed.length)}</h2></div>
-          <div class="shelf grid">{performed.slice(0, limit.v).map((v) => <VersionCard v={v} />)}</div>
+          <div class="shelf grid">{performed.slice(0, limit.v).map((v) => <VersionCard key={v.id} v={v} />)}</div>
           <More total={performed.length} shown={limit.v} onMore={() => setLimit({ ...limit, v: limit.v + PAGE_SIZE })} />
         </section>
       )}
@@ -754,7 +840,7 @@ export function Mine() {
       </section>
     );
   };
-  const withPerson = (n) => versions.filter((v) => people(v).includes(n) || authorsOf(storyById.get(v.storyId)).includes(n));
+  const withPerson = (n) => versions.filter((v) => (peopleByVersion.get(v.id) || []).includes(n) || authorsOf(storyById.get(v.storyId)).includes(n));
   // everything kept in favourites, as recordings: the button below picks one of them at random
   const pool = [...new Set([
     ...s.favVersions.map((id) => versionById.get(id)),
@@ -775,7 +861,7 @@ export function Mine() {
       {rows('people', t.peopleH, 'favPeople', (n) => {
         const photo = personInfo(n)?.photo;
         return { key: n, title: n, href: personUrl(n), sub: t.nRec(withPerson(n).length),
-          icon: photo ? <img class="avatar" src={photo.src} alt="" width="32" height="32" loading="lazy" /> : <span class="avatar initial" aria-hidden="true">{n[0]}</span> };
+          icon: photo ? <img class="avatar" src={resized(photo.src, 32, 'webp', 'inside')} alt="" width="32" height="32" loading="lazy" /> : <span class="avatar initial" aria-hidden="true">{n[0]}</span> };
       })}
       {rows('sources', t.sources, 'favSources', (id) => {
         const x = sourceById.get(id);

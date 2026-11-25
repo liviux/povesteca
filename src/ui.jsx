@@ -82,6 +82,21 @@ export function Pick({ label, value, items, onPick, cls = 'pick-btn', children }
 export function Cover({ src, title, size = 180 }) {
   // remember which src failed, so the same Cover showing a new picture tries again
   const [failed, setFailed] = useState(null);
+  // load a cover only when it comes near the screen: the browser's own lazy loading looks ~1250 px
+  // ahead, which on a 172 px card means a whole shelf loads even though two cards are visible
+  const [seen, setSeen] = useState(false);
+  const box = useRef();
+  useEffect(() => {
+    setSeen(false);
+    if (!src) return;
+    const el = box.current;
+    if (!el || typeof IntersectionObserver === 'undefined') { setSeen(true); return; }
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) { setSeen(true); io.disconnect(); }
+    }, { rootMargin: '400px' });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [src]);
   if (!src || failed === src) {
     // no picture: a cover drawn in code, with the story's title on it (the card already names it for screen readers)
     const a = art(title || '');
@@ -92,8 +107,8 @@ export function Cover({ src, title, size = 180 }) {
     );
   }
   return (
-    <div class="cover" data-initial={title?.[0]}>
-      <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" onError={() => setFailed(src)} />
+    <div ref={box} class="cover" data-initial={title?.[0]}>
+      {src && seen && <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" onError={() => setFailed(src)} />}
     </div>
   );
 }
@@ -169,7 +184,7 @@ export function VersionCard({ v, progress, badge }) {
   return (
     <article class="card">
       <a class="card-link" href={`/inregistrare/${v.id}`}>
-        <Cover src={cover(v)} title={s.title} />
+        <Cover src={cover(v, 180)} title={s.title} />
         <div class="card-body">
           {badge && <span class="badge">{badge}</span>}
           <p class="card-kind">{label('kind', v.kind, lang)}</p>
@@ -192,7 +207,7 @@ export function StoryCard({ s: story }) {
   return (
     <article class="card">
       <a class="card-link" href={`/poveste/${story.id}`}>
-        <Cover src={storyCover(story)} title={story.title} />
+        <Cover src={storyCover(story, 180)} title={story.title} />
         <div class="card-body">
           <p class="card-kind">{label('genre', story.genre, lang)}</p>
           <h3 class="card-title">{story.title}</h3>

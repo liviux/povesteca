@@ -1,6 +1,18 @@
 // the catalog without its long texts; see vite.config.js
-import catalog from 'virtual:catalog';
+import urls from 'virtual:catalog-urls';
 import { label, ENUMS } from './i18n.js';
+import { set } from './store.js';
+
+let catalog = { stories: [], versions: [], sources: [], collections: [] };
+export let loadError = null;
+try {
+  const response = await fetch(urls.main);
+  if (!response.ok) throw new Error(`catalog ${response.status}`);
+  catalog = await response.json();
+} catch (e) {
+  loadError = e;
+  console.error('catalog:', e);
+}
 
 export const { stories, versions, sources, collections } = catalog;
 export const REPO = 'https://github.com/liviux/povesteca';
@@ -14,16 +26,70 @@ export const versionById = map(versions);
 export const sourceById = map(sources);
 export const collectionById = map(collections);
 
-// The long texts (summaries, the "≈" marks, people's photos and links) come a moment after the first page.
-// Until then story.summary, v.estimated and personInfo() are empty. Calling again after a failure retries.
+// The long texts (summaries in the current language, credits, characters, themes, the "≈" marks,
+// people's photos and links) come in separate files, a moment after the page. Until then
+// story.summary, v.credits, v.estimated and personInfo() are empty. Calling again after a failure retries.
 let wiki = { people: {}, stories: {} };
-let details;
-export const loadDetails = () => (details ||= import('virtual:catalog-details').then(({ default: d }) => {
-  for (const [id, x] of Object.entries(d.stories)) Object.assign(storyById.get(id) || {}, x);
-  for (const [id, x] of Object.entries(d.versions)) Object.assign(versionById.get(id) || {}, x);
-  wiki = d.wiki;
-  prepareSearch(); // again, with the summaries
-}, (e) => { details = null; throw e; }));
+// sorted filter lists computed at build time (authors, characters, crew, counts), so Explore doesn't sort them
+export let catalogFilters = null;
+let commonPromise;
+const langPromises = {};
+let commonLoaded = false;
+let detailsChanged = false;
+const loadedLangs = new Set();
+
+const loadJson = (url) => fetch(url).then((r) => {
+  if (!r.ok) throw new Error(`${url}: ${r.status}`);
+  return r.json();
+});
+
+// the sorted filter lists are only needed by Explore; story pages and Home don't download them
+let browsePromise;
+export function loadBrowse() {
+  return browsePromise ||= loadJson(urls.browse).then((d) => {
+    catalogFilters = d.filters || null;
+    set({ filtersReady: true });
+  }).catch((e) => {
+    browsePromise = null;
+    throw e;
+  });
+}
+
+function mergeCommon(d) {
+  for (const [id, x] of Object.entries(d.stories || {})) Object.assign(storyById.get(id) || {}, x);
+  for (const [id, x] of Object.entries(d.versions || {})) Object.assign(versionById.get(id) || {}, x);
+  if (d.wiki) wiki = d.wiki;
+  refreshPeople();
+  commonLoaded = true;
+  detailsChanged = true;
+}
+function mergeLanguage(lang, d) {
+  for (const [id, x] of Object.entries(d.stories || {})) {
+    const s = storyById.get(id);
+    if (s) s.summary = { ...(s.summary || {}), ...(x.summary || {}) };
+  }
+  loadedLangs.add(lang);
+  detailsChanged = true;
+}
+
+export function loadDetails(lang = 'ro') {
+  const code = lang === 'en' ? 'en' : 'ro';
+  const p = Promise.all([
+    commonPromise ||= loadJson(urls.common).then(mergeCommon),
+    langPromises[code] ||= loadJson(urls[code]).then((d) => mergeLanguage(code, d)),
+  ]).then(() => {
+    if (detailsChanged) {
+      detailsChanged = false;
+      prepareSearch(); // again, with the summaries and credits
+    }
+  });
+  return p.catch((e) => {
+    // a failed file must be tried again next time; a successful one stays loaded
+    if (!commonLoaded) commonPromise = null;
+    if (!loadedLangs.has(code)) langPromises[code] = null;
+    throw e;
+  });
+}
 
 const group = (list, key) => {
   const m = new Map();
@@ -39,7 +105,16 @@ for (const s of stories) for (const a of authorsOf(s)) (storiesByAuthor.get(a) |
 export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
 
-export function cover(v) {
+// Covers and portraits leave their sources unchanged but are resized by a small image service before
+// reaching the browser: the originals are often 1-3 MB, while a card only needs 360 px. The service keeps
+// its own cache; Povesteca stores nothing.
+const PROXY = 'https://wsrv.nl/';
+export function resized(url, size = 180, format = 'webp', fit = 'cover') {
+  if (!url || !/^https?:\/\//i.test(url)) return url;
+  const px = Math.max(32, Math.round(size * 2));
+  return `${PROXY}?url=${encodeURIComponent(url)}&w=${px}&h=${px}&fit=${fit}&output=${format}&q=80`;
+}
+function sourceCover(v) {
   if (!v || v.cover === false) return null;
   if (typeof v.cover === 'string') return v.cover;
   for (const l of v.links || []) {
@@ -48,7 +123,11 @@ export function cover(v) {
   }
   return null;
 }
-export const storyCover = (s) => cover(bestVersion(s.id));
+export function cover(v, size = 180, format = 'webp') {
+  const src = sourceCover(v);
+  return src ? resized(src, size, format) : null;
+}
+export const storyCover = (s, size = 180) => cover(bestVersion(s.id), size);
 
 export function linkUrl(l) {
   if (l.type === 'archive') return `https://archive.org/details/${l.id}`;
@@ -85,6 +164,11 @@ export const people = (v) => {
   const c = v.credits || {};
   return [...(c.narrator || []), ...(c.cast || []).map((x) => x.name), ...[c.director, c.adaptation, c.music, c.songs, c.soundDesign].flatMap(splitNames)];
 };
+// everyone credited on each recording, once, for filters, people pages and search
+export const peopleByVersion = new Map();
+export function refreshPeople() {
+  for (const v of versions) peopleByVersion.set(v.id, people(v));
+}
 
 // --- ratings live outside the catalog; this is only the math
 export function score(r) {
@@ -105,6 +189,9 @@ export const byRecommended = (ratings) => (a, b) =>
 
 // --- search: no AI, no service. Diacritics, case and one-letter typos don't matter.
 export const norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+// sorting thousands of names with a collator made once is much faster than localeCompare per pair
+const roCollator = new Intl.Collator('ro');
+export const compareRo = (a, b) => roCollator.compare(String(a || ''), String(b || ''));
 const STOP = new Set('si cu de la pe in o un una a al ale ai despre pentru care din ce mai sau the of and with about for to an'.split(' '));
 const words = (s) => norm(s).split(/[^a-z0-9]+/).filter(Boolean);
 
@@ -112,12 +199,16 @@ const words = (s) => norm(s).split(/[^a-z0-9]+/).filter(Boolean);
 // words in vocab]] }; seen: what each query word matched, kept while typing. Reading the whole catalogue
 // takes a moment, so it isn't done when the app starts: prepareSearch() does it in small steps once the
 // details are in, and a search that comes before it's done finishes it.
-let index, vocab, seen, job;
+let index, vocab, seen, job, buckets;
+let searchCache = new Map();
 function* indexer() {
   const ids = new Map(), voc = [], list = [];
   const id = (x) => {
     let i = ids.get(x);
-    if (i === undefined) { ids.set(x, (i = voc.length)); voc.push(x); }
+    if (i === undefined) {
+      ids.set(x, (i = voc.length));
+      voc.push(x);
+    }
     return i;
   };
   // texts that repeat (a summary shared by a story's recordings, a mood, a genre) are read once
@@ -131,7 +222,7 @@ function* indexer() {
       v,
       fields: [
         [10, words([s.title, ...(s.altTitles || []), v.title].join(' ')).map(id)],
-        [6, words([...authorsOf(s), ...(s.characters || []), ...people(v)].join(' ')).map(id)],
+        [6, words([...authorsOf(s), ...(s.characters || []), ...(peopleByVersion.get(v.id) || [])].join(' ')).map(id)],
         [4, words([sourceById.get(v.sourceId)?.name, col?.title, col?.code, s.year, v.year, label('origin', s.origin, 'ro'), label('origin', s.origin, 'en')].join(' ')).map(id)],
         [2, [...cached(s.id, () => [s.summary?.ro, s.summary?.en].join(' ')), ...(s.themes || []).flatMap((t) => en('themes', t)), ...(v.moods || []).flatMap((m) => en('moods', m)),
           ...en('kind', v.kind), ...en('voices', v.voices), ...en('sfx', v.sfx), ...en('music', v.music), ...en('genre', s.genre)]],
@@ -139,20 +230,31 @@ function* indexer() {
     });
     yield;
   }
-  [index, vocab, seen, job] = [list, voc, new Map(), null];
+  const byChar = new Map();
+  voc.forEach((x, i) => {
+    for (const c of new Set([x[0], x[1]])) {
+      if (!c) continue;
+      (byChar.get(c) || byChar.set(c, []).get(c)).push(i);
+    }
+  });
+  [index, vocab, seen, job, buckets] = [list, voc, new Map(), null, byChar];
+  searchCache = new Map();
 }
 function prepareSearch() {
+  set({ searchReady: false });
   const own = (job = indexer());
   // about 10 ms at a time, between the browser's other work, so a tap or a scroll never waits for it
   const step = () => {
-    for (const end = performance.now() + 10; job === own && performance.now() < end;) if (own.next().done) return;
+    for (const end = performance.now() + 10; job === own && performance.now() < end;) {
+      if (own.next().done) return set({ searchReady: true });
+    }
     if (job === own) setTimeout(step);
   };
   setTimeout(step);
 }
 
 // edit distance <= 1 (or 2 for long words) between a and the first n letters of b;
-// it runs for every word of the catalogue, so it reuses two rows instead of making new ones
+// it runs for many words of the catalogue, so it reuses two rows instead of making new ones
 const rowA = [], rowB = [];
 function near(a, b, n = b.length) {
   n = Math.min(n, b.length);
@@ -173,15 +275,22 @@ function near(a, b, n = b.length) {
   return prev[n] <= max;
 }
 
-// for each word of the catalogue: 2 if it starts with w, 1 if it matches w with a typo (w of 4 letters or more)
+// for each word of the catalogue: 2 if it starts with w, 1 if it matches w with a typo (w of 4 letters or more).
+// Only words starting with w's first or second letter are compared: most of the vocabulary is skipped.
 function matches(w) {
   let hit = seen.get(w);
   if (hit) return hit;
   hit = new Uint8Array(vocab.length);
-  vocab.forEach((x, i) => {
+  const cand = new Set();
+  for (const c of w.length > 1 ? [w[0], w[1]] : [w[0]]) {
+    const list = buckets?.get(c);
+    if (list) for (const i of list) cand.add(i);
+  }
+  for (const i of cand) {
+    const x = vocab[i];
     if (x.startsWith(w)) hit[i] = 2;
     else if (w.length >= 4 && (near(w, x, w.length + 1) || near(w, x))) hit[i] = 1;
-  });
+  }
   if (seen.size > 50) seen.clear();
   seen.set(w, hit);
   return hit;
@@ -190,11 +299,14 @@ function matches(w) {
 /** Returns Map(versionId -> score). Every query word must match something. */
 export function search(q) {
   const qs = words(q).filter((w) => !STOP.has(w));
-  const out = new Map();
   if (!qs.length) return null;
-  if (job || !index) { const j = job || indexer(); while (!j.next().done); } // the rest of the index, now
+  const key = qs.join(' ');
+  const cached = searchCache.get(key);
+  if (cached) return new Map(cached);
+  if (job || !index) return null; // still indexing; Explore shows "loading" until searchReady
   // each query word is compared once with each word of the catalogue, not once per recording that has it
   const hits = qs.map(matches);
+  const out = new Map();
   for (const { v, fields } of index) {
     let total = 0;
     for (const hit of hits) {
@@ -209,6 +321,10 @@ export function search(q) {
       total += best;
     }
     if (total) out.set(v.id, total);
+  }
+  if (out.size) {
+    searchCache.set(key, out);
+    if (searchCache.size > 20) searchCache.delete(searchCache.keys().next().value);
   }
   return out;
 }
@@ -231,7 +347,7 @@ export function applyFilters(list, f, ratings = {}) {
     if (f.char && !s.characters?.includes(f.char)) return false;
     if (f.source && v.sourceId !== f.source) return false;
     if (f.col && !collectionById.get(f.col)?.items.includes(v.id)) return false;
-    if (f.person && !people(v).includes(f.person)) return false;
+    if (f.person && !(peopleByVersion.get(v.id) || []).includes(f.person)) return false;
     return true;
   });
 }
@@ -246,10 +362,10 @@ export function sortVersions(list, sort, ratings = {}, rel) {
     rating: (a, b) => score(ratings[b.id]) - score(ratings[a.id]),
     scurte: (a, b) => a.duration - b.duration,
     lungi: (a, b) => b.duration - a.duration,
-    titlu: (a, b) => storyById.get(a.storyId).title.localeCompare(storyById.get(b.storyId).title, 'ro'),
+    titlu: (a, b) => compareRo(storyById.get(a.storyId).title, storyById.get(b.storyId).title),
     recente: (a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''),
   }[sort] || byRecommended(ratings);
-  return [...list].sort((a, b) => by(a, b) || storyById.get(a.storyId).title.localeCompare(storyById.get(b.storyId).title, 'ro'));
+  return [...list].sort((a, b) => by(a, b) || compareRo(storyById.get(a.storyId).title, storyById.get(b.storyId).title));
 }
 
 export const shuffle = (list) => {
@@ -266,7 +382,7 @@ const ORIGINAL_MODERN = new Set([
   'yt-minireactor', 'yt-teatrul-colibri', 'cutiuta-cu-povesti', 'pippin-cel-curios',
   'radio-moldova',
 ]);
-const creditSet = (v) => new Set(people(v).map((n) => norm(n)).filter((n) => n.length >= 4));
+const creditSet = (v) => new Set((peopleByVersion.get(v.id) || []).map((n) => norm(n)).filter((n) => n.length >= 4));
 
 /** Finds separate Version entries under the same story that are likely cross-source duplicates. */
 export function duplicateMap(vs) {

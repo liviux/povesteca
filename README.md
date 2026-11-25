@@ -79,7 +79,7 @@ Când o înregistrare are mai multe linkuri, alegi din player pe care îl ascul�
 - Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, tema și limba stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
 - Nu există conturi, cookie-uri proprii sau statistici de trafic.
-- Fonturile vin chiar de pe site-ul Povesteca, nu de la Google. Copertele, sunetul și playerul video se încarcă de la Internet Archive, YouTube și sursele audio directe din catalog, iar fotografiile oamenilor de la Wikimedia Commons.
+- Fonturile vin chiar de pe site-ul Povesteca, nu de la Google. Copertele și fotografiile oamenilor sunt redimensionate de `wsrv.nl` înainte să ajungă în pagină; cererea către acel serviciu conține adresa imaginii și IP-ul tău, ca orice cerere web, iar Povesteca nu le stochează. Sunetul și playerul video se încarcă de la Internet Archive, YouTube și sursele audio directe din catalog, iar fotografiile originale de la Wikimedia Commons.
 
 ## Voturi
 
@@ -89,7 +89,7 @@ Ordinea după voturi folosește o medie ponderată, ca un singur vot de 5 să nu
 
 Știi o înregistrare bună care lipsește, sau ai dat de un link care nu mai merge? Deschide un [issue](../../issues) cu linkul.
 
-Dacă vrei s-o adaugi tu, nu trebuie să modifici nicio pagină. Catalogul e format din patru fișiere JSON în `catalog/`:
+Dacă vrei s-o adaugi tu, nu trebuie să modifici nicio pagină. Catalogul e format din cinci fișiere JSON în `catalog/`:
 
 | Fișier | Ce ține |
 |---|---|
@@ -133,7 +133,10 @@ npm install
 npm run dev     # pornește site-ul local; voturile se țin în memorie
 npm run check   # verifică doar catalogul
 npm run build   # verifică catalogul, apoi construiește site-ul în dist/
+npm run fonts   # regenerează fonturile subsetate (necesită Python, fonttools și brotli)
 ```
+
+Fonturile din `src/fonts/subset` sunt tăiate la literele catalogului plus cele mai comune litere europene. După ce adaugi un nume cu litere noi, rulează `npm run fonts` și verifică rezultatul.
 
 ## Structura codului
 
@@ -147,10 +150,11 @@ src/pages.jsx       paginile
 src/ui.jsx          carduri, butoane, iconițe
 src/i18n.js         textele RO/EN
 src/store.js        preferințe locale, rutare, voturi
-src/styles.css      cele trei teme
+src/styles.css      stilurile de bază și tema clasică
+src/themes.css      celelalte zece teme
 ```
 
-Vite + Preact. Catalogul ajunge în browser separat de cod, ca o actualizare a aplicației să nu-l mai descarce încă o dată: listele, cardurile și filtrele vin odată cu pagina, iar rezumatele, fotografiile și linkurile oamenilor imediat după (vezi `vite.config.js`). `hls.js` se încarcă doar pentru fluxurile HLS.
+Vite + Preact. Catalogul ajunge în browser separat de cod, ca o actualizare a aplicației să nu-l mai descarce încă o dată: listele și cardurile vin odată cu pagina, listele lungi de filtre doar în Explore, iar rezumatele, creditele, fotografiile și linkurile oamenilor imediat după (vezi `vite.config.js`). `hls.js` se încarcă doar pentru fluxurile HLS.
 
 ## Drepturi
 

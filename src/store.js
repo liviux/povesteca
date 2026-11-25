@@ -12,6 +12,8 @@ export const state = {
   // not persisted
   ratings: {}, ratingsOk: null,
   details: false, // the catalog's long texts have arrived (loadDetails in data.js)
+  searchReady: false, // the search index is built (prepareSearch in data.js)
+  filtersReady: false, // the sorted filter lists have arrived (loadBrowse in data.js)
   player: { id: null, status: 'idle', time: 0, duration: 0, sleepAt: 0, sleepEnd: false, night: false, link: 0 },
 };
 const subs = new Set();

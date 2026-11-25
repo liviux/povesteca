@@ -43,7 +43,7 @@ function tick(time, duration) {
   clockSubs.forEach((f) => f());
   const p = state.player, v = versionById.get(p.id), { start, end } = spanOf(v, p.link);
   if (end && time >= end) return finish();
-  if (v && Date.now() - lastSave > 5000 && time > start + 5) { lastSave = Date.now(); saveTime(v, p.link, time); }
+  if (v && Date.now() - lastSave > 15000 && time > start + 5) { lastSave = Date.now(); saveTime(v, p.link, time); }
   if (p.sleepAt && audio && isAudio(engineType())) audio.volume = Math.max(0, Math.min(1, (p.sleepAt - Date.now()) / 10000));
 }
 export function useClock() {
@@ -172,7 +172,12 @@ async function startAudio(v, l, at) {
   audio.volume = 1;
   const url = audioUrl(l);
   if (isHls(url)) {
-    const { default: Hls } = await import('hls.js');
+    let Hls;
+    try {
+      ({ default: Hls } = await import('hls.js/light'));
+    } catch {
+      return nextLink();
+    }
     if (seq !== loadSeq || !audioActive) return;
     if (Hls.isSupported()) {
       pendingSeek = null;
@@ -212,43 +217,53 @@ async function startAudio(v, l, at) {
 
 function loadYT() {
   return (ytApi ||= new Promise((res) => {
-    window.onYouTubeIframeAPIReady = res;
+    let done = false;
+    const finish = () => { if (!done) { done = true; res(); } };
+    window.onYouTubeIframeAPIReady = finish;
     const s = document.createElement('script');
     s.src = 'https://www.youtube.com/iframe_api';
+    s.onerror = finish;
     document.head.append(s);
+    // a blocked script must not leave the player on "loading" forever
+    setTimeout(finish, 8000);
   }));
 }
 async function startYouTube(v, l, at) {
   const seq = ++loadSeq;
   await loadYT();
   if (seq !== loadSeq || state.player.id !== v.id || !ytHost) return;
+  if (!window.YT?.Player) return setPlayer({ status: 'error' });
   const el = document.createElement('div');
   ytHost.replaceChildren(el);
   const { end } = spanOf(v, state.player.link);
   let checkedStart = !(at > 0);
-  yt = new window.YT.Player(el, {
-    host: 'https://www.youtube-nocookie.com', videoId: l.id, width: '100%', height: '100%',
-    playerVars: { start: Math.floor(at), ...(end ? { end } : {}), autoplay: 1, playsinline: 1, rel: 0 },
-    events: {
-      onReady: (e) => { if (seq !== loadSeq) return; e.target.setPlaybackRate(state.rate); e.target.playVideo(); },
-      onPlaybackRateChange: (e) => set({ rate: e.data }), // changed from YouTube's own settings menu
-      onStateChange: (e) => {
-        if (seq !== loadSeq) return;
-        const S = window.YT.PlayerState;
-        if (e.data === S.PLAYING) {
-          if (!checkedStart) {
-            checkedStart = true;
-            if ((e.target.getCurrentTime?.() || 0) < at - 5) e.target.seekTo(at, true);
+  try {
+    yt = new window.YT.Player(el, {
+      host: 'https://www.youtube-nocookie.com', videoId: l.id, width: '100%', height: '100%',
+      playerVars: { start: Math.floor(at), ...(end ? { end } : {}), autoplay: 1, playsinline: 1, rel: 0 },
+      events: {
+        onReady: (e) => { if (seq !== loadSeq) return; e.target.setPlaybackRate(state.rate); e.target.playVideo(); },
+        onPlaybackRateChange: (e) => set({ rate: e.data }), // changed from YouTube's own settings menu
+        onStateChange: (e) => {
+          if (seq !== loadSeq) return;
+          const S = window.YT.PlayerState;
+          if (e.data === S.PLAYING) {
+            if (!checkedStart) {
+              checkedStart = true;
+              if ((e.target.getCurrentTime?.() || 0) < at - 5) e.target.seekTo(at, true);
+            }
+            setPlayer({ status: 'playing' });
           }
-          setPlayer({ status: 'playing' });
-        }
-        if (e.data === S.PAUSED) { setPlayer({ status: 'paused' }); savePos(); }
-        if (e.data === S.BUFFERING) setPlayer({ status: 'loading' });
-        if (e.data === S.ENDED) finish();
+          if (e.data === S.PAUSED) { setPlayer({ status: 'paused' }); savePos(); }
+          if (e.data === S.BUFFERING) setPlayer({ status: 'loading' });
+          if (e.data === S.ENDED) finish();
+        },
+        onError: () => seq === loadSeq && nextLink(),
       },
-      onError: () => seq === loadSeq && nextLink(),
-    },
-  });
+    });
+  } catch {
+    return setPlayer({ status: 'error' });
+  }
   clearInterval(poll);
   poll = setInterval(() => {
     if (!yt?.getCurrentTime) return;
@@ -324,8 +339,8 @@ export function setSleep(min) {
 function mediaSession(v) {
   if (!('mediaSession' in navigator)) return;
   const s = storyById.get(v.storyId);
-  const pic = cover(v);
-  navigator.mediaSession.metadata = new MediaMetadata({ title: s.title, artist: v.title, album: 'Povesteca', artwork: pic ? [{ src: pic, sizes: '180x180', type: 'image/jpeg' }] : [] });
+  const pic = cover(v, 180, 'jpg');
+  navigator.mediaSession.metadata = new MediaMetadata({ title: s.title, artist: v.title, album: 'Povesteca', artwork: pic ? [{ src: pic, sizes: '360x360', type: 'image/jpeg' }] : [] });
   const h = { play: toggle, pause: toggle, seekbackward: () => seekBy(-15), seekforward: () => seekBy(30), stop: closePlayer };
   for (const k in h) try { navigator.mediaSession.setActionHandler(k, h[k]); } catch {}
 }
@@ -427,7 +442,7 @@ export function Dock() {
       {v && (
         <div class="dock-bar" role="region" aria-label={t.nowPlaying}>
           <a class="dock-info" href={`/inregistrare/${v.id}`}>
-            <Cover src={cover(v)} title={storyById.get(v.storyId).title} size={56} />
+            <Cover src={cover(v, 56)} title={storyById.get(v.storyId).title} size={56} />
             <span class="dock-text">
               <strong>{storyById.get(v.storyId).title}</strong>
               <small>{p.status === 'loading' ? t.loading : p.status === 'error' ? t.playErr : mirrorName ? `${v.title} · ${mirrorName}` : v.title}</small>
@@ -497,7 +512,7 @@ export function Night() {
         </header>
         {v ? (
           <section class="night-now">
-            <Cover src={cover(v)} title={storyById.get(v.storyId).title} />
+            <Cover src={cover(v, 180)} title={storyById.get(v.storyId).title} />
             <h3>{storyById.get(v.storyId).title}</h3>
             <p class="muted">{v.title}</p>
             {v.links.length > 1 && (
@@ -531,7 +546,7 @@ export function Night() {
             <ul>
               {picks.map((x) => (
                 <li><button type="button" onClick={() => play(x.id)}>
-                  <Cover src={cover(x)} title={storyById.get(x.storyId).title} size={56} />
+                  <Cover src={cover(x, 56)} title={storyById.get(x.storyId).title} size={56} />
                   <span>{storyById.get(x.storyId).title}<small>{Math.round(x.duration / 60)} min</small></span>
                 </button></li>
               ))}

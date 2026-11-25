@@ -2,6 +2,21 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.29.0] - 2026-11-25
+
+### Changed
+- Coperțile și fotografiile se încarcă mult mai rapid: sunt redimensionate înainte să ajungă în pagină și se descarcă numai cele de lângă ecran, nu tot raftul.
+- Paginile de poveste și de înregistrare apar imediat; rezumatul, distribuția și fotografiile se completează imediat după.
+- Catalogul se încarcă asincron, iar rezumatele vin doar în limba în care citești.
+- Căutarea pornește după ce te oprești din tastat și răspunde mai repede; listele lungi de filtre nu mai sunt sortate pe telefon.
+- Fonturile au fost tăiate la literele folosite, ca să se descarce mai puțin.
+- Fluxurile Radio Moldova folosesc o versiune mai mică a playerului HLS.
+- Copertele și fotografiile trec prin `wsrv.nl` pentru redimensionare; Povesteca nu păstrează nicio copie, iar README explică ce date pleacă acolo.
+
+### Added
+- `robots.txt` și `sitemap.xml` pentru motoarele de căutare.
+- Previzualizările linkurilor au acum adresa completă a imaginii.
+
 ## [1.28.0] - 2026-11-25
 
 ### Added

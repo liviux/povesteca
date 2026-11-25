@@ -2,6 +2,7 @@
 <html lang="ro" data-theme="clasic">
   <head>
     <meta charset="UTF-8" />
+    __CATALOG_HEAD__
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Povesteca · povești audio pentru copii</title>
     <meta name="description" content="Povești pentru copii în limba română, făcute ca să fie ascultate: teatru radiofonic și discuri de povești, jucate de actori, cu regie, muzică și efecte sonore." />
@@ -10,7 +11,16 @@
     <meta name="theme-color" content="#0f1b2b" media="(prefers-color-scheme: dark)" />
     <meta property="og:title" content="Povesteca" />
     <meta property="og:description" content="Povești pentru copii în limba română, făcute ca să fie ascultate: teatru radiofonic și discuri de povești, jucate de actori, cu regie, muzică și efecte sonore." />
-    <meta property="og:image" content="/icon-192.png" />
+    <meta property="og:image" content="https://povesteca.vercel.app/icon-192.png" />
+    <meta property="og:image:width" content="192" />
+    <meta property="og:image:height" content="192" />
+    <meta property="og:url" content="https://povesteca.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Povesteca" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Povesteca" />
+    <meta name="twitter:description" content="Povești pentru copii în limba română, făcute ca să fie ascultate: teatru radiofonic și discuri de povești, jucate de actori, cu regie, muzică și efecte sonore." />
+    <meta name="twitter:image" content="https://povesteca.vercel.app/icon-192.png" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/icon-192.png" />
     <script>
@@ -32,10 +42,17 @@
         mq.addEventListener('change', apply);
         new MutationObserver(apply).observe(document.head, { childList: true });
       })();
-      // A story, recording or person page, or a search, opened from a link needs the catalog's details too
-      // (summaries, photos; src/main.jsx waits for them): their download starts now, alongside the rest.
-      window.povestecaDetails = /^\/(poveste|inregistrare|persoana|autor|ale-mele)(\/|$)/.test(location.pathname) || /[?&]q=./.test(location.search);
-      if (window.povestecaDetails) document.head.append(Object.assign(document.createElement('link'), { rel: 'modulepreload', href: '__CATALOG_DETAILS__' }));
+      // Explore needs the credits and summaries for its filters and search as soon as it opens; the
+      // other pages start their details after the first render, so the text can appear sooner.
+      (function () {
+        var u = window.__CATALOG_URLS__;
+        if (!u || !/^\/explorare(\/|$)/.test(location.pathname)) return;
+        var lang = 'ro';
+        try { var saved = JSON.parse(localStorage.getItem('povesteca:v1')) || {}; if (saved.lang === 'en') lang = 'en'; } catch (e) {}
+        [u.common, u.browse, u[lang]].forEach(function (href) {
+          document.head.append(Object.assign(document.createElement('link'), { rel: 'preload', as: 'fetch', crossorigin: '', href: href }));
+        });
+      })();
     </script>
   </head>
   <body>

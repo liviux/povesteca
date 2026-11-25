@@ -37,7 +37,7 @@ Rules for every AI agent working in this repository (Claude, Codex, Copilot, Cur
 
 ## Sources and privacy
 
-- Nothing is downloaded from any source. Recordings, videos and covers stay where they are published; Povesteca only links to them and plays them through the platforms' own players.
+- Nothing is downloaded or stored from any source. Recordings and videos stay where they are published and play through the platforms' own players. Covers and portraits pass through `wsrv.nl` only to be resized for the page; Povesteca stores no copy, and the README says what that request contains.
 - The YouTube player stays visible on the page, and the app doesn't get around YouTube stopping playback when the phone screen locks.
 - No accounts, cookies, analytics or ads. Ask before any change that touches this, and update “Ce date se păstrează” in `README.md` when it lands.
 

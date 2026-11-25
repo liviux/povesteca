@@ -2,6 +2,21 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.29.0] - 2026-11-25
+
+### Changed
+- Covers and portraits load much faster: they are resized before they reach the page, and only the ones near the screen are fetched instead of a whole shelf.
+- Story and recording pages appear immediately; the summary, cast and photos fill in right after.
+- The catalogue loads asynchronously, and summaries arrive only in the language you are reading.
+- Search starts after you stop typing and answers faster; the long filter lists are no longer sorted on the phone.
+- Fonts are trimmed to the letters in use, so less is downloaded.
+- Radio Moldova streams use a smaller HLS player build.
+- Covers and portraits pass through `wsrv.nl` to be resized; Povesteca keeps no copy, and the README explains what data goes there.
+
+### Added
+- `robots.txt` and `sitemap.xml` for search engines.
+- Link previews now carry the full image address.
+
 ## [1.28.0] - 2026-11-25
 
 ### Added
@@ -10,7 +25,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 ## [1.27.0] - 2026-11-25
 
 ### Added
-- **New stories:** 28 stories from Radio România Târgu Mureș, Culturalia, MiniPovești and Poveștile Cristinei, plus one more production each of “Lupul Pârcălab” and “The Nutcracker”.
+- **New stories:** 28 stories from Radio România Târgu Mureș, Culturalia, MiniPovești and Povestile Cristinei, plus one more production each of “Lupul Pârcălab” and “The Nutcracker”.
 
 ### Fixed
 - Fixed sideways scrolling in the Cosmos theme on narrow phones.
