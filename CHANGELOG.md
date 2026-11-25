@@ -2,6 +2,17 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.32.1] - 2026-11-25
+
+### Changed
+- În Setări, sub vârsta maximă scrie câte povești și înregistrări ascunde vârsta aleasă.
+
+### Fixed
+- Pe calculator, butoanele playerului (pauză, înapoi, înainte, la întâmplare) nu se mai mută când o înregistrare are mai multe surse sau când merge temporizatorul. Pe ecrane mai înguste de 1100 px stau pe un rând al lor, cu bara de derulare întreagă.
+- Partea din dreapta a playerului nu mai iese din ecran la 900 px.
+- Finalul paginii nu mai rămâne sub player în nicio temă.
+- „618 ascunse de vârsta aleasă”, fără „de” în plus.
+
 ## [1.32.0] - 2026-11-25
 
 ### Added

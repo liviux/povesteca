@@ -5,7 +5,7 @@ import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourceP
 import { Dock, Night, surprise } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
-import { REPO, loadDetails, loadError, setMaxAge } from './data.js';
+import { REPO, loadDetails, loadError, setMaxAge, stories, versions, allStories, allVersions } from './data.js';
 import { version } from '../package.json';
 import './styles.css';
 import './themes.css';
@@ -61,7 +61,7 @@ function Settings() {
             </div>
           </div>
           <div class="set-group" role="group" aria-labelledby="set-age"><p class="set-label" id="set-age">{t.maxAge}</p>
-            <p class="set-hint" id="age-hint">{t.maxAgeHint}</p>
+            <p class="set-hint" id="age-hint" aria-live="polite">{s.maxAge ? t.maxAgeHides(t.nStories(allStories.length - stories.length), t.nRec(allVersions.length - versions.length)) : t.maxAgeHint}</p>
             <div class="chips" aria-describedby="age-hint">
               {[0, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
                 <button type="button" class="chip" aria-pressed={s.maxAge === n} aria-label={n ? t.ageOpt(n) : t.ageAll} onClick={() => setMaxAge(n)}>{n || t.ageAll}</button>

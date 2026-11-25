@@ -2,6 +2,17 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.32.1] - 2026-11-25
+
+### Changed
+- In Settings, the maximum age says how many stories and recordings it hides.
+
+### Fixed
+- On a computer, the player's buttons (pause, back, forward, shuffle) no longer move when a recording has several sources or the sleep timer runs. Below 1100 px they keep a row of their own, with the full seek bar.
+- The right side of the player no longer runs off the screen at 900 px.
+- The end of the page no longer stays under the player in any theme.
+- Romanian wording of the hidden count fixed.
+
 ## [1.32.0] - 2026-11-25
 
 ### Added

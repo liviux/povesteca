@@ -463,6 +463,8 @@ body:has(.dock.has-video) { padding-bottom: calc(var(--dock-h) + 248px); }
 .dock-switch:hover { border-color: var(--ink); }
 /* phones: the title needs the room; the other sources stay on the recording page and in Good night */
 @container (max-width: 480px) { .dock-switch { display: none; } }
+/* a narrower computer: "2/3" alone (the button's name and tooltip say "Schimbă sursa"), so the right side fits its share */
+@container (min-width: 1100px) and (max-width: 1249px) { .sw-txt { display: none; } }
 @container (max-width: 360px) { .dock-bar { column-gap: 6px; } .dock-side { gap: 2px; } }
 .dock-rate { min-width: 44px; height: 44px; padding: 0 6px; border: 0; border-radius: 12px; background: none; color: var(--ink); font: inherit; font-size: 14px; font-weight: 800; text-align: center; -webkit-appearance: none; appearance: none; cursor: pointer; }
 .dock-rate:hover { background: var(--surface-2); }
@@ -498,9 +500,13 @@ input[type='range']::-moz-range-thumb { width: 16px; height: 16px; border-radius
   .dock-main { flex-wrap: wrap; justify-content: center; row-gap: 0; }
   .dock-main .progress-row { order: -1; flex-basis: 100%; }
 }
-@media (min-width: 900px) { body:has(.dock.open) { --dock-h: 96px; } }
-@container (min-width: 900px) {
-  .dock-bar { grid-template-columns: minmax(220px, 1fr) minmax(360px, 1.6fr) auto; grid-template-areas: 'info main side'; padding-inline: 24px; align-items: center; }
+/* one row from 1100 px: below that the bar would be too short, so the controls keep a row of their own */
+@media (min-width: 1100px) { body:has(.dock.open) { --dock-h: 96px; } }
+@container (min-width: 1100px) {
+  /* the two sides share the room equally whatever is in them, so play, pause and the bar never move
+     when a recording has other sources or the sleep timer runs */
+  .dock-bar { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) minmax(0, 1fr); grid-template-areas: 'info main side'; padding-inline: 24px; align-items: center; }
+  .dock-side { justify-content: flex-end; }
   .dock-info .cover { width: 56px; }
 }
 

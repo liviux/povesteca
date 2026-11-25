@@ -355,10 +355,12 @@ function pinDock() {
   Object.assign(el.style, z
     ? { top: `${vv.offsetTop + vv.height}px`, bottom: 'auto', left: `${vv.offsetLeft}px`, width: `${vv.width * vv.scale}px`, transform: `scale(${1 / vv.scale}) translateY(-100%)` }
     : { top: '', bottom: '', left: '', width: '', transform: '' });
-  // room at the end of the page, so the player doesn't cover it
-  document.body.style.setProperty('--dock-h', z ? `${el.offsetHeight / vv.scale}px` : '');
+  // room at the end of the page, so the player doesn't cover it: its real height, which changes with the
+  // theme and the width (one row or two); the CSS values only count until the player has been measured
+  document.body.style.setProperty('--dock-h', el.offsetHeight ? `${el.offsetHeight / (z ? vv.scale : 1)}px` : '');
 }
 vv?.addEventListener('resize', pinDock);
+addEventListener('resize', pinDock);
 vv?.addEventListener('scroll', pinDock);
 
 // ---------- UI ----------
@@ -458,7 +460,7 @@ export function Dock() {
             : <div class="dock-main"><Controls /><Progress /></div>}
           <div class="dock-side">
             {v.links.length > 1 && (
-              <SourcePick v={v} p={p} cls="dock-switch">{`${p.link + 1}/${v.links.length} · ${t.switchShort}`}</SourcePick>
+              <SourcePick v={v} p={p} cls="dock-switch">{`${p.link + 1}/${v.links.length}`}<span class="sw-txt">{` · ${t.switchShort}`}</span></SourcePick>
             )}
             <SleepChip />
             <Pick label={t.speed} cls={'dock-rate' + (s.rate !== 1 ? ' on' : '')} value={s.rate} items={RATES.map((r) => [r, r.toLocaleString(s.lang) + '×'])} onPick={setRate}>
