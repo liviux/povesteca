@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.32.7] - 2026-11-25
+
+### Changed
+- Prima pagină spune mai clar ce găsești: povești audio de calitate, teatru radiofonic și alte povești jucate de actori, cu regie, muzică sau efecte sonore.
+
 ## [1.32.6] - 2026-11-25
 
 ### Changed

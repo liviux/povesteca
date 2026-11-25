@@ -4,7 +4,7 @@
 
 **1264 de povești și 1588 de înregistrări**
 
-Povesteca e o bibliotecă de povești audio în limba română, pentru copii și pentru părinții care le aleg. Adună teatru radiofonic și discuri de povești publicate deja pe Internet Archive și YouTube, le așază pe povești și le poți asculta direct în pagină.
+Povesteca e o bibliotecă de povești audio de calitate în limba română: teatru radiofonic și alte povești jucate de actori, cu regie, muzică sau efecte sonore. Le adună de pe Internet Archive, YouTube și alte surse publice și le poți asculta direct în pagină.
 
 Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
