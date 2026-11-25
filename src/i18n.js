@@ -124,7 +124,7 @@ export const ENUMS = {
 export const label = (group, value, lang = 'ro') => ENUMS[group]?.[value]?.[lang] ?? value;
 
 const RO = {
-  ytNote: 'Doar la poveștile de pe YouTube: se oprește dacă ieși din aplicație',
+  ytNote: 'Doar la poveștile de pe YouTube: se pun pe pauză când minimizezi aplicația',
   skip: 'Sari la conținut',
   explore: 'Explorează', mine: 'Ale mele', night: 'Noapte bună', theme: 'Temă', otherLang: 'English',
   themes: { clasic: 'Clasică', plastilina: 'Plastilină', caiet: 'Caiet', galerie: 'Galerie', afis: 'Afiș', harta: 'Hartă', cosmos: 'Cosmos', jeleu: 'Jeleu', vinil: 'Vinil', hartie: 'Hârtie', abtibild: 'Abțibilduri' },
@@ -203,7 +203,7 @@ const RO = {
 };
 
 const EN = {
-  ytNote: 'YouTube stories only: playback pauses if you leave the app',
+  ytNote: 'YouTube stories only: they pause when you minimise the app',
   ...RO,
   skip: 'Skip to content',
   explore: 'Browse', mine: 'My stuff', night: 'Good night', theme: 'Theme', otherLang: 'Română',

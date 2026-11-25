@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.25.2] - 2026-11-25
+
+### Changed
+- Nota de deasupra ferestrei YouTube spune acum că poveștile se pun pe pauză când minimizezi aplicația și apare doar pe telefon și tabletă.
+
 ## [1.25.1] - 2026-11-25
 
 ### Added
