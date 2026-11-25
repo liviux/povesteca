@@ -645,7 +645,7 @@
 [data-theme='hartie'] .wordmark { filter: none; }
 [data-theme='hartie'] :is(.nav-link, .theme-menu > .icon-btn):hover { background: rgb(255 255 255 / 40%); }
 /* the header is the accent yellow already: "Surprinde-mă!" gets a soft paper tint instead */
-[data-theme='hartie'] .nav-surprise { background: rgb(255 255 255 / 30%); box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--ink) 22%, transparent); }
+[data-theme='hartie'] .head-nav .nav-surprise { background: rgb(255 255 255 / 30%); box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--ink) 22%, transparent); }
 [data-theme='hartie'] .nav-link[aria-current='page'] { color: var(--accent-ink); background: var(--surface); box-shadow: 2px 3px 0 var(--press-accent); }
 [data-theme='hartie'] :focus-visible { outline-color: var(--focus); }
 /* card-stock buttons: they sit on a paper edge and press down onto it */

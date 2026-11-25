@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.32.6] - 2026-11-25
+
+### Changed
+- The player's shuffle button gets the same soft background as “Surprise me!”.
+
 ## [1.32.5] - 2026-11-25
 
 ### Changed

@@ -71,7 +71,7 @@
 [data-theme='radio'] .nav-link[aria-current='page']::after { content: ''; position: absolute; top: 5px; right: 5px; width: 6px; height: 6px; border-radius: 50%; background: #ff9b2e; box-shadow: 0 0 6px 1px #ffb347; }
 [data-theme='radio'] .nav-link { position: relative; }
 /* "Surprinde-mă!": a honey-coloured key among the cream ones */
-[data-theme='radio'] .nav-surprise:not(:active) { background: linear-gradient(180deg, #ffe9b8, #e9c47a); }
+[data-theme='radio'] .head-nav .nav-surprise:not(:active) { background: linear-gradient(180deg, #ffe9b8, #e9c47a); }
 @media (min-width: 600px) {
   [data-theme='radio'] .head-nav { gap: 3px; padding: 4px 4px 6px; border-radius: 10px; background: #1a0d05; box-shadow: inset 0 2px 6px #000c, 0 1px 0 rgb(255 220 160 / 25%); }
 }

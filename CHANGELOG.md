@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.32.6] - 2026-11-25
+
+### Changed
+- Și în player, butonul „la întâmplare” are fundalul discret de la „Surprinde-mă!”.
+
 ## [1.32.5] - 2026-11-25
 
 ### Changed

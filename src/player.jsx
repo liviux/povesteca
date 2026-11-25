@@ -401,7 +401,7 @@ function Controls({ big }) {
         <Icon n={busy ? 'pause' : 'play'} size={big ? 34 : 26} />
       </button>
       <button type="button" class="icon-btn skip" aria-label={t.fwd30} onClick={() => seekBy(30)}><Icon n="fwd" /><small>30</small></button>
-      {!big && <button type="button" class="icon-btn" aria-label={t.surprise} title={t.surprise} onClick={() => surprise()}><Icon n="shuffle" /></button>}
+      {!big && <button type="button" class="icon-btn nav-surprise" aria-label={t.surprise} title={t.surprise} onClick={() => surprise()}><Icon n="shuffle" /></button>}
     </div>
   );
 }
