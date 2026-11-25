@@ -2,6 +2,12 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.31.2] - 2026-11-25
+
+### Removed
+- **Removed stories:** the four Radio Zalău evening stories (“Moș Nicolae”, “Baba iarna intră-n sat”, “De ce bradul e mereu verde” and “Broasca cea fermecată”) and the source’s five recordings.
+- The “Poveștile de seară ale Radio Zalău” source was removed from the catalogue; “Cenușăreasa” keeps its other recordings.
+
 ## [1.31.1] - 2026-11-25
 
 ### Changed

@@ -338,15 +338,5 @@
    "ro": "Povești clasice și originale scrise și narate de Nekta Ioana Dedu, după aproape zece ani de radio. Basme citite calm, cu voce caldă, pentru seara dinaintea somnului.",
    "en": "Classic and original stories written and narrated by Nekta Ioana Dedu after almost ten years in radio. Calm, warmly voiced fairy tales for bedtime."
   }
- },
- {
-  "id": "radio-zalau-povesti",
-  "name": "Poveștile de seară ale Radio Zalău",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@RadioZalau",
-  "description": {
-   "ro": "Poveștile de seară ale Radio Zalău, citite de Ioana Dumitru și de realizatorii „Raftului cu povești”: basme, legende de iarnă și povești pentru copii, în înregistrări scurte și liniștite.",
-   "en": "Radio Zalău’s evening stories, read by Ioana Dumitru and the “Raftul cu povești” team: fairy tales, winter legends and children’s stories in short, quiet recordings."
-  }
  }
 ]

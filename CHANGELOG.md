@@ -2,6 +2,12 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.31.2] - 2026-11-25
+
+### Removed
+- **Povești scoase:** cele patru povești de seară de la Radio Zalău („Moș Nicolae”, „Baba iarna intră-n sat”, „De ce bradul e mereu verde” și „Broasca cea fermecată”) și cele cinci înregistrări ale sursei.
+- Sursa „Poveștile de seară ale Radio Zalău” a fost scoasă din catalog; „Cenușăreasa” rămâne cu celelalte înregistrări ale ei.
+
 ## [1.31.1] - 2026-11-25
 
 ### Changed
