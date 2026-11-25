@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.32.3] - 2026-11-25
+
+### Changed
+- Settings: the language sits on one line, and the ages (All, 3 … 10) fit one line on computers and tablets. The line saying what the age hides is smaller and no longer wraps.
+
 ## [1.32.2] - 2026-11-25
 
 ### Fixed

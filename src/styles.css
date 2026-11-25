@@ -130,7 +130,7 @@ img { display: block; max-width: 100%; }
 .theme-menu > .icon-btn { gap: 8px; display: inline-flex; align-items: center; padding: 0 10px; font-weight: 800; }
 .theme-pop {
   position: absolute; right: 0; top: calc(100% + 8px); z-index: 30; background: var(--surface); color: var(--ink); border-radius: var(--radius-sm); box-shadow: var(--shadow-hover);
-  padding: 12px; display: grid; gap: 14px; width: min(372px, calc(100vw - 24px));
+  padding: 12px; display: grid; gap: 14px; width: min(480px, calc(100vw - 24px));
   max-height: calc(100dvh - 96px); overflow-y: auto; overscroll-behavior: contain;
 }
 /* the chosen age, on the gear: a parent sees at a glance that some stories are hidden */
@@ -139,9 +139,14 @@ img { display: block; max-width: 100%; }
 .set-group { min-width: 0; }
 .set-group + .set-group { border-top: 2px solid var(--line); padding-top: 12px; }
 .set-label { margin: 0 0 8px; font: 800 15px var(--font-head); }
-.set-hint { margin: -4px 0 8px; font-size: 14px; color: var(--muted); }
-.set-group .chips { gap: 6px; }
-.set-group .chip { min-width: 44px; justify-content: center; padding: 0 12px; }
+/* the language on one line: its name, then the two buttons */
+.set-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.set-row .set-label { margin: 0; }
+/* one line, smaller letters; a phone too narrow for it cuts the end with "…" rather than wrap */
+.set-hint { margin: -4px 0 8px; font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.set-group .chips { gap: 4px; }
+/* "Toate", 3 … 10 fit one line from a 480 px menu; each button stays 44 px wide, so on a phone they take two lines */
+.set-group .chip { min-width: 44px; justify-content: center; padding: 0 10px; }
 .swatches { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
 .swatch { display: flex; align-items: center; gap: 10px; min-height: 44px; min-width: 0; padding: 0 8px; border: 2px solid transparent; border-radius: 10px; background: none; font-weight: 800; text-align: left; }
 .swatch:hover { background: var(--surface-2); }

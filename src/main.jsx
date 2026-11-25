@@ -53,7 +53,7 @@ function Settings() {
       </button>
       {open && (
         <div class="theme-pop" role="group" aria-label={t.settings}>
-          <div class="set-group" role="group" aria-labelledby="set-lang"><p class="set-label" id="set-lang">{t.language}</p>
+          <div class="set-group set-row" role="group" aria-labelledby="set-lang"><p class="set-label" id="set-lang">{t.language}</p>
             <div class="chips">
               {[['ro', 'Română'], ['en', 'English']].map(([k, txt]) => (
                 <button type="button" class="chip" lang={k} aria-pressed={s.lang === k} onClick={() => set({ lang: k })}>{txt}</button>
