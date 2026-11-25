@@ -423,6 +423,7 @@ export function Dock() {
   return (
     <div class={'dock' + (v ? ' open' : '') + (link?.type === 'youtube' ? ' has-video' : '') + (p.status === 'playing' ? ' playing' : '')} aria-hidden={!v}>
       <div class="yt-frame" ref={(el) => { ytHost = el; }} />
+      {link?.type === 'youtube' && <p class="yt-note">{t.ytNote}</p>}
       {v && (
         <div class="dock-bar" role="region" aria-label={t.nowPlaying}>
           <a class="dock-info" href={`/inregistrare/${v.id}`}>

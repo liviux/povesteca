@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.25.1] - 2026-11-25
+
+### Added
+- A short note above the YouTube window now says YouTube stories pause if you leave the app.
+
 ## [1.25.0] - 2026-11-25
 
 ### Added
