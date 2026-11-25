@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.32.2] - 2026-11-25
+
+### Fixed
+- In Settings, an age that hides nothing (such as 10) shows the usual text, as “All” does.
+
 ## [1.32.1] - 2026-11-25
 
 ### Changed

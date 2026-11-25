@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.32.2] - 2026-11-25
+
+### Fixed
+- În Setări, la o vârstă care nu ascunde nimic (de exemplu 10 ani), scrie textul obișnuit, ca la „Toate”.
+
 ## [1.32.1] - 2026-11-25
 
 ### Changed
