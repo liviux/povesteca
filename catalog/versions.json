@@ -86029,8 +86029,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86061,8 +86059,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86093,8 +86089,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86125,8 +86119,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86155,12 +86147,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "amuzanta",
+   "educativa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86187,12 +86181,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "amuzanta"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86221,8 +86217,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86253,8 +86247,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86285,8 +86277,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86317,8 +86307,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86349,8 +86337,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86381,8 +86367,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86413,8 +86397,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86445,8 +86427,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86477,8 +86457,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86507,12 +86485,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "amuzanta"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86539,12 +86519,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86571,12 +86553,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86603,12 +86587,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86626,7 +86612,7 @@
   "duration": 723,
   "year": 2020,
   "voices": "narator",
-  "age": 5,
+  "age": 6,
   "credits": {
    "narrator": [
     "Arabela Neazi"
@@ -86637,8 +86623,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -86667,12 +86651,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86699,12 +86685,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86731,12 +86719,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "amuzanta",
+   "educativa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86763,12 +86753,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "amuzanta",
+   "linistitoare"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86795,12 +86787,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "amuzanta",
+   "educativa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86818,7 +86812,7 @@
   "duration": 1533,
   "year": 2020,
   "voices": "narator",
-  "age": 5,
+  "age": 6,
   "credits": {
    "narrator": [
     "Maia Morgenstern"
@@ -86827,12 +86821,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86859,12 +86855,15 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "linistitoare",
+   "somn",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86891,12 +86890,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "educativa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86914,7 +86915,7 @@
   "duration": 1818,
   "year": 2020,
   "voices": "narator",
-  "age": 5,
+  "age": 6,
   "credits": {
    "narrator": [
     "Maia Morgenstern"
@@ -86923,12 +86924,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "intensa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86956,12 +86959,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -86989,12 +86994,13 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "amuzanta"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87022,12 +87028,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "linistitoare",
+   "educativa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87055,12 +87063,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87088,12 +87098,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87120,12 +87132,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87152,12 +87166,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87184,12 +87200,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "magica",
+   "amuzanta"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87218,8 +87236,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],
@@ -87248,12 +87264,14 @@
  },
  {
   "kind": "narata",
-  "moods": [],
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
   "estimated": [
-   "kind",
-   "voices",
    "age",
-   "quality"
+   "quality",
+   "moods"
   ],
   "quality": 2,
   "addedAt": "2026-11-25",
@@ -87282,8 +87300,6 @@
   "kind": "narata",
   "moods": [],
   "estimated": [
-   "kind",
-   "voices",
    "age",
    "quality"
   ],

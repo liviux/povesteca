@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.25.4] - 2026-11-25
+
+### Changed
+- Audited all 40 recordings added in 1.25.0 (all follow the catalogue rules and play properly) and filled in verified summaries, characters, themes, years, moods and ages for 18 of the new stories, plus the Wikipedia link for “Pasărea de aur”.
+
+### Fixed
+- Removed 11 previously deleted stories from the manual Wikipedia link list.
+
 ## [1.25.3] - 2026-11-25
 
 ### Added

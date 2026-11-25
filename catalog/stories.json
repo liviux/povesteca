@@ -28381,18 +28381,20 @@
   "author": "Frații Grimm",
   "origin": "german",
   "genre": "basm",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 1812
  },
  {
   "id": "elmer-in-zapada",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Când ceilalți elefanți se plâng că afară e frig, Elmer îi duce pe munte, unde descoperă pentru prima dată zăpada. După joaca cu bulgări și o farsă cu un elefant de zăpadă, elefanții își dau seama că la ei acasă e chiar cald.",
+   "en": "When the other elephants complain about the cold, Elmer leads them up a mountain where they see snow for the first time. After a snowball fight and a prank with a snow elephant, everyone agrees that home feels warm after all."
   },
   "themes": [
    "iarna",
    "animale",
-   "prietenie"
+   "prietenie",
+   "umor"
   ],
   "characters": [
    "Elmer"
@@ -28407,11 +28409,13 @@
  {
   "id": "popi-fulg-de-nea",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Popi este un fulg de nea mai dolofan decât frații lui, care visează să ajungă din cer în palma unui copil. Deși drumul spre pământ nu iese cum se aștepta, găsește un fel aparte de a aduce bucurie.",
+   "en": "Popi is a chubbier snowflake than his brothers who dreams of floating down into a child’s hand. Though his trip to earth doesn’t go as planned, he finds a special way to bring joy."
   },
   "themes": [
-   "iarna"
+   "iarna",
+   "bunatate",
+   "bucurie"
   ],
   "characters": [
    "Popi"
@@ -28420,19 +28424,25 @@
   "author": "Cristina Donovici",
   "origin": "romanian",
   "genre": "poveste",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2018
  },
  {
   "id": "scrisoarea-spiridusilor",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "În pragul Crăciunului, spiridușii se adună să-i scrie lui Moș Crăciun o scrisoare uriașă, lungă cât o stradă, cu dorințele și planurile lor pentru daruri. Rămâne însă o problemă grea: cum să împăturească și să trimită o asemenea scrisoare niște ființe atât de mici.",
+   "en": "Just before Christmas, the elves gather to write Santa Claus a giant letter as long as a street, filled with their wishes and gift plans. The tricky part is figuring out how such tiny creatures can fold and deliver it."
   },
   "themes": [
    "craciun",
-   "iarna"
+   "iarna",
+   "harnicie",
+   "prietenie"
   ],
-  "characters": [],
+  "characters": [
+   "Spiridușii",
+   "Moș Crăciun"
+  ],
   "title": "Scrisoarea spiridușilor",
   "author": "Yvon Dumez",
   "origin": "french",
@@ -28459,14 +28469,18 @@
  {
   "id": "gerulet-si-focul-de-craciun",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Geruleț, un om de zăpadă prins la viață în miezul iernii, ajunge în pericol să se topească atunci când lângă el se aprinde un foc mare de sărbătoare. Cu istețime și ajutor, reușește să scape nevătămat.",
+   "en": "Chilly, a snowman who comes to life in winter, risks melting when a big festive bonfire is lit nearby. With quick thinking and a little help, he stays out of harm’s way."
   },
   "themes": [
    "craciun",
-   "iarna"
+   "iarna",
+   "istetime",
+   "curaj"
   ],
-  "characters": [],
+  "characters": [
+   "Geruleț"
+  ],
   "title": "Geruleț și focul de Crăciun",
   "author": "Russell Punter",
   "origin": "british",
@@ -28549,11 +28563,17 @@
  {
   "id": "zmeul-fara-carte",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un basm cu umor care întoarce pe dos imaginea zmeului din povești: temuta făptură nu știe să citească și să scrie și ajunge să descopere cât de mult contează cartea și școala.",
+   "en": "A humorous tale that flips the classic fairy-tale dragon on its head: the fearsome creature cannot read or write and ends up discovering why books and school matter."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "zmei",
+   "umor",
+   "intelepciune"
+  ],
+  "characters": [
+   "Zmeul"
+  ],
   "title": "Zmeul fără carte",
   "author": "Petre Crăciun",
   "origin": "romanian",
@@ -28563,16 +28583,27 @@
  {
   "id": "spiridusul-care-schimba-povestile",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "În Țara Poveștilor Încântătoare, cineva rescrie basmele copiilor ca să se pună pe sine erou. Trei copii — Cezar, Marinică și fiul împăratului, Mateuț — îl prind pe spiridușul Barbă-Neagră, aduc poveștile la loc și îi scriu și lui una numai a lui.",
+   "en": "In the Land of Enchanting Stories, someone keeps rewriting the children’s fairy tales to make himself the hero. Three children—Cezar, Marinică and the prince Mateuț—catch the elf Barbă-Neagră, restore the tales and write a story just for him."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "magie",
+   "prietenie",
+   "curaj",
+   "umor"
+  ],
+  "characters": [
+   "Cezar",
+   "Marinică",
+   "Mateuț",
+   "Barbă-Neagră"
+  ],
   "title": "Spiridușul care schimbă poveștile",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "poveste",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2016
  },
  {
   "id": "razboiul-pentru-ciocolata",
@@ -28689,109 +28720,183 @@
  {
   "id": "zmeul-pierde-vara",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Într-o familie de zmei cu trei feciori, mezinul poreclit Pierde-vară este blând, stângaci și deloc priceput la treburile fioroase ale fraților săi. Basmul răstoarnă cu umor tiparul zmeului de temut.",
+   "en": "In a family of dragons with three sons, the youngest—nicknamed Pierde-vară—is gentle, clumsy and hopeless at his brothers’ fierce ways, turning the usual fairy-tale dragon upside down with humour."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "zmei",
+   "familie",
+   "umor",
+   "bunatate"
+  ],
+  "characters": [
+   "Zmeul pierde-vară"
+  ],
   "title": "Zmeul pierde-vară",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "basm",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2014
  },
  {
   "id": "petre-pescarul",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Când o vrăjitoare bătrână pune la cale farmece care amenință împărăția și pe o domniță de la curte, un tânăr pescar pe nume Petre pornește unde feciorii de împărat au dat greș. Drumul lui prin păduri și pe malurile apelor îi pune la încercare curajul.",
+   "en": "When an old witch casts spells that threaten the kingdom and a princess at court, a young fisherman named Petre sets out where princes failed, facing trials along rivers and forests."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "curaj",
+   "calatorie",
+   "magie",
+   "printese"
+  ],
+  "characters": [
+   "Petre",
+   "Vrăjitoarea",
+   "Domnița"
+  ],
   "title": "Petre pescarul",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "basm",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2013
  },
  {
   "id": "fata-cea-frumoasa-si-fantana-cu-apa-tulbure",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "O fată de o frumusețe rară își refuză toți pețitorii, ascultând de glasul tainic al unei fântâni cu apă tulbure. Apa se va limpezi doar când ea și flăcăul cu suflet curat care îi e menit își vor oglindi chipurile împreună.",
+   "en": "A maiden of rare beauty turns away every suitor, guided by the mysterious voice of a murky well. Its water will only turn clear when she and the true-hearted young man meant for her look into it together."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "magie",
+   "adevar",
+   "bunatate"
+  ],
+  "characters": [
+   "Fata cea frumoasă",
+   "Duhul fântânii",
+   "Feciorul de împărat"
+  ],
   "title": "Fata cea frumoasă și fântâna cu apă tulbure",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "basm",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2013
  },
  {
   "id": "tara-copiilor-fericiti",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Într-o țară mică cât o jumătate de nucă, locuită doar de copii care nu cresc niciodată, sosește într-o zi marele povestitor Andersen. Priviți cu neîncredere la început, musafirul și poveștile lui îi cuceresc pe copii, care îl poftesc să rămână printre ei.",
+   "en": "In a tiny land inhabited only by children who never grow up, the storyteller Andersen arrives one day. Wary at first, the children fall in love with his tales and invite him to make his home among them."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "copilarie",
+   "magie",
+   "bucurie",
+   "prietenie"
+  ],
+  "characters": [
+   "Andersen",
+   "Marta"
+  ],
   "title": "Țara copiilor fericiți",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "poveste",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2016
  },
  {
   "id": "fetita-si-tara-fara-culori",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "La aproape șapte ani, Simona călătorește în vis prin ținuturi neobișnuite și ajunge într-o țară tristă, rămasă fără culori. Fetița încearcă să le convingă pe culori să nu mai fie zgârcite și să redea lumii bucuria.",
+   "en": "Nearly seven years old, Simona travels in her dreams to strange lands and visits a dreary country with no colours left. She tries to persuade the colours to share again and bring joy back to the world."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "calatorie",
+   "vis",
+   "bunatate",
+   "curiozitate"
+  ],
+  "characters": [
+   "Simona"
+  ],
   "title": "Fetița și țara fără culori",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "poveste",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2016
  },
  {
   "id": "zmeul-nespalat-pe-dinti",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Bogdănel nu vrea deloc să se spele pe dinți, până când visează că ajunge într-o împărăție terorizată de un zmeu nespălat. Cu sfatul Înțeleptului Carte-Multă și cu o oglindă, băiatul îl biruie pe zmeu, iar dimineața fuge singur la baie.",
+   "en": "Bogdănel refuses to brush his teeth until he dreams of a kingdom plagued by an unwashed dragon. With advice from the sage Carte-Multă and a mirror, he defeats the dragon—and wakes up eager to brush."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "zmei",
+   "vis",
+   "curaj",
+   "istetime",
+   "umor"
+  ],
+  "characters": [
+   "Bogdănel",
+   "Înțeleptul Carte-Multă",
+   "Zmeul"
+  ],
   "title": "Zmeul nespălat pe dinți",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "basm",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2016
  },
  {
   "id": "victoria-gargaritei-de-lemn",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "La miezul nopții, în camera Mariei și a lui Andrei, jucăriile prind viață și se ceartă care e cea mai iubită: păpușile, ursul sau tableta lăudăroasă. În cele din urmă, vechea gărgăriță de lemn cu culori șterse le arată cine are locul cel mai drag în inima copiilor.",
+   "en": "At midnight in Maria and Andrei’s bedroom, the toys come alive and argue over who is loved most—the dolls, the teddy bear or the boastful tablet. In the end, the old, faded wooden ladybug proves she is the children’s true favourite."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "jucarii",
+   "copilarie",
+   "umor",
+   "invidie"
+  ],
+  "characters": [
+   "Gărgărița de lemn",
+   "Tableta",
+   "Maria",
+   "Andrei"
+  ],
   "title": "Victoria gărgăriței de lemn",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "poveste",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2016
  },
  {
   "id": "tantarii-notelor-mici",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Supărat din cauza unei note mici la școală, Traian primește de la bunica Aurelia carnetul vechi de note din clasa a patra al tatălui său. Așa descoperă cu umor că și cei mari au avut parte de „țânțarii notelor mici” și că greșelile se pot îndrepta.",
+   "en": "Upset about a low grade at school, Traian is shown his father’s old fourth-grade report card by his grandmother Aurelia, learning with humour that grown-ups made mistakes too and that poor marks can be fixed."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "familie",
+   "copilarie",
+   "adevar",
+   "umor"
+  ],
+  "characters": [
+   "Traian",
+   "Bunica Aurelia"
+  ],
   "title": "Țânțarii notelor mici",
   "author": "Petre Crăciun",
   "origin": "romanian",
@@ -28801,43 +28906,73 @@
  {
   "id": "baiatul-care-vorbea-cu-florile",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Un tânăr pădurar harnic primește de la Zâna Pădurilor darul de a înțelege și de a vorbi limba florilor și a copacilor, descoperind o lume plină de gingășie și bunătate.",
+   "en": "A hardworking young forester receives from the Forest Fairy the gift of understanding and speaking the language of flowers and trees, discovering a gentle world full of kindness."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "natura",
+   "padure",
+   "magie",
+   "bunatate",
+   "harnicie"
+  ],
+  "characters": [
+   "Zâna Pădurilor"
+  ],
   "title": "Băiatul care vorbea cu florile",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "basm",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2013
  },
  {
   "id": "stelele-imi-spun-povesti",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "În serile liniștite din satul bunicilor, un copil își privește câinele Peticel alergând o steluță jucăușă coborâtă în ogradă. Iar când bunicul lasă o poveste neterminată la culcare, stelele coboară și o duc mai departe.",
+   "en": "On quiet nights in his grandparents’ village, a child watches his dog Peticel chase a playful little star across the yard. Whenever Grandfather leaves a bedtime story unfinished, the stars come down to finish it."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "copilarie",
+   "familie",
+   "magie",
+   "vis"
+  ],
+  "characters": [
+   "Bunica",
+   "Bunicul",
+   "Peticel"
+  ],
   "title": "Stelele îmi spun povești",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "poveste",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2016
  },
  {
   "id": "balaurul-beteag",
   "summary": {
-   "ro": "",
-   "en": ""
+   "ro": "Născut cu un singur cap și un picior mai scurt, un pui de balaur blând este alungat de ai săi, dar este salvat de un băiat, Panait. Îl ajută pe Împăratul cel Blajin cu ajutorul Cerbului cel Fermecat și se dovedește a fi un om fermecat, Ștefăniță, care devine cel mai înțelept sfetnic.",
+   "en": "Born with one head and a shorter leg, a gentle baby dragon is cast out by his kin but rescued by a boy named Panait. He helps the Kind Emperor with the Enchanted Stag’s aid and turns out to be a bewitched human, Ștefăniță, who becomes the wisest royal advisor."
   },
-  "themes": [],
-  "characters": [],
+  "themes": [
+   "dragoni",
+   "bunatate",
+   "intelepciune",
+   "magie"
+  ],
+  "characters": [
+   "Balaurul beteag",
+   "Panait",
+   "Împăratul cel Blajin",
+   "Cerbul cel Fermecat"
+  ],
   "title": "Balaurul beteag",
   "author": "Petre Crăciun",
   "origin": "romanian",
   "genre": "basm",
-  "addedAt": "2026-11-25"
+  "addedAt": "2026-11-25",
+  "year": 2014
  }
 ]

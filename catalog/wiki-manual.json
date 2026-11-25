@@ -1311,9 +1311,6 @@
     "banutul-de-argint": {
       "goodreads": "https://www.goodreads.com/book/show/16028526"
     },
-    "barba-albastra": {
-      "goodreads": "https://www.goodreads.com/book/show/1125423"
-    },
     "barnabe-vindeca-planeta": {
       "goodreads": "https://www.goodreads.com/book/show/60830154"
     },
@@ -1377,11 +1374,6 @@
     },
     "cand-stapanul-nu-i-acasa": {
       "goodreads": "https://www.goodreads.com/book/show/72405596"
-    },
-    "cantecul-nibelungilor": {
-      "wikidata": "Q131554",
-      "wikipedia": "https://en.wikipedia.org/wiki/Nibelungenlied",
-      "goodreads": "https://www.goodreads.com/work/editions/1145339"
     },
     "capitan-la-15-ani": {
       "wikidata": "Q472291",
@@ -1518,11 +1510,6 @@
     "cocosul-si-vulpea": {
       "wikidata": "Q54308763",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Cock%2C_the_Dog_and_the_Fox"
-    },
-    "contele-de-monte-cristo": {
-      "wikidata": "Q191838",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo",
-      "goodreads": "https://www.goodreads.com/work/editions/391568"
     },
     "copiii-capitanului-grant": {
       "goodreads": "https://www.goodreads.com/book/show/17661787"
@@ -1748,11 +1735,6 @@
       "wikipedia": "https://ro.wikipedia.org/wiki/Fram%2C_ursul_polar",
       "goodreads": "https://www.goodreads.com/book/show/6121266"
     },
-    "fratii-jderi": {
-      "wikidata": "Q18540256",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Fra%C8%9Bii_Jderi_(roman)",
-      "goodreads": "https://www.goodreads.com/book/show/6405236"
-    },
     "fratior-si-surioara": {
       "wikidata": "Q513544",
       "wikipedia": "https://en.wikipedia.org/wiki/Brother_and_Sister",
@@ -1960,9 +1942,6 @@
       "wikidata": "Q308398",
       "wikipedia": "https://en.wikipedia.org/wiki/Midas"
     },
-    "lacul-cu-elefanti": {
-      "goodreads": "https://www.goodreads.com/book/show/32857464"
-    },
     "laleaua-neagra": {
       "wikidata": "Q1141764",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Black_Tulip",
@@ -2021,9 +2000,6 @@
     },
     "lupul-parcalab": {
       "goodreads": "https://www.goodreads.com/book/show/50370983"
-    },
-    "mariuca": {
-      "goodreads": "https://www.goodreads.com/book/show/258565767"
     },
     "mary-poppins": {
       "wikidata": "Q858705",
@@ -2086,9 +2062,6 @@
     "naufragiatii-de-pe-jonathan": {
       "goodreads": "https://www.goodreads.com/book/show/13624273"
     },
-    "neamul-soimarestilor": {
-      "goodreads": "https://www.goodreads.com/book/show/7147796"
-    },
     "neghinita": {
       "goodreads": "https://www.goodreads.com/book/show/6353068"
     },
@@ -2118,11 +2091,6 @@
       "wikidata": "Q164974",
       "wikipedia": "https://en.wikipedia.org/wiki/Oliver_Twist",
       "goodreads": "https://www.goodreads.com/work/editions/3057979"
-    },
-    "omul-cu-masca-de-fier": {
-      "wikidata": "Q769001",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Viscount_of_Bragelonne%2FBetween_Two_Kings",
-      "goodreads": "https://www.goodreads.com/work/editions/2971402"
     },
     "omul-de-flori-cu-barba-de-matase": {
       "goodreads": "https://www.goodreads.com/book/show/74044472"
@@ -2281,9 +2249,6 @@
     "povestea-gastelor": {
       "goodreads": "https://www.goodreads.com/book/show/106391670"
     },
-    "povestea-hamalului": {
-      "goodreads": "https://www.goodreads.com/book/show/15901853"
-    },
     "povestea-lui-stan-patitul": {
       "goodreads": "https://www.goodreads.com/book/show/19571637"
     },
@@ -2310,16 +2275,8 @@
     "povestea-ursului-cafeniu": {
       "goodreads": "https://www.goodreads.com/book/show/112370907"
     },
-    "povestea-vorbii": {
-      "goodreads": "https://www.goodreads.com/book/show/4948776"
-    },
     "povesti-citite-de-elena-pop-6-11": {
       "goodreads": "https://www.goodreads.com/book/show/53177686"
-    },
-    "povestile-seherezadei": {
-      "wikidata": "Q8258",
-      "wikipedia": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
-      "goodreads": "https://www.goodreads.com/work/editions/859375"
     },
     "praslea-cel-voinic": {
       "wikidata": "Q7253801",
@@ -2764,6 +2721,10 @@
     "darul-spiridusilor": {
       "wikidata": "Q473871",
       "wikipedia": "https://de.wikipedia.org/wiki/Die_Geschenke_des_kleinen_Volkes"
+    },
+    "pasarea-de-aur-grimm": {
+      "wikidata": "Q470012",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Golden_Bird"
     }
   }
 }

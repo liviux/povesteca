@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.25.4] - 2026-11-25
+
+### Changed
+- Am verificat cele 40 de înregistrări adăugate în 1.25.0 (toate respectă regulile catalogului și merg în player) și am completat rezumate, personaje, teme, ani, dispoziții și vârste pentru 18 dintre poveștile noi, plus legătura Wikipedia pentru „Pasărea de aur”.
+
+### Fixed
+- Am scos din lista de legături Wikipedia 11 povești eliminate anterior din catalog.
+
 ## [1.25.3] - 2026-11-25
 
 ### Added
