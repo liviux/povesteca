@@ -19855,14 +19855,19 @@
   ],
   "characters": [
    "Lupul",
-   "Măgarul"
+   "Măgarul",
+   "Sătenii",
+   "Călugărul"
   ],
   "summary": {
-   "ro": "Ca să scape din colții lupului, un măgar isteț îi întinde o cursă și îl păcălește pe temutul prădător, care ajunge din vânător, vânat.",
-   "en": "To escape a wolf’s jaws, a clever donkey sets a trap that turns the fearsome hunter into the hunted."
+   "ro": "Un lup flămând întâlnește un măgar, care îl convinge că în sat e liberă slujba de pârcălab. Lupul îl urmează, convins că nu va mai duce grija mesei, dar sătenii îl întâmpină cu bulgări și câini.",
+   "en": "A hungry wolf meets a donkey who persuades him there is a bailiff’s job going in the village. The wolf follows, thinking he will never want for food again, but the villagers greet him with snowballs and dogs."
   },
   "origin": "romanian",
-  "year": 1882
+  "year": 1882,
+  "altTitles": [
+   "Lupul pîrcălab"
+  ]
  },
  {
   "id": "furtuna-lamb",
@@ -29103,6 +29108,719 @@
    "ro": "În pragul Crăciunului, Mickey Mouse și prietenii săi dau o mână de ajutor la sortarea și livrarea miilor de scrisori trimise de copii către Moș Crăciun, ca nicio dorință să nu se piardă.",
    "en": "Right before Christmas, Mickey Mouse and his friends pitch in to sort and deliver the thousands of children’s letters to Santa Claus so that no wish goes astray."
   },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "in-tara-zapezilor",
+  "title": "În țara zăpezilor",
+  "author": "Mirela Toma",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "iarna",
+   "magie",
+   "calatorie",
+   "jucarii"
+  ],
+  "characters": [
+   "Bobi",
+   "Spiridușul",
+   "Moș Crăciun",
+   "Soția lui Moș Crăciun"
+  ],
+  "summary": {
+   "ro": "Bobi găsește în pat o pereche de cizmulițe și un spiriduș. Când le încalță, se ridică în aer și pornește cu noul său prieten spre atelierul lui Moș Crăciun.",
+   "en": "Bobi finds a pair of little boots and an elf in his bed. When he puts on the boots, he floats into the air and sets off with his new friend for Santa’s workshop."
+  },
+  "year": 2010,
+  "origin": "romanian"
+ },
+ {
+  "id": "primul-craciun",
+  "title": "Primul Crăciun",
+  "author": "Mirela Toma",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "iarna",
+   "prietenie",
+   "generozitate"
+  ],
+  "characters": [
+   "Miruna",
+   "Bramburica",
+   "Mătușa Lila"
+  ],
+  "summary": {
+   "ro": "În dimineața de Crăciun, Miruna o vede pe Bramburica, sperietoarea ei de ciori, singură în câmp. Își ia păpușa și fularul împletit de mătușa Lila și iese cu ele în zăpadă.",
+   "en": "On Christmas morning, Miruna sees her scarecrow friend Bramburica alone in the field. She takes her doll and the scarf Aunt Lila knitted for her and heads out into the snow."
+  },
+  "year": 2010,
+  "origin": "romanian"
+ },
+ {
+  "id": "povestea-covrigeilor",
+  "title": "Povestea covrigeilor",
+  "author": "Mirela Toma",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "familie",
+   "curiozitate"
+  ],
+  "characters": [
+   "Mihăiță",
+   "Roibu",
+   "Mama",
+   "Crăciunița"
+  ],
+  "summary": {
+   "ro": "Mihăiță vrea să știe cum ajunge Moș Crăciun la toți copiii într-o singură noapte. Mama îi vorbește despre Crăciunița, iar băiatul atârnă în brad câțiva covrigei, să vadă dacă trece și ea pe la el.",
+   "en": "Mihăiță wants to know how Santa reaches every child in a single night. His mother tells him about Mrs Claus, so he hangs a few pretzels on the tree to see if she stops by."
+  },
+  "year": 2010,
+  "origin": "romanian"
+ },
+ {
+  "id": "pe-urmele-lui-mos-craciun",
+  "title": "Pe urmele lui Moș Crăciun",
+  "author": "Mirela Toma",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "iarna",
+   "curiozitate",
+   "istetime"
+  ],
+  "characters": [
+   "Băiatul",
+   "Spiridușul",
+   "Tatăl"
+  ],
+  "summary": {
+   "ro": "Un băiat stă treaz de Ajun ca să-l vadă pe Moș Crăciun, dar dă peste un spiriduș care îl gâdilă. Anul următor pregătește clopoței la geam și la ușă și ține aparatul foto la îndemână.",
+   "en": "A boy stays up on Christmas Eve to catch a glimpse of Santa, but an elf finds him first and starts tickling him. The next year he hangs bells on the window and door and keeps his camera handy."
+  },
+  "year": 2010,
+  "origin": "romanian"
+ },
+ {
+  "id": "povestea-omului-de-zapada",
+  "title": "Povestea omului de zăpadă",
+  "author": "Mirela Toma",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "craciun",
+   "singuratate",
+   "prietenie"
+  ],
+  "characters": [
+   "Omul de zăpadă",
+   "Copiii",
+   "Bătrânica",
+   "Corbul"
+  ],
+  "summary": {
+   "ro": "Viscolul îi ia omului de zăpadă pălăria și fularul, iar un corb îi fură un ochi. După o noapte în care visează că stă cu copiii la gura sobei, se trezește cu haine noi și cu doi prieteni de zăpadă.",
+   "en": "A blizzard takes the snowman’s hat and scarf, and a crow steals one of his eyes. After dreaming of sitting by the stove with children, he wakes to find new clothes and two snow friends."
+  },
+  "year": 2010,
+  "origin": "romanian"
+ },
+ {
+  "id": "cioara-si-privighetoarea",
+  "title": "Cioara și privighetoarea",
+  "author": "poveste populară",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "muzica",
+   "invidie"
+  ],
+  "characters": [
+   "Cioara",
+   "Privighetoarea",
+   "Omul",
+   "Calul",
+   "Porcul"
+  ],
+  "summary": {
+   "ro": "Cioara o provoacă pe privighetoare la o întrecere de cântat. Pornesc împreună la drum ca să afle ce cred ceilalți, dar cioara caută pe cineva care să-i dea dreptate.",
+   "en": "A crow challenges a nightingale to a singing contest. They set off to ask others what they think, but the crow keeps looking for someone who will agree with her."
+  },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "camionul-zburator",
+  "title": "Camionul zburător",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "prietenie",
+   "curaj",
+   "ingeniozitate",
+   "aventura"
+  ],
+  "characters": [
+   "Ticu",
+   "Vivi",
+   "Liniuță",
+   "Deea",
+   "Ionel",
+   "Tudorică"
+  ],
+  "summary": {
+   "ro": "Ticu, un camion roșu, visează să zboare. Cu ajutorul veveriței Vivi și al celorlalți prieteni din sat, își construiește aripi și le încearcă pe cel mai înalt deal.",
+   "en": "Ticu, a red truck, dreams of flying. With help from Vivi the squirrel and his other friends in the village, he builds a pair of wings and tries them out on the highest hill."
+  },
+  "year": 2025,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "crenguta-leagana-ma",
+  "title": "Crenguță, leagănă-mă!",
+  "author": "poveste populară",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "natura",
+   "istetime"
+  ],
+  "characters": [
+   "Păsărica",
+   "Crenguța",
+   "Toporul",
+   "Focul",
+   "Apa",
+   "Taurul",
+   "Lupul",
+   "Pușca",
+   "Șoricelul",
+   "Pisica",
+   "Cocoșul",
+   "Vulpea"
+  ],
+  "summary": {
+   "ro": "O păsărică îi cere unei crenguțe să o legene. Când crenguța refuză, pasărea pornește prin pădure după ajutor, de la topor și foc până la pisică și vulpe.",
+   "en": "A little bird asks a branch to rock her. When it refuses, she goes through the forest looking for help, from an axe and a fire to a cat and a fox."
+  },
+  "year": 1894,
+  "origin": "romanian",
+  "altTitles": [
+   "Nuieluță, huță-mă!"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "sturzul-si-cioara",
+  "title": "Sturzul și cioara",
+  "author": "poveste populară",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "prietenie",
+   "istetime"
+  ],
+  "characters": [
+   "Sturzul",
+   "Cioara",
+   "Vulpea",
+   "Puii sturzului"
+  ],
+  "summary": {
+   "ro": "O vulpe îl amenință pe sturz ca să-i ia puii. Cioara îi dă un sfat care ține vulpea departe de cuib, apoi trebuie să scape și ea din labele cumetrei.",
+   "en": "A fox threatens a thrush to get at his chicks. A crow gives him advice that keeps the fox away from his nest, then has to escape the fox’s paws herself."
+  },
+  "altTitles": [
+   "Vulpea, sturzul și cioara"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "legenda-crivatului",
+  "title": "Legenda crivățului",
+  "author": [
+   "Simona Vasiliu",
+   "Dan Vasiliu"
+  ],
+  "genre": "legenda",
+  "themes": [
+   "iarna",
+   "natura",
+   "magie"
+  ],
+  "characters": [
+   "Crivățul",
+   "Împăratul vânturilor",
+   "Vârtejul",
+   "Furtuna",
+   "Sătenii"
+  ],
+  "summary": {
+   "ro": "Crivățul suflă când are chef și le strică sătenilor grădinile și recoltele. Oamenii merg până la palatul de cleștar al Împăratului vânturilor să-i ceară ajutor.",
+   "en": "The crivăț wind blows whenever it pleases, ruining the villagers’ gardens and crops. They travel to the crystal palace of the Emperor of the Winds to ask for help."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "paznicul-viselor",
+  "title": "Paznicul viselor",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "curaj",
+   "somn",
+   "magie",
+   "noapte"
+  ],
+  "characters": [
+   "Sofia",
+   "Moș Ene",
+   "Mama Sofiei"
+  ],
+  "summary": {
+   "ro": "Sofia se ascunde sub pătură când umbrele cresc pe pereți. Moș Ene o ia de mână și o duce prin Lumea Nopții, unde licuricii luminează pădurea și animalele dorm.",
+   "en": "Sofia hides under her blanket as the shadows grow on the walls. Moș Ene takes her hand and leads her through the world of night, where fireflies light the forest and the animals are asleep."
+  },
+  "year": 2025,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "pietricel-si-pata-de-cerneala",
+  "title": "Pietricel și pata de cerneală",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "scoala",
+   "imaginatie",
+   "prietenie",
+   "umor"
+  ],
+  "characters": [
+   "Pietricel",
+   "Pata de cerneală",
+   "Pietruța",
+   "Doamna Orieta"
+  ],
+  "summary": {
+   "ro": "O sticluță cu cerneală se răstoarnă la ora de scris povești, iar o pată vorbăreață se lipește de Pietricel. Când se apucă de scris împreună, o zi obișnuită de școală capătă o broască pilot și un astronaut care sare din crater în crater.",
+   "en": "An ink bottle spills during story-writing class, and a chatty inkblot sticks to Pietricel. When they start writing together, an ordinary day at school gains a frog pilot and an astronaut who jumps from crater to crater."
+  },
+  "year": 2025,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "licuriciul",
+  "title": "Licuriciul",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "curaj",
+   "animale",
+   "prietenie",
+   "noapte"
+  ],
+  "characters": [
+   "Oliver",
+   "Lumi",
+   "Tatăl lui Oliver",
+   "Frații lui Oliver",
+   "Broscoiul"
+  ],
+  "summary": {
+   "ro": "Oliver, un pui de licurici căruia îi e frică de întuneric, fuge chiar înainte de Festivalul Luminilor. În pădure o întâlnește pe molia Lumi, care îl duce la iaz să vadă stelele în apă.",
+   "en": "Oliver, a young firefly who is afraid of the dark, runs away just before the Festival of Lights. In the forest he meets Lumi the moth, who leads him to a pond to see the stars reflected in the water."
+  },
+  "year": 2024,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "povestea-turturelei",
+  "title": "Povestea turturelei",
+  "author": "poveste populară armenească",
+  "genre": "legenda",
+  "themes": [
+   "pasari",
+   "magie",
+   "dragoste",
+   "transformare"
+  ],
+  "characters": [
+   "Împărăteasa",
+   "Împăratul",
+   "Balaurii",
+   "Doamna Răsăritului de Soare",
+   "Dumnezeu"
+  ],
+  "summary": {
+   "ro": "Un crin fermecat apără împărăția de balaurii din țara vecină. Când împărăteasa îl distruge într-un moment de furie, cei doi conducători caută ajutor la Doamna Răsăritului de Soare.",
+   "en": "A magic lily protects a kingdom from dragons in a neighbouring land. When the empress destroys it in a moment of anger, she and the emperor turn to the Lady of the Sunrise for help."
+  },
+  "origin": "armenian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "ursuletul-neascultator",
+  "title": "Ursulețul neascultător",
+  "author": "Georgeta Răboj",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "familie",
+   "padure",
+   "aventura"
+  ],
+  "characters": [
+   "Marius",
+   "Tatăl lui Marius",
+   "Mama lui Marius",
+   "Bunica",
+   "Lupul"
+  ],
+  "summary": {
+   "ro": "Ursulețul Marius iese cu familia la cules de zmeură. Se ia după fluturi, pierde drumul spre bunica și se trezește singur în pădure, chiar când apare un lup flămând.",
+   "en": "Marius the bear cub goes raspberry picking with his family. He chases butterflies, loses his way back to Grandma and finds himself alone in the forest just as a hungry wolf appears."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "seara-minunata",
+  "title": "Seara minunată",
+  "author": "Mirela Toma",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "generozitate",
+   "familie",
+   "iarna"
+  ],
+  "characters": [
+   "Băiatul",
+   "Brutarul",
+   "Bătrânul",
+   "Mama",
+   "Tatăl"
+  ],
+  "summary": {
+   "ro": "În Ajun, un băiat îl ajută pe brutar și primește o pâine caldă. Împarte din ea cu un bătrân întâlnit pe drum, iar când ajunge acasă găsește fereastra luminată și un brad împodobit.",
+   "en": "On Christmas Eve, a boy helps the baker and earns a warm loaf of bread. He shares it with an old man he meets on the road, then comes home to a lit window and a decorated tree."
+  },
+  "year": 2010,
+  "origin": "romanian",
+  "altTitles": [
+   "Seară minunată"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "trenuletul-lui-mos-craciun",
+  "title": "Trenulețul lui Moș Crăciun",
+  "author": "Mirela Toma",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "iarna",
+   "calatorie",
+   "familie"
+  ],
+  "characters": [
+   "Fetița",
+   "Mama",
+   "Bătrânul din tren",
+   "Bunica"
+  ],
+  "summary": {
+   "ro": "În drum spre bunica, o fetiță observă în compartiment un bătrân cu barbă albă, vestă roșie și o crăciuniță în mâini. Pe fereastra trenului i se pare că vede și o sanie cu reni.",
+   "en": "On the way to Grandma’s, a girl notices an old man in her train compartment with a white beard, a red vest and a poinsettia. Through the window, she thinks she sees a sleigh and reindeer."
+  },
+  "year": 2010,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "piticul-arin-si-floarea-curajului",
+  "title": "Piticul Arin și floarea curajului",
+  "author": "Mihai Mănescu",
+  "genre": "basm",
+  "themes": [
+   "curaj",
+   "prietenie",
+   "magie",
+   "aventura"
+  ],
+  "characters": [
+   "Arin",
+   "Copacul Vorbitor",
+   "Dragonul",
+   "Piticii"
+  ],
+  "summary": {
+   "ro": "Copacul Vorbitor îl trimite pe Arin să găsească floarea care îi ține satul în siguranță. Micul pitic pleacă alături de prietenii săi, iar amuleta de la gât le luminează drumul până la dragonul care păzește floarea.",
+   "en": "The Talking Tree sends Arin to find the flower that keeps his village safe. The little dwarf sets out with his friends, and the amulet around his neck lights their way to the dragon guarding the flower."
+  },
+  "year": 2025,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "acul-de-carpit",
+  "title": "Acul de cârpit",
+  "author": "Hans Christian Andersen",
+  "genre": "poveste",
+  "themes": [
+   "mandrie",
+   "umor",
+   "aventura"
+  ],
+  "characters": [
+   "Acul de cârpit",
+   "Bucătăreasa",
+   "Ciobul de sticlă",
+   "Băieții"
+  ],
+  "summary": {
+   "ro": "Un ac de cârpit se crede prea fin pentru a coase un papuc. După ce se rupe, bucătăreasa îl preface în broșă. Acul alunecă în chiuvetă și ajunge în rigolă, unde un ciob strălucitor i se pare un diamant.",
+   "en": "A darning needle thinks it is far too fine to mend a slipper. After it breaks, the cook turns it into a brooch. It slips into the sink and ends up in the gutter, where it mistakes a shining piece of glass for a diamond."
+  },
+  "year": 1845,
+  "origin": "danish",
+  "altTitles": [
+   "Acul pentru cârpit",
+   "Acul pentru cârpit sau Când nu știi cine ești",
+   "Stoppenålen",
+   "The Darning-Needle"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "motanul-tapul-si-oaia",
+  "title": "Motanul, țapul și oaia",
+  "author": "poveste populară",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "prietenie",
+   "istetime",
+   "aventura"
+  ],
+  "characters": [
+   "Motanul",
+   "Țapul",
+   "Oaia",
+   "Moș Martin",
+   "Lupii",
+   "Stăpânul"
+  ],
+  "summary": {
+   "ro": "Un motan fuge din gospodărie împreună cu țapul și oaia. Cei trei se așază lângă un foc și îl primesc și pe Moș Martin, fără să știe că o haită de lupi îi pândește din întuneric.",
+   "en": "A cat runs away from the farm with a goat and a sheep. The three settle by a fire and welcome old Martin the bear, unaware that a pack of wolves is watching them from the dark."
+  },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "povestea-pufosului-mititel-intunecat",
+  "title": "Povestea Pufosului Mititel Întunecat",
+  "author": "Alex Donovici",
+  "genre": "poveste",
+  "themes": [
+   "curaj",
+   "somn",
+   "noapte"
+  ],
+  "characters": [
+   "Pufosul Mititel Întunecat",
+   "Soarele",
+   "Luna"
+  ],
+  "summary": {
+   "ro": "Într-o dimineață, Soarele îl găsește pe micul Întuneric lângă Lună, ronțăind nori. Întunericul e trist pentru că îi sperie pe copii, deși tot ce vrea e să-i învelească și să le aducă vise frumoase.",
+   "en": "One morning, the Sun finds little Darkness nibbling clouds beside the Moon. Darkness is sad that children are afraid of him, when all he wants is to tuck them in and bring them sweet dreams."
+  },
+  "year": 2019,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mos-craciun-cu-barba-albastra",
+  "title": "Moș Crăciun cu barba albastră",
+  "author": [
+   "Cristina Donovici",
+   "Alex Donovici"
+  ],
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "iarna",
+   "jucarii",
+   "generozitate"
+  ],
+  "characters": [
+   "Moș Crăciun",
+   "Crăciunița",
+   "Fetița",
+   "Băiețelul",
+   "Elful pădurii"
+  ],
+  "summary": {
+   "ro": "Un meșter pe nume Crăciun și-a umplut hambarul cu jucării. Într-o zi geroasă, doi copii îl ajută să care un buștean, iar el deschide hambarul și îi lasă să-și aleagă ce le place.",
+   "en": "A woodcarver named Crăciun has a barn full of toys. On a freezing day, two children help him carry a log, so he opens up the barn and lets them choose whatever they like."
+  },
+  "year": 2016,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "crabul-fericit",
+  "title": "Crabul fericit",
+  "author": "Cristina Donovici",
+  "genre": "poveste",
+  "themes": [
+   "prietenie",
+   "generozitate",
+   "mare",
+   "animale"
+  ],
+  "characters": [
+   "Rudy",
+   "Della",
+   "Sirenele-surori",
+   "Creveții",
+   "Pisicile de mare",
+   "Rechinii pitici"
+  ],
+  "summary": {
+   "ro": "Crabul Rudy strânge scoicile din tot regatul mării ca să-și facă un castel. Când prietenii încep să lipsească de la petrecerile lui, steluța de mare Della încearcă să-i aducă din nou împreună.",
+   "en": "Rudy the crab collects shells from all over the sea kingdom to build himself a castle. When his friends stop coming to his parties, Della the starfish tries to bring them back together."
+  },
+  "year": 2017,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "adio-nuieluse",
+  "title": "Adio, nuielușe!",
+  "author": "Alex Donovici",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "cadouri",
+   "carti",
+   "familie"
+  ],
+  "characters": [
+   "Moș Nicolae",
+   "Doamna Maria",
+   "Moș Crăciun",
+   "Ursul"
+  ],
+  "summary": {
+   "ro": "Moș Nicolae se tot gândește ce-ar putea lăsa în ghetuțe în loc de nuielușe. Împrumută de la Moș Crăciun o sanie și două mașinării, apoi lucrează toată noaptea, spre mirarea doamnei Maria.",
+   "en": "Moș Nicolae wonders what he could leave in children’s boots instead of switches. He borrows a sleigh and two machines from Santa and works on his surprise all night, much to Maria’s curiosity."
+  },
+  "year": 2017,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "cea-mai-mare-bogatie",
+  "title": "Cea mai mare bogăție",
+  "author": "Alex Donovici",
+  "genre": "basm",
+  "themes": [
+   "familie",
+   "magie",
+   "generozitate",
+   "imaginatie"
+  ],
+  "characters": [
+   "Letiția",
+   "Haros",
+   "Regele",
+   "Regina"
+  ],
+  "summary": {
+   "ro": "Prințesa Letiția umple palatul de culoare cu desenele ei. Într-o dimineață dispare, iar regele și regina primesc un bilet care îi trimite cu o comoară la peștera vrăjitorului Haros.",
+   "en": "Princess Letiția fills the palace with colour through her drawings. One morning she disappears, and a note sends the king and queen to the wizard Haros’s cave with a treasure."
+  },
+  "year": 2016,
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "munca-ta-e-mai-usoara",
+  "title": "Munca ta e mai ușoară",
+  "author": "poveste populară germană",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "gospodarie",
+   "umor"
+  ],
+  "characters": [
+   "Hans",
+   "Hana",
+   "Mili"
+  ],
+  "summary": {
+   "ro": "Hans crede că treburile de acasă sunt mai ușoare decât munca lui la câmp. Pentru o zi, el și Hana fac schimb. Înainte să apuce să se odihnească, Hans trebuie să aibă grijă de fetița lor, de vacă și de o oală de lapte care dă în foc.",
+   "en": "Hans thinks housework is easier than his job in the fields. He and Hana swap for a day. Before he gets a chance to rest, Hans has to look after their little girl, the cow and a pot of milk boiling over."
+  },
+  "origin": "german",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "de-ce-au-iepurasii-coada-scurta",
+  "title": "De ce au iepurașii coada scurtă",
+  "author": "Sanda Socoliuc",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "istetime",
+   "natura"
+  ],
+  "characters": [
+   "Urechilă",
+   "Elefantul"
+  ],
+  "summary": {
+   "ro": "Urechilă se așază pe buturuga copacului de lângă lac și se trezește cu coada lipită de rășină. Când vede un elefant venind la adăpat, se gândește cum să-l facă să-l smulgă de acolo.",
+   "en": "Urechilă sits on a tree stump by the lake and gets his tail stuck in the resin. When he sees an elephant coming for a drink, he hatches a plan to get the elephant to pull him free."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "muzeul-ciudateniilor",
+  "title": "Muzeul Ciudățeniilor",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "magie",
+   "imaginatie",
+   "muzeu",
+   "arta"
+  ],
+  "characters": [
+   "Ema",
+   "Domnul Fantazio",
+   "Mustăți",
+   "Rozi",
+   "Armonio",
+   "Monotonia"
+  ],
+  "summary": {
+   "ro": "În drum spre casă, Ema intră într-un muzeu pe care trecătorii nu-l mai văd. Domnul Fantazio îi cere ajutorul. Un pisoi a rămas agățat cu coada de o bară, un pian nu mai poate merge și în spatele ultimei uși o așteaptă Monotonia.",
+   "en": "On her way home, Ema steps into a museum that passers-by can no longer see. Mr Fantazio asks her for help. A cat is hanging from a bar by its tail, a piano has forgotten how to walk, and Monotony waits behind the last door."
+  },
+  "year": 2024,
+  "origin": "romanian",
   "addedAt": "2026-11-25"
  }
 ]

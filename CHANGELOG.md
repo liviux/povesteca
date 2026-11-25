@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.27.0] - 2026-11-25
+
+### Added
+- **Povești noi:** 28 de povești de la Radio România Târgu Mureș, Culturalia, MiniPovești și Poveștile Cristinei, plus câte o montare nouă pentru „Lupul Pârcălab” și „Spărgătorul de nuci”.
+
+### Fixed
+- Am corectat derularea orizontală din tema Cosmos pe telefoanele înguste.
+
 ## [1.26.0] - 2026-11-25
 
 ### Added

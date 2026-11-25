@@ -87544,5 +87544,1457 @@
    "moods"
   ],
   "addedAt": "2026-11-25"
+ },
+ {
+  "id": "in-tara-zapezilor-radio-targu-mures",
+  "storyId": "in-tara-zapezilor",
+  "title": "În țara zăpezilor",
+  "sourceId": "radio-targu-mures",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://www.radiomures.ro/wp-content/uploads/2026/11/01.In-tara-zapezilor.mp3",
+    "page": "https://www.radiomures.ro/stiri/podcast/in-tara-zapezilor-povesti-de-iarna-1975053.html"
+   }
+  ],
+  "duration": 328,
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 4,
+  "quality": 4,
+  "cover": "https://www.radiomures.ro/wp-content/uploads/2026/11/In-tara-zapezilor.jpg",
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "credits": {
+   "cast": [
+    {
+     "name": "Lavinia Nicoleta Ghișa"
+    },
+    {
+     "name": "Rudolf Moca"
+    },
+    {
+     "name": "Emil Sabău",
+     "role": "Prezentator"
+    }
+   ]
+  }
+ },
+ {
+  "id": "primul-craciun-radio-targu-mures",
+  "storyId": "primul-craciun",
+  "title": "Primul Crăciun",
+  "sourceId": "radio-targu-mures",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://www.radiomures.ro/wp-content/uploads/2026/11/02.Primul-craciun.mp3",
+    "page": "https://www.radiomures.ro/stiri/podcast/primul-craciun-povesti-de-iarna-1975066.html"
+   }
+  ],
+  "duration": 321,
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "cover": "https://www.radiomures.ro/wp-content/uploads/2026/11/Primul-Craciun.jpg",
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "credits": {
+   "cast": [
+    {
+     "name": "Lavinia Nicoleta Ghișa"
+    },
+    {
+     "name": "Rudolf Moca"
+    },
+    {
+     "name": "Emil Sabău",
+     "role": "Prezentator"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-covrigeilor-radio-targu-mures",
+  "storyId": "povestea-covrigeilor",
+  "title": "Povestea covrigeilor",
+  "sourceId": "radio-targu-mures",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://www.radiomures.ro/wp-content/uploads/2026/11/03.Povestea-covrigeilor.mp3",
+    "page": "https://www.radiomures.ro/stiri/podcast/povestea-covrigeilor-povesti-de-iarna-1975062.html"
+   }
+  ],
+  "duration": 370,
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 3,
+  "cover": "https://www.radiomures.ro/wp-content/uploads/2026/11/Povestea-covrigeilor.jpg",
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "credits": {
+   "cast": [
+    {
+     "name": "Lavinia Nicoleta Ghișa"
+    },
+    {
+     "name": "Rudolf Moca"
+    },
+    {
+     "name": "Emil Sabău",
+     "role": "Prezentator"
+    }
+   ]
+  }
+ },
+ {
+  "id": "pe-urmele-lui-mos-craciun-radio-targu-mures",
+  "storyId": "pe-urmele-lui-mos-craciun",
+  "title": "Pe urmele lui Moș Crăciun",
+  "sourceId": "radio-targu-mures",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://www.radiomures.ro/wp-content/uploads/2026/11/04.Pe-urmele-lui-Mos-Craciun.mp3",
+    "page": "https://www.radiomures.ro/stiri/podcast/pe-urmele-lui-mos-craciun-povesti-de-iarna-1975057.html"
+   }
+  ],
+  "duration": 264,
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "cover": "https://www.radiomures.ro/wp-content/uploads/2026/11/Pe-urmele-lui-Mos-Craciun.jpg",
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "credits": {
+   "cast": [
+    {
+     "name": "Lavinia Nicoleta Ghișa"
+    },
+    {
+     "name": "Rudolf Moca"
+    },
+    {
+     "name": "Emil Sabău",
+     "role": "Prezentator"
+    }
+   ]
+  }
+ },
+ {
+  "id": "povestea-omului-de-zapada-radio-targu-mures",
+  "storyId": "povestea-omului-de-zapada",
+  "title": "Povestea omului de zăpadă",
+  "sourceId": "radio-targu-mures",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://www.radiomures.ro/wp-content/uploads/2026/11/06.Povestea-omului-de-zapada.mp3",
+    "page": "https://www.radiomures.ro/stiri/podcast/povestea-omului-de-zapada-povesti-de-iarna-1975064.html"
+   }
+  ],
+  "duration": 344,
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "cover": "https://www.radiomures.ro/wp-content/uploads/2026/11/Povestea-omului-de-zapada.jpg",
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "credits": {
+   "cast": [
+    {
+     "name": "Lavinia Nicoleta Ghișa"
+    },
+    {
+     "name": "Rudolf Moca"
+    },
+    {
+     "name": "Emil Sabău",
+     "role": "Prezentator"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cioara-si-privighetoarea-culturalia-2003",
+  "storyId": "cioara-si-privighetoarea",
+  "title": "Cioara și privighetoarea",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134327_02.mp3",
+    "page": "https://culturalia.ro/entities/5b00502a-d72d-4ecc-a54c-875ec0e56a15/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 277,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Mihai Platon"
+    },
+    {
+     "name": "Andreea Sfia"
+    },
+    {
+     "name": "Alexandra Vasiliu"
+    },
+    {
+     "name": "Claudiu Floricu"
+    },
+    {
+     "name": "Andrei Matei"
+    }
+   ],
+   "adaptation": "Dan Vasiliu",
+   "director": "Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "camionul-zburator-minipovesti",
+  "storyId": "camionul-zburator",
+  "title": "Camionul zburător, în lectura lui Alex Ferariu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2025/05/Camionul-zburator-Youtube.mp3",
+    "page": "https://minipovesti.ro/stories/camionul-zburator",
+    "via": "MiniPovești"
+   }
+  ],
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 288,
+  "year": 2025,
+  "cover": "https://minipovesti.ro/wp-content/uploads/2025/05/c1-360x240.png",
+  "credits": {
+   "narrator": [
+    "Alex Ferariu"
+   ]
+  },
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 3,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "crenguta-leagana-ma-culturalia-2003",
+  "storyId": "crenguta-leagana-ma",
+  "title": "Crenguță, leagănă-mă!",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134372_02.mp3",
+    "page": "https://culturalia.ro/entities/1b130a18-4ec4-4a7d-8ae6-9b2e1996734a/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 305,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Andreea Sfia"
+    },
+    {
+     "name": "Claudiu Floricu"
+    },
+    {
+     "name": "Mihai Platon"
+    },
+    {
+     "name": "Andrei Matei"
+    }
+   ],
+   "adaptation": "Dan Vasiliu",
+   "director": "Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "sturzul-si-cioara-culturalia-2003",
+  "storyId": "sturzul-si-cioara",
+  "title": "Sturzul și cioara",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134300_02.mp3",
+    "page": "https://culturalia.ro/entities/18faa63c-98ec-47d1-a768-1f49c05938fd/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 355,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Andreea Sfia"
+    },
+    {
+     "name": "Alexandra Vasiliu"
+    },
+    {
+     "name": "Mihai Platon"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "legenda-crivatului-culturalia-2003",
+  "storyId": "legenda-crivatului",
+  "title": "Legenda crivățului",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134447_02.mp3",
+    "page": "https://culturalia.ro/entities/325e5d39-fe44-4478-92c9-e91204ed289d/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 382,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "name": "Bogdan Caragea"
+    },
+    {
+     "name": "Petre Lupu"
+    },
+    {
+     "name": "George Ivașcu"
+    }
+   ],
+   "director": "Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "lupul-parcalab-culturalia-2003",
+  "storyId": "lupul-parcalab",
+  "title": "Lupul pîrcălab",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134242_02.mp3",
+    "page": "https://culturalia.ro/entities/c7cb29f9-3640-449b-ab6c-1de71e09f121/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 401,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "cover": false,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Leonard Popovici"
+    },
+    {
+     "name": "Ioana Chelaru"
+    }
+   ],
+   "director": "Jeanina Dicu",
+   "adaptation": "Georgeta Răboj",
+   "music": "Mihnea Chelaru"
+  }
+ },
+ {
+  "id": "paznicul-viselor-minipovesti",
+  "storyId": "paznicul-viselor",
+  "title": "Paznicul viselor, în lectura lui Alex Ferariu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2025/05/Paznicul-viselor-Youtube.mp3",
+    "page": "https://minipovesti.ro/stories/paznicul-viselor",
+    "via": "MiniPovești"
+   }
+  ],
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 253,
+  "year": 2025,
+  "cover": "https://minipovesti.ro/wp-content/uploads/2025/05/pv1-240x360.png",
+  "credits": {
+   "narrator": [
+    "Alex Ferariu"
+   ]
+  },
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica",
+   "somn"
+  ],
+  "age": 3,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "pietricel-si-pata-de-cerneala-minipovesti",
+  "storyId": "pietricel-si-pata-de-cerneala",
+  "title": "Pietricel și pata de cerneală, în lectura lui Alex Ferariu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2025/05/Pietricel-Youtube.mp3",
+    "page": "https://minipovesti.ro/stories/pietricel-si-pata-de-cerneala",
+    "via": "MiniPovești"
+   }
+  ],
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 234,
+  "year": 2025,
+  "cover": "https://minipovesti.ro/wp-content/uploads/2025/05/pi1-360x360.png",
+  "credits": {
+   "narrator": [
+    "Alex Ferariu"
+   ],
+   "soundDesign": "Alex Hosu"
+  },
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 3,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "licuriciul-minipovesti",
+  "storyId": "licuriciul",
+  "title": "Licuriciul, în lectura Irinei Margareta Nistor",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/01/minipovesti-licuriciul.mp3",
+    "page": "https://minipovesti.ro/stories/licuriciul",
+    "via": "MiniPovești"
+   }
+  ],
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 582,
+  "year": 2024,
+  "cover": "https://minipovesti.ro/wp-content/uploads/2024/01/minipovesti-licuriciul-000-360x360.png",
+  "credits": {
+   "narrator": [
+    "Irina Margareta Nistor"
+   ]
+  },
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-turturelei-culturalia-2003",
+  "storyId": "povestea-turturelei",
+  "title": "Povestea turturelei",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134172_02.mp3",
+    "page": "https://culturalia.ro/entities/a3743212-a9b7-4c7c-a514-6a7597f68730/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 361,
+  "year": 2003,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "George Ivașcu"
+   ],
+   "director": "Jeanina Dicu",
+   "adaptation": "Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "ursuletul-neascultator-culturalia-2003",
+  "storyId": "ursuletul-neascultator",
+  "title": "Ursulețul neascultător",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134143_02.mp3",
+    "page": "https://culturalia.ro/entities/c774e556-0317-4d8d-bdfa-bda5568983af/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 438,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Violeta Mitescu"
+    },
+    {
+     "name": "Ioana Chelaru"
+    },
+    {
+     "name": "Petre Lupu"
+    }
+   ],
+   "director": "Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "seara-minunata-radio-targu-mures",
+  "storyId": "seara-minunata",
+  "title": "Seară minunată",
+  "sourceId": "radio-targu-mures",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://www.radiomures.ro/wp-content/uploads/2026/11/07.Seara-minunata.mp3",
+    "page": "https://www.radiomures.ro/stiri/podcast/seara-minunata-povesti-de-iarna-1975070.html"
+   }
+  ],
+  "duration": 396,
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "cover": "https://www.radiomures.ro/wp-content/uploads/2026/11/Seara-minunata.jpg",
+  "credits": {
+   "cast": [
+    {
+     "name": "Lavinia Nicoleta Ghișa"
+    },
+    {
+     "name": "Rudolf Moca"
+    },
+    {
+     "name": "Emil Sabău",
+     "role": "Prezentator"
+    }
+   ]
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "trenuletul-lui-mos-craciun-radio-targu-mures",
+  "storyId": "trenuletul-lui-mos-craciun",
+  "title": "Trenulețul lui Moș Crăciun",
+  "sourceId": "radio-targu-mures",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://www.radiomures.ro/wp-content/uploads/2026/11/05.Trenuletul-lui-Mos-Craciun.mp3",
+    "page": "https://www.radiomures.ro/stiri/podcast/trenuletul-lui-mos-craciun-povesti-de-iarna-1975068.html"
+   }
+  ],
+  "duration": 371,
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 4,
+  "cover": "https://www.radiomures.ro/wp-content/uploads/2026/11/Trenuletul-lui-Mos-Craciun.jpg",
+  "credits": {
+   "cast": [
+    {
+     "name": "Lavinia Nicoleta Ghișa"
+    },
+    {
+     "name": "Rudolf Moca"
+    },
+    {
+     "name": "Emil Sabău",
+     "role": "Prezentator"
+    }
+   ]
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "piticul-arin-si-floarea-curajului-minipovesti",
+  "storyId": "piticul-arin-si-floarea-curajului",
+  "title": "Piticul Arin și floarea curajului, în lectura lui Alex Ferariu",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2025/05/Piticul-Arin-Youtube.mp3",
+    "page": "https://minipovesti.ro/stories/piticul-arin-si-floarea-curajului",
+    "via": "MiniPovești"
+   }
+  ],
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 365,
+  "year": 2025,
+  "cover": "https://minipovesti.ro/wp-content/uploads/2025/05/ar1-240x360.png",
+  "credits": {
+   "narrator": [
+    "Alex Ferariu"
+   ]
+  },
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "acul-de-carpit-culturalia-2003",
+  "storyId": "acul-de-carpit",
+  "title": "Acul pentru cârpit sau Când nu știi cine ești",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_133061_02.mp3",
+    "page": "https://culturalia.ro/entities/c0e6f757-ec71-481e-9a6f-4de12c878038/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 360,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Ioana Chelaru"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    }
+   ],
+   "adaptation": "Simona Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "motanul-tapul-si-oaia-culturalia-2003",
+  "storyId": "motanul-tapul-si-oaia",
+  "title": "Motanul, țapul și oaia",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134348_02.mp3",
+    "page": "https://culturalia.ro/entities/18519b19-5c70-4536-a029-d313a89ec1d8/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 367,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Mihai Platon"
+    },
+    {
+     "name": "Andrei Matei"
+    },
+    {
+     "name": "Claudiu Floricu"
+    },
+    {
+     "name": "Andreea Sfia"
+    }
+   ],
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-pufosului-mititel-intunecat-povestile-cristinei",
+  "storyId": "povestea-pufosului-mititel-intunecat",
+  "title": "Povestea Pufosului Mititel Întunecat",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2019/05/%C3%8Entuneric-bun.wav",
+    "page": "https://povestilecristinei.ro/povestea-pufosului-mititel-intunecat/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2019,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 427,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2019/05/Mititel-Intunescat-gata.png",
+  "credits": {
+   "narrator": [
+    "Serenela Mureșan"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "fara",
+  "moods": [
+   "linistitoare",
+   "magica",
+   "somn"
+  ],
+  "age": 3,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "mos-craciun-cu-barba-albastra-povestile-cristinei",
+  "storyId": "mos-craciun-cu-barba-albastra",
+  "title": "Moș Crăciun cu barba albastră",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2016/12/Mo%C8%99-Cr%C4%83ciun-cu-barb%C4%83-albastr%C4%83.wav",
+    "page": "https://povestilecristinei.ro/mos-craciun-cu-barba-albastra/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2016,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 569,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2016/12/Mos-Craciun-Ileana-Surducan.jpg",
+  "credits": {
+   "narrator": [
+    "Pavel Bartoș"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "fara",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "crabul-fericit-povestile-cristinei",
+  "storyId": "crabul-fericit",
+  "title": "Crabul fericit",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2017/11/CRABUL-FERICIT-OK-310818.wav",
+    "page": "https://povestilecristinei.ro/crabul-fericit/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2018,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "duration": 698,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2017/11/Rudy_Crabul-fericit.jpg",
+  "credits": {
+   "cast": [
+    {
+     "name": "Serenela Mureșan"
+    },
+    {
+     "name": "Raul Hațegan"
+    }
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "discrete",
+  "moods": [
+   "linistitoare",
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "adio-nuieluse-povestile-cristinei",
+  "storyId": "adio-nuieluse",
+  "title": "Adio, nuielușe!",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2017/11/FINAL-NUIELUSE.mp3",
+    "page": "https://povestilecristinei.ro/adio-nuieluse/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2017,
+  "kind": "dramatizare",
+  "voices": "mai-multe",
+  "duration": 802,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2017/11/mos-nicolae-fara-scris.jpg",
+  "credits": {
+   "cast": [
+    {
+     "name": "Bianca Mereuță"
+    },
+    {
+     "name": "Sorin Misirianțu"
+    }
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "discrete",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cea-mai-mare-bogatie-povestile-cristinei",
+  "storyId": "cea-mai-mare-bogatie",
+  "title": "Cea mai mare bogăție",
+  "sourceId": "povestile-cristinei",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/wp-content/uploads/2016/12/POVESTE-TEO-1.mp3",
+    "page": "https://povestilecristinei.ro/ce-mai-mare-bogatie/",
+    "via": "Poveștile Cristinei"
+   }
+  ],
+  "year": 2016,
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 505,
+  "cover": "https://povestilecristinei.ro/wp-content/uploads/2016/11/Letitia.jpg",
+  "credits": {
+   "narrator": [
+    "Teo Trandafir"
+   ]
+  },
+  "music": "ambientala",
+  "sfx": "bogate",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "munca-ta-e-mai-usoara-culturalia-2003",
+  "storyId": "munca-ta-e-mai-usoara",
+  "title": "Munca ta e mai ușoară",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134284_02.mp3",
+    "page": "https://culturalia.ro/entities/8c4acc76-9c9a-4f9c-b994-e53d6d3858e5/view",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 368,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Ioana Chelaru"
+    },
+    {
+     "name": "Petre Lupu"
+    }
+   ],
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "de-ce-au-iepurasii-coada-scurta-culturalia-2003",
+  "storyId": "de-ce-au-iepurasii-coada-scurta",
+  "title": "De ce au iepurașii coada scurtă",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_132741_02.mp3",
+    "page": "https://culturalia.ro/entities/84097373-8136-4482-85c3-11c0b1902a74",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 548,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Cristian Iacob"
+    },
+    {
+     "name": "Bogdan Caragea"
+    },
+    {
+     "name": "Vasile Manta"
+    }
+   ],
+   "adaptation": "Sanda Socoliuc",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "calatorie-in-tara-jucariilor-culturalia-2003",
+  "storyId": "spargatorul-de-nuci",
+  "title": "Călătorie în țara jucăriilor (adaptare după Spărgătorul de nuci)",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134489_02.mp3",
+    "page": "https://culturalia.ro/entities/4d690c71-bc26-482a-8a7b-1cd22d45ebb9",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 496,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "name": "Violeta Mitescu"
+    },
+    {
+     "name": "Viorel Cojanu"
+    }
+   ],
+   "adaptation": "Cristian Mitescu; Simona Vasiliu; Dan Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "muzeul-ciudateniilor-minipovesti",
+  "storyId": "muzeul-ciudateniilor",
+  "title": "Muzeul Ciudățeniilor, în lectura Irinei Margareta Nistor",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/01/minipovesti-muzeul-ciudateniilor.mp3",
+    "page": "https://minipovesti.ro/stories/muzeul-ciudateniilor",
+    "via": "MiniPovești"
+   }
+  ],
+  "kind": "narata",
+  "voices": "narator",
+  "duration": 958,
+  "year": 2024,
+  "cover": "https://minipovesti.ro/wp-content/uploads/2024/01/muzeul-ciudateniilor-0008-600x600.webp",
+  "credits": {
+   "narrator": [
+    "Irina Margareta Nistor"
+   ]
+  },
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "misterioasa",
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 4,
+  "addedAt": "2026-11-25",
+  "estimated": [
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
  }
 ]

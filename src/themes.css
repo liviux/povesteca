@@ -415,6 +415,8 @@
 [data-theme='cosmos'] .card .card-foot { justify-content: center; }
 [data-theme='cosmos'] .card-play { top: calc(100cqw - 50px); right: 0; background: var(--primary); color: var(--primary-ink); box-shadow: 0 0 0 4px var(--bg), 0 0 24px rgb(255 209 102 / 45%); }
 [data-theme='cosmos'] .card-link::after { content: ''; position: absolute; z-index: 1; left: -8%; top: calc(50cqw - 9cqw); width: 116%; height: 18cqw; border: 2px solid rgb(255 209 102 / 50%); border-top-color: transparent; border-radius: 50%; rotate: -14deg; pointer-events: none; }
+/* Keep the ring inside the page gutters when one grid card fills a row. */
+[data-theme='cosmos'] .shelf.grid .card-link::after { left: max(-8%, -10px); width: min(116%, calc(100% + 20px)); }
 [data-theme='cosmos'] .card:not(:nth-child(3n + 1)) .card-link::after { display: none; }
 [data-theme='cosmos'] .shelf.grid, [data-theme='cosmos'] .results .shelf { row-gap: 28px; }
 /* pages: a big planet in the middle */

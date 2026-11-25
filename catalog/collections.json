@@ -1195,7 +1195,19 @@
    "baietelul-si-bastonul-culturalia-1963",
    "a-venit-iarna-culturalia-1974",
    "fetita-ascunsa-dupa-usa-culturalia-1975",
-   "punguta-cu-doi-bani-culturalia-1963"
+   "punguta-cu-doi-bani-culturalia-1963",
+   "cioara-si-privighetoarea-culturalia-2003",
+   "crenguta-leagana-ma-culturalia-2003",
+   "sturzul-si-cioara-culturalia-2003",
+   "legenda-crivatului-culturalia-2003",
+   "lupul-parcalab-culturalia-2003",
+   "povestea-turturelei-culturalia-2003",
+   "ursuletul-neascultator-culturalia-2003",
+   "acul-de-carpit-culturalia-2003",
+   "motanul-tapul-si-oaia-culturalia-2003",
+   "munca-ta-e-mai-usoara-culturalia-2003",
+   "de-ce-au-iepurasii-coada-scurta-culturalia-2003",
+   "calatorie-in-tara-jucariilor-culturalia-2003"
   ],
   "description": {
    "ro": "Selecție de ediții istorice „Noapte bună, copii!” (1959–2003) din Fonoteca Radio România și arhiva deschisă Culturalia.",
@@ -2136,6 +2148,26 @@
   "description": {
    "ro": "Povești de iarnă spuse de actorii secției Păpuși a Teatrului Municipal Baia Mare, în decembrie 2020.",
    "en": "Winter stories told by the actors of the Baia Mare Municipal Theatre’s puppet company in December 2020."
+  }
+ },
+ {
+  "id": "povesti-de-iarna-radio-targu-mures",
+  "title": "Povești de iarnă",
+  "type": "series",
+  "sourceId": "radio-targu-mures",
+  "url": "https://www.radiomures.ro/stiri/categorie-podcast/povesti-pentru-copii",
+  "items": [
+   "in-tara-zapezilor-radio-targu-mures",
+   "primul-craciun-radio-targu-mures",
+   "povestea-covrigeilor-radio-targu-mures",
+   "pe-urmele-lui-mos-craciun-radio-targu-mures",
+   "trenuletul-lui-mos-craciun-radio-targu-mures",
+   "povestea-omului-de-zapada-radio-targu-mures",
+   "seara-minunata-radio-targu-mures"
+  ],
+  "description": {
+   "ro": "Poveștile Mirelei Toma din volumul „O iarnă de poveste”, în ordinea din carte.",
+   "en": "Mirela Toma’s stories from O iarnă de poveste, in the order they appear in the book."
   }
  }
 ]

@@ -2,7 +2,7 @@
 
 **Ascultă pe [povesteca.vercel.app](https://povesteca.vercel.app/)**
 
-**1208 de povești și 1511 de înregistrări**
+**1236 de povești și 1541 de înregistrări**
 
 Povesteca e o bibliotecă de povești audio în limba română, pentru copii și pentru părinții care le aleg. Adună teatru radiofonic și discuri de povești publicate deja pe Internet Archive și YouTube, le așază pe povești și le poți asculta direct în pagină.
 
@@ -12,7 +12,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
-Acum sunt 1208 de povești și 1511 de înregistrări, din 28 de surse gratuite:
+Acum sunt 1236 de povești și 1541 de înregistrări, din 30 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -21,6 +21,8 @@ Acum sunt 1208 de povești și 1511 de înregistrări, din 28 de surse gratuite:
 - [Arhiva Radio România](https://radio-arhive.ro/teme/emisiuni-pentru-copii-i-tineret/101) (audio direct MP3, „Noapte bună, copii!” și Teatrul Național Radiofonic pentru Copii)
 - [Radio Moldova (Teleradio-Moldova)](https://radiomoldova.md/s/ro/73) (audio direct HLS, „Teatru la microfon pentru copii” și „Povestea de seară”)
 - [Arhiva deschisă Culturalia („Pe unde”)](https://mariuscomper.uk/pe-unde/) (audio direct MP3)
+- [Radio România Târgu Mureș](https://www.radiomures.ro/stiri/categorie-podcast/povesti-pentru-copii) (MP3, seria „Povești de iarnă”)
+- [Poveștile Cristinei](https://povestilecristinei.ro/) (povești de Cristina și Alex Donovici în format audio)
 - [A Fost Odată](https://afostodata.ro/) (audio direct MP3, inclusiv „Români de poveste” și „Patrimoniu”)
 - [Oameni mici și mari](https://podcasters.spotify.com/pod/show/oamenimicisimari) (audio direct MP3, actori clujeni)
 - [Teatrul de Păpuși „Puck” Cluj-Napoca](https://teatrulpuck.ro/audiopuck-2/) (audio direct MP3, AudioPuck)

@@ -1241,6 +1241,33 @@
     "Tomi Cristin": {
       "wikidata": "Q18539403",
       "wikipedia": "https://ro.wikipedia.org/wiki/Tomi_Cristin"
+    },
+    "Irina Margareta Nistor": {
+      "wikidata": "Q16730060",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Irina_Margareta_Nistor",
+      "goodreads": "https://www.goodreads.com/author/show/4834235.Irina_Margareta_Nistor",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Irina_Margareta_Nistor.png/330px-Irina_Margareta_Nistor.png",
+        "page": "https://commons.wikimedia.org/wiki/File:Irina_Margareta_Nistor.png",
+        "license": "CC BY 3.0",
+        "by": "startevo, decupaj de Ionutzmovie"
+      }
+    },
+    "Alex Donovici": {
+      "goodreads": "https://www.goodreads.com/author/show/18192375.Alex_Donovici"
+    },
+    "Cristina Donovici": {
+      "goodreads": "https://www.goodreads.com/author/show/18632398.Cristina_Donovici"
+    },
+    "Teo Trandafir": {
+      "wikidata": "Q12742045",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Teo_Trandafir",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Teo_Trandafir.png",
+        "page": "https://commons.wikimedia.org/wiki/File:Teo_Trandafir.png",
+        "license": "CC BY 3.0",
+        "by": "startevo"
+      }
     }
   },
   "stories": {
@@ -2775,6 +2802,10 @@
     "atelierul-de-jucarii-al-lui-mos-craciun": {
       "wikidata": "Q2061716",
       "wikipedia": "https://en.wikipedia.org/wiki/Santa%27s_Workshop_(film)"
+    },
+    "acul-de-carpit": {
+      "wikipedia": "https://en.wikipedia.org/wiki/A_Story_about_a_Darning-needle",
+      "goodreads": "https://www.goodreads.com/book/show/9784893-the-darning-needle"
     }
   }
 }

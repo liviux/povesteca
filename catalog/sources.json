@@ -278,5 +278,25 @@
    "ro": "Canalul oficial al Teatrului Municipal Baia Mare, cu seria de iarnă „Povești la gura sobei” a secției Păpuși.",
    "en": "The official channel of the Baia Mare Municipal Theatre, with the puppet company’s winter series “Povești la gura sobei”."
   }
+ },
+ {
+  "id": "radio-targu-mures",
+  "name": "Radio România Târgu Mureș",
+  "type": "audio",
+  "url": "https://www.radiomures.ro/stiri/categorie-podcast/povesti-pentru-copii",
+  "description": {
+   "ro": "Povești de iarnă de Mirela Toma, interpretate de Lavinia Nicoleta Ghișa și Rudolf Moca în 2018.",
+   "en": "Winter stories by Mirela Toma, performed by Lavinia Nicoleta Ghișa and Rudolf Moca in 2018."
+  }
+ },
+ {
+  "id": "povestile-cristinei",
+  "name": "Poveștile Cristinei",
+  "type": "audio",
+  "url": "https://povestilecristinei.ro/",
+  "description": {
+   "ro": "Povești de Cristina și Alex Donovici, în interpretarea unor actori precum Serenela Mureșan, Pavel Bartoș și Teo Trandafir.",
+   "en": "Stories by Cristina and Alex Donovici, performed by actors including Serenela Mureșan, Pavel Bartoș and Teo Trandafir."
+  }
  }
 ]

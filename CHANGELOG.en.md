@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.27.0] - 2026-11-25
+
+### Added
+- **New stories:** 28 stories from Radio România Târgu Mureș, Culturalia, MiniPovești and Poveștile Cristinei, plus one more production each of “Lupul Pârcălab” and “The Nutcracker”.
+
+### Fixed
+- Fixed sideways scrolling in the Cosmos theme on narrow phones.
+
 ## [1.26.0] - 2026-11-25
 
 ### Added
