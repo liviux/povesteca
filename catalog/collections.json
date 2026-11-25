@@ -1325,7 +1325,6 @@
   "items": [
    "povestea-mamei-itsy",
    "ai-grija-ce-iti-doresti-itsy",
-   "povestea-celor-trei-copacei-itsy",
    "o-familie-fericita-itsy",
    "povestea-leului-itsy",
    "marele-spectacol-itsy",
@@ -2089,7 +2088,8 @@
    "tantarii-notelor-mici-maia-morgenstern-tes",
    "baiatul-care-vorbea-cu-florile-alina-tomi-tes",
    "stelele-imi-spun-povesti-mircea-dragoman-tes",
-   "balaurul-beteag-maia-morgenstern-tes"
+   "balaurul-beteag-maia-morgenstern-tes",
+   "povestea-jucausa-lorena-luchian-carla-lifsin-tes"
   ],
   "description": {
    "ro": "Povești de Petre Crăciun citite de actorii Teatrului Evreiesc de Stat, înregistrate în foaierul teatrului în iernile 2020–2022.",
@@ -2127,7 +2127,11 @@
    "scrisoarea-spiridusilor-baia-mare",
    "craciunul-animalelor-baia-mare",
    "gerulet-si-focul-de-craciun-baia-mare",
-   "bradul-de-craciun-weninger-baia-mare"
+   "bradul-de-craciun-weninger-baia-mare",
+   "poveste-de-craciun-holbrook-baia-mare",
+   "polul-nord-sorescu-baia-mare",
+   "atelierul-de-jucarii-al-lui-mos-craciun-baia-mare",
+   "mickey-mouse-si-corespondenta-de-craciun-baia-mare"
   ],
   "description": {
    "ro": "Povești de iarnă spuse de actorii secției Păpuși a Teatrului Municipal Baia Mare, în decembrie 2020.",

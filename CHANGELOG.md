@@ -2,6 +2,18 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.26.0] - 2026-11-25
+
+### Added
+- **Povești noi:** 6 povești și 8 înregistrări noi de la Teatrul Evreiesc de Stat („Mărțișor” de Sadoveanu, „Papagalul” de Isaac Bashevis Singer, „Ursul păcălit de vulpe” și o a doua lectură a „Poveștii jucăușe”) și Teatrul Municipal Baia Mare („Polul Nord” de Marin Sorescu, „Poveste de Crăciun” după Florence Holbrook, „Atelierul de jucării al lui Moș Crăciun” și „Mickey Mouse și corespondența de Crăciun”).
+- Linkuri Wikipedia, Goodreads și portrete noi pentru autorii Isaac Bashevis Singer, Marin Sorescu și Florence Holbrook.
+
+### Fixed
+- Verificare completă pe YouTube pentru toate cele 741 de linkuri din catalog: au fost scoase 5 linkuri secundare trunchiate, nepotrivite ca durată sau ascunse, acolo unde existau alte surse complete, și au fost completate credite și ani verificați pentru 4 înregistrări și 2 povești.
+
+### Removed
+- **Povești scoase:** „Povestea celor trei copăcei” (Itsy Bitsy) a fost eliminată, fiind o adaptare cu temă religioasă creștină.
+
 ## [1.25.5] - 2026-11-25
 
 ### Changed

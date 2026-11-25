@@ -15697,31 +15697,6 @@
   "year": 2002
  },
  {
-  "id": "povestea-celor-trei-copacei",
-  "title": "Povestea celor trei copăcei",
-  "author": "Leon Magdan",
-  "origin": "romanian",
-  "genre": "poveste",
-  "themes": [
-   "padure",
-   "natura",
-   "vis",
-   "speranta"
-  ],
-  "summary": {
-   "ro": "Trei copăcei de pe munte visează să ajungă un cufăr de comori, o corabie de regi și un copac care să-i facă pe oameni să privească spre cer. Tăiați pe rând, devin o iesle, o barcă de pescari și lemnul crucii, împlinindu-și visurile într-un mod neașteptat.",
-   "en": "Three little trees on a mountain dream of becoming a treasure chest, a royal ship and a tree pointing people toward heaven. Cut down in turn, they become a manger, a fishing boat and the cross, fulfilling their dreams in an unexpected way."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "year": 2014,
-  "characters": [
-   "Primul copăcel",
-   "Al doilea copăcel",
-   "Al treilea copăcel"
-  ]
- },
- {
   "id": "misiunile-itsy-bitsy-lipicantatoarea-quick-quick",
   "title": "Misiunile Itsy Bitsy: Lipicantatoarea Quick-Quick",
   "author": "Mihai Dumitrescu",
@@ -16970,7 +16945,8 @@
    "Împăratul",
    "Împărăteasa",
    "Fata de împărat"
-  ]
+  ],
+  "year": 1888
  },
  {
   "id": "noile-aventuri-ale-maestrului-conan-doi",
@@ -17487,7 +17463,8 @@
    "Boierul",
    "Ciobanul",
    "Căpetenia tâlharilor"
-  ]
+  ],
+  "year": 1878
  },
  {
   "id": "tovaras-de-drum",
@@ -28974,5 +28951,158 @@
   "genre": "basm",
   "addedAt": "2026-11-25",
   "year": 2014
+ },
+ {
+  "id": "martisor-sadoveanu",
+  "title": "Mărțișor",
+  "author": "Mihail Sadoveanu",
+  "origin": "romanian",
+  "genre": "legenda",
+  "themes": [
+   "traditii",
+   "natura",
+   "iarna"
+  ],
+  "characters": [
+   "Baba Dochia",
+   "Copila"
+  ],
+  "summary": {
+   "ro": "Sus pe stâncile Ceahlăului, bătrâna și vrăjitoarea Dochia crește o copilă orfană adusă din vale. Când primăvara o cheamă pe fată înapoi în lume, Dochia urcă muntele cu oile în martie, își leapădă cojoacele și rămâne împietrită în stâncă.",
+   "en": "High on the cliffs of Mount Ceahlău, the solitary old witch Dochia raises an orphan girl rescued from the valley. When spring calls the girl back to the world below, Dochia climbs the mountain with her sheep in March, sheds her sheepskin coats and turns to stone."
+  },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "papagalul-singer",
+  "title": "Papagalul",
+  "altTitles": [
+   "The Parakeet Named Dreidel"
+  ],
+  "author": "Isaac Bashevis Singer",
+  "year": 1980,
+  "origin": "american",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "familie",
+   "iarna",
+   "traditii"
+  ],
+  "characters": [
+   "David",
+   "Dreidel",
+   "Zelda"
+  ],
+  "summary": {
+   "ro": "Într-o seară geroasă de Hanuca, la Brooklyn, băiatul David și părinții lui primesc în casă un papagal rătăcit la fereastră care vorbește în idiș și devine prietenul familiei. Peste ani, la facultate, David o întâlnește chiar pe Zelda, fosta stăpână a păsării.",
+   "en": "On a frosty Hanukkah evening in Brooklyn, young David and his parents take in a stray Yiddish-speaking parakeet from their windowsill, naming him Dreidel. Years later at college, David meets Zelda, the bird’s original owner."
+  },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "poveste-de-craciun-holbrook",
+  "title": "Poveste de Crăciun",
+  "altTitles": [
+   "Why the Evergreen Trees Never Lose Their Leaves"
+  ],
+  "author": "Florence Holbrook",
+  "year": 1902,
+  "origin": "american",
+  "genre": "legenda",
+  "themes": [
+   "natura",
+   "bunatate",
+   "iarna",
+   "craciun",
+   "padure"
+  ],
+  "characters": [
+   "Pasărea",
+   "Molidul",
+   "Pinul",
+   "Ienupărul",
+   "Regele Gerului"
+  ],
+  "summary": {
+   "ro": "O păsărică cu aripa rănită cere adăpost peste iarnă copacilor din pădure; stejarul, mesteacănul și salcia o refuză, dar molidul, pinul și ienupărul o ocrotesc. Drept răsplată, Regele Gerului le lasă frunzele verzi tot anul.",
+   "en": "A little bird with a broken wing asks the forest trees for winter shelter; the oak, birch and willow refuse, while the spruce, pine and juniper take her in. In reward, the Frost King lets them keep their green needles all year round."
+  },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "polul-nord-sorescu",
+  "title": "Polul Nord",
+  "altTitles": [
+   "La Polul Nord"
+  ],
+  "author": "Marin Sorescu",
+  "year": 1966,
+  "origin": "romanian",
+  "genre": "poveste",
+  "themes": [
+   "calatorie",
+   "iarna",
+   "umor",
+   "copilarie"
+  ],
+  "characters": [
+   "Copiii",
+   "Urșii polari"
+  ],
+  "summary": {
+   "ro": "Capitol din volumul «Unde fugim de-acasă?», în care doi copii pornesc într-o călătorie plină de umor și fantezie spre Polul Nord și tărâmurile înghețate.",
+   "en": "A chapter from the children’s classic “Where Shall We Run Away From Home?”, taking two children on a playful, imaginative journey to the North Pole."
+  },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "atelierul-de-jucarii-al-lui-mos-craciun",
+  "title": "Atelierul de jucării al lui Moș Crăciun",
+  "altTitles": [
+   "Santa's Workshop"
+  ],
+  "author": "Walt Disney",
+  "year": 1932,
+  "origin": "american",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "jucarii",
+   "iarna",
+   "harnicie",
+   "magie"
+  ],
+  "characters": [
+   "Moș Crăciun",
+   "Spiridușii"
+  ],
+  "summary": {
+   "ro": "La Polul Nord, spiridușii harnici meșteresc, vopsesc și verifică toate jucăriile în atelierul lui Moș Crăciun, înainte ca sania cu reni să pornească la drum în noaptea de Ajun.",
+   "en": "At the North Pole, busy elves build, paint and test all the toys in Santa’s workshop before the reindeer sleigh sets off on Christmas Eve."
+  },
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mickey-mouse-si-corespondenta-de-craciun",
+  "title": "Mickey Mouse și corespondența de Crăciun",
+  "author": "Walt Disney",
+  "origin": "american",
+  "genre": "poveste",
+  "themes": [
+   "craciun",
+   "prietenie",
+   "bunatate",
+   "iarna"
+  ],
+  "characters": [
+   "Mickey Mouse",
+   "Moș Crăciun"
+  ],
+  "summary": {
+   "ro": "În pragul Crăciunului, Mickey Mouse și prietenii săi dau o mână de ajutor la sortarea și livrarea miilor de scrisori trimise de copii către Moș Crăciun, ca nicio dorință să nu se piardă.",
+   "en": "Right before Christmas, Mickey Mouse and his friends pitch in to sort and deliver the thousands of children’s letters to Santa Claus so that no wish goes astray."
+  },
+  "addedAt": "2026-11-25"
  }
 ]

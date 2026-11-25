@@ -1204,6 +1204,43 @@
     },
     "Petre Crăciun": {
       "goodreads": "https://www.goodreads.com/author/show/7023362"
+    },
+    "Isaac Bashevis Singer": {
+      "wikidata": "Q75612",
+      "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Bashevis_Singer",
+      "goodreads": "https://www.goodreads.com/author/show/14444",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Dan_Hadani_collection_%28990044399930205171%29_%28cropped%29.jpg/330px-Dan_Hadani_collection_%28990044399930205171%29_%28cropped%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Dan_Hadani_collection_(990044399930205171)_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "by": "Israel Press and Photo Agency (I.P.P.A.) photographer"
+      }
+    },
+    "Marin Sorescu": {
+      "wikidata": "Q2420296",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Marin_Sorescu",
+      "goodreads": "https://www.goodreads.com/author/show/294629",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Marin_Sorescu.jpg/330px-Marin_Sorescu.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Marin_Sorescu.jpg",
+        "license": "Public domain",
+        "by": null
+      }
+    },
+    "Florence Holbrook": {
+      "wikidata": "Q52155669",
+      "wikipedia": "https://en.wikipedia.org/wiki/Florence_Holbrook",
+      "goodreads": "https://www.goodreads.com/author/show/1238040",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Florence_Holbrook%2C_Chicago_delegate_to_National_Woman%27s_Party_Convention.jpg/330px-Florence_Holbrook%2C_Chicago_delegate_to_National_Woman%27s_Party_Convention.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Florence_Holbrook,_Chicago_delegate_to_National_Woman's_Party_Convention.jpg",
+        "license": "Public domain",
+        "by": null
+      }
+    },
+    "Tomi Cristin": {
+      "wikidata": "Q18539403",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Tomi_Cristin"
     }
   },
   "stories": {
@@ -2728,6 +2765,16 @@
     "pasarea-de-aur-grimm": {
       "wikidata": "Q470012",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Golden_Bird"
+    },
+    "poveste-de-craciun-holbrook": {
+      "goodreads": "https://www.goodreads.com/book/show/11398137"
+    },
+    "polul-nord-sorescu": {
+      "goodreads": "https://www.goodreads.com/book/show/17447991"
+    },
+    "atelierul-de-jucarii-al-lui-mos-craciun": {
+      "wikidata": "Q2061716",
+      "wikipedia": "https://en.wikipedia.org/wiki/Santa%27s_Workshop_(film)"
     }
   }
 }

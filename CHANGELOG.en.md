@@ -2,6 +2,18 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.26.0] - 2026-11-25
+
+### Added
+- **New stories:** 6 stories and 8 recordings from the State Jewish Theatre (“Mărțișor” by Sadoveanu, “Papagalul” by Isaac Bashevis Singer, “Ursul păcălit de vulpe” and a second reading of “Povestea jucăușă”) and Baia Mare Municipal Theatre (“Polul Nord” by Marin Sorescu, Florence Holbrook’s “Poveste de Crăciun”, “Atelierul de jucării al lui Moș Crăciun” and “Mickey Mouse și corespondența de Crăciun”).
+- Added Wikipedia links, Goodreads pages and portraits for Isaac Bashevis Singer, Marin Sorescu and Florence Holbrook.
+
+### Fixed
+- Checked all 741 YouTube links in the catalogue via the YouTube API: removed 5 truncated, mismatched or unlisted secondary mirrors where full sources remain, and filled in verified years and credits for 4 recordings and 2 stories.
+
+### Removed
+- **Removed stories:** “Povestea celor trei copăcei” (Itsy Bitsy) was removed as a Christian religious retelling.
+
 ## [1.25.5] - 2026-11-25
 
 ### Changed

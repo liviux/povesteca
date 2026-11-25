@@ -1826,11 +1826,6 @@
    },
    {
     "type": "youtube",
-    "id": "fZ9u9U34ELM",
-    "via": "Teatru Radiofonic"
-   },
-   {
-    "type": "youtube",
     "id": "BvbLxfL53Sk",
     "via": "Teatru pe Vinil"
    },
@@ -5666,11 +5661,6 @@
    {
     "type": "youtube",
     "id": "mT2BWbzvSwY"
-   },
-   {
-    "type": "youtube",
-    "id": "2Djg2Y-gWYc",
-    "via": "Ady Magdici"
    },
    {
     "type": "youtube",
@@ -47867,41 +47857,6 @@
   "year": 2014
  },
  {
-  "id": "povestea-celor-trei-copacei-itsy",
-  "storyId": "povestea-celor-trei-copacei",
-  "title": "Povestea celor trei copăcei",
-  "sourceId": "yt-itsy-bitsy",
-  "links": [
-   {
-    "type": "youtube",
-    "id": "ZkTuMjbAQxo",
-    "via": "Itsy Bitsy / Leon Magdan"
-   }
-  ],
-  "duration": 711,
-  "kind": "narata",
-  "voices": "narator",
-  "sfx": "discrete",
-  "music": "ambientala",
-  "moods": [
-   "somn",
-   "linistitoare"
-  ],
-  "age": 5,
-  "quality": 4,
-  "addedAt": "2026-11-22",
-  "estimated": [
-   "kind",
-   "voices",
-   "sfx",
-   "music",
-   "moods",
-   "age",
-   "quality"
-  ],
-  "year": 2014
- },
- {
   "id": "misiunile-itsy-bitsy-lipicantatoarea-quick-quick-itsy",
   "storyId": "misiunile-itsy-bitsy-lipicantatoarea-quick-quick",
   "title": "Misiunile Itsy Bitsy: Lipicantatoarea Quick-Quick",
@@ -52888,9 +52843,12 @@
   "quality": 4,
   "credits": {
    "director": "Constantin Moruzan",
+   "narrator": [
+    "Constantin Moruzan"
+   ],
    "cast": [
     {
-     "role": "Narrator",
+     "role": "Povestitor",
      "name": "Constantin Moruzan"
     },
     {
@@ -53083,7 +53041,8 @@
      "name": "Andrei Codarcea"
     }
    ]
-  }
+  },
+  "year": 1965
  },
  {
   "id": "poienile-lui-simion-vinil",
@@ -55424,11 +55383,6 @@
     "url": "https://static.srr.ro/audio/articles/5171/art-audio-2220501-teatru_radiofonic.baronul_munch.8_ianuarie_1956.mp3",
     "page": "https://radio-arhive.ro/articol/gottfried-august-burger-aventurile-baronului-munchhausen-1956/2220501/5171/2",
     "via": "Arhiva Radio România"
-   },
-   {
-    "type": "youtube",
-    "id": "S-98JT7dpS0",
-    "via": "Ady Magdici"
    }
   ],
   "duration": 4782,
@@ -64461,11 +64415,6 @@
     "type": "youtube",
     "id": "UoG0tySu1ws",
     "via": "Teatru Radiofonic"
-   },
-   {
-    "type": "youtube",
-    "id": "BGoEA0Lu0Ms",
-    "via": "Ady Magdici"
    }
   ],
   "duration": 3318,
@@ -69715,6 +69664,7 @@
    "quality"
   ],
   "credits": {
+   "director": "Paul Stratilat",
    "cast": [
     {
      "role": "Distribuție",
@@ -74810,11 +74760,6 @@
     "end": 1486
    },
    {
-    "type": "youtube",
-    "id": "UyJp3ZXpORM",
-    "via": "Ady Magdici"
-   },
-   {
     "type": "archive",
     "id": "274183892",
     "file": "274183892.mp4",
@@ -75010,6 +74955,7 @@
   "age": 5,
   "quality": 4,
   "credits": {
+   "director": "Vasile Manta",
    "cast": [
     {
      "role": "Distribuție",
@@ -75033,7 +74979,8 @@
    "quality"
   ],
   "addedAt": "2026-11-23",
-  "cover": "https://i.ytimg.com/vi/EwjGbeg85MY/hqdefault.jpg"
+  "cover": "https://i.ytimg.com/vi/EwjGbeg85MY/hqdefault.jpg",
+  "year": 2007
  },
  {
   "id": "gemenii-ikrek-minireactor",
@@ -87325,5 +87272,277 @@
     "Irina Oțoiu"
    ]
   }
+ },
+ {
+  "id": "povestea-jucausa-lorena-luchian-carla-lifsin-tes",
+  "storyId": "povestea-jucausa",
+  "title": "Povestea jucăușă (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ZWEUBZoLPS0",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "duration": 468,
+  "year": 2022,
+  "kind": "narata",
+  "voices": "mai-multe",
+  "moods": [],
+  "age": 5,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Lorena Luchian",
+    "Carla Lifșin"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "ursul-pacalit-de-vulpe-alina-tomi-tomi-cristin-tes",
+  "storyId": "ursul-pacalit-de-vulpe",
+  "title": "Ursul păcălit de vulpe (Teatrul Evreiesc de Stat)",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "MQCHzGejINE",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "duration": 496,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "mai-multe",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Alina Tomi",
+    "Tomi Cristin",
+    "Anastasia Tomi",
+    "Andrei Tomi",
+    "Ana-Maria Tomi"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality",
+   "moods"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "martisor-sadoveanu-maia-morgenstern-tes",
+  "storyId": "martisor-sadoveanu",
+  "title": "Mărțișor (Teatrul Evreiesc de Stat)",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "C0x-kqGZg20",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "duration": 1868,
+  "year": 2021,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "misterioasa",
+   "linistitoare"
+  ],
+  "age": 8,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality",
+   "moods"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "papagalul-singer-cristina-circei-tes",
+  "storyId": "papagalul-singer",
+  "title": "Papagalul (Teatrul Evreiesc de Stat)",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "otlEBZkETwc",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "duration": 312,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "linistitoare",
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Cristina Cîrcei"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality",
+   "moods"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "poveste-de-craciun-holbrook-baia-mare",
+  "storyId": "poveste-de-craciun-holbrook",
+  "title": "Poveste de Crăciun după Florence Holbrook (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "C5Dg4YXmdkE",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "duration": 306,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "linistitoare",
+   "magica"
+  ],
+  "age": 4,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Vlad Crișan"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality",
+   "moods"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "polul-nord-sorescu-baia-mare",
+  "storyId": "polul-nord-sorescu",
+  "title": "Polul Nord (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "vqaTXpVvtKo",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "duration": 251,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Iulian Bulancea"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality",
+   "moods"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "atelierul-de-jucarii-al-lui-mos-craciun-baia-mare",
+  "storyId": "atelierul-de-jucarii-al-lui-mos-craciun",
+  "title": "Atelierul de jucării al lui Moș Crăciun (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "EJJMVxF_6dI",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "duration": 376,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "magica",
+   "amuzanta"
+  ],
+  "age": 3,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Felix Arțuche"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality",
+   "moods"
+  ],
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "mickey-mouse-si-corespondenta-de-craciun-baia-mare",
+  "storyId": "mickey-mouse-si-corespondenta-de-craciun",
+  "title": "Mickey Mouse și corespondența de Crăciun (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Z0jcheYaCvo",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "duration": 428,
+  "year": 2020,
+  "kind": "narata",
+  "voices": "narator",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 3,
+  "quality": 2,
+  "credits": {
+   "narrator": [
+    "Felix Arțuche"
+   ]
+  },
+  "estimated": [
+   "age",
+   "quality",
+   "moods"
+  ],
+  "addedAt": "2026-11-25"
  }
 ]
