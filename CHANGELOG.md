@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.25.5] - 2026-11-25
+
+### Changed
+- Am verificat toate cele trei surse noi din 1.25.0 (Teatrul Evreiesc de Stat, Teatrul Arlechino Brașov și Teatrul Municipal Baia Mare) și am adăugat legătura Goodreads pentru autorul Petre Crăciun.
+
 ## [1.25.4] - 2026-11-25
 
 ### Changed

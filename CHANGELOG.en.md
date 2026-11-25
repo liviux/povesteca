@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.25.5] - 2026-11-25
+
+### Changed
+- Checked all three new 1.25.0 sources (State Jewish Theatre, Arlechino Brașov and Baia Mare Municipal Theatre) for more stories and added author Petre Crăciun’s Goodreads link.
+
 ## [1.25.4] - 2026-11-25
 
 ### Changed
