@@ -3,7 +3,7 @@ import { DICT } from './i18n.js';
 
 // --- tiny global store: everything personal lives in localStorage, nothing leaves the browser
 const KEY = 'povesteca:v1';
-const DEFAULTS = { lang: 'ro', theme: 'clasic', favStories: [], favVersions: [], favPeople: [], favSources: [], favCols: [], history: [], pos: {}, votes: {}, lastVoteAt: 0, rate: 1, maxAge: 0 };
+const DEFAULTS = { lang: 'ro', theme: 'clasic', favStories: [], favVersions: [], favPeople: [], favSources: [], favCols: [], history: [], pos: {}, votes: {}, lastVoteAt: 0, rate: 1, maxAge: 10 };
 let saved = {};
 try { saved = JSON.parse(localStorage.getItem(KEY)) || {}; } catch {}
 
@@ -16,6 +16,8 @@ export const state = {
   filtersReady: false, // the sorted filter lists have arrived (loadBrowse in data.js)
   player: { id: null, status: 'idle', time: 0, duration: 0, sleepAt: 0, sleepEnd: false, night: false, link: 0 },
 };
+// the oldest age shown, 3 to 10; 10 shows everything (every story is for 10 or younger). 0 was "every age" before 1.32.5
+if (!(state.maxAge >= 3 && state.maxAge <= 10)) state.maxAge = 10;
 const subs = new Set();
 const PERSIST = Object.keys(DEFAULTS);
 let saveTimer;

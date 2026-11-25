@@ -444,7 +444,7 @@ export function Dock() {
       {v && (
         <div class="dock-bar" role="region" aria-label={t.nowPlaying}>
           <a class="dock-info" href={`/inregistrare/${v.id}`}>
-            <Cover src={cover(v, 56)} title={storyById.get(v.storyId).title} size={56} />
+            <Cover src={cover(v, 56)} title={storyById.get(v.storyId).title} seed={v.id} size={56} />
             <span class="dock-text">
               <strong>{storyById.get(v.storyId).title}</strong>
               <small>{p.status === 'loading' ? t.loading : p.status === 'error' ? t.playErr : mirrorName ? `${v.title} · ${mirrorName}` : v.title}</small>
@@ -514,7 +514,7 @@ export function Night() {
         </header>
         {v ? (
           <section class="night-now">
-            <Cover src={cover(v, 180)} title={storyById.get(v.storyId).title} />
+            <Cover src={cover(v, 180)} title={storyById.get(v.storyId).title} seed={v.id} />
             <h3>{storyById.get(v.storyId).title}</h3>
             <p class="muted">{v.title}</p>
             {v.links.length > 1 && (
@@ -548,7 +548,7 @@ export function Night() {
             <ul>
               {picks.map((x) => (
                 <li><button type="button" onClick={() => play(x.id)}>
-                  <Cover src={cover(x, 56)} title={storyById.get(x.storyId).title} size={56} />
+                  <Cover src={cover(x, 56)} title={storyById.get(x.storyId).title} seed={x.id} size={56} />
                   <span>{storyById.get(x.storyId).title}<small>{Math.round(x.duration / 60)} min</small></span>
                 </button></li>
               ))}

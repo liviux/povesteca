@@ -2,6 +2,19 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.32.5] - 2026-11-25
+
+### Changed
+- Settings: the “All” button is gone; 10 is chosen by default and shows every story. The ages 3 … 10 sit on one line, on phones too.
+- “Surprise me!” sits at the end of the menu, next to Settings, with a soft background so it stands apart.
+- Recordings without a cover each get their own drawing, even when they belong to the same story.
+- Teatrul Gong: the 67 “Povești șoptite” recordings that repeated the same picture now each get their own drawing.
+
+### Fixed
+- A recording's source buttons keep their icon on the first line when the name takes two lines.
+- On a record's page, the icon before the source stays on the first line.
+- On phones, theme names in Settings take two lines at most.
+
 ## [1.32.4] - 2026-11-25
 
 ### Fixed

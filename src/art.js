@@ -6,15 +6,17 @@
 const visit = (Math.random() * 2 ** 32) >>> 0;
 const drawn = new Map();
 
-export function art(title) {
-  if (!drawn.has(title)) drawn.set(title, draw(title));
-  return drawn.get(title);
+// seed: the recording's id, so two recordings of one story get different pictures (the title is still what's written)
+export function art(title, seed = title) {
+  const key = seed + '\n' + title;
+  if (!drawn.has(key)) drawn.set(key, draw(title, seed));
+  return drawn.get(key);
 }
 
-function draw(title) {
-  // mulberry32, seeded with this visit and the title
+function draw(title, seed) {
+  // mulberry32, seeded with this visit and the recording
   let h = visit;
-  for (let i = 0; i < title.length; i++) h = Math.imul(h ^ title.charCodeAt(i), 2654435761);
+  for (let i = 0; i < seed.length; i++) h = Math.imul(h ^ seed.charCodeAt(i), 2654435761);
   const rnd = () => {
     h = (h + 0x6d2b79f5) | 0;
     let t = Math.imul(h ^ (h >>> 15), 1 | h);

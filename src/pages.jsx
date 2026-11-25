@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  allVersions, allVersionsByStory, allVersionsBySource, fits, storyFits, hiddenCount,
+  allVersions, allVersionsByStory, allVersionsBySource, fits, storyFits, hiddenCount, limited,
   storiesByAuthor, authorsOf, collectionOf, peopleByVersion, catalogFilters, loadBrowse, norm, compareRo, cover, storyCover, portrait, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
@@ -165,7 +165,7 @@ function filterLists() {
   }
   const toMap = (o) => new Map(Object.entries(o || {}));
   listsKey = key;
-  if (!state.maxAge) return (lists = {
+  if (!limited()) return (lists = {
     ...catalogFilters,
     storiesWithChar: toMap(catalogFilters.storiesWithChar),
     storiesFrom: toMap(catalogFilters.storiesFrom),
@@ -325,7 +325,7 @@ export function Explore({ query }) {
   );
   // what the same search would find without the age in Settings, so "0 results" can say why
   const hiddenN = useMemo(
-    () => (waiting || !s.maxAge ? 0 : applyFilters(rel ? allVersions.filter((v) => rel.has(v.id)) : allVersions, f).length - list.length),
+    () => (waiting || !limited() ? 0 : applyFilters(rel ? allVersions.filter((v) => rel.has(v.id)) : allVersions, f).length - list.length),
     [list],
   );
   // a story is in the results when one of its recordings is, in the order of its first recording
@@ -438,7 +438,7 @@ export function StoryPage({ id }) {
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
-        <Cover src={storyCover(story, 240)} title={story.title} />
+        <Cover src={best ? cover(best, 240) : storyCover(story, 240)} title={story.title} seed={best?.id} />
         <div class="detail-text">
           <p class="eyebrow"><a href={find('genre', story.genre)}>{label('genre', story.genre, lang)}</a></p>
           <h1>{story.title}</h1>
@@ -487,7 +487,7 @@ function VersionRow({ v, best, dupOf }) {
   const src = sourceById.get(v.sourceId);
   return (
     <article class={'vrow' + (best ? ' best' : '')}>
-      <Cover src={cover(v, 96)} title={storyById.get(v.storyId).title} size={96} />
+      <Cover src={cover(v, 96)} title={storyById.get(v.storyId).title} seed={v.id} size={96} />
       <div class="vrow-body">
         {(best || dupOf) && (
           <div class="vrow-badges">
@@ -551,7 +551,7 @@ export function VersionPage({ id }) {
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <section class="detail-hero">
-        <Cover src={cover(v, 240)} title={story.title} />
+        <Cover src={cover(v, 240)} title={story.title} seed={v.id} />
         <div class="detail-text">
           <p class="eyebrow"><a href={`/poveste/${story.id}`}>{t.story}: {story.title}</a></p>
           <h1>{v.title}</h1>
@@ -910,7 +910,7 @@ export function Mine() {
   ].filter(Boolean))];
   const none = !saved.length && !hist.length && !s.favPeople.length && !s.favSources.length && !s.favCols.length;
   // favourites and history kept but hidden by the age in Settings
-  const hiddenMine = state.maxAge ? s.favStories.filter((id) => storyById.get(id) && !storyFits(storyById.get(id))).length
+  const hiddenMine = limited() ? s.favStories.filter((id) => storyById.get(id) && !storyFits(storyById.get(id))).length
     + new Set([...s.favVersions, ...s.history.map((h) => h.id)].filter((id) => versionById.get(id) && !fits(versionById.get(id)))).size : 0;
   return (
     <main id="main" tabindex="-1" class="wrap page">

@@ -44,11 +44,11 @@ function Settings() {
     document.addEventListener('click', close); addEventListener('keydown', esc);
     return () => { document.removeEventListener('click', close); removeEventListener('keydown', esc); };
   }, [open]);
-  const label = s.maxAge ? `${t.settings} · ${t.maxAgeOn(s.maxAge)}` : t.settings;
+  const label = s.maxAge < 10 ? `${t.settings} · ${t.maxAgeOn(s.maxAge)}` : t.settings;
   return (
     <div class="theme-menu">
       <button type="button" class="icon-btn" aria-expanded={open} aria-haspopup="true" aria-label={label} title={label} onClick={() => setOpen(!open)}>
-        <span class="gear"><Icon n="gear" />{s.maxAge > 0 && <b class="age-badge" aria-hidden="true">{s.maxAge}</b>}</span>
+        <span class="gear"><Icon n="gear" />{s.maxAge < 10 && <b class="age-badge" aria-hidden="true">{s.maxAge}</b>}</span>
         <span class="nav-txt">{t.settings}</span>
       </button>
       {open && (
@@ -62,9 +62,9 @@ function Settings() {
           </div>
           <div class="set-group" role="group" aria-labelledby="set-age"><p class="set-label" id="set-age">{t.maxAge}</p>
             <p class="set-hint" id="age-hint" aria-live="polite">{versions.length < allVersions.length ? t.maxAgeHides(t.nStories(allStories.length - stories.length), t.nRec(allVersions.length - versions.length)) : t.maxAgeHint}</p>
-            <div class="chips" aria-describedby="age-hint">
-              {[0, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
-                <button type="button" class="chip" aria-pressed={s.maxAge === n} aria-label={n ? t.ageOpt(n) : t.ageAll} onClick={() => setMaxAge(n)}>{n || t.ageAll}</button>
+            <div class="chips age-chips" aria-describedby="age-hint">
+              {[3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
+                <button type="button" class="chip" aria-pressed={s.maxAge === n} aria-label={t.ageOpt(n)} onClick={() => setMaxAge(n)}>{n}</button>
               ))}
             </div>
           </div>
@@ -99,10 +99,10 @@ function Header({ path }) {
         </a>
         <nav class="head-nav" aria-label="Meniu">
           {link('/explorare', 'search', t.explore)}
-          <button type="button" class="nav-link" onClick={() => surprise()}><Icon n="shuffle" /><span class="nav-txt">{t.surprise}</span></button>
           {link('/surse', 'library', t.sources, /^\/sursa\//)}
           {link('/ale-mele', 'heart', t.mine)}
           <button type="button" class="nav-link" onClick={() => setPlayer({ night: true })}><Icon n="moon" /><span class="nav-txt">{t.night}</span></button>
+          <button type="button" class="nav-link nav-surprise" onClick={() => surprise()}><Icon n="shuffle" /><span class="nav-txt">{t.surprise}</span></button>
           <Settings />
         </nav>
       </div>

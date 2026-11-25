@@ -74,6 +74,9 @@ img { display: block; max-width: 100%; }
 .page { padding-block: 28px 56px; }
 .empty { padding: 40px 0; font-size: 19px; color: var(--muted); max-width: 46ch; }
 .eyebrow { font-weight: 800; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+/* with an icon in front (a record's page), the line wraps like a sentence and the icon stays on the first line */
+.eyebrow:has(> .icon:first-child) { display: block; }
+.eyebrow > .icon:first-child { vertical-align: -3px; margin-right: 6px; }
 .eyebrow a { text-transform: none; letter-spacing: 0; font-size: 16px; }
 .lead { font-size: 19px; color: var(--muted); max-width: 60ch; }
 .byline { color: var(--muted); font-weight: 600; }
@@ -123,6 +126,9 @@ img { display: block; max-width: 100%; }
 .head-nav { display: flex; align-items: center; gap: 2px; }
 .nav-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; min-width: 44px; justify-content: center; padding: 0 10px; border: 0; background: none; border-radius: 12px; font-weight: 800; text-decoration: none; transition: background-color .15s; }
 .nav-link:hover { background: var(--surface-2); }
+/* "Surprinde-mă!" is the one button in the menu that plays something: a soft tint of the theme's accent sets it apart */
+.nav-surprise { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.nav-surprise:hover { background: color-mix(in srgb, var(--accent) 38%, transparent); }
 .nav-link[aria-current='page'] { color: var(--primary); box-shadow: inset 0 -3px 0 var(--accent); }
 /* icon-only menu on smaller screens: the label stays for screen readers */
 .nav-txt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -145,13 +151,17 @@ img { display: block; max-width: 100%; }
 /* one line, smaller letters; a phone too narrow for it cuts the end with "…" rather than wrap */
 .set-hint { margin: -4px 0 8px; font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .set-group .chips { gap: 4px; }
-/* "Toate", 3 … 10 fit one line from a 480 px menu; each button stays 44 px wide, so on a phone they take two lines */
 .set-group .chip { min-width: 44px; justify-content: center; padding: 0 10px; }
+/* the ages 3 … 10 share one line: equal buttons, 44 px tall; on the narrowest phones they get a little narrower */
+.age-chips { flex-wrap: nowrap; }
+.age-chips .chip { flex: 1 1 0; min-width: 0; padding: 0; }
 .swatches { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
 .swatch { display: flex; align-items: center; gap: 10px; min-height: 44px; min-width: 0; padding: 0 8px; border: 2px solid transparent; border-radius: 10px; background: none; font-weight: 800; text-align: left; }
 .swatch:hover { background: var(--surface-2); }
 .swatch[aria-pressed='true'] { border-color: var(--primary); }
 .swatch i { width: 28px; height: 28px; border-radius: 50%; flex: none; }
+/* phones: "Teatru de umbre" and "Radio cu lămpi" on two lines at most */
+@media (max-width: 400px) { .swatch { gap: 8px; padding: 0 6px; font-size: 14px; } .swatch i { width: 24px; height: 24px; } }
 .sw-clasic i { background: conic-gradient(#16324f 0 50%, #f6a457 0 75%, #fef5ea 0); box-shadow: inset 0 0 0 1px #0002; }
 @media (max-width: 599px) { .wordmark { display: none; } }
 @media (min-width: 1080px) { .nav-txt { position: static; width: auto; height: auto; overflow: visible; clip: auto; } }
@@ -316,6 +326,10 @@ img { display: block; max-width: 100%; }
 .badge:is(.dup, .gone) { background: var(--surface-2); color: var(--muted); border: 1.5px solid var(--line); }
 .vrow-mirrors { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 6px; font-size: 13.5px; }
 .mirror-btn { display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); font-weight: 700; font-size: 13px; cursor: pointer; }
+/* a long name that takes two lines keeps its play icon on the first line, not halfway between them */
+.mirror-btn:has(> .icon + span) { display: inline-block; padding: 8px 12px; line-height: 17px; text-align: left; }
+.mirror-btn > .icon + span { display: inline; }
+.mirror-btn > .icon:first-child { display: inline; vertical-align: -1px; margin-right: 5px; }
 .mirror-btn:hover { border-color: var(--ink); }
 /* 36px pills, 44px to a finger */
 .mirror-btn, .mirror-ext, .dock-switch { position: relative; }

@@ -80,7 +80,7 @@ export function Pick({ label, value, items, onPick, cls = 'pick-btn', children }
   );
 }
 
-export function Cover({ src, title, size = 180 }) {
+export function Cover({ src, title, seed, size = 180 }) {
   // remember which src failed, so the same Cover showing a new picture tries again
   const [failed, setFailed] = useState(null);
   // load a cover when it comes near the screen: close enough to be ready before it is read,
@@ -100,7 +100,7 @@ export function Cover({ src, title, size = 180 }) {
   }, [src]);
   if (!src || failed === src) {
     // no picture: a cover drawn in code, with the story's title on it (the card already names it for screen readers)
-    const a = art(title || '');
+    const a = art(title || '', seed || title || '');
     return (
       <div class="cover art" style={a.style}>
         <span class={`art-t art-t${a.layout}`} aria-hidden="true"><span>{a.words.map((w, i) => <>{i > 0 && ' '}<i>{w}</i></>)}</span></span>
@@ -185,7 +185,7 @@ export function VersionCard({ v, progress, badge }) {
   return (
     <article class="card">
       <a class="card-link" href={`/inregistrare/${v.id}`}>
-        <Cover src={cover(v, 180)} title={s.title} />
+        <Cover src={cover(v, 180)} title={s.title} seed={v.id} />
         <div class="card-body">
           {badge && <span class="badge">{badge}</span>}
           <p class="card-kind">{label('kind', v.kind, lang)}</p>
@@ -208,7 +208,7 @@ export function StoryCard({ s: story }) {
   return (
     <article class="card">
       <a class="card-link" href={`/poveste/${story.id}`}>
-        <Cover src={storyCover(story, 180)} title={story.title} />
+        <Cover src={storyCover(story, 180)} title={story.title} seed={best?.id} />
         <div class="card-body">
           <p class="card-kind">{label('genre', story.genre, lang)}</p>
           <h3 class="card-title">{story.title}</h3>

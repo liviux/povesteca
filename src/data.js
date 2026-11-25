@@ -129,7 +129,9 @@ export function setMaxAge(n) {
   set({ maxAge: n });
 }
 // "(3 ascunse de vârsta aleasă)": how many of a list don't fit the age
-export const hiddenCount = (list) => (state.maxAge ? (list || []).filter((v) => !fits(v)).length : 0);
+export const hiddenCount = (list) => (limited() ? (list || []).filter((v) => !fits(v)).length : 0);
+// true while the age hides something
+export const limited = () => versions.length < allVersions.length;
 export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
 

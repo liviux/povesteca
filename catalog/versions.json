@@ -59423,7 +59423,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDQzLCJwdXIiOiJibG9iX2lkIn19--0f3de865fdf56d8b8fcf0a703634b6edb9b095a6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-600x300.jpg"
+  "cover": false
  },
  {
   "id": "cei-trei-purcelusi-gong-soptite",
@@ -59463,7 +59463,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDkxLCJwdXIiOiJibG9iX2lkIn19--0071339105491ea7971b1d229575846d2c265b5d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1920x1080.jpg"
+  "cover": false
  },
  {
   "id": "furtuna-lamb-gong-soptite",
@@ -59503,7 +59503,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://www.teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTQzLCJwdXIiOiJibG9iX2lkIn19--3db708d073411c4dfaf3a3ce9b576d99193d65c2/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1920x1080.jpg"
+  "cover": false
  },
  {
   "id": "gasca-de-aur-gong-soptite",
@@ -59543,7 +59543,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NjExLCJwdXIiOiJibG9iX2lkIn19--a834e7172a05e41095c77f9de72d96bb66042773/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1920x1080.jpg"
+  "cover": false
  },
  {
   "id": "tinerete-fara-batranete-gong-soptite",
@@ -59583,7 +59583,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NjQ4LCJwdXIiOiJibG9iX2lkIn19--146a61c6e8f013427fb0c0a7f5c9d44c3a681da9/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "acul-si-barosul-gong-soptite",
@@ -59623,7 +59623,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NjI0LCJwdXIiOiJibG9iX2lkIn19--6436160d43e6d418817430251ffa59bf8f4922b5/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "pescarul-si-sotia-gong-soptite",
@@ -59663,7 +59663,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTk3LCJwdXIiOiJibG9iX2lkIn19--bb55bff8c76d5289df8681c2bb46e0a6bc8ba707/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "palatul-de-clestar-gong-soptite",
@@ -59703,7 +59703,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDgzLCJwdXIiOiJibG9iX2lkIn19--de2cc5cb0bb083164d16a853a4c713769bf92988/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "domnita-si-bobul-de-mazare-gong-soptite",
@@ -59743,7 +59743,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDI0LCJwdXIiOiJibG9iX2lkIn19--f59744e04c7acaae7687ff094230f923f4e3305b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "vrabia-cu-limba-taiata-gong-soptite",
@@ -59783,7 +59783,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDE5LCJwdXIiOiJibG9iX2lkIn19--2cca298e689b30e796e83e4708cc85bff0959dae/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "zana-muntilor-gong-soptite",
@@ -59823,7 +59823,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDEwLCJwdXIiOiJibG9iX2lkIn19--ab85dd889d27dde566328257fd03db910f13d352/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "printul-fericit-gong-soptite",
@@ -59863,7 +59863,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzE1LCJwdXIiOiJibG9iX2lkIn19--b31df3df17c6b62e4624b472b3ef9bfa9c3d5ff9/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "lupul-si-cei-sapte-iezi-gong-soptite",
@@ -59903,7 +59903,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzM4LCJwdXIiOiJibG9iX2lkIn19--b348f33d02414986670fd808007cc18c20979643/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "supa-de-pietricele-gong-soptite",
@@ -59943,7 +59943,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzEwLCJwdXIiOiJibG9iX2lkIn19--359bc0e05badb7545fc44fa4638224a6865e2d0c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "regina-albinelor-gong-soptite",
@@ -59983,7 +59983,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTY1LCJwdXIiOiJibG9iX2lkIn19--23928d45cf90befdc6788108178d2be248485529/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "cum-s-a-ingustat-gatul-balenei-gong-soptite",
@@ -60023,7 +60023,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjM4LCJwdXIiOiJibG9iX2lkIn19--066da5fd8de14908145ab6db51fcd210b33e1284/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "omul-de-flori-cu-barba-de-matase-gong-soptite",
@@ -60063,7 +60063,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjAzLCJwdXIiOiJibG9iX2lkIn19--63e80b40a41e56e41667b8fcfe3ae150a370e039/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "peter-pan-gong-soptite",
@@ -60103,7 +60103,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTI2LCJwdXIiOiJibG9iX2lkIn19--227a484f5928bff8dcaea2125bea23da8511bfd2/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "frumoasa-si-bestia-gong-soptite",
@@ -60143,7 +60143,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTUzLCJwdXIiOiJibG9iX2lkIn19--7cf1cf9971a65e6df2b1cdb73bd7914c7b131cfc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "spaima-zmeilor-gong-soptite",
@@ -60183,7 +60183,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTYxLCJwdXIiOiJibG9iX2lkIn19--bed18fbe4f336da5e8fe5fe2a2f5845f58ba3a42/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "prostia-omeneasca-gong-soptite",
@@ -60222,7 +60222,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTg5LCJwdXIiOiJibG9iX2lkIn19--f3a865f82c83fec0fe05dd7e760a703ab96a482d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "cinci-paini-gong-soptite",
@@ -60262,7 +60262,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTU1LCJwdXIiOiJibG9iX2lkIn19--874c0f43f463d181751676ca9211cc2d952dbcf0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "hainele-imparatului-gong-soptite",
@@ -60302,7 +60302,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTM4LCJwdXIiOiJibG9iX2lkIn19--6e2a86259c671c69b6d65f35c53b841711542f5f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "fat-frumos-cu-mot-in-frunte-gong-soptite",
@@ -60341,7 +60341,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3Njk2LCJwdXIiOiJibG9iX2lkIn19--1879a84a341f435231e941166a12539200dc32b0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "pacala-creanga-gong-soptite",
@@ -60380,7 +60380,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NjM2LCJwdXIiOiJibG9iX2lkIn19--bf9f27353a9b42b86d0d7624921d6b5d127533c8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "stan-bolovan-gong-soptite",
@@ -60420,7 +60420,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NjI3LCJwdXIiOiJibG9iX2lkIn19--7606545473694e70737d772dc53f84db42918056/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "lampa-lui-aladin-gong-soptite",
@@ -60460,7 +60460,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://www.teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NjEzLCJwdXIiOiJibG9iX2lkIn19--cec4f87db116a8c602acaf4e2b56303199b91bb0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "jack-si-vrejul-de-fasole-gong-soptite",
@@ -60500,7 +60500,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTg0LCJwdXIiOiJibG9iX2lkIn19--7412d5a2344e66b8af72944b4b86ebe9d45180c8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "povestea-iepurasului-peter-gong-soptite",
@@ -60541,7 +60541,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTc2LCJwdXIiOiJibG9iX2lkIn19--c4410de282ae811ef976e4b580b411ee4381e4c3/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "povestea-porcului-gong-soptite",
@@ -60581,7 +60581,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTU1LCJwdXIiOiJibG9iX2lkIn19--968d59219cc892f0aa43cab0bef063f609ce1c14/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "banutul-de-argint-gong-soptite",
@@ -60621,7 +60621,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTQ2LCJwdXIiOiJibG9iX2lkIn19--8658623c870949295d7080673d8d083918ea373a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/122.jpg"
+  "cover": false
  },
  {
   "id": "lebedele-gong-soptite",
@@ -60661,7 +60661,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTQyLCJwdXIiOiJibG9iX2lkIn19--c02b9e113704b0ae24e62ed10b6e144627f7c32e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "in-tara-lui-mura-n-gura-gong-soptite",
@@ -60701,7 +60701,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTM0LCJwdXIiOiJibG9iX2lkIn19--577b542b6619a3a8c822e98d869877b273b1357e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "alba-ca-zapada-si-rosie-ca-trandafirul-gong-soptite",
@@ -60742,7 +60742,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://www.teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NTE3LCJwdXIiOiJibG9iX2lkIn19--aa5d19132676167d28755608e979d576fc4bd010/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "mica-sirena-gong-soptite",
@@ -60782,7 +60782,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDcxLCJwdXIiOiJibG9iX2lkIn19--e18ee4db1c4e494944c9e5a0be9e219b65ebd251/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "omul-de-zapada-andersen-gong-soptite",
@@ -60822,7 +60822,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDY2LCJwdXIiOiJibG9iX2lkIn19--cf158e625beba9e93510e94a2025cd0222438728/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "ridichea-uriasa-gong-soptite",
@@ -60862,7 +60862,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDUzLCJwdXIiOiJibG9iX2lkIn19--c9ca37fe2ebed97a63ca10baf5b8c6396995c039/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "degetica-gong-soptite",
@@ -60903,7 +60903,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDQ5LCJwdXIiOiJibG9iX2lkIn19--30a3f1c62a8c4aa833bc3e0e6f56fbba685294b7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "iepurele-de-catifea-gong-soptite",
@@ -60943,7 +60943,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDM2LCJwdXIiOiJibG9iX2lkIn19--d06f813e7d48f1e2b09bee9dd449059249ceddbe/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "cartea-junglei-gong-soptite",
@@ -60982,7 +60982,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDA3LCJwdXIiOiJibG9iX2lkIn19--75f8309849d647a0f577647317ae33cc314f07c8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "bunica-gong-soptite",
@@ -61022,7 +61022,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3NDE2LCJwdXIiOiJibG9iX2lkIn19--e4b6ee5ea4bb8bea9420d14a15ae02a1de09f93b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "doi-feti-cu-stea-in-frunte-gong-soptite",
@@ -61062,7 +61062,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3Mzg1LCJwdXIiOiJibG9iX2lkIn19--3d25a05d5562719c34f3bc9c1abc479240c979ae/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "muzicantii-din-bremen-gong-soptite",
@@ -61102,7 +61102,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzcxLCJwdXIiOiJibG9iX2lkIn19--845bf526968ee996b1c327f23a98297bd2250e6b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "imparatul-cioc-de-sturz-gong-soptite",
@@ -61142,7 +61142,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzMyLCJwdXIiOiJibG9iX2lkIn19--a7359da5341077f9a6827ceb198eda978f6cbf47/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "doctorul-stie-tot-gong-soptite",
@@ -61181,7 +61181,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzI4LCJwdXIiOiJibG9iX2lkIn19--5b4d6c91f774666b24847bd0c959e985fd4c34fe/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "fat-frumos-din-lacrima-gong-soptite",
@@ -61221,7 +61221,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzA4LCJwdXIiOiJibG9iX2lkIn19--ac93c327567564f065ec9806ba4b4c125efe053d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "omul-de-piatra-gong-soptite",
@@ -61261,7 +61261,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjcxLCJwdXIiOiJibG9iX2lkIn19--b15bd4b4557ebbfb2bfbfce37722dc9f77f99a8e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "aleodor-imparat-gong-soptite",
@@ -61301,7 +61301,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjU3LCJwdXIiOiJibG9iX2lkIn19--70e21de84c4fe667acc02104702fc64a61ecb6bc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "flautistul-din-hamelin-gong-soptite",
@@ -61341,7 +61341,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjQyLCJwdXIiOiJibG9iX2lkIn19--b9c294d66a56f436352bf3131ff6bd63ec93ec3d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "punguta-cu-doi-bani-gong-soptite",
@@ -61380,7 +61380,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjMwLCJwdXIiOiJibG9iX2lkIn19--e16b0e903bfde54f752722f9a69c47402154c10a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "cei-sapte-corbi-gong-soptite",
@@ -61420,7 +61420,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjE5LCJwdXIiOiJibG9iX2lkIn19--f517d6bc6378264e18e874e7ca2588da1903bcd0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "alba-ca-zapada-gong-soptite",
@@ -61460,7 +61460,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTk3LCJwdXIiOiJibG9iX2lkIn19--48d2d5e13d055c7ac601d2a1ca9bdace73464bd9/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "matusica-holle-gong-soptite",
@@ -61501,7 +61501,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTc1LCJwdXIiOiJibG9iX2lkIn19--2bbf013112a9362f8d783acda7de6802c7ebd67b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "capra-cu-trei-iezi-gong-soptite",
@@ -61541,7 +61541,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTk5LCJwdXIiOiJibG9iX2lkIn19--fb444997b54dfecf54bdeee2013b215f16179e5a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "iepurele-si-ariciul-gong-soptite",
@@ -61580,7 +61580,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTU3LCJwdXIiOiJibG9iX2lkIn19--4cfc06f4408ecca7d41cca29c8a532a73b0be501/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "cenusareasa-gong-soptite",
@@ -61620,7 +61620,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MTAyLCJwdXIiOiJibG9iX2lkIn19--6f3b903929cb72983e88634ef75a02bd17ba4de2/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "fratior-si-surioara-gong-soptite",
@@ -61660,7 +61660,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDk3LCJwdXIiOiJibG9iX2lkIn19--ca63857ba420c358fdfe637ed18e368016e91074/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "ratusca-cea-urata-gong-soptite",
@@ -61700,7 +61700,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDkxLCJwdXIiOiJibG9iX2lkIn19--ab327e94b83ae30cfcae68b20760a682a1ec2f6a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "ali-baba-si-cei-40-de-hoti-gong-soptite",
@@ -61740,7 +61740,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDg1LCJwdXIiOiJibG9iX2lkIn19--2da19deb9fd973fedc7c3e2253e16425538d48c0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "scufita-rosie-gong-soptite",
@@ -61780,7 +61780,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDY1LCJwdXIiOiJibG9iX2lkIn19--2252d69e5f1541d8cabc5bb4b5c8ed52edb3cbd4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "soldatul-de-plumb-gong-soptite",
@@ -61820,7 +61820,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDQ0LCJwdXIiOiJibG9iX2lkIn19--e54dabfe016531f94912128657f417204d391786/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "povestea-unui-om-lenes-gong-soptite",
@@ -61859,7 +61859,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDQwLCJwdXIiOiJibG9iX2lkIn19--60c1fc37009861488dc1fa45de8c360b733189bd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "sarea-in-bucate-gong-soptite",
@@ -61899,7 +61899,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDMyLCJwdXIiOiJibG9iX2lkIn19--5dfffc7b26d60660d4de610e17cfd27099a37a42/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "motanul-incaltat-gong-soptite",
@@ -61939,7 +61939,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MDEyLCJwdXIiOiJibG9iX2lkIn19--2aa9f2fbd435d12bcb5f79271344921c6ebe69b6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "uriasul-cel-egoist-gong-soptite",
@@ -61979,7 +61979,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTkzLCJwdXIiOiJibG9iX2lkIn19--b31b8b079cfdf50e4821adb2dd2350387cb53c8d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite-900x600.jpg"
+  "cover": false
  },
  {
   "id": "zana-zanelor-gong-soptite",
@@ -62019,7 +62019,7 @@
    ]
   },
   "year": 2020,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2OTgxLCJwdXIiOiJibG9iX2lkIn19--88c348f7dd0893d79999cb641577e2956666537f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/1000x660.jpg"
+  "cover": false
  },
  {
   "id": "cele-sase-rodii-aurite-gong-soptite",
@@ -62059,7 +62059,7 @@
    ]
   },
   "year": 2021,
-  "cover": "https://teatrulgong.ro/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MjExLCJwdXIiOiJibG9iX2lkIn19--f59b80a27e4f2c30214be0031c9e0838e956418c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzE0MDAsMTQwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--7cf04819a75bca128464c01137eb4f04b496c065/povesti-soptite_03_1200x628.jpg"
+  "cover": false
  },
  {
   "id": "povestea-papanasilor-somnorosi",

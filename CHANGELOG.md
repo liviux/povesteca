@@ -2,6 +2,19 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.32.5] - 2026-11-25
+
+### Changed
+- Setări: butonul „Toate” a dispărut; implicit e ales 10, care arată toate poveștile. Vârstele 3 … 10 stau pe un singur rând, și pe telefon.
+- „Surprinde-mă!” stă la capătul meniului, lângă Setări, cu un fundal discret, ca să se deosebească de celelalte butoane.
+- Înregistrările fără copertă primesc fiecare alt desen, chiar dacă sunt ale aceleiași povești.
+- Teatrul Gong: cele 67 de înregistrări „Povești șoptite” care repetau aceeași poză au acum fiecare desenul ei.
+
+### Fixed
+- Butoanele cu sursele unei înregistrări își țin iconița pe primul rând când numele are două rânduri.
+- Pe pagina unui disc, iconița din fața sursei stă pe primul rând.
+- Pe telefon, numele temelor din Setări au cel mult două rânduri.
+
 ## [1.32.4] - 2026-11-25
 
 ### Fixed
