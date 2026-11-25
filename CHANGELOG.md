@@ -2,6 +2,13 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.31.1] - 2026-11-25
+
+### Changed
+- Coperțile mari (Discogs, Libsyn, CloudFront, eteatru, SRR, Radio Moldova, Radio Târgu Mureș, MiniPovești, Poveștile Cristinei) trec prin serviciul de redimensionare; coperțile de pe YouTube și Internet Archive și fotografiile oamenilor se încarcă direct de la sursă.
+- Coperțile apropiate de ecran încep să se încarce mai devreme, ca să nu apară cu întârziere la derulare.
+- Pagina deschide din timp conexiunea către serviciul de redimensionare.
+
 ## [1.31.0] - 2026-11-25
 
 ### Added

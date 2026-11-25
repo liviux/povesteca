@@ -105,14 +105,24 @@ for (const s of stories) for (const a of authorsOf(s)) (storiesByAuthor.get(a) |
 export const collectionOf = new Map();
 for (const c of collections) c.items.forEach((id, i) => collectionOf.set(id, { c, i }));
 
-// Covers and portraits leave their sources unchanged but are resized by a small image service before
-// reaching the browser: the originals are often 1-3 MB, while a card only needs 360 px. The service keeps
-// its own cache; Povesteca stores nothing.
+// Only the covers whose originals are often 1-3 MB go through the resizing service. YouTube and
+// Internet Archive already serve small images and are faster directly; people's photos use Wikimedia's
+// own thumbnails. The service keeps its own cache; Povesteca stores nothing.
 const PROXY = 'https://wsrv.nl/';
+const HEAVY = /(^|\.)(discogs\.com|eteatru\.ro|libsyn\.com|cloudfront\.net|radiomoldova\.md|srr\.ro|radiomures\.ro|minipovesti\.ro|povestilecristinei\.ro)$/i;
 export function resized(url, size = 180, format = 'webp', fit = 'cover') {
   if (!url || !/^https?:\/\//i.test(url)) return url;
+  let host;
+  try { host = new URL(url).hostname; } catch { return url; }
+  if (!HEAVY.test(host)) return url;
   const px = Math.max(32, Math.round(size * 2));
   return `${PROXY}?url=${encodeURIComponent(url)}&w=${px}&h=${px}&fit=${fit}&output=${format}&q=80`;
+}
+// Wikimedia already has every thumbnail size; use its own 64/320 px files instead of a proxy.
+export function portrait(url, size = 160) {
+  if (!url || !/wikimedia\.org\//i.test(url)) return url;
+  const px = Math.max(32, Math.round(size * 2));
+  return url.replace(/\/\d+px-/, `/${px}px-`);
 }
 function sourceCover(v) {
   if (!v || v.cover === false) return null;

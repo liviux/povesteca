@@ -2,6 +2,13 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.31.1] - 2026-11-25
+
+### Changed
+- Large covers (Discogs, Libsyn, CloudFront, eteatru, SRR, Radio Moldova, Radio Târgu Mureș, MiniPovești, Poveștile Cristinei) go through the resizing service; YouTube and Internet Archive covers, and people's photos, load directly from their source.
+- Covers near the screen start loading earlier, so they no longer pop in late while scrolling.
+- The page opens the connection to the resizing service in advance.
+
 ## [1.31.0] - 2026-11-25
 
 ### Added

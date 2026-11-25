@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  storiesByAuthor, authorsOf, collectionOf, peopleByVersion, catalogFilters, loadBrowse, norm, compareRo, cover, storyCover, resized, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
+  storiesByAuthor, authorsOf, collectionOf, peopleByVersion, catalogFilters, loadBrowse, norm, compareRo, cover, storyCover, portrait, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
 import { useStore, useT, set, state, navigate, toggleIn, voteBlock, vote } from './store.js';
@@ -661,7 +661,7 @@ const ext = (href, txt, cls = 'btn ghost') => href && <a class={cls} href={href}
 // a name with its photo, when there is one; the photo's credit is on the person's page
 function PersonLink({ name }) {
   const photo = personInfo(name)?.photo;
-  return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={resized(photo.src, 32, 'webp', 'inside')} alt="" width="32" height="32" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}{name}</a>;
+  return <a class="person-link" href={personUrl(name)}>{photo && <img class="avatar" src={portrait(photo.src, 32)} alt="" width="32" height="32" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}{name}</a>;
 }
 
 const Authors = ({ s }) => authorsOf(s).map((a, i) => <>{i ? ', ' : ''}<PersonLink name={a} /></>);
@@ -697,7 +697,7 @@ export function PersonPage({ name }) {
   return (
     <main id="main" tabindex="-1" class="wrap page">
       <header class={'page-head' + (w?.photo ? ' person-head' : '')}>
-        {w?.photo && <img class="person-photo" src={resized(w.photo.src, 160, 'webp', 'inside')} alt="" width="160" height="160" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}
+        {w?.photo && <img class="person-photo" src={portrait(w.photo.src, 160)} alt="" width="160" height="160" onError={(e) => { e.currentTarget.style.display = 'none'; }} />}
         {!w?.photo && !ready && <span class="person-photo skeleton" aria-hidden="true" />}
         <div class="person-text">
           <p class="eyebrow"><a href="/explorare">{t.explore}</a> · {roles.map((r) => t.roleNames[r]).join(' · ')}</p>
@@ -861,7 +861,7 @@ export function Mine() {
       {rows('people', t.peopleH, 'favPeople', (n) => {
         const photo = personInfo(n)?.photo;
         return { key: n, title: n, href: personUrl(n), sub: t.nRec(withPerson(n).length),
-          icon: photo ? <img class="avatar" src={resized(photo.src, 32, 'webp', 'inside')} alt="" width="32" height="32" loading="lazy" /> : <span class="avatar initial" aria-hidden="true">{n[0]}</span> };
+          icon: photo ? <img class="avatar" src={portrait(photo.src, 32)} alt="" width="32" height="32" loading="lazy" /> : <span class="avatar initial" aria-hidden="true">{n[0]}</span> };
       })}
       {rows('sources', t.sources, 'favSources', (id) => {
         const x = sourceById.get(id);

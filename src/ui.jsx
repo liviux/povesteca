@@ -82,8 +82,8 @@ export function Pick({ label, value, items, onPick, cls = 'pick-btn', children }
 export function Cover({ src, title, size = 180 }) {
   // remember which src failed, so the same Cover showing a new picture tries again
   const [failed, setFailed] = useState(null);
-  // load a cover only when it comes near the screen: the browser's own lazy loading looks ~1250 px
-  // ahead, which on a 172 px card means a whole shelf loads even though two cards are visible
+  // load a cover when it comes near the screen: close enough to be ready before it is read,
+  // far enough that the browser's own ~1250 px margin doesn't fetch a whole shelf at once
   const [seen, setSeen] = useState(false);
   const box = useRef();
   useEffect(() => {
@@ -93,7 +93,7 @@ export function Cover({ src, title, size = 180 }) {
     if (!el || typeof IntersectionObserver === 'undefined') { setSeen(true); return; }
     const io = new IntersectionObserver((entries) => {
       if (entries.some((e) => e.isIntersecting)) { setSeen(true); io.disconnect(); }
-    }, { rootMargin: '400px' });
+    }, { rootMargin: '900px' });
     io.observe(el);
     return () => io.disconnect();
   }, [src]);
