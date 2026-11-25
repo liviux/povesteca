@@ -28360,5 +28360,484 @@
   },
   "age": 4,
   "addedAt": "2026-11-24"
+ },
+ {
+  "id": "pasarea-de-aur-grimm",
+  "summary": {
+   "ro": "Trei frați pornesc pe rând după pasărea de aur care fură merele din grădina împăratului; doar mezinul, care ascultă sfaturile unei vulpi, ajunge să dobândească pasărea, calul de aur și pe frumoasa prințesă.",
+   "en": "Three brothers set out in turn after the golden bird stealing apples from the king’s garden; only the youngest, who heeds a fox’s advice, wins the bird, the golden horse and the beautiful princess."
+  },
+  "themes": [
+   "aventura",
+   "frati",
+   "ascultare"
+  ],
+  "characters": [
+   "Mezinul",
+   "Vulpea",
+   "Pasărea de aur"
+  ],
+  "title": "Pasărea de aur",
+  "author": "Frații Grimm",
+  "origin": "german",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "elmer-in-zapada",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [
+   "iarna",
+   "animale",
+   "prietenie"
+  ],
+  "characters": [
+   "Elmer"
+  ],
+  "title": "Elmer în zăpadă",
+  "author": "David McKee",
+  "origin": "british",
+  "genre": "poveste",
+  "year": 1995,
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "popi-fulg-de-nea",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [
+   "iarna"
+  ],
+  "characters": [
+   "Popi"
+  ],
+  "title": "Popi, fulg de nea",
+  "author": "Cristina Donovici",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "scrisoarea-spiridusilor",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [
+   "craciun",
+   "iarna"
+  ],
+  "characters": [],
+  "title": "Scrisoarea spiridușilor",
+  "author": "Yvon Dumez",
+  "origin": "french",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "craciunul-animalelor",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [
+   "craciun",
+   "animale"
+  ],
+  "characters": [],
+  "title": "Crăciunul animalelor",
+  "author": "Yvon Dumez",
+  "origin": "french",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "gerulet-si-focul-de-craciun",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [
+   "craciun",
+   "iarna"
+  ],
+  "characters": [],
+  "title": "Geruleț și focul de Crăciun",
+  "author": "Russell Punter",
+  "origin": "british",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "bradul-de-craciun-weninger",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [
+   "craciun",
+   "natura"
+  ],
+  "characters": [],
+  "title": "Bradul de Crăciun",
+  "author": "Brigitte Weninger",
+  "origin": "austrian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "laudatori-de-laudarosi",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Lăudători de lăudăroși",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "lacul-vindecator",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Lacul vindecător",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "rochia-zburatoare",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Rochia zburătoare",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "laudaroasa-litera-a",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Lăudăroasa literă A",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "zmeul-fara-carte",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Zmeul fără carte",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "spiridusul-care-schimba-povestile",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Spiridușul care schimbă poveștile",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "razboiul-pentru-ciocolata",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Războiul pentru ciocolată",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "plecarea-vulturilor",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Plecarea vulturilor",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "povestea-jucausa",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Povestea jucăușă",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "doctorul-jucariilor",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Doctorul jucăriilor",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "o-stea-pentru-mama",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "O stea pentru mama",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "povestea-frunzei-de-cais",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Povestea frunzei de cais",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "viteaza-pisica-lenesa",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Viteaza pisică leneșă",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "croitorul-cel-hot",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Croitorul cel hoț",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "zmeul-pierde-vara",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Zmeul pierde-vară",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "petre-pescarul",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Petre pescarul",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "fata-cea-frumoasa-si-fantana-cu-apa-tulbure",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Fata cea frumoasă și fântâna cu apă tulbure",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "tara-copiilor-fericiti",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Țara copiilor fericiți",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "fetita-si-tara-fara-culori",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Fetița și țara fără culori",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "zmeul-nespalat-pe-dinti",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Zmeul nespălat pe dinți",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "victoria-gargaritei-de-lemn",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Victoria gărgăriței de lemn",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "tantarii-notelor-mici",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Țânțarii notelor mici",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "baiatul-care-vorbea-cu-florile",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Băiatul care vorbea cu florile",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "stelele-imi-spun-povesti",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Stelele îmi spun povești",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "poveste",
+  "addedAt": "2026-11-25"
+ },
+ {
+  "id": "balaurul-beteag",
+  "summary": {
+   "ro": "",
+   "en": ""
+  },
+  "themes": [],
+  "characters": [],
+  "title": "Balaurul beteag",
+  "author": "Petre Crăciun",
+  "origin": "romanian",
+  "genre": "basm",
+  "addedAt": "2026-11-25"
  }
 ]

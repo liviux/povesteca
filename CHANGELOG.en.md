@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.25.0] - 2026-11-25
+
+### Added
+- **New stories:** 32 stories and 40 recordings from three new sources: “Regatul poveștilor”, stories by Petre Crăciun read by actors of the State Jewish Theatre (Maia Morgenstern among them), “O după-amiază de poveste” from the Arlechino Theatre in Brașov and “Povești la gura sobei” from the Baia Mare Municipal Theatre.
+
 ## [1.24.6] - 2026-11-24
 
 ### Fixed

@@ -248,5 +248,35 @@
    "ro": "Povești pentru copii publicate de proiectul MiniPovești, cu texte integrale, lecturi înregistrate de actori și redare audio directă.",
    "en": "Children’s stories published by the MiniPovești project, with full texts, actor-read recordings and direct audio playback."
   }
+ },
+ {
+  "id": "yt-teatrul-evreiesc",
+  "name": "Teatrul Evreiesc de Stat",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@teatrulevreiesc",
+  "description": {
+   "ro": "Canalul oficial al Teatrului Evreiesc de Stat din București, cu seria „Regatul poveștilor”: povești de Petre Crăciun citite de actorii teatrului, între care Maia Morgenstern.",
+   "en": "The official channel of Bucharest’s State Jewish Theatre, with the “Regatul poveștilor” series: stories by Petre Crăciun read by the theatre’s actors, Maia Morgenstern among them."
+  }
+ },
+ {
+  "id": "yt-teatrul-arlechino",
+  "name": "Teatrul Arlechino Brașov",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@teatrularlechinobrasov4590",
+  "description": {
+   "ro": "Canalul oficial al Teatrului pentru Copii „Arlechino” din Brașov, cu spectacolele-lectură „O după-amiază de poveste”.",
+   "en": "The official channel of Brașov’s “Arlechino” Children’s Theatre, with the “O după-amiază de poveste” staged readings."
+  }
+ },
+ {
+  "id": "yt-teatrul-baia-mare",
+  "name": "Teatrul Municipal Baia Mare",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@TeatrulBM",
+  "description": {
+   "ro": "Canalul oficial al Teatrului Municipal Baia Mare, cu seria de iarnă „Povești la gura sobei” a secției Păpuși.",
+   "en": "The official channel of the Baia Mare Municipal Theatre, with the puppet company’s winter series “Povești la gura sobei”."
+  }
  }
 ]

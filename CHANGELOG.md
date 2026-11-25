@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.25.0] - 2026-11-25
+
+### Added
+- **Povești noi:** 32 de povești și 40 de înregistrări din trei surse noi: „Regatul poveștilor”, povești de Petre Crăciun citite de actorii Teatrului Evreiesc de Stat (între ei Maia Morgenstern), „O după-amiază de poveste” de la Teatrul Arlechino din Brașov și „Povești la gura sobei” de la Teatrul Municipal Baia Mare.
+
 ## [1.24.6] - 2026-11-24
 
 ### Fixed

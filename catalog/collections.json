@@ -2054,5 +2054,84 @@
    "ro": "60 de povești citite la Radio Moldova în emisiunea „Povestea de seară”, înregistrate între 1973 și 2005: Spiridon Vangheli, Ion Creangă, Ion Druță, Grigore Vieru, Frații Grimm, Gianni Rodari și povești populare. Ordinea e cea de pe pagina emisiunii.",
    "en": "60 stories read on Radio Moldova’s bedtime programme “Povestea de seară”, recorded between 1973 and 2005: Spiridon Vangheli, Ion Creangă, Ion Druță, Grigore Vieru, the Brothers Grimm, Gianni Rodari and folk tales. The order follows the programme’s page."
   }
+ },
+ {
+  "id": "tes-regatul-povestilor",
+  "title": "Regatul poveștilor (Teatrul Evreiesc de Stat)",
+  "type": "series",
+  "sourceId": "yt-teatrul-evreiesc",
+  "url": "https://www.youtube.com/@teatrulevreiesc",
+  "items": [
+   "laudatori-de-laudarosi-nicolae-botezatu-tes",
+   "lacul-vindecator-viorica-predica-tes",
+   "rochia-zburatoare-alina-tomi-tes",
+   "laudaroasa-litera-a-geni-brenda-vexler-tes",
+   "zmeul-fara-carte-mircea-dragoman-tes",
+   "spiridusul-care-schimba-povestile-maia-morgenstern-tes",
+   "razboiul-pentru-ciocolata-maia-morgenstern-tes",
+   "plecarea-vulturilor-lorena-luchian-tes",
+   "povestea-jucausa-alina-tomi-tes",
+   "doctorul-jucariilor-mircea-dragoman-tes",
+   "o-stea-pentru-mama-viorica-predica-tes",
+   "lacul-vindecator-viorel-manole-tes",
+   "povestea-frunzei-de-cais-arabela-neazi-tes",
+   "viteaza-pisica-lenesa-geni-brenda-vexler-tes",
+   "croitorul-cel-hot-maia-morgenstern-tes",
+   "spiridusul-care-schimba-povestile-katia-pascariu-tes",
+   "zmeul-pierde-vara-mirela-nicolau-tes",
+   "petre-pescarul-nicolae-botezatu-tes",
+   "fata-cea-frumoasa-si-fantana-cu-apa-tulbure-arabela-neazi-tes",
+   "laudaroasa-litera-a-marius-calugarita-tes",
+   "tara-copiilor-fericiti-maia-morgenstern-tes",
+   "fetita-si-tara-fara-culori-iolanda-covaci-tes",
+   "zmeul-nespalat-pe-dinti-andrei-miercure-tes",
+   "victoria-gargaritei-de-lemn-viorica-predica-tes",
+   "tantarii-notelor-mici-maia-morgenstern-tes",
+   "baiatul-care-vorbea-cu-florile-alina-tomi-tes",
+   "stelele-imi-spun-povesti-mircea-dragoman-tes",
+   "balaurul-beteag-maia-morgenstern-tes"
+  ],
+  "description": {
+   "ro": "Povești de Petre Crăciun citite de actorii Teatrului Evreiesc de Stat, înregistrate în foaierul teatrului în iernile 2020–2022.",
+   "en": "Stories by Petre Crăciun read by the actors of the State Jewish Theatre, recorded in the theatre’s foyer in the winters of 2020–2022."
+  }
+ },
+ {
+  "id": "arlechino-o-dupa-amiaza-de-poveste",
+  "title": "O după-amiază de poveste (Teatrul Arlechino Brașov)",
+  "type": "series",
+  "sourceId": "yt-teatrul-arlechino",
+  "url": "https://www.youtube.com/@teatrularlechinobrasov4590",
+  "items": [
+   "mica-sirena-arlechino",
+   "pasarea-de-aur-grimm-arlechino",
+   "hainele-imparatului-arlechino",
+   "ratusca-cea-urata-arlechino",
+   "omul-de-zapada-andersen-arlechino"
+  ],
+  "description": {
+   "ro": "Spectacole-lectură filmate în ianuarie 2021: câte doi actori ai Teatrului Arlechino din Brașov citesc basme clasice.",
+   "en": "Staged readings filmed in January 2021: two actors of Brașov’s Arlechino Theatre read a classic fairy tale each time."
+  }
+ },
+ {
+  "id": "baia-mare-povesti-la-gura-sobei",
+  "title": "Povești la gura sobei (Teatrul Municipal Baia Mare)",
+  "type": "series",
+  "sourceId": "yt-teatrul-baia-mare",
+  "url": "https://www.youtube.com/@TeatrulBM",
+  "items": [
+   "omul-de-zapada-andersen-baia-mare",
+   "elmer-in-zapada-baia-mare",
+   "popi-fulg-de-nea-baia-mare",
+   "scrisoarea-spiridusilor-baia-mare",
+   "craciunul-animalelor-baia-mare",
+   "gerulet-si-focul-de-craciun-baia-mare",
+   "bradul-de-craciun-weninger-baia-mare"
+  ],
+  "description": {
+   "ro": "Povești de iarnă spuse de actorii secției Păpuși a Teatrului Municipal Baia Mare, în decembrie 2020.",
+   "en": "Winter stories told by the actors of the Baia Mare Municipal Theatre’s puppet company in December 2020."
+  }
  }
 ]

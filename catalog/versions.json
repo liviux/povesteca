@@ -86024,5 +86024,1290 @@
   ],
   "addedAt": "2026-11-23",
   "year": 2020
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "a28IVenvBS0",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "laudatori-de-laudarosi-nicolae-botezatu-tes",
+  "storyId": "laudatori-de-laudarosi",
+  "title": "Lăudători de lăudăroși (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1127,
+  "year": 2022,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Nicolae Botezatu"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "T59BVCerbN4",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "lacul-vindecator-viorica-predica-tes",
+  "storyId": "lacul-vindecator",
+  "title": "Lacul vindecător (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 563,
+  "year": 2022,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Viorica Predica"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "hSXPaEPYWvQ",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "rochia-zburatoare-alina-tomi-tes",
+  "storyId": "rochia-zburatoare",
+  "title": "Rochia zburătoare (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 635,
+  "year": 2022,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Alina Tomi"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "n9gdy3kjaaE",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "laudaroasa-litera-a-geni-brenda-vexler-tes",
+  "storyId": "laudaroasa-litera-a",
+  "title": "Lăudăroasa literă A (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 502,
+  "year": 2022,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Geni Brenda Vexler"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "vSz3NFM5fT4",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "zmeul-fara-carte-mircea-dragoman-tes",
+  "storyId": "zmeul-fara-carte",
+  "title": "Zmeul fără carte (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 629,
+  "year": 2022,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Mircea Dragoman"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "CQNvyAUuYck",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "spiridusul-care-schimba-povestile-maia-morgenstern-tes",
+  "storyId": "spiridusul-care-schimba-povestile",
+  "title": "Spiridușul care schimbă poveștile (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1502,
+  "year": 2022,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Dqjf19qlAIo",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "razboiul-pentru-ciocolata-maia-morgenstern-tes",
+  "storyId": "razboiul-pentru-ciocolata",
+  "title": "Războiul pentru ciocolată (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 904,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ozNPloWYcek",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "plecarea-vulturilor-lorena-luchian-tes",
+  "storyId": "plecarea-vulturilor",
+  "title": "Plecarea vulturilor (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 631,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Lorena Luchian"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "YWbQVyQcQdw",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "povestea-jucausa-alina-tomi-tes",
+  "storyId": "povestea-jucausa",
+  "title": "Povestea jucăușă (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 589,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Alina Tomi"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "u0ocP_dvCz0",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "doctorul-jucariilor-mircea-dragoman-tes",
+  "storyId": "doctorul-jucariilor",
+  "title": "Doctorul jucăriilor (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 673,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Mircea Dragoman"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "S-q3tzUgKek",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "o-stea-pentru-mama-viorica-predica-tes",
+  "storyId": "o-stea-pentru-mama",
+  "title": "O stea pentru mama (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 878,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Viorica Predica"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "HeTQDpUqNFM",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "lacul-vindecator-viorel-manole-tes",
+  "storyId": "lacul-vindecator",
+  "title": "Lacul vindecător (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 582,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Viorel Manole"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Twz-hRBzsfE",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "povestea-frunzei-de-cais-arabela-neazi-tes",
+  "storyId": "povestea-frunzei-de-cais",
+  "title": "Povestea frunzei de cais (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 709,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Arabela Neazi"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "A0VXbaL59EQ",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "viteaza-pisica-lenesa-geni-brenda-vexler-tes",
+  "storyId": "viteaza-pisica-lenesa",
+  "title": "Viteaza pisică leneșă (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1017,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Geni Brenda Vexler"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "MvzKM0NurMI",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "croitorul-cel-hot-maia-morgenstern-tes",
+  "storyId": "croitorul-cel-hot",
+  "title": "Croitorul cel hoț (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 867,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "FR5NYWElmi4",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "spiridusul-care-schimba-povestile-katia-pascariu-tes",
+  "storyId": "spiridusul-care-schimba-povestile",
+  "title": "Spiridușul care schimbă poveștile (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1159,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Katia Pascariu"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "7kBMLd6LxOs",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "zmeul-pierde-vara-mirela-nicolau-tes",
+  "storyId": "zmeul-pierde-vara",
+  "title": "Zmeul pierde-vară (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1289,
+  "year": 2021,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Mirela Nicolau"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "n3QCN7rLLhw",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "petre-pescarul-nicolae-botezatu-tes",
+  "storyId": "petre-pescarul",
+  "title": "Petre pescarul (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1642,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Nicolae Botezatu"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "6r869flzieA",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "fata-cea-frumoasa-si-fantana-cu-apa-tulbure-arabela-neazi-tes",
+  "storyId": "fata-cea-frumoasa-si-fantana-cu-apa-tulbure",
+  "title": "Fata cea frumoasă și fântâna cu apă tulbure (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 723,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Arabela Neazi"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "3XrQvAs4DYo",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "laudaroasa-litera-a-marius-calugarita-tes",
+  "storyId": "laudaroasa-litera-a",
+  "title": "Lăudăroasa literă A (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 471,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Marius Călugărița"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "GhbdazM3JmA",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "tara-copiilor-fericiti-maia-morgenstern-tes",
+  "storyId": "tara-copiilor-fericiti",
+  "title": "Țara copiilor fericiți (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1738,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "lR2kTStHgkA",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "fetita-si-tara-fara-culori-iolanda-covaci-tes",
+  "storyId": "fetita-si-tara-fara-culori",
+  "title": "Fetița și țara fără culori (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1064,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Iolanda Covaci"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "5KFDZhI0S5Q",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "zmeul-nespalat-pe-dinti-andrei-miercure-tes",
+  "storyId": "zmeul-nespalat-pe-dinti",
+  "title": "Zmeul nespălat pe dinți (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 805,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Andrei Miercure"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "puHqz06vtCg",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "victoria-gargaritei-de-lemn-viorica-predica-tes",
+  "storyId": "victoria-gargaritei-de-lemn",
+  "title": "Victoria gărgăriței de lemn (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1020,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Viorica Predica"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "TSW838UMR-s",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "tantarii-notelor-mici-maia-morgenstern-tes",
+  "storyId": "tantarii-notelor-mici",
+  "title": "Țânțarii notelor mici (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1533,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "YlzWe5C0tiU",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "baiatul-care-vorbea-cu-florile-alina-tomi-tes",
+  "storyId": "baiatul-care-vorbea-cu-florile",
+  "title": "Băiatul care vorbea cu florile (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 832,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Alina Tomi"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "9aTfj0oa2fc",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "stelele-imi-spun-povesti-mircea-dragoman-tes",
+  "storyId": "stelele-imi-spun-povesti",
+  "title": "Stelele îmi spun povești (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 491,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Mircea Dragoman"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-evreiesc",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "a3TgXCdD-XY",
+    "via": "Teatrul Evreiesc de Stat"
+   }
+  ],
+  "id": "balaurul-beteag-maia-morgenstern-tes",
+  "storyId": "balaurul-beteag",
+  "title": "Balaurul beteag (Regatul poveștilor, Teatrul Evreiesc de Stat)",
+  "duration": 1818,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Maia Morgenstern"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-arlechino",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "AZPrupqwaiA",
+    "via": "Teatrul Arlechino Brașov"
+   }
+  ],
+  "id": "mica-sirena-arlechino",
+  "storyId": "mica-sirena",
+  "title": "Mica sirenă (O după-amiază de poveste, Teatrul Arlechino)",
+  "duration": 1596,
+  "year": 2021,
+  "voices": "mai-multe",
+  "age": 6,
+  "credits": {
+   "narrator": [
+    "Petronela Rujan",
+    "Marius Stroe"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-arlechino",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "lZZFJuhVfpE",
+    "via": "Teatrul Arlechino Brașov"
+   }
+  ],
+  "id": "pasarea-de-aur-grimm-arlechino",
+  "storyId": "pasarea-de-aur-grimm",
+  "title": "Pasărea de aur (O după-amiază de poveste, Teatrul Arlechino)",
+  "duration": 863,
+  "year": 2021,
+  "voices": "mai-multe",
+  "age": 6,
+  "credits": {
+   "narrator": [
+    "Eliza Muraru",
+    "Adrian Iuga"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-arlechino",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "gIBUe889wVE",
+    "via": "Teatrul Arlechino Brașov"
+   }
+  ],
+  "id": "hainele-imparatului-arlechino",
+  "storyId": "hainele-imparatului",
+  "title": "Hainele cele noi ale împăratului (O după-amiază de poveste, Teatrul Arlechino)",
+  "duration": 921,
+  "year": 2021,
+  "voices": "mai-multe",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Erika Mihaly",
+    "Dan Zorilă"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-arlechino",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "gIvyzytXK1A",
+    "via": "Teatrul Arlechino Brașov"
+   }
+  ],
+  "id": "ratusca-cea-urata-arlechino",
+  "storyId": "ratusca-cea-urata",
+  "title": "Rățușca cea urâtă (O după-amiază de poveste, Teatrul Arlechino)",
+  "duration": 1433,
+  "year": 2021,
+  "voices": "mai-multe",
+  "age": 4,
+  "credits": {
+   "narrator": [
+    "Cecilia Negru",
+    "Adrian Dobrescu"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-arlechino",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "Dc4cCohBl-M",
+    "via": "Teatrul Arlechino Brașov"
+   }
+  ],
+  "id": "omul-de-zapada-andersen-arlechino",
+  "storyId": "omul-de-zapada-andersen",
+  "title": "Omul de zăpadă (O după-amiază de poveste, Teatrul Arlechino)",
+  "duration": 797,
+  "year": 2021,
+  "voices": "mai-multe",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Dan Zorilă",
+    "Eliza Muraru"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "S9OjeqZcJYA",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "id": "omul-de-zapada-andersen-baia-mare",
+  "storyId": "omul-de-zapada-andersen",
+  "title": "Povestea omului de zăpadă (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "duration": 211,
+  "year": 2020,
+  "voices": "narator",
+  "age": 5,
+  "credits": {
+   "narrator": [
+    "Liliana Voș"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "_YgkDRxbfr4",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "id": "elmer-in-zapada-baia-mare",
+  "storyId": "elmer-in-zapada",
+  "title": "Elmer în zăpadă (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "duration": 303,
+  "year": 2020,
+  "voices": "narator",
+  "age": 3,
+  "credits": {
+   "narrator": [
+    "Camelia Blidar"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "ZnWhxDU5sEw",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "id": "popi-fulg-de-nea-baia-mare",
+  "storyId": "popi-fulg-de-nea",
+  "title": "Popi, fulg de nea (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "duration": 486,
+  "year": 2020,
+  "voices": "narator",
+  "age": 3,
+  "credits": {
+   "narrator": [
+    "Irina Oțoiu"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "-lQI_zVVePE",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "id": "scrisoarea-spiridusilor-baia-mare",
+  "storyId": "scrisoarea-spiridusilor",
+  "title": "Scrisoarea spiridușilor (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "duration": 457,
+  "year": 2020,
+  "voices": "narator",
+  "age": 4,
+  "credits": {
+   "narrator": [
+    "Ruxandra Lăzărescu"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "LYhzF7yH9rA",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "id": "craciunul-animalelor-baia-mare",
+  "storyId": "craciunul-animalelor",
+  "title": "Crăciunul animalelor (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "duration": 422,
+  "year": 2020,
+  "voices": "narator",
+  "age": 4,
+  "credits": {
+   "narrator": [
+    "Ruxandra Lăzărescu"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "7M6eD2tOkkY",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "id": "gerulet-si-focul-de-craciun-baia-mare",
+  "storyId": "gerulet-si-focul-de-craciun",
+  "title": "Geruleț și focul de Crăciun (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "duration": 327,
+  "year": 2020,
+  "voices": "narator",
+  "age": 4,
+  "credits": {
+   "narrator": [
+    "Camelia Blidar"
+   ]
+  }
+ },
+ {
+  "kind": "narata",
+  "moods": [],
+  "estimated": [
+   "kind",
+   "voices",
+   "age",
+   "quality"
+  ],
+  "quality": 2,
+  "addedAt": "2026-11-25",
+  "sourceId": "yt-teatrul-baia-mare",
+  "links": [
+   {
+    "type": "youtube",
+    "id": "eAk7SIw6RvE",
+    "via": "Teatrul Municipal Baia Mare"
+   }
+  ],
+  "id": "bradul-de-craciun-weninger-baia-mare",
+  "storyId": "bradul-de-craciun-weninger",
+  "title": "Bradul de Crăciun (Povești la gura sobei, Teatrul Municipal Baia Mare)",
+  "duration": 314,
+  "year": 2020,
+  "voices": "narator",
+  "age": 4,
+  "credits": {
+   "narrator": [
+    "Irina Oțoiu"
+   ]
+  }
  }
 ]

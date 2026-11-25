@@ -2,7 +2,7 @@
 
 **Ascultă pe [povesteca.vercel.app](https://povesteca.vercel.app/)**
 
-**1171 de povești și 1464 de înregistrări**
+**1203 de povești și 1504 de înregistrări**
 
 Povesteca e o bibliotecă de povești audio în limba română, pentru copii și pentru părinții care le aleg. Adună teatru radiofonic și discuri de povești publicate deja pe Internet Archive și YouTube, le așază pe povești și le poți asculta direct în pagină.
 
@@ -12,7 +12,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
-Acum sunt 1171 de povești și 1464 de înregistrări, din 25 de surse gratuite:
+Acum sunt 1203 de povești și 1504 de înregistrări, din 28 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -39,6 +39,9 @@ Acum sunt 1171 de povești și 1464 de înregistrări, din 25 de surse gratuite:
 - [LaTimp.eu](https://latimp.eu/category/teatru-audio-copii/) (montări din arhiva Radio România, audio direct)
 - [Povești alese](https://www.youtube.com/@mihaiamarie7370) (YouTube)
 - [MiniPovești](https://minipovesti.ro/) (audio direct MP3 și YouTube)
+- [Teatrul Evreiesc de Stat](https://www.youtube.com/@teatrulevreiesc) (YouTube, „Regatul poveștilor”)
+- [Teatrul Arlechino Brașov](https://www.youtube.com/@teatrularlechinobrasov4590) (YouTube, spectacole-lectură)
+- [Teatrul Municipal Baia Mare](https://www.youtube.com/@TeatrulBM) (YouTube, „Povești la gura sobei”)
 
 O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compari după durată, tip de producție și distribuție. Micul Prinț, de exemplu, are două montări diferite. Unele detalii, cum ar fi vârsta potrivită, atmosfera sau cât de multe efecte sonore are o înregistrare, sunt estimate și apar cu semnul „≈”.
 
