@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.35.0] - 2026-11-26
+
+### Added
+- **Povești noi:** „Creioanele colorate” și „Bunelul, iepurele și lupul”, din fonoteca Radio Moldova, pe Zuper.
+
 ## [1.34.0] - 2026-11-26
 
 ### Added

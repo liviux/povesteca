@@ -30994,5 +30994,47 @@
    "en": "A little pig moves into a house near a wolf’s den. The wolf invites him to pick fruit and later to go to the fair, hoping to catch him. The pig fools him with a barrel and sets a trap when the wolf tries to come down the chimney."
   },
   "origin": "slovak"
+ },
+ {
+  "id": "creioanele-colorate",
+  "title": "Creioanele colorate",
+  "author": "Autor necunoscut",
+  "genre": "poveste",
+  "themes": [
+   "arte",
+   "copilarie"
+  ],
+  "characters": [
+   "Nicușor",
+   "Vasilică",
+   "Creioanele colorate"
+  ],
+  "summary": {
+   "ro": "Nicușor aude pași pe scară și întâlnește un șir de creioane colorate. Au plecat de la Vasilică, care le folosea doar pe cele preferate. Nicușor încearcă să le împace cu băiatul.",
+   "en": "Nicușor hears footsteps on the stairs and meets a line of colored pencils. They have left Vasilică because he only used his favorite colors. Nicușor tries to help them make up with the boy."
+  },
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "bunelul-iepurele-si-lupul",
+  "title": "Bunelul, iepurele și lupul",
+  "author": "Autor necunoscut",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "padure",
+   "prietenie"
+  ],
+  "characters": [
+   "Bunelul",
+   "Iepurașul",
+   "Ceilalți iepuri",
+   "Lupul"
+  ],
+  "summary": {
+   "ro": "Un iepuraș îl vede pe bătrânul pădurar adunând vreascuri și își cheamă prietenii să-l ajute. Când lupul îi amenință, iepurii lasă vreascurile și fug la căsuța bunelului.",
+   "en": "A little rabbit sees the old forester gathering sticks and calls his friends to help. When the wolf threatens them, the rabbits drop the sticks and run to Grandpa’s cottage."
+  },
+  "addedAt": "2026-11-26"
  }
 ]

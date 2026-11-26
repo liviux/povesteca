@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.35.0] - 2026-11-26
+
+### Added
+- **New stories:** Two stories from the Radio Moldova archive on Zuper, “Creioanele colorate” and “Bunelul, iepurele și lupul”.
+
 ## [1.34.0] - 2026-11-26
 
 ### Added

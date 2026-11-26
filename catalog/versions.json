@@ -92899,5 +92899,85 @@
   "year": 2003,
   "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1597319789252-21b07f3a1f9a2.jpg",
   "addedAt": "2026-11-26"
+ },
+ {
+  "id": "creioanele-colorate-zuper",
+  "storyId": "creioanele-colorate",
+  "title": "Creioanele colorate",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/5ced7a91-a04c-4473-83cd-2eadde54bcec_6CREIOANELECOLORATElectMargaretaUreche.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/creioanele-colorate/4",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 252,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "bunelul-iepurele-si-lupul-zuper",
+  "storyId": "bunelul-iepurele-si-lupul",
+  "title": "Bunelul, iepurele și lupul",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/0c0bc2c4-14fa-40de-96af-0ea9bd542ad3_35BUNELULIEPURELESILUPULlectArcadiePlatanda.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/bunelul-iepurele-%C8%99i-lupul/11",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 231,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality",
+   "age"
+  ]
  }
 ]
