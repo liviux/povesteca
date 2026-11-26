@@ -338,5 +338,15 @@
       "ro": "Podcastul și canalul casei de discuri Roton adună dramatizări clasice cu actorii Teatrului Luceafărul Iași, precum și povești narate de Daniela Nane, Teo Trandafir, Anda Niculina Pittiș și Andreea Mihaela Stan.",
       "en": "Roton’s podcast and YouTube channel bring together classic radio plays performed by actors of Luceafărul Theatre Iași alongside stories read by Daniela Nane, Teo Trandafir, Anda Niculina Pittiș and Andreea Mihaela Stan."
     }
+  },
+  {
+    "id": "hikiddo",
+    "name": "HiKiddo",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@hikiddo",
+    "description": {
+      "ro": "Canalul educațional HiKiddo, fondat de Gabriela Chirobocia, Mihaela Chirobocia și Vlad Onuțu: povești terapeutice pentru copii de grădiniță, fabule și basme clasice în limba română, narate expresiv cu muzică și efecte sonore.",
+      "en": "The HiKiddo educational channel, founded by Gabriela Chirobocia, Mihaela Chirobocia and Vlad Onuțu: therapeutic stories for preschoolers, classic fables and fairy tales in Romanian, expressively narrated with music and sound effects."
+    }
   }
 ]

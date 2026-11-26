@@ -97529,5 +97529,940 @@
       "quality"
     ],
     "addedAt": "2026-11-26"
+  },
+  {
+    "id": "punguta-cu-doi-bani-hikiddo",
+    "storyId": "punguta-cu-doi-bani",
+    "title": "Punguța cu doi bani",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "49fH4RAALWQ",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 664,
+    "year": 2022,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "bogate",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "aventuroasa",
+      "magica"
+    ],
+    "age": 5,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "ursul-pacalit-de-vulpe-hikiddo",
+    "storyId": "ursul-pacalit-de-vulpe",
+    "title": "Ursul păcălit de vulpe",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "B-PcYNsM3MU",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 409,
+    "year": 2022,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "aventuroasa",
+      "educativa"
+    ],
+    "age": 5,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "ratusca-cea-urata-hikiddo",
+    "storyId": "ratusca-cea-urata",
+    "title": "Rățușca cea urâtă",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "3aTNw1rH-Cg",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 193,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "linistitoare",
+      "magica"
+    ],
+    "age": 5,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "printul-fermecat-hikiddo",
+    "storyId": "printul-fermecat",
+    "title": "Prințul fermecat",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "PL6SfcFahZk",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 302,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "magica",
+      "educativa",
+      "linistitoare"
+    ],
+    "age": 5,
+    "quality": 4,
+    "credits": {
+      "narrator": [
+        "Gabriela Chirobocia"
+      ]
+    },
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "leul-si-soricelul-hikiddo",
+    "storyId": "leul-si-soricelul",
+    "title": "Leul și șoricelul",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "cWKdZcchrJ8",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 156,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "linistitoare",
+      "aventuroasa"
+    ],
+    "age": 5,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "corbul-si-vulpea-hikiddo",
+    "storyId": "vulpea-si-corbul",
+    "title": "Corbul și vulpea",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "WlnHLhGdyd4",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 151,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "amuzanta",
+      "linistitoare"
+    ],
+    "age": 5,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "somnoroase-pasarele-hikiddo",
+    "storyId": "somnoroase-pasarele",
+    "title": "Somnoroase păsărele",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "RsDwscLKLlE",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 85,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "somn",
+      "educativa"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "cotofana-si-prepelita-hikiddo",
+    "storyId": "cotofana-si-prepelita",
+    "title": "Coțofana și prepelița",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "bwlQZX6tKKo",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 187,
+    "year": 2022,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "amuzanta"
+    ],
+    "age": 4,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "lupul-pocait-hikiddo",
+    "storyId": "lupul-pocait",
+    "title": "Lupul pocăit",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "K1NBBSI1_10",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 125,
+    "year": 2022,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "fara",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "educativa"
+    ],
+    "age": 5,
+    "quality": 3,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "leul-deghizat-hikiddo",
+    "storyId": "leul-deghizat",
+    "title": "Leul deghizat",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "1uHDThusYqY",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 103,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "educativa"
+    ],
+    "age": 5,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "balada-unui-greier-mic-hikiddo",
+    "storyId": "balada-unui-greier-mic",
+    "title": "Balada unui greier mic",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "1-igrtMTsmE",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 161,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "fara",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "educativa"
+    ],
+    "age": 5,
+    "quality": 3,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "povestea-zebrutei-hikiddo",
+    "storyId": "povestea-zebrutei",
+    "title": "Povestea zebruței",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "s_7_NPPiFPw",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 895,
+    "year": 2020,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "linistitoare",
+      "magica"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "mos-ene-hikiddo-yt",
+    "storyId": "mos-ene-hikiddo",
+    "title": "Moș Ene",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "7eb52-wVkJs",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 811,
+    "year": 2020,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "somn",
+      "magica"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "povestea-lui-aricel-hikiddo",
+    "storyId": "povestea-lui-aricel",
+    "title": "Povestea lui Aricel",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "d-xXRqBkIX4",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 808,
+    "year": 2020,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "educativa",
+      "magica",
+      "somn"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "oita-doli-hikiddo",
+    "storyId": "oita-doli",
+    "title": "Oița Doli",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "e_I7yCcEGCs",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 324,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "linistitoare"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "povestea-iepurasului-tremurici-hikiddo",
+    "storyId": "povestea-iepurasului-tremurici",
+    "title": "Povestea iepurașului Tremurici",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "qEb_QLAK010",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 640,
+    "year": 2020,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "somn",
+      "educativa"
+    ],
+    "age": 4,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "povestea-trandafirului-tepisor-hikiddo",
+    "storyId": "povestea-trandafirului-tepisor",
+    "title": "Povestea trandafirului Țepișor",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "OKGC3Ofz0vY",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 572,
+    "year": 2020,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "educativa",
+      "somn"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "povestea-cizmulitei-hikiddo",
+    "storyId": "povestea-cizmulitei",
+    "title": "Povestea cizmuliței",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "1p05uhPmsoI",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 484,
+    "year": 2020,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "magica",
+      "linistitoare"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "girafa-cea-poznasa-hikiddo",
+    "storyId": "girafa-cea-poznasa",
+    "title": "Girafa cea poznașă",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "37HYrzx4f5A",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 323,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "linistitoare",
+      "amuzanta"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "unicornul-hoppy-hikiddo",
+    "storyId": "unicornul-hoppy",
+    "title": "Unicornul Hoppy",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "vESP34Y_wF4",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 299,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "magica",
+      "linistitoare",
+      "amuzanta"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "zana-maseluta-hikiddo-yt",
+    "storyId": "zana-maseluta-hikiddo",
+    "title": "Zâna Măseluță",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "6Ed03QNmTYE",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 282,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "magica",
+      "educativa",
+      "amuzanta"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "pretiosul-hikiddo",
+    "storyId": "pretiosul",
+    "title": "Prețiosul",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "uZeP1DfX72w",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 268,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "linistitoare"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "vulpea-cea-sireata-hikiddo",
+    "storyId": "vulpea-cea-sireata",
+    "title": "Vulpea cea șireată",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "30gxIy81HgE",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 266,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "educativa",
+      "magica"
+    ],
+    "age": 4,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "poveste-de-paste-hikiddo-yt",
+    "storyId": "poveste-de-paste-hikiddo",
+    "title": "Poveste de Paște",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "fv4_LfsBW-I",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 230,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "magica",
+      "educativa"
+    ],
+    "age": 3,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "creionul-fermecat-hikiddo",
+    "storyId": "creionul-fermecat",
+    "title": "Creionul fermecat",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "dg5pEMgOZXc",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 212,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "bogate",
+    "music": "ambientala",
+    "moods": [
+      "magica",
+      "educativa",
+      "aventuroasa"
+    ],
+    "age": 4,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
+  },
+  {
+    "id": "inteleptul-panda-hikiddo",
+    "storyId": "inteleptul-panda",
+    "title": "Înțeleptul Panda",
+    "sourceId": "hikiddo",
+    "links": [
+      {
+        "type": "youtube",
+        "id": "vaaegTKS8gU",
+        "via": "HiKiddo"
+      }
+    ],
+    "duration": 212,
+    "year": 2021,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "educativa",
+      "aventuroasa"
+    ],
+    "age": 5,
+    "quality": 4,
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ],
+    "addedAt": "2026-11-26"
   }
 ]

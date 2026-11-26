@@ -2,7 +2,7 @@
 
 **Ascultă pe [povesteca.vercel.app](https://povesteca.vercel.app/)**
 
-**1345 de povești și 1720 de înregistrări**
+**1364 de povești și 1746 de înregistrări**
 
 Povesteca e o bibliotecă de povești audio de calitate în limba română: teatru radiofonic și alte povești jucate de actori, cu regie, muzică sau efecte sonore. Le adună de pe Internet Archive, YouTube și alte surse publice și le poți asculta direct în pagină.
 
@@ -12,7 +12,7 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
-Acum sunt 1345 de povești și 1720 de înregistrări, din 34 de surse gratuite:
+Acum sunt 1364 de povești și 1746 de înregistrări, din 35 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -48,6 +48,7 @@ Acum sunt 1345 de povești și 1720 de înregistrări, din 34 de surse gratuite:
 - [Poveștile de vineri seara](https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901) (audio direct MP3, Radio România Actualități)
 - [Clopoțelul Magic (Roton)](https://podcasts.apple.com/ro/podcast/clopotelul-magic/id1525276436) (audio direct și YouTube, dramatizări și povești narate)
 - [Povești cu Nekta](https://www.youtube.com/channel/UCEar0g9AvbQct_mot364iqw) (YouTube, basme narate de Nekta Ioana Dedu)
+- [HiKiddo](https://www.youtube.com/@hikiddo) (YouTube, povești terapeutice, fabule și basme narate)
 
 O poveste poate avea mai multe înregistrări, iar pe pagina poveștii le compari după durată, tip de producție și distribuție. Micul Prinț, de exemplu, are două montări diferite. Unele detalii, cum ar fi vârsta potrivită, atmosfera sau cât de multe efecte sonore are o înregistrare, sunt estimate și apar cu semnul „≈”.
 

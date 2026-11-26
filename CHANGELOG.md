@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.37.0] - 2026-11-26
+
+### Added
+- **Povești noi:** 26 de povești terapeutice, fabule și basme clasice de pe canalul „HiKiddo” (inclusiv lucrări de Ion Creangă, Hans Christian Andersen, Frații Grimm, Esop, Anton Pann, George Topîrceanu, Mihai Eminescu și Gabriela Chirobocia).
+
 ## [1.36.0] - 2026-11-26
 
 ### Added

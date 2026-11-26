@@ -32388,5 +32388,426 @@
     },
     "origin": "romanian",
     "addedAt": "2026-11-26"
+  },
+  {
+    "id": "cotofana-si-prepelita",
+    "title": "Coțofana și prepelița",
+    "author": "Anton Pann",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "istetime",
+      "identitate",
+      "umor"
+    ],
+    "characters": [
+      "Coțofana",
+      "Prepelița"
+    ],
+    "summary": {
+      "ro": "O coțofană încearcă toată vara să imite mersul grațios al prepeliței, dar nu reușește și își uită până și propriul ei mers firesc.",
+      "en": "A magpie spends all summer trying to imitate a quail's graceful walk, only to fail and forget how to walk in her own natural way."
+    },
+    "year": 1841,
+    "origin": "romanian"
+  },
+  {
+    "id": "lupul-pocait",
+    "title": "Lupul pocăit",
+    "author": "Anton Pann",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "adevar",
+      "inselaciune"
+    ],
+    "characters": [
+      "Lupul",
+      "Ciobanul"
+    ],
+    "summary": {
+      "ro": "Un lup bătrân se preface că s-a pocăit și se angajează paznic la o stână, dar își arată curând firea adevărată și este prins de cioban.",
+      "en": "An aging wolf pretends to repent and hires himself out as a sheepdog, but his true nature soon shows and the shepherd catches him."
+    },
+    "year": 1841,
+    "origin": "romanian"
+  },
+  {
+    "id": "leul-deghizat",
+    "title": "Leul deghizat",
+    "author": "George Topîrceanu",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "istetime",
+      "umor"
+    ],
+    "characters": [
+      "Leul",
+      "Lupii"
+    ],
+    "summary": {
+      "ro": "Leul se deghizează în piele de măgar ca să vadă cum se poartă lupii cu supușii pașnici, iar când aceștia îl încolțesc, cel mai șiret lup se scapă cu o vorbă isteață.",
+      "en": "The lion disguises himself in a donkey skin to test how the wolves treat his gentle subjects; when cornered, the craftiest wolf talks his way out with a clever compliment."
+    },
+    "origin": "romanian"
+  },
+  {
+    "id": "balada-unui-greier-mic",
+    "title": "Balada unui greier mic",
+    "author": "George Topîrceanu",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "natura",
+      "munca"
+    ],
+    "characters": [
+      "Greierele",
+      "Furnica"
+    ],
+    "summary": {
+      "ro": "Odată cu venirea toamnei reci, un greier mic rămâne fără provizii și se plânge că va trebui să ceară împrumut de la furnică.",
+      "en": "As cold autumn sweeps over the hills, a tiny cricket realizes he has gathered no grain and laments having to borrow from the ant."
+    },
+    "origin": "romanian"
+  },
+  {
+    "id": "povestea-zebrutei",
+    "title": "Povestea zebruței",
+    "author": "Gabriela Chirobocia",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "identitate",
+      "empatie",
+      "familie"
+    ],
+    "characters": [
+      "Zebruța",
+      "Domnul Pictor (girafa)",
+      "Mama zebră",
+      "Tatăl zebră"
+    ],
+    "summary": {
+      "ro": "Nemulțumită de dungile ei alb-negru, o zebruță merge la un pictor să-și schimbe culorile, dar fiecare vopsea magică îi blochează emoțiile într-o singură stare. Învață astfel să se accepte așa cum este.",
+      "en": "Unhappy with her black-and-white stripes, a little zebra asks a painter for new colors, only to find each magical coat traps her in a single emotion until she learns to love being herself."
+    },
+    "year": 2020,
+    "origin": "romanian"
+  },
+  {
+    "id": "mos-ene-hikiddo",
+    "title": "Moș Ene",
+    "author": "Gabriela Chirobocia",
+    "genre": "poveste",
+    "themes": [
+      "somn",
+      "magie",
+      "prietenie",
+      "noapte"
+    ],
+    "characters": [
+      "Moș Ene",
+      "Steluța Stella"
+    ],
+    "summary": {
+      "ro": "În Împărăția Somnului, steluța Stella și Moș Ene culeg flori de vis și pregătesc o poțiune fermecată pentru copiii dintr-un oraș îndepărtat care nu reușesc să adoarmă.",
+      "en": "In the Kingdom of Sleep, little star Stella and Moș Ene gather dream flowers and brew a soothing potion to help sleepless children in a distant town drift off to sleep."
+    },
+    "year": 2020,
+    "origin": "romanian"
+  },
+  {
+    "id": "povestea-lui-aricel",
+    "title": "Povestea lui Aricel",
+    "author": "Gabriela Chirobocia",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "prietenie",
+      "identitate",
+      "incredere"
+    ],
+    "characters": [
+      "Aricel",
+      "Bufnița",
+      "Steluța",
+      "Iepurașul"
+    ],
+    "summary": {
+      "ro": "Aricel nu își poate face prieteni la școală fiindcă țepii i se zbârlesc de emoție. O bufniță și o steluță îl învață un exercițiu de respirație și iubire care îi îmblânzește țepii.",
+      "en": "Little hedgehog Aricel struggles to make friends because his quills bristle whenever he feels tense, until an owl and a wise star teach him a calming breathing exercise."
+    },
+    "year": 2020,
+    "origin": "romanian"
+  },
+  {
+    "id": "oita-doli",
+    "title": "Oița Doli",
+    "author": "Gabriela Chirobocia",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "prietenie",
+      "cooperare",
+      "empatie"
+    ],
+    "characters": [
+      "Oița Doli",
+      "Mama oaie"
+    ],
+    "summary": {
+      "ro": "Oița Doli se supără când prietenele ei nu vor să se joace doar cu mingea ei și le stropește cu noroi. Cu ajutorul mamei, își cere iertare și descoperă bucuria jocului împreună.",
+      "en": "Doli the lamb gets upset when her friends want to play something else and splashes them with mud. With her mother's guidance, she apologizes and learns to share."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "povestea-iepurasului-tremurici",
+    "title": "Povestea iepurașului Tremurici",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "curaj",
+      "somn",
+      "familie"
+    ],
+    "characters": [
+      "Tremurici",
+      "Mama iepuroaică",
+      "Lupul Codiță"
+    ],
+    "summary": {
+      "ro": "Iepurașul Tremurici se sperie de orice foșnet și visează un lup fioros, dar mama lui îl învață cum să-și înfrunte frica și să transforme spaima într-un joc prietenos.",
+      "en": "Timid little rabbit Tremurici is scared of every sound and dreams about a fierce wolf, until his mother teaches him how to face his fear and turn it into a friendly pup."
+    },
+    "year": 2020,
+    "origin": "romanian"
+  },
+  {
+    "id": "povestea-trandafirului-tepisor",
+    "title": "Povestea trandafirului Țepișor",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "natura",
+      "prietenie",
+      "identitate",
+      "scoala"
+    ],
+    "characters": [
+      "Trandafirul Țepișor",
+      "Vâscul",
+      "Mama trandafir"
+    ],
+    "summary": {
+      "ro": "Mândrul trandafir Țepișor ajunge la școala florilor alături de Vâsc, care rămâne verde și iarna. Când petalele lui cad toamna, mama îl liniștește că fiecare floare are rostul și anotimpul ei.",
+      "en": "Proud little rose Țepișor attends flower school alongside Mistletoe. As autumn arrives and his petals fall, his mother reassures him that every plant has its own season and will bloom again."
+    },
+    "year": 2020,
+    "origin": "romanian"
+  },
+  {
+    "id": "povestea-cizmulitei",
+    "title": "Povestea cizmuliței",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "sarbatori",
+      "iarna",
+      "familie",
+      "cadouri"
+    ],
+    "characters": [
+      "Cizmulița",
+      "Moș Nicolae"
+    ],
+    "summary": {
+      "ro": "În ajun de Moș Nicolae, o cizmuliță tristă își caută perechea rătăcită ca să nu rămână singură. Moș Nicolae o ajută să își găsească surioara sub zăpadă și le umple pe amândouă cu daruri.",
+      "en": "On Saint Nicholas Eve, a little boot searches for her missing twin so she won't be left empty and alone, and Moș Nicolae helps reunite the pair before filling them with sweets."
+    },
+    "year": 2020,
+    "origin": "romanian"
+  },
+  {
+    "id": "girafa-cea-poznasa",
+    "title": "Girafa cea poznașă",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "identitate",
+      "bunatate"
+    ],
+    "characters": [
+      "Girafa",
+      "Ariciul",
+      "Puiul de pasăre"
+    ],
+    "summary": {
+      "ro": "O mică girafă este nemulțumită de gâtul și picioarele ei lungi, până când salvează un pui de pasăre blocat într-un copac înalt și descoperă cât de prețioase sunt trăsăturile ei.",
+      "en": "A young giraffe dislikes her long legs and neck until she rescues a baby bird stranded high in a tree and realizes her unique traits are a gift."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "unicornul-hoppy",
+    "title": "Unicornul Hoppy",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "magie",
+      "empatie",
+      "prietenie",
+      "respect"
+    ],
+    "characters": [
+      "Unicornul Hoppy",
+      "Fetița",
+      "Zâna"
+    ],
+    "summary": {
+      "ro": "Unicornul Hoppy face mereu pozne și nu știe să își ceară scuze. Cu ajutorul unei zâne și al unei fetițe răbdătoare, învață ce înseamnă «Îmi pare rău» și își face o nouă prietenă.",
+      "en": "Mischievous unicorn Hoppy never apologizes after bumping into others until a fairy and a patient little girl teach him the meaning of saying 'I'm sorry'."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "zana-maseluta-hikiddo",
+    "title": "Zâna Măseluță",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "adevar",
+      "magie"
+    ],
+    "characters": [
+      "Pisicuța Fifi",
+      "Grivei",
+      "Zâna Măseluță"
+    ],
+    "summary": {
+      "ro": "Pisicuța Fifi își pune dintele de lapte sub pernă și primește un bănuț de ciocolată de la Zâna Măseluță. Când încearcă să o păcălească cu o pietricică, primește o lecție blândă despre sinceritate.",
+      "en": "Kitten Fifi leaves her baby tooth under her pillow for a chocolate coin from the Tooth Fairy. When she tries to trick the fairy with a pebble, she learns a gentle lesson about honesty."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "pretiosul",
+    "title": "Prețiosul",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "familie",
+      "curaj",
+      "incredere"
+    ],
+    "characters": [
+      "Prețiosul",
+      "Mama găină"
+    ],
+    "summary": {
+      "ro": "O găină grijulie își ține puișorul Prețiosul închis în hambar de teamă să nu pățească ceva, dar micuțul devine speriat de lumea de afară. Mama înțelege că trebuie să îl încurajeze cu încredere să exploreze.",
+      "en": "An overprotective mother hen keeps her chick Prețiosul shut inside the barn until he grows fearful of the outside world, teaching her to gently encourage his independence."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "vulpea-cea-sireata",
+    "title": "Vulpea cea șireată",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "curaj",
+      "istetime",
+      "prietenie"
+    ],
+    "characters": [
+      "Vulpița Roșcovana",
+      "Leul"
+    ],
+    "summary": {
+      "ro": "O vulpiță fricoasă dă nas în nas cu un leu flămând pe malul unui lac, dar își învinge spaima și îl păcălește să sară după pești fermecați. Salvându-l apoi din apă, câștigă un prieten pe viață.",
+      "en": "A timid little fox faces a hungry lion by a lake, overcomes her panic to outwit him into jumping in for magic fish, and then rescues him, winning a loyal protector."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "poveste-de-paste-hikiddo",
+    "title": "Poveste de Paște",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "sarbatori",
+      "prietenie"
+    ],
+    "characters": [
+      "Steluța Stella",
+      "Unchiul Bob",
+      "Iepurașul de Paște"
+    ],
+    "summary": {
+      "ro": "În ziua de Paște, steluța Stella merge la ferma unchiului Bob și pregătește un picnic cu animalele, iar Iepurașul sosește cu un coș plin de ouă vopsite.",
+      "en": "On Easter Day, little star Stella visits Uncle Bob's farm for a picnic with the animals, just in time for the Easter Bunny to arrive with painted eggs."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "creionul-fermecat",
+    "title": "Creionul fermecat",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "magie",
+      "bunatate",
+      "generozitate",
+      "curaj"
+    ],
+    "characters": [
+      "Adela",
+      "Împăratul lacom"
+    ],
+    "summary": {
+      "ro": "Adela, o fetiță săracă, primește un creion fermecat cu care desenele prind viață și îi ajută pe cei nevoiași. Închisă de un împărat lacom, evadează desenând o cheie și un cal.",
+      "en": "Adela receives a magic pencil that brings her drawings to life so she can help people and animals in need. When a greedy emperor locks her away, she draws a key and a horse to escape."
+    },
+    "year": 2021,
+    "origin": "romanian"
+  },
+  {
+    "id": "inteleptul-panda",
+    "title": "Înțeleptul Panda",
+    "author": "HiKiddo",
+    "genre": "poveste",
+    "themes": [
+      "animale",
+      "istetime",
+      "prietenie",
+      "intelepciune"
+    ],
+    "characters": [
+      "Panda",
+      "Rechinul",
+      "Caracatița"
+    ],
+    "summary": {
+      "ro": "Un panda bun la suflet îi dăruiește zilnic nuci de cocos unui rechin, până când rechinul, sfătuit de o caracatiță, vrea să-i ia inima ca să-i capete înțelepciunea. Panda îl păcălește spunând că și-a lăsat inima în palmier.",
+      "en": "A wise panda shares coconuts every day with a shark until a sly octopus convinces the shark to take the panda's heart for its wisdom. The panda outwits him by claiming he left his heart in the palm tree."
+    },
+    "year": 2021,
+    "origin": "romanian"
   }
 ]

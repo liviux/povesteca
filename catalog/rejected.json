@@ -478,6 +478,89 @@
       ],
       "reason": "Trailer video și anunț promoțional Audible, nu lectura integrală a poveștii.",
       "date": "2026-11-26"
+    },
+    {
+      "id": "legenda-lui-mos-nicolae-hikiddo",
+      "title": "Legenda lui Moș Nicolae – Maria Ioana Vasiloiu (HiKiddo)",
+      "links": [
+        "youtube:xceDs2dwy1w"
+      ],
+      "reason": "Hagiografie creștină (viața și minunile Sfântului Nicolae), exclusă de regula poveștilor pur religioase, și reîncărcare necreditată a spectacolului Radio România regizat de Dan Puican (1995).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "luceafarul-hikiddo",
+      "title": "Luceafărul de Mihai Eminescu (HiKiddo)",
+      "links": [
+        "youtube:mI-aDd1nG_M"
+      ],
+      "reason": "Poem filosofic și romantic pentru adolescenți/adulți (> 10 ani) și reîncărcare necreditată dintr-o înregistrare de arhivă a Teatrului Național Radiofonic.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "scrisoarea-i-hikiddo",
+      "title": "Scrisoarea I – Mihai Eminescu, recitare Ion Caramitru (HiKiddo)",
+      "links": [
+        "youtube:FFUkmsHQiFg"
+      ],
+      "reason": "Poem filosofic pentru liceeni/adulți (> 10 ani) și reîncărcare neoficială a recitării lui Ion Caramitru fără credite complete de producție.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "floare-albastra-hikiddo",
+      "title": "Floare albastră – Mihai Eminescu, recitare Ion Caramitru (HiKiddo)",
+      "links": [
+        "youtube:-jKk7og3JiU"
+      ],
+      "reason": "Poem liric romantic pentru adolescenți/adulți (> 10 ani) și reîncărcare neoficială a recitării lui Ion Caramitru.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "jucaria-stella-hikiddo",
+      "title": "Jucăria STELLA, prietena copiilor! (HiKiddo)",
+      "links": [
+        "youtube:dGnR3NpMfEw"
+      ],
+      "reason": "Spot promoțional comercial pentru jucăria de pluș HiKiddo Stella, dependent de video și nu o poveste de ascultat.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "furtunile-electrice-jupiter-hikiddo",
+      "title": "Furtunile ELECTRICE de pe JUPITER! (HiKiddo)",
+      "links": [
+        "youtube:7hX0tjw3JfU"
+      ],
+      "reason": "Clip scurt exclusiv vizual cu muzică instrumentală și zero narațiune vorbită.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "primavara-vivaldi-hikiddo",
+      "title": "Primăvara – Antonio Vivaldi (Sonete și Muzică) (HiKiddo)",
+      "links": [
+        "youtube:DhgGmQ55bcw"
+      ],
+      "reason": "Concert instrumental fără narațiune vorbită; sonetul apare doar ca text pe ecran.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "cavalerul-haz-partile-1-3-hikiddo",
+      "title": "Cavalerul Haz – Părțile I, II și III (HiKiddo)",
+      "links": [
+        "youtube:BGoGaXOwWXk",
+        "youtube:yGOr3Qm07J0",
+        "youtube:TwI2A9oYNvU"
+      ],
+      "reason": "Trei fragmente scurte episodice (~70–90s fiecare) de poezie împărțite pe clipuri separate, nefiind o înregistrare unitară de poveste.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "hikiddo-povesti-video-privat",
+      "title": "Video privat din playlistul Povești pentru copii (HiKiddo)",
+      "links": [
+        "youtube:VuIzlKoz9iY"
+      ],
+      "reason": "Videoclip privat pe YouTube (indisponibil pentru redare).",
+      "date": "2026-11-26"
     }
   ]
 }

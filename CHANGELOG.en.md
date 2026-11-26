@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.37.0] - 2026-11-26
+
+### Added
+- **New stories:** 26 therapeutic stories, fables, and classic fairy tales from the HiKiddo channel (including works by Ion Creangă, Hans Christian Andersen, Brothers Grimm, Aesop, Anton Pann, George Topîrceanu, Mihai Eminescu, and Gabriela Chirobocia).
+
 ## [1.36.0] - 2026-11-26
 
 ### Added
