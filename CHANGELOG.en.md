@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.37.1] - 2026-11-26
+
+### Changed
+- Recorded why five reviewed sources were left out of the catalog.
+
 ## [1.37.0] - 2026-11-26
 
 ### Added

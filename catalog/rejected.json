@@ -13,6 +13,41 @@
       "url": "https://www.youtube.com/@RadioZalau",
       "reason": "Sursă scoasă anterior (v1.31.2): canalul nu întrunea criteriile de eligibilitate și pragul minim de înregistrări eligibile pentru copii.",
       "date": "2026-11-25"
+    },
+    {
+      "id": "deseneaza-mi-o-poveste",
+      "name": "Desenează-mi o poveste",
+      "url": "https://anchor.fm/s/e73e7640/podcast/rss",
+      "reason": "Colecția are doar cinci povești de aproximativ 3–4½ minute. Muzica detectată apare la început și la final, iar în timpul poveștilor predomină vocile.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "palatul-copiilor-arad",
+      "name": "Teatrul radiofonic al copiilor păpușari (Palatul Copiilor Arad)",
+      "url": "https://palatulcopiilorarad.ro/teatrul-radiofonic-al-copiilor-papusari-la-radiotv-unirea-international/",
+      "reason": "Scenete de atelier difuzate alături de poezii și fragmente. Nu s-au confirmat cinci povești complete cu producția sonoră căutată.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "aventurile-lui-timok",
+      "name": "Aventurile lui Timok",
+      "url": "https://anchor.fm/s/e8284234/podcast/rss",
+      "reason": "Fluxul audio amestecă episoade de poveste cu jocuri și lecții. Nu s-au putut confirma interpreții pentru cel puțin cinci episoade de poveste.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "pe-o-sa",
+      "name": "Pe-o Șa – Povești din bătrâni",
+      "url": "https://peosa.md/",
+      "reason": "În fluxul audio s-au găsit doar patru povești de ficțiune candidate, iar interpreții lor nu sunt confirmați.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "povesti-cu-tincuta",
+      "name": "Povești cu Tincuța",
+      "url": "https://www.youtube.com/@StorieswithTincuta",
+      "reason": "Sunt prea puține povești accesibile pentru pragul de cinci. S-a verificat o singură înregistrare publică, păstrată în podcastul lui Emanuel Pope.",
+      "date": "2026-11-26"
     }
   ],
   "stories": [
