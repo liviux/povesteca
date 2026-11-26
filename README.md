@@ -2,7 +2,7 @@
 
 **Ascultă pe [povesteca.vercel.app](https://povesteca.vercel.app/)**
 
-**1264 de povești și 1588 de înregistrări**
+**1284 de povești și 1619 de înregistrări**
 
 Povesteca e o bibliotecă de povești audio de calitate în limba română: teatru radiofonic și alte povești jucate de actori, cu regie, muzică sau efecte sonore. Le adună de pe Internet Archive, YouTube și alte surse publice și le poți asculta direct în pagină.
 

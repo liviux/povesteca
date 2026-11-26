@@ -2,6 +2,17 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.33.0] - 2026-11-26
+
+### Added
+- **Povești noi:** 21 de povești și 32 de înregistrări din fonotecile Radio România și Radio Moldova și de la MiniPovești.
+
+### Changed
+- 10 înregistrări au încă o adresă de redare pentru aceeași montare.
+
+### Removed
+- „Oița cea lacomă” a ieșit din catalog deoarece băutura este în centrul poveștii.
+
 ## [1.32.7] - 2026-11-25
 
 ### Changed

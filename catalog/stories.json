@@ -5890,8 +5890,8 @@
  {
   "id": "cei-trei-ursi",
   "title": "Cei trei urși",
-  "author": "Mihail Sadoveanu",
-  "origin": "romanian",
+  "author": "poveste populară engleză",
+  "origin": "english",
   "genre": "poveste",
   "themes": [
    "animale",
@@ -5900,16 +5900,16 @@
    "aventura"
   ],
   "summary": {
-   "ro": "Rătăcită prin pădure după fragi, o fetiță neastâmpărată pe nume Fâșneața dă peste casa urșilor Martin, Martinoaia și puiul lor Vasilică. Cât urșii sunt plecați, ea le încearcă mâncarea și așternuturile, iar când se întorc acasă, fuge pe fereastră înapoi în sat.",
-   "en": "Wandering through the forest in search of wild strawberries, a restless girl named Fâșneața comes upon the house of the bears Martin, Martinoaia, and their cub Vasilică. While the bears are away, she tries their food and beds, and when they return home, she leaps out the window and runs back to the village."
+   "ro": "O fetiță se rătăcește în pădure și intră în casa a trei urși. Încearcă mâncarea din castroane, apoi paturile. Când se întorc urșii, o găsesc adormită în patul puiului.",
+   "en": "A girl gets lost in the woods and walks into the home of three bears. She tries the food in their bowls and then their beds. When the bears come home, they find her asleep in the cub’s bed."
   },
   "age": 5,
   "addedAt": "2026-11-22",
   "characters": [
-   "Fâșneața",
-   "Martin",
-   "Martinoaia",
-   "Vasilică"
+   "Fetița",
+   "Tatăl-urs",
+   "Mama-urs",
+   "Puiul de urs"
   ]
  },
  {
@@ -11138,29 +11138,6 @@
    "Bunicul",
    "Gâscarul",
    "Regele"
-  ]
- },
- {
-  "id": "oita-cea-lacoma",
-  "title": "Oița cea lacomă",
-  "author": "poveste populară spaniolă",
-  "origin": "spanish",
-  "genre": "basm",
-  "themes": [
-   "animale",
-   "prietenie",
-   "ascultare"
-  ],
-  "summary": {
-   "ro": "Mara, oaia mamă, pregătește plăcinte și vin pentru vecinul ei, lupul, și o trimite pe fiica sa Marela să le ducă. Pe drum, Marela mănâncă plăcintele și ascunde ce a făcut, iar lupul descoperă înșelăciunea.",
-   "en": "Mara the mother sheep bakes pies and prepares wine for her neighbour the wolf and sends her daughter Marela to deliver them. On the way Marela eats the pies and hides what she has done, and the wolf discovers the deception."
-  },
-  "age": 5,
-  "addedAt": "2026-11-22",
-  "characters": [
-   "Mara",
-   "Marela",
-   "Lupul"
   ]
  },
  {
@@ -30466,5 +30443,513 @@
   "year": 2016,
   "origin": "romanian",
   "addedAt": "2026-11-25"
+ },
+ {
+  "id": "casuta-din-oala",
+  "title": "Căsuța din oală",
+  "author": "poveste populară",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "prietenie",
+   "adapost"
+  ],
+  "characters": [
+   "Șoricelul",
+   "Broscuța",
+   "Iepurele",
+   "Vulpea",
+   "Lupul",
+   "Ursul"
+  ],
+  "summary": {
+   "ro": "Șoricelul face dintr-o oală părăsită o căsuță. În curând are patru vecini sub același acoperiș. Într-o zi, un urs obosit vede oala și se așază pe ea.",
+   "en": "A mouse turns a discarded pot into a little house. Before long, four neighbours move in with him. One day, a tired bear spots the pot and sits on it."
+  },
+  "addedAt": "2026-11-26",
+  "origin": "russian",
+  "altTitles": [
+   "Teremok"
+  ]
+ },
+ {
+  "id": "soarele-si-vantul",
+  "title": "Soarele și vântul",
+  "author": "poveste populară",
+  "genre": "poveste",
+  "themes": [
+   "natura",
+   "prietenie",
+   "bunatate"
+  ],
+  "characters": [
+   "Soarele",
+   "Vântul",
+   "Garoafa",
+   "Pescarul"
+  ],
+  "summary": {
+   "ro": "Vântul dă norii la o parte ca să se poată juca și soarele printre flori. Când toate vietățile încep să laude numai soarele, vântul se întreabă dacă mai are vreun rost să adie.",
+   "en": "The wind clears away the clouds so the sun can play among the flowers. When everyone starts praising the sun alone, the wind wonders if there is any point in blowing."
+  },
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "cei-trei-hoti",
+  "title": "Cei trei hoți",
+  "author": "poveste populară românească",
+  "genre": "poveste",
+  "themes": [
+   "istetime",
+   "targ",
+   "pozne"
+  ],
+  "characters": [
+   "Moșneagul",
+   "Cei trei hoți",
+   "Țapul",
+   "Măgarul"
+  ],
+  "summary": {
+   "ro": "Un moșneag pleacă la târg cu un țap și un măgar. Trei hoți se întrec care să-i facă o pagubă mai mare. Primul începe prin a muta clopoțelul țapului la coada măgarului.",
+   "en": "An old man sets off for the market with a goat and a donkey. Three thieves compete to see who can get the better of him. The first moves the goat’s bell to the donkey’s tail."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "vulpea-si-lupul",
+  "title": "Vulpea și lupul",
+  "author": "poveste populară",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "istetime",
+   "padure"
+  ],
+  "characters": [
+   "Vulpea",
+   "Lupul",
+   "Mielul",
+   "Oaia",
+   "Ciobanul"
+  ],
+  "summary": {
+   "ro": "O oaie își lasă mielul în grija vulpii. În pădure apare lupul, care încearcă s-o convingă că poate avea el grijă de miel. Vulpea îl duce să-și dea cuvântul lângă locul unde pădurarul a pus o capcană.",
+   "en": "A sheep leaves her lamb with the fox. A wolf appears in the woods and tries to persuade the fox to hand the lamb over. The fox takes him to give his word near a trap set by the forester."
+  },
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "povestea-lui-mos-ene",
+  "title": "Povestea lui Moș Ene",
+  "author": "Hans Christian Andersen",
+  "genre": "basm",
+  "themes": [
+   "vise",
+   "somn",
+   "magie",
+   "aventura"
+  ],
+  "characters": [
+   "Moș Ene",
+   "Hjalmar",
+   "Prințesele",
+   "Peștii",
+   "Soldățeii de plumb"
+  ],
+  "summary": {
+   "ro": "Moș Ene are două umbrele, iar sub cea pestriță îi așteaptă visele pe copii. Într-o seară, îl ridică pe Hjalmar până la rama unui tablou. Băiatul intră în peisaj și pornește cu barca printre pești argintii și palate de sticlă.",
+   "en": "The Sandman has two umbrellas, with dreams waiting for children under the colourful one. One evening he lifts Hjalmar up to a picture frame. The boy steps into the painting and sets off in a boat past silver fish and glass palaces."
+  },
+  "origin": "danish",
+  "year": 1841,
+  "addedAt": "2026-11-26",
+  "altTitles": [
+   "Ole Lukøje"
+  ]
+ },
+ {
+  "id": "vis-de-povesti",
+  "title": "Vis de povești",
+  "author": "Cleopatra Lorințiu",
+  "genre": "poveste",
+  "themes": [
+   "vise",
+   "imaginatie",
+   "carti",
+   "scoala"
+  ],
+  "characters": [
+   "Băiatul",
+   "Smărăndița",
+   "Făt-Frumos",
+   "Scufița Roșie",
+   "Albă-ca-Zăpada",
+   "Cei șapte pitici"
+  ],
+  "summary": {
+   "ro": "Un băiat îi spune Smărăndiței că basmele ei sunt fleacuri și refuză s-o ajute la serbare. Seara, chiar în dormitorul lui, se pomenește înconjurat de personajele pe care le luase peste picior.",
+   "en": "A boy tells Smărăndița her fairy tales are silly and refuses to help with the school show. That night, in his own bedroom, he finds himself surrounded by the very characters he made fun of."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "asta-seara-vine-mos-nicolae",
+  "title": "Astă seară vine Moș Nicolae",
+  "author": [
+   "Simona Vasiliu",
+   "Dan Vasiliu"
+  ],
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "cadouri",
+   "prieteni"
+  ],
+  "characters": [
+   "Maria",
+   "Cristian",
+   "Matei",
+   "Bunicul",
+   "Moș Nicolae"
+  ],
+  "summary": {
+   "ro": "La școală, Maria, Cristian și colegii lor îi scriu lui Moș Nicolae. Cristian cere un cal alb. Bunicul îl pune pe gânduri când îi spune că nu toți caii au aceeași mărime.",
+   "en": "At school, Maria, Cristian and their classmates write to Moș Nicolae. Cristian asks for a white horse. His grandfather leaves him wondering when he says horses come in all sizes."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "micul-eschimos",
+  "title": "Micul eschimos",
+  "author": "Cristian Mitescu",
+  "genre": "poveste-muzicala",
+  "themes": [
+   "familie",
+   "iarna",
+   "pescuit"
+  ],
+  "characters": [
+   "Băiatul",
+   "Tatăl",
+   "Sora",
+   "Povestitorul"
+  ],
+  "summary": {
+   "ro": "Un băiat își pregătește undițele și pleacă la pescuit cu tatăl său. Cei doi caută o copcă în gheață și cântă în așteptarea peștilor pe care îi vor duce acasă.",
+   "en": "A boy gets his fishing rods ready and sets out with his father. They find a hole in the ice and sing as they wait for the fish they hope to bring home."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "un-imparat-la-vanatoare",
+  "title": "Un împărat la vânătoare",
+  "author": "poveste populară",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "aventura",
+   "frati"
+  ],
+  "characters": [
+   "Împăratul",
+   "Ileana",
+   "Cei trei feciori de împărat",
+   "Curtenii"
+  ],
+  "summary": {
+   "ro": "Un împărat găsește în pădure o fetiță și o aduce la palat. Ani mai târziu, când Ileana se îmbolnăvește, cei trei fii ai împăratului se întorc cu o oglindă, un covor și o icoană, fiecare cu puterea ei.",
+   "en": "An emperor finds a little girl in the forest and brings her to the palace. Years later, when Ileana falls ill, his three sons bring back a mirror, a carpet and an icon, each with its own power."
+  },
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "zoo-top-un-spectacol-formidabil",
+  "title": "Zoo-top, un spectacol formidabil",
+  "author": "Gheorghe Popovici Poenaru",
+  "genre": "poveste-muzicala",
+  "themes": [
+   "animale",
+   "muzica",
+   "padure",
+   "spectacol"
+  ],
+  "characters": [
+   "Puf",
+   "Ciuf",
+   "Cucul Gagu",
+   "Ciocănitoarea Toc-Toc",
+   "Vițelușul Luluș"
+  ],
+  "summary": {
+   "ro": "Iepurașii Puf și Ciuf pregătesc un concert în poiană. Când cucul își pierde vocea, cei doi o roagă pe ciocănitoare să trimită prin pădure un anunț de audiție. Fiecare candidat are felul său de a cânta cântecul cucului.",
+   "en": "Puf and Ciuf, two rabbits, are putting on a concert in the clearing. When the cuckoo loses his voice, they ask a woodpecker to send out a call for auditions. Every candidate has a different way of singing the cuckoo’s song."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "cainele-pisica-si-soricelul",
+  "title": "Câinele, pisica și șoricelul",
+  "author": "Ion Proca",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "iarna",
+   "prietenie"
+  ],
+  "characters": [
+   "Tărcuș",
+   "Pisica",
+   "Șoricelul"
+  ],
+  "summary": {
+   "ro": "Într-o iarnă geroasă, câinele Tărcuș îi scrie pisicii ca să-i ceară adăpost. Pisica lasă scrisoarea în dulap, unde șoricelul se apucă de ros.",
+   "en": "On a freezing winter day, a dog named Tărcuș writes to the cat to ask for shelter. The cat leaves the letter in the cupboard, where a little mouse starts to nibble on it."
+  },
+  "origin": "moldovan",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "casuta-cu-patru-picioare",
+  "title": "Căsuța cu patru picioare",
+  "author": "Raisa Lungu-Ploaie",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "natura",
+   "curiozitate"
+  ],
+  "characters": [
+   "Licurici",
+   "Bunicul",
+   "Albinele"
+  ],
+  "summary": {
+   "ro": "Licurici îl ajută pe bunicul său să facă o căsuță din lemn. Când vede că ușa ei e doar o gaură cât să intre o albină, începe să bănuiască pentru cine au construit-o.",
+   "en": "Licurici helps his grandfather build a little wooden house. When he sees that the doorway is a hole just big enough for a bee, he begins to guess who will live there."
+  },
+  "origin": "moldovan",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "lacrimi-de-crocodil",
+  "title": "Lacrimi de crocodil",
+  "author": "Iurii Iarmâș",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "prietenie",
+   "istetime"
+  ],
+  "characters": [
+   "Bif",
+   "Dif",
+   "Crocodilul"
+  ],
+  "summary": {
+   "ro": "Elefănțeii Bif și Dif se scaldă într-un lac. Când un crocodil lacom se pune pe plâns ca să-i gonească, cei doi găsesc o cale să-l ducă și ei de nas.",
+   "en": "Two little elephants, Bif and Dif, are bathing in a lake. When a greedy crocodile starts crying to chase them off, they find a way to play a trick on him in return."
+  },
+  "origin": "ukrainian",
+  "addedAt": "2026-11-26",
+  "year": 1967,
+  "altTitles": [
+   "Крокодил, який гірко плакав",
+   "Crocodile Tears"
+  ]
+ },
+ {
+  "id": "ochelarii-bunelului",
+  "title": "Ochelarii bunelului",
+  "author": "Evgheni Permeak",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "harnicie"
+  ],
+  "characters": [
+   "Bunelul",
+   "Nepotul"
+  ],
+  "summary": {
+   "ro": "Bunelul spune că nu mai vede bine și îl roagă pe nepot să-l ajute să repare o ramă de fereastră. Băiatul învață cum se lucrează lemnul și descoperă cât de bine vede, de fapt, bunelul.",
+   "en": "Grandpa says he can hardly see and asks his grandson to help repair a window frame. The boy learns how to work with wood and discovers just how well his grandfather can really see."
+  },
+  "origin": "russian",
+  "addedAt": "2026-11-26",
+  "year": 1956,
+  "altTitles": [
+   "Дедушкины очки"
+  ]
+ },
+ {
+  "id": "imparatul-si-balenele",
+  "title": "Împăratul și balenele",
+  "author": "Donald Bisset",
+  "genre": "poveste",
+  "themes": [
+   "mare",
+   "animale",
+   "istetime"
+  ],
+  "characters": [
+   "Neptun",
+   "Fetele lui Neptun",
+   "Balenele",
+   "Homarul"
+  ],
+  "summary": {
+   "ro": "Balenele beau atâta apă încât Neptun se teme că marea va seca. Le cheamă pe cele patruzeci de fiice ale sale și le cere să pună sare în apă.",
+   "en": "The whales are drinking so much water that Neptune fears the sea will run dry. He calls his forty daughters and asks them to put salt in the water."
+  },
+  "origin": "british",
+  "addedAt": "2026-11-26",
+  "year": 1967,
+  "altTitles": [
+   "Father Neptune and the Whales"
+  ]
+ },
+ {
+  "id": "scrisoarea-lui-ionica",
+  "title": "Scrisoarea",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "familie",
+   "dor",
+   "calatorie"
+  ],
+  "characters": [
+   "Ionică",
+   "Nea Tudorel",
+   "Bunica"
+  ],
+  "summary": {
+   "ro": "Ionică locuiește cu bunica lui într-un sat de munte. Când poștașul îi aduce o scrisoare de la părinții plecați în Italia, băiatul se ascunde în mașina lui, curios să afle pe unde călătoresc scrisorile.",
+   "en": "Ionică lives with his grandmother in a mountain village. When the postman brings him a letter from his parents in Italy, the boy hides in the postman’s van to find out how letters travel."
+  },
+  "origin": "romanian",
+  "year": 2024,
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "marea-cursa-a-padurii",
+  "title": "Marea cursă a pădurii",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "curaj",
+   "sport"
+  ],
+  "characters": [
+   "Săltărel",
+   "Lentilă",
+   "Felix",
+   "Braun",
+   "Dara"
+  ],
+  "summary": {
+   "ro": "Iepurașul Săltărel se antrenează cu țestoasa Lentilă pentru marea cursă a pădurii. Vulpoiul Felix și ursul Braun, favoriții cursei, încearcă să-l facă să renunțe.",
+   "en": "A little hare named Săltărel trains with Lentilă the tortoise for the forest’s big race. Felix the fox and Braun the bear, the favourites to win, try to make him quit."
+  },
+  "origin": "romanian",
+  "year": 2024,
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "papusareasa",
+  "title": "Păpușăreasa",
+  "author": "Mihai Mănescu",
+  "genre": "poveste",
+  "themes": [
+   "arte",
+   "prietenie",
+   "jucarii"
+  ],
+  "characters": [
+   "Aliona",
+   "Anastasia",
+   "Viorica",
+   "Primarul"
+  ],
+  "summary": {
+   "ro": "Aliona găsește adăpost într-un teatru vechi, unde Anastasia o învață să mânuiască marionete. Când află că teatrul ar putea fi demolat, fetița pregătește un spectacol și îl invită pe primar.",
+   "en": "Aliona finds shelter in an old theatre, where Anastasia teaches her to work with marionettes. When she learns the theatre might be torn down, Aliona puts on a show and invites the mayor."
+  },
+  "origin": "romanian",
+  "year": 2024,
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "intamplare-cu-o-veverita",
+  "title": "Întâmplare cu o veveriță",
+  "author": "basm popular armean",
+  "genre": "basm",
+  "themes": [
+   "animale",
+   "padure",
+   "magie"
+  ],
+  "characters": [
+   "Veverița",
+   "Iepurele"
+  ],
+  "summary": {
+   "ro": "Pe vremuri, iepurele avea o coadă stufoasă, iar veverița râdea de el ori de câte ori îl vedea. Într-o zi, cei doi schimbă cozile și veverița află cât de ușor e să ajungi tu ținta glumelor.",
+   "en": "Long ago the hare had a bushy tail, and the squirrel laughed whenever she saw him. One day they swap tails, and the squirrel finds out how easily the joke can turn on her."
+  },
+  "origin": "armenian",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "poveste-de-iarna-sanda-socoliuc",
+  "title": "Poveste de iarnă",
+  "author": "Sanda Socoliuc",
+  "genre": "poveste",
+  "themes": [
+   "iarna",
+   "animale",
+   "curiozitate"
+  ],
+  "characters": [
+   "Băiatul",
+   "Cățelul",
+   "Vrabia",
+   "Pițigoiul"
+  ],
+  "summary": {
+   "ro": "Într-o zi cenușie de iarnă, un băiat caută soarele prin curte. Vrabia și cățelul au fiecare câte o bănuială despre locul unde s-ar fi putut ascunde.",
+   "en": "On a grey winter day, a boy looks for the sun in his yard. The sparrow and the dog each have a guess about where it might be hiding."
+  },
+  "origin": "romanian",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "trandafirul-de-aur",
+  "title": "Trandafirul de aur",
+  "author": "poveste populară orientală",
+  "genre": "basm",
+  "themes": [
+   "magie",
+   "generozitate",
+   "calatorie"
+  ],
+  "characters": [
+   "Tânărul",
+   "Tatăl",
+   "Zâna",
+   "Păstorița"
+  ],
+  "summary": {
+   "ro": "Un tânăr își împarte merindele cu o bătrână flămândă. Ea îi arată drumul spre un castel unde îl așteaptă un trandafir de aur care împlinește câte o dorință pentru fiecare petală.",
+   "en": "A young man shares his provisions with a hungry old woman. She tells him how to reach a castle where a golden rose grants one wish for each of its petals."
+  },
+  "addedAt": "2026-11-26"
  }
 ]

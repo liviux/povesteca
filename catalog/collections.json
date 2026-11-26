@@ -1207,7 +1207,30 @@
    "motanul-tapul-si-oaia-culturalia-2003",
    "munca-ta-e-mai-usoara-culturalia-2003",
    "de-ce-au-iepurasii-coada-scurta-culturalia-2003",
-   "calatorie-in-tara-jucariilor-culturalia-2003"
+   "calatorie-in-tara-jucariilor-culturalia-2003",
+   "casuta-din-oala-culturalia-2003",
+   "soarele-si-vantul-culturalia-2003",
+   "cei-trei-hoti-culturalia-2003",
+   "vulpea-si-lupul-culturalia-2003",
+   "soarecele-si-pisica-culturalia-2003",
+   "povestea-lui-mos-ene-culturalia-2003",
+   "vis-de-povesti-culturalia-2003",
+   "asta-seara-vine-mos-nicolae-culturalia-2003",
+   "domnita-si-bobul-de-mazare-culturalia-2003",
+   "acul-si-barosul-culturalia-2003",
+   "micul-eschimos-culturalia-2003",
+   "un-imparat-la-vanatoare-culturalia-2003",
+   "cei-trei-ursi-culturalia-2003",
+   "zoo-top-un-spectacol-formidabil-culturalia-2003",
+   "spargatorul-de-nuci-cavalerul-jucariilor-culturalia-2003",
+   "spargatorul-de-nuci-culturalia-2003",
+   "croitorasul-cel-viteaz-culturalia-2003-partea-1",
+   "croitorasul-cel-viteaz-culturalia-2003-partea-2",
+   "vrajitorul-apelor-culturalia-2003",
+   "mielul-cu-flori-de-aur-arhiva",
+   "intamplare-cu-o-veverita-culturalia-2004",
+   "poveste-de-iarna-sanda-socoliuc-culturalia-2004",
+   "trandafirul-de-aur-culturalia-2004"
   ],
   "description": {
    "ro": "Selecție de ediții istorice „Noapte bună, copii!” (1959–2003) din Fonoteca Radio România și arhiva deschisă Culturalia.",
@@ -2169,5 +2192,25 @@
    "ro": "Poveștile Mirelei Toma din volumul „O iarnă de poveste”, în ordinea din carte.",
    "en": "Mirela Toma’s stories from O iarnă de poveste, in the order they appear in the book."
   }
+ },
+ {
+  "id": "povesti-de-noapte-buna-zuper",
+  "title": "Povești de noapte bună",
+  "type": "series",
+  "sourceId": "radio-moldova",
+  "url": "https://zuper.md/listen",
+  "description": {
+   "ro": "Povești din fonoteca Radio Moldova, în lectura lui Arcadie Plațânda, a Margaretei Ureche și a Vioricăi Chircă.",
+   "en": "Stories from the Radio Moldova archive, read by Arcadie Plațânda, Margareta Ureche and Viorica Chircă."
+  },
+  "items": [
+   "cainele-pisica-si-soricelul-zuper",
+   "trompa-elefantului-zuper",
+   "casuta-cu-patru-picioare-zuper",
+   "lacrimi-de-crocodil-zuper",
+   "leul-si-soricelul-zuper",
+   "ochelarii-bunelului-zuper",
+   "imparatul-si-balenele-zuper"
+  ]
  }
 ]

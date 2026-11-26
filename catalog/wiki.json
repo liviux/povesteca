@@ -1601,7 +1601,8 @@
    "wikipedia": "https://ro.wikipedia.org/wiki/Eusebiu_%C8%98tef%C4%83nescu"
   },
   "Evgheni Permeak": {
-   "goodreads": "https://www.goodreads.com/author/show/9846986"
+   "goodreads": "https://www.goodreads.com/author/show/9846986",
+   "wikidata": "Q4351577"
   },
   "Fazekas Mihály": {
    "wikidata": "Q929369",
@@ -5193,6 +5194,23 @@
     "source": "Culturalia"
    },
    "wikipedia": "https://ro.wikipedia.org/wiki/%C8%98tefan_Velniciuc"
+  },
+  "Donald Bisset": {
+   "wikidata": "Q4087253",
+   "wikipedia": "https://en.wikipedia.org/wiki/Donald_Bisset",
+   "goodreads": "https://www.goodreads.com/author/show/284445.Donald_Bisset"
+  },
+  "Iurii Iarmâș": {
+   "wikidata": "Q12173919",
+   "goodreads": "https://www.goodreads.com/author/show/13547881.Yuri_Yarmish"
+  },
+  "Mircea Constantinescu": {
+   "wikidata": "Q28058437",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Mircea_Constantinescu_(actor,_n._1952)"
+  },
+  "Raisa Lungu-Ploaie": {
+   "wikidata": "Q52669406",
+   "wikipedia": "https://ro.wikipedia.org/wiki/Raisa_Lungu-Ploaie"
   }
  },
  "stories": {
@@ -6936,6 +6954,14 @@
    "wikidata": "Q734607",
    "wikipedia": "https://en.wikipedia.org/wiki/A_House_of_Pomegranates",
    "goodreads": "https://www.goodreads.com/book/show/50992242"
+  },
+  "cei-trei-ursi": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears"
+  },
+  "povestea-lui-mos-ene": {
+   "wikidata": "Q258749",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ole_Luk%C3%B8je",
+   "goodreads": "https://www.goodreads.com/work/editions/21975353-ole-luk-je"
   }
  }
 }

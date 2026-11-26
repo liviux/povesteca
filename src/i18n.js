@@ -42,6 +42,7 @@ export const ENUMS = {
   },
   origin: {
     romanian: { ro: 'românească', en: 'Romanian' },
+    moldovan: { ro: 'din Republica Moldova', en: 'from Moldova' },
     universal: { ro: 'universală', en: 'World' },
     oriental: { ro: 'orientală (1001 de nopți)', en: 'Arabian Nights' },
     greek: { ro: 'mitologie greacă', en: 'Greek mythology' },

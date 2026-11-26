@@ -2,6 +2,17 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.33.0] - 2026-11-26
+
+### Added
+- **New stories:** 21 stories and 32 recordings from the Radio Romania and Radio Moldova archives and MiniPovești.
+
+### Changed
+- 10 recordings have a second way to play the same production.
+
+### Removed
+- “Oița cea lacomă” was removed because drinking drives the plot.
+
 ## [1.32.7] - 2026-11-25
 
 ### Changed

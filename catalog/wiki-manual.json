@@ -305,7 +305,8 @@
       "goodreads": "https://www.goodreads.com/author/show/20751160"
     },
     "Evgheni Permeak": {
-      "goodreads": "https://www.goodreads.com/author/show/9846986"
+      "goodreads": "https://www.goodreads.com/author/show/9846986",
+      "wikidata": "Q4351577"
     },
     "Fazekas Mihály": {
       "wikidata": "Q929369",
@@ -1297,6 +1298,23 @@
     },
     "Serenela Mureșan": {
       "goodreads": "https://www.goodreads.com/author/show/62456964.Serenela_Mure_an"
+    },
+    "Donald Bisset": {
+      "wikidata": "Q4087253",
+      "wikipedia": "https://en.wikipedia.org/wiki/Donald_Bisset",
+      "goodreads": "https://www.goodreads.com/author/show/284445.Donald_Bisset"
+    },
+    "Raisa Lungu-Ploaie": {
+      "wikidata": "Q52669406",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Raisa_Lungu-Ploaie"
+    },
+    "Iurii Iarmâș": {
+      "wikidata": "Q12173919",
+      "goodreads": "https://www.goodreads.com/author/show/13547881.Yuri_Yarmish"
+    },
+    "Mircea Constantinescu": {
+      "wikidata": "Q28058437",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Mircea_Constantinescu_(actor,_n._1952)"
     }
   },
   "stories": {
@@ -2835,6 +2853,14 @@
     "acul-de-carpit": {
       "wikipedia": "https://en.wikipedia.org/wiki/A_Story_about_a_Darning-needle",
       "goodreads": "https://www.goodreads.com/book/show/9784893-the-darning-needle"
+    },
+    "povestea-lui-mos-ene": {
+      "wikidata": "Q258749",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ole_Luk%C3%B8je",
+      "goodreads": "https://www.goodreads.com/work/editions/21975353-ole-luk-je"
+    },
+    "cei-trei-ursi": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears"
     }
   }
 }

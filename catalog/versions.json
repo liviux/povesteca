@@ -12273,6 +12273,12 @@
     "url": "https://eteatru.ro/uploads/modules/news/0/2026/3/12/279/17733193712c21fd41.mp3",
     "page": "https://eteatru.ro/spectacole/ursul-pacalit-de-vulpe-id279.html",
     "via": "eTeatru"
+   },
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_132652_02.mp3",
+    "page": "https://culturalia.ro/entities/e95abceb-2484-4f60-876d-4cc4d97e3d61",
+    "via": "Culturalia"
    }
   ],
   "duration": 510,
@@ -12305,8 +12311,8 @@
      "name": "Cristian Iacob"
     }
    ],
-   "director": "Mihnea Chelaru",
-   "adaptation": "Simona Vasiliu, Dan Vasiliu"
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu"
   },
   "cover": "https://eteatru.ro/img.php?u=https%3A%2F%2Feteatru.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F3%2F12%2F279%2F1773331412c791761a.jpg&w=500&h=750&c=1",
   "addedAt": "2026-11-22",
@@ -20717,7 +20723,7 @@
  {
   "id": "cei-trei-ursi-culturalia-1961",
   "storyId": "cei-trei-ursi",
-  "title": "Cei trei urși (1961)",
+  "title": "Cei trei urși, în versiunea lui Mihail Sadoveanu (1961)",
   "sourceId": "culturalia-pe-unde",
   "links": [
    {
@@ -20742,7 +20748,8 @@
   "credits": {
    "narrator": [
     "Constantin Moruzan"
-   ]
+   ],
+   "adaptation": "Mihail Sadoveanu"
   },
   "cover": false,
   "addedAt": "2026-11-22",
@@ -21114,6 +21121,14 @@
     "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20792_03.mp3",
     "page": "https://culturalia.ro/entities/141c45cc-8288-4ca8-a9c9-6e07993a1eab/view",
     "via": "Culturalia"
+   },
+   {
+    "type": "audio",
+    "url": "https://static.srr.ro/audio/articles/5051/art-audio-1977411-02_track_2.mp3",
+    "page": "https://www.radio-arhive.ro/articol/noapte-buna-copii1964-doua-povestiri-de-titel-constantinescu-17-februarie-1927-13-mai-1999/1977411/5051/2",
+    "via": "Arhiva Radio România",
+    "start": 20.49,
+    "end": 295.17
    }
   ],
   "duration": 274,
@@ -22946,6 +22961,14 @@
     "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Martie/Vezeteu/4_XW%20792_05.mp3",
     "page": "https://culturalia.ro/entities/6c9b4a48-7c22-450b-a6a9-65d68debc434/view",
     "via": "Culturalia"
+   },
+   {
+    "type": "audio",
+    "url": "https://static.srr.ro/audio/articles/5051/art-audio-1977411-02_track_2.mp3",
+    "page": "https://www.radio-arhive.ro/articol/noapte-buna-copii1964-doua-povestiri-de-titel-constantinescu-17-februarie-1927-13-mai-1999/1977411/5051/2",
+    "via": "Arhiva Radio România",
+    "start": 303.69,
+    "end": 536.48
    }
   ],
   "duration": 233,
@@ -35733,12 +35756,18 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_132673_02.mp3",
+    "page": "https://culturalia.ro/entities/355fd6a0-d9c8-4104-85b7-f9b265551cb2",
+    "via": "Culturalia"
+   },
+   {
     "type": "archive",
     "id": "PetreIspirescuJudecataVulpii",
     "file": "Petre Ispirescu - Judecata vulpii.mp3"
    }
   ],
-  "duration": 513,
+  "duration": 502,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
   "sfx": "discrete",
@@ -35759,33 +35788,31 @@
    "quality"
   ],
   "credits": {
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru",
    "cast": [
     {
-     "role": "Distribuție",
      "name": "Anne-Marie Ziegler"
     },
     {
-     "role": "Distribuție",
-     "name": "George Ivașcu"
+     "name": "Ruxandra Sireteanu"
     },
     {
-     "role": "Distribuție",
-     "name": "Dumitru Chesa"
-    },
-    {
-     "role": "Distribuție",
-     "name": "Bogdan Caragea"
-    },
-    {
-     "role": "Distribuție",
      "name": "Sorin Gheorghiu"
     },
     {
-     "role": "Distribuție",
-     "name": "Ruxandra Sireteanu"
+     "name": "Dumitru Chesa"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Bogdan Caragea"
     }
    ]
-  }
+  },
+  "year": 2003
  },
  {
   "id": "lupul-cel-nazdravan-si-fat-frumos-arhiva",
@@ -35946,12 +35973,18 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_132887_02.mp3",
+    "page": "https://culturalia.ro/entities/641bea36-3d2e-4ec3-b556-9bf5614787e7",
+    "via": "Culturalia"
+   },
+   {
     "type": "archive",
     "id": "BasmPopularVulpeaSiBarza",
     "file": "Basm popular - Vulpea si barza.mp3"
    }
   ],
-  "duration": 402,
+  "duration": 363,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
   "sfx": "discrete",
@@ -35972,8 +36005,8 @@
    "quality"
   ],
   "credits": {
-   "director": "Mihnea Chelaru",
-   "adaptation": "Simona Vasiliu, Dan Vasiliu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
    "music": "Mihnea Chelaru",
    "cast": [
     {
@@ -35989,7 +36022,8 @@
      "name": "Anne-Marie Ziegler"
     }
    ]
-  }
+  },
+  "year": 2003
  },
  {
   "id": "zdrentuita-arhiva",
@@ -35998,12 +36032,18 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134182_02.mp3",
+    "page": "https://culturalia.ro/entities/8b83f561-cb29-45ba-a468-871a35448741",
+    "via": "Culturalia"
+   },
+   {
     "type": "archive",
     "id": "BasmPopularZdrentuita",
     "file": "Basm popular - Zdrentuita.mp3"
    }
   ],
-  "duration": 447,
+  "duration": 427,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
   "sfx": "discrete",
@@ -36022,57 +36062,21 @@
    "moods",
    "age",
    "quality"
-  ]
- },
- {
-  "id": "oita-cea-lacoma-arhiva",
-  "storyId": "oita-cea-lacoma",
-  "title": "Oița cea lacomă",
-  "sourceId": "arhiva-maia-martin",
-  "links": [
-   {
-    "type": "archive",
-    "id": "BasmSpaniolOitaCeaLacoma",
-    "file": "Basm spaniol - Oita cea lacoma.mp3"
-   }
   ],
-  "duration": 522,
-  "kind": "teatru-radiofonic",
-  "voices": "distributie",
-  "sfx": "discrete",
-  "music": "ambientala",
-  "moods": [
-   "amuzanta",
-   "educativa"
-  ],
-  "age": 5,
-  "quality": 4,
-  "cover": false,
-  "addedAt": "2026-11-22",
-  "estimated": [
-   "sfx",
-   "music",
-   "moods",
-   "age",
-   "quality"
-  ],
+  "year": 2003,
   "credits": {
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
    "cast": [
     {
-     "role": "Distribuție",
      "name": "Ruxandra Sireteanu"
     },
     {
-     "role": "Distribuție",
-     "name": "Petre Lupu"
-    },
-    {
-     "role": "Distribuție",
      "name": "Ioana Chelaru"
     },
     {
-     "role": "Distribuție",
-     "name": "Violeta Mitescu"
+     "name": "Petre Lupu"
     }
    ]
   }
@@ -36491,12 +36495,18 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134135_02.mp3",
+    "page": "https://culturalia.ro/entities/00d5e73b-ca88-47cc-92da-05efedd7e318",
+    "via": "Culturalia"
+   },
+   {
     "type": "archive",
     "id": "BasmRusescUnDarDinInima",
     "file": "Basm rusesc - Un dar din inima.mp3"
    }
   ],
-  "duration": 405,
+  "duration": 399,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
   "sfx": "discrete",
@@ -36538,8 +36548,12 @@
      "role": "Distribuție",
      "name": "Violeta Mitescu"
     }
-   ]
-  }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru",
+   "adaptation": "Dan Vasiliu"
+  },
+  "year": 2003
  },
  {
   "id": "vizita-imparatului-arhiva",
@@ -38896,12 +38910,19 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Diana/4_134983_02.mp3",
+    "page": "https://culturalia.ro/entities/d6642240-adae-4c46-8ad4-8e5c376e807f",
+    "via": "Culturalia"
+   },
+   {
     "type": "archive",
     "id": "BasmPopularMielulCuFloriDeAur",
-    "file": "Basm popular - Mielul cu flori de aur.mp3"
+    "file": "Basm popular - Mielul cu flori de aur.mp3",
+    "via": "Internet Archive"
    }
   ],
-  "duration": 518,
+  "duration": 501,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
   "sfx": "discrete",
@@ -38910,7 +38931,7 @@
    "magica",
    "amuzanta"
   ],
-  "age": 5,
+  "age": 8,
   "quality": 4,
   "cover": false,
   "addedAt": "2026-11-22",
@@ -38922,7 +38943,31 @@
    "moods",
    "age",
    "quality"
-  ]
+  ],
+  "year": 2004,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Petre Lupu"
+    },
+    {
+     "name": "Cristian Iacob"
+    },
+    {
+     "name": "Mircea Constantinescu"
+    },
+    {
+     "name": "Ioana Chelaru"
+    }
+   ],
+   "director": "Mihnea Chelaru",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru",
+   "soundDesign": "Mihnea Chelaru"
+  }
  },
  {
   "id": "campan-verde-si-frumos-arhiva",
@@ -39181,12 +39226,18 @@
   "sourceId": "arhiva-maia-martin",
   "links": [
    {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_132751_02.mp3",
+    "page": "https://culturalia.ro/entities/9b522410-bf38-4779-9a16-6cce9e15c004",
+    "via": "Culturalia"
+   },
+   {
     "type": "archive",
     "id": "BasmNigerianDeCeArePapagalulPlisculInconvoiat",
     "file": "Basm nigerian - De ce are papagalul pliscul inconvoiat.mp3"
    }
   ],
-  "duration": 468,
+  "duration": 457,
   "kind": "teatru-radiofonic",
   "voices": "distributie",
   "sfx": "discrete",
@@ -39234,8 +39285,11 @@
      "role": "Distribuție"
     }
    ],
-   "soundDesign": "Mădălin Cristescu"
-  }
+   "soundDesign": "Mădălin Cristescu",
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "year": 2003
  },
  {
   "id": "printesa-si-pastorul-arhiva",
@@ -80752,6 +80806,12 @@
     "url": "https://original.trm.md/video/definst/MP4:2026/3/10/NB-002-FUSUL-SUVEICA-I-ACUL-aut-Fraii-Grimm-lect-Margareta-Ureche-reg-Eremia-Petracu-red-V-Tomuz-04min49sec-1973.m4a/playlist.m3u8",
     "page": "https://radiomoldova.md/f/ro/13931",
     "via": "Radio Moldova"
+   },
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/818b1b59-e51b-4df2-850f-9408a3128b0f_26FUSULSUVEICASIACULautFratiiGrimmlectMargaretaUreche.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/fusul-suveica-%C8%99i-acul/8",
+    "via": "Zuper"
    }
   ],
   "duration": 289,
@@ -90833,6 +90893,1572 @@
   "age": 4,
   "quality": 3,
   "addedAt": "2026-11-25",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "casuta-din-oala-culturalia-2003",
+  "storyId": "casuta-din-oala",
+  "title": "Căsuța din oală",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134314_02.mp3",
+    "page": "https://culturalia.ro/entities/6682405a-96dc-42ad-b8dc-e1a746027d06",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 299,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Mihai Platon"
+    },
+    {
+     "name": "Alexandra Vasiliu"
+    },
+    {
+     "name": "Andreea Sfia"
+    },
+    {
+     "name": "Andrei Matei"
+    },
+    {
+     "name": "Claudiu Floricu"
+    }
+   ],
+   "director": "Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "soarele-si-vantul-culturalia-2003",
+  "storyId": "soarele-si-vantul",
+  "title": "Soarele și vântul",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_132874_02.mp3",
+    "page": "https://culturalia.ro/entities/5b3697fb-ebda-4b03-a95a-aaecc1593e08",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 434,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Bogdan Caragea"
+    },
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cei-trei-hoti-culturalia-2003",
+  "storyId": "cei-trei-hoti",
+  "title": "Cei trei hoți",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_132758_02.mp3",
+    "page": "https://culturalia.ro/entities/992b0c36-bf05-474c-9acb-1e4c5cb95a42",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 350,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Anne-Marie Ziegler"
+    },
+    {
+     "name": "Bogdan Caragea"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Dumitru Chesa"
+    },
+    {
+     "name": "Sorin Gheorghiu"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "vulpea-si-lupul-culturalia-2003",
+  "storyId": "vulpea-si-lupul",
+  "title": "Vulpea și lupul",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_132892_02.mp3",
+    "page": "https://culturalia.ro/entities/4b3be32e-1cfb-476b-b250-d91fe55926bf",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 312,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Bogdan Caragea"
+    },
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "soarecele-si-pisica-culturalia-2003",
+  "storyId": "soarecele-si-pisica",
+  "title": "Șoarecele și pisica",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_133102_02.mp3",
+    "page": "https://culturalia.ro/entities/62adce4a-b0fc-4eb3-a116-0de80135c914",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 418,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Anne-Marie Ziegler"
+    },
+    {
+     "name": "Ioana Chelaru"
+    },
+    {
+     "name": "Ruxandra Sireteanu"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "povestea-lui-mos-ene-culturalia-2003",
+  "storyId": "povestea-lui-mos-ene",
+  "title": "Povestea lui Moș Ene, visul de marți al lui Hjalmar",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134441_02.mp3",
+    "page": "https://culturalia.ro/entities/aaadd8b7-953e-452e-96cb-1837ecfa2498",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 392,
+  "year": 2003,
+  "kind": "dramatizare",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "somn"
+  ],
+  "age": 4,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Petre Lupu"
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "vis-de-povesti-culturalia-2003",
+  "storyId": "vis-de-povesti",
+  "title": "Vis de povești",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_133092_02.mp3",
+    "page": "https://culturalia.ro/entities/f948140e-42e8-40f5-b34a-d8aaa0aece70",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 401,
+  "year": 2003,
+  "kind": "dramatizare",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Ruxandra Sireteanu"
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "asta-seara-vine-mos-nicolae-culturalia-2003",
+  "storyId": "asta-seara-vine-mos-nicolae",
+  "title": "Astă seară vine Moș Nicolae",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134357_02.mp3",
+    "page": "https://culturalia.ro/entities/31f5ea78-67ed-405a-bc42-2e1fab798458",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 495,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Violeta Mitescu"
+    },
+    {
+     "name": "Petre Lupu"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "domnita-si-bobul-de-mazare-culturalia-2003",
+  "storyId": "domnita-si-bobul-de-mazare",
+  "title": "Prințesa și bobul de mazăre",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134223_02.mp3",
+    "page": "https://culturalia.ro/entities/a36853b4-24d7-4290-b096-853debed7b36",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 314,
+  "year": 2003,
+  "kind": "dramatizare",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Ruxandra Sireteanu"
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "acul-si-barosul-culturalia-2003",
+  "storyId": "acul-si-barosul",
+  "title": "Acul și barosul",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_132685_02.mp3",
+    "page": "https://culturalia.ro/entities/70dd538e-8725-4f92-922f-d151a8f2b32d",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 451,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Vasile Manta"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    },
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Sorin Gheorghiu"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "micul-eschimos-culturalia-2003",
+  "storyId": "micul-eschimos",
+  "title": "Micul eschimos",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134499_02.mp3",
+    "page": "https://culturalia.ro/entities/d0d18fc7-de97-4280-b73b-8ebc6f9de32f",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 508,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "linistitoare",
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "name": "Violeta Mitescu"
+    },
+    {
+     "name": "Aurelia Bădulescu"
+    }
+   ],
+   "director": "Cristian Mitescu; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "un-imparat-la-vanatoare-culturalia-2003",
+  "storyId": "un-imparat-la-vanatoare",
+  "title": "Un împărat la vânătoare",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_132770_02.mp3",
+    "page": "https://culturalia.ro/entities/0f8bc937-f3a0-4194-947c-7b0edd41cb0f",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 452,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Sorin Gheorghiu"
+    },
+    {
+     "name": "Dumitru Chesa"
+    },
+    {
+     "name": "Bogdan Caragea"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cei-trei-ursi-culturalia-2003",
+  "storyId": "cei-trei-ursi",
+  "title": "Cei trei urși, dramatizare după povestea populară",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134395_02.mp3",
+    "page": "https://culturalia.ro/entities/fcd37167-ec01-4dfd-ac3f-f2ab40a2b37f",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 272,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Mihai Platon"
+    },
+    {
+     "name": "Alexandra Vasiliu"
+    },
+    {
+     "name": "Andreea Sfia"
+    },
+    {
+     "name": "Andrei Matei"
+    },
+    {
+     "name": "Claudiu Floricu"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "zoo-top-un-spectacol-formidabil-culturalia-2003",
+  "storyId": "zoo-top-un-spectacol-formidabil",
+  "title": "Zoo-top, un spectacol formidabil",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134426_02.mp3",
+    "page": "https://culturalia.ro/entities/47fce652-09e4-4701-bbe1-cf627fc65b85",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 609,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    },
+    {
+     "name": "Violeta Mitescu"
+    },
+    {
+     "name": "Ioana Chelaru"
+    },
+    {
+     "name": "Sorin Gheorghiu"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "spargatorul-de-nuci-cavalerul-jucariilor-culturalia-2003",
+  "storyId": "spargatorul-de-nuci",
+  "title": "Cavalerul jucăriilor (adaptare după Spărgătorul de nuci)",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134479_02.mp3",
+    "page": "https://culturalia.ro/entities/5639deb5-1551-497b-ae33-43867bedeb37",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 600,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "name": "Mihai Platon"
+    },
+    {
+     "name": "Andrei Matei"
+    },
+    {
+     "name": "Claudiu Floricu"
+    },
+    {
+     "name": "Andreea Sfia"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Cristian Mitescu; Simona Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "spargatorul-de-nuci-culturalia-2003",
+  "storyId": "spargatorul-de-nuci",
+  "title": "Spărgătorul de nuci, scenariu de Cristian Mitescu",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_134457_02.mp3",
+    "page": "https://culturalia.ro/entities/53da8dba-4daa-4229-a512-47b1d7fdb5f2",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 424,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "bogate",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 7,
+  "quality": 5,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Ioana Chelaru"
+    },
+    {
+     "name": "Violeta Mitescu"
+    },
+    {
+     "name": "Petre Lupu"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Cristian Mitescu; Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "croitorasul-cel-viteaz-culturalia-2003-partea-1",
+  "storyId": "croitorasul-cel-viteaz",
+  "title": "Croitorașul cel viteaz, partea I",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_133077%20I_02.mp3",
+    "page": "https://culturalia.ro/entities/f42969dd-85d7-456c-8cc8-75b6640b41fc",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 526,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Bogdan Caragea"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "croitorasul-cel-viteaz-culturalia-2003-partea-2",
+  "storyId": "croitorasul-cel-viteaz",
+  "title": "Croitorașul cel viteaz, partea a II-a",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_133077%20II_02.mp3",
+    "page": "https://culturalia.ro/entities/da936cfe-7e7f-477b-8a9a-89f2d11456b4",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 543,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "amuzanta"
+  ],
+  "age": 8,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Ruxandra Sireteanu"
+    },
+    {
+     "name": "Anne-Marie Ziegler"
+    },
+    {
+     "name": "George Ivașcu"
+    },
+    {
+     "name": "Bogdan Caragea"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Simona Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "vrajitorul-apelor-culturalia-2003",
+  "storyId": "vrajitorul-apelor",
+  "title": "Vrăjitorul apelor",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Andra/4_132694_02.mp3",
+    "page": "https://culturalia.ro/entities/823c9bf6-5735-4a5b-9cd9-60122af0a080",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 535,
+  "year": 2003,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 7,
+  "quality": 4,
+  "credits": {
+   "cast": [
+    {
+     "name": "Cristian Iacob"
+    },
+    {
+     "name": "Bogdan Caragea"
+    },
+    {
+     "name": "Vasile Manta"
+    }
+   ],
+   "director": "Mihnea Chelaru; Jeanina Dicu",
+   "adaptation": "Sanda Socoliuc",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "cainele-pisica-si-soricelul-zuper",
+  "storyId": "cainele-pisica-si-soricelul",
+  "title": "Câinele, pisica și șoricelul",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/55f21afb-63af-4a6b-8fed-5541163c0aaf_1CAINELEPISICASISORICELULautIonProcalectArcadiePlatanda.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/c%C3%A2inele-pisica-%C8%99i-%C8%99oricelul/2",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 217,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "trompa-elefantului-zuper",
+  "storyId": "trompa-elefantului",
+  "title": "Elefantul curios",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/087391e7-ac88-491d-9d18-3f75390c0056_2ELEFANTULCURIOSlectVeraBaracci.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/elefantul-curios/3",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 220,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorica Chircă"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "casuta-cu-patru-picioare-zuper",
+  "storyId": "casuta-cu-patru-picioare",
+  "title": "Căsuța cu patru picioare",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/4fd1308c-4d50-42ee-ac63-a86b27f7374b_17CASUTACUPATRUPICIOAREautRaisaLungulectMargaretaUreche.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/c%C4%83su%C8%9Ba-cu-patru-picioare/5",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 265,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "lacrimi-de-crocodil-zuper",
+  "storyId": "lacrimi-de-crocodil",
+  "title": "Lacrimi de crocodil",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/0f2f26f5-d17f-4779-bb83-36b801f97488_18LACRIMIDECROCODILautIuriiIarmislectArcadiePlatanda.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/lacrimi-de-crocodil/6",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 296,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "leul-si-soricelul-zuper",
+  "storyId": "leul-si-soricelul",
+  "title": "Leul și șoricelul",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/3e963d35-1917-4095-92bb-c85ddfae7489_22LEULSISORICELULlectVeraBaracci.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/leul-%C8%99i-%C8%99oricelul/7",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 190,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Viorica Chircă"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "ochelarii-bunelului-zuper",
+  "storyId": "ochelarii-bunelului",
+  "title": "Ochelarii bunelului",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/8f636cf8-1a98-47c8-bb17-518b3d6c1eec_27OCHELARIIBUNELULUIautEvgheniiPermeaklectMargaretaUreche.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/ochelarii-bunelului/9",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 241,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Margareta Ureche"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "imparatul-si-balenele-zuper",
+  "storyId": "imparatul-si-balenele",
+  "title": "Împăratul și balenele",
+  "sourceId": "radio-moldova",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://api.zuper.md/resources/2021/09/28/e09c147e-0db0-4631-a4a0-ae08f7c8d558_33IMPARATULSIBALENELEautDonaldBissetlectArcadiePlatanda.mp3",
+    "page": "https://zuper.md/listen/pove%C8%99ti-de-noapte-buna/%C3%AEmp%C4%83ratul-%C8%99i-balenele/10",
+    "via": "Zuper"
+   }
+  ],
+  "duration": 260,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Arcadie Plațânda"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "scrisoarea-lui-ionica-minipovesti-2024",
+  "storyId": "scrisoarea-lui-ionica",
+  "title": "Scrisoarea",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/04/Scrisoarea.mp3",
+    "page": "https://minipovesti.ro/stories/scrisoarea",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1081,
+  "year": 2024,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": "https://minipovesti.ro/wp-content/uploads/2024/04/2-2-600x600.png",
+  "sfx": "discrete",
+  "music": "importanta",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Marcelo Cobzariu"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "marea-cursa-a-padurii-minipovesti-2024",
+  "storyId": "marea-cursa-a-padurii",
+  "title": "Marea cursă a pădurii",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/04/Povesti.ro-Marea-Cursa-a-Padurii-online-audio-converter.com_.mp3",
+    "page": "https://minipovesti.ro/stories/marea-cursa-a-padurii",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 1579,
+  "year": 2024,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": "https://minipovesti.ro/wp-content/uploads/2024/04/marea-cursa-a-padurii-002-600x600.png",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Irina Margareta Nistor"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "papusareasa-minipovesti-2024",
+  "storyId": "papusareasa",
+  "title": "Păpușăreasa",
+  "sourceId": "minipovesti",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://minipovesti.ro/wp-content/uploads/2024/06/Papusarii.mp3",
+    "page": "https://minipovesti.ro/stories/papusareasa",
+    "via": "MiniPovești"
+   }
+  ],
+  "duration": 2015,
+  "year": 2024,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": "https://minipovesti.ro/wp-content/uploads/2024/06/p8-600x600.png",
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 8,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Irina Margareta Nistor"
+   ]
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "quality"
+  ]
+ },
+ {
+  "id": "intamplare-cu-o-veverita-culturalia-2004",
+  "storyId": "intamplare-cu-o-veverita",
+  "title": "Întâmplare cu o veveriță",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Diana/4_134975_02.mp3",
+    "page": "https://culturalia.ro/entities/b845efdb-b7aa-41f1-a57b-7a0d17b01144",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 303,
+  "year": 2004,
+  "kind": "dramatizare",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "magica"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Ruxandra Sireteanu"
+   ],
+   "director": "Mihnea Chelaru",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "poveste-de-iarna-sanda-socoliuc-culturalia-2004",
+  "storyId": "poveste-de-iarna-sanda-socoliuc",
+  "title": "Poveste de iarnă",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Diana/4_134993_02.mp3",
+    "page": "https://culturalia.ro/entities/f8ebd833-c854-4de6-9b71-a6f5dcfc06c9",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 365,
+  "year": 2004,
+  "kind": "dramatizare",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "linistitoare",
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 4,
+  "credits": {
+   "narrator": [
+    "Ruxandra Sireteanu"
+   ],
+   "director": "Mihai Jemăneanu",
+   "music": "Simona Vasiliu",
+   "soundDesign": "Ovidiu Neagu"
+  },
+  "addedAt": "2026-11-26",
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ]
+ },
+ {
+  "id": "trandafirul-de-aur-culturalia-2004",
+  "storyId": "trandafirul-de-aur",
+  "title": "Trandafirul de aur",
+  "sourceId": "culturalia-pe-unde",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://resource.culturalia.ro/public/2000/01/01/_Z:/B-SRR/2020/Septembrie/Marta/4_135498_02.mp3",
+    "page": "https://culturalia.ro/entities/fe592a11-a910-4734-ba03-64759069e78e",
+    "via": "Culturalia"
+   }
+  ],
+  "duration": 478,
+  "year": 2004,
+  "kind": "narata",
+  "voices": "narator",
+  "cover": false,
+  "sfx": "fara",
+  "music": "ambientala",
+  "moods": [
+   "magica",
+   "aventuroasa"
+  ],
+  "age": 7,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Petre Lupu"
+   ],
+   "director": "Mihnea Chelaru",
+   "adaptation": "Simona Vasiliu; Dan Vasiliu",
+   "music": "Mihnea Chelaru"
+  },
+  "addedAt": "2026-11-26",
   "estimated": [
    "kind",
    "voices",
