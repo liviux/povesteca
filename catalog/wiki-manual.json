@@ -1315,6 +1315,17 @@
     "Mircea Constantinescu": {
       "wikidata": "Q28058437",
       "wikipedia": "https://ro.wikipedia.org/wiki/Mircea_Constantinescu_(actor,_n._1952)"
+    },
+    "François-Guillaume Ducray-Duminil": {
+      "wikidata": "Q2072208",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Guillaume_Ducray-Duminil",
+      "goodreads": "https://www.goodreads.com/author/show/3158209",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg",
+        "by": "Jacques Marie Noël Frémy",
+        "license": "Public Domain Mark 1.0"
+      }
     }
   },
   "stories": {
@@ -2858,6 +2869,11 @@
       "wikidata": "Q258749",
       "wikipedia": "https://en.wikipedia.org/wiki/Ole_Luk%C3%B8je",
       "goodreads": "https://www.goodreads.com/work/editions/21975353-ole-luk-je"
+    },
+    "printul-fermecat": {
+      "wikidata": "Q11850",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Frog_Prince",
+      "goodreads": "https://www.goodreads.com/work/editions/27285626"
     },
     "cei-trei-ursi": {
       "wikipedia": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears"

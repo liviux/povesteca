@@ -92468,5 +92468,436 @@
    "age",
    "quality"
   ]
+ },
+ {
+  "id": "soarecele-si-pisica-roton",
+  "storyId": "soarecele-si-pisica",
+  "title": "Șoarecele și pisica",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-9-23/121256817-44100-2-1944c8cf9ed.m4a"
+   }
+  ],
+  "duration": 173,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "adaptation": "Adriana Lăzărescu",
+   "narrator": [
+    "Teo Trandafir"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "year": 2009,
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1603439477517-cffd0c7b58b43.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "broscoiul-cel-istet-roton",
+  "storyId": "broscoiul-cel-istet",
+  "title": "Broscoiul cel isteț",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-9-15/e7ce3230-1d59-5e99-752e-7d8b8be0a619.mp3"
+   }
+  ],
+  "duration": 314,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta"
+  ],
+  "age": 5,
+  "quality": 3,
+  "credits": {
+   "adaptation": "Adriana Lăzărescu",
+   "narrator": [
+    "Teo Trandafir"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "year": 2009,
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1602765696186-bd54754774255.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "micul-muck-roton",
+  "storyId": "micul-muck",
+  "title": "Muc cel mic",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-9-8/fd6e697f-88c6-ca3e-34f5-71ba56b796b5.mp3"
+   }
+  ],
+  "duration": 646,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "magica"
+  ],
+  "age": 7,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Teo Trandafir"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "year": 2009,
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1602161666073-224b606071fd.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "printul-fermecat-roton",
+  "storyId": "printul-fermecat",
+  "title": "Prințul fermecat",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-8-23/5956b80b-1821-849a-3ede-04d26eea1f9d.mp3"
+   }
+  ],
+  "duration": 623,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 7,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Daniela Nane"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1600867274582-2ca8e1f40094f.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "lupul-si-purcelusul-roton",
+  "storyId": "lupul-si-purcelusul",
+  "title": "Purcelușul și lupul",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-8-17/109a445c-abab-3a09-acc6-63f31bbf3c8f.mp3"
+   }
+  ],
+  "duration": 288,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 8,
+  "quality": 3,
+  "credits": {
+   "adaptation": "Adriana Lăzărescu",
+   "narrator": [
+    "Daniela Nane"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1600336430797-582fc79d97d4e.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "frumoasa-din-padurea-adormita-roton",
+  "storyId": "frumoasa-din-padurea-adormita",
+  "title": "Frumoasa adormită",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-6/96131122-44100-2-af4f78a20318a.m4a"
+   }
+  ],
+  "duration": 682,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "magica"
+  ],
+  "age": 6,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Daniela Nane"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1596711481677-b1a3ea80196cb.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "capcaunul-periferigerilerimini-roton",
+  "storyId": "capcaunul-periferigerilerimini",
+  "title": "Uriașul",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-9-29/8935fba5-267a-0c24-da1b-8b8247d5cdfe.mp3"
+   }
+  ],
+  "duration": 295,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa",
+   "intensa"
+  ],
+  "age": 7,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Teo Trandafir"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "year": 2009,
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1603978345974-9a0abeb8dfa18.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "fetita-cu-chibriturile-roton",
+  "storyId": "fetita-cu-chibriturile",
+  "title": "Fetița cu chibriturile",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-8-3/1610594a-bd93-baf5-7934-4af6759d49fa.mp3"
+   }
+  ],
+  "duration": 489,
+  "kind": "narata",
+  "voices": "narator",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "intensa"
+  ],
+  "age": 8,
+  "quality": 3,
+  "credits": {
+   "narrator": [
+    "Daniela Nane"
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1599130056639-b5f3c974f06f8.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "motanul-incaltat-roton",
+  "storyId": "motanul-incaltat",
+  "title": "Motanul încălțat",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-10-18/129791233-44100-2-58a3c09e59f1d.m4a"
+   }
+  ],
+  "duration": 881,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "bogate",
+  "music": "ambientala",
+  "moods": [
+   "amuzanta",
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Liviu Smântânică",
+   "music": "Cristian Gârlea",
+   "cast": [
+    {
+     "name": "Doina Iarcuczewicz"
+    },
+    {
+     "name": "Gabriela Andrei"
+    },
+    {
+     "name": "Gheorghe Șfaițer"
+    },
+    {
+     "name": "Liviu Smântânică"
+    },
+    {
+     "name": "Liliana Mavriș-Vârlan"
+    }
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "year": 2002,
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1605716972023-bd3c04ab6aa09.jpg",
+  "addedAt": "2026-11-26"
+ },
+ {
+  "id": "sarea-in-bucate-roton",
+  "storyId": "sarea-in-bucate",
+  "title": "Sarea în bucate",
+  "sourceId": "clopotelul-magic",
+  "links": [
+   {
+    "type": "audio",
+    "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-13/c60e93fe-b102-7b08-19ca-b94e1769e144.mp3"
+   }
+  ],
+  "duration": 1309,
+  "kind": "teatru-radiofonic",
+  "voices": "distributie",
+  "sfx": "discrete",
+  "music": "ambientala",
+  "moods": [
+   "aventuroasa"
+  ],
+  "age": 6,
+  "quality": 4,
+  "credits": {
+   "director": "Liviu Smântânică",
+   "music": "Gheorghe Șfaițer",
+   "cast": [
+    {
+     "name": "Nicolae Brehnescu"
+    },
+    {
+     "name": "Doina Iarcuczewicz"
+    },
+    {
+     "name": "Iulia Deloiu-Trif"
+    },
+    {
+     "name": "Tani Paraschiv"
+    },
+    {
+     "name": "Gheorghe Șfaițer"
+    },
+    {
+     "name": "Liviu Smântânică"
+    },
+    {
+     "name": "Gabriela Andrei"
+    }
+   ]
+  },
+  "estimated": [
+   "kind",
+   "voices",
+   "sfx",
+   "music",
+   "moods",
+   "age",
+   "quality"
+  ],
+  "year": 2003,
+  "cover": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/7629511/7629511-1597319789252-21b07f3a1f9a2.jpg",
+  "addedAt": "2026-11-26"
  }
 ]

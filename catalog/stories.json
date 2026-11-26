@@ -30951,5 +30951,48 @@
    "en": "A young man shares his provisions with a hungry old woman. She tells him how to reach a castle where a golden rose grants one wish for each of its petals."
   },
   "addedAt": "2026-11-26"
+ },
+ {
+  "id": "broscoiul-cel-istet",
+  "title": "Broscoiul cel isteț",
+  "author": "poveste populară italiană",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "istetime",
+   "umor"
+  ],
+  "characters": [
+   "Broscoiul",
+   "Broasca țestoasă",
+   "Broaștele"
+  ],
+  "summary": {
+   "ro": "La o petrecere pe malul unei bălți, un broscoi se laudă că e mai puternic decât toate broaștele. O provoacă pe cea mai puternică broască țestoasă să-l tragă din apă cu o sfoară. Odată ajuns sub apă, leagă sfoara de o piatră.",
+   "en": "At a party by a pond, a little frog boasts that he is stronger than all the other frogs. He challenges the strongest turtle to pull him out of the water with a rope. Once underwater, he ties the rope to a rock."
+  },
+  "origin": "italian"
+ },
+ {
+  "id": "lupul-si-purcelusul",
+  "title": "Lupul și purcelușul",
+  "altTitles": [
+   "Purcelușul și lupul"
+  ],
+  "author": "poveste populară slovacă",
+  "genre": "poveste",
+  "themes": [
+   "animale",
+   "istetime"
+  ],
+  "characters": [
+   "Lupul",
+   "Purcelușul"
+  ],
+  "summary": {
+   "ro": "Un purceluș se mută într-o căsuță lângă vizuina lupului. Lupul îl poftește la cules și apoi la târg, cu gând să-l prindă. Purcelușul îl păcălește cu un butoi, iar când lupul încearcă să intre pe horn, îi pregătește o capcană.",
+   "en": "A little pig moves into a house near a wolf’s den. The wolf invites him to pick fruit and later to go to the fair, hoping to catch him. The pig fools him with a barrel and sets a trap when the wolf tries to come down the chimney."
+  },
+  "origin": "slovak"
  }
 ]

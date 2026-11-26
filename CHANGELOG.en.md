@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.34.0] - 2026-11-26
+
+### Added
+- **New stories:** “Broscoiul cel isteț” and “Lupul și purcelușul”, plus eight other recordings from Clopoțelul Magic, including audio plays of “Motanul încălțat” and “Sarea în bucate” directed by Liviu Smântânică.
+
+### Fixed
+- Long titles and names fit inside cards on narrow screens.
+
 ## [1.33.2] - 2026-11-26
 
 ### Fixed

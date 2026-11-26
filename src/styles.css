@@ -228,7 +228,7 @@ img { display: block; max-width: 100%; }
 .art-t.art-t4 i { color: var(--m); }
 .art-t5 { left: 0; right: 0; bottom: calc(var(--art-y, 8%) + 4%); padding: 5% var(--art-x, 9%); background: var(--m); }
 @container (max-width: 90px) { .art-t { display: none; } }
-.card-body { padding: 12px 14px 14px; display: grid; gap: 4px; align-content: start; }
+.card-body { padding: 12px 14px 14px; display: grid; gap: 4px; align-content: start; overflow-wrap: anywhere; }
 .card-title { font-size: 18px; line-height: 1.2; }
 .card-kind { font-size: 12px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
 .card-sub { font-size: 14.5px; color: var(--muted); font-weight: 600; }

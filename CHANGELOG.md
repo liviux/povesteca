@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.34.0] - 2026-11-26
+
+### Added
+- **Povești noi:** „Broscoiul cel isteț”, „Lupul și purcelușul” și opt înregistrări de la Clopoțelul Magic, printre care „Motanul încălțat” și „Sarea în bucate” în regia lui Liviu Smântânică.
+
+### Fixed
+- Titlurile și numele lungi încap în carduri și pe telefoane înguste.
+
 ## [1.33.2] - 2026-11-26
 
 ### Fixed
