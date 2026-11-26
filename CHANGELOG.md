@@ -2,6 +2,21 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.36.0] - 2026-11-26
+
+### Added
+- **Povești noi:** înregistrări și povești noi din colecțiile „Clopoțelul Magic”, „Poveștile de vineri seara” (Radio România Actualități), „Poveștile Cristinei”, „MiniPovești”, „Povești cu Nekta” și „Sidonia Drăgușanu”.
+
+### Changed
+- Poveștile duplicate din „Clopoțelul Magic” au fost unite într-o singură înregistrare cu surse de rezervă, cu redarea directă pe primul loc.
+- Mai multe informații verificate pentru povești și artiști (distribuții, durate, vârste recomandate, legături spre Wikipedia, Goodreads și portrete) și etichete noi pentru origini și teme.
+
+### Fixed
+- Corectări de diacritice, grafii unitare pentru autori și actori, ani de publicare, limite exacte de redare pentru înregistrările împărțite pe povești și estimări de vârstă.
+
+### Removed
+- **Povești scoase:** canalul „Povești de adormit copiii” (Viorel Ionescu) și înregistrările cu voci sintetice sau nepotrivite pentru copii până la 10 ani.
+
 ## [1.35.0] - 2026-11-26
 
 ### Added

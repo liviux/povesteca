@@ -2,6 +2,21 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.36.0] - 2026-11-26
+
+### Added
+- **New stories:** newly verified recordings and tales from Clopoțelul Magic, Poveștile de vineri seara (Radio România Actualități), Poveștile Cristinei, MiniPovești, Povești cu Nekta, and Sidonia Drăgușanu.
+
+### Changed
+- Merged duplicate Clopoțelul Magic recordings into single entries with fallback links, preferring direct audio first.
+- Filled in verified story and artist details (casts, durations, age ratings, Wikipedia, Goodreads, and portraits) and added missing origin and theme labels.
+
+### Fixed
+- Fixed Romanian diacritics, consistent author and actor spellings, release years, exact playback boundaries on multi-story recordings, and age ratings.
+
+### Removed
+- **Removed stories:** the „Povești de adormit copiii” (Viorel Ionescu) channel and recordings using AI voices or unsuitable for children up to 10.
+
 ## [1.35.0] - 2026-11-26
 
 ### Added

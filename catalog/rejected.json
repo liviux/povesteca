@@ -1,0 +1,483 @@
+{
+  "sources": [
+    {
+      "id": "viorel-ionescu",
+      "name": "Povești de adormit copiii",
+      "url": "https://www.youtube.com/channel/UCBaxa6qIVMVUSHdPpg_oR7g",
+      "reason": "Nararea poveștilor folosește voci sintetice/clonate AI (inclusiv episoadele care încep cu o introducere scurtă cu voce umană înainte de comutarea la AI în corpul poveștii), încălcând regula audio exclusiv uman din AGENTS.md.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "radio-zalau-povesti",
+      "name": "Radio Zalău Povești",
+      "url": "https://www.youtube.com/@RadioZalau",
+      "reason": "Sursă scoasă anterior (v1.31.2): canalul nu întrunea criteriile de eligibilitate și pragul minim de înregistrări eligibile pentru copii.",
+      "date": "2026-11-25"
+    }
+  ],
+  "stories": [
+    {
+      "id": "aventurile-lui-piko-pinguinul-curajos",
+      "title": "Aventurile lui Piko, Pinguinul Curajos",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "dinozaurul-care-voia-sa-zboare",
+      "title": "Dinozaurul care voia să zboare",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "dragonasul-puf-si-furtuna-de-foc",
+      "title": "Dragonașul Puf și Furtuna de Foc",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "elefantelul-noki-si-secretul-apei-fermecate",
+      "title": "Elefănțelul Noki și secretul apei fermecate",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "fat-frumos-si-blestemul-umbrelor",
+      "title": "Făt-Frumos și Blestemul Umbrelor",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "misterul-turnului-de-cristal",
+      "title": "Misterul Turnului de Cristal",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "povestea-lui-motu-soricelul-curajos",
+      "title": "Povestea lui Moțu, șoricelul curajos",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "regatul-stelelor-si-blestemul-dragonului",
+      "title": "Regatul Stelelor și Blestemul Dragonului",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "spiridusii-si-steaua-fermecata",
+      "title": "Spiridușii și Steaua Fermecată",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "urechiusa-iepurasul-cel-pufos",
+      "title": "Urechiușă, iepurașul cel pufos",
+      "reason": "Poveste orfană scoasă odată cu eliminarea sursei „viorel-ionescu” (narațiune generată cu voce AI).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "mos-nicolae",
+      "title": "Moș Nicolae",
+      "reason": "Poveste orfană scoasă anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "baba-iarna-intra-in-sat",
+      "title": "Baba iarna intră-n sat",
+      "reason": "Poveste orfană scoasă anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "de-ce-bradul-e-mereu-verde",
+      "title": "De ce bradul e mereu verde",
+      "reason": "Poveste orfană scoasă anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "broasca-cea-fermecata",
+      "title": "Broasca cea fermecată",
+      "reason": "Poveste orfană scoasă anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "oita-cea-lacoma",
+      "title": "Oița cea lacomă",
+      "reason": "Poveste scoasă anterior din catalog (v1.33.0): nu întrunește criteriile editoriale pentru copii.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "soacra-cu-trei-nurori",
+      "title": "Soacra cu trei nurori",
+      "reason": "Respinsă conform filtrului strict din AGENTS.md: intriga centrală conține omor și violență domestică/conflict familial de adulți.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "daca-as-avea-un-nas-verde",
+      "title": "Dacă aș avea un nas verde",
+      "reason": "Respinsă conform AGENTS.md: alegorie creștină explicită de Max Lucado (seria Wemmicks).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "aristocratite",
+      "title": "Aristocratițe",
+      "reason": "Respinsă conform AGENTS.md: proză scrisă pentru adulți (din volumul pentru adulți de Radu Paraschivescu).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "spionul-kme",
+      "title": "Spionul Kme",
+      "reason": "Respinsă: citire de fragmente promoționale dintr-un roman recomandat 10+ ani, fără înregistrare integrală.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "dansul-ursoaicei",
+      "title": "Dansul ursoaicei",
+      "reason": "Respinsă: marcată 10+ ani pe sursă, cu scene nepotrivite (jupuire/sânge) și episod lipsă audio.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "pisica-vera",
+      "title": "Pisica Vera",
+      "reason": "Respinsă: poveste promoțională/comercială pentru mascota unui centru comercial.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "cu-tandarica-spre-marile-sudului",
+      "title": "Cu Țăndărică spre mările Sudului",
+      "reason": "Respinsă: fragment de arhivă incomplet (126s), nu o poveste integrală.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "doua-ceasuri",
+      "title": "Două ceasuri",
+      "reason": "Respinsă: înregistrare MiniPovești fără credit de narator, confirmată cu voce AI/TTS neural la auditul audio.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "ghemotoc-de-mama",
+      "title": "Ghemotoc de mamă",
+      "reason": "Respinsă: înregistrare MiniPovești fără credit de narator, confirmată cu voce AI/TTS neural la auditul audio.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "aventurile-lui-max",
+      "title": "Aventurile lui Max în Tărâmul Magic",
+      "reason": "Respinsă: înregistrare MiniPovești fără credit de narator, confirmată cu voce AI/TTS neural la auditul audio.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "chiti-si-caramela-in-camara",
+      "title": "Chiți și Caramela în cămară",
+      "reason": "Respinsă: înregistrare MiniPovești fără credit de narator, confirmată cu voce AI/TTS neural la auditul audio.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "prea-multi-dovleci",
+      "title": "Prea mulți dovleci",
+      "reason": "Respinsă: videoclip Povești cu Nekta cu voce sintetică AI/TTS.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "omuletul-din-frunze",
+      "title": "Omulețul din frunze",
+      "reason": "Respinsă: videoclip Povești cu Nekta cu voce sintetică AI/TTS.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "luna-calatoare",
+      "title": "Luna Călătoare",
+      "reason": "Respinsă: videoclip Povești cu Nekta cu voce sintetică AI/TTS.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "cozonacul-care-a-fugit-din-cuptor",
+      "title": "Cozonacul care a fugit din cuptor",
+      "reason": "Respinsă: videoclip Povești cu Nekta cu voce sintetică AI/TTS.",
+      "date": "2026-11-26"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "urechiusa-viorel",
+      "title": "Urechiușă, iepurașul cel pufos",
+      "links": [
+        "youtube:C_1E_FUCL50"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "dragonasul-puf-viorel",
+      "title": "Dragonașul Puf și Furtuna de Foc",
+      "links": [
+        "youtube:7i1tNGFqKC0"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "spiridusii-steaua-viorel",
+      "title": "Spiridușii și Steaua Fermecată",
+      "links": [
+        "youtube:hWxuh2lB22Y"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "fat-frumos-umbrele-viorel",
+      "title": "Făt-Frumos și Blestemul Umbrelor",
+      "links": [
+        "youtube:CxWrdi3F5RQ"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "dinozaurul-zboare-viorel",
+      "title": "Dinozaurul care voia să zboare",
+      "links": [
+        "youtube:BobOC15XAag"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "piko-pinguinul-viorel",
+      "title": "Aventurile lui Piko, Pinguinul Curajos",
+      "links": [
+        "youtube:IQMOfzkn7d4"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "turnul-de-cristal-viorel",
+      "title": "Misterul Turnului de Cristal",
+      "links": [
+        "youtube:RRMGOvlKGTU"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "regatul-stelelor-viorel",
+      "title": "Regatul Stelelor și Blestemul Dragonului",
+      "links": [
+        "youtube:MdqZ27oz9vQ"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "noki-elefantelul-viorel",
+      "title": "Elefănțelul Noki și secretul apei fermecate",
+      "links": [
+        "youtube:5G7YW25V19A"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "motu-soricelul-viorel",
+      "title": "Povestea lui Moțu, șoricelul curajos",
+      "links": [
+        "youtube:P_939TK9A7c"
+      ],
+      "reason": "Sursă scoasă („viorel-ionescu”): narațiunea corpului poveștii folosește voce sintetică/clonată AI (confirmat audit Gemini pe toate cele 10 înregistrări).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "viorel-ionescu-unadded-videos",
+      "title": "Videoclipuri neadăugate de pe canalul „viorel-ionescu”",
+      "links": [
+        "youtube:hr_cDkNAC7Q",
+        "youtube:5ydyX2sz8Rk",
+        "youtube:oMHMfVWViTM",
+        "youtube:Y3rqPZ22O70",
+        "youtube:dtVIf8EjyK4",
+        "youtube:1CSEe3EpXJg"
+      ],
+      "reason": "Canal respins pentru utilizarea vocilor AI, plus teasere/promo-uri.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "cenusareasa-radio-zalau",
+      "title": "Cenușăreasa",
+      "links": [
+        "youtube:_AJMnFYa6JU"
+      ],
+      "reason": "Scos anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "mos-nicolae-radio-zalau",
+      "title": "Moș Nicolae",
+      "links": [
+        "youtube:9BLvOzLc5TI"
+      ],
+      "reason": "Scos anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "baba-iarna-radio-zalau",
+      "title": "Baba iarna intră-n sat",
+      "links": [
+        "youtube:1ZZ_DOTs01M"
+      ],
+      "reason": "Scos anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "bradul-mereu-verde-radio-zalau",
+      "title": "De ce bradul e mereu verde",
+      "links": [
+        "youtube:nL549cqnnNs"
+      ],
+      "reason": "Scos anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "broasca-fermecata-radio-zalau",
+      "title": "Broasca cea fermecată",
+      "links": [
+        "youtube:lCcmls--Gpg"
+      ],
+      "reason": "Scos anterior odată cu sursa „radio-zalau-povesti” (v1.31.2).",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "oita-cea-lacoma-arhiva",
+      "title": "Oița cea lacomă",
+      "links": [
+        "archive:BasmSpaniolOitaCeaLacoma/Basm spaniol - Oita cea lacoma.mp3"
+      ],
+      "reason": "Înregistrare scoasă anterior din catalog (v1.33.0).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "soacra-cu-trei-nurori-roton",
+      "title": "Soacra cu trei nurori (Clopoțelul Magic)",
+      "links": [
+        "audio:https://d3ctxlq1ktw2nl.cloudfront.net/staging/2021-2-3/160907091-44100-2-0fcec2cbb6d3.m4a",
+        "youtube:bMnNfX3a450"
+      ],
+      "reason": "Respinsă conform filtrului strict din AGENTS.md: povestea se termină cu omorârea soacrei în bătaie.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "ratusca-cea-urata-roton",
+      "title": "Rățușca cea urâtă (Clopoțelul Magic)",
+      "links": [
+        "audio:https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-11-10/480b78e3-b7d3-ee98-b4c6-1789b589d299.mp3",
+        "youtube:OCNKvNBZSbM"
+      ],
+      "reason": "Respinsă: înregistrare incompletă/trunchiată la mijlocul poveștii (iarna, înainte de transformarea în lebădă).",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "nekta-ai-flagged",
+      "title": "Videoclipuri Povești cu Nekta cu voce sintetică AI/TTS",
+      "links": [
+        "youtube:ybqeNg7Q9uA",
+        "youtube:WzPQy8h7uWY",
+        "youtube:0sxNxY_Q0pY",
+        "youtube:6aN-IDTLEoI",
+        "youtube:aUD0JhHoWxk",
+        "youtube:plOeXlb0RCM",
+        "youtube:KGrkQ0YUhDs",
+        "youtube:lcrSrmkVFVs",
+        "youtube:TDNKlvBrswA",
+        "youtube:Bis3SBuBfKY"
+      ],
+      "reason": "Auditul audio Gemini a detectat voce sintetică AI/TTS în introducere sau pe parcursul lecturii.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "nekta-other-excluded",
+      "title": "Videoclipuri Povești cu Nekta religioase, promo, educaționale sau fragmente",
+      "links": [
+        "youtube:oGXSJMfNarI",
+        "youtube:T1Fu0rIai3s",
+        "youtube:U9e4eDswgHg",
+        "youtube:isaLPVabKLU",
+        "youtube:aLmfLoAnYHI",
+        "youtube:BQSiX3ArLgI",
+        "youtube:xOMD55NavqI",
+        "youtube:kx5e7mIcu6U",
+        "youtube:XxOTnc5w_mU",
+        "youtube:qjoY8BhqYOQ",
+        "youtube:5240F4g0Ffc",
+        "youtube:QJzSWolfwds"
+      ],
+      "reason": "Excluse conform AGENTS.md: subiecte pur religioase/creștine, interviuri, fragmente incomplete, reclame/workshop-uri sau pur educaționale.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "sidonia-excluded",
+      "title": "Videoclipuri Sidonia Drăgușanu pentru adulți, promo sau fragmente scurte",
+      "links": [
+        "youtube:JKNqCUrWdIo",
+        "youtube:KJsmehsOttU",
+        "youtube:WGehP7kChyU",
+        "youtube:Liu3gty1tPs",
+        "youtube:c8iyUMwHTUI",
+        "youtube:cuiR7P3QYxI",
+        "youtube:JAg3yhbSIKw",
+        "youtube:5IczebbFbnI",
+        "youtube:wBQ4XRSIQkc",
+        "youtube:mqX2vzSSXqo",
+        "youtube:mxLQqGqCevk",
+        "youtube:MpDcg0e1ozo",
+        "youtube:ES4-hjTNJHA",
+        "youtube:O6Z-7jM6cco",
+        "youtube:A8ojyBgejDg",
+        "youtube:3Dy_mngAdgM",
+        "youtube:1RanDzIz5nQ",
+        "youtube:ulrfrLRuslg",
+        "youtube:VEd_29Yh3Oc",
+        "youtube:qOdQL3cP7dY"
+      ],
+      "reason": "Piese de teatru/romane pentru adulți, fragmente scurte de promo (119-163s) sau interviuri/evenimente.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "srr-excluded",
+      "title": "Episoade Poveștile de vineri seara excluse",
+      "links": [
+        "audio:https://podcast.srr.ro/audio/1/c8901_s/pod-audio-129811-poveste_cu_luca_i_iulian_postelnicu.mp3",
+        "audio:https://podcast.srr.ro/audio/1/c8901_s/pod-audio-134601-cartea_cu_apolodor.mp3",
+        "audio:https://podcast.srr.ro/audio/1/c8901_s/pod-audio-124681-9_august_povesti_cu_ioana_nicolae.mp3",
+        "audio:https://podcast.srr.ro/audio/1/c8901_s/pod-audio-123741-povesti_cu_ana_maria_sandu.mp3",
+        "audio:https://podcast.srr.ro/audio/1/c8901_s/pod-audio-121621-povesti_radu_paraschivescu.mp3"
+      ],
+      "reason": "129811 alegorie creștină (Max Lucado); 134601, 124681 și 123741 citiri de fragmente promoționale incomplete; 121621 proză pentru adulți.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "minipovesti-excluded-tts-and-ads",
+      "title": "Înregistrări MiniPovești cu voce AI/TTS, reclame sau 10+",
+      "links": [
+        "audio:https://minipovesti.ro/wp-content/uploads/2024/09/POVESTEA-CELOR-DOUA-CEASURI_240614_01.mp3",
+        "audio:https://minipovesti.ro/wp-content/uploads/2025/07/Ghemotoc-Youtube.mp3",
+        "audio:https://minipovesti.ro/wp-content/uploads/2025/08/Max-Youtube.mp3",
+        "audio:https://minipovesti.ro/wp-content/uploads/2025/07/Chiti-Youtube.mp3",
+        "url:https://minipovesti.ro/stories/dansul-ursoaicei-ep-1",
+        "url:https://minipovesti.ro/stories/pisica-vera"
+      ],
+      "reason": "Primele 4 fără credit de narator folosesc voce AI/TTS neural; Dansul ursoaicei este 10+ cu scene sângeroase; Pisica Vera este reclamă Veranda Mall.",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "povestile-cristinei-tup-trailer",
+      "title": "Țup – Book Trailer / Promo Audible",
+      "links": [
+        "youtube:7qQybJsZUAE",
+        "url:https://povestilecristinei.ro/audiobook-tup-imposibil-e-doar-un-cuvant-disponibil-pe-audible/"
+      ],
+      "reason": "Trailer video și anunț promoțional Audible, nu lectura integrală a poveștii.",
+      "date": "2026-11-26"
+    }
+  ]
+}

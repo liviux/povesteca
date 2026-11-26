@@ -1,352 +1,342 @@
 [
- {
-  "id": "arhiva-discuri-electrecord",
-  "name": "Discuri Electrecord digitizate",
-  "type": "archive",
-  "url": "https://archive.org/details/romanianvinyl",
-  "description": {
-   "ro": "Colecția „Romanian Vinyl” de pe Internet Archive: discuri de povești Electrecord, mai ales înregistrări de teatru radiofonic din anii ’60–’80. Fiecare fișă are regia și distribuția trecute pe disc.",
-   "en": "The “Romanian Vinyl” collection on the Internet Archive: Electrecord story records, mostly radio drama recordings from the 1960s to the 1980s. Each entry lists the director and cast printed on the record."
+  {
+    "id": "arhiva-discuri-electrecord",
+    "name": "Discuri Electrecord digitizate",
+    "type": "archive",
+    "url": "https://archive.org/details/romanianvinyl",
+    "description": {
+      "ro": "Colecția „Romanian Vinyl” de pe Internet Archive: discuri de povești Electrecord, mai ales înregistrări de teatru radiofonic din anii ’60–’80. Fiecare fișă are regia și distribuția trecute pe disc.",
+      "en": "The “Romanian Vinyl” collection on the Internet Archive: Electrecord story records, mostly radio drama recordings from the 1960s to the 1980s. Each entry lists the director and cast printed on the record."
+    }
+  },
+  {
+    "id": "arhiva-maia-martin",
+    "name": "Biblioteca Maia Martin",
+    "type": "archive",
+    "url": "https://archive.org/details/bibliotecamaiamartin",
+    "description": {
+      "ro": "Colecție de pe Internet Archive cu teatru radiofonic, povești și lecturi în limba română.",
+      "en": "An Internet Archive collection of Romanian radio drama, stories and readings."
+    }
+  },
+  {
+    "id": "arhiva-povesti-vinil",
+    "name": "Povești Audio Vinil (Internet Archive)",
+    "type": "archive",
+    "url": "https://archive.org/search?query=%22Povesti+Audio+Vinil%22",
+    "description": {
+      "ro": "Înregistrări de teatru radiofonic și discuri vechi păstrate pe Internet Archive în seriile „Povești Audio Vinil” și „Povești Vinil Audio”, fără reclame.",
+      "en": "Ad-free radio drama and vintage vinyl transfers uploaded to the Internet Archive under “Povești Audio Vinil” and “Povești Vinil Audio”."
+    }
+  },
+  {
+    "id": "eteatru",
+    "name": "eTeatru (Teatrul Național Radiofonic)",
+    "type": "audio",
+    "url": "https://eteatru.ro/spectacole/povesti/",
+    "description": {
+      "ro": "Secțiunea oficială de povești a Teatrului Național Radiofonic pe eteatru.ro: spectacole integrale cu distribuție completă, regie muzicală și ascultare directă, fără reclame.",
+      "en": "The official stories section of Romania’s National Radio Theatre on eteatru.ro: full productions with complete cast credits, musical score and ad-free direct streaming."
+    }
+  },
+  {
+    "id": "radio-arhive",
+    "name": "Arhiva Radio România",
+    "type": "audio",
+    "url": "https://radio-arhive.ro/teme/emisiuni-pentru-copii-i-tineret/101",
+    "description": {
+      "ro": "Înregistrări istorice din Fonoteca de Aur Radio România (anii ’50–’60): primele ediții „Noapte bună, copii!” păstrate pe bandă magnetică și spectacole clasice pentru copii.",
+      "en": "Historic recordings from Radio România’s Golden Archive (1950s–1960s): early tape broadcasts of “Noapte bună, copii!” and classic children’s radio plays."
+    }
+  },
+  {
+    "id": "culturalia-pe-unde",
+    "name": "Arhiva deschisă Culturalia („Pe unde”)",
+    "type": "audio",
+    "url": "https://mariuscomper.uk/pe-unde/",
+    "description": {
+      "ro": "Arhiva deschisă Radio România publicată sub licență liberă pe Culturalia și indexată prin proiectul „Pe unde”, cu sute de ediții „Noapte bună, copii!” din anii ’50–2000.",
+      "en": "Radio România’s open-license archive published on Culturalia and indexed by “Pe unde”, featuring historic “Noapte bună, copii!” bedtime broadcasts from the 1950s–2000s."
+    }
+  },
+  {
+    "id": "afostodata",
+    "name": "A Fost Odată",
+    "type": "audio",
+    "url": "https://afostodata.ro/",
+    "description": {
+      "ro": "Proiect românesc independent și gratuit de povești audio cu naratori expresivi, muzică și efecte sonore: basme clasice, legende și povești pentru copii.",
+      "en": "A free, independent Romanian audio-story project with expressive narrators, music and sound design: classic tales, legends and children's stories."
+    }
+  },
+  {
+    "id": "oameni-mici-si-mari",
+    "name": "Oameni mici și mari",
+    "type": "audio",
+    "url": "https://podcasters.spotify.com/pod/show/oamenimicisimari",
+    "description": {
+      "ro": "Podcast gratuit realizat de actori ai Teatrului Național Cluj-Napoca și colaboratori din teatre independente, cu povești clasice și contemporane, muzică și efecte sonore.",
+      "en": "A free podcast narrated by actors of the Cluj-Napoca National Theatre and independent stages, with classic and modern stories accompanied by music and sound effects."
+    }
+  },
+  {
+    "id": "yt-teatru-radiofonic",
+    "name": "Teatru Radiofonic",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@teatruradiofonic6362",
+    "description": {
+      "ro": "Canal YouTube cu peste două mii de înregistrări din arhiva teatrului radiofonic românesc, multe cu anul producției în titlu.",
+      "en": "A YouTube channel with more than two thousand recordings from the Romanian radio drama archive, many with the production year in the title."
+    }
+  },
+  {
+    "id": "yt-teatru-pe-vinil",
+    "name": "Teatru pe Vinil",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@TeatruPeVinil",
+    "description": {
+      "ro": "Arhivă YouTube de discuri de povești și piese de teatru radiofonic cu distribuțiile complete și liste dedicate pe teme și colecții.",
+      "en": "A YouTube archive of digitized vinyl stories and radio drama recordings with cast credits and curated playlists."
+    }
+  },
+  {
+    "id": "yt-itsy-bitsy",
+    "name": "Itsy Bitsy & Leon Magdan",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@RadioItsyBitsy",
+    "description": {
+      "ro": "Povești radiofonice moderne pe roluri, cu efecte sonore și muzică: serialul „Misiunile lui Itsy și ale lui Bitsy” și povești de seară scrise și spuse de Leon Magdan.",
+      "en": "Modern acted radio adventures and bedtime stories with music and rich sound design: “Misiunile lui Itsy și ale lui Bitsy” and Leon Magdan’s evening tales."
+    }
+  },
+  {
+    "id": "teatrul-puck",
+    "name": "Teatrul de Păpuși „Puck” Cluj-Napoca",
+    "type": "audio",
+    "url": "https://teatrulpuck.ro/audiopuck-2/",
+    "description": {
+      "ro": "Secțiunea AudioPuck a Teatrului de Păpuși „Puck” din Cluj-Napoca: basme clasice, povești în serial și adaptări radiofonice citite de actorii teatrului, cu ilustrație muzicală.",
+      "en": "The AudioPuck archive of the “Puck” Puppet Theatre in Cluj-Napoca: classic fairy tales, multi-part readings and radio adaptations performed by the theatre’s actors with musical accompaniment."
+    }
+  },
+  {
+    "id": "teatrul-gong",
+    "name": "Teatrul pentru Copii și Tineret „Gong” Sibiu",
+    "type": "audio",
+    "url": "https://teatrulgong.ro/podcast",
+    "description": {
+      "ro": "Producțiile audio ale Teatrului „Gong” din Sibiu: seriile de teatru radiofonic „Trilogia Creangă” și „Trilogia Petre Ispirescu”, „Meniul cu povești șoptite” și „Povești de iarnă cu Marian Râlea”.",
+      "en": "Audio productions by the “Gong” Theatre for Children and Youth in Sibiu: the “Trilogia Creangă” and “Trilogia Petre Ispirescu” radio plays, “Meniul cu povești șoptite” and “Povești de iarnă cu Marian Râlea”."
+    }
+  },
+  {
+    "id": "somnorosi",
+    "name": "Somnoroși Povești Audio",
+    "type": "audio",
+    "url": "https://somnorosi.ro/",
+    "description": {
+      "ro": "Povești audio originale românești de seară, scrise de Tudor Stoica și Mihaela Ignat și povestite de Mihaela Tatu, cu muzică și efecte sonore.",
+      "en": "Original Romanian bedtime audio stories written by Tudor Stoica and Mihaela Ignat, narrated by Mihaela Tatu with music and sound design."
+    }
+  },
+  {
+    "id": "yt-opera-comica",
+    "name": "Opera Comică pentru Copii",
+    "type": "youtube",
+    "url": "https://www.youtube.com/channel/UCugenozY7jOD2yUHIQU4awA",
+    "description": {
+      "ro": "Poveștile muzicale din seria „Povești cu Bubu” ale Operei Comice pentru Copii din București, gândite special pentru cei mai mici ascultători (1–4 ani).",
+      "en": "Musical audio stories from the “Povești cu Bubu” series by the Bucharest Comic Opera for Children, made especially for toddlers and young listeners (ages 1–4)."
+    }
+  },
+  {
+    "id": "yt-ady-magdici",
+    "name": "Ady Magdici",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@AdyMagdici",
+    "description": {
+      "ro": "Canal YouTube cu piese de teatru radiofonic românesc, organizate în liste de basme, povești și aventuri clasice, cu distribuțiile trecute în descriere.",
+      "en": "A YouTube channel sharing Romanian radio drama organised into playlists of fairy tales, stories and classic adventures, with cast credits in the descriptions."
+    }
+  },
+  {
+    "id": "yt-teatrul-ion-creanga",
+    "name": "Teatrul Ion Creangă",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@TeatrulIonCreanga",
+    "description": {
+      "ro": "Canalul oficial al Teatrului Ion Creangă din București: povești citite și dramatizate de actorii teatrului, serii pentru cei mici precum „Emoțiile lui Noni”, „Aventurile lui Chiț și Ronț” și „Acasă la Moș Crăciun”.",
+      "en": "The official channel of Bucharest’s Ion Creangă Theatre: stories read and dramatized by the theatre’s actors, including series for younger listeners such as “Emoțiile lui Noni”, “Aventurile lui Chiț și Ronț”, and “Acasă la Moș Crăciun”."
+    }
+  },
+  {
+    "id": "yt-minireactor",
+    "name": "MiniREACTOR & Radio Cluj",
+    "type": "youtube",
+    "url": "https://www.youtube.com/playlist?list=PL60ohYFl3MjZphRgScTHpvHd7OfAhHLwY",
+    "description": {
+      "ro": "Spectacole de teatru radiofonic contemporan pentru copii, produse de MiniREACTOR Cluj-Napoca în parteneriat cu Radio Cluj (proiect cofinanțat AFCN), în regia Selmei Dragoș, cu actori clujeni și muzică originală.",
+      "en": "Contemporary Romanian children’s radio plays produced by MiniREACTOR Cluj-Napoca in partnership with Radio Cluj (co-funded by AFCN), directed by Selma Dragoș with Cluj actors and original music."
+    }
+  },
+  {
+    "id": "yt-teatrul-colibri",
+    "name": "Teatrul pentru Copii și Tineret „Colibri” Craiova",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@TeatrulColibriCraiova",
+    "description": {
+      "ro": "Seria de teatru radiofonic pentru copii a Teatrului „Colibri” din Craiova: basme românești și universale adaptate de Adriana Ioncu și jucate pe roluri de actorii teatrului, cu montaj sonor și ilustrație muzicală.",
+      "en": "The children’s radio drama series of the “Colibri” Theatre in Craiova: Romanian and world fairy tales adapted by Adriana Ioncu and performed by the theatre’s actors with sound design and music."
+    }
+  },
+  {
+    "id": "cutiuta-cu-povesti",
+    "name": "Cutiuța cu povești & Povești ascultătoare",
+    "type": "audio",
+    "url": "https://www.youtube.com/@CutiutaMuzicalaOficial",
+    "description": {
+      "ro": "Albumele de povești audio „Cutiuța cu povești” (Vol. 1 și 2, MediaPro Music) și seria „Povești ascultătoare”: povești dramatizate și basme clasice cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea, cu audio direct și oglinzi pe canalul oficial YouTube.",
+      "en": "The “Cutiuța cu povești” (Vol. 1 & 2, MediaPro Music) audio albums and the “Povești ascultătoare” series: dramatized stories and classic tales performed by Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea and Damian Victor Oancea, with direct audio and official YouTube mirrors."
+    }
+  },
+  {
+    "id": "pippin-cel-curios",
+    "name": "Pippin cel Curios („De vorbă cu patrimoniul”)",
+    "type": "audio",
+    "url": "https://pippincelcurios.ro/",
+    "description": {
+      "ro": "Povești audio dramatizate pe roluri din proiectul cultural „De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, cofinanțat AFCN), scrise de Laura Hangiu și interpretate cu actori, muzică și efecte sonore.",
+      "en": "Acted audio stories from the cultural heritage project “De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, co-funded by AFCN), written by Laura Hangiu and performed by actors with music and sound design."
+    }
+  },
+  {
+    "id": "radio-moldova",
+    "name": "Radio Moldova (Teleradio-Moldova)",
+    "type": "audio",
+    "url": "https://radiomoldova.md/s/ro/73",
+    "description": {
+      "ro": "Fonoteca de Aur a Radio Moldova (Teleradio-Moldova): spectacole integrale de teatru radiofonic pentru copii („Teatru la microfon”) și povești de seară („Povestea de seară”) din anii ’70–2010, în interpretarea actorilor teatrelor din Chișinău, cu ascultare directă, fără reclame.",
+      "en": "Radio Moldova’s Golden Archive (Teleradio-Moldova): full children’s radio plays (“Teatru la microfon”) and bedtime stories (“Povestea de seară”) from the 1970s–2010s, performed by Chișinău theatre actors with direct, ad-free streaming."
+    }
+  },
+  {
+    "id": "latimp",
+    "name": "LaTimp.eu",
+    "type": "audio",
+    "url": "https://latimp.eu/category/teatru-audio-copii/",
+    "description": {
+      "ro": "Înregistrări de teatru radiofonic și povești pentru copii, cu fișe de distribuție pentru montările din arhiva Radio România.",
+      "en": "Radio plays and stories for children, with cast and production credits for recordings from the Radio România archive."
+    }
+  },
+  {
+    "id": "povesti-alese",
+    "name": "Povești alese",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@mihaiamarie7370",
+    "description": {
+      "ro": "Canalul actorului și povestitorului Mihai Amarie, cu lecturi de povești și texte literare, între care volumul „Din lumea celor care nu cuvântă” de Emil Gârleanu.",
+      "en": "Actor and storyteller Mihai Amarie’s channel, with readings of stories and literary works, including Emil Gârleanu’s collection “Din lumea celor care nu cuvântă”."
+    }
+  },
+  {
+    "id": "minipovesti",
+    "name": "MiniPovești",
+    "type": "audio",
+    "url": "https://minipovesti.ro/",
+    "description": {
+      "ro": "Povești pentru copii publicate de proiectul MiniPovești, cu texte integrale, lecturi înregistrate de actori și redare audio directă.",
+      "en": "Children’s stories published by the MiniPovești project, with full texts, actor-read recordings and direct audio playback."
+    }
+  },
+  {
+    "id": "yt-teatrul-evreiesc",
+    "name": "Teatrul Evreiesc de Stat",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@teatrulevreiesc",
+    "description": {
+      "ro": "Canalul oficial al Teatrului Evreiesc de Stat din București, cu seria „Regatul poveștilor”: povești de Petre Crăciun citite de actorii teatrului, între care Maia Morgenstern.",
+      "en": "The official channel of Bucharest’s State Jewish Theatre, with the “Regatul poveștilor” series: stories by Petre Crăciun read by the theatre’s actors, Maia Morgenstern among them."
+    }
+  },
+  {
+    "id": "yt-teatrul-arlechino",
+    "name": "Teatrul Arlechino Brașov",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@teatrularlechinobrasov4590",
+    "description": {
+      "ro": "Canalul oficial al Teatrului pentru Copii „Arlechino” din Brașov, cu spectacolele-lectură „O după-amiază de poveste”.",
+      "en": "The official channel of Brașov’s “Arlechino” Children’s Theatre, with the “O după-amiază de poveste” staged readings."
+    }
+  },
+  {
+    "id": "yt-teatrul-baia-mare",
+    "name": "Teatrul Municipal Baia Mare",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@TeatrulBM",
+    "description": {
+      "ro": "Canalul oficial al Teatrului Municipal Baia Mare, cu seria de iarnă „Povești la gura sobei” a secției Păpuși.",
+      "en": "The official channel of the Baia Mare Municipal Theatre, with the puppet company’s winter series “Povești la gura sobei”."
+    }
+  },
+  {
+    "id": "radio-targu-mures",
+    "name": "Radio România Târgu Mureș",
+    "type": "audio",
+    "url": "https://www.radiomures.ro/stiri/categorie-podcast/povesti-pentru-copii",
+    "description": {
+      "ro": "Povești de iarnă de Mirela Toma, interpretate de Lavinia Nicoleta Ghișa și Rudolf Moca în 2018.",
+      "en": "Winter stories by Mirela Toma, performed by Lavinia Nicoleta Ghișa and Rudolf Moca in 2018."
+    }
+  },
+  {
+    "id": "povestile-cristinei",
+    "name": "Poveștile Cristinei",
+    "type": "audio",
+    "url": "https://povestilecristinei.ro/",
+    "description": {
+      "ro": "Povești de Cristina și Alex Donovici, în interpretarea unor actori precum Serenela Mureșan, Pavel Bartoș și Teo Trandafir.",
+      "en": "Stories by Cristina and Alex Donovici, performed by actors including Serenela Mureșan, Pavel Bartoș and Teo Trandafir."
+    }
+  },
+  {
+    "id": "sidonia-dragusanu",
+    "name": "Sidonia Drăgușanu",
+    "type": "youtube",
+    "url": "https://www.youtube.com/channel/UCBMPavAgV70gjzqQdtoXf2Q",
+    "description": {
+      "ro": "Canalul oficial dedicat scriitoarei Sidonia Drăgușanu: poveștile din volumul „Moața, Creața și Grasu’ la bal”, citite la Radio România Cultural de actrița Rodica Mandache, lectura interpretată de Daniela Ioniță Marcu și teatrul radiofonic „Balul din Împărăția noastră” (1970).",
+      "en": "The official channel of the Sidonia Drăgușanu literary estate: stories from “Moața, Creața și Grasu’ la bal” read for Radio România Cultural by Rodica Mandache, Daniela Ioniță Marcu’s reading, and the 1970 Radio România play “Balul din Împărăția noastră”."
+    }
+  },
+  {
+    "id": "povestile-de-vineri-seara",
+    "name": "Poveștile de vineri seara",
+    "type": "audio",
+    "url": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
+    "description": {
+      "ro": "Seria „Poveștile de vineri seara” a Radio România Actualități și a Ambasadei României în Italia: povești românești și universale citite de actori, scriitori și muzicieni, cu audio direct din arhiva radio, fără reclame.",
+      "en": "Radio România Actualități and the Romanian Embassy in Italy’s “Poveștile de vineri seara”: Romanian and universal stories read by actors, writers and musicians, with direct, ad-free audio from the radio archive."
+    }
+  },
+  {
+    "id": "povesti-cu-nekta",
+    "name": "Povești cu Nekta",
+    "type": "youtube",
+    "url": "https://www.youtube.com/channel/UCEar0g9AvbQct_mot364iqw",
+    "description": {
+      "ro": "Povești clasice și originale scrise și narate de Nekta Ioana Dedu, după aproape zece ani de radio. Basme citite calm, cu voce caldă, pentru seara dinaintea somnului.",
+      "en": "Classic and original stories written and narrated by Nekta Ioana Dedu after almost ten years in radio. Calm, warmly voiced fairy tales for bedtime."
+    }
+  },
+  {
+    "id": "clopotelul-magic",
+    "name": "Clopoțelul Magic (Roton)",
+    "type": "audio",
+    "url": "https://podcasts.apple.com/ro/podcast/clopotelul-magic/id1525276436",
+    "description": {
+      "ro": "Podcastul și canalul casei de discuri Roton adună dramatizări clasice cu actorii Teatrului Luceafărul Iași, precum și povești narate de Daniela Nane, Teo Trandafir, Anda Niculina Pittiș și Andreea Mihaela Stan.",
+      "en": "Roton’s podcast and YouTube channel bring together classic radio plays performed by actors of Luceafărul Theatre Iași alongside stories read by Daniela Nane, Teo Trandafir, Anda Niculina Pittiș and Andreea Mihaela Stan."
+    }
   }
- },
- {
-  "id": "arhiva-maia-martin",
-  "name": "Biblioteca Maia Martin",
-  "type": "archive",
-  "url": "https://archive.org/details/bibliotecamaiamartin",
-  "description": {
-   "ro": "Colecție de pe Internet Archive cu teatru radiofonic, povești și lecturi în limba română.",
-   "en": "An Internet Archive collection of Romanian radio drama, stories and readings."
-  }
- },
- {
-  "id": "arhiva-povesti-vinil",
-  "name": "Povești Audio Vinil (Internet Archive)",
-  "type": "archive",
-  "url": "https://archive.org/search?query=%22Povesti+Audio+Vinil%22",
-  "description": {
-   "ro": "Înregistrări de teatru radiofonic și discuri vechi păstrate pe Internet Archive în seriile „Povești Audio Vinil” și „Povești Vinil Audio”, fără reclame.",
-   "en": "Ad-free radio drama and vintage vinyl transfers uploaded to the Internet Archive under “Povești Audio Vinil” and “Povești Vinil Audio”."
-  }
- },
- {
-  "id": "eteatru",
-  "name": "eTeatru (Teatrul Național Radiofonic)",
-  "type": "audio",
-  "url": "https://eteatru.ro/spectacole/povesti/",
-  "description": {
-   "ro": "Secțiunea oficială de povești a Teatrului Național Radiofonic pe eteatru.ro: spectacole integrale cu distribuție completă, regie muzicală și ascultare directă, fără reclame.",
-   "en": "The official stories section of Romania’s National Radio Theatre on eteatru.ro: full productions with complete cast credits, musical score and ad-free direct streaming."
-  }
- },
- {
-  "id": "radio-arhive",
-  "name": "Arhiva Radio România",
-  "type": "audio",
-  "url": "https://radio-arhive.ro/teme/emisiuni-pentru-copii-i-tineret/101",
-  "description": {
-   "ro": "Înregistrări istorice din Fonoteca de Aur Radio România (anii ’50–’60): primele ediții „Noapte bună, copii!” păstrate pe bandă magnetică și spectacole clasice pentru copii.",
-   "en": "Historic recordings from Radio România’s Golden Archive (1950s–1960s): early tape broadcasts of “Noapte bună, copii!” and classic children’s radio plays."
-  }
- },
- {
-  "id": "culturalia-pe-unde",
-  "name": "Arhiva deschisă Culturalia („Pe unde”)",
-  "type": "audio",
-  "url": "https://mariuscomper.uk/pe-unde/",
-  "description": {
-   "ro": "Arhiva deschisă Radio România publicată sub licență liberă pe Culturalia și indexată prin proiectul „Pe unde”, cu sute de ediții „Noapte bună, copii!” din anii ’50–2000.",
-   "en": "Radio România’s open-license archive published on Culturalia and indexed by “Pe unde”, featuring historic “Noapte bună, copii!” bedtime broadcasts from the 1950s–2000s."
-  }
- },
- {
-  "id": "afostodata",
-  "name": "A Fost Odată",
-  "type": "audio",
-  "url": "https://afostodata.ro/",
-  "description": {
-   "ro": "Proiect românesc independent și gratuit de povești audio cu naratori expresivi, muzică și efecte sonore: basme clasice, legende și povești pentru copii.",
-   "en": "A free, independent Romanian audio-story project with expressive narrators, music and sound design: classic tales, legends and children's stories."
-  }
- },
- {
-  "id": "oameni-mici-si-mari",
-  "name": "Oameni mici și mari",
-  "type": "audio",
-  "url": "https://podcasters.spotify.com/pod/show/oamenimicisimari",
-  "description": {
-   "ro": "Podcast gratuit realizat de actori ai Teatrului Național Cluj-Napoca și colaboratori din teatre independente, cu povești clasice și contemporane, muzică și efecte sonore.",
-   "en": "A free podcast narrated by actors of the Cluj-Napoca National Theatre and independent stages, with classic and modern stories accompanied by music and sound effects."
-  }
- },
- {
-  "id": "yt-teatru-radiofonic",
-  "name": "Teatru Radiofonic",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@teatruradiofonic6362",
-  "description": {
-   "ro": "Canal YouTube cu peste două mii de înregistrări din arhiva teatrului radiofonic românesc, multe cu anul producției în titlu.",
-   "en": "A YouTube channel with more than two thousand recordings from the Romanian radio drama archive, many with the production year in the title."
-  }
- },
- {
-  "id": "yt-teatru-pe-vinil",
-  "name": "Teatru pe Vinil",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@TeatruPeVinil",
-  "description": {
-   "ro": "Arhivă YouTube de discuri de povești și piese de teatru radiofonic cu distribuțiile complete și liste dedicate pe teme și colecții.",
-   "en": "A YouTube archive of digitized vinyl stories and radio drama recordings with cast credits and curated playlists."
-  }
- },
- {
-  "id": "yt-itsy-bitsy",
-  "name": "Itsy Bitsy & Leon Magdan",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@RadioItsyBitsy",
-  "description": {
-   "ro": "Povești radiofonice moderne pe roluri, cu efecte sonore și muzică: serialul „Misiunile lui Itsy și ale lui Bitsy” și povești de seară scrise și spuse de Leon Magdan.",
-   "en": "Modern acted radio adventures and bedtime stories with music and rich sound design: “Misiunile lui Itsy și ale lui Bitsy” and Leon Magdan’s evening tales."
-  }
- },
- {
-  "id": "teatrul-puck",
-  "name": "Teatrul de Păpuși „Puck” Cluj-Napoca",
-  "type": "audio",
-  "url": "https://teatrulpuck.ro/audiopuck-2/",
-  "description": {
-   "ro": "Secțiunea AudioPuck a Teatrului de Păpuși „Puck” din Cluj-Napoca: basme clasice, povești în serial și adaptări radiofonice citite de actorii teatrului, cu ilustrație muzicală.",
-   "en": "The AudioPuck archive of the “Puck” Puppet Theatre in Cluj-Napoca: classic fairy tales, multi-part readings and radio adaptations performed by the theatre’s actors with musical accompaniment."
-  }
- },
- {
-  "id": "teatrul-gong",
-  "name": "Teatrul pentru Copii și Tineret „Gong” Sibiu",
-  "type": "audio",
-  "url": "https://teatrulgong.ro/podcast",
-  "description": {
-   "ro": "Producțiile audio ale Teatrului „Gong” din Sibiu: seriile de teatru radiofonic „Trilogia Creangă” și „Trilogia Petre Ispirescu”, „Meniul cu povești șoptite” și „Povești de iarnă cu Marian Râlea”.",
-   "en": "Audio productions by the “Gong” Theatre for Children and Youth in Sibiu: the “Trilogia Creangă” and “Trilogia Petre Ispirescu” radio plays, “Meniul cu povești șoptite” and “Povești de iarnă cu Marian Râlea”."
-  }
- },
- {
-  "id": "somnorosi",
-  "name": "Somnoroși Povești Audio",
-  "type": "audio",
-  "url": "https://somnorosi.ro/",
-  "description": {
-   "ro": "Povești audio originale românești de seară, scrise de Tudor Stoica și Mihaela Ignat și povestite de Mihaela Tatu, cu muzică și efecte sonore.",
-   "en": "Original Romanian bedtime audio stories written by Tudor Stoica and Mihaela Ignat, narrated by Mihaela Tatu with music and sound design."
-  }
- },
- {
-  "id": "yt-opera-comica",
-  "name": "Opera Comică pentru Copii",
-  "type": "youtube",
-  "url": "https://www.youtube.com/channel/UCugenozY7jOD2yUHIQU4awA",
-  "description": {
-   "ro": "Poveștile muzicale din seria „Povești cu Bubu” ale Operei Comice pentru Copii din București, gândite special pentru cei mai mici ascultători (1–4 ani).",
-   "en": "Musical audio stories from the “Povești cu Bubu” series by the Bucharest Comic Opera for Children, made especially for toddlers and young listeners (ages 1–4)."
-  }
- },
- {
-  "id": "yt-ady-magdici",
-  "name": "Ady Magdici",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@AdyMagdici",
-  "description": {
-   "ro": "Canal YouTube cu piese de teatru radiofonic românesc, organizate în liste de basme, povești și aventuri clasice, cu distribuțiile trecute în descriere.",
-   "en": "A YouTube channel sharing Romanian radio drama organised into playlists of fairy tales, stories and classic adventures, with cast credits in the descriptions."
-  }
- },
- {
-  "id": "yt-teatrul-ion-creanga",
-  "name": "Teatrul Ion Creangă",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@TeatrulIonCreanga",
-  "description": {
-   "ro": "Canalul oficial al Teatrului Ion Creangă din București: povești citite și dramatizate de actorii teatrului, serii pentru cei mici precum „Emoțiile lui Noni”, „Aventurile lui Chiț și Ronț” și „Acasă la Moș Crăciun”.",
-   "en": "The official channel of Bucharest’s Ion Creangă Theatre: stories read and dramatized by the theatre’s actors, including series for younger listeners such as “Emoțiile lui Noni”, “Aventurile lui Chiț și Ronț”, and “Acasă la Moș Crăciun”."
-  }
- },
- {
-  "id": "yt-minireactor",
-  "name": "MiniREACTOR & Radio Cluj",
-  "type": "youtube",
-  "url": "https://www.youtube.com/playlist?list=PL60ohYFl3MjZphRgScTHpvHd7OfAhHLwY",
-  "description": {
-   "ro": "Spectacole de teatru radiofonic contemporan pentru copii, produse de MiniREACTOR Cluj-Napoca în parteneriat cu Radio Cluj (proiect cofinanțat AFCN), în regia Selmei Dragoș, cu actori clujeni și muzică originală.",
-   "en": "Contemporary Romanian children’s radio plays produced by MiniREACTOR Cluj-Napoca in partnership with Radio Cluj (co-funded by AFCN), directed by Selma Dragoș with Cluj actors and original music."
-  }
- },
- {
-  "id": "yt-teatrul-colibri",
-  "name": "Teatrul pentru Copii și Tineret „Colibri” Craiova",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@TeatrulColibriCraiova",
-  "description": {
-   "ro": "Seria de teatru radiofonic pentru copii a Teatrului „Colibri” din Craiova: basme românești și universale adaptate de Adriana Ioncu și jucate pe roluri de actorii teatrului, cu montaj sonor și ilustrație muzicală.",
-   "en": "The children’s radio drama series of the “Colibri” Theatre in Craiova: Romanian and world fairy tales adapted by Adriana Ioncu and performed by the theatre’s actors with sound design and music."
-  }
- },
- {
-  "id": "cutiuta-cu-povesti",
-  "name": "Cutiuța cu povești & Povești ascultătoare",
-  "type": "audio",
-  "url": "https://www.youtube.com/@CutiutaMuzicalaOficial",
-  "description": {
-   "ro": "Albumele de povești audio „Cutiuța cu povești” (Vol. 1 și 2, MediaPro Music) și seria „Povești ascultătoare”: povești dramatizate și basme clasice cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea, cu audio direct și oglinzi pe canalul oficial YouTube.",
-   "en": "The “Cutiuța cu povești” (Vol. 1 & 2, MediaPro Music) audio albums and the “Povești ascultătoare” series: dramatized stories and classic tales performed by Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea and Damian Victor Oancea, with direct audio and official YouTube mirrors."
-  }
- },
- {
-  "id": "pippin-cel-curios",
-  "name": "Pippin cel Curios („De vorbă cu patrimoniul”)",
-  "type": "audio",
-  "url": "https://pippincelcurios.ro/",
-  "description": {
-   "ro": "Povești audio dramatizate pe roluri din proiectul cultural „De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, cofinanțat AFCN), scrise de Laura Hangiu și interpretate cu actori, muzică și efecte sonore.",
-   "en": "Acted audio stories from the cultural heritage project “De vorbă cu patrimoniul: casele spun povești” (Art Conservation Support, co-funded by AFCN), written by Laura Hangiu and performed by actors with music and sound design."
-  }
- },
- {
-  "id": "radio-moldova",
-  "name": "Radio Moldova (Teleradio-Moldova)",
-  "type": "audio",
-  "url": "https://radiomoldova.md/s/ro/73",
-  "description": {
-   "ro": "Fonoteca de Aur a Radio Moldova (Teleradio-Moldova): spectacole integrale de teatru radiofonic pentru copii („Teatru la microfon”) și povești de seară („Povestea de seară”) din anii ’70–2010, în interpretarea actorilor teatrelor din Chișinău, cu ascultare directă, fără reclame.",
-   "en": "Radio Moldova’s Golden Archive (Teleradio-Moldova): full children’s radio plays (“Teatru la microfon”) and bedtime stories (“Povestea de seară”) from the 1970s–2010s, performed by Chișinău theatre actors with direct, ad-free streaming."
-  }
- },
- {
-  "id": "latimp",
-  "name": "LaTimp.eu",
-  "type": "audio",
-  "url": "https://latimp.eu/category/teatru-audio-copii/",
-  "description": {
-   "ro": "Înregistrări de teatru radiofonic și povești pentru copii, cu fișe de distribuție pentru montările din arhiva Radio România.",
-   "en": "Radio plays and stories for children, with cast and production credits for recordings from the Radio România archive."
-  }
- },
- {
-  "id": "povesti-alese",
-  "name": "Povești alese",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@mihaiamarie7370",
-  "description": {
-   "ro": "Canalul actorului și povestitorului Mihai Amarie, cu lecturi de povești și texte literare, între care volumul „Din lumea celor care nu cuvântă” de Emil Gârleanu.",
-   "en": "Actor and storyteller Mihai Amarie’s channel, with readings of stories and literary works, including Emil Gârleanu’s collection “Din lumea celor care nu cuvântă”."
-  }
- },
- {
-  "id": "minipovesti",
-  "name": "MiniPovești",
-  "type": "audio",
-  "url": "https://minipovesti.ro/",
-  "description": {
-   "ro": "Povești pentru copii publicate de proiectul MiniPovești, cu texte integrale, lecturi înregistrate de actori și redare audio directă.",
-   "en": "Children’s stories published by the MiniPovești project, with full texts, actor-read recordings and direct audio playback."
-  }
- },
- {
-  "id": "yt-teatrul-evreiesc",
-  "name": "Teatrul Evreiesc de Stat",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@teatrulevreiesc",
-  "description": {
-   "ro": "Canalul oficial al Teatrului Evreiesc de Stat din București, cu seria „Regatul poveștilor”: povești de Petre Crăciun citite de actorii teatrului, între care Maia Morgenstern.",
-   "en": "The official channel of Bucharest’s State Jewish Theatre, with the “Regatul poveștilor” series: stories by Petre Crăciun read by the theatre’s actors, Maia Morgenstern among them."
-  }
- },
- {
-  "id": "yt-teatrul-arlechino",
-  "name": "Teatrul Arlechino Brașov",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@teatrularlechinobrasov4590",
-  "description": {
-   "ro": "Canalul oficial al Teatrului pentru Copii „Arlechino” din Brașov, cu spectacolele-lectură „O după-amiază de poveste”.",
-   "en": "The official channel of Brașov’s “Arlechino” Children’s Theatre, with the “O după-amiază de poveste” staged readings."
-  }
- },
- {
-  "id": "yt-teatrul-baia-mare",
-  "name": "Teatrul Municipal Baia Mare",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@TeatrulBM",
-  "description": {
-   "ro": "Canalul oficial al Teatrului Municipal Baia Mare, cu seria de iarnă „Povești la gura sobei” a secției Păpuși.",
-   "en": "The official channel of the Baia Mare Municipal Theatre, with the puppet company’s winter series “Povești la gura sobei”."
-  }
- },
- {
-  "id": "radio-targu-mures",
-  "name": "Radio România Târgu Mureș",
-  "type": "audio",
-  "url": "https://www.radiomures.ro/stiri/categorie-podcast/povesti-pentru-copii",
-  "description": {
-   "ro": "Povești de iarnă de Mirela Toma, interpretate de Lavinia Nicoleta Ghișa și Rudolf Moca în 2018.",
-   "en": "Winter stories by Mirela Toma, performed by Lavinia Nicoleta Ghișa and Rudolf Moca in 2018."
-  }
- },
- {
-  "id": "povestile-cristinei",
-  "name": "Poveștile Cristinei",
-  "type": "audio",
-  "url": "https://povestilecristinei.ro/",
-  "description": {
-   "ro": "Povești de Cristina și Alex Donovici, în interpretarea unor actori precum Serenela Mureșan, Pavel Bartoș și Teo Trandafir.",
-   "en": "Stories by Cristina and Alex Donovici, performed by actors including Serenela Mureșan, Pavel Bartoș and Teo Trandafir."
-  }
- },
- {
-  "id": "sidonia-dragusanu",
-  "name": "Sidonia Drăgușanu",
-  "type": "youtube",
-  "url": "https://www.youtube.com/channel/UCBMPavAgV70gjzqQdtoXf2Q",
-  "description": {
-   "ro": "Canalul oficial dedicat scriitoarei Sidonia Drăgușanu: poveștile din volumul „Moața, Creața și Grasu’ la bal”, citite la Radio România Cultural de actrița Rodica Mandache, plus lectura „Moața, Creața și Grasu’ la bal” interpretată de Daniela Ioniță-Marcu. Înregistrări complete.",
-   "en": "The official channel of the Sidonia Drăgușanu literary estate: stories from “Moața, Creața și Grasu’ la bal”, read for Radio România Cultural by actress Rodica Mandache, plus Daniela Ioniță-Marcu’s reading of the title story. Complete recordings."
-  }
- },
- {
-  "id": "povestile-de-vineri-seara",
-  "name": "Poveștile de vineri seara",
-  "type": "audio",
-  "url": "https://podcast.srr.ro/RRA/povestile-de-vineri-seara/-s_1-c_8901",
-  "description": {
-   "ro": "Seria „Poveștile de vineri seara” a Radio România Actualități și a Ambasadei României în Italia: povești românești și universale citite de actori, scriitori și muzicieni, cu audio direct din arhiva radio, fără reclame.",
-   "en": "Radio România Actualități and the Romanian Embassy in Italy’s “Poveștile de vineri seara”: Romanian and universal stories read by actors, writers and musicians, with direct, ad-free audio from the radio archive."
-  }
- },
- {
-  "id": "viorel-ionescu",
-  "name": "Povești de adormit copiii",
-  "type": "youtube",
-  "url": "https://www.youtube.com/channel/UCBaxa6qIVMVUSHdPpg_oR7g",
-  "description": {
-   "ro": "Povești originale de seară scrise și spuse de actorul Viorel Ionescu, cunoscut pentru personajele din filmele și serialele pentru copii dublate în română. Basme moderne cu zâne, dragoni și eroi mici.",
-   "en": "Original bedtime stories written and told by actor Viorel Ionescu, known for his Romanian-dubbed children’s film and TV roles. Modern fairy tales with fairies, dragons and small heroes."
-  }
- },
- {
-  "id": "povesti-cu-nekta",
-  "name": "Povești cu Nekta",
-  "type": "youtube",
-  "url": "https://www.youtube.com/channel/UCEar0g9AvbQct_mot364iqw",
-  "description": {
-   "ro": "Povești clasice și originale scrise și narate de Nekta Ioana Dedu, după aproape zece ani de radio. Basme citite calm, cu voce caldă, pentru seara dinaintea somnului.",
-   "en": "Classic and original stories written and narrated by Nekta Ioana Dedu after almost ten years in radio. Calm, warmly voiced fairy tales for bedtime."
-  }
- },
- {
-  "id": "clopotelul-magic",
-  "name": "Clopoțelul Magic (Roton)",
-  "type": "audio",
-  "url": "https://podcasts.apple.com/ro/podcast/clopotelul-magic/id1525276436",
-  "description": {
-   "ro": "Podcastul casei de discuri Roton adună povești în lectura lui Teo Trandafir și a Danielei Nane, precum și dramatizări cu actori, muzică și efecte sonore.",
-   "en": "Roton’s podcast brings together stories read by Teo Trandafir and Daniela Nane and audio plays with a cast, music and sound effects."
-  }
- }
 ]

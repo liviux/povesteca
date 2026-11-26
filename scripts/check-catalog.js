@@ -1,9 +1,14 @@
 // Validates catalog/*.json before every build: references, enums, duplicates.
 // Run: npm run check
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const load = (n) => JSON.parse(readFileSync(new URL(`../catalog/${n}.json`, import.meta.url)));
 const [stories, versions, sources, collections] = ['stories', 'versions', 'sources', 'collections'].map(load);
+const rejectedUrl = new URL('../catalog/rejected.json', import.meta.url);
+const rejected = existsSync(rejectedUrl) ? JSON.parse(readFileSync(rejectedUrl, 'utf8')) : { sources: [], stories: [], recordings: [] };
+const rejectedSourceIds = new Set((rejected.sources || []).map((x) => x.id));
+const rejectedSourceUrls = new Set((rejected.sources || []).map((x) => x.url).filter(Boolean));
+const rejectedLinks = new Set((rejected.recordings || []).flatMap((x) => x.links || []));
 const errors = [], warnings = [];
 const err = (m) => errors.push(m), warn = (m) => warnings.push(m);
 
@@ -93,7 +98,8 @@ for (const v of versions) {
     const s = l.start ?? v.start, e = l.end ?? v.end;
     if (s != null && e != null && e <= s) err(`${at}: end before start`);
     const span = s != null || e != null ? `#${s || 0}-${e || ''}` : '';
-    const key = (l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : l.type === 'audio' ? `audio:${l.url}` : `url:${l.url}`) + span;
+    const baseKey = l.type === 'archive' ? `archive:${l.id}/${l.file}` : l.type === 'youtube' ? `youtube:${l.id}` : l.type === 'audio' ? `audio:${l.url}` : `url:${l.url}`;
+    const key = baseKey + span;
     if (l.type === 'archive' && (!l.id || !l.file)) err(`${at}: archive link needs id and file`);
     if (l.type === 'audio' && (!l.url || !/^https?:\/\//.test(l.url))) err(`${at}: audio link needs url`);
     if (l.type === 'link' && !/^https?:\/\/.+/.test(l.url || '')) err(`${at}: external link needs an HTTP(S) URL`);
@@ -102,7 +108,27 @@ for (const v of versions) {
     // the same file or video in two versions means one production was entered twice
     if (linkOwner.has(key) && linkOwner.get(key) !== v.id) err(`${at}: ${key} is already used by ${linkOwner.get(key)} (merge them as one recording with several links)`);
     linkOwner.set(key, v.id);
+    if (rejectedLinks.has(baseKey) || rejectedLinks.has(key)) err(`${at}: link ${key} is in catalog/rejected.json`);
   }
+}
+
+for (const src of rejected.sources || []) {
+  if (!src.id || !src.reason) err(`rejected.sources: entry missing id or reason`);
+  if (SRC.has(src.id)) err(`source ${src.id} is in catalog/rejected.json`);
+}
+for (const src of sources) {
+  if (src.url && rejectedSourceUrls.has(src.url)) err(`source ${src.id}: URL ${src.url} is in catalog/rejected.json`);
+}
+for (const s of rejected.stories || []) {
+  if (!s.id || !s.reason) err(`rejected.stories: entry missing id or reason`);
+  if (S.has(s.id)) err(`story ${s.id} is in catalog/rejected.json`);
+}
+for (const r of rejected.recordings || []) {
+  if (!r.id || !r.reason) err(`rejected.recordings: entry missing id or reason`);
+  if (V.has(r.id)) err(`version ${r.id} is in catalog/rejected.json`);
+}
+for (const v of versions) {
+  if (rejectedSourceIds.has(v.sourceId)) err(`version ${v.id}: sourceId "${v.sourceId}" is in catalog/rejected.json`);
 }
 
 // a source with fewer than 5 recordings is removed completely (AGENTS.md)

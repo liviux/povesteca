@@ -4,7 +4,9 @@
     "Dan Bălan": "Q314206",
     "Oana Stancu": "Q18548093",
     "Dumitru Petrescu": "Q12726713",
-    "Alexandru Minculescu": "Q20970222"
+    "Alexandru Minculescu": "Q20970222",
+    "Gheorghe Șfaițer": "Q18540429",
+    "Alex Dima": "Q77290985"
   },
   "people": {
     "Adelin Petrișor": {
@@ -16,6 +18,9 @@
         "by": "U.S. Navy / Lt. Amy Forsythe"
       }
     },
+    "Adina Rosetti": {
+      "goodreads": "https://www.goodreads.com/author/show/4729029.Adina_Rosetti"
+    },
     "Adonis Tanța": {
       "photo": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Adonis_Tanta_%282025%29.png/330px-Adonis_Tanta_%282025%29.png",
@@ -23,9 +28,6 @@
         "license": "CC0",
         "by": "Joost Pauwels"
       }
-    },
-    "Adriana Ștefan": {
-      "goodreads": "https://www.goodreads.com/author/show/22354727"
     },
     "Adriana Trandafir": {
       "photo": {
@@ -35,6 +37,12 @@
         "by": "Arhiva Națională de Filme",
         "source": "Culturalia"
       }
+    },
+    "Adriana Ștefan": {
+      "goodreads": "https://www.goodreads.com/author/show/22354727"
+    },
+    "Alex Donovici": {
+      "goodreads": "https://www.goodreads.com/author/show/18192375.Alex_Donovici"
     },
     "Alexandre Dumas": {
       "wikidata": "Q38337",
@@ -48,6 +56,10 @@
     },
     "Alexandru Mitru": {
       "goodreads": "https://www.goodreads.com/author/show/715324"
+    },
+    "Ana Blandiana": {
+      "wikidata": "Q237033",
+      "goodreads": "https://www.goodreads.com/author/show/769910"
     },
     "Anda Călugăreanu": {
       "photo": {
@@ -74,6 +86,12 @@
         "source": "Flickr"
       }
     },
+    "Andreea Iatagan": {
+      "goodreads": "https://www.goodreads.com/author/show/17204252"
+    },
+    "Andreea Mihaela Stan": {
+      "goodreads": "https://www.goodreads.com/author/show/20461889"
+    },
     "Angela Ioan": {
       "wikidata": "Q98398189"
     },
@@ -87,17 +105,20 @@
     "Anton Pann": {
       "goodreads": "https://www.goodreads.com/author/show/1475463"
     },
+    "Arkadi Gaidar": {
+      "goodreads": "https://www.goodreads.com/author/show/537813.Arkady_Gaydar"
+    },
     "Armand Calotă": {
       "wikidata": "Q31180478"
     },
     "Aurel Giroveanu": {
       "wikidata": "Q18540500"
     },
-    "Aurélie Chien Chow Chine": {
-      "goodreads": "https://www.goodreads.com/author/show/17999029"
-    },
     "Aureliu Busuioc": {
       "goodreads": "https://www.goodreads.com/author/show/4032981"
+    },
+    "Aurélie Chien Chow Chine": {
+      "goodreads": "https://www.goodreads.com/author/show/17999029"
     },
     "Barbu Ștefănescu Delavrancea": {
       "goodreads": "https://www.goodreads.com/author/show/2063168"
@@ -111,6 +132,9 @@
         "by": "Arhiva Națională de Filme",
         "source": "Culturalia"
       }
+    },
+    "Bianca Mereuță": {
+      "goodreads": "https://www.goodreads.com/author/show/18632633.Bianca_Mereuta"
     },
     "Boris Ciornei": {
       "photo": {
@@ -140,9 +164,6 @@
       "wikidata": "Q263270",
       "goodreads": "https://www.goodreads.com/author/show/148811"
     },
-    "Călin Gruia": {
-      "goodreads": "https://www.goodreads.com/author/show/5239761"
-    },
     "Cezar Petrescu": {
       "goodreads": "https://www.goodreads.com/author/show/404899"
     },
@@ -153,6 +174,16 @@
     "Charles Dickens": {
       "wikidata": "Q5686",
       "goodreads": "https://www.goodreads.com/author/show/239579"
+    },
+    "Clara Cernat": {
+      "wikidata": "Q16540147",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Clara_Cernat",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Clara_Cernat.jpg/330px-Clara_Cernat.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Clara_Cernat.jpg",
+        "license": "CC BY-SA 3.0",
+        "by": "Leoutre"
+      }
     },
     "Claudia Partole": {
       "goodreads": "https://www.goodreads.com/author/show/8261245"
@@ -221,6 +252,12 @@
     "Costina Ciuciulică": {
       "wikidata": "Q55609383"
     },
+    "Cristina Donovici": {
+      "goodreads": "https://www.goodreads.com/author/show/18632398.Cristina_Donovici"
+    },
+    "Călin Gruia": {
+      "goodreads": "https://www.goodreads.com/author/show/5239761"
+    },
     "Daniel Badale": {
       "wikidata": "Q25466893"
     },
@@ -244,6 +281,11 @@
     "Domnița Moldoveanu": {
       "goodreads": "https://www.goodreads.com/author/show/14226654"
     },
+    "Donald Bisset": {
+      "wikidata": "Q4087253",
+      "wikipedia": "https://en.wikipedia.org/wiki/Donald_Bisset",
+      "goodreads": "https://www.goodreads.com/author/show/284445.Donald_Bisset"
+    },
     "Dorin Dron": {
       "photo": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Dorin_Dron_1969.jpg/330px-Dorin_Dron_1969.jpg",
@@ -258,8 +300,16 @@
     "Dumitru Matcovschi": {
       "goodreads": "https://www.goodreads.com/author/show/8560371"
     },
-    "Édouard de Laboulaye": {
-      "goodreads": "https://www.goodreads.com/author/show/41487"
+    "E. Nesbit": {
+      "wikipedia": "https://en.wikipedia.org/wiki/E._Nesbit",
+      "goodreads": "https://www.goodreads.com/author/show/7935185.E_Nesbit",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nesbit.jpg/330px-Nesbit.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nesbit.jpg",
+        "license": "Public domain",
+        "by": "Unknown author",
+        "source": "Wikimedia Commons"
+      }
     },
     "Eduard Jurist": {
       "goodreads": "https://www.goodreads.com/author/show/3331298"
@@ -283,6 +333,10 @@
         "by": "Arhiva Națională de Filme",
         "source": "Culturalia"
       }
+    },
+    "Esop": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Aesop",
+      "goodreads": "https://www.goodreads.com/author/show/12452.Aesop"
     },
     "Eugen Drăghin": {
       "photo": {
@@ -319,6 +373,20 @@
       "wikidata": "Q21526045",
       "goodreads": "https://www.goodreads.com/author/show/3488107"
     },
+    "Florence Holbrook": {
+      "wikidata": "Q52155669",
+      "wikipedia": "https://en.wikipedia.org/wiki/Florence_Holbrook",
+      "goodreads": "https://www.goodreads.com/author/show/1238040",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Florence_Holbrook%2C_Chicago_delegate_to_National_Woman%27s_Party_Convention.jpg/330px-Florence_Holbrook%2C_Chicago_delegate_to_National_Woman%27s_Party_Convention.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Florence_Holbrook,_Chicago_delegate_to_National_Woman's_Party_Convention.jpg",
+        "license": "Public domain",
+        "by": null
+      }
+    },
+    "Florian Pittiș": {
+      "goodreads": "https://www.goodreads.com/author/show/14949444.Florian_Pitti_"
+    },
     "Florin Piersic": {
       "wikidata": "Q138149"
     },
@@ -344,15 +412,36 @@
     "Francisca Stoenescu": {
       "goodreads": "https://www.goodreads.com/author/show/9873139"
     },
-    "François Fénelon": {
-      "goodreads": "https://www.goodreads.com/author/show/638856"
-    },
     "Franz Caspar": {
       "wikidata": "Q20925106",
       "goodreads": "https://www.goodreads.com/author/show/621750"
     },
+    "François Fénelon": {
+      "goodreads": "https://www.goodreads.com/author/show/638856"
+    },
+    "François-Guillaume Ducray-Duminil": {
+      "wikidata": "Q2072208",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Guillaume_Ducray-Duminil",
+      "goodreads": "https://www.goodreads.com/author/show/30478472",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg/330px-Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ducray-Duminil,_Fran%C3%A7ois-Guillaume,_d%27apr%C3%A8s_Romagnesi.jpg",
+        "license": "Public domain",
+        "by": "Jacques Marie Noël Frémy / After Louis-Alexandre Romagnesi"
+      }
+    },
     "Frații Grimm": {
       "goodreads": "https://www.goodreads.com/author/show/2938140"
+    },
+    "Gabriela Dancău": {
+      "wikidata": "Q72691233",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gabriela_Danc%C4%83u",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gabriela_Dancau.jpg/330px-Gabriela_Dancau.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Gabriela_Dancau.jpg",
+        "license": "CC BY-SA 4.0",
+        "by": "Gabriela Dancău"
+      }
     },
     "Gellu Naum": {
       "goodreads": "https://www.goodreads.com/author/show/636748"
@@ -366,11 +455,11 @@
         "source": "Culturalia"
       }
     },
-    "George Călinescu": {
-      "goodreads": "https://www.goodreads.com/author/show/4142332"
-    },
     "George Coșbuc": {
       "goodreads": "https://www.goodreads.com/author/show/5553609"
+    },
+    "George Călinescu": {
+      "goodreads": "https://www.goodreads.com/author/show/4142332"
     },
     "George Marcu": {
       "wikidata": "Q28113864"
@@ -419,6 +508,10 @@
     "Gundi Herget": {
       "goodreads": "https://www.goodreads.com/author/show/14968433"
     },
+    "Helen Aberson": {
+      "wikidata": "Q3129587",
+      "goodreads": "https://www.goodreads.com/author/show/4293774"
+    },
     "Henri Queffélec": {
       "goodreads": "https://www.goodreads.com/author/show/5507775"
     },
@@ -462,6 +555,9 @@
     "Ion Druță": {
       "goodreads": "https://www.goodreads.com/author/show/3247419"
     },
+    "Ion Lilă": {
+      "goodreads": "https://www.goodreads.com/author/show/5786977.Ion_Lil_"
+    },
     "Ion Manta": {
       "wikidata": "Q139821830"
     },
@@ -494,8 +590,30 @@
         "by": "Razvan Socol"
       }
     },
+    "Irina Margareta Nistor": {
+      "wikidata": "Q16730060",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Irina_Margareta_Nistor",
+      "goodreads": "https://www.goodreads.com/author/show/4834235.Irina_Margareta_Nistor",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Irina_Margareta_Nistor.png/330px-Irina_Margareta_Nistor.png",
+        "page": "https://commons.wikimedia.org/wiki/File:Irina_Margareta_Nistor.png",
+        "license": "CC BY 3.0",
+        "by": "startevo, decupaj de Ionutzmovie"
+      }
+    },
     "Irina Răchițeanu-Șirianu": {
       "wikidata": "Q16593632"
+    },
+    "Isaac Bashevis Singer": {
+      "wikidata": "Q75612",
+      "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Bashevis_Singer",
+      "goodreads": "https://www.goodreads.com/author/show/14444",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Dan_Hadani_collection_%28990044399930205171%29_%28cropped%29.jpg/330px-Dan_Hadani_collection_%28990044399930205171%29_%28cropped%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Dan_Hadani_collection_(990044399930205171)_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "by": "Israel Press and Photo Agency (I.P.P.A.) photographer"
+      }
     },
     "Itsy Bitsy FM": {
       "wikidata": "Q12731169"
@@ -519,6 +637,10 @@
         "license": "CC BY-SA 2.0",
         "by": "Ion Chibzii from Chisinau. , Moldova."
       }
+    },
+    "Iurii Iarmâș": {
+      "wikidata": "Q12173919",
+      "goodreads": "https://www.goodreads.com/author/show/13547881.Yuri_Yarmish"
     },
     "Jean de La Fontaine": {
       "wikidata": "Q49496",
@@ -546,6 +668,16 @@
     },
     "Josef Kožíšek": {
       "goodreads": "https://www.goodreads.com/author/show/5823656"
+    },
+    "Josef Lada": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Josef_Lada",
+      "goodreads": "https://www.goodreads.com/author/show/608146.Josef.Lada",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Josef_Lada_1940.png",
+        "page": "https://commons.wikimedia.org/wiki/File:Josef_Lada_1940.png",
+        "license": "Public domain",
+        "by": "Anonymous"
+      }
     },
     "Jules Renard": {
       "wikidata": "Q314987",
@@ -642,6 +774,17 @@
     "Marieta Deculescu": {
       "wikidata": "Q95714837"
     },
+    "Marin Sorescu": {
+      "wikidata": "Q2420296",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Marin_Sorescu",
+      "goodreads": "https://www.goodreads.com/author/show/294629",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Marin_Sorescu.jpg/330px-Marin_Sorescu.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Marin_Sorescu.jpg",
+        "license": "Public domain",
+        "by": null
+      }
+    },
     "Marius Damian": {
       "photo": {
         "src": "https://live.staticflickr.com/2008/3538025891_397758de38_n.jpg",
@@ -664,8 +807,9 @@
         "source": "Culturalia"
       }
     },
-    "Mărioara Sterian": {
-      "wikidata": "Q101555050"
+    "Matei Vișniec": {
+      "wikidata": "Q2609058",
+      "goodreads": "https://www.goodreads.com/author/show/3171846"
     },
     "Melania Cârje": {
       "photo": {
@@ -721,6 +865,15 @@
         "by": "MihaiLungeanu2025"
       }
     },
+    "Mihai Mănescu": {
+      "goodreads": "https://www.goodreads.com/author/show/7221702",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Mihai_Manescu_-_Writer.jpg/330px-Mihai_Manescu_-_Writer.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mihai_Manescu_-_Writer.jpg",
+        "license": "CC BY-SA 4.0",
+        "by": "TaminoM"
+      }
+    },
     "Mihai Popescu": {
       "wikidata": "Q20817004",
       "photo": {
@@ -766,6 +919,10 @@
         "source": "Culturalia"
       }
     },
+    "Mircea Constantinescu": {
+      "wikidata": "Q28058437",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Mircea_Constantinescu_(actor,_n._1952)"
+    },
     "Mircea Jida": {
       "photo": {
         "src": "https://iiif.culturalia.ro/iiif/2/2000%2F01%2F01%2F_B-ANF%2F2019%2FDecembrie%2FAmalia%20Bebu_decembrie%2FFotografii%20Amalia%20Bebu%2F1A198400812.jpg/full/320,/0/default.jpg",
@@ -793,6 +950,9 @@
         "license": "CC BY-SA 4.0",
         "by": "LiteralmenteMisu"
       }
+    },
+    "Mărioara Sterian": {
+      "wikidata": "Q101555050"
     },
     "Nicolae Batzaria": {
       "goodreads": "https://www.goodreads.com/author/show/4178063"
@@ -832,6 +992,10 @@
     "Opera Comică pentru Copii": {
       "wikidata": "Q122959486"
     },
+    "Oscar Wilde": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Oscar_Wilde",
+      "goodreads": "https://www.goodreads.com/author/show/3565.Oscar_Wilde"
+    },
     "Otilia Cazimir": {
       "goodreads": "https://www.goodreads.com/author/show/3045461"
     },
@@ -851,6 +1015,9 @@
         "license": "Public domain",
         "by": null
       }
+    },
+    "Petre Crăciun": {
+      "goodreads": "https://www.goodreads.com/author/show/7023362"
     },
     "Petre Lupu": {
       "photo": {
@@ -879,6 +1046,16 @@
     "Piotr Ilici Ceaikovski": {
       "wikidata": "Q7315"
     },
+    "PS Siluan": {
+      "wikidata": "Q12740829",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Siluan_%C8%98pan",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Preasfintitul_siluan_episcop_al_episcopiei_ortodoxe_romane_a_italiei.jpg/330px-Preasfintitul_siluan_episcop_al_episcopiei_ortodoxe_romane_a_italiei.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Preasfintitul_siluan_episcop_al_episcopiei_ortodoxe_romane_a_italiei.jpg",
+        "license": "CC0",
+        "by": "theofania.it"
+      }
+    },
     "Radu Dunăreanu": {
       "wikidata": "Q110131370"
     },
@@ -894,8 +1071,13 @@
         "source": "Europeana"
       }
     },
-    "Răzvan Popa": {
-      "wikidata": "Q12740253"
+    "Raisa Lungu-Ploaie": {
+      "wikidata": "Q52669406",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Raisa_Lungu-Ploaie"
+    },
+    "Robert L. May": {
+      "wikidata": "Q1252286",
+      "goodreads": "https://www.goodreads.com/author/show/18684038"
     },
     "Rodica Popescu Bitănescu": {
       "wikidata": "Q7356774"
@@ -911,6 +1093,13 @@
         "by": "Arhiva Națională de Filme",
         "source": "Culturalia"
       }
+    },
+    "Răzvan Popa": {
+      "wikidata": "Q12740253"
+    },
+    "Sabin Păutza": {
+      "wikidata": "Q25465348",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Sabin_Pautza"
     },
     "Sanda Socoliuc": {
       "goodreads": "https://www.goodreads.com/author/show/20254960"
@@ -929,6 +1118,9 @@
     "Selma Mandine": {
       "goodreads": "https://www.goodreads.com/author/show/3255456"
     },
+    "Serenela Mureșan": {
+      "goodreads": "https://www.goodreads.com/author/show/62456964.Serenela_Mure_an"
+    },
     "Sidonia Drăgușanu": {
       "goodreads": "https://www.goodreads.com/author/show/11999853",
       "photo": {
@@ -944,9 +1136,6 @@
     "Silviu Cotiușcă": {
       "goodreads": "https://www.goodreads.com/author/show/40843414"
     },
-    "Sînziana Popescu": {
-      "goodreads": "https://www.goodreads.com/author/show/4495911"
-    },
     "Sorin Dinculescu": {
       "photo": {
         "src": "https://live.staticflickr.com/3445/3381109479_76a5b19773_n.jpg",
@@ -955,6 +1144,9 @@
         "by": "MASCA TEATRU",
         "source": "Flickr"
       }
+    },
+    "Sorin Misirianțu": {
+      "wikipedia": "https://ro.wikipedia.org/wiki/Sorin_Misirian%C8%9Bu"
     },
     "Sorin Sandu": {
       "photo": {
@@ -987,43 +1179,8 @@
     "Suzanne Bogeat": {
       "goodreads": "https://www.goodreads.com/author/show/16103997"
     },
-    "Ștefan Bănică": {
-      "wikidata": "Q277032"
-    },
-    "Ștefan Mareș": {
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Stefan_Mares_din_%22Secunda_58%22_de_Dorel_Dorian%2C1961.jpg/330px-Stefan_Mares_din_%22Secunda_58%22_de_Dorel_Dorian%2C1961.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Stefan_Mares_din_%22Secunda_58%22_de_Dorel_Dorian,1961.jpg",
-        "license": "CC BY-SA 4.0",
-        "by": "DUMITRU DRAGAN"
-      }
-    },
-    "Ștefan Radof": {
-      "photo": {
-        "src": "https://iiif.culturalia.ro/iiif/2/2000%2F01%2F01%2F_B-ANF%2F2019%2FNoiembrie%2FFoto%2FRuxandra%20Fulger_noiembrie%2FFoto%20Ruxandra%20Fulger%2F1A197300605.jpg/full/320,/0/default.jpg",
-        "page": "https://culturalia.ro/entities/bf40b749-90c8-4474-a483-69db8b983a42/view",
-        "license": "CC BY-SA 4.0",
-        "by": "Arhiva Națională de Filme",
-        "source": "Culturalia"
-      }
-    },
-    "Ștefan Sileanu": {
-      "photo": {
-        "src": "https://iiif.culturalia.ro/iiif/2/2000%2F01%2F01%2F_B-ANF%2F2020%2Ffebruarie%2Fresurse_foto_tabele%2FAmalia%20Bebu_februarie%2FAmalia%20Bebu_foto%20februarie%2F1A197803202.jpg/full/320,/0/default.jpg",
-        "page": "https://culturalia.ro/entities/0d6c7ae9-7776-4cec-9274-e19a31d09b39/view",
-        "license": "CC BY-SA 4.0",
-        "by": "Arhiva Națională de Filme",
-        "source": "Culturalia"
-      }
-    },
-    "Ștefan Velniciuc": {
-      "photo": {
-        "src": "https://iiif.culturalia.ro/iiif/2/2000%2F01%2F01%2F_B-ANF%2F2019%2FNoiembrie%2FFoto%2FAmalia%20Bebu_noiembrie%2FFoto%20Amalia%20Bebu%2F1A197400108.jpg/full/320,/0/default.jpg",
-        "page": "https://culturalia.ro/entities/fdfd6e38-1cc1-4267-9276-605ef063ba33/view",
-        "license": "CC BY-SA 4.0",
-        "by": "Arhiva Națională de Filme",
-        "source": "Culturalia"
-      }
+    "Sînziana Popescu": {
+      "goodreads": "https://www.goodreads.com/author/show/4495911"
     },
     "Teatrul Ion Creangă": {
       "wikidata": "Q18549765",
@@ -1032,6 +1189,16 @@
         "page": "https://commons.wikimedia.org/wiki/File:Teatrul_Ion_Creanga.jpg",
         "license": "CC BY 2.5",
         "by": "Pixi at ro.wikipedia"
+      }
+    },
+    "Teo Trandafir": {
+      "wikidata": "Q12742045",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Teo_Trandafir",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Teo_Trandafir.png",
+        "page": "https://commons.wikimedia.org/wiki/File:Teo_Trandafir.png",
+        "license": "CC BY 3.0",
+        "by": "startevo"
       }
     },
     "Theodor Danetti": {
@@ -1070,6 +1237,10 @@
         "by": "Arhiva Națională de Filme",
         "source": "Culturalia"
       }
+    },
+    "Tomi Cristin": {
+      "wikidata": "Q18539403",
+      "wikipedia": "https://ro.wikipedia.org/wiki/Tomi_Cristin"
     },
     "Traian Chelariu": {
       "goodreads": "https://www.goodreads.com/author/show/16028303"
@@ -1150,181 +1321,48 @@
     "Zizi Șerban": {
       "wikidata": "Q12744057"
     },
+    "Édouard de Laboulaye": {
+      "goodreads": "https://www.goodreads.com/author/show/41487"
+    },
+    "Ștefan Bănică": {
+      "wikidata": "Q277032"
+    },
+    "Ștefan Mareș": {
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Stefan_Mares_din_%22Secunda_58%22_de_Dorel_Dorian%2C1961.jpg/330px-Stefan_Mares_din_%22Secunda_58%22_de_Dorel_Dorian%2C1961.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Stefan_Mares_din_%22Secunda_58%22_de_Dorel_Dorian,1961.jpg",
+        "license": "CC BY-SA 4.0",
+        "by": "DUMITRU DRAGAN"
+      }
+    },
+    "Ștefan Radof": {
+      "photo": {
+        "src": "https://iiif.culturalia.ro/iiif/2/2000%2F01%2F01%2F_B-ANF%2F2019%2FNoiembrie%2FFoto%2FRuxandra%20Fulger_noiembrie%2FFoto%20Ruxandra%20Fulger%2F1A197300605.jpg/full/320,/0/default.jpg",
+        "page": "https://culturalia.ro/entities/bf40b749-90c8-4474-a483-69db8b983a42/view",
+        "license": "CC BY-SA 4.0",
+        "by": "Arhiva Națională de Filme",
+        "source": "Culturalia"
+      }
+    },
+    "Ștefan Sileanu": {
+      "photo": {
+        "src": "https://iiif.culturalia.ro/iiif/2/2000%2F01%2F01%2F_B-ANF%2F2020%2Ffebruarie%2Fresurse_foto_tabele%2FAmalia%20Bebu_februarie%2FAmalia%20Bebu_foto%20februarie%2F1A197803202.jpg/full/320,/0/default.jpg",
+        "page": "https://culturalia.ro/entities/0d6c7ae9-7776-4cec-9274-e19a31d09b39/view",
+        "license": "CC BY-SA 4.0",
+        "by": "Arhiva Națională de Filme",
+        "source": "Culturalia"
+      }
+    },
     "Ștefan Tita": {
       "goodreads": "https://www.goodreads.com/author/show/7325992"
     },
-    "Adina Rosetti": {
-      "goodreads": "https://www.goodreads.com/author/show/4729029.Adina_Rosetti"
-    },
-    "Arkadi Gaidar": {
-      "goodreads": "https://www.goodreads.com/author/show/537813.Arkady_Gaydar"
-    },
-    "Ion Lilă": {
-      "goodreads": "https://www.goodreads.com/author/show/5786977.Ion_Lil_"
-    },
-    "Florian Pittiș": {
-      "goodreads": "https://www.goodreads.com/author/show/14949444.Florian_Pitti_"
-    },
-    "Josef Lada": {
-      "wikipedia": "https://en.wikipedia.org/wiki/Josef_Lada",
-      "goodreads": "https://www.goodreads.com/author/show/608146.Josef.Lada",
+    "Ștefan Velniciuc": {
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Josef_Lada_1940.png",
-        "page": "https://commons.wikimedia.org/wiki/File:Josef_Lada_1940.png",
-        "license": "Public domain",
-        "by": "Anonymous"
-      }
-    },
-    "Mihai Mănescu": {
-      "goodreads": "https://www.goodreads.com/author/show/7221702.Mihai_M_nescu",
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Mihai_Manescu_-_Writer.jpg/330px-Mihai_Manescu_-_Writer.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Mihai_Manescu_-_Writer.jpg",
+        "src": "https://iiif.culturalia.ro/iiif/2/2000%2F01%2F01%2F_B-ANF%2F2019%2FNoiembrie%2FFoto%2FAmalia%20Bebu_noiembrie%2FFoto%20Amalia%20Bebu%2F1A197400108.jpg/full/320,/0/default.jpg",
+        "page": "https://culturalia.ro/entities/fdfd6e38-1cc1-4267-9276-605ef063ba33/view",
         "license": "CC BY-SA 4.0",
-        "by": "TaminoM"
-      }
-    },
-    "E. Nesbit": {
-      "wikipedia": "https://en.wikipedia.org/wiki/E._Nesbit",
-      "goodreads": "https://www.goodreads.com/author/show/7935185.E_Nesbit",
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nesbit.jpg/330px-Nesbit.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Nesbit.jpg",
-        "license": "Public domain",
-        "by": "Unknown author",
-        "source": "Wikimedia Commons"
-      }
-    },
-    "Esop": {
-      "wikipedia": "https://en.wikipedia.org/wiki/Aesop",
-      "goodreads": "https://www.goodreads.com/author/show/12452.Aesop"
-    },
-    "Oscar Wilde": {
-      "wikipedia": "https://en.wikipedia.org/wiki/Oscar_Wilde",
-      "goodreads": "https://www.goodreads.com/author/show/3565.Oscar_Wilde"
-    },
-    "Petre Crăciun": {
-      "goodreads": "https://www.goodreads.com/author/show/7023362"
-    },
-    "Isaac Bashevis Singer": {
-      "wikidata": "Q75612",
-      "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Bashevis_Singer",
-      "goodreads": "https://www.goodreads.com/author/show/14444",
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Dan_Hadani_collection_%28990044399930205171%29_%28cropped%29.jpg/330px-Dan_Hadani_collection_%28990044399930205171%29_%28cropped%29.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Dan_Hadani_collection_(990044399930205171)_(cropped).jpg",
-        "license": "CC BY 4.0",
-        "by": "Israel Press and Photo Agency (I.P.P.A.) photographer"
-      }
-    },
-    "Marin Sorescu": {
-      "wikidata": "Q2420296",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Marin_Sorescu",
-      "goodreads": "https://www.goodreads.com/author/show/294629",
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Marin_Sorescu.jpg/330px-Marin_Sorescu.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Marin_Sorescu.jpg",
-        "license": "Public domain",
-        "by": null
-      }
-    },
-    "Florence Holbrook": {
-      "wikidata": "Q52155669",
-      "wikipedia": "https://en.wikipedia.org/wiki/Florence_Holbrook",
-      "goodreads": "https://www.goodreads.com/author/show/1238040",
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Florence_Holbrook%2C_Chicago_delegate_to_National_Woman%27s_Party_Convention.jpg/330px-Florence_Holbrook%2C_Chicago_delegate_to_National_Woman%27s_Party_Convention.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Florence_Holbrook,_Chicago_delegate_to_National_Woman's_Party_Convention.jpg",
-        "license": "Public domain",
-        "by": null
-      }
-    },
-    "Tomi Cristin": {
-      "wikidata": "Q18539403",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Tomi_Cristin"
-    },
-    "Irina Margareta Nistor": {
-      "wikidata": "Q16730060",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Irina_Margareta_Nistor",
-      "goodreads": "https://www.goodreads.com/author/show/4834235.Irina_Margareta_Nistor",
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Irina_Margareta_Nistor.png/330px-Irina_Margareta_Nistor.png",
-        "page": "https://commons.wikimedia.org/wiki/File:Irina_Margareta_Nistor.png",
-        "license": "CC BY 3.0",
-        "by": "startevo, decupaj de Ionutzmovie"
-      }
-    },
-    "Alex Donovici": {
-      "goodreads": "https://www.goodreads.com/author/show/18192375.Alex_Donovici"
-    },
-    "Cristina Donovici": {
-      "goodreads": "https://www.goodreads.com/author/show/18632398.Cristina_Donovici"
-    },
-    "Teo Trandafir": {
-      "wikidata": "Q12742045",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Teo_Trandafir",
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Teo_Trandafir.png",
-        "page": "https://commons.wikimedia.org/wiki/File:Teo_Trandafir.png",
-        "license": "CC BY 3.0",
-        "by": "startevo"
-      }
-    },
-    "Clara Cernat": {
-      "wikidata": "Q16540147",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Clara_Cernat",
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Clara_Cernat.jpg/330px-Clara_Cernat.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Clara_Cernat.jpg",
-        "license": "CC BY-SA 3.0",
-        "by": "Leoutre"
-      }
-    },
-    "Gabriela Dancău": {
-      "wikidata": "Q72691233",
-      "wikipedia": "https://en.wikipedia.org/wiki/Gabriela_Danc%C4%83u",
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gabriela_Dancau.jpg/330px-Gabriela_Dancau.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Gabriela_Dancau.jpg",
-        "license": "CC BY-SA 4.0",
-        "by": "Gabriela Dancău"
-      }
-    },
-    "Sorin Misirianțu": {
-      "wikipedia": "https://ro.wikipedia.org/wiki/Sorin_Misirian%C8%9Bu"
-    },
-    "Bianca Mereuță": {
-      "goodreads": "https://www.goodreads.com/author/show/18632633.Bianca_Mereuta"
-    },
-    "Serenela Mureșan": {
-      "goodreads": "https://www.goodreads.com/author/show/62456964.Serenela_Mure_an"
-    },
-    "Donald Bisset": {
-      "wikidata": "Q4087253",
-      "wikipedia": "https://en.wikipedia.org/wiki/Donald_Bisset",
-      "goodreads": "https://www.goodreads.com/author/show/284445.Donald_Bisset"
-    },
-    "Raisa Lungu-Ploaie": {
-      "wikidata": "Q52669406",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Raisa_Lungu-Ploaie"
-    },
-    "Iurii Iarmâș": {
-      "wikidata": "Q12173919",
-      "goodreads": "https://www.goodreads.com/author/show/13547881.Yuri_Yarmish"
-    },
-    "Mircea Constantinescu": {
-      "wikidata": "Q28058437",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Mircea_Constantinescu_(actor,_n._1952)"
-    },
-    "François-Guillaume Ducray-Duminil": {
-      "wikidata": "Q2072208",
-      "wikipedia": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Guillaume_Ducray-Duminil",
-      "goodreads": "https://www.goodreads.com/author/show/3158209",
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg",
-        "by": "Jacques Marie Noël Frémy",
-        "license": "Public Domain Mark 1.0"
+        "by": "Arhiva Națională de Filme",
+        "source": "Culturalia"
       }
     }
   },
@@ -1336,6 +1374,10 @@
     },
     "abeille": {
       "goodreads": "https://www.goodreads.com/book/show/142003406"
+    },
+    "acul-de-carpit": {
+      "wikipedia": "https://en.wikipedia.org/wiki/A_Story_about_a_Darning-needle",
+      "goodreads": "https://www.goodreads.com/book/show/9784893-the-darning-needle"
     },
     "acul-fusul-si-suveica": {
       "wikidata": "Q834506",
@@ -1377,6 +1419,10 @@
     },
     "arhipelagul-in-flacari-jules-verne": {
       "goodreads": "https://www.goodreads.com/book/show/36071272"
+    },
+    "atelierul-de-jucarii-al-lui-mos-craciun": {
+      "wikidata": "Q2061716",
+      "wikipedia": "https://en.wikipedia.org/wiki/Santa%27s_Workshop_(film)"
     },
     "aventuri-in-tinutul-uitat": {
       "wikidata": "Q785255",
@@ -1442,6 +1488,11 @@
     "ber-caciula": {
       "goodreads": "https://www.goodreads.com/book/show/259497682"
     },
+    "broasca-testoasa-si-iepurele": {
+      "wikidata": "Q1067484",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Tortoise_and_the_Hare",
+      "goodreads": "https://www.goodreads.com/work/editions/1705522"
+    },
     "bucur-ciobanul": {
       "wikidata": "Q2274298",
       "wikipedia": "https://ro.wikipedia.org/wiki/Ciobanul_Bucur"
@@ -1456,6 +1507,12 @@
       "wikidata": "Q469781",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Old_Man_and_his_Grandson",
       "goodreads": "https://www.goodreads.com/work/editions/25072074"
+    },
+    "ca-soarele": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
+    "calatoare": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
     },
     "calatoria-lui-vlad-in-celalalt-taram-episodul-1": {
       "goodreads": "https://www.goodreads.com/book/show/17656152"
@@ -1487,6 +1544,9 @@
       "wikipedia": "https://ro.wikipedia.org/wiki/C%C4%83lin_(file_din_poveste)",
       "goodreads": "https://www.goodreads.com/book/show/18370623"
     },
+    "calul": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "calutul-cocosat": {
       "wikidata": "Q378625",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Little_Humpbacked_Horse",
@@ -1500,6 +1560,9 @@
     "cand-stapanul-nu-i-acasa": {
       "goodreads": "https://www.goodreads.com/book/show/72405596"
     },
+    "cantaretul": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "capitan-la-15-ani": {
       "wikidata": "Q472291",
       "wikipedia": "https://en.wikipedia.org/wiki/Dick_Sand%2C_A_Captain_at_Fifteen",
@@ -1507,6 +1570,9 @@
     },
     "capra-cu-trei-iezi": {
       "goodreads": "https://www.goodreads.com/book/show/7596886"
+    },
+    "capra-cu-trei-iezi-nr-2": {
+      "goodreads": "https://www.goodreads.com/work/editions/91976048"
     },
     "carabusul-de-aur": {
       "wikidata": "Q878580",
@@ -1569,6 +1635,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Hut_in_the_Forest",
       "goodreads": "https://www.goodreads.com/book/show/23292884"
     },
+    "cat-un-fir-de-neghina": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "ce-dulce-este-impacarea-intre-frati": {
       "goodreads": "https://www.goodreads.com/book/show/96509459"
     },
@@ -1588,6 +1657,9 @@
     "cei-trei-purcelusi": {
       "wikidata": "Q651532",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Three_Little_Pigs"
+    },
+    "cei-trei-ursi": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears"
     },
     "cele-douasprezece-fete-de-imparat-si-palatul-fermecat": {
       "wikidata": "Q124331324",
@@ -1632,6 +1704,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Tale_of_the_Golden_Cockerel",
       "goodreads": "https://www.goodreads.com/book/show/130790631"
     },
+    "cocosul": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "cocosul-si-vulpea": {
       "wikidata": "Q54308763",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Cock%2C_the_Dog_and_the_Fox"
@@ -1648,6 +1723,11 @@
       "wikidata": "Q7007548",
       "wikipedia": "https://en.wikipedia.org/wiki/New_Fairy_Tales._First_Volume",
       "goodreads": "https://www.goodreads.com/book/show/36514686"
+    },
+    "craiasa-albinelor": {
+      "wikidata": "Q454873",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Queen_Bee",
+      "goodreads": "https://www.goodreads.com/book/show/2146046"
     },
     "croitorasul-cel-viteaz": {
       "goodreads": "https://www.goodreads.com/book/show/6267729"
@@ -1675,6 +1755,10 @@
     },
     "danila-prepeleac": {
       "goodreads": "https://www.goodreads.com/book/show/12117772"
+    },
+    "darul-spiridusilor": {
+      "wikidata": "Q473871",
+      "wikipedia": "https://de.wikipedia.org/wiki/Die_Geschenke_des_kleinen_Volkes"
     },
     "david-copperfield": {
       "wikidata": "Q189811",
@@ -1715,6 +1799,9 @@
       "wikipedia": "https://ro.wikipedia.org/wiki/Doi_fe%C8%9Bi_cu_stea_%C3%AEn_frunte",
       "goodreads": "https://www.goodreads.com/book/show/26789981"
     },
+    "domnisoara-poimaine-si-joaca-de-a-timpul": {
+      "goodreads": "https://www.goodreads.com/book/show/20897529-domnisoara-poimaine-si-joaca-de-a-timpul"
+    },
     "domnita-pastorita": {
       "goodreads": "https://www.goodreads.com/book/show/22293379"
     },
@@ -1748,6 +1835,14 @@
       "wikidata": "Q468100",
       "wikipedia": "https://en.wikipedia.org/wiki/Lisa_and_Lottie",
       "goodreads": "https://www.goodreads.com/book/show/59137156"
+    },
+    "dumbo": {
+      "wikidata": "Q3744422",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dumbo_the_Flying_Elephant_(story)",
+      "goodreads": "https://www.goodreads.com/work/editions/14000937"
+    },
+    "dupa-asemanarea-lor": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
     },
     "emil-si-detectivii": {
       "goodreads": "https://www.goodreads.com/book/show/16353614"
@@ -1817,6 +1912,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Snow-Image",
       "goodreads": "https://www.goodreads.com/work/editions/26140070"
     },
+    "filozoful": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "finul-lui-dumnezeu": {
       "goodreads": "https://www.goodreads.com/book/show/18370614"
     },
@@ -1878,22 +1976,44 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast",
       "goodreads": "https://www.goodreads.com/book/show/5784403"
     },
+    "frunza": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "furtuna-lamb": {
       "wikidata": "Q589197",
       "wikipedia": "https://en.wikipedia.org/wiki/Tales_from_Shakespeare"
+    },
+    "gainusa-cocosul-si-soarecele": {
+      "wikidata": "Q3211550",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Little_Red_Hen",
+      "goodreads": "https://www.goodreads.com/work/editions/835962"
+    },
+    "gandacelul-garleanu": {
+      "goodreads": "https://www.goodreads.com/book/show/32807873-g-ndacelul"
     },
     "gasca-de-aur": {
       "wikidata": "Q652607",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Golden_Goose",
       "goodreads": "https://www.goodreads.com/book/show/48504776"
     },
+    "gaza": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "ghiocelul": {
       "goodreads": "https://www.goodreads.com/book/show/212797595"
+    },
+    "greierele-si-furnica": {
+      "wikidata": "Q3207418",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Ant_and_the_Grasshopper",
+      "goodreads": "https://www.goodreads.com/work/editions/570904"
     },
     "greuceanu": {
       "wikidata": "Q5607819",
       "wikipedia": "https://ro.wikipedia.org/wiki/Greuceanu",
       "goodreads": "https://www.goodreads.com/book/show/36762376"
+    },
+    "grivei": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
     },
     "gulliver-in-tara-piticilor": {
       "wikidata": "Q181488",
@@ -1963,6 +2083,9 @@
       "wikipedia": "https://ro.wikipedia.org/wiki/Povestea_lui_Harap-Alb",
       "goodreads": "https://www.goodreads.com/book/show/18110150"
     },
+    "hoinar": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "horbe-cu-palaria-cea-mare": {
       "goodreads": "https://www.goodreads.com/book/show/55361702"
     },
@@ -1986,6 +2109,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Velveteen_Rabbit",
       "goodreads": "https://www.goodreads.com/work/editions/1602074"
     },
+    "iepurele-intelept-si-secretul-povestilor": {
+      "goodreads": "https://www.goodreads.com/work/editions/95154477"
+    },
     "iepurele-si-ariciul": {
       "wikidata": "Q142278",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Hare_and_the_Hedgehog",
@@ -1994,6 +2120,9 @@
     "ileana-sanziana": {
       "goodreads": "https://www.goodreads.com/book/show/263882704"
     },
+    "imparateasa-norilor": {
+      "goodreads": "https://www.goodreads.com/book/show/40620408-mp-r-teasa-norilor"
+    },
     "imparatul-cioc-de-sturz": {
       "wikidata": "Q11856",
       "wikipedia": "https://en.wikipedia.org/wiki/King_Thrushbeard",
@@ -2001,6 +2130,12 @@
     },
     "in-casa-bunicilor": {
       "goodreads": "https://www.goodreads.com/book/show/8325015"
+    },
+    "in-curtea-mea": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
+    "in-fel-de-fel-de-fete": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
     },
     "in-vacanta": {
       "goodreads": "https://www.goodreads.com/book/show/11890487"
@@ -2015,6 +2150,9 @@
       "wikidata": "Q1517484",
       "wikipedia": "https://en.wikipedia.org/wiki/Tale_of_the_Shipwrecked_Sailor",
       "goodreads": "https://www.goodreads.com/book/show/16409302"
+    },
+    "intamplari-din-gradina-mea": {
+      "goodreads": "https://www.goodreads.com/work/editions/42245367"
     },
     "invataturile-ursului-baloo-catre-micutul-mowgli": {
       "wikidata": "Q189509",
@@ -2082,6 +2220,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Swans",
       "goodreads": "https://www.goodreads.com/book/show/24493013"
     },
+    "legenda-cucului": {
+      "goodreads": "https://www.goodreads.com/book/show/107527580-povesti-ciubotelele-ogarului-nuielusa-de-alun-si-alte-povesti"
+    },
     "legenda-dragonului-wawel": {
       "wikidata": "Q463190",
       "wikipedia": "https://en.wikipedia.org/wiki/Wawel_Dragon"
@@ -2120,11 +2261,20 @@
     "limir-imparat": {
       "goodreads": "https://www.goodreads.com/book/show/22927742"
     },
+    "luptatorii": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "lupul-cel-nazdravan-si-fat-frumos": {
       "goodreads": "https://www.goodreads.com/book/show/263244581"
     },
     "lupul-parcalab": {
       "goodreads": "https://www.goodreads.com/book/show/50370983"
+    },
+    "mai-sus": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
+    "manusa-ucraineana": {
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Mitten_(folk_tale)"
     },
     "mary-poppins": {
       "wikidata": "Q858705",
@@ -2138,6 +2288,9 @@
       "wikidata": "Q11853",
       "wikipedia": "https://en.wikipedia.org/wiki/Frau_Holle",
       "goodreads": "https://www.goodreads.com/work/editions/24875430"
+    },
+    "melcusorul": {
+      "goodreads": "https://www.goodreads.com/book/show/49885947-melcu-orul"
     },
     "mica-sirena": {
       "wikidata": "Q11859",
@@ -2175,6 +2328,9 @@
     "muna-si-iepurasul-de-pe-luna": {
       "goodreads": "https://www.goodreads.com/book/show/107506098"
     },
+    "musculita": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "muzicantii-din-bremen": {
       "goodreads": "https://www.goodreads.com/book/show/96840338"
     },
@@ -2186,6 +2342,9 @@
     },
     "naufragiatii-de-pe-jonathan": {
       "goodreads": "https://www.goodreads.com/book/show/13624273"
+    },
+    "nedespartite": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
     },
     "neghinita": {
       "goodreads": "https://www.goodreads.com/book/show/6353068"
@@ -2211,6 +2370,9 @@
     },
     "nuielusa-de-alun": {
       "goodreads": "https://www.goodreads.com/book/show/39906668"
+    },
+    "o-raza": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
     },
     "oliver-twist": {
       "wikidata": "Q164974",
@@ -2253,11 +2415,21 @@
     "papuciada": {
       "goodreads": "https://www.goodreads.com/book/show/39732260"
     },
+    "parasita": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "partea-poetului": {
       "goodreads": "https://www.goodreads.com/book/show/52763205"
     },
+    "pasare-de-noapte": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "pasarea-albastra": {
       "goodreads": "https://www.goodreads.com/book/show/30819196"
+    },
+    "pasarea-de-aur-grimm": {
+      "wikidata": "Q470012",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Golden_Bird"
     },
     "pasarea-de-foc-afanasiev": {
       "wikidata": "Q3778008",
@@ -2312,6 +2484,10 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Peter_and_the_Wolf",
       "goodreads": "https://www.goodreads.com/book/show/137588014"
     },
+    "piatra-cea-fierbinte": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C",
+      "goodreads": "https://www.goodreads.com/book/show/30508387"
+    },
     "piele-de-magar": {
       "wikidata": "Q835505",
       "wikipedia": "https://en.wikipedia.org/wiki/Donkeyskin",
@@ -2337,6 +2513,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Star_Money",
       "goodreads": "https://www.goodreads.com/book/show/26011571"
     },
+    "polul-nord-sorescu": {
+      "goodreads": "https://www.goodreads.com/book/show/17447991"
+    },
     "popeye-marinarul": {
       "wikidata": "Q199796",
       "wikipedia": "https://en.wikipedia.org/wiki/Popeye"
@@ -2350,6 +2529,9 @@
       "wikidata": "Q62879",
       "wikipedia": "https://en.wikipedia.org/wiki/A_Christmas_Carol",
       "goodreads": "https://www.goodreads.com/work/editions/3097440"
+    },
+    "poveste-de-craciun-holbrook": {
+      "goodreads": "https://www.goodreads.com/book/show/11398137"
     },
     "poveste-taraneasca": {
       "goodreads": "https://www.goodreads.com/book/show/266320323"
@@ -2374,6 +2556,11 @@
     "povestea-gastelor": {
       "goodreads": "https://www.goodreads.com/book/show/106391670"
     },
+    "povestea-lui-mos-ene": {
+      "wikidata": "Q258749",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ole_Luk%C3%B8je",
+      "goodreads": "https://www.goodreads.com/work/editions/21975353-ole-luk-je"
+    },
     "povestea-lui-stan-patitul": {
       "goodreads": "https://www.goodreads.com/book/show/19571637"
     },
@@ -2385,6 +2572,15 @@
       "wikidata": "Q118952128",
       "wikipedia": "https://ro.wikipedia.org/wiki/Povestea_porcului",
       "goodreads": "https://www.goodreads.com/book/show/19571626"
+    },
+    "povestea-primei-scrisori": {
+      "wikidata": "Q104523182",
+      "goodreads": "https://www.goodreads.com/work/editions/1540550"
+    },
+    "povestea-renului-rudolph": {
+      "wikidata": "Q965003",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rudolph_the_Red-Nosed_Reindeer",
+      "goodreads": "https://www.goodreads.com/work/editions/1203733"
     },
     "povestea-rinocerului": {
       "wikidata": "Q1247723",
@@ -2420,6 +2616,9 @@
       "wikidata": "Q1212806",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Frog_Princess"
     },
+    "printesa-curajoasa": {
+      "goodreads": "https://www.goodreads.com/book/show/13576314-nezbedn-poh-dky"
+    },
     "printul-blestemat": {
       "wikidata": "Q467520",
       "wikipedia": "https://en.wikipedia.org/wiki/Tale_of_the_Doomed_Prince",
@@ -2429,6 +2628,11 @@
       "wikidata": "Q797466",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Happy_Prince_and_Other_Tales",
       "goodreads": "https://www.goodreads.com/book/show/24908827"
+    },
+    "printul-fermecat": {
+      "wikidata": "Q11850",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Frog_Prince",
+      "goodreads": "https://www.goodreads.com/work/editions/27285626"
     },
     "privighetoarea": {
       "wikidata": "Q1200454",
@@ -2612,6 +2816,12 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Travelling_Companion",
       "goodreads": "https://www.goodreads.com/book/show/6803459"
     },
+    "tovarasii": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
+    "trandafirul": {
+      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
+    },
     "trei-dorinte": {
       "wikidata": "Q3235605",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Ridiculous_Wishes",
@@ -2627,6 +2837,9 @@
     },
     "tugulea": {
       "goodreads": "https://www.goodreads.com/book/show/264305110"
+    },
+    "tup": {
+      "goodreads": "https://www.goodreads.com/work/editions/63496322"
     },
     "ulcica-fermecata": {
       "goodreads": "https://www.goodreads.com/book/show/40993461"
@@ -2678,6 +2891,11 @@
     "vanatorii-de-aur": {
       "goodreads": "https://www.goodreads.com/book/show/1073564"
     },
+    "vartelnita-fermecata": {
+      "wikidata": "Q322188",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rumpelstiltskin",
+      "goodreads": "https://www.goodreads.com/book/show/61854840"
+    },
     "viata-si-aventurile-lui-mos-craciun": {
       "wikidata": "Q4180222",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Life_and_Adventures_of_Santa_Claus",
@@ -2694,6 +2912,10 @@
     "vulpea-si-barza": {
       "wikidata": "Q2914800",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Stork"
+    },
+    "vulpea-si-corbul": {
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Crow",
+      "goodreads": "https://www.goodreads.com/work/editions/44191220-the-fox-and-the-crow"
     },
     "vulpea-si-gastele-grimm": {
       "wikidata": "Q872422",
@@ -2734,149 +2956,6 @@
       "wikidata": "Q734607",
       "wikipedia": "https://en.wikipedia.org/wiki/A_House_of_Pomegranates",
       "goodreads": "https://www.goodreads.com/book/show/50992242"
-    },
-    "melcusorul": {
-      "goodreads": "https://www.goodreads.com/book/show/49885947-melcu-orul"
-    },
-    "piatra-cea-fierbinte": {
-      "wikipedia": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C",
-      "goodreads": "https://www.goodreads.com/book/show/30508387"
-    },
-    "domnisoara-poimaine-si-joaca-de-a-timpul": {
-      "goodreads": "https://www.goodreads.com/book/show/20897529-domnisoara-poimaine-si-joaca-de-a-timpul"
-    },
-    "gandacelul-garleanu": {
-      "goodreads": "https://www.goodreads.com/book/show/32807873-g-ndacelul"
-    },
-    "manusa-ucraineana": {
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Mitten_(folk_tale)"
-    },
-    "imparateasa-norilor": {
-      "goodreads": "https://www.goodreads.com/book/show/40620408-mp-r-teasa-norilor"
-    },
-    "printesa-curajoasa": {
-      "goodreads": "https://www.goodreads.com/book/show/13576314-nezbedn-poh-dky"
-    },
-    "legenda-cucului": {
-      "goodreads": "https://www.goodreads.com/book/show/107527580-povesti-ciubotelele-ogarului-nuielusa-de-alun-si-alte-povesti"
-    },
-    "cat-un-fir-de-neghina": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "calatoare": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "musculita": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "cantaretul": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "hoinar": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "in-curtea-mea": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "dupa-asemanarea-lor": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "in-fel-de-fel-de-fete": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "mai-sus": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "nedespartite": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "pasare-de-noapte": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "cocosul": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "ca-soarele": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "luptatorii": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "filozoful": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "grivei": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "gaza": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "parasita": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "calul": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "tovarasii": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "trandafirul": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "frunza": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "o-raza": {
-      "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "vulpea-si-corbul": {
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Crow",
-      "goodreads": "https://www.goodreads.com/work/editions/44191220-the-fox-and-the-crow"
-    },
-    "craiasa-albinelor": {
-      "wikidata": "Q454873",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Queen_Bee",
-      "goodreads": "https://www.goodreads.com/book/show/2146046"
-    },
-    "vartelnita-fermecata": {
-      "wikidata": "Q322188",
-      "wikipedia": "https://en.wikipedia.org/wiki/Rumpelstiltskin",
-      "goodreads": "https://www.goodreads.com/book/show/61854840"
-    },
-    "darul-spiridusilor": {
-      "wikidata": "Q473871",
-      "wikipedia": "https://de.wikipedia.org/wiki/Die_Geschenke_des_kleinen_Volkes"
-    },
-    "pasarea-de-aur-grimm": {
-      "wikidata": "Q470012",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Golden_Bird"
-    },
-    "poveste-de-craciun-holbrook": {
-      "goodreads": "https://www.goodreads.com/book/show/11398137"
-    },
-    "polul-nord-sorescu": {
-      "goodreads": "https://www.goodreads.com/book/show/17447991"
-    },
-    "atelierul-de-jucarii-al-lui-mos-craciun": {
-      "wikidata": "Q2061716",
-      "wikipedia": "https://en.wikipedia.org/wiki/Santa%27s_Workshop_(film)"
-    },
-    "acul-de-carpit": {
-      "wikipedia": "https://en.wikipedia.org/wiki/A_Story_about_a_Darning-needle",
-      "goodreads": "https://www.goodreads.com/book/show/9784893-the-darning-needle"
-    },
-    "povestea-lui-mos-ene": {
-      "wikidata": "Q258749",
-      "wikipedia": "https://en.wikipedia.org/wiki/Ole_Luk%C3%B8je",
-      "goodreads": "https://www.goodreads.com/work/editions/21975353-ole-luk-je"
-    },
-    "printul-fermecat": {
-      "wikidata": "Q11850",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Frog_Prince",
-      "goodreads": "https://www.goodreads.com/work/editions/27285626"
-    },
-    "cei-trei-ursi": {
-      "wikipedia": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears"
     }
   }
 }

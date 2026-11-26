@@ -104,6 +104,7 @@ export const ENUMS = {
     aromanian: { ro: 'aromână', en: 'Aromanian' },
     'transylvanian-saxon': { ro: 'săsească', en: 'Transylvanian Saxon' },
     armenian: { ro: 'armeană', en: 'Armenian' },
+    european: { ro: 'europeană', en: 'European' },
   },
   themes: {
     animale: { ro: 'animale', en: 'animals' }, familie: { ro: 'familie', en: 'family' }, istetime: { ro: 'istețime', en: 'wits' },
@@ -124,6 +125,8 @@ export const ENUMS = {
     somn: { ro: 'somn', en: 'sleep' }, scoala: { ro: 'școală', en: 'school' }, imaginatie: { ro: 'imaginație', en: 'imagination' },
     dragoste: { ro: 'dragoste', en: 'love' }, transformare: { ro: 'transformare', en: 'transformation' }, mandrie: { ro: 'mândrie', en: 'pride' },
     cadouri: { ro: 'cadouri', en: 'gifts' }, carti: { ro: 'cărți', en: 'books' }, gospodarie: { ro: 'gospodărie', en: 'housework' },
+    adapost: { ro: 'adăpost', en: 'shelter' }, pescuit: { ro: 'pescuit', en: 'fishing' }, pozne: { ro: 'pozne', en: 'pranks' },
+    spectacol: { ro: 'spectacol', en: 'show' }, targ: { ro: 'târg', en: 'fair' },
     alegere: { ro: 'alegeri', en: 'choices' }, alegeri: { ro: 'alegeri', en: 'choices' }, amintiri: { ro: 'amintiri', en: 'memories' },
     batranete: { ro: 'bătrânețe', en: 'old age' }, cooperare: { ro: 'cooperare', en: 'teamwork' }, creatie: { ro: 'creație', en: 'creation' },
     egoism: { ro: 'egoism', en: 'selfishness' }, empatie: { ro: 'empatie', en: 'empathy' }, frumusete: { ro: 'frumusețe', en: 'beauty' },
