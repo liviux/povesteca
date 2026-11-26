@@ -439,8 +439,10 @@ dialog.log { width: min(680px, calc(100% - 24px)); max-height: min(86dvh, 900px)
 dialog.log::backdrop { background: rgb(0 0 0 / 45%); }
 .log-inner { padding: 0 20px 20px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; overflow-wrap: anywhere; }
 .log-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 8px; padding: 14px 0 12px; background: var(--surface); border-bottom: 2px solid var(--line); }
-.log-head h2 { margin-right: auto; }
-.log-head h2 .muted { white-space: nowrap; }
+/* "Noutăți" / "What's new" stays whole; on a narrow phone the count goes to the next line instead */
+.log-head h2 { margin-right: auto; min-width: 0; overflow-wrap: normal; }
+.log-title { white-space: nowrap; }
+.log-head h2 .muted { white-space: normal; }
 .log-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; border-top: 2px solid var(--line); padding-top: 16px; }
 .log-refresh { margin-left: auto; }
 .release { display: grid; gap: 6px; }

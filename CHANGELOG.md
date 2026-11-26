@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.33.1] - 2026-11-26
+
+### Fixed
+- Pe telefon, titlul ferestrei „Noutăți” nu se mai rupe în interiorul cuvântului, iar numărul de schimbări nu mai iese din fereastră.
+
 ## [1.33.0] - 2026-11-26
 
 ### Added

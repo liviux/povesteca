@@ -50,7 +50,7 @@ export function Changelog({ onClose }) {
     <dialog ref={ref} class="log" aria-labelledby="log-h" onClose={onClose} onClick={(e) => e.target === ref.current && ref.current.close()}>
       <div class="log-inner">
         <header class="log-head">
-          <h2 id="log-h">{t.news}{__COMMITS__ && <span class="muted"> ({t.nChanges(__COMMITS__)})</span>}</h2>
+          <h2 id="log-h"><span class="log-title">{t.news}</span>{__COMMITS__ && <span class="muted"> ({t.nChanges(__COMMITS__)})</span>}</h2>
           <button type="button" class="icon-btn" aria-label={t.close} onClick={() => ref.current.close()}><Icon n="close" /></button>
         </header>
         {releases === false ? <p class="muted">{t.newsErr}</p>
