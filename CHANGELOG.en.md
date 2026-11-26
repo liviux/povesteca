@@ -11,7 +11,7 @@ Every change to Povesteca, newest first. The app shows the same list under “Wh
 - 10 recordings have a second way to play the same production.
 
 ### Removed
-- “Oița cea lacomă” was removed because drinking drives the plot.
+- **Removed stories:** “Oița cea lacomă” was removed because drinking drives the plot.
 
 ## [1.32.7] - 2026-11-25
 

@@ -11,7 +11,7 @@ Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare î
 - 10 înregistrări au încă o adresă de redare pentru aceeași montare.
 
 ### Removed
-- „Oița cea lacomă” a ieșit din catalog deoarece băutura este în centrul poveștii.
+- **Povești scoase:** „Oița cea lacomă” a ieșit din catalog deoarece băutura este în centrul poveștii.
 
 ## [1.32.7] - 2026-11-25
 
