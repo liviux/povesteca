@@ -16,7 +16,7 @@ Rules for every AI agent working in this repository (Claude, Codex, Copilot, Cur
 - Ages are usually estimates, so never remove or keep a recording on an estimate alone. Base `age` and every removal on evidence: what the source says (a stated age, a children's programme or category), what a reliable reference says about the work (Wikipedia, the publisher, the school year where it's studied) and what actually happens in it.
 - No deeply religious stories: nothing whose subject is a faith, such as Bible stories, the life or miracles of Jesus, the Nativity, lives of saints, or legends that explain a feast through faith, whatever the religion. Folk tales where God, Saint Peter or the devil appear as characters, and Christmas stories about Santa, gifts or winter, are fine.
 - A source needs at least 5 recordings. One with fewer is removed completely (its recordings, its stories when they have no other recording, its collections and its entry in `sources.json`), and so is one that drops below 5 after a clean-up. `npm run check` enforces it.
-- Every source, story, or recording that is removed or rejected during verification is logged in `catalog/rejected.json` (`sources`, `stories`, `recordings`) with its identifiers/links and a clear `reason` (and `date`) so it is never added again. Before adding any new source, story, or recording, check `catalog/rejected.json` and skip anything listed there. `npm run check` enforces that rejected sources, stories, and recording links cannot re-enter the catalog.
+- Every source, story, or recording that is removed or rejected during verification is logged in `catalog/rejected.json` (`sources`, `stories`, `recordings`) with its identifiers/links and a clear `reason` (and `date`) so it is never added again. Before adding any new source, story, or recording, check `catalog/rejected.json` and skip anything listed there. `npm run check` enforces that rejected sources, stories, and recording links cannot re-enter the catalog. Entries in this file do not get a changelog note or an item in “Noutăți”. If the same change removes something from the published catalog, the changelog still records that removal.
 - A story with several authors lists them: `"author": ["Sanda Socoliuc", "Vasile Socoliuc"]`, so each gets a page of their own; never one text with “și” or commas.
 - One person has one spelling everywhere: Romanian diacritics with ș and ț, the spelling used on Wikipedia or on the record sleeve, no ALL CAPS. Each `cast` and `narrator` entry is one real name; split “X și Y” into two entries, drop “și alții”/“and others”, and move a role written into the name (“Gina Cazan - Vrăjitoarea”) into `role`. Before adding a name, search the catalog for the same person under another spelling.
 - Before adding a story, search the catalog for the same tale under another title (“Spiridușii” and “Darul spiridușilor”, a translated title, a folk tale credited to a collector). The same tale gets one story with several recordings.
@@ -52,7 +52,7 @@ Rules for every AI agent working in this repository (Claude, Codex, Copilot, Cur
 ## Git
 
 - Commit and push directly to `main`. No branches, pull requests or similar unless explicitly asked.
-- “Push to main” means the whole release described below, without asking: version bump, both changelogs, `npm run check`, `npm run build`, commit and push.
+- “Push to main” means the release workflow below, including its versioning exceptions, without asking. Run `npm run check` and `npm run build`, then commit and push.
 - Never force-push or rewrite published history.
 - Other people and agents may work in the same folder at the same time. Never delete, overwrite or revert uncommitted files or changes you didn't make. Commit only your own files and tell the user what else you found.
 - Never commit `.env` files, tokens (Upstash or any other) or personal data, and never run anything against the production ratings database.
@@ -69,7 +69,7 @@ Pick the bump from the largest change in the push.
 
 ## Every change that reaches `main`
 
-Small or medium changes to `README.md` do not need a changelog entry or a version bump.
+Small or medium changes to `README.md`, updates to `catalog/rejected.json`, and documentation for that register do not need a changelog entry or a version bump when those are the only changes.
 
 For other changes committed and pushed to `main`:
 
