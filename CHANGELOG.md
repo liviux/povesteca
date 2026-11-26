@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.33.2] - 2026-11-26
+
+### Fixed
+- Sanda Socoliuc și Vasile Socoliuc apar ca două persoane, fiecare cu pagina ei, nu ca „Sanda” și „Vasile Socoliuc”. La fel Simona Vasiliu și Dan Vasiliu.
+
 ## [1.33.1] - 2026-11-26
 
 ### Fixed

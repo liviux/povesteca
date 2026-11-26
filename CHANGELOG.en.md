@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.33.2] - 2026-11-26
+
+### Fixed
+- Sanda Socoliuc and Vasile Socoliuc show as two people, each with a page of their own, not as “Sanda” and “Vasile Socoliuc”. The same for Simona Vasiliu and Dan Vasiliu.
+
 ## [1.33.1] - 2026-11-26
 
 ### Fixed
