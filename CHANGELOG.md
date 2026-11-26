@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.38.0] - 2026-11-26
+
+### Added
+- Șapte povești clasice au acum și versiunea citită de Sonia în podcastul „Ora Magică”, printre care „Cei trei purceluși” și „Punguța cu doi bani”.
+
 ## [1.37.1] - 2026-11-26
 
 ### Changed

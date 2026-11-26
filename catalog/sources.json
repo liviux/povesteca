@@ -348,5 +348,15 @@
       "ro": "Canalul educațional HiKiddo, fondat de Gabriela Chirobocia, Mihaela Chirobocia și Vlad Onuțu: povești terapeutice pentru copii de grădiniță, fabule și basme clasice în limba română, narate expresiv cu muzică și efecte sonore.",
       "en": "The HiKiddo educational channel, founded by Gabriela Chirobocia, Mihaela Chirobocia and Vlad Onuțu: therapeutic stories for preschoolers, classic fables and fairy tales in Romanian, expressively narrated with music and sound effects."
     }
+  },
+  {
+    "id": "ora-magica",
+    "name": "Ora Magică",
+    "type": "audio",
+    "url": "https://podcasters.spotify.com/pod/show/sonia08",
+    "description": {
+      "ro": "Basme clasice citite de Sonia, cu muzică de început și final și, în unele episoade, efecte sonore.",
+      "en": "Classic fairy tales read by Sonia, with opening and closing music and sound effects in some episodes."
+    }
   }
 ]

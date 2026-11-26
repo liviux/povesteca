@@ -98464,5 +98464,341 @@
       "quality"
     ],
     "addedAt": "2026-11-26"
+  },
+  {
+    "id": "cei-trei-purcelusi-ora-magica",
+    "storyId": "cei-trei-purcelusi",
+    "title": "Cei trei purceluși (Ora Magică)",
+    "sourceId": "ora-magica",
+    "links": [
+      {
+        "type": "audio",
+        "url": "https://anchor.fm/s/110af43c4/podcast/play/125522335/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-10%2F431603677-44100-2-3f54cc6cc050c.m4a",
+        "page": "https://creators.spotify.com/pod/profile/sonia08/episodes/Cei-trei-purcelui--Poveste-audio-pentru-copii-e3ol4uv",
+        "via": "Ora Magică"
+      },
+      {
+        "type": "youtube",
+        "id": "E11zJs2H5zU",
+        "via": "Ora Magică"
+      }
+    ],
+    "duration": 527,
+    "year": 2026,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "aventuroasa",
+      "intensa"
+    ],
+    "age": 5,
+    "quality": 3,
+    "credits": {
+      "narrator": [
+        "Sonia"
+      ],
+      "music": "Michael Barry"
+    },
+    "cover": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45648889/45648889-1782673291356-fbce9cd3d4c6c.jpg",
+    "addedAt": "2026-11-26",
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ]
+  },
+  {
+    "id": "craiasa-albinelor-ora-magica",
+    "storyId": "craiasa-albinelor",
+    "title": "Regina albinelor (Ora Magică)",
+    "sourceId": "ora-magica",
+    "links": [
+      {
+        "type": "audio",
+        "url": "https://anchor.fm/s/110af43c4/podcast/play/125085890/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-2%2F431027287-44100-2-eff2e41e298a4.m4a",
+        "page": "https://creators.spotify.com/pod/profile/sonia08/episodes/Regina-Albinelor--Poveste-audio-pentru-copii-e3o7qo2",
+        "via": "Ora Magică"
+      },
+      {
+        "type": "youtube",
+        "id": "ZCUz_c3v8v0",
+        "via": "Ora Magică"
+      }
+    ],
+    "duration": 621,
+    "year": 2026,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "magica",
+      "aventuroasa"
+    ],
+    "age": 5,
+    "quality": 3,
+    "credits": {
+      "narrator": [
+        "Sonia"
+      ],
+      "music": "Michael Barry"
+    },
+    "cover": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45648889/45648889-1782673291356-fbce9cd3d4c6c.jpg",
+    "addedAt": "2026-11-26",
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ]
+  },
+  {
+    "id": "bucle-aurii-ora-magica",
+    "storyId": "bucle-aurii",
+    "title": "Bucle Aurii și cei trei urși (Ora Magică)",
+    "sourceId": "ora-magica",
+    "links": [
+      {
+        "type": "audio",
+        "url": "https://anchor.fm/s/110af43c4/podcast/play/124852116/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-28%2F430703821-44100-2-1bd9561cc92f9.m4a",
+        "page": "https://creators.spotify.com/pod/profile/sonia08/episodes/Bucle-Aurii-i-cei-trei-uri--Poveste-audio-pentru-copii-e3o0mek",
+        "via": "Ora Magică"
+      },
+      {
+        "type": "youtube",
+        "id": "vFOhk6ynv9I",
+        "via": "Ora Magică"
+      }
+    ],
+    "duration": 457,
+    "year": 2026,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "fara",
+    "music": "ambientala",
+    "moods": [
+      "linistitoare",
+      "amuzanta"
+    ],
+    "age": 4,
+    "quality": 3,
+    "credits": {
+      "narrator": [
+        "Sonia"
+      ],
+      "music": "Michael Barry"
+    },
+    "cover": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45648889/45648889-1782673291356-fbce9cd3d4c6c.jpg",
+    "addedAt": "2026-11-26",
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ]
+  },
+  {
+    "id": "motanul-incaltat-ora-magica",
+    "storyId": "motanul-incaltat",
+    "title": "Motanul încălțat (Ora Magică)",
+    "sourceId": "ora-magica",
+    "links": [
+      {
+        "type": "audio",
+        "url": "https://anchor.fm/s/110af43c4/podcast/play/124224921/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-14%2F429845356-44100-2-b1baa209aedfa.m4a",
+        "page": "https://creators.spotify.com/pod/profile/sonia08/episodes/Motanul-nclat--Poveste-audio-pentru-copii-e3ndhup",
+        "via": "Ora Magică"
+      },
+      {
+        "type": "youtube",
+        "id": "n7ojFVjwP0s",
+        "via": "Ora Magică"
+      }
+    ],
+    "duration": 478,
+    "year": 2026,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "fara",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "aventuroasa"
+    ],
+    "age": 5,
+    "quality": 3,
+    "credits": {
+      "narrator": [
+        "Sonia"
+      ],
+      "music": "Michael Barry"
+    },
+    "cover": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45648889/45648889-1782673291356-fbce9cd3d4c6c.jpg",
+    "addedAt": "2026-11-26",
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ]
+  },
+  {
+    "id": "domnita-si-bobul-de-mazare-ora-magica",
+    "storyId": "domnita-si-bobul-de-mazare",
+    "title": "Prințesa și mazărea (Ora Magică)",
+    "sourceId": "ora-magica",
+    "links": [
+      {
+        "type": "audio",
+        "url": "https://anchor.fm/s/110af43c4/podcast/play/122595781/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-9%2F427638588-44100-2-c0aed892d5271.m4a",
+        "page": "https://creators.spotify.com/pod/profile/sonia08/episodes/Prinesa-i-mazrea--Poveste-audio-pentru-copii-e3lrr05",
+        "via": "Ora Magică"
+      },
+      {
+        "type": "youtube",
+        "id": "wPJAtm-rl4E",
+        "via": "Ora Magică"
+      }
+    ],
+    "duration": 231,
+    "year": 2026,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "fara",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "linistitoare"
+    ],
+    "age": 4,
+    "quality": 3,
+    "credits": {
+      "narrator": [
+        "Sonia"
+      ],
+      "music": "Michael Barry"
+    },
+    "cover": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45648889/45648889-1782673291356-fbce9cd3d4c6c.jpg",
+    "addedAt": "2026-11-26",
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ]
+  },
+  {
+    "id": "iepurele-si-ariciul-ora-magica",
+    "storyId": "iepurele-si-ariciul",
+    "title": "Iepurele și ariciul (Ora Magică)",
+    "sourceId": "ora-magica",
+    "links": [
+      {
+        "type": "audio",
+        "url": "https://anchor.fm/s/110af43c4/podcast/play/120898779/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F2711ea76-6883-8be8-955a-eb11e5399840.mp3",
+        "page": "https://creators.spotify.com/pod/profile/sonia08/episodes/Iepurele-i-ariciul--Poveste-audio-pentru-copii-e3k81or",
+        "via": "Ora Magică"
+      },
+      {
+        "type": "youtube",
+        "id": "9CXOgZdFQoY",
+        "via": "Ora Magică"
+      }
+    ],
+    "duration": 567,
+    "year": 2026,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "aventuroasa"
+    ],
+    "age": 6,
+    "quality": 3,
+    "credits": {
+      "narrator": [
+        "Sonia"
+      ],
+      "music": "Michael Barry"
+    },
+    "cover": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45648889/45648889-1782668781691-07467d8ae9ef5.jpg",
+    "addedAt": "2026-11-26",
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ]
+  },
+  {
+    "id": "punguta-cu-doi-bani-ora-magica",
+    "storyId": "punguta-cu-doi-bani",
+    "title": "Punguța cu doi bani (Ora Magică)",
+    "sourceId": "ora-magica",
+    "links": [
+      {
+        "type": "audio",
+        "url": "https://anchor.fm/s/110af43c4/podcast/play/120032625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F4fc451e1-61f3-0c20-a59b-799eb657abf7.mp3",
+        "page": "https://creators.spotify.com/pod/profile/sonia08/episodes/Pungua-cu-doi-bani--Poveste-audio-pentru-copii-e3jdjth",
+        "via": "Ora Magică"
+      },
+      {
+        "type": "youtube",
+        "id": "ue_7P0_RPjI",
+        "via": "Ora Magică"
+      }
+    ],
+    "duration": 791,
+    "year": 2026,
+    "kind": "narata",
+    "voices": "narator",
+    "sfx": "discrete",
+    "music": "ambientala",
+    "moods": [
+      "amuzanta",
+      "aventuroasa"
+    ],
+    "age": 7,
+    "quality": 3,
+    "credits": {
+      "narrator": [
+        "Sonia"
+      ],
+      "music": "Michael Barry"
+    },
+    "cover": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45648889/45648889-1782668966728-893410afcd095.jpg",
+    "addedAt": "2026-11-26",
+    "estimated": [
+      "kind",
+      "voices",
+      "sfx",
+      "music",
+      "moods",
+      "age",
+      "quality"
+    ]
   }
 ]

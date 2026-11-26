@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.38.0] - 2026-11-26
+
+### Added
+- Seven classic tales now also have a reading by Sonia from the “Ora Magică” podcast, including “Cei trei purceluși” and “Punguța cu doi bani”.
+
 ## [1.37.1] - 2026-11-26
 
 ### Changed
