@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.9] - 2026-11-27
+
+### Changed
+- The 10 recordings in the “Povești ascultătoare” (Damian Victor Oancea) collection now use automatically generated covers instead of repeating the same podcast image.
+
 ## [1.41.8] - 2026-11-27
 
 ### Changed

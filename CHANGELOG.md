@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.9] - 2026-11-27
+
+### Changed
+- Cele 10 înregistrări din colecția „Povești ascultătoare” (Damian Victor Oancea) folosesc acum coperte generate automat în locul aceleiași imagini de podcast.
+
 ## [1.41.8] - 2026-11-27
 
 ### Changed
