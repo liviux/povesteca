@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.4] - 2026-11-27
+
+### Changed
+- Cele 5 înregistrări din Discuri Electrecord digitizate care împărțeau aceeași copertă folosesc acum coperte generate automat pentru fiecare titlu.
+
 ## [1.41.3] - 2026-11-27
 
 ### Changed

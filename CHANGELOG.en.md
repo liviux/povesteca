@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.4] - 2026-11-27
+
+### Changed
+- The 5 Electrecord vinyl recordings that shared the same cover image now use automatically generated covers for each title.
+
 ## [1.41.3] - 2026-11-27
 
 ### Changed
