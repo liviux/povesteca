@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.6] - 2026-11-27
+
+### Added
+- Added Romanian and English summaries, themes, and characters for the 14 stories in the catalogue that did not yet have a description (Petre Crăciun stories from the State Jewish Theatre and winter readings from the Baia Mare Municipal Theatre).
+
+### Changed
+- Updated and corrected summaries, characters, and themes for 79 catalogue stories after checking the actual recordings, replacing generic production notes or inaccurate details.
+
 ## [1.41.5] - 2026-11-27
 
 ### Changed

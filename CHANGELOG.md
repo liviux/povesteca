@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.6] - 2026-11-27
+
+### Added
+- Rezumate în română și engleză, teme și personaje pentru cele 14 povești din catalog care nu aveau încă descriere (poveștile de Petre Crăciun de la Teatrul Evreiesc de Stat și lecturile de iarnă de la Teatrul Municipal Baia Mare).
+
+### Changed
+- Rezumatele, personajele și temele a 79 de povești din catalog au fost completate sau corectate după înregistrările audio reale, înlocuind descrierile generale de producție sau detaliile greșite.
+
 ## [1.41.5] - 2026-11-27
 
 ### Changed

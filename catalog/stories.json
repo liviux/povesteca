@@ -2538,18 +2538,17 @@
       "arte"
     ],
     "summary": {
-      "ro": "Al nouălea episod din serialul radiofonic despre zeii Greciei antice este despre Apollo, zeul luminii, al muzicii și al poeziei.",
-      "en": "The ninth episode of the radio series about the gods of ancient Greece is about Apollo, the god of light, music and poetry."
+      "ro": "Apollo încearcă să o câștige pe Alcesta, fiica lui Pelias, și îl ajută pe Admetos să scape de o soartă grea printr-un schimb de vieți. Alcesta se jertfește pentru soțul ei, dar zeul o readuce la lumină.",
+      "en": "Apollo seeks Alcestis, daughter of Pelias, and helps Admetus escape a grim fate through a bargain of lives. Alcestis sacrifices herself for her husband, yet the god saves her in the end."
     },
     "age": 9,
     "addedAt": "2026-11-22",
     "year": 2001,
     "characters": [
       "Apollo",
-      "Zeus",
-      "Hera",
-      "Artemis",
-      "Leto"
+      "Admetos",
+      "Alcesta",
+      "Pelias"
     ]
   },
   {
@@ -2936,16 +2935,17 @@
       "mare"
     ],
     "summary": {
-      "ro": "Al treisprezecelea episod din serialul radiofonic despre zeii Greciei antice este despre Poseidon, zeul mărilor.",
-      "en": "The thirteenth episode of the radio series about the gods of ancient Greece is about Poseidon, the god of the sea."
+      "ro": "Poseidon și Amfitrite vor să conducă împreună împărăția apelor, dar fiul lor, Triton, se împotrivește căsătoriei până când tatăl îl înduplecă. În același timp, ciclopul Polifem o curtează zadarnic pe nimfa Galatea.",
+      "en": "Poseidon and Amphitrite decide to rule the seas together, facing resistance from their son Triton until Poseidon wins him over. Meanwhile, the cyclops Polyphemus courts the sea nymph Galatea in vain."
     },
     "age": 9,
     "addedAt": "2026-11-22",
     "characters": [
       "Poseidon",
-      "Zeus",
-      "Hades",
-      "Atena"
+      "Amfitrite",
+      "Triton",
+      "Polifem",
+      "Galatea"
     ],
     "year": 2001
   },
@@ -5872,13 +5872,14 @@
       "stiinta"
     ],
     "summary": {
-      "ro": "Scenariu radiofonic științifico-fantastic pentru copii de Georgiana Viorica Rogoz, în regia lui Dan Puican. Premiera a fost difuzată în emisiunea „Teatru radiofonic pentru copii” pe 25 martie 1974, cu Virgil Ogășanu, Fory Etterle, Mariana Oprescu și Ioana Casetti în distribuție.",
-      "en": "A science-fiction radio play for children by Georgiana Viorica Rogoz, directed by Dan Puican. It premiered on “Teatru radiofonic pentru copii” on 25 March 1974, with Virgil Ogășanu, Fory Etterle, Mariana Oprescu and Ioana Casetti in the cast."
+      "ro": "Când o pafta veche de aur și argint dispare dintr-un muzeu, elevul Mihai, Irina, reporterul Laurențiu și Profesorul pornesc pe urmele hoțului. Bănuielile cad la început pe o făptură misterioasă, până când câinele Rex, cu darul lui neobișnuit, dă de urma prăzii ascunse într-o scorbură din pădure.",
+      "en": "When an antique gold-and-silver clasp vanishes from a museum, schoolboy Mihai, Irina, reporter Laurențiu and the Professor investigate. Suspicion first falls on a mysterious visitor until the dog Rex uses his uncanny sense to track the stolen relic to a hollow tree in the woods."
     },
     "age": 7,
     "addedAt": "2026-11-22",
     "year": 1974,
     "characters": [
+      "Rex",
       "Laurențiu",
       "Profesorul",
       "Mihai",
@@ -7745,18 +7746,14 @@
       "mitologie"
     ],
     "summary": {
-      "ro": "Basm popular andin despre curajosul Carancho și încercările prin care trece.",
-      "en": "An Andean folk tale following the adventures of Carancho."
+      "ro": "Pasărea fermecată Carancho zboară până în cer ca să salveze neamul păsărilor de foamete. Primește unelte magice de la sora Soarelui și se întoarce pe pământ ca să le învețe pe celelalte păsări să-și agonisească hrana.",
+      "en": "The enchanted bird Carancho flies up to the sky to save birdkind from hunger. Given magic tools by the Sun’s sister, he returns to teach the birds how to gather their own food."
     },
     "age": 9,
     "addedAt": "2026-11-22",
     "characters": [
       "Carancho",
-      "Bătrânul",
-      "Bătrâna",
-      "Uriașul",
-      "Steluța",
-      "Piticul"
+      "Sora Soarelui"
     ]
   },
   {
@@ -15647,12 +15644,19 @@
       "copilarie"
     ],
     "summary": {
-      "ro": "Poveste de seară scrisă de Leon Magdan despre o mamă, difuzată la Radio Itsy Bitsy.",
-      "en": "A bedtime story by Leon Magdan about a mother, broadcast on Radio Itsy Bitsy."
+      "ro": "Andrei și Sofia se ceartă ce cadou să-i facă mamei de ziua ei, fiecare convins că darul lui e mai bun. Mama le spune atunci o poveste despre Soare și Ploaie, care s-au certat care e mai de folos până când pământul a avut de suferit, iar copiii se apucă să lucreze împreună.",
+      "en": "Andrei and Sofia argue over whose birthday gift for their mother is better. She tells them a story about the Sun and the Rain quarrelling over who mattered more until the earth suffered, and the siblings team up on one shared present."
     },
     "age": 5,
     "addedAt": "2026-11-22",
-    "year": 2018
+    "year": 2018,
+    "characters": [
+      "Andrei",
+      "Sofia",
+      "Mama",
+      "Soarele",
+      "Ploaia"
+    ]
   },
   {
     "id": "ai-grija-ce-iti-doresti",
@@ -15666,12 +15670,16 @@
       "copilarie"
     ],
     "summary": {
-      "ro": "O poveste de Leon Magdan pornită de la vorba „Ai grijă ce îți dorești”, despre ce se poate întâmpla când o dorință se împlinește. A apărut în volumul „Povești cu îngeri... pentru îngerași”.",
-      "en": "A story by Leon Magdan built around the saying “Be careful what you wish for”, about what can happen when a wish comes true. It appeared in the collection “Povești cu îngeri... pentru îngerași”."
+      "ro": "Un negustor lacom primește de la un înger darul de a preface în aur tot ce atinge. Când până și pâinea și apa i se schimbă în metal rece sub degete, bogăția fără măsură i se întoarce împotrivă.",
+      "en": "A greedy merchant is granted the power by an angel to turn anything he touches into gold. When even bread and water harden into cold metal in his hands, his unchecked wish turns against him."
     },
     "age": 5,
     "addedAt": "2026-11-22",
-    "year": 2002
+    "year": 2002,
+    "characters": [
+      "Negustorul",
+      "Îngerul"
+    ]
   },
   {
     "id": "misiunile-itsy-bitsy-lipicantatoarea-quick-quick",
@@ -15964,8 +15972,8 @@
       "umor"
     ],
     "summary": {
-      "ro": "Într-un episod al serialului „Misiunile lui Itsy și ale lui Bitsy”, cei doi Apărători ai Galaxiei Xarazon ajung în povestea păsărilor Zozo.",
-      "en": "In this episode of “Misiunile lui Itsy și ale lui Bitsy”, the two Defenders of the Xarazon Galaxy enter the story of the Zozo birds."
+      "ro": "Zamax îi trimite pe Itsy și Bitsy să vadă cine a dat buzna pe nava lor, Zorar. După ce păsările Zozo le șterpelesc capsulele cu aer, cei doi află că acestea aveau nevoie de ele ca să-și hrănească puii și fac pace.",
+      "en": "Zamax sends Itsy and Bitsy to check out the Zozo birds aboard their ship Zorar. After the birds snatch their air capsules, the two defenders discover they only took them to feed their chicks, and everyone makes peace."
     },
     "age": 5,
     "addedAt": "2026-11-22",
@@ -15973,6 +15981,7 @@
     "characters": [
       "Itsy",
       "Bitsy",
+      "Zamax",
       "Păsările Zozo"
     ]
   },
@@ -16715,12 +16724,17 @@
       "harnicie"
     ],
     "summary": {
-      "ro": "Într-un sat românesc, o mamă își dedică viața muncii și grijii pentru copiii ei, iar pânzele țesute de mâinile ei ajung să lege generații. Povestea urmărește iubirea necondiționată, sacrificiul și locul tradițiilor în viața familiei.",
-      "en": "In a Romanian village, a mother devotes her life to work and to caring for her children, and the cloth she weaves comes to bind generations together. The story follows unconditional love, sacrifice and the place of tradition in family life."
+      "ro": "Într-un sat din Basarabia, după război, un învățător și soția lui își cresc copiii printre lipsuri, iar bunicul Teofil le povestește nepoților despre vremurile de atunci și despre mama care țesea pânză albă și ținea casa unită.",
+      "en": "In a Bessarabian village after the war, a schoolteacher and his wife raise their children through hard times, while grandfather Teofil later recalls to his grandchildren the mother who wove white linen and held the family together."
     },
     "age": 5,
     "addedAt": "2026-11-22",
-    "year": 1984
+    "year": 1984,
+    "characters": [
+      "Bunicul Teofil",
+      "Mama",
+      "Gheorghe"
+    ]
   },
   {
     "id": "viteazul-azmun",
@@ -16762,12 +16776,18 @@
       "eroi"
     ],
     "summary": {
-      "ro": "Banul Mărăcine, figură legendară a Țărilor Române, trăiește vremuri de frământări politice, între datoria față de domnitor și loialitatea față de oamenii lui. Povestea urmărește intrigile, trădările și lupta pentru dreptate din jurul lui.",
-      "en": "Ban Mărăcine, a legendary figure of the Romanian lands, lives through a time of political turmoil, caught between his duty to the ruler and his loyalty to his own people. The story follows the intrigue, the betrayals and the struggle for justice that surround him."
+      "ro": "Banul Mărăcine și fiul său, Nicolae Alexandru, pleacă spre curtea regelui Filip al VI-lea al Franței, însoțind-o pe nobila Maria de Valois. Pe drum scapă dintr-o ambuscadă și ajung la oastea regală, unde rănile grele îl răpun pe bătrânul boier.",
+      "en": "Banul Mărăcine and his son Nicolae Alexandru ride to the court of King Philip VI of France alongside the noblewoman Maria de Valois. After fighting through an ambush they reach the royal camp, where the old nobleman succumbs to his wounds."
     },
     "age": 8,
     "addedAt": "2026-11-22",
-    "year": 1967
+    "year": 1967,
+    "characters": [
+      "Banul Mărăcine",
+      "Nicolae Alexandru",
+      "Maria de Valois",
+      "Filip al VI-lea"
+    ]
   },
   {
     "id": "frunza-de-aur",
@@ -17254,8 +17274,8 @@
       "prietenie"
     ],
     "summary": {
-      "ro": "O piesă radiofonică inspirată de universul Disney, în care un copil cu o imaginație bogată pornește într-o călătorie prin lumea viselor. Pe drum întâlnește personaje fermecătoare și descoperă că visele prind viață atunci când crezi în ele.",
-      "en": "A radio play drawn from the Disney universe, in which a child with a boundless imagination sets off on a journey through the world of dreams. Along the way he meets enchanting characters and finds that dreams come alive when you truly believe in them."
+      "ro": "Harry, Kate și David descoperă că domnișoara de Sorsy, în grija căreia locuiesc, învață vrăjitoria prin corespondență. Cu ajutorul unui pat zburător, ajung pe insula Nabumbu după o stea magică, iar la întoarcere își apără castelul cu armurile aduse la viață.",
+      "en": "Harry, Kate and David discover that Miss de Sorsy, who looks after them, studies witchcraft by correspondence. Riding a flying bed to the island of Naboombu for a magic star, they return home and bring museum armour to life to drive off invaders."
     },
     "age": 5,
     "addedAt": "2026-11-22",
@@ -18238,14 +18258,17 @@
       "copilarie"
     ],
     "summary": {
-      "ro": "O poveste terapeutică de Adriana Mitu despre un leu. Seria „Povești terapeutice” pornește de la întâmplări cu animale pentru a deschide discuții cu copiii despre emoții.",
-      "en": "A therapeutic story by Adriana Mitu about a lion. The “Povești terapeutice” series uses animal stories to open conversations with children about feelings."
+      "ro": "Un leu vrea să fie cel mai admirat din savană și încearcă să-i uimească pe toți cu haine alese și un concert. Văzând că animalele rămân reci, stă de vorbă cu pantera și află că prietenii îl prețuiesc pentru cine este el cu adevărat.",
+      "en": "A lion tries to impress the savannah with fancy clothes and a concert so everyone will call him special. When the animals remain unmoved, a chat with the panther helps him see they value him for who he really is."
     },
     "age": 5,
     "addedAt": "2026-11-22",
     "year": 2023,
     "characters": [
-      "Leul"
+      "Leul",
+      "Pantera",
+      "Elefantul",
+      "Zebra"
     ]
   },
   {
@@ -18257,12 +18280,12 @@
     "themes": [
       "copilarie",
       "familie",
-      "muzica",
-      "umor"
+      "umor",
+      "ascultare"
     ],
     "summary": {
-      "ro": "Andrei și Sofia pregătesc un mare spectacol, cu emoțiile și peripețiile dinaintea reprezentației. Episodul face parte din seria „Povești de pe strada mea”, scrisă de Leon Magdan.",
-      "en": "Andrei and Sofia prepare a big show, with all the feelings and mishaps that come before the performance. The episode belongs to the series “Povești de pe strada mea”, written by Leon Magdan."
+      "ro": "Andrei abia așteaptă să meargă la circ, dar uită să se spele pe mâini înainte de masă, se îmbolnăvește și rămâne acasă cu mama. Sofia merge singură și îi povestește apoi tot ce a văzut în arenă.",
+      "en": "Andrei can hardly wait to go to the circus, but he forgets to wash his hands before eating, falls ill and has to stay home with his mother. Sofia goes on her own and tells him all about the show when she gets back."
     },
     "age": 5,
     "addedAt": "2026-11-22",
@@ -18285,14 +18308,15 @@
       "curaj"
     ],
     "summary": {
-      "ro": "O poveste terapeutică de Adriana Mitu despre Marcel și visul lui. Seria „Povești terapeutice” pornește de la întâmplări simple pentru a deschide discuții cu copiii despre emoții.",
-      "en": "A therapeutic story by Adriana Mitu about Marcel and his dream. The “Povești terapeutice” series uses simple situations to open conversations with children about feelings."
+      "ro": "Broscoiul Marcel visează să ajungă dirijor în orchestra lacului, chiar dacă ceilalți îl iau peste picior. Nu se lasă, exersează fără oprire și îl uimește pe dirijor, care îi lasă bagheta în față.",
+      "en": "Marcel the frog dreams of conducting the lake orchestra, even when the others laugh at him. He keeps practising until he wins over the conductor, who hands him the baton."
     },
     "age": 5,
     "addedAt": "2026-11-22",
     "year": 2023,
     "characters": [
-      "Marcel"
+      "Marcel",
+      "Dirijorul"
     ]
   },
   {
@@ -18357,15 +18381,17 @@
       "prietenie"
     ],
     "summary": {
-      "ro": "Andrei și Sofia se trezesc într-o încurcătură de zi cu zi și caută împreună o ieșire. Episodul face parte din seria „Povești de pe strada mea”, scrisă de Leon Magdan.",
-      "en": "Andrei and Sofia find themselves in an everyday muddle and look for a way out together. The episode belongs to the series “Povești de pe strada mea”, written by Leon Magdan."
+      "ro": "Ajunși la grădiniță fără proiectul cerut, Andrei îi spune învățătoarei că l-a uitat acasă, spre supărarea Sofiei. Mama le explică apoi că a fost bolnavă și nu i-a putut ajuta, iar copiii se apucă împreună de un proiect nou.",
+      "en": "Arriving at kindergarten without their assigned project, Andrei tells the teacher they left it at home, upsetting Sofia. Their mother later explains she was sick and could not help, and the children start a fresh project together."
     },
     "age": 5,
     "addedAt": "2026-11-22",
     "year": 2023,
     "characters": [
       "Andrei",
-      "Sofia"
+      "Sofia",
+      "Mama",
+      "Învățătoarea"
     ]
   },
   {
@@ -18381,14 +18407,15 @@
       "copilarie"
     ],
     "summary": {
-      "ro": "O poveste terapeutică de Adriana Mitu despre Țepos. Seria „Povești terapeutice” pornește de la întâmplări cu animale pentru a deschide discuții cu copiii despre emoții.",
-      "en": "A therapeutic story by Adriana Mitu about Țepos. The “Povești terapeutice” series uses animal stories to open conversations with children about feelings."
+      "ro": "Țeposul, un porc spinos mereu arțăgos, sperie animalele din pădure cu țepii lui. Când iepurașul Țup îi aduce o plăcintă, ariciul se îmblânzește și începe să împletească plăpumi pentru ceilalți.",
+      "en": "Prickles, a grumpy porcupine, scares the forest animals away with his quills. When Tup the rabbit brings him a pie, he softens and starts knitting blankets for his neighbours."
     },
     "age": 5,
     "addedAt": "2026-11-22",
     "year": 2023,
     "characters": [
-      "Țeposul"
+      "Țeposul",
+      "Țup"
     ]
   },
   {
@@ -18403,8 +18430,8 @@
       "istetime"
     ],
     "summary": {
-      "ro": "O poveste cu un țap și un cocoș, din seria de povești pentru copii a radioului Itsy Bitsy FM.",
-      "en": "A story about a goat and a rooster from Itsy Bitsy FM's children's story series."
+      "ro": "Un țap și un cocoș din aceeași ogradă se tot ciondănesc din invidie și încăpățânare. Până la urmă, cocoșul îl ajută pe țap să ajungă la o varză râvnită, iar cearta se transformă în prietenie.",
+      "en": "A goat and a rooster sharing a farmyard bicker endlessly out of envy and stubbornness. In the end, the rooster helps the goat reach a prized cabbage, and their rivalry turns into friendship."
     },
     "age": 5,
     "addedAt": "2026-11-22",
@@ -18427,15 +18454,17 @@
       "curiozitate"
     ],
     "summary": {
-      "ro": "Un episod din seria „Povești de pe strada mea”: Andrei și Sofia ajung într-o grădină botanică, iar plimbarea printre plante le prilejuiește o lecție de zi cu zi. Seria este scrisă de Leon Magdan.",
-      "en": "An episode of “Povești de pe strada mea”: Andrei and Sofia visit a botanical garden, and the walk among the plants turns into an everyday lesson. The series is written by Leon Magdan."
+      "ro": "Într-o plimbare cu colegii la Grădina Botanică, Andrei încearcă să-și mănânce pe furiș ciocolata preferată ca să n-o împartă. Când prietenul lui Mircea îl întreabă ce ascunde în ghiozdan, Andrei se răzgândește și îi dă și lui.",
+      "en": "On a school trip to the Botanical Garden, Andrei tries to eat his favourite chocolate in secret so he does not have to share. When his friend Mircea asks why he keeps his backpack zipped up, Andrei has a change of heart and shares."
     },
     "age": 5,
     "addedAt": "2026-11-22",
     "year": 2023,
     "characters": [
       "Andrei",
-      "Sofia"
+      "Sofia",
+      "Mircea",
+      "Anca"
     ]
   },
   {
@@ -18473,14 +18502,16 @@
       "copilarie"
     ],
     "summary": {
-      "ro": "O poveste despre maimuțica Miky, din seria de povești pentru copii a radioului Itsy Bitsy FM. Este o poveste de sine stătătoare, nu un episod din serialul „Misiunile lui Itsy și ale lui Bitsy”.",
-      "en": "A story about Miky the little monkey from Itsy Bitsy FM's children's story series. It is a stand-alone story, not an episode of “Misiunile lui Itsy și ale lui Bitsy”."
+      "ro": "Maimuțica Miky strânge bani în pădurea ei din Africa și nu se îndură să dea nici un bănuț, nici măcar când un papagal însetat îi cere apă. Drept pedeapsă, papagalul îi preface banii în nuci de cocos până când Miky făgăduiește să fie mai darnică.",
+      "en": "Miky the monkey hoards money in the African forest and refuses to share even a drop of water with a thirsty parrot. As punishment, the parrot turns her coins into coconuts until she promises to stop being stingy."
     },
     "age": 5,
     "addedAt": "2026-11-22",
     "year": 2021,
     "characters": [
-      "Miky"
+      "Miky",
+      "Papagalul",
+      "Belina"
     ]
   },
   {
@@ -18496,15 +18527,18 @@
       "prietenie"
     ],
     "summary": {
-      "ro": "Andrei și Sofia iau parte la ziua sporturilor, cu emoții și peripeții de zi cu zi. Episodul face parte din seria „Povești de pe strada mea”, scrisă de Leon Magdan.",
-      "en": "Andrei and Sofia take part in sports day, with everyday feelings and mishaps. The episode belongs to the series “Povești de pe strada mea”, written by Leon Magdan."
+      "ro": "La întrecerile de pe stadion, Luca îl ia peste picior pe George, un băiat mic și timid, crezând că nu are nici o șansă. Când George câștigă titlul de cel mai bun sportiv, Luca își cere iertare și devin prieteni.",
+      "en": "At the school sports day, Luca looks down on quiet, small George, sure he stands no chance. When George wins the top athlete prize, Luca owns up to his mistake and the two become friends."
     },
     "age": 5,
     "addedAt": "2026-11-22",
     "year": 2023,
     "characters": [
       "Andrei",
-      "Sofia"
+      "Sofia",
+      "Luca",
+      "George",
+      "Oana"
     ]
   },
   {
@@ -18594,8 +18628,8 @@
       "Harap-Alb"
     ],
     "summary": {
-      "ro": "Piesă radiofonică pentru copii în care Alecu Popovici reunește lumea poveștilor lui Ion Creangă, aducându-i laolaltă pe povestitor și pe eroii săi celebri, precum Păcală și Harap-Alb.",
-      "en": "A children's radio play by Alecu Popovici that brings Ion Creangă's storytelling world to life, gathering the author and his classic characters such as Păcală and Harap-Alb."
+      "ro": "Alecu Popovici îi strânge laolaltă pe eroii lui Ion Creangă (de la capra cu trei iezi și Păcală până la Harap-Alb, Ivan Turbincă și Dănilă Prepeleac) într-o șezătoare radiofonică în care personajele își spun și își joacă propriile pățanii.",
+      "en": "Alecu Popovici gathers Ion Creangă’s characters, from the goat and her three kids and Păcală to Harap-Alb, Ivan Turbincă and Dănilă Prepeleac, in a lively radio gathering where they swap and act out their own adventures."
     },
     "age": 6
   },
@@ -19364,11 +19398,15 @@
       "prietenie"
     ],
     "characters": [
-      "Florile"
+      "Puc",
+      "Regina Florilor",
+      "Regele Gâzelor",
+      "Bondarov",
+      "Domnița Cactus"
     ],
     "summary": {
-      "ro": "Poveste audio originală scrisă de Ionuț Constantinescu și interpretată de opt actori ai Teatrului de Păpuși „Puck” din Cluj-Napoca.",
-      "en": "An original audio story written by Ionuț Constantinescu and performed by eight actors of the “Puck” Puppet Theatre in Cluj-Napoca."
+      "ro": "După o secetă lungă, Regina Florilor îi cere ajutor Regelui Gâzelor să aducă ploaia. Acesta se lasă greu convins, dar cu sprijinul unui spirit binevoitor și al celorlalte făpturi din grădină cei doi fac pace, iar florile prind din nou viață.",
+      "en": "After a long drought, the Queen of Flowers asks the King of Insects for help to bring back the rain. He refuses at first, yet with a kindly spirit’s help they sign a peace treaty and the flowers bloom again."
     },
     "origin": "romanian",
     "year": 2026
@@ -20616,12 +20654,12 @@
       "intelepciune"
     ],
     "characters": [
-      "Bunicul",
-      "Copilul"
+      "Irinuș",
+      "Cătălinuș"
     ],
     "summary": {
-      "ro": "O poveste caldă despre o inimă de lemn care ascunde mai multe inimi — câte una pentru fiecare încercare prin care trec copiii, părinții și bunicii.",
-      "en": "A warm story about a wooden heart holding smaller hearts inside, each made to guide children, parents and grandparents through life’s turns."
+      "ro": "Prințesa Irinuș are o inimă de lemn și primește în dar de la Cătălinuș o altă inimă sculptată, plină cu inimi mai mici înăuntru. Cei doi se căsătoresc, iar mai târziu le dăruiesc și celor patru copii ai lor câte o inimă de lemn.",
+      "en": "Princess Irinuș has a wooden heart and receives a carved heart from Cătălinuș with smaller hearts nested inside. The two marry and later pass down wooden hearts to each of their four children."
     },
     "origin": "romanian",
     "year": 2021
@@ -20698,11 +20736,12 @@
       "copilarie"
     ],
     "characters": [
-      "Bubu"
+      "Bubu",
+      "Dora"
     ],
     "summary": {
-      "ro": "Continuarea plimbării muzicale a lui Bubu la grădina zoologică, cu noi animale, ritmuri vesele și cântece pe înțelesul celor mici.",
-      "en": "The second part of Bubu’s musical trip to the zoo, introducing more animals through cheerful rhythms and songs for toddlers."
+      "ro": "Dora și Bubu își continuă plimbarea printre broscuțe, pești și canguri. Când răgetul leului îl sperie pe Bubu, Dora îl ajută să prindă curaj.",
+      "en": "Dora and Bubu continue their walk among frogs, fish and kangaroos. When the lion’s roar frightens Bubu, Dora helps him calm down and face his fear."
     },
     "origin": "romanian",
     "year": 2024
@@ -20719,11 +20758,12 @@
       "copilarie"
     ],
     "characters": [
-      "Bubu"
+      "Bubu",
+      "Clara"
     ],
     "summary": {
-      "ro": "Poveste muzicală de iarnă în care Bubu se joacă cu fulgii de nea și descoperă bucuriile sezonului rece pe acorduri blânde.",
-      "en": "A winter musical tale where Bubu plays with snowflakes and discovers the season through gentle melodies."
+      "ro": "Bubu și prietena lui, Clara, ies în ninsoare să se joace prin zăpadă. Împreună ridică un om de zăpadă și îl împodobesc cu daruri de iarnă.",
+      "en": "Bubu and his friend Clara head outside into the falling snow to play. Together they build a snowman and dress it up with winter gifts."
     },
     "origin": "romanian",
     "year": 2024
@@ -20759,11 +20799,12 @@
       "copilarie"
     ],
     "characters": [
-      "Bubu"
+      "Bubu",
+      "Clia"
     ],
     "summary": {
-      "ro": "Poveste muzicală pentru cei mici din spectacolul „Bubu – Simfonie în farfurie”, în care legumele, fructele și gusturile prind viață prin cântec și joacă.",
-      "en": "A musical story for toddlers from “Bubu – Symphony on a Plate”, bringing fruits, vegetables and flavours to life through song and play."
+      "ro": "Bubu și prietena lui, Clia, iau la rând fructele și legumele din farfurie. Fiecare are sunetul și nota lui muzicală, iar la final cei doi le împletesc într-o simfonie veselă.",
+      "en": "Bubu and his friend Clia explore the fruits and vegetables on their plate. Each one brings its own musical note, and together the two weave them into a playful symphony."
     },
     "origin": "romanian",
     "year": 2024
@@ -21252,8 +21293,8 @@
       "Nepotul"
     ],
     "summary": {
-      "ro": "Portretul plin de haz și duioșie al unei mătuși care trăiește cu tot sufletul pentru teatru, decoruri și serile de spectacol.",
-      "en": "A warm, humorous portrait of an eccentric aunt who lives entirely for the theatre, its stage sets and the magic of every performance."
+      "ro": "Mătușa naratoarei trăiește cu tot sufletul pentru serile de spectacol, își rânduiește casa după programul teatrului și lasă la urmă economiile ei unei fete sărace ca să-și ia abonament la lojă, cerându-i să se gândească la ea în fiecare sâmbătă.",
+      "en": "The narrator’s aunt lives for the stage, schedules her entire life around performances, and leaves her savings to a poor girl for a theatre subscription, asking only to be remembered every Saturday night."
     }
   },
   {
@@ -21483,8 +21524,8 @@
       "Doamna Maria"
     ],
     "summary": {
-      "ro": "Evocare radiofonică a înfruntării dintre Mircea cel Bătrân și sultanul Baiazid, pusă în scenă cu o distribuție amplă condusă de Mircea Albulescu și Ovidiu Iuliu Moldovan.",
-      "en": "A historical radio play recounting the clash between Wallachian ruler Mircea the Elder and Sultan Bayezid, starring Mircea Albulescu and Ovidiu Iuliu Moldovan."
+      "ro": "Înaintea luptei decisive pentru Țara Românească, Mircea cel Bătrân și sultanul Baiazid se înfruntă în cuvinte și planuri de război. Domnitorul își pregătește oastea și sfetnicii, hotărât să nu-și plece țara în fața cuceritorului.",
+      "en": "Before the decisive battle for Wallachia, Prince Mircea the Elder and Sultan Bayezid trade warnings and battle plans. Mircea rallies his army and counsellors, determined never to surrender his land."
     },
     "year": 1981
   },
@@ -21500,12 +21541,14 @@
       "traditii"
     ],
     "characters": [
-      "Bunicul",
-      "Copiii"
+      "Scânteioara",
+      "Vântul",
+      "Fiul Viforului",
+      "Mama Fiului Viforului"
     ],
     "summary": {
-      "ro": "Piesă radiofonică scrisă și regizată de Cristian Munteanu, în care povestitorul cheamă ascultătorii la gura sobei și evocă jocul fetelor și flăcăilor, trecând spre o istorisire plină de voie bună și învățătură.",
-      "en": "A radio play written and directed by Cristian Munteanu in which a storyteller gathers listeners by the hearth, conjuring up village dances before unfolding a warm winter tale."
+      "ro": "Scânteioara, o ființă născută din foc, vrea să plece din vatră ca să ajungă în Împărăția Albă. Cu ajutorul Vântului, străbate un drum plin de primejdii pe lângă Fiul Viforului și mama acestuia, până își atinge ținta.",
+      "en": "Scânteioara, a tiny creature of fire, leaves the hearth to seek the White Kingdom. Carried by the Wind past the Son of the Blizzard and his mother, she braves the wintry road until she reaches her goal."
     },
     "year": 1969
   },
@@ -22383,11 +22426,11 @@
     ],
     "characters": [
       "Negru-Vodă",
-      "Basarab I"
+      "Hanul Bala"
     ],
     "summary": {
-      "ro": "Legendă istorică despre Negru-Vodă și întemeierea Țării Românești, evocând curajul și nădejdile oamenilor de la poalele Făgărașilor.",
-      "en": "A historical legend about Negru-Vodă and the founding of Wallachia, celebrating courage and hope at the foot of the Făgăraș Mountains."
+      "ro": "După ce îl biruie pe hanul Bala, voievodul Negru-Vodă își strânge căpeteniile la sfat ca să hotărască cum să apere țara. Împreună aleg să ridice o cetate nouă și trainică la Câmpulung pe temeliile celei vechi.",
+      "en": "After defeating Khan Bala, Prince Negru-Vodă gathers his captains to plan the realm’s defence. Together they decide to rebuild a strong fortress at Câmpulung over the ruins of the old one."
     }
   },
   {
@@ -22575,11 +22618,13 @@
       "traditii"
     ],
     "characters": [
-      "Panaghia"
+      "Panaghia",
+      "Ghedeon",
+      "Soarele"
     ],
     "summary": {
-      "ro": "Legendă poetică a muntelui Ceahlău, în care stânca Panaghiei își spune povestea veche despre iubire, statornicie și libertate.",
-      "en": "A poetic legend of Mount Ceahlău in which the rock formation Panaghia tells its ancient story of devotion and freedom."
+      "ro": "După ce fiarele îi ucid părinții, tânăra Panaghia rămâne singură pe Ceahlău și se preface în stâncă ca să-și păstreze inima vie. Dimineața o întâmpină Soarele la răsărit, iar prietenia cu singuraticul Ghedeon îi alină singurătatea.",
+      "en": "After wild beasts kill her parents, young Panaghia is left alone on Mount Ceahlău and turns to stone to keep her heart alive. Only the morning Sun greets her at dawn, until her bond with lonely Ghedeon eases her solitude."
     }
   },
   {
@@ -23158,13 +23203,14 @@
       "natura"
     ],
     "characters": [
+      "Năvalnic",
       "Zâna pădurilor",
       "Goruna",
-      "Crăiasa"
+      "Nalbă-Împărat"
     ],
     "summary": {
-      "ro": "Piesă radiofonică fantastică de Laurențiu Faifer, în care zânele, piticii și făpturile codrului se înfruntă pentru soarta pădurii.",
-      "en": "A fantasy radio play by Laurențiu Faifer in which fairies, dwarfs and woodland spirits contend over the fate of the forest."
+      "ro": "Întorși din luptă, Năvalnic și voinicii află că zânele s-au retras în codrul de aramă, unde urmează să fie încoronată Goruna. Războinicii pornesc pe urmele lor și își unesc puterile cu împăratul Nalbă împotriva Cenușii.",
+      "en": "Returning from battle, Năvalnic and his companions learn the fairies have retreated to the copper forest for Goruna’s coronation. The warriors set out to find them and join forces with Emperor Nalbă against the Ash."
     },
     "year": 1994
   },
@@ -23451,17 +23497,20 @@
     "genre": "poveste",
     "origin": "romanian",
     "themes": [
-      "animale",
+      "stiinta",
+      "copilarie",
       "prietenie",
-      "natura",
-      "copilarie"
+      "curiozitate"
     ],
     "characters": [
-      "Căpitanul Bradly"
+      "Tom",
+      "Mike",
+      "Lizbeth",
+      "Moș Helen"
     ],
     "summary": {
-      "ro": "Poveste radiofonică scrisă de Eduard Jurist despre copilăria într-un orășel de pe malul lacului Michigan, prietenie și grija față de animale.",
-      "en": "A radio story by Eduard Jurist about childhood in a small town on Lake Michigan, friendship and caring for wildlife."
+      "ro": "Împreună cu prietenul său Mike și cu Lizbeth, tânărul Tom Edison tipărește un ziar de copil și face experimente de chimie și telegrafie prin gările din Michigan. Piesa evocă primii ani plini de năzbâtii și curiozitate ai viitorului inventator.",
+      "en": "With his friends Mike and Lizbeth, young Tom Edison prints a homemade newspaper and runs chemistry and telegraphy experiments along the Michigan railway. The play captures the playful, curious boyhood of the future inventor."
     }
   },
   {
@@ -23520,18 +23569,20 @@
     "genre": "poveste",
     "origin": "romanian",
     "themes": [
-      "craciun",
       "jucarii",
-      "bunatate",
-      "prietenie"
+      "dragoste",
+      "prietenie",
+      "magie"
     ],
     "characters": [
-      "Păpușile",
-      "Moș Crăciun"
+      "Moața",
+      "Creața",
+      "Grasu",
+      "Prințul Jucăriilor"
     ],
     "summary": {
-      "ro": "O poveste caldă de Crăciun despre bucuria darurilor sub brad și despre lumea tainică a jucăriilor care își doresc să aducă fericire copiilor.",
-      "en": "A tender Christmas tale about gifts under the tree and the secret world of toys longing to make children happy."
+      "ro": "Când noaptea lasă tăcere peste magazinul de vechituri, păpușile prind viață și pornesc la bal. Moața, Creața și Grasu intră în jocul Prințului Jucăriilor, care împarte trandafiri domnișoarelor și își alege mireasa dintre ele.",
+      "en": "When night settles over the curio shop, the dolls come to life and slip away to a ball. Moața, Creața and Grasu join the Toy Prince’s party as he hands out roses and chooses his bride."
     },
     "year": 1945,
     "altTitles": [
@@ -23594,11 +23645,13 @@
     ],
     "characters": [
       "Vulpea",
-      "Maimuța"
+      "Leul",
+      "Lupul",
+      "Elefantul"
     ],
     "summary": {
-      "ro": "Dramatizare cu haz după „Vulpea păcălită” de Victor Eftimiu, în care șiretenia vulpii își găsește nașul printre animalele pădurii.",
-      "en": "A playful dramatization of Victor Eftimiu’s fable in which a scheming fox finally meets her match among the other animals."
+      "ro": "Vulpea vicleană vrea să-i ia locul leului la cârma împărăției și încearcă să-l atragă pe lup de partea ei. Sătule de șiretlicurile ei, celelalte animale se înțeleg pe ascuns, o ademenesc cu laude și o dau jos de pe tron, alegând elefantul în loc.",
+      "en": "The sly fox tries to oust the lion and recruit the wolf to rule the animal kingdom. Tired of her schemes, the other animals band together, flatter her into a trap and choose the elephant as their new king."
     }
   },
   {
@@ -23816,10 +23869,17 @@
       "bucurie"
     ],
     "summary": {
-      "ro": "O zi de iarnă plină de jocuri prin zăpadă, săniuș și întâmplări vesele din universul celor mici.",
-      "en": "A snowy winter day filled with sledding, games and cheerful adventures for young listeners."
+      "ro": "Oana vrea să patineze, dar lacul încă nu a înghețat. Împreună cu Dănuț, Albă ca Zăpada și Harap-Alb îi cer ajutorul lui Gerilă, care îngheață apele dintr-o suflare și deschide petrecerea pe gheață.",
+      "en": "Oana longs to ice-skate, but the lake has not frozen yet. Together with Dănuț, Snow White and Harap-Alb, she turns to Frosty, who freezes the water in a breath so everyone can skate."
     },
-    "age": 4
+    "age": 4,
+    "characters": [
+      "Oana",
+      "Dănuț",
+      "Harap-Alb",
+      "Gerilă",
+      "Albă ca Zăpada"
+    ]
   },
   {
     "id": "o-patanie-cu-un-toc",
@@ -23897,11 +23957,12 @@
       "copilarie"
     ],
     "characters": [
-      "Greierașul Cri-Cri"
+      "Cri-Cri",
+      "Floarea"
     ],
     "summary": {
-      "ro": "Povestea unui greieraș vioi, Cri-Cri, și a cântecului său care aduce voioșie în ierburile grădinii.",
-      "en": "The story of a lively little cricket named Cri-Cri whose song brings cheer to the garden grass."
+      "ro": "Supărat că i-a dispărut vioara, greierașul Cri-Cri pornește s-o caute prin toată grădina. Întreabă florile în stânga și-n dreapta, până când o găsește și își reia cântecul.",
+      "en": "Upset when his violin goes missing, Cri-Cri the cricket searches through the whole garden. He asks the flowers along his way until he finds the instrument and starts playing again."
     },
     "age": 4
   },
@@ -24184,11 +24245,13 @@
       "prietenie"
     ],
     "characters": [
-      "Fulg de Nea"
+      "Fulg de Nea",
+      "Moșul",
+      "Baba"
     ],
     "summary": {
-      "ro": "O poveste radiofonică de iarnă adaptată de Adriana Ioncu, în care micul Fulg de Nea pornește în lume și descoperă bucuria anotimpului alb.",
-      "en": "A winter radio tale adapted by Adriana Ioncu following little Snowflake as he discovers the wonder of winter."
+      "ro": "Doi bătrâni singuri își modelează o fetiță din zăpadă, care prinde viață și le umple casa de veselie. Când se apropie prea mult de foc, copila se topește, dar iarna următoare se întoarce la ei.",
+      "en": "Two lonely old people sculpt a girl out of snow, and she comes to life to fill their home with joy. She melts when she wanders too close to the fire, only to return again the next winter."
     }
   },
   {
@@ -24205,11 +24268,12 @@
     "characters": [
       "Vrabia",
       "Șoricelul",
-      "Turtița"
+      "Turtița",
+      "Vulpea"
     ],
     "summary": {
-      "ro": "O dramatizare radiofonică jucăușă pentru cei mici, adaptată de Adriana Ioncu la Teatrul Colibri din Craiova, care împletește pățaniile cu animale și întâmplarea turtiței năzdrăvane.",
-      "en": "A playful radio dramatization for young listeners adapted by Adriana Ioncu at Colibri Theatre Craiova, weaving animal antics with the escapades of a runaway little cake."
+      "ro": "Vrabia, șoricelul și turtița împart aceeași căsuță și treburile zilnice, până când vrabia se satură și cere să schimbe rolurile. Noua rânduială iese pe dos, iar după o întâlnire primejdioasă cu vulpea cei trei revin la vechea înțelegere.",
+      "en": "A sparrow, a little mouse and a pancake share a house and daily chores until the sparrow grows bored and insists on trading jobs. Everything goes wrong and, after a close call with a fox, the three return to their old arrangement."
     }
   },
   {
@@ -25094,11 +25158,13 @@
       "curaj"
     ],
     "characters": [
-      "Căpitanul"
+      "Johannes Kepler",
+      "Tycho Brahe",
+      "Mama lui Kepler"
     ],
     "summary": {
-      "ro": "Piesă radiofonică de aventuri fantastice scrisă de Ion Golban: o călătorie plină de peripeții dincolo de nori, printre stele și lumi necunoscute.",
-      "en": "A science-fiction adventure radio play by Ion Golban following a daring voyage among the stars and unknown worlds."
+      "ro": "Piesa evocă viața astronomului Johannes Kepler în anii Războiului de Treizeci de Ani, alături de Tycho Brahe și de mama sa acuzată pe nedrept de vrăjitorie. După un proces îndelungat, Kepler reușește să-și scape mama din temniță.",
+      "en": "The play follows astronomer Johannes Kepler during the Thirty Years’ War, alongside Tycho Brahe and Kepler’s mother, falsely accused of witchcraft. After a long trial, Kepler secures his mother’s freedom."
     },
     "addedAt": "2026-11-23",
     "year": 1977
@@ -25110,17 +25176,20 @@
     "origin": "romanian",
     "genre": "basm",
     "themes": [
-      "bunatate",
+      "istorie",
+      "mitologie",
       "curaj",
-      "printese",
-      "natura"
+      "sacrificiu"
     ],
     "characters": [
-      "Domnița Păstoriță"
+      "Domnița Păstoriță",
+      "Regele Scorilo",
+      "Zamolxis",
+      "Decebal"
     ],
     "summary": {
-      "ro": "Basm poetic scris de Claudia Partole despre o fată blândă și neînfricată care își apără ținutul cu bunătate, cântec și credință.",
-      "en": "A poetic fairy tale by Claudia Partole about a gentle, fearless shepherdess who protects her land with kindness and song."
+      "ro": "Domnița Păstoriță, fiica regelui dac Scorilo, se vede chemată să-și apere neamul în vremuri de primejdie. Între datoria față de oameni și legătura tainică cu Zamolxis, tânăra își urmează menirea.",
+      "en": "Princess Shepherdess, daughter of the Dacian king Scorilo, is called to protect her people in troubled times. Torn between duty to her homeland and her bond with Zamolxis, she embraces her destiny."
     },
     "addedAt": "2026-11-23",
     "year": 2006
@@ -25166,11 +25235,12 @@
       "prietenie"
     ],
     "characters": [
-      "Puiul de pom"
+      "Puiul de pom",
+      "Furnica"
     ],
     "summary": {
-      "ro": "Poveste sensibilă de Vera Malev despre un puiet de pom care crește cu grijă și răbdare, descoperind lumea din jur și legătura dintre oameni și natură.",
-      "en": "A tender story by Vera Malev about a young sapling growing with care and patience, discovering the bond between people and nature."
+      "ro": "Un puiet de pom vrea să cunoască lumea din jur și se aventurează pe o frunză a pomului mare. Îndemnat de o furnică să nu se teamă de necunoscut, puietul prinde curaj și crește în lumina soarelui.",
+      "en": "A young sapling longs to see the world and ventures out onto a leaf of the older tree. Encouraged by an ant not to fear the unknown, it gathers courage and grows tall in the sunlight."
     },
     "addedAt": "2026-11-23"
   },
@@ -25188,11 +25258,12 @@
     ],
     "characters": [
       "Cenușar Voinicul",
-      "Cenușăreasa Mireasa"
+      "Cenușăreasa Mireasa",
+      "Împăratul"
     ],
     "summary": {
-      "ro": "Piesă-basm cu umor popular scrisă de Iulian Filip, în care doi tineri din vatra satului trec prin încercări fantastice ca să-și câștige fericirea.",
-      "en": "A folkloric fairy-tale play with playful humor by Iulian Filip, where two young heroes overcome magical trials together."
+      "ro": "Împăratul pune condiții grele pețitorilor fetei sale, iar umilul Cenușar Voinicul pornește la drum ca să-și dovedească vrednicia. El trece prin probe de foc, îmblânzește fiare, îl răpune pe zmeu și își câștigă mireasa, pe Cenușăreasa.",
+      "en": "When the emperor sets daunting tasks for his daughter’s suitors, humble Cenușar Voinicul sets out to prove his worth. Passing trials of fire, taming wild beasts and defeating a dragon, he wins Cenușăreasa’s hand."
     },
     "addedAt": "2026-11-23",
     "year": 1981
@@ -25312,11 +25383,12 @@
       "vis"
     ],
     "characters": [
-      "Floarea iubirii"
+      "Marius",
+      "Suiram"
     ],
     "summary": {
-      "ro": "Poveste dramatică și luminoasă de Claudia Partole despre puterea dragostei, a speranței și a grijii față de cei apropiați.",
-      "en": "A heartfelt story by Claudia Partole about the power of love, hope and caring for those around us."
+      "ro": "După ce lasă robinetul deschis și inundă apartamentul, Marius și fetița Suiram pornesc într-o călătorie imaginară spre planeta Aret în căutarea Pietrei Filozofale. Pe drum descoperă că adevărata comoară este „floarea iubirii” din suflet și grija față de ceilalți.",
+      "en": "After accidentally flooding their flat, Marius and a girl named Suiram set off on an imaginary voyage to planet Aret in search of the Philosopher’s Stone. Along the way they realize the true treasure is caring for others."
     },
     "addedAt": "2026-11-23",
     "year": 2010
@@ -25377,11 +25449,12 @@
       "bunatate"
     ],
     "characters": [
-      "Ciocârlia"
+      "Ciocârlia",
+      "Coțofana"
     ],
     "summary": {
-      "ro": "Scurtă poveste lirică de seară de Leo Butnaru despre cântecul ciocârliei, grija pentru păsările câmpului și frumusețea naturii.",
-      "en": "A short lyrical bedtime story by Leo Butnaru about a skylark’s nest, caring for wild birds and the quiet beauty of the fields."
+      "ro": "Ciocârlia și coțofana își au cuiburile în același plop înalt, dar coțofana se supără când află că ciocârlia se înalță la cer să ceară ploaie pentru holde. Alungată din copac, ciocârlia își mută cuibul în lanul de grâu și continuă să aducă ploaie și soare ogoarelor.",
+      "en": "A lark and a magpie nest in the same tall poplar, until the magpie grows angry that the lark flies skyward to ask for rain on the crops. Driven from the tree, the lark builds her nest in a wheat field and keeps calling down rain and sun."
     },
     "addedAt": "2026-11-23"
   },
@@ -25397,11 +25470,13 @@
       "natura"
     ],
     "characters": [
-      "Veverița"
+      "Veverița",
+      "Ariciul Pogonici",
+      "Păianjenul"
     ],
     "summary": {
-      "ro": "Poveste blândă de seară scrisă de Mihail Garaz despre o veveriță isteață și micile ei comori adunate din pădure.",
-      "en": "A gentle bedtime story by Mihail Garaz about a nimble squirrel and the little woodland treasures she gathers."
+      "ro": "Veverița râvnește la șiragul de mărgele al unui păianjen ca să-și facă o salbă. Ariciul Pogonici sare să o ajute și îi aduce din poiană mărgele pe culoarea ochilor ei.",
+      "en": "A squirrel longs for a spider’s string of beads to wear as a necklace. Pogonici the hedgehog steps in to help and brings her beads from the meadow matching the colour of her eyes."
     },
     "addedAt": "2026-11-23"
   },
@@ -25538,16 +25613,18 @@
     "origin": "romanian",
     "genre": "poveste",
     "themes": [
-      "natura",
-      "bunatate",
-      "padure"
+      "istetime",
+      "dreptate",
+      "judecata"
     ],
     "characters": [
-      "Mărul pădureț"
+      "Călătorul",
+      "Judecătorul",
+      "Hoțul"
     ],
     "summary": {
-      "ro": "Poveste scurtă de seară scrisă de Ion Bejenaru despre un măr pădureț care învață să-și prețuiască roadele și locul în pădure.",
-      "en": "A quiet evening tale by Ion Bejenaru about a wild apple tree learning the worth of its fruit and its place in the forest."
+      "ro": "Un călător cumpără o vacă și se odihnește la umbra unui măr pădureț, unde animalul îi este furat. La judecata din sat, stăpânul se preface că cheamă ca martor o ramură ruptă din acel măr și îl prinde astfel pe hoț.",
+      "en": "A traveller buys a cow and rests beneath a wild apple tree, where the animal is stolen. At the village trial, the judge pretends to summon a broken branch from that apple tree as a witness and tricks the thief into giving himself away."
     },
     "addedAt": "2026-11-23"
   },
@@ -25563,11 +25640,12 @@
       "bunatate"
     ],
     "characters": [
-      "Tâmplarul"
+      "Tâmplarul",
+      "Călătorul"
     ],
     "summary": {
-      "ro": "Poveste de seară de Ion Bejenaru despre un meșter tâmplar priceput ale cărui mâini harnice aduc bucurie oamenilor din sat.",
-      "en": "A bedtime story by Ion Bejenaru about a skilled carpenter whose patient craftsmanship brings joy to his village."
+      "ro": "Un tâmplar sărac primește în casă un călător rătăcit și împarte cu el puținul de pe masă. Drept mulțumire, oaspetele îi dăruiește o unealtă fermecată cu care meșterul face lucruri nemaivăzute pentru tot satul.",
+      "en": "A poor carpenter shelters a lost traveller and shares what little food he has. In return, the guest gives him an enchanted tool that lets the craftsman build wonders for the whole village."
     },
     "addedAt": "2026-11-23"
   },
@@ -25601,14 +25679,19 @@
     "themes": [
       "curiozitate",
       "aventura",
-      "animale"
+      "zmei",
+      "eroi"
     ],
     "characters": [
-      "Sfredeluș"
+      "Sfredeluș",
+      "Undina",
+      "Zmeul",
+      "Pisica",
+      "Albina"
     ],
     "summary": {
-      "ro": "Poveste în episoade de Ion Bejenaru despre neastâmpăratul Sfredeluș, mereu pornit în căutarea unor întâmplări noi.",
-      "en": "A lively story by Ion Bejenaru following restless little Sfredeluș on his curious woodland adventures."
+      "ro": "Neînfricatul Sfredeluș pleacă s-o scape pe Undina din ghearele zmeului care a secat izvoarele satului. Ajutat de o pisică și de o albină, trece încercările, îl biruie pe zmeu și aduce apa înapoi în sat.",
+      "en": "Fearless Sfredeluș sets out to rescue Undina from the dragon that dried up the village springs. Aided by a cat and a bee, he passes every test, defeats the dragon and restores water to the village."
     },
     "addedAt": "2026-11-23"
   },
@@ -25624,11 +25707,12 @@
       "intelepciune"
     ],
     "characters": [
-      "Privighetoarea"
+      "Privighetoarea",
+      "Împăratul păsărilor"
     ],
     "summary": {
-      "ro": "Poveste de seară de Ion Bejenaru despre privighetoarea cu pene simple și glas fermecat, care ne amintește că frumusețea adevărată nu se laudă.",
-      "en": "A bedtime tale by Ion Bejenaru about the modest nightingale whose enchanting song proves true beauty needs no boasting."
+      "ro": "Împăratul păsărilor împarte tuturor pene în fel de fel de culori, dar mica privighetoare îl roagă să o lase în haina ei cenușie. Mișcat de smerenia ei, împăratul îi dă în schimb cel mai frumos glas din toată pădurea.",
+      "en": "The emperor of the birds hands out bright feathers to every bird, yet the little nightingale asks to keep her plain grey plumage. Touched by her modesty, he grants her the sweetest song in the forest."
     },
     "addedAt": "2026-11-23"
   },
@@ -25775,11 +25859,13 @@
       "umor"
     ],
     "characters": [
-      "Rățoiul Tim"
+      "Rățoiul Tim",
+      "Mama Rață",
+      "Broasca"
     ],
     "summary": {
-      "ro": "Scurtă poveste populară de seară despre peripețiile unui rățoi curajos pe nume Tim.",
-      "en": "A short bedtime folk story about the lively escapades of a plucky little duckling named Tim."
+      "ro": "Rățoiul Tim pleacă singur la plimbare și dă peste o broască ce se oferă să-l învețe să înoate. Mama rață îl previne însă să nu ia broaștele în spate, iar puiul se întoarce cuminte acasă.",
+      "en": "Tim the duckling wanders off alone and meets a frog who offers to teach him how to swim. Mother duck warns him not to give frogs a ride on his back, and the little duckling heads safely home."
     },
     "addedAt": "2026-11-23"
   },
@@ -25795,11 +25881,12 @@
       "padure"
     ],
     "characters": [
-      "Coțofana"
+      "Coțofana",
+      "Croitoreasa"
     ],
     "summary": {
-      "ro": "Poveste jucăușă de Aureliu Busuioc despre o coțofenă vorbăreață și pățaniile ei cu rochița de gală.",
-      "en": "A playful tale by Aureliu Busuioc about a chatty magpie and the comic mishaps of her fancy dress."
+      "ro": "O coțofană guralivă dă buzna la atelierul unei croitorese și cere neapărat o rochie de bal. Cum croitoreasa nu-i poate împlini capriciul și închide prăvălia, coțofana se supără foc și rămâne cu pana ei simplă.",
+      "en": "A chatty magpie marches into a dressmaker’s workshop demanding a fancy ball gown. When the dressmaker cannot meet her absurd whim and closes shop, the magpie storms off in a huff."
     },
     "addedAt": "2026-11-23",
     "year": 1963,
@@ -25845,11 +25932,15 @@
       "prietenie"
     ],
     "characters": [
-      "Cocostârcul"
+      "Cocostârcul",
+      "Domnul Clampt",
+      "Bufnița",
+      "Pițigoiul",
+      "Hipopotamul"
     ],
     "summary": {
-      "ro": "Poveste hazlie de Aureliu Busuioc despre un cocostârc cu picioare lungi și despre cizmele lui roșii.",
-      "en": "A witty story by Aureliu Busuioc about a long-legged stork and his bright red boots."
+      "ro": "Cocostârcul Domnul Clampt e poftit la o nuntă a vulpilor și se necăjește că are costum și cravată, dar nici o pereche de cizme. Pițigoiul și hipopotamul nu-l pot încălța, așa că urmează sfatul bufniței și stă în nămolul bălții până își face „cizme” naturale.",
+      "en": "Mr. Clampt the stork is invited to a fox wedding and despairs because he has a suit and tie but no boots. Neither the titmouse nor the hippopotamus can fit him, so he takes the owl’s advice and stands in marsh mud to fashion himself brown boots."
     },
     "addedAt": "2026-11-23",
     "year": 1963
@@ -25866,11 +25957,13 @@
       "prietenie"
     ],
     "characters": [
-      "Băiețelul"
+      "Băiețelul",
+      "Căluțul",
+      "Copacul"
     ],
     "summary": {
-      "ro": "Poveste plină de imaginație din universul lui Gianni Rodari despre un băiețel, un copac și un căluț care îl poartă în joacă și vis.",
-      "en": "An imaginative short story by Gianni Rodari about a boy, a tree and a little horse that spark playful daydreams."
+      "ro": "Un căluț visează să zboare, iar un copac se preface în avion ca să-i împlinească dorința. Împreună cu un băiețel care vrea să ajungă pe Lună, pornesc într-un zbor dincolo de nori.",
+      "en": "A little horse dreams of flying, and a tree turns into an aeroplane to help him soar. Together with a small boy who wants to reach the Moon, they take off beyond the clouds."
     },
     "addedAt": "2026-11-23"
   },
@@ -26073,8 +26166,8 @@
       "Furnica"
     ],
     "summary": {
-      "ro": "Poveste cunoscută de Ion Druță despre o furnică neobosită care nu se dă bătută în fața greutăților și își duce bobul acasă.",
-      "en": "Ion Druță’s beloved story about a tireless little ant who refuses to give up and brings her grain safely home."
+      "ro": "Trei zile la rând, o furnică se căznește să urce un deal și se întoarce cu mâna goală. A patra zi pornește iar, se adăpostește de ploaie sub o coajă de răsărită și izbutește să ajungă acasă cu povara ei.",
+      "en": "Three days in a row, an ant tries to climb a hill and returns empty-handed. On the fourth day she sets off again, shelters from the rain under a sunflower seed hull and finally makes it home."
     },
     "addedAt": "2026-11-23",
     "year": 1963
@@ -26114,11 +26207,12 @@
       "familie"
     ],
     "characters": [
-      "Bobocel"
+      "Bobocel",
+      "Învățătorul"
     ],
     "summary": {
-      "ro": "Întâmplările pline de haz ale micului Bobocel din povestirile pentru copii ale lui Ion Druță.",
-      "en": "Playful childhood moments with little Bobocel from Ion Druță’s classic children’s stories."
+      "ro": "În prima zi de școală, micul Bobocel întârzie și încearcă să se furișeze în bancă fără să fie văzut. Învățătorul îl prinde, dar îi promite că, dacă va învăța bine, îi va scrie în catalog numele de Boboc.",
+      "en": "On his first day of school, little Bobocel arrives late and tries to slip into his seat unnoticed. The teacher spots him, yet promises to drop the diminutive and enter him as “Boboc” in the register if he studies hard."
     },
     "addedAt": "2026-11-23",
     "year": 1972
@@ -26178,11 +26272,13 @@
       "familie"
     ],
     "characters": [
-      "Guguță"
+      "Guguță",
+      "Tatăl",
+      "Bunelul"
     ],
     "summary": {
-      "ro": "O nouă ispravă a lui Guguță de Spiridon Vangheli, în care un ceas aduce curiozitate, mândrie și pățanii hazlii.",
-      "en": "Another spirited episode of Spiridon Vangheli’s Guguță, full of curiosity and gentle comedy around a watch."
+      "ro": "Guguță îi cere tatălui său ceasul de buzunar, iar când nu îl primește, îl ia pe furiș și pune în loc ceasul vechi al bunelului. Până la urmă își dă seama de poznă și îl înapoiază tatălui.",
+      "en": "Guguță asks his father for his pocket watch, and when refused, secretly swaps it for his grandfather’s older timepiece. Before long he owns up to the mischief and gives the watch back."
     },
     "addedAt": "2026-11-23",
     "year": 1971
@@ -26199,11 +26295,13 @@
       "copilarie"
     ],
     "characters": [
-      "Guguță"
+      "Rodica",
+      "Guguță",
+      "Moș Ene"
     ],
     "summary": {
-      "ro": "Poveste de iarnă de Spiridon Vangheli despre un vis fermecat din noaptea de Anul Nou.",
-      "en": "A cozy winter tale by Spiridon Vangheli about an enchanting New Year’s Eve dream."
+      "ro": "În noaptea de Anul Nou, fetița Rodica visează că pădurea de lângă casă și pomul de iarnă prind viață, alături de Moș Ene și Guguță. Dimineața se trezește uimită să vadă natura trezită parcă la primăvară.",
+      "en": "On New Year’s Eve, little Rodica dreams that the forest outside her window and the winter tree come alive alongside the Sandman and Guguță. She wakes in the morning amazed to see the woods blooming as if spring had arrived."
     },
     "addedAt": "2026-11-23"
   },
@@ -26222,8 +26320,8 @@
       "Guguță"
     ],
     "summary": {
-      "ro": "Poveste luminoasă de Spiridon Vangheli despre cum văd copiii ploaia de vară și bucuria ei pentru tot satul.",
-      "en": "A bright story by Spiridon Vangheli capturing a child’s wonder at a refreshing summer rain."
+      "ro": "Guguță își dorește să se joace cu ploaia și cheamă norii deasupra satului, spre uimirea tuturor. Nu se mai îndură să intre în casă până când ploaia nu se scurge la vale pe un râu.",
+      "en": "Guguță longs to play in the rain and coaxes the clouds to pour over the village, much to everyone’s surprise. He refuses to go indoors until the downpour finally drains away down the river."
     },
     "addedAt": "2026-11-23"
   },
@@ -26239,11 +26337,13 @@
       "copilarie"
     ],
     "characters": [
-      "Guguță"
+      "Hulubul",
+      "Radu",
+      "Primăvara"
     ],
     "summary": {
-      "ro": "Întâmplare duioasă de Spiridon Vangheli despre prietenia unui copil cu un hulub blând.",
-      "en": "A tender short story by Spiridon Vangheli about a child’s friendship with a gentle pigeon."
+      "ro": "Un hulub pornește peste munți și văi în căutarea primăverii. O găsește lângă un râu și o aduce înapoi în satul lui Radu, unde mugurii și căldura se întorc odată cu ei.",
+      "en": "A pigeon flies across mountains and valleys in search of spring. It finds spring resting by a river and leads it back to Radu’s village, bringing warmth and fresh buds."
     },
     "addedAt": "2026-11-23"
   },
@@ -26263,8 +26363,8 @@
       "Moș Gerilă"
     ],
     "summary": {
-      "ro": "Poveste de iarnă plină de farmec de Spiridon Vangheli despre Guguță, gerul de afară și barba albă a lui Moș Gerilă.",
-      "en": "A charming winter tale by Spiridon Vangheli about Guguță, wintry frost and Grandfather Frost’s snowy beard."
+      "ro": "Ca să ajungă în ținutul lui Moș Gerilă, Guguță se ascunde în sacul unui poștaș. Ajuns la castelul de zăpadă, descoperă o lume fermecată și doarme chiar în barba uriașă a moșului, alături de alți copii și animale.",
+      "en": "To reach Father Frost’s wintry realm, Guguță hides inside a postman’s mailbag. At the snow castle he finds a magical world and spends the night tucked inside the old man’s giant beard with other children and forest animals."
     },
     "addedAt": "2026-11-23"
   },
@@ -26280,11 +26380,12 @@
       "copilarie"
     ],
     "characters": [
-      "Guguță"
+      "Guguță",
+      "Fulgii Feți-Frumoși"
     ],
     "summary": {
-      "ro": "Poveste poetică de iarnă de Spiridon Vangheli în care fulgii de nea par niște Feți-Frumoși coborâți din cer.",
-      "en": "A poetic winter bedtime story by Spiridon Vangheli where falling snowflakes become little fairytale princes."
+      "ro": "Doi fulgi de nea, ca niște Feți-Frumoși, bat la ușa încuiată a grajdului ca să se adăpostească peste noapte. Împodobesc ferestrele cu flori de gheață și îl conving pe Guguță să le deschidă ușa.",
+      "en": "Two snowflakes looking like fairy-tale princes knock on the locked barn door for shelter. They paint frost flowers across the windows and talk Guguță into letting them inside."
     },
     "addedAt": "2026-11-23"
   },
@@ -26300,12 +26401,13 @@
       "copilarie"
     ],
     "characters": [
-      "Guguță",
-      "Cocostârcul"
+      "Cocostârcul",
+      "Moșneagul",
+      "Baba"
     ],
     "summary": {
-      "ro": "Poveste în două episoade de Spiridon Vangheli despre un cocostârc care poposește în sat și devine prietenul copiilor.",
-      "en": "A two-part story by Spiridon Vangheli about a stork that visits the village and becomes the children’s friend."
+      "ro": "O pereche de cocostârci își crește puii în cuibul făcut de un moșneag pe acoperișul casei. Toamna îi învață să zboare spre țările calde, iar primăvara întreaga familie se întoarce la cuibul ei.",
+      "en": "A pair of storks raise their chicks in a nest built by an old man on the roof. In autumn they teach the young ones to fly south, and in spring the family returns safely to their rooftop home."
     },
     "addedAt": "2026-11-23"
   },
@@ -26316,16 +26418,17 @@
     "origin": "romanian",
     "genre": "poveste",
     "themes": [
-      "familie",
-      "traditii",
-      "copilarie"
+      "natura",
+      "iarna",
+      "schimbare"
     ],
     "characters": [
-      "Guguță"
+      "Fulgușorii",
+      "Ghioceii"
     ],
     "summary": {
-      "ro": "Poveste caldă de Spiridon Vangheli despre „casa cea mare” a bunicilor, locul de sărbătoare și taină al satului.",
-      "en": "A warm story by Spiridon Vangheli about the traditional parlor room in a village home, full of family warmth and wonder."
+      "ro": "Fulgușorii de zăpadă își caută un adăpost peste iarnă și poposesc în „casa cea mare” din pădure, chiar lăcașul alb al ghioceilor. Când sosește primăvara și ghioceii încep să cânte, fulgii se topesc și le fac loc florilor.",
+      "en": "Searching for winter shelter, little snowflakes settle into a white “great house” in the forest that belongs to the snowdrops. When spring arrives and the snowdrops begin to sing, the flakes melt away to let the flowers bloom."
     },
     "addedAt": "2026-11-23"
   },
@@ -26344,8 +26447,8 @@
       "Guguță"
     ],
     "summary": {
-      "ro": "Poveste senină de Spiridon Vangheli despre bucuria copiilor la ivirea primilor ghiocei din zăpadă.",
-      "en": "A cheerful story by Spiridon Vangheli about children welcoming the first snowdrops peeking through the snow."
+      "ro": "Guguță vrea să-i cumpere mamei o mașină sau o rochie albastră, dar nu găsește nimic pe placul lui. Urcă atunci pe munte, culege un buchet de ghiocei din zăpadă și i-l aduce în dar.",
+      "en": "Guguță wants to buy his mother a car or a blue dress, yet finds nothing quite right. Instead he climbs the mountain, picks a bunch of snowdrops from the snow and brings them home as her gift."
     },
     "addedAt": "2026-11-23"
   },
@@ -26602,10 +26705,16 @@
       "magie",
       "copilarie"
     ],
-    "characters": [],
+    "characters": [
+      "Mișel",
+      "Faraonul",
+      "Domnul Corb",
+      "Regina Zânelor",
+      "Domnișoara Céleste"
+    ],
     "summary": {
-      "ro": "Scenariu radiofonic pentru copii de Adriana Vișoiu, după povestea lui André Maurois.",
-      "en": "A children's radio adaptation by Adriana Vișoiu of André Maurois's story."
+      "ro": "Sătulă de lecții și reguli, micuța Mișel ajunge în vis în Țara bunului plac, unde întâlnește un faraon, pe Domnul Corb cu ochelari și pe Regina Zânelor. Când toată lumea face doar ce poftește și izbucnește haosul, fetița își dorește să se trezească acasă.",
+      "en": "Tired of lessons and rules, young Michelle dreams her way into the Land of Arbitrary Wishes, meeting a pharaoh, a bespectacled Raven and the Fairy Queen. When everyone insists on having their way and chaos erupts, she longs to wake up back home."
     },
     "origin": "french"
   },
@@ -26640,11 +26749,13 @@
     ],
     "characters": [
       "Simion Crișan",
-      "Ileana"
+      "Ileana",
+      "Hangiul",
+      "Birăul"
     ],
     "summary": {
-      "ro": "Simion Crișan își termină casa și pleacă să cumpere inelele de nuntă. Drumul îi aduce încercări neașteptate.",
-      "en": "After finishing his home, Simion Crișan sets out to buy wedding rings. The journey brings unexpected trials."
+      "ro": "Simion Crișan își ridică o casă și pleacă la târg să cumpere inele de nuntă pentru Ileana, dar hangiul și birăul îl înșală cu pietriș și născociri despre două ouă fierte și boabe de mei. Pus în fața judecății, flăcăul își dovedește cinstea și își recuperează aurul.",
+      "en": "Simion Crișan builds a house and sets off to buy wedding rings for Ileana, only to be swindled by an innkeeper and a magistrate over gravel, boiled eggs and millet seeds. Before the court, he proves his honesty and wins his gold back."
     },
     "origin": "romanian"
   },
@@ -26692,8 +26803,8 @@
       "Berarul"
     ],
     "summary": {
-      "ro": "Un băiat rămas singur în pădure întâlnește un urs din lumea basmelor.",
-      "en": "A boy alone in the forest meets a bear from the world of fairy tales."
+      "ro": "Rămas singur în pădure, băiatul Manțică se împrietenește cu un urs și este chemat la palatul împăratului să scape curtea de niște tâlhari. Cu istețime, dezleagă încurcăturile, se însoară cu fata împăratului și aduce liniștea.",
+      "en": "Left alone in the woods, the boy Manțică befriends a bear and is summoned to the emperor’s palace to rid it of thieves. Using his wits, he foils the robbers, marries the princess and restores peace."
     },
     "origin": "romani"
   },
@@ -26709,11 +26820,12 @@
       "dragoni"
     ],
     "characters": [
-      "Împăratul cu coadă de balaur"
+      "Argint-Viu",
+      "Domnița Iedera"
     ],
     "summary": {
-      "ro": "Basm popular românesc despre un împărat născut cu o coadă solzoasă de balaur lungă de nouă coți, dramatizat pentru copii de Vasile Mănuceanu.",
-      "en": "A Romanian folk tale about an emperor born with a scaly, nine-cubit dragon's tail, adapted for children by Vasile Mănuceanu."
+      "ro": "Măscăriciul Argint-Viu poartă un buzdugan de aur cu coadă solzoasă de balaur lungă de nouă coți și își dorește mâna Domniței Iedera. Când un măgar intră în sala de nuntă și vraja se rupe, Argint-Viu își arată adevăratul chip de împărat.",
+      "en": "The jester Argint-Viu carries a golden mace with a nine-cubit dragon tail and seeks the hand of Princess Iedera. When a donkey wanders into the wedding hall and breaks the spell, Argint-Viu reveals his true form as an emperor."
     },
     "origin": "romanian"
   },
@@ -26724,12 +26836,18 @@
     "genre": "legenda",
     "themes": [
       "natura",
-      "frumusete"
+      "dreptate",
+      "curaj",
+      "eroi"
     ],
-    "characters": [],
+    "characters": [
+      "Gheorghe Bujor",
+      "Ruxandra",
+      "Boierul Hoșbotă"
+    ],
     "summary": {
-      "ro": "Legendă radiofonică de Marga Feraru, înregistrată în 1975.",
-      "en": "A radio legend by Marga Feraru, recorded in 1975."
+      "ro": "Haiducul Gheorghe Bujor și ceata lui țin piept boierului Hoșbotă, care îi asuprește pe săteni. Ajutați de Ruxandra, care le duce vești despre primejdii, haiducii întind o ambuscadă în pădure și eliberează valea.",
+      "en": "The outlaw Gheorghe Bujor and his band stand up to the cruel boyar Hoșbotă, who oppresses the villagers. Warned of danger by Ruxandra, they set an ambush in the woods and free the valley."
     },
     "origin": "romanian"
   },
@@ -26760,10 +26878,15 @@
       "familie",
       "bunatate"
     ],
-    "characters": [],
+    "characters": [
+      "Sora săracilor",
+      "Unchiul Guillaume",
+      "Mătușa Guillemette",
+      "Cerșetoarea"
+    ],
     "summary": {
-      "ro": "Poveste de Émile Zola despre sărăcie și bunătate, adaptată radiofonic pentru copii de Sanda Socoliuc în regia lui Vasile Manta.",
-      "en": "A tale by Émile Zola about poverty and kindness, adapted for children's radio by Sanda Socoliuc and directed by Vasile Manta."
+      "ro": "Orfană și crescută cu asprime de unchiul Guillaume și mătușa Guillemette, o fetiță împarte puținul ei cu nevoiașii, care o numesc „Sora săracilor”. O cerșetoare bătrână îi dăruiește un ban fermecat care nu se isprăvește niciodată cât timp e folosit pentru fapte bune.",
+      "en": "Orphaned and harshly treated by her uncle Guillaume and aunt Guillemette, a little girl shares everything she has with the poor, earning the name “Sister of the Poor”. An old beggar gives her a magical coin that never runs out as long as it is spent on kindness."
     },
     "origin": "french"
   },
@@ -26782,8 +26905,8 @@
       "Carol Robert de Anjou"
     ],
     "summary": {
-      "ro": "Legendă despre lupta lui Basarab I cu regele Carol Robert de Anjou la Posada și eliberarea Țării Românești.",
-      "en": "A legend about Basarab I's battle with King Charles Robert of Anjou at Posada and Wallachia's struggle for independence."
+      "ro": "Basarab I, ban al Severinului, își pregătește oștenii împreună cu căpitanul Șendroiu în fața invaziei regelui Carol Robert de Anjou. În strâmtorile de la Posada, voievodul își apără țara și își câștigă neatârnarea.",
+      "en": "Basarab I, ruler of Severin, rallies his captains against the invading army of King Charles Robert of Anjou. In the narrow mountain pass at Posada, the voivode defends Wallachia and secures its independence."
     },
     "origin": "romanian"
   },
@@ -26798,11 +26921,14 @@
     ],
     "characters": [
       "Prometeu",
-      "Hefaistos"
+      "Hefaistos",
+      "Io",
+      "Hermes",
+      "Zeus"
     ],
     "summary": {
-      "ro": "Scenariu radiofonic de Dan Tărchilă despre Prometeu, eroul mitologiei grecești.",
-      "en": "A radio play by Dan Tărchilă about Prometheus, the hero of Greek mythology."
+      "ro": "Înlănțuit pe stâncă din porunca lui Zeus pentru că le-a dăruit oamenilor focul și meșteșugurile, Prometeu o întâlnește pe Io, rătăcind sub chip de junincă. Nici amenințările aduse de Hermes nu îl fac să-și plece capul.",
+      "en": "Chained to a rock by Zeus for giving humanity fire and knowledge, Prometheus meets Io wandering in the shape of a heifer. Even when Hermes arrives with threats, Prometheus refuses to yield."
     },
     "origin": "greek"
   },
@@ -26824,8 +26950,8 @@
       "Vrăjitoarea"
     ],
     "summary": {
-      "ro": "Poveste radiofonică de Dan Tărchilă despre o domniță și o lacrimă furată.",
-      "en": "A radio story by Dan Tărchilă about a princess and a stolen tear."
+      "ro": "Când logodnica împăratului dispare fără urmă din cauza unei vrăjitoare din pădure, împăratul și un moșneag pleacă să o caute. Cei doi pătrund în grădina castelului vrăjitoarei, dezleagă vraja și o aduc pe domniță înapoi.",
+      "en": "When the emperor’s betrothed vanishes through the spell of a forest witch, the emperor and an old man set out to find her. Breaking into the witch’s castle garden, they undo the curse and bring the princess home."
     },
     "origin": "romanian"
   },
@@ -26859,10 +26985,14 @@
       "istorie",
       "aventura"
     ],
-    "characters": [],
+    "characters": [
+      "Căpitanul Șendroiu",
+      "Akbar Ulan",
+      "Măriata"
+    ],
     "summary": {
-      "ro": "Legendă de Mihai Jemăneanu, păstrată într-o montare radiofonică din 1974.",
-      "en": "A legend by Mihai Jemăneanu, preserved in a 1974 radio production."
+      "ro": "După ce oastea lui Akbar Ulan lovește cetatea, voievodul și căpitanul Șendroiu adună oamenii din munți la contraatac. Prin cheile strâmte ale muntelui, românii îi înfrâng pe tătari și își apără pământul.",
+      "en": "After Akbar Ulan’s army raids the fortress, the voivode and Captain Șendroiu rally the mountain warriors for a counterattack. Trapping the invaders in the narrow gorge, they defeat the Tatars and save their homeland."
     },
     "origin": "romanian"
   },
@@ -28411,14 +28541,19 @@
   {
     "id": "craciunul-animalelor",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "O furtună de zăpadă blochează pădurea înainte de sărbători și lasă iepurașii, oile, șoriceii și păsărelele fără hrană. Moș Nicolae le trimite o scrisoare copiilor din satele vecine, iar în noaptea de Crăciun pornesc cu toții și cu Moș Crăciun să ducă provizii animalelor.",
+      "en": "A snowstorm blocks the forest before the holidays and leaves rabbits, sheep, mice and birds without food. Saint Nicholas writes to the children in nearby villages, and on Christmas Eve they set out with Santa Claus to bring supplies to the animals."
     },
     "themes": [
       "craciun",
-      "animale"
+      "animale",
+      "bunatate",
+      "iarna"
     ],
-    "characters": [],
+    "characters": [
+      "Moș Nicolae",
+      "Moș Crăciun"
+    ],
     "title": "Crăciunul animalelor",
     "author": "Yvon Dumez",
     "origin": "french",
@@ -28449,14 +28584,20 @@
   {
     "id": "bradul-de-craciun-weninger",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Doi copii și tatăl lor caută prin pădurea înzăpezită bradul de Crăciun potrivit. Când îl găsesc pe cel mai frumos, fetița aude că bradul nu vrea să fie tăiat, așa că îl împodobesc chiar acolo, iar în Ajun se adună în jurul lui tot satul.",
+      "en": "Two children and their father walk through the snowy woods looking for the right Christmas tree. When they find the finest one, the girl senses it does not want to be cut down, so they decorate it right in the forest and the whole village gathers around it on Christmas Eve."
     },
     "themes": [
       "craciun",
-      "natura"
+      "natura",
+      "familie",
+      "generozitate"
     ],
-    "characters": [],
+    "characters": [
+      "Tatăl",
+      "Fetița",
+      "Băiatul"
+    ],
     "title": "Bradul de Crăciun",
     "author": "Brigitte Weninger",
     "origin": "austrian",
@@ -28466,11 +28607,18 @@
   {
     "id": "laudatori-de-laudarosi",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Nicolae, un flăcău leneș dintr-un sat de gospodari, nu se lipește de nici o meserie și pleacă prin lume să-i măgulească pe boierii înfumurați pe bani. Într-o zi dă peste un alt „lăudător” și mai dibaci, care îi ia toți galbenii și îl lasă cu buza umflată.",
+      "en": "Nicolae, a lazy young man from a village of hard workers, fails at every trade and sets out to flatter vain noblemen for money. One day he meets an even slicker flatterer who tricks him out of all his gold and leaves him with nothing."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "munca",
+      "inselaciune",
+      "umor",
+      "calatorie"
+    ],
+    "characters": [
+      "Nicolae"
+    ],
     "title": "Lăudători de lăudăroși",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28480,11 +28628,19 @@
   {
     "id": "lacul-vindecator",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Un împărat trufaș încearcă să smulgă bogății de la un lac fermecat, dar își pierde și propria avere. Abia când se întoarce la mal fără podoabe și cu inima smerită, primește darul pe care îl dorea cu adevărat: un urmaș.",
+      "en": "A proud emperor tries to wrest endless riches from an enchanted lake, only to lose his own wealth. When he finally returns without finery and with a humble heart, the lake grants him the gift he truly longed for: an heir."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "magie",
+      "mandrie",
+      "familie",
+      "intelepciune"
+    ],
+    "characters": [
+      "Împăratul",
+      "Înțeleptul"
+    ],
     "title": "Lacul vindecător",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28494,11 +28650,21 @@
   {
     "id": "rochia-zburatoare",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "După moartea tatălui ei negustor, mezina Ada primește o rochie fermecată care se ridică în văzduh la un singur cuvânt. Purtată de rochie prin lume, fata ajunge nevăzută în mijlocul copiilor și le spune povești.",
+      "en": "After her merchant father dies, the youngest daughter Ada inherits an enchanted dress that flies at a single command. Carried across the world, she slips unseen among children everywhere to tell them stories."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "magie",
+      "familie",
+      "calatorie",
+      "copilarie"
+    ],
+    "characters": [
+      "Ada",
+      "Isa",
+      "Maria",
+      "Negustorul"
+    ],
     "title": "Rochia zburătoare",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28508,11 +28674,19 @@
   {
     "id": "laudaroasa-litera-a",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Mândră că deschide alfabetul, litera A își ia nasul la purtare față de celelalte litere. Un măgar și un viezure o pun însă la locul ei și o fac să vadă că nici un cuvânt nu se poate scrie de unul singur.",
+      "en": "Proud to stand at the head of the alphabet, the letter A looks down on all the others. A donkey and a badger bring her down to earth and show her that no word can be written by a single letter alone."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "mandrie",
+      "umor",
+      "cooperare"
+    ],
+    "characters": [
+      "Litera A",
+      "Măgarul",
+      "Viezurele"
+    ],
     "title": "Lăudăroasa literă A",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28567,11 +28741,20 @@
   {
     "id": "razboiul-pentru-ciocolata",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Împăratul Gurmand primește o ciocolată adusă de peste mări și pornește război ca să pună mâna pe rețeta ei. Când își dă seama cât de scumpă e pofta fără măsură, oprește lupta și împarte dulciurile cu copiii din țară.",
+      "en": "Emperor Gourmand tastes chocolate brought from across the seas and starts a war to seize its recipe. Realizing the cost of his greed, he stops the fighting and shares the sweets with the children of his kingdom."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "umor",
+      "razboi",
+      "generozitate",
+      "alegeri"
+    ],
+    "characters": [
+      "Împăratul Gurmand",
+      "Prințul Rotofei",
+      "Corăbierul"
+    ],
     "title": "Războiul pentru ciocolată",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28581,11 +28764,20 @@
   {
     "id": "plecarea-vulturilor",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Citită în înregistrare cu titlul „Plecarea fluturilor”, povestea începe într-o țară vestită pentru fluturii ei prietenoși. Într-o zi, toate stolurile pleacă spre țările calde, lăsând regatul trist, iar fiul unui fierar încearcă să-i înduplece să se întoarcă.",
+      "en": "Read in the recording as “The Departure of the Butterflies”, the story begins in a land famous for its friendly butterflies. One day every flock flies off for warmer lands, and a blacksmith’s son sets out to bring them back."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "natura",
+      "frumusete",
+      "magie",
+      "dor"
+    ],
+    "characters": [
+      "Împăratul",
+      "Fiul fierarului",
+      "Traian"
+    ],
     "title": "Plecarea vulturilor",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28595,11 +28787,21 @@
   {
     "id": "povestea-jucausa",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Povestitorul Grigore scrie „Rochia zburătoare”, iar povestea prinde viață chiar pe masa lui și cere să rămână lângă el. Când o fetiță pe nume Anne se îndrăgostește de ea și o ia cu sine, Grigore înțelege că locul poveștilor e la copii.",
+      "en": "Storyteller Grigore writes “The Flying Dress”, and the tale comes alive on his desk, begging to stay with him. When a little girl named Anne falls in love with it and takes it home, Grigore accepts that stories belong to children."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "imaginatie",
+      "copilarie",
+      "dragoste",
+      "carti"
+    ],
+    "characters": [
+      "Grigore",
+      "Moș Anghel",
+      "Rochia Zburătoare",
+      "Anne"
+    ],
     "title": "Povestea jucăușă",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28609,11 +28811,21 @@
   {
     "id": "doctorul-jucariilor",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Orfanul Matis primește de la bătrânii care îl cresc un căluț de lemn vechi și trist, pe care îl îngrijește cu drag. Așa ajunge doctor de jucării și, cu ajutorul unei zâne, le redă viața și bucuria jucăriilor stricate ale copiilor.",
+      "en": "Orphaned Matis receives a battered, sad wooden horse from the elderly couple raising him and tends to it with care. He becomes a toy doctor and, with a fairy’s help, brings broken toys back to life for children."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "jucarii",
+      "bunatate",
+      "magie",
+      "copilarie"
+    ],
+    "characters": [
+      "Matis",
+      "Sandru",
+      "Dumitra",
+      "Zâna jucăriilor"
+    ],
     "title": "Doctorul jucăriilor",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28623,11 +28835,21 @@
   {
     "id": "o-stea-pentru-mama",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Rămasă văduvă și bolnavă, Maria se zbate din greu să-și crească fiul, pe Vlad. La rugămintea băiatului, o stea coboară din cer în casa lor și le aduce vindecare și zile mai senine.",
+      "en": "Widowed and unwell, Maria struggles in poverty to raise her son Vlad. Moved by the boy’s plea, a star comes down from the sky into their home, bringing healing and brighter days."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "familie",
+      "speranta",
+      "magie",
+      "dragoste"
+    ],
+    "characters": [
+      "Maria",
+      "Vlad",
+      "Sofronie",
+      "Steaua"
+    ],
     "title": "O stea pentru mama",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28637,11 +28859,20 @@
   {
     "id": "povestea-frunzei-de-cais",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Speriată că toamna o va îngălbeni și o va desprinde de pe ramură, o frunză de cais născocește o poveste despre un copac cu frunze de aur. Când vântul o poartă spre pământ, frunza descoperă că tocmai poveștile îi dau strălucirea.",
+      "en": "Afraid of turning yellow and falling when autumn arrives, an apricot leaf invents a tale about a tree with golden leaves. As the wind carries it down, the leaf finds that its own story is what makes it shine."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "natura",
+      "schimbare",
+      "imaginatie"
+    ],
+    "characters": [
+      "Frunza de cais",
+      "Frunza de cireș",
+      "Frunza de vișin",
+      "Frunza de stejar"
+    ],
     "title": "Povestea frunzei de cais",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28651,11 +28882,22 @@
   {
     "id": "viteaza-pisica-lenesa",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Toată ziua tolănită în holul bijutierului Felix, pisica Avrămuța pare cea mai leneșă din lume. Dar când vrăjitoarea Inimă Haină se preface în șobolan și fură un colier cu optsprezece diamante, Avrămuța prinde hoțul, îl încuie într-o colivie și scapă bijuteria.",
+      "en": "Lounging all day in jeweller Felix’s hallway, the cat Avrămuța looks like the laziest pet alive. Yet when the witch Hard-Heart turns into a rat and steals an eighteen-diamond necklace, Avrămuța traps her in a cage and saves the jewel."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "animale",
+      "curaj",
+      "istetime",
+      "umor"
+    ],
+    "characters": [
+      "Avrămuța",
+      "Felix",
+      "Teodora",
+      "Lilian",
+      "Inimă Haină"
+    ],
     "title": "Viteaza pisică leneșă",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -28665,11 +28907,20 @@
   {
     "id": "croitorul-cel-hot",
     "summary": {
-      "ro": "",
-      "en": ""
+      "ro": "Matei este cel mai vestit croitor din țară până când lăcomia îl împinge să fure din stofele clienților și să coasă cu material prost. Prins cu minciuna, își pierde mușteriii și abia după ce își îndreaptă purtarea își recapătă numele bun.",
+      "en": "Matei is the finest tailor in the land until greed tempts him to skim fabric from customers and swap in cheap cloth. Caught cheating, he loses his trade and must earn back trust through honest work."
     },
-    "themes": [],
-    "characters": [],
+    "themes": [
+      "adevar",
+      "munca",
+      "inselaciune",
+      "intelepciune"
+    ],
+    "characters": [
+      "Matei",
+      "Nicolae",
+      "Panait"
+    ],
     "title": "Croitorul cel hoț",
     "author": "Petre Crăciun",
     "origin": "romanian",
@@ -30114,11 +30365,14 @@
       "calatorie"
     ],
     "characters": [
-      "Silvia"
+      "Silvia",
+      "Cavalerul Jucăriilor",
+      "Ali Spărgător",
+      "Hans Junior"
     ],
     "summary": {
-      "ro": "O poveste radiofonică scrisă de Cristian Mitescu despre o călătorie imaginară spre țara jucăriilor.",
-      "en": "A radio story written by Cristian Mitescu about an imaginary flight to the land of toys."
+      "ro": "Fetița Silvia primește în dar un cal balansoar care o poartă în vis în Țara Jucăriilor. Alături de Cavalerul Jucăriilor, Ali Spărgător, Hans Junior și Toboșarul Bum-Bum, străbate tărâmul fermecat până la trezire.",
+      "en": "Little Silvia receives a rocking horse that carries her in a dream to Toyland. Alongside the Toy Knight, Ali the Nutcracker, Hans Junior and Bum-Bum the Drummer, she explores the enchanted realm until morning."
     },
     "origin": "romanian",
     "altTitles": [
@@ -30930,8 +31184,8 @@
       "Norul Bucurie"
     ],
     "summary": {
-      "ro": "Norul Bucurie aduce fericire în sufletele copiilor și oamenilor mari. Această poveste magică ne învață să lăsăm bucuria să ne inunde viața.",
-      "en": "The Joy Cloud brings happiness to the souls of children and adults. This magical story teaches us to let joy fill our lives."
+      "ro": "Zâna Norilor și Norul Bucurie coboară printre oameni ca să le arate că voia bună nu stă ascunsă departe. Când își lasă ușa sufletului deschisă, copiii și părinții primesc bucuria din plin.",
+      "en": "The Cloud Fairy and the Joy Cloud drift down to show people that happiness is never far away. Once children and parents open their hearts to it, joy settles into their lives."
     },
     "origin": "romanian",
     "year": 2011,
@@ -31045,8 +31299,8 @@
       "Bebelușul"
     ],
     "summary": {
-      "ro": "Un bebeluș învață să-și exprime emoțiile și să-și amintească visele. Povestea subliniază importanța de a vorbi despre ceea ce simți.",
-      "en": "A baby learns to express their emotions and remember their dreams. The story emphasizes the importance of talking about what you feel."
+      "ro": "Un bebeluș venit din praf de stele plânge mereu pentru că nu știe cum să le spună celor din jur ce simte. Pe măsură ce crește, își pictează și își cântă visele, învățând să vorbească despre lumea lui lăuntrică.",
+      "en": "A baby born of stardust cries constantly because he has no words for what he feels. As he grows, he paints and sings his dreams, finding a way to share his inner world."
     },
     "origin": "romanian",
     "year": 2011,
@@ -31068,8 +31322,8 @@
       "Fetița"
     ],
     "summary": {
-      "ro": "O vrăbiuță încearcă să consoleze o fetiță tristă, învățând-o despre puterea iertării și a iubirii. Povestea subliniază importanța empatiei și a înțelegerii în relațiile dintre oameni.",
-      "en": "A little sparrow tries to comfort a sad little girl, teaching her about the power of forgiveness and love. The story highlights the importance of empathy and understanding in human relationships."
+      "ro": "O vrăbiuță găsește o fetiță cu plete aurii plângând după ce a spart din greșeală lucrul preferat al mamei. Pasărea o îmbărbătează să spună adevărul și să-și ceară iertare, iar mama o strânge în brațe și o iartă.",
+      "en": "A little sparrow finds a golden-haired girl crying after she accidentally broke her mother’s favourite keepsake. Encouraged by the bird to tell the truth and apologize, the girl confesses and is warmly forgiven."
     },
     "addedAt": "2026-11-26"
   },
@@ -31308,16 +31562,16 @@
       "muzica"
     ],
     "characters": [
+      "Marițica",
+      "Grațiela",
       "Mihai",
-      "Valentina",
-      "Maricica",
-      "Graciela",
+      "Valentin",
       "Costi",
-      "Gelul"
+      "Gelu"
     ],
     "summary": {
-      "ro": "Un grup de copii se pregătesc pentru un bal costumat, discutând despre aventurile lor și despre un personaj misterios numit Aleodor. Povestea explorează entuziasmul și imaginația copiilor în timp ce își planifică participarea la eveniment.",
-      "en": "A group of children prepare for a costume ball, discussing their adventures and a mysterious character named Aleodor. The story explores the children's excitement and imagination as they plan their participation in the event."
+      "ro": "Marițica, Grațiela, Mihai, Valentin, Costi și Gelu pun la cale un bal mascat în „Împărăția noastră”, aleg costume de cosmonauți și personaje de basm și pregătesc un concurs. Printre mici încurcături și pățanii ale lui Costi, prietenii duc pregătirile la capăt.",
+      "en": "Marițica, Grațiela, Mihai, Valentin, Costi and Gelu plan a masquerade ball in “Our Kingdom”, picking astronaut and fairy-tale costumes and organizing a contest. Despite small mishaps along the way, the friends pull the party together."
     },
     "origin": "romanian",
     "addedAt": "2026-11-26"
