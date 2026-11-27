@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.7] - 2026-11-27
+
+### Changed
+- Updated `AGENTS.md` and the catalog check so every new story must include a short Romanian and English summary taken from online references or the recording's audio.
+
 ## [1.41.6] - 2026-11-27
 
 ### Added

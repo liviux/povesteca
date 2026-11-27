@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.7] - 2026-11-27
+
+### Changed
+- Regulile din `AGENTS.md` și verificarea catalogului cer acum ca fiecare poveste nouă să aibă un scurt rezumat în română și engleză, documentat online sau din ascultarea înregistrării audio.
+
 ## [1.41.6] - 2026-11-27
 
 ### Added

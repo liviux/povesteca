@@ -55,8 +55,10 @@ for (const s of stories) {
   // co-authors are a list of names, not one text with "și" or commas, so each gets a page of their own
   if (Array.isArray(s.author) ? s.author.length < 2 || !s.author.every((a) => typeof a === 'string' && a) : typeof s.author !== 'string') err(`story ${s.id}: author must be a name or a list of 2+ names`);
   if (typeof s.author === 'string' && /, /.test(s.author)) err(`story ${s.id}: author "${s.author}" looks like several names; use a list`);
-  // an empty summary is allowed: what can't be found from a source stays empty (AGENTS.md)
-  if (typeof s.summary?.ro !== 'string' || typeof s.summary?.en !== 'string') err(`story ${s.id}: summary.ro and summary.en must be text (empty when unknown)`);
+  // every story must have a short plot summary in both Romanian and English (AGENTS.md)
+  if (typeof s.summary?.ro !== 'string' || typeof s.summary?.en !== 'string' || !s.summary.ro.trim() || !s.summary.en.trim()) {
+    err(`story ${s.id}: summary.ro and summary.en are required and cannot be empty`);
+  }
   if (s.year != null && (!Number.isInteger(s.year) || s.year < 0 || s.year > 2100)) err(`story ${s.id}: bad year "${s.year}"`);
   if (s.genre && !ENUM.genre.includes(s.genre)) err(`story ${s.id}: genre "${s.genre}"`);
   if (!versions.some((v) => v.storyId === s.id)) warn(`story ${s.id} has no recordings`);
