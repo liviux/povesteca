@@ -226,22 +226,6 @@
   }
  },
  {
-  "id": "disc-exe-01593",
-  "title": "Miracolul copilariei(din creatia pentru copii a poetilor romani)",
-  "type": "disc",
-  "sourceId": "arhiva-discuri-electrecord",
-  "code": "EXE 01593",
-  "url": "https://www.discogs.com/release/7589590",
-  "items": [
-   "zece-mate-disc",
-   "o-poveste-c-un-dulau-disc"
-  ],
-  "description": {
-   "ro": "Disc Electrecord EXE 01593, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 01593, featuring 2 audio stories."
-  }
- },
- {
   "id": "disc-exe-02761",
   "title": "Vioara fermecata/Pescarul lautar",
   "type": "disc",
@@ -444,16 +428,14 @@
   "code": "EXE 02910",
   "url": "https://www.discogs.com/release/15268133",
   "items": [
-   "zdreanta-disc",
    "poveste-cu-ochi-albastri-disc",
    "puisorul-si-vulpea-disc",
    "pupaza-din-tei-disc",
-   "povestea-gastelor-disc",
    "povestea-unui-om-lenes-disc"
   ],
   "description": {
-   "ro": "Disc Electrecord EXE 02910, cu 6 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02910, featuring 6 audio stories."
+   "ro": "Disc Electrecord EXE 02910; în catalog sunt 4 povești din arhiva radiofonică.",
+   "en": "Electrecord record EXE 02910, with 4 audio stories in the catalogue."
   }
  },
  {
@@ -496,12 +478,11 @@
   "code": "CS 0125",
   "url": "https://www.discogs.com/release/10940660",
   "items": [
-   "scufita-rosie-disc-2",
-   "marinimie-disc"
+   "scufita-rosie-disc-2"
   ],
   "description": {
-   "ro": "Disc Electrecord CS 0125, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 0125, featuring 2 audio stories."
+   "ro": "Disc Electrecord CS 0125; în catalog este inclusă povestea „Scufița Roșie”.",
+   "en": "Electrecord record CS 0125; the catalogue includes “Scufița Roșie”."
   }
  },
  {
@@ -597,13 +578,12 @@
   "url": "https://www.discogs.com/release/8488411",
   "items": [
    "feciorii-croitorului-disc",
-   "fricosul-disc",
    "mos-ion-roata-si-unirea-disc",
    "hainele-imparatului-disc-2"
   ],
   "description": {
-   "ro": "Disc Electrecord CS 041, cu 4 povești din arhiva radiofonică.",
-   "en": "Electrecord record CS 041, featuring 4 audio stories."
+   "ro": "Disc Electrecord CS 041; în catalog sunt 3 povești din arhiva radiofonică.",
+   "en": "Electrecord record CS 041, with 3 audio stories in the catalogue."
   }
  },
  {
@@ -649,12 +629,11 @@
   "items": [
    "muzicantii-din-bremen-disc",
    "acul-fusul-si-suveica-disc",
-   "bunicul-si-nepotul-disc",
    "scufita-rosie-disc"
   ],
   "description": {
-   "ro": "Disc Electrecord EXE 02911, cu 4 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02911, featuring 4 audio stories."
+   "ro": "Disc Electrecord EXE 02911; în catalog sunt 3 basme din arhiva radiofonică.",
+   "en": "Electrecord record EXE 02911, with 3 fairy tales in the catalogue."
   }
  },
  {
@@ -777,12 +756,11 @@
   "code": "EXE 02204",
   "url": "https://www.discogs.com/release/17419204",
   "items": [
-   "cocosul-si-vulpea-disc",
    "puiul-disc"
   ],
   "description": {
-   "ro": "Disc Electrecord EXE 02204, cu 2 povești din arhiva radiofonică.",
-   "en": "Electrecord record EXE 02204, featuring 2 audio stories."
+   "ro": "Disc Electrecord EXE 02204; în catalog este inclusă povestea „Puiul”.",
+   "en": "Electrecord record EXE 02204; the catalogue includes “Puiul”."
   }
  },
  {
@@ -1080,30 +1058,25 @@
  },
  {
   "id": "seria-cartea-cu-jucarii-1967",
-  "title": "Cartea cu jucării (15 părți, 1967)",
+  "title": "Cartea cu jucării (1967)",
   "type": "series",
   "sourceId": "radio-arhive",
   "url": "https://radio-arhive.ro/articol/teatrul-national-radiofonic-pentru-copii-tudor-arghezi-cartea-cu-jucarii-1967/261/4/2",
   "items": [
-   "cartea-cu-jucarii-partea-1-radio-1967",
    "cartea-cu-jucarii-partea-2-radio-1967",
    "cartea-cu-jucarii-partea-3-radio-1967",
    "cartea-cu-jucarii-partea-4-radio-1967",
    "cartea-cu-jucarii-partea-5-radio-1967",
-   "cartea-cu-jucarii-partea-6-radio-1967",
-   "cartea-cu-jucarii-partea-7-radio-1967",
-   "cartea-cu-jucarii-partea-8-radio-1967",
    "cartea-cu-jucarii-partea-9-radio-1967",
    "cartea-cu-jucarii-partea-10-radio-1967",
-   "cartea-cu-jucarii-partea-11-radio-1967",
    "cartea-cu-jucarii-partea-12-radio-1967",
    "cartea-cu-jucarii-partea-13-radio-1967",
    "cartea-cu-jucarii-partea-14-radio-1967",
    "cartea-cu-jucarii-partea-15-radio-1967"
   ],
   "description": {
-   "ro": "Înregistrarea istorică din 6 decembrie 1967 în 15 episoade scurte din Fonoteca de Aur Radio România, cu Mitzura Arghezi și Ludovic Antal.",
-   "en": "The 1967 Radio România Golden Archive broadcast of Tudor Arghezi’s stories in 15 short chapters."
+   "ro": "Înregistrarea istorică din 6 decembrie 1967 din Fonoteca de Aur Radio România, cu Mitzura Arghezi și Ludovic Antal (10 episoade de cel puțin 3 minute).",
+   "en": "The 1967 Radio România Golden Archive broadcast of Tudor Arghezi’s stories, keeping the 10 episodes of at least 3 minutes."
   }
  },
  {
@@ -1886,32 +1859,6 @@
   }
  },
  {
-  "id": "cutiuta-cu-povesti-1",
-  "sourceId": "cutiuta-cu-povesti",
-  "code": "MediaPro 0061",
-  "title": "Cutiuța cu povești (Vol. 1)",
-  "items": [
-   "frigiderul-poznas-cutiuta",
-   "cocostarcul-si-pescarul-cutiuta",
-   "gat-gol-cutiuta",
-   "calul-visator-cutiuta",
-   "stii-tu-cutiuta",
-   "marele-gim-cutiuta",
-   "vis-implinit-cutiuta",
-   "racul-doctor-cutiuta",
-   "iepurasul-groza-cutiuta",
-   "alarma-groza-cutiuta",
-   "tinda-cu-soricei-cutiuta",
-   "barfa-groza-cutiuta",
-   "iarna-groza-cutiuta",
-   "nou-sosite-cutiuta"
-  ],
-  "description": {
-   "ro": "Povești scurte pentru copii spuse de Anca Pandrea și Iurie Darie, de pe albumul „Cutiuța cu povești” (MediaPro Music, 2004).",
-   "en": "Short children’s stories told by Anca Pandrea and Iurie Darie, from the album “Cutiuța cu povești” (MediaPro Music, 2004)."
-  }
- },
- {
   "id": "povesti-ascultatoare",
   "sourceId": "cutiuta-cu-povesti",
   "title": "Povești ascultătoare (Damian Victor Oancea)",
@@ -1965,24 +1912,6 @@
   "description": {
    "ro": "Spectacolul Teatrului Național Radiofonic din 2005 cu trei legende despre Baba Dochia, în adaptarea lui Costin Tuchilă și regia lui Vasile Manta. Legendele sunt în ordinea din spectacol.",
    "en": "The National Radio Theatre’s 2005 production of three legends about Baba Dochia, adapted by Costin Tuchilă and directed by Vasile Manta. The legends are in the order of the production."
-  }
- },
- {
-  "id": "disc-exc-401",
-  "sourceId": "arhiva-discuri-electrecord",
-  "type": "disc",
-  "code": "EXC 401",
-  "title": "Patru povestiri (Lev Tolstoi)",
-  "url": "https://www.discogs.com/release/14623546",
-  "items": [
-   "un-singur-fiu-disc",
-   "ceasca-sparta-disc",
-   "bunicul-si-nepotul-tolstoi-disc",
-   "mosneagul-si-merii-disc"
-  ],
-  "description": {
-   "ro": "Fața A a discului Electrecord EXC 401 (1963), cu 4 povestiri scurte de Lev Tolstoi.",
-   "en": "Side A of Electrecord record EXC 401 (1963), with 4 short stories by Leo Tolstoy."
   }
  },
  {

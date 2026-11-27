@@ -237,6 +237,450 @@
       "title": "Cozonacul care a fugit din cuptor",
       "reason": "Respinsă: videoclip Povești cu Nekta cu voce sintetică AI/TTS.",
       "date": "2026-11-26"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-1",
+      "title": "Cartea cu jucării – partea 1",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 152s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-6",
+      "title": "Cartea cu jucării – partea 6",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 100s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-7",
+      "title": "Cartea cu jucării – partea 7",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 169s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-8",
+      "title": "Cartea cu jucării – partea 8",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 151s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-11",
+      "title": "Cartea cu jucării – partea 11",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 63s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "zece-mate",
+      "title": "Zece mâțe",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 138s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "zdreanta",
+      "title": "Zdreanță",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 111s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cocosul-si-vulpea",
+      "title": "Cocoșul și vulpea",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 124s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "marinimie",
+      "title": "Marinimie",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 140s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "o-poveste-c-un-dulau",
+      "title": "O poveste c-un dulău",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 92s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "bunicul-si-nepotul",
+      "title": "Bunicul și nepotul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 163s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "povestea-gastelor",
+      "title": "Povestea gâștelor",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (înregistrările din catalog aveau 159s, 134s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "vulpea-si-strugurii",
+      "title": "Vulpea și strugurii",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (înregistrările din catalog aveau 109s, 114s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "obstacolul-din-drum",
+      "title": "Obstacolul din drum",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 141s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "de-ce-nu-se-inteleg-bufnitele-si-corbii",
+      "title": "De ce nu se înțeleg bufnițele și corbii",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 158s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cele-trei-dorinte",
+      "title": "Cele trei dorințe",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 152s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "familia-din-padure",
+      "title": "Familia din pădure",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 128s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cutiuta-magica",
+      "title": "Cutiuța magică",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 132s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "in-cautarea-noptii",
+      "title": "În căutarea nopții",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 127s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cea-mai-mare-bogatie-a-omului",
+      "title": "Cea mai mare bogăție a omului",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 156s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "jaguarul-si-ploaia",
+      "title": "Jaguarul și ploaia",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 136s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "respectul-nu-se-cumpara-cu-aur",
+      "title": "Respectul nu se cumpără cu aur",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 115s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "li-si-calugarul",
+      "title": "Li și călugărul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 138s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "de-ce-este-mierea-rara",
+      "title": "De ce este mierea rară",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 152s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "legenda-regelui-laurin-si-gradina-de-trandafiri",
+      "title": "Legenda regelui Laurin și grădina de trandafiri",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 178s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "povestea-toamnei",
+      "title": "Povestea Toamnei",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 141s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "la-cirese",
+      "title": "La cireșe",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 138s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "mariana-si-pepitele-de-aur",
+      "title": "Mariana și pepitele de aur",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 173s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cocosul-soarele-si-luna",
+      "title": "Cocoșul, Soarele și Luna",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 168s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "maimuta-si-broasca-testoasa",
+      "title": "Maimuța și broasca țestoasă",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 161s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cainele-si-catelul",
+      "title": "Câinele și cățelul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 111s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "de-ce-l-a-indragit-cainele-pe-om",
+      "title": "De ce l-a îndrăgit câinele pe om",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 179s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "liliacul-nerecunoscator",
+      "title": "Liliacul nerecunoscător",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 109s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "magarul-care-a-salvat-o-cetate",
+      "title": "Măgarul care a salvat o cetate",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 101s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "berta-si-nero",
+      "title": "Berta și Nero",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 129s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "ivan-mincinosul",
+      "title": "Ivan mincinosul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 147s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "graurul-cantaret",
+      "title": "Graurul cântăreț",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 174s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "somnoroase-pasarele",
+      "title": "Somnoroase păsărele",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (înregistrările din catalog aveau 34s, 85s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "iarna-alecsandri",
+      "title": "Iarna",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 78s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "101-dalmatieni",
+      "title": "101 Dalmațieni",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 171s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "girafa-cu-dungi",
+      "title": "Girafa cu dungi",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 174s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aripile-fluturelui",
+      "title": "Aripile fluturelui",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 148s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "pupici-pupici",
+      "title": "Pupici, pupici",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 112s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "frigiderul-poznas",
+      "title": "Frigiderul poznaș",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 141s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cocostarcul-si-pescarul",
+      "title": "Cocostârcul și pescarul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 95s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "gat-gol",
+      "title": "Gât gol",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 112s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "calul-visator",
+      "title": "Calul visător",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 74s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "stii-tu",
+      "title": "Știi tu?",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 80s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "marele-gim",
+      "title": "Marele Gim",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 85s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "vis-implinit",
+      "title": "Vis împlinit",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 93s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "racul-doctor",
+      "title": "Racul doctor",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 95s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "iepurasul-groza",
+      "title": "Iepurașul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 58s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "alarma-groza",
+      "title": "Alarma",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 135s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "tinda-cu-soricei",
+      "title": "Tinda cu șoricei",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 74s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "barfa-groza",
+      "title": "Bârfa",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 101s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "iarna-groza",
+      "title": "Iarna",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 69s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "nou-sosite",
+      "title": "Nou sosite",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 116s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "un-singur-fiu-tolstoi",
+      "title": "Un singur fiu",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 102s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "ceasca-sparta-tolstoi",
+      "title": "Ceașca spartă",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 34s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "bunicul-si-nepotul-tolstoi",
+      "title": "Bunicul și nepotul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 96s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "mosneagul-si-merii-tolstoi",
+      "title": "Moșneagul și merii",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 26s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "noni-elefantelul",
+      "title": "Noni elefănțelul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 175s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "vulpea-si-corbul",
+      "title": "Vulpea și corbul",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (înregistrările din catalog aveau 149s, 151s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "gainusa-cocosul-si-soarecele",
+      "title": "Găinușa, cocoșul și șoarecele",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 167s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "broasca-testoasa-si-iepurele",
+      "title": "Broasca țestoasă și iepurele",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 72s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "greierele-si-furnica",
+      "title": "Greierele și furnica",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 125s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "povestea-renului-rudolph",
+      "title": "Povestea renului Rudolph",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 173s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "legenda-bradului-de-craciun",
+      "title": "Legenda bradului de Crăciun",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 156s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "legenda-omului-de-zapada",
+      "title": "Legenda omului de zăpadă",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 170s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "elefantica-nino-si-ceasca-de-cafea",
+      "title": "Elefănțica Nino și ceașca de cafea",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 175s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "rausorul-captiv",
+      "title": "Râușorul captiv",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 166s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "lupul-pocait",
+      "title": "Lupul pocăit",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 125s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "leul-deghizat",
+      "title": "Leul deghizat",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 103s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "balada-unui-greier-mic",
+      "title": "Balada unui greier mic",
+      "reason": "Poveste orfană scoasă după introducerea pragului minim de 3 minute (singura înregistrare avea 161s).",
+      "date": "2026-11-27"
     }
   ],
   "recordings": [
@@ -603,6 +1047,821 @@
       ],
       "reason": "Videoclip privat pe YouTube (indisponibil pentru redare).",
       "date": "2026-11-26"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-1-radio-1967",
+      "title": "Cartea cu jucării (1967) – partea 1",
+      "links": [
+        "audio:https://static.srr.ro/files/AUDIO/2020/2020-12/2020-12-06/01_jucariile.mp3"
+      ],
+      "reason": "Durată sub 3 minute (152s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-6-radio-1967",
+      "title": "Cartea cu jucării (1967) – partea 6",
+      "links": [
+        "audio:https://static.srr.ro/files/AUDIO/2020/2020-12/2020-12-06/06_geamantanul.mp3"
+      ],
+      "reason": "Durată sub 3 minute (100s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-7-radio-1967",
+      "title": "Cartea cu jucării (1967) – partea 7",
+      "links": [
+        "audio:https://static.srr.ro/files/AUDIO/2020/2020-12/2020-12-06/07_hotul.mp3"
+      ],
+      "reason": "Durată sub 3 minute (169s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-8-radio-1967",
+      "title": "Cartea cu jucării (1967) – partea 8",
+      "links": [
+        "audio:https://static.srr.ro/files/AUDIO/2020/2020-12/2020-12-06/08_cheile.mp3"
+      ],
+      "reason": "Durată sub 3 minute (151s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cartea-cu-jucarii-partea-11-radio-1967",
+      "title": "Cartea cu jucării (1967) – partea 11",
+      "links": [
+        "audio:https://static.srr.ro/files/AUDIO/2020/2020-12/2020-12-06/11_alunita.mp3"
+      ],
+      "reason": "Durată sub 3 minute (63s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "zece-mate-disc",
+      "title": "Zece mâțe, în lectura lui Ion Caramitru",
+      "links": [
+        "archive:6a-caramitru-zece-mite-arghezi/6a Caramitru-Zece mite(Arghezi).mp4"
+      ],
+      "reason": "Durată sub 3 minute (138s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "zdreanta-disc",
+      "title": "Zdreanță, în lectura Andei Călugăreanu",
+      "links": [
+        "archive:302218406/302218406.mp4"
+      ],
+      "reason": "Durată sub 3 minute (111s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "fricosul-disc",
+      "title": "Fricosul, în lectura lui Sanda Toma",
+      "links": [
+        "archive:304502484/304502484.mp4"
+      ],
+      "reason": "Durată sub 3 minute (142s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cocosul-si-vulpea-disc",
+      "title": "Cocoșul și vulpea, în lectura Brândușei Zaița-Silvestru",
+      "links": [
+        "archive:302529796/302529796.mp4"
+      ],
+      "reason": "Durată sub 3 minute (124s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "marinimie-disc",
+      "title": "Marinimie, în lectura lui Sanda Toma",
+      "links": [
+        "archive:305626404/305626404.mp4"
+      ],
+      "reason": "Durată sub 3 minute (140s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "o-poveste-c-un-dulau-disc",
+      "title": "O poveste c-un dulău, în lectura Alexandrinei Halic",
+      "links": [
+        "archive:3c-halic-poveste-dulau-cazimir_202502/3c Halic-Poveste dulau(Cazimir).mp4"
+      ],
+      "reason": "Durată sub 3 minute (92s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "bunicul-si-nepotul-disc",
+      "title": "Bunicul și nepotul, în lectura lui Octavian Cotescu",
+      "links": [
+        "archive:304116504/304116504.mp4"
+      ],
+      "reason": "Durată sub 3 minute (163s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "povestea-gastelor-disc",
+      "title": "Povestea gâștelor, în lectura lui Octavian Cotescu",
+      "links": [
+        "archive:302216506/302216506.mp4"
+      ],
+      "reason": "Durată sub 3 minute (159s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "tom-degetel-afostodata",
+      "title": "Tom Degețel (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Tom_degetel.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (117s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "frumoasa-si-bestia-afostodata",
+      "title": "Frumoasa și bestia (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Frumoasa_si_bestia.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (153s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "leul-si-soricelul-afostodata",
+      "title": "Leul și Șoricelul (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/leu_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (138s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "vulpea-si-strugurii-afostodata",
+      "title": "Vulpea și strugurii (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/vulpea_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (109s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "obstacolul-din-drum-afostodata",
+      "title": "Obstacolul din drum (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/bolovan_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (141s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "de-ce-nu-se-inteleg-bufnitele-si-corbii-afostodata",
+      "title": "De ce nu se înțeleg bufnițele și corbii (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/bufnite_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (158s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cele-trei-dorinte-afostodata",
+      "title": "Cele trei dorințe (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/DORINTE_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (152s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "familia-din-padure-afostodata",
+      "title": "Familia din pădure (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/familie_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (128s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cutiuta-magica-afostodata",
+      "title": "Cutiuța magică (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/CUTIUTA_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (132s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "in-cautarea-noptii-afostodata",
+      "title": "În căutarea nopții (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/noaptea_bun_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (127s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cea-mai-mare-bogatie-a-omului-afostodata",
+      "title": "Cea mai mare bogăție a omului (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/bogatie_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (156s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "jaguarul-si-ploaia-afostodata",
+      "title": "Jaguarul și ploaia (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/ploaie_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (136s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "respectul-nu-se-cumpara-cu-aur-afostodata",
+      "title": "Respectul nu se cumpără cu aur (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/aur_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (115s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "li-si-calugarul-afostodata",
+      "title": "Li și călugărul (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/li_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (138s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "de-ce-este-mierea-rara-afostodata",
+      "title": "De ce este mierea rară (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/miere_01.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (152s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "legenda-regelui-laurin-si-gradina-de-trandafiri-afostodata",
+      "title": "Legenda regelui Laurin și grădina de trandafiri (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Legenda_Laurin.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (178s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "povestea-toamnei-afostodata",
+      "title": "Povestea Toamnei (2024)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/POVESTEA_TOAMNEI.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (141s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "la-cirese-afostodata",
+      "title": "La cireșe (2023)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Amintiri_din_Copilarie_-_La_Cirese_-_Ion_Creanga.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (138s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "mariana-si-pepitele-de-aur-afostodata",
+      "title": "Mariana și pepitele de aur (2021)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Mariana_si_pepitele_de_aur.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (173s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cocosul-soarele-si-luna-afostodata",
+      "title": "Cocoșul, Soarele și Luna (2021)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Cocosul_Luna_si_Soarele.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (168s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "maimuta-si-broasca-testoasa-afostodata",
+      "title": "Maimuța și broasca țestoasă (2020)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Maimuta_si_Broasca_testoasa.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (161s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cainele-si-catelul-afostodata",
+      "title": "Câinele și cățelul (2019)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Cainele_si_catelul.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (111s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "de-ce-l-a-indragit-cainele-pe-om-afostodata",
+      "title": "De ce l-a îndrăgit câinele pe om (2019)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/De_ce_l-a_indragit_cainele_pe_om.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (179s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "soarecele-si-pisica-afostodata",
+      "title": "Șoarecele și pisica (2019)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Soarecele_si_pisica.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (136s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "liliacul-nerecunoscator-afostodata",
+      "title": "Liliacul nerecunoscător (2019)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Liliacul_nerecunoscator.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (109s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "magarul-care-a-salvat-o-cetate-afostodata",
+      "title": "Măgarul care a salvat o cetate (2018)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Magarul_care_a_salvat_o_cetate.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (101s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "sfoara-de-fum-afostodata",
+      "title": "Sfoara de fum (2018)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Sfoara_de_fum.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (160s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "berta-si-nero-afostodata",
+      "title": "Berta și Nero (2018)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Berta_si_Nero.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (129s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "ivan-mincinosul-afostodata",
+      "title": "Ivan mincinosul (2018)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Ivan_si_grasimea_iepurelui.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (147s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "graurul-cantaret-oameni-mici",
+      "title": "Graurul cântăreț (Oameni mici și mari)",
+      "links": [
+        "audio:https://anchor.fm/s/2e3f897c/podcast/play/33480695/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-14%2F8e7dfde3-ca1c-a1ee-e1b7-aa32bf0fe2f2.mp3",
+        "youtube:Rezn5pwyqSo"
+      ],
+      "reason": "Durată sub 3 minute (174s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "somnoroase-pasarele-afostodata",
+      "title": "Somnoroase păsărele (2019)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Somnoroase_Pasarele.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (34s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "iarna-alecsandri-afostodata",
+      "title": "Iarna (Vasile Alecsandri)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/Iarna.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (78s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "101-dalmatieni-afostodata",
+      "title": "101 Dalmațieni (2025)",
+      "links": [
+        "audio:https://traffic.libsyn.com/secure/afostodata/101_Damatieni.mp3?dest-id=1049720"
+      ],
+      "reason": "Durată sub 3 minute (171s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "girafa-cu-dungi-oameni-mici",
+      "title": "Girafa cu dungi, spusă de Andra Oprean",
+      "links": [
+        "audio:https://anchor.fm/s/2e3f897c/podcast/play/56852834/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-30%2Fa6577150-d663-a324-18cc-b23add27d3fe.mp3",
+        "youtube:LHLEPCDeuKY"
+      ],
+      "reason": "Durată sub 3 minute (174s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aripile-fluturelui-oameni-mici",
+      "title": "Aripile fluturelui, spusă de Andra Oprean",
+      "links": [
+        "audio:https://anchor.fm/s/2e3f897c/podcast/play/56544614/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-23%2Fb262ed46-a629-f8a6-b165-3a5fe8fea26a.mp3",
+        "youtube:EY1C4RdEwjE"
+      ],
+      "reason": "Durată sub 3 minute (148s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "pupici-pupici-oameni-mici",
+      "title": "Pupici, pupici, spusă de Ema Oprean",
+      "links": [
+        "audio:https://anchor.fm/s/2e3f897c/podcast/play/52808217/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-31%2F587c33ce-f1f3-4024-8f7c-86e9aad33436.mp3",
+        "youtube:n9gsPyXg_GI"
+      ],
+      "reason": "Durată sub 3 minute (112s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "ridichea-uriasa-oameni-mici",
+      "title": "Ridichea uriașă, spusă de Ema Oprean",
+      "links": [
+        "audio:https://anchor.fm/s/2e3f897c/podcast/play/42700503/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-10-2%2F03be7b45-9f5b-c619-291c-d58d56f61b5d.mp3",
+        "youtube:-xE5Elc8lGo"
+      ],
+      "reason": "Durată sub 3 minute (157s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "vulpea-si-strugurii-oameni-mici",
+      "title": "Vulpea și strugurii (Oameni mici și mari)",
+      "links": [
+        "audio:https://anchor.fm/s/2e3f897c/podcast/play/32058825/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-23%2F2c48e5b1-2e0a-7063-99bd-81024cfb2d16.mp3",
+        "youtube:parguvwcshU"
+      ],
+      "reason": "Durată sub 3 minute (114s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "leul-si-soricelul-oameni-mici",
+      "title": "Leul și șoricelul (Oameni mici și mari)",
+      "links": [
+        "audio:https://anchor.fm/s/2e3f897c/podcast/play/28575747/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-10%2F5167d3ad-6f4d-a490-e61f-3591dc4819cb.mp3",
+        "youtube:KttS2gpjYIM"
+      ],
+      "reason": "Durată sub 3 minute (116s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "frigiderul-poznas-cutiuta",
+      "title": "Frigiderul poznaș (Cutiuța cu povești, Anca Pandrea)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/29914647/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-03-25%2F7653453047e6007170fca9d25c89a6e7.m4a",
+        "youtube:2NngGTwRr7o"
+      ],
+      "reason": "Durată sub 3 minute (141s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "cocostarcul-si-pescarul-cutiuta",
+      "title": "Cocostârcul și pescarul (Cutiuța cu povești, Iurie Darie)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/30048817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-03-26%2F8b3a94cf56d18fd9e57bd76b16d57934.m4a",
+        "youtube:qG-oWwPeV2Q"
+      ],
+      "reason": "Durată sub 3 minute (95s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "gat-gol-cutiuta",
+      "title": "Gât gol (Cutiuța cu povești, Anca Pandrea)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/30408638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-03-31%2Fbccaba62ee0d26e904aa86e004f92605.m4a",
+        "youtube:7swLZyaom-I"
+      ],
+      "reason": "Durată sub 3 minute (112s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "calul-visator-cutiuta",
+      "title": "Calul visător (Cutiuța cu povești, Iurie Darie)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/30639046/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-03%2F1b5bc945ed349064bb5dfcdc425a9b8d.m4a",
+        "youtube:7zcdG_aHGmM"
+      ],
+      "reason": "Durată sub 3 minute (74s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "stii-tu-cutiuta",
+      "title": "Știi tu? (Cutiuța cu povești, Anca Pandrea)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/30926739/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-07%2Fe40f0129faf49fbd2fccb772d1c7ac25.m4a",
+        "youtube:ibGx83xG2jY"
+      ],
+      "reason": "Durată sub 3 minute (80s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "marele-gim-cutiuta",
+      "title": "Marele Gim (Cutiuța cu povești, Iurie Darie)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/31125392/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-10%2Fa44eb3739cfa59a614e949a6ce13407a.m4a",
+        "youtube:6GjHXrxAt5Y"
+      ],
+      "reason": "Durată sub 3 minute (85s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "vis-implinit-cutiuta",
+      "title": "Vis împlinit (Cutiuța cu povești, Anca Pandrea)",
+      "links": [
+        "youtube:QZzrwHI6laQ"
+      ],
+      "reason": "Durată sub 3 minute (93s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "racul-doctor-cutiuta",
+      "title": "Racul doctor (Cutiuța cu povești, Iurie Darie)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/31125510/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-10%2F001cf207f006ef4602616a4bed7a266e.m4a",
+        "youtube:JMQyRvbN4Qg"
+      ],
+      "reason": "Durată sub 3 minute (95s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "iepurasul-groza-cutiuta",
+      "title": "Iepurașul (Cutiuța cu povești, Anca Pandrea)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/31129623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-10%2F70f9181695468214ebc1936cced8a785.m4a",
+        "youtube:__GQh4OIg6o"
+      ],
+      "reason": "Durată sub 3 minute (58s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "alarma-groza-cutiuta",
+      "title": "Alarma (Cutiuța cu povești, Iurie Darie)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/31975234/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-22%2F6748264be4e5861e8cd65e1387a892b9.m4a",
+        "youtube:aNizkAka2EU"
+      ],
+      "reason": "Durată sub 3 minute (135s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "tinda-cu-soricei-cutiuta",
+      "title": "Tinda cu șoricei (Cutiuța cu povești, Anca Pandrea)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/32462208/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-05%2F2b7ae7eccc5a6fef232ffa2985357d5e.m4a",
+        "youtube:rOv_d_V8JMg"
+      ],
+      "reason": "Durată sub 3 minute (74s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "barfa-groza-cutiuta",
+      "title": "Bârfa (Cutiuța cu povești, Iurie Darie)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/32808643/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-04%2Fc6265aae59a9c5a69f0bf17627c8ea39.m4a",
+        "youtube:merOxc6XCkg"
+      ],
+      "reason": "Durată sub 3 minute (101s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "iarna-groza-cutiuta",
+      "title": "Iarna (Cutiuța cu povești, Anca Pandrea)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/32888957/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-05%2F57dab394883669ae8d6cb5cf0b7be766.m4a",
+        "youtube:g9HTTE4klFY"
+      ],
+      "reason": "Durată sub 3 minute (69s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "nou-sosite-cutiuta",
+      "title": "Nou sosite (Cutiuța cu povești, Iurie Darie)",
+      "links": [
+        "audio:https://anchor.fm/s/53af64ac/podcast/play/33271718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-11%2Faf7971d43bae8952e2d34bd41b7ae2b3.m4a",
+        "youtube:LpVWfFyE8ds"
+      ],
+      "reason": "Durată sub 3 minute (116s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "un-singur-fiu-disc",
+      "title": "Un singur fiu, în lectura lui George Oancea",
+      "links": [
+        "archive:303549108/303549108.mp4#0-102"
+      ],
+      "reason": "Durată sub 3 minute (102s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "ceasca-sparta-disc",
+      "title": "Ceașca spartă, în lectura lui Elena Sereda",
+      "links": [
+        "archive:303549108/303549108.mp4#102-136"
+      ],
+      "reason": "Durată sub 3 minute (34s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "bunicul-si-nepotul-tolstoi-disc",
+      "title": "Bunicul și nepotul, în lectura lui George Oancea",
+      "links": [
+        "archive:303549108/303549108.mp4#136-232"
+      ],
+      "reason": "Durată sub 3 minute (96s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "mosneagul-si-merii-disc",
+      "title": "Moșneagul și merii, în lectura lui Elena Sereda",
+      "links": [
+        "archive:303549108/303549108.mp4#232-258"
+      ],
+      "reason": "Durată sub 3 minute (26s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "povestea-gastelor-val-sandulescu-archive",
+      "title": "Povestea gâștelor, în lectura lui Val Săndulescu",
+      "links": [
+        "archive:304535296/304535296.mp4"
+      ],
+      "reason": "Durată sub 3 minute (134s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "noni-elefantelul-minipovesti",
+      "title": "Noni elefănțelul, în lectura lui Viorel Păunescu",
+      "links": [
+        "audio:https://minipovesti.ro/wp-content/uploads/2024/07/Noni-elefantelul.mp3",
+        "youtube:YtnReYLqm_0"
+      ],
+      "reason": "Durată sub 3 minute (175s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "vulpea-si-corbul-colibri",
+      "title": "Vulpea și corbul (Teatrul Colibri Craiova)",
+      "links": [
+        "youtube:IMeu3mHBUcc"
+      ],
+      "reason": "Durată sub 3 minute (149s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "soarecele-si-pisica-roton",
+      "title": "Șoarecele și pisica",
+      "links": [
+        "audio:https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-9-23/121256817-44100-2-1944c8cf9ed.m4a",
+        "youtube:2i1Nhdn_ajo"
+      ],
+      "reason": "Durată sub 3 minute (173s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "gainusa-cocosul-si-soarecele-roton",
+      "title": "Găinușa, cocoșul și șoarecele",
+      "links": [
+        "audio:https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-8-10/37f640a3-46d8-cd61-7049-ec52887cec30.mp3",
+        "youtube:MVYAvz-ME8g"
+      ],
+      "reason": "Durată sub 3 minute (167s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "broasca-testoasa-si-iepurele-nekta",
+      "title": "Broasca țestoasă și iepurele",
+      "links": [
+        "youtube:jYEG1D04KwE"
+      ],
+      "reason": "Durată sub 3 minute (72s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "greierele-si-furnica-nekta",
+      "title": "Greierele și furnica",
+      "links": [
+        "youtube:t2omsvtk4VE"
+      ],
+      "reason": "Durată sub 3 minute (125s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "povestea-renului-rudolph-nekta",
+      "title": "Povestea renului Rudolph",
+      "links": [
+        "youtube:UMYlx2fNo4E"
+      ],
+      "reason": "Durată sub 3 minute (173s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "legenda-bradului-de-craciun-nekta",
+      "title": "Povestea bradului de Crăciun",
+      "links": [
+        "youtube:6j3JQXykcns"
+      ],
+      "reason": "Durată sub 3 minute (156s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "legenda-omului-de-zapada-nekta",
+      "title": "Omul de zăpadă",
+      "links": [
+        "youtube:Y7HX1eT7Ips"
+      ],
+      "reason": "Durată sub 3 minute (170s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "elefantica-nino-si-ceasca-de-cafea-minipovesti",
+      "title": "Elefănțica Nino și ceașca de cafea, în lectura Andreea Brașovean",
+      "links": [
+        "audio:https://minipovesti.ro/wp-content/uploads/2025/05/Minipovesti.ro-174s-2025.05.08-Elefantica-Nino-si-ceasca-de-cafea.wav"
+      ],
+      "reason": "Durată sub 3 minute (175s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "rausorul-captiv-minipovesti",
+      "title": "Râușorul captiv, în lectura lui Mihai Mănescu",
+      "links": [
+        "audio:https://minipovesti.ro/wp-content/uploads/2025/08/rausor-Youtube.mp3"
+      ],
+      "reason": "Durată sub 3 minute (166s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "leul-si-soricelul-hikiddo",
+      "title": "Leul și șoricelul",
+      "links": [
+        "youtube:cWKdZcchrJ8"
+      ],
+      "reason": "Durată sub 3 minute (156s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "corbul-si-vulpea-hikiddo",
+      "title": "Corbul și vulpea",
+      "links": [
+        "youtube:WlnHLhGdyd4"
+      ],
+      "reason": "Durată sub 3 minute (151s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "somnoroase-pasarele-hikiddo",
+      "title": "Somnoroase păsărele",
+      "links": [
+        "youtube:RsDwscLKLlE"
+      ],
+      "reason": "Durată sub 3 minute (85s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "lupul-pocait-hikiddo",
+      "title": "Lupul pocăit",
+      "links": [
+        "youtube:K1NBBSI1_10"
+      ],
+      "reason": "Durată sub 3 minute (125s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "leul-deghizat-hikiddo",
+      "title": "Leul deghizat",
+      "links": [
+        "youtube:1uHDThusYqY"
+      ],
+      "reason": "Durată sub 3 minute (103s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "balada-unui-greier-mic-hikiddo",
+      "title": "Balada unui greier mic",
+      "links": [
+        "youtube:1-igrtMTsmE"
+      ],
+      "reason": "Durată sub 3 minute (161s; minimul eligibil în catalog este 180s).",
+      "date": "2026-11-27"
     }
   ]
 }

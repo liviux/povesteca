@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.8] - 2026-11-27
+
+### Changed
+- The catalogue now requires every recording to be at least 3 minutes long, a rule also shown on the “About” page.
+
+### Removed
+- **Removed stories:** removed all 88 recordings under 3 minutes, along with the 74 stories left with no other recording and 3 emptied collections (including “Cutiuța cu povești” Vol. 1 and the Leo Tolstoy four-stories record).
+
 ## [1.41.7] - 2026-11-27
 
 ### Changed

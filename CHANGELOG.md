@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.8] - 2026-11-27
+
+### Changed
+- În catalog intră de acum doar înregistrări de cel puțin 3 minute, regulă menționată și în pagina „Despre proiect”.
+
+### Removed
+- **Povești scoase:** au fost eliminate cele 88 de înregistrări sub 3 minute, împreună cu cele 74 de povești rămase fără altă înregistrare și cu 3 colecții golite (inclusiv primul volum „Cutiuța cu povești” și discul cu cele patru povestiri de Lev Tolstoi).
+
 ## [1.41.7] - 2026-11-27
 
 ### Changed

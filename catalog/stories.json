@@ -5248,26 +5248,6 @@
     ]
   },
   {
-    "id": "cartea-cu-jucarii-partea-1",
-    "title": "Cartea cu jucării – partea 1",
-    "author": "Tudor Arghezi",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "jucarii",
-      "copilarie",
-      "vis",
-      "familie"
-    ],
-    "summary": {
-      "ro": "Un text de deschidere în care Tudor Arghezi îi vorbește fetiței sale despre povești ca despre niște jucării: mici, fragile și făcute pentru seară. Povestitorul își amintește de copilărie și de lumea de lumini, umbre și jucării pe care o poate ridica din câteva cuvinte.",
-      "en": "An opening piece in which Tudor Arghezi tells his little daughter that stories are toys: small, delicate things made for the evening. The storyteller recalls childhood and the world of light, shadow and play that a few words can raise."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1931
-  },
-  {
     "id": "cartea-cu-jucarii-partea-2",
     "title": "Cartea cu jucării – partea 2",
     "author": "Tudor Arghezi",
@@ -5372,85 +5352,6 @@
     ]
   },
   {
-    "id": "cartea-cu-jucarii-partea-6",
-    "title": "Cartea cu jucării – partea 6",
-    "author": "Tudor Arghezi",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "calatorie",
-      "jucarii",
-      "familie",
-      "copilarie"
-    ],
-    "summary": {
-      "ro": "Tătuțu pleacă peste Olt și împrumută geamantanul Miței, după o tocmeală cu căpșuni și bujori. Fetița ascunde în el ursul de catifea Ursulache, așa că tatăl face drumul cu bagajul plin de jucării.",
-      "en": "Father is leaving on a trip across the Olt and borrows Mițu's suitcase after bargaining with strawberries and peonies. She hides her velvet bear Ursulache inside, so he makes the journey with a suitcase full of toys."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1931,
-    "characters": [
-      "Mițu",
-      "Tătuțu",
-      "Ursulache",
-      "Baruțu"
-    ]
-  },
-  {
-    "id": "cartea-cu-jucarii-partea-7",
-    "title": "Cartea cu jucării – partea 7",
-    "author": "Tudor Arghezi",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "umor",
-      "familie",
-      "copilarie",
-      "jucarii"
-    ],
-    "summary": {
-      "ro": "Dulciurile din casă dispar pe ascuns, iar Mițu și Baruțu spun că le-a mâncat ursul lor de catifea. Tătuțu îl trimite pe „hoț” în pod, dar copiii spun că ursul tot vine la dulap după dulceață.",
-      "en": "Sweets keep disappearing from the house, and Mițu and Baruțu say their velvet teddy bear ate them. Their father sends the \"thief\" up to the attic, but the children say the bear still comes down to the cupboard for jam."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1931,
-    "characters": [
-      "Baruțu",
-      "Mițu",
-      "Tătuțu",
-      "Ursul"
-    ]
-  },
-  {
-    "id": "cartea-cu-jucarii-partea-8",
-    "title": "Cartea cu jucării – partea 8",
-    "author": "Tudor Arghezi",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "curiozitate",
-      "familie",
-      "copilarie",
-      "istetime"
-    ],
-    "summary": {
-      "ro": "Mițu și Baruțu descoperă că toate dulapurile din casă sunt încuiate și încearcă să ajungă la comorile din ele. Dulapul se răstoarnă peste ei, iar după o judecată de familie copiii primesc toate cheile — fără să nimerească însă vreuna.",
-      "en": "Mițu and Baruțu discover that every cupboard in the house is locked and try to reach the treasures inside. The wardrobe topples over them, and after a family trial the children are given all the keys — though none of them fits."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1931,
-    "characters": [
-      "Mițu",
-      "Baruțu",
-      "Tătuțu",
-      "Măicuța",
-      "Unchiul Sesis"
-    ]
-  },
-  {
     "id": "cartea-cu-jucarii-partea-9",
     "title": "Cartea cu jucării – partea 9",
     "author": "Tudor Arghezi",
@@ -5499,31 +5400,6 @@
       "Tătuțu",
       "Mițu",
       "Baruțu"
-    ]
-  },
-  {
-    "id": "cartea-cu-jucarii-partea-11",
-    "title": "Cartea cu jucării – partea 11",
-    "author": "Tudor Arghezi",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "copilarie",
-      "familie",
-      "umor"
-    ],
-    "summary": {
-      "ro": "Mițu are o aluniță pe obraz, care la început o supără, apoi începe să-i placă. Baruțu e trist că el nu are una și încearcă s-o șteargă pe a surorii lui.",
-      "en": "Mițu has a beauty spot on her cheek. At first it upsets her, then she starts to like it. Baruțu is sad he has none and tries to rub his sister's off."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1931,
-    "characters": [
-      "Mițu",
-      "Baruțu",
-      "Măicuța",
-      "Tătuțu"
     ]
   },
   {
@@ -7577,28 +7453,6 @@
     ]
   },
   {
-    "id": "zece-mate",
-    "title": "Zece mâțe",
-    "author": "Tudor Arghezi",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "umor",
-      "copilarie"
-    ],
-    "summary": {
-      "ro": "O numărătoare în versuri: zece mâțe pornesc la un ceai și, după fiecare pățanie, rămân tot mai puține.",
-      "en": "A counting rhyme: ten cats set off for tea, and after each mishap there are fewer of them left."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Cele zece mâțe"
-    ],
-    "year": 1958
-  },
-  {
     "id": "pescarul-lautar",
     "title": "Pescarul lăutar",
     "author": "Victoria Roman",
@@ -7936,28 +7790,6 @@
       "Tatăl ei",
       "Craiul",
       "Tânărul pădurar"
-    ]
-  },
-  {
-    "id": "zdreanta",
-    "title": "Zdreanță",
-    "author": "Tudor Arghezi",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "umor"
-    ],
-    "summary": {
-      "ro": "Zdreanță e un câine flocos și zdrențuros, cu ochii de faianță. Pândește găinile și fură ouăle proaspete, până când gospodina îl dezvață dându-i un ou fierbinte.",
-      "en": "Zdreanță is a shaggy, ragged dog with china-blue eyes. He lurks by the hen house and gulps down fresh eggs, until the housewife cures him by giving him a hot egg."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1954,
-    "characters": [
-      "Zdreanță",
-      "Gospodina"
     ]
   },
   {
@@ -9171,28 +9003,6 @@
     ]
   },
   {
-    "id": "cocosul-si-vulpea",
-    "title": "Cocoșul și vulpea",
-    "author": "Jean de La Fontaine",
-    "origin": "french",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "istetime"
-    ],
-    "summary": {
-      "ro": "O vulpe îi spune cocoșului cocoțat într-un copac că s-a făcut pace între ei și îl cheamă jos să se îmbrățișeze. Cocoșul zice că vede venind doi ogari cu aceeași veste, iar vulpea o ia la fugă.",
-      "en": "A fox tells a rooster up in a tree that they have made peace and asks him to come down for a hug. The rooster says he can see two greyhounds coming with the same news, and the fox runs off."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1668,
-    "characters": [
-      "Cocoșul",
-      "Vulpea"
-    ]
-  },
-  {
     "id": "fluturele-galben-de-o-zi",
     "title": "Fluturele galben de-o zi",
     "author": "Silvia Kerim",
@@ -9916,53 +9726,6 @@
     ]
   },
   {
-    "id": "marinimie",
-    "title": "Marinimie",
-    "author": "Emil Gârleanu",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "natura",
-      "bunatate"
-    ],
-    "summary": {
-      "ro": "În zori, pe baltă, un cocostârc cutreieră prin stuf. O broscuță îl vede uriaș și încremenește de frică, dar pasărea o lasă în pace; scăpată, broscuța este cea dintâi care sparge liniștea dimineții.",
-      "en": "At dawn, a stork walks through the reeds of the marsh. A little frog sees it as a giant and freezes with fear, but the bird spares it; once safe, the frog is the first to break the silence of the morning."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1910,
-    "characters": [
-      "Cocostârcul",
-      "Broscuța"
-    ]
-  },
-  {
-    "id": "o-poveste-c-un-dulau",
-    "title": "O poveste c-un dulău",
-    "author": "Otilia Cazimir",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "umor",
-      "jucarii",
-      "istetime"
-    ],
-    "summary": {
-      "ro": "Un cățel de cauciuc, mititel cât un papuc, se întâlnește la răscruce cu un dulău mare și lățos. Dulăul îl înșfacă de ceafă, dar cățelul se dezumflă și rămâne o bucată de cauciuc, iar povețea se încheie cu un sfat pentru copiii care vorbesc prea mult.",
-      "en": "A rubber toy dog, as small as a slipper, meets a big, shaggy mastiff at the crossroads. The mastiff grabs him by the scruff, but the toy deflates and is left a scrap of rubber, and the rhyme ends with a lesson for children who talk too much."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1954,
-    "characters": [
-      "Cățelul de cauciuc",
-      "Dulăul"
-    ]
-  },
-  {
     "id": "ochii-mamei",
     "title": "Ochii mamei",
     "author": "basm popular japonez",
@@ -10456,31 +10219,6 @@
     ]
   },
   {
-    "id": "bunicul-si-nepotul",
-    "title": "Bunicul și nepotul",
-    "author": "Frații Grimm",
-    "origin": "german",
-    "genre": "basm",
-    "themes": [
-      "familie",
-      "bunatate",
-      "intelepciune"
-    ],
-    "summary": {
-      "ro": "Un bunic bătrân și neputincios e pus să mănânce singur, lângă vatră, dintr-o strachină de lemn. Când nepoțelul începe să cioplească o covățică pentru părinții lui, aceștia se rușinează și îl aduc pe bunic înapoi la masă.",
-      "en": "A frail old grandfather is made to eat alone by the stove from a wooden bowl. When their little son starts carving a trough for his parents, they are ashamed and bring the grandfather back to the table."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1812,
-    "characters": [
-      "Bunicul",
-      "Nepotul",
-      "Tatăl",
-      "Mama"
-    ]
-  },
-  {
     "id": "dumbrava-minunata",
     "title": "Dumbrava minunată",
     "author": "Mihail Sadoveanu",
@@ -10645,29 +10383,6 @@
       "Domnul Trandafir",
       "Povestitorul"
     ]
-  },
-  {
-    "id": "povestea-gastelor",
-    "title": "Povestea gâștelor",
-    "author": "George Coșbuc",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "umor"
-    ],
-    "summary": {
-      "ro": "Un gâscan își scapă papucii în râu, iar toate gâștele îi caută o vară întreagă. De atunci gâștele scormonesc mereu prin apă și sâsâie la oricine trece pe lângă ele, întrebând de papuci.",
-      "en": "A gander drops his slippers into the river, and all the geese search for them the whole summer. Ever since, geese poke around in the water and hiss at anyone who passes, asking about the slippers."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Gâscanul",
-      "Gâștele",
-      "Rățuștele"
-    ],
-    "year": 1903
   },
   {
     "id": "cosina-cea-frumoasa-si-neascultatoare",
@@ -13093,27 +12808,6 @@
     ]
   },
   {
-    "id": "vulpea-si-strugurii",
-    "title": "Vulpea și strugurii",
-    "author": "Esop",
-    "origin": "greek",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "intelepciune",
-      "invidie"
-    ],
-    "summary": {
-      "ro": "O vulpe flămândă găsește un ciorchine de struguri copți atârnat prea sus și încearcă din răsputeri să ajungă la el. Când înțelege că nu poate, pleacă spunând că strugurii sunt acri — o lecție despre ce facem când nu putem avea ce ne dorim.",
-      "en": "A hungry fox finds a bunch of ripe grapes hanging too high and tries with all her might to reach it. When she sees she cannot, she walks away saying the grapes are sour — a lesson about what we do when we cannot have what we want."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Vulpea"
-    ]
-  },
-  {
     "id": "ridichea-uriasa",
     "title": "Ridichea uriașă",
     "author": "basm popular rus",
@@ -13139,267 +12833,6 @@
       "Cățelul",
       "Pisica",
       "Șoricelul"
-    ]
-  },
-  {
-    "id": "obstacolul-din-drum",
-    "title": "Obstacolul din drum",
-    "author": "poveste populară",
-    "origin": "universal",
-    "genre": "poveste",
-    "themes": [
-      "intelepciune",
-      "harnicie",
-      "curaj",
-      "bunatate"
-    ],
-    "summary": {
-      "ro": "Un rege pune un bolovan mare în mijlocul drumului și se ascunde să vadă cine îl va da la o parte. Negustorul și curtenii trec pe lângă el plângându-se, dar un țăran sărac îl mută la margine și găsește sub el un săculeț cu monede de aur.",
-      "en": "A king places a large boulder in the middle of the road and hides to see who will move it. A merchant and the courtiers pass by complaining, but a poor peasant pushes it aside and finds a purse of gold coins underneath."
-    },
-    "age": 6,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Regele",
-      "Negustorul",
-      "Curtenii",
-      "Țăranul"
-    ]
-  },
-  {
-    "id": "de-ce-nu-se-inteleg-bufnitele-si-corbii",
-    "title": "De ce nu se înțeleg bufnițele și corbii",
-    "author": "Panchatantra",
-    "origin": "indian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "istetime",
-      "inselaciune"
-    ],
-    "summary": {
-      "ro": "Corbii și bufnițele se urăsc de când lumea, iar un corb mai înțelept pune la cale un vicleșug: se lasă jumulit de pene și se preface rănit, ca să ajungă în scorburile dușmanilor. Bufnițele îl primesc din milă, iar corbul le plătește cu foc.",
-      "en": "Crows and owls have hated each other for as long as anyone can remember, and one clever crow hatches a trick: he has his feathers plucked and pretends to be wounded so the owls will take him in. They do, out of pity, and he repays them with fire."
-    },
-    "age": 7,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Corbul cel înțelept",
-      "Bufnița blândă"
-    ]
-  },
-  {
-    "id": "cele-trei-dorinte",
-    "title": "Cele trei dorințe",
-    "author": "folclor românesc",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "magie",
-      "intelepciune",
-      "umor"
-    ],
-    "summary": {
-      "ro": "Un moș și o babă zgârciți îl ajută, fără prea mare chef, pe un drumeț să-și ducă sacul până în vârful dealului, iar drumețul se dovedește a fi un vrăjitor care le dăruiește trei dorințe. Cei doi le risipesc pe nimicuri, înainte de a apuca să ceară ceva cu folos.",
-      "en": "A stingy old couple grudgingly help a traveller carry his sack up the hill, and he turns out to be a wizard who grants them three wishes. Before they can agree on anything worthwhile, they fritter all three away on trifles."
-    },
-    "age": 6,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Moșul",
-      "Baba",
-      "Vrăjitorul"
-    ]
-  },
-  {
-    "id": "familia-din-padure",
-    "title": "Familia din pădure",
-    "author": "poveste populară",
-    "origin": "indian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "prietenie",
-      "intelepciune",
-      "padure",
-      "cooperare"
-    ],
-    "summary": {
-      "ro": "Patru animale dintr-o pădure îndepărtată se ceartă în fiecare zi: un elefant, o maimuță, un iepure și o coțofană. Ca să pună capăt gâlcevei, pornesc o întrecere a amintirilor, ca să afle cine e cel mai bătrân, și ajung să trăiască împreună ca o familie.",
-      "en": "Four animals in a distant forest quarrel every day: an elephant, a monkey, a hare and a magpie. To end the fighting they compare memories to see who is oldest, and end up living together as one family."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Elefantul",
-      "Maimuța",
-      "Iepurele",
-      "Coțofana"
-    ]
-  },
-  {
-    "id": "cutiuta-magica",
-    "title": "Cutiuța magică",
-    "author": "poveste populară",
-    "origin": "universal",
-    "genre": "poveste",
-    "themes": [
-      "bunatate",
-      "invidie",
-      "magie",
-      "dreptate"
-    ],
-    "summary": {
-      "ro": "Un țăran sărman găsește o sămânță din care crește un copac cu fructe de aur, dar o pasăre îi fură roadele. Urmărind-o, ajunge la o petrecere a animalelor și pune mâna pe o cutiuță care, lovită de trei ori, scoate mese întregi de mâncare; boierul lacom care o fură primește însă cu totul altceva.",
-      "en": "A poor peasant finds a seed that grows into a tree of golden fruit, but a bird keeps stealing the harvest. Following it, he reaches an animals' feast and takes a little box that, struck three times, produces whole tables of food; the greedy boyar who steals it gets something else entirely."
-    },
-    "age": 6,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Țăranul",
-      "Mama",
-      "Boierul",
-      "Maimuța",
-      "Pasărea"
-    ]
-  },
-  {
-    "id": "in-cautarea-noptii",
-    "title": "În căutarea nopții",
-    "author": "poveste populară",
-    "origin": "universal",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "magie",
-      "intelepciune",
-      "curaj"
-    ],
-    "summary": {
-      "ro": "Pe vremuri cerul stătea aproape de pământ, iar oamenii și animalele nu cunoșteau noaptea, așa că somnul era greu de găsit. Cei mai curajoși bărbați pornesc să spargă vasele cu întuneric păzite de demonul Aza, iar Uru, cel mai curajos dintre ei, este prefăcut în bufniță pentru a veghea întunericul.",
-      "en": "Long ago the sky hung close to the earth, and people and animals knew no night, so sleep was hard to find. The bravest men set out to break the vessels of darkness guarded by the demon Aza, and Uru, the bravest of them, is turned into an owl to watch over the night."
-    },
-    "age": 6,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Uru",
-      "Liliacul",
-      "Bătrânul înțelept"
-    ]
-  },
-  {
-    "id": "cea-mai-mare-bogatie-a-omului",
-    "title": "Cea mai mare bogăție a omului",
-    "author": "basm popular andin",
-    "origin": "andean",
-    "genre": "poveste",
-    "themes": [
-      "intelepciune",
-      "calatorie",
-      "bunatate"
-    ],
-    "summary": {
-      "ro": "Doi călători se întâlnesc într-un pustiu: un tânăr care se plânge de sărăcie și un bătrân înțelept. Printr-o serie de întrebări simple, bătrânul îi arată tânărului că sănătatea și mintea sunt cea mai mare bogăție.",
-      "en": "Two travellers meet in a desert: a young man complaining of poverty and a wise old man. Through a few simple questions, the old man shows him that health and a clear mind are the greatest wealth."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Tânărul",
-      "Bătrânul călător"
-    ]
-  },
-  {
-    "id": "jaguarul-si-ploaia",
-    "title": "Jaguarul și ploaia",
-    "author": "poveste populară",
-    "origin": "universal",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "padure",
-      "intelepciune",
-      "umor"
-    ],
-    "summary": {
-      "ro": "Un jaguar se laudă că îi poate speria pe oamenii care dorm afară, dar răgetul lui nu mai sperie pe nimeni. Ploaia îi arată atunci, cu o furtună, că puterea care sperie cel mai tare este cea pe care nu o poți stăpâni.",
-      "en": "A jaguar boasts that he can scare the villagers sleeping outside, but his roar no longer impresses them. The rain answers with a storm and shows him that the power people fear most is the one they cannot control."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Jaguarul",
-      "Ploaia",
-      "Oamenii"
-    ]
-  },
-  {
-    "id": "respectul-nu-se-cumpara-cu-aur",
-    "title": "Respectul nu se cumpără cu aur",
-    "author": "poveste populară",
-    "origin": "universal",
-    "genre": "poveste",
-    "themes": [
-      "intelepciune",
-      "dreptate",
-      "umor",
-      "istetime"
-    ],
-    "summary": {
-      "ro": "Un moșier bogat și mândru se supără că un țăran nu se pleacă în fața lui și îi propune să-i dea toată averea, cu condiția să primească plecăciuni. Țăranul întoarce vorbele lui: dacă averile se schimbă, cel sărac va fi moșierul, iar respectul nu are nicio legătură cu aurul din ladă.",
-      "en": "A rich and proud landowner is offended when a peasant does not bow to him, so he offers the man his whole fortune in exchange for bows. The peasant turns his words around: if the fortunes change, the poor man will be the landowner, and respect has nothing to do with gold in a chest."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Moșierul",
-      "Țăranul"
-    ]
-  },
-  {
-    "id": "li-si-calugarul",
-    "title": "Li și călugărul",
-    "author": "poveste populară",
-    "origin": "chinese",
-    "genre": "poveste",
-    "themes": [
-      "istetime",
-      "copilarie",
-      "umor",
-      "adevar"
-    ],
-    "summary": {
-      "ro": "Li, cel mai somnoros elev al unui călugăr, adoarme la lecție și se apără spunând că a fost la Buda. Călugărul, care dormita și el la ore, primește un răspuns atât de isteț încât învață să fie mai atent.",
-      "en": "Li, the sleepiest pupil of a monk, dozes off in class and claims he was visiting the Buddha. The monk, who also nods off during lessons, gets such a clever answer that he learns to pay more attention."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Li",
-      "Călugărul",
-      "Tatăl lui Li"
-    ]
-  },
-  {
-    "id": "de-ce-este-mierea-rara",
-    "title": "De ce este mierea rară",
-    "author": "folclor românesc",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "magie",
-      "natura",
-      "adevar"
-    ],
-    "summary": {
-      "ro": "Un culegător de miere e oprit la timp de o voce din copac: în scorbură locuiește Maba, zâna mierii, care îl învață să ia mierea fără să rănească albinele. El primește miere din belșug cu o singură condiție — să nu-i rostească numele în fața nimănui.",
-      "en": "A honey gatherer is stopped just in time by a voice from the tree: in the hollow lives Maba, the honey fairy, who teaches him to take honey without harming the bees. She grants him all the honey he wants on one condition — that he never speak her name to anyone."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Culegătorul de miere",
-      "Maba"
     ]
   },
   {
@@ -13449,30 +12882,6 @@
       "Lange Wapper",
       "Bețivul",
       "Hoțul"
-    ]
-  },
-  {
-    "id": "legenda-regelui-laurin-si-gradina-de-trandafiri",
-    "title": "Legenda regelui Laurin și grădina de trandafiri",
-    "author": "poveste populară",
-    "origin": "universal",
-    "genre": "legenda",
-    "themes": [
-      "magie",
-      "printese",
-      "natura",
-      "curaj"
-    ],
-    "summary": {
-      "ro": "Regele pitic Laurin se îndrăgostește de prințesa Similde și o răpește în regatul său de sub munți. Cavalerii pornesc să o salveze și rup trandafirii fermecați, iar blestemul lui Laurin lasă Dolomiții cu lumina roz a amurgului.",
-      "en": "King Laurin, a dwarf, falls in love with Princess Similde and carries her off to his underground kingdom. Her knights come to rescue her and cut down the enchanted roses, and Laurin's curse leaves the Dolomites glowing pink at dusk."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Regele Laurin",
-      "Prințesa Similde",
-      "Cavalerii"
     ]
   },
   {
@@ -13580,30 +12989,6 @@
     ]
   },
   {
-    "id": "povestea-toamnei",
-    "title": "Povestea Toamnei",
-    "author": "A Fost Odată",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "natura",
-      "magie",
-      "copilarie",
-      "intelepciune"
-    ],
-    "summary": {
-      "ro": "Zâna Toamna coboară pe pământ la sfârșit de vară, pictează frunzele și umple livezile cu roade. Într-un sat, o liniștește pe micuța Ana, căreia îi este dor de vacanță, și îi dă un măr auriu pentru prima zi de școală.",
-      "en": "At the end of summer the Autumn Fairy comes down to earth, paints the leaves and fills the orchards with fruit. In a village she comforts little Ana, who misses the holiday, and gives her a golden apple for the first day of school."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 2024,
-    "characters": [
-      "Zâna Toamna",
-      "Ana"
-    ]
-  },
-  {
     "id": "calatoriile-lui-gulliver",
     "title": "Călătoriile lui Gulliver",
     "author": "Jonathan Swift",
@@ -13625,30 +13010,6 @@
     "characters": [
       "Gulliver",
       "Regele liliputanilor"
-    ]
-  },
-  {
-    "id": "la-cirese",
-    "title": "La cireșe",
-    "author": "Ion Creangă",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "copilarie",
-      "umor",
-      "familie"
-    ],
-    "summary": {
-      "ro": "Într-o vară, Nică pornește cu gândul să fure cireșe din grădina mătușii Mărioara. Copilăria lui năzdrăvană iese la iveală în fiecare pas, iar episodul se încheie cu o pedeapsă pe măsura năzbâtiei.",
-      "en": "One summer, Nică sets out to steal cherries from his aunt Mărioara’s orchard. His mischievous childhood shows in every step, and the episode ends with a punishment to match his prank."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "year": 1881,
-    "characters": [
-      "Nică",
-      "Mătușa Mărioara",
-      "Băieții"
     ]
   },
   {
@@ -13891,56 +13252,6 @@
     ]
   },
   {
-    "id": "mariana-si-pepitele-de-aur",
-    "title": "Mariana și pepitele de aur",
-    "author": "legendă argentiniană",
-    "origin": "argentinian",
-    "genre": "legenda",
-    "themes": [
-      "magie",
-      "aventura",
-      "curiozitate"
-    ],
-    "summary": {
-      "ro": "Într-un oraș din provincia San Juan, în Argentina, o femeie bătrână pe nume Mariana vinde pepite de aur și le spune povești copiilor. Când câțiva spanioli o urmăresc ca să-i descopere comoara, câinele ei se preschimbă într-o fiară înfricoșătoare, iar Mariana dispare fără urmă. Legenda a dat localității numele Pocito, „mica groapă”.",
-      "en": "In a town in Argentina's San Juan province, an old woman named Mariana sells gold nuggets and tells stories to the children. When a group of Spaniards follow her in search of her treasure, her dog turns into a terrifying beast and Mariana vanishes without a trace. The legend gave the town its name, Pocito — “the little pit”."
-    },
-    "age": 6,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Mariana",
-      "Câinele Marianei",
-      "Copiii",
-      "Spaniolii"
-    ]
-  },
-  {
-    "id": "cocosul-soarele-si-luna",
-    "title": "Cocoșul, Soarele și Luna",
-    "author": "poveste populară grecească",
-    "origin": "greek",
-    "genre": "poveste",
-    "themes": [
-      "mitologie",
-      "animale",
-      "muzica",
-      "prietenie"
-    ],
-    "summary": {
-      "ro": "Un cocoș cu glas puternic cântă pe rând pentru toate planetele, dar Luna nu e niciodată mulțumită de repertoriu. Într-o zi ea îl aruncă din cer pe pământ, iar Soarele, supărat pe nedreptatea făcută prietenului său, se desparte pentru totdeauna de Lună.",
-      "en": "A rooster with a powerful voice sings for the planets one by one, but the Moon is never pleased with his repertoire. One day she hurls him out of the sky, and the Sun, angry at the injustice done to his friend, parts ways with the Moon for good."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Cocoșul",
-      "Soarele",
-      "Luna",
-      "Jupiter",
-      "Saturn"
-    ]
-  },
-  {
     "id": "printul-blestemat",
     "title": "Prințul blestemat",
     "author": "basm popular egiptean",
@@ -14077,30 +13388,6 @@
     ]
   },
   {
-    "id": "maimuta-si-broasca-testoasa",
-    "title": "Maimuța și broasca țestoasă",
-    "author": "poveste populară indiană",
-    "origin": "indian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "mare",
-      "prietenie",
-      "istetime"
-    ],
-    "summary": {
-      "ro": "O maimuță singuratică se împrietenește cu o broască țestoasă, care o invită să vadă regatul de peste mare. Pe drum, broasca mărturisește că leul bolnav are nevoie de o inimă de maimuță, dar maimuța se folosește de istețime și scapă.",
-      "en": "A lonely monkey befriends a turtle, who invites her to see the kingdom across the sea. On the way the turtle admits that the sick lion needs a monkey's heart, but the monkey uses her wits and escapes."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Maimuța",
-      "Broasca țestoasă",
-      "Leul"
-    ]
-  },
-  {
     "id": "don-quijote",
     "title": "Don Quijote",
     "author": "Miguel de Cervantes",
@@ -14211,31 +13498,6 @@
       "Fetița tâlharilor",
       "Renul"
     ]
-  },
-  {
-    "id": "cainele-si-catelul",
-    "title": "Câinele și cățelul",
-    "author": "Grigore Alexandrescu",
-    "origin": "romanian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "umor",
-      "dreptate",
-      "intelepciune"
-    ],
-    "summary": {
-      "ro": "Dulăul Samson se laudă în fața unui bou că nu suportă mândria și că vrea egalitate. Când cățelul Samurache îl ia în serios și îl numește frate, Samson îl învață repede cât de mare e diferența dintre ei.",
-      "en": "Samson the yard dog boasts to an ox that he cannot stand pride and wants equality. When little Samurache takes him at his word and calls him brother, Samson quickly teaches him how big the difference between them is."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Samson",
-      "Samurache",
-      "Boul"
-    ],
-    "year": 1842
   },
   {
     "id": "robin-hood",
@@ -14392,31 +13654,6 @@
     ]
   },
   {
-    "id": "de-ce-l-a-indragit-cainele-pe-om",
-    "title": "De ce l-a îndrăgit câinele pe om",
-    "author": "poveste populară maghiară",
-    "origin": "hungarian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "prietenie",
-      "calatorie"
-    ],
-    "summary": {
-      "ro": "Un câine care latră nopțile nu mai poate trăi în pădure nici cu ursul, nici cu vulpea, nici cu iepurele, căci toți se sperie de lătratul lui. Abia la casa pădurarului găsește pe cineva căruia îi place lătratul, iar de atunci câinele rămâne lângă om.",
-      "en": "A dog that barks at night can no longer live in the forest with the bear, the fox or the hare, because all of them are frightened by his barking. Only at the forester's house does he find someone who welcomes it, and from then on the dog stays with man."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Câinele",
-      "Ursul",
-      "Vulpea",
-      "Iepurele",
-      "Pădurarul"
-    ]
-  },
-  {
     "id": "zana-portocala",
     "title": "Zâna portocală",
     "author": "poveste populară turcească",
@@ -14462,30 +13699,6 @@
     "characters": [
       "Șoarecele",
       "Pisica"
-    ]
-  },
-  {
-    "id": "liliacul-nerecunoscator",
-    "title": "Liliacul nerecunoscător",
-    "author": "poveste populară australiană",
-    "origin": "australian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "invidie",
-      "umor",
-      "bunatate"
-    ],
-    "summary": {
-      "ro": "Un liliac se plânge de frig, iar vulturul convinge păsările să îi dăruiască fiecare câte o pană. Când liliacul devine înfumurat și nerecunoscător, păsările își iau penele înapoi, iar el rămâne fără pene și se ascunde de lumina zilei.",
-      "en": "A bat complains about the cold, and the eagle persuades the birds to give him one feather each. When the bat becomes vain and ungrateful, the birds take their feathers back, and he is left bare, hiding from daylight."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Liliacul",
-      "Vulturul",
-      "Păsările"
     ]
   },
   {
@@ -14586,52 +13799,6 @@
     ]
   },
   {
-    "id": "magarul-care-a-salvat-o-cetate",
-    "title": "Măgarul care a salvat o cetate",
-    "author": "poveste populară croată",
-    "origin": "croatian",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "umor",
-      "istetime",
-      "curaj"
-    ],
-    "summary": {
-      "ro": "Un om sărac își vinde măgarul unui rege pe greutatea lui în aur, lăudându-l că poate cuceri cetăți. Când războiul ajunge la porți, măgarul rage atât de tare încât dușmanii o iau la fugă.",
-      "en": "A poor man sells his donkey to a king for its weight in gold, boasting that it can conquer cities. When war reaches the gates, the donkey brays so loudly that the enemy army runs away."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Omul sărac",
-      "Măgarul",
-      "Regele"
-    ]
-  },
-  {
-    "id": "berta-si-nero",
-    "title": "Berta și Nero",
-    "author": "poveste populară italiană",
-    "origin": "italian",
-    "genre": "poveste",
-    "themes": [
-      "istetime",
-      "bunatate",
-      "istorie"
-    ],
-    "summary": {
-      "ro": "Bătrâna Berta torce și cântă într-un cartier din Roma. Când împăratul Nero trece pe acolo, ea îi urează o mie de ani, iar răspunsul ei isteț îi aduce o răsplată neașteptată.",
-      "en": "Old Berta spins and sings in a district of Rome. When Emperor Nero passes by, she wishes him a thousand years, and her clever answer brings her an unexpected reward."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Berta",
-      "Nero"
-    ]
-  },
-  {
     "id": "ultimul-rege-maimuta",
     "title": "Ultimul rege maimuță",
     "author": "poveste populară africană",
@@ -14713,29 +13880,6 @@
       "Uriașul însetat",
       "Uriașul mâncăcios",
       "Uriașul care ține muntele"
-    ]
-  },
-  {
-    "id": "ivan-mincinosul",
-    "title": "Ivan mincinosul",
-    "author": "poveste populară",
-    "origin": "ukrainian",
-    "genre": "poveste",
-    "themes": [
-      "umor",
-      "istetime",
-      "calatorie",
-      "animale"
-    ],
-    "summary": {
-      "ro": "Tânărul Ivan se tocmește vizitiu la un boier care, ca să treacă drumul, începe să spună povești tot mai mari despre iepurii lui. Ivan îi răspunde cu povestea podului care se prăbușește sub mincinoși, iar boierul își retrage încet-încet toate laudările.",
-      "en": "Young Ivan is hired as a coachman by a boyar who, to pass the time on the road, starts telling ever bigger stories about his rabbits. Ivan answers with the tale of a bridge that collapses under liars, and the boyar gradually takes back all his boasts."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Ivan",
-      "Boierul"
     ]
   },
   {
@@ -15302,28 +14446,6 @@
       "Dimitri",
       "Fetița înțeleaptă",
       "Judecătorul"
-    ]
-  },
-  {
-    "id": "graurul-cantaret",
-    "title": "Graurul cântăreț",
-    "author": "Esop",
-    "origin": "greek",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "muzica"
-    ],
-    "summary": {
-      "ro": "Un graur ia lecții de cântat de la un sticlete și încântă pădurea cu trilurile învățate. Într-o noapte, privighetoarea cântă, toți își întorc privirile spre ea, iar graurul ascultă și el vrăjit.",
-      "en": "A starling takes singing lessons from a goldfinch and delights the forest with the trills he has learned. One night a nightingale sings, everyone turns to her, and the starling listens, enchanted as well."
-    },
-    "age": 5,
-    "addedAt": "2026-11-22",
-    "characters": [
-      "Graurul",
-      "Sticletele",
-      "Privighetoarea"
     ]
   },
   {
@@ -18981,41 +18103,6 @@
     "age": 5
   },
   {
-    "id": "somnoroase-pasarele",
-    "title": "Somnoroase păsărele",
-    "author": "Mihai Eminescu",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 1883,
-    "themes": [
-      "natura",
-      "padure",
-      "vis"
-    ],
-    "summary": {
-      "ro": "Poezia de seară a lui Mihai Eminescu, în care păsărelele, izvoarele și lebedele se pregătesc de somn sub lumina blândă a lunii.",
-      "en": "Mihai Eminescu’s beloved bedtime poem, as birds, springs and swans settle quietly to sleep beneath the moonlight."
-    },
-    "age": 3
-  },
-  {
-    "id": "iarna-alecsandri",
-    "title": "Iarna",
-    "author": "Vasile Alecsandri",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 1868,
-    "themes": [
-      "iarna",
-      "natura"
-    ],
-    "summary": {
-      "ro": "Celebrul pastel al lui Vasile Alecsandri despre ninsoarea care acoperă satul și bucuria iernii senine.",
-      "en": "Vasile Alecsandri’s classic winter poem painting a snowy Romanian landscape and the bright stillness of a frosty morning."
-    },
-    "age": 6
-  },
-  {
     "id": "omul-de-zapada-andersen",
     "title": "Omul de zăpadă",
     "author": "Hans Christian Andersen",
@@ -19079,32 +18166,6 @@
     "summary": {
       "ro": "O mamă văduvă își trimite cei trei feciori la nuntă rugându-i să-i aducă un dar; la întoarcere, faptele lor explică, în legenda populară chinezească, cum au ajuns pe cer Soarele, Luna și stelele.",
       "en": "A widowed mother sends her three sons to a wedding and asks for a gift in return; their choices on coming home explain, in the Chinese folk legend, how the Sun, the Moon and the stars came to shine in the sky."
-    },
-    "age": 4
-  },
-  {
-    "id": "101-dalmatieni",
-    "title": "101 Dalmațieni",
-    "author": "Dodie Smith",
-    "genre": "roman",
-    "origin": "british",
-    "year": 1956,
-    "themes": [
-      "animale",
-      "familie",
-      "aventura",
-      "curaj"
-    ],
-    "characters": [
-      "Pongo",
-      "Perdita",
-      "Roger",
-      "Anita",
-      "Cruella de Vil"
-    ],
-    "summary": {
-      "ro": "Când puii dalmațieni ai lui Pongo și ai Perditei sunt răpiți din Londra, părinții lor pornesc într-o cursă plină de curaj ca să-i salveze pe toți.",
-      "en": "When Pongo and Perdita’s spotted puppies are stolen in London, their parents embark on a daring rescue mission to bring every puppy home."
     },
     "age": 4
   },
@@ -19298,70 +18359,6 @@
     },
     "year": 2023,
     "age": 4
-  },
-  {
-    "id": "girafa-cu-dungi",
-    "title": "Girafa cu dungi",
-    "author": "Oameni mici și mari",
-    "genre": "poveste",
-    "origin": "romanian",
-    "themes": [
-      "animale",
-      "prietenie",
-      "bunatate"
-    ],
-    "characters": [
-      "Girafa",
-      "Tigrul"
-    ],
-    "summary": {
-      "ro": "O girafă cu dungi își găsește locul alături de tigru și de alte animale vărgate, într-un club în care le leagă spiritul prieteniei.",
-      "en": "A striped giraffe finds her place alongside a tiger and other striped animals in a club united by the spirit of friendship."
-    },
-    "year": 2022,
-    "age": 4
-  },
-  {
-    "id": "aripile-fluturelui",
-    "title": "Aripile fluturelui",
-    "author": "Oameni mici și mari",
-    "genre": "poveste",
-    "origin": "romanian",
-    "themes": [
-      "animale",
-      "natura",
-      "curaj"
-    ],
-    "characters": [
-      "Fluturele"
-    ],
-    "summary": {
-      "ro": "Un fluture prinde încredere în aripile sale și își ia zborul după ce o petală de floare lipită pe una dintre aripi se desprinde.",
-      "en": "A butterfly gains confidence in its wings and takes flight once a flower petal stuck to one wing comes loose."
-    },
-    "year": 2022,
-    "age": 4
-  },
-  {
-    "id": "pupici-pupici",
-    "title": "Pupici, pupici",
-    "author": "Selma Mandine",
-    "genre": "poveste",
-    "origin": "french",
-    "themes": [
-      "familie",
-      "copilarie",
-      "bunatate"
-    ],
-    "summary": {
-      "ro": "Cum este un pupic? Uneori moale ca un ghemotoc de vată, alteori înțepător ca un cactus — o poveste jucăușă despre gesturile de dragoste din familie.",
-      "en": "What does a kiss feel like? Soft as cotton wool or prickly as a cactus — a playful little story about family affection."
-    },
-    "year": 2008,
-    "characters": [
-      "Cățelul Rex"
-    ],
-    "age": 3
   },
   {
     "id": "a-fost-odata-ca-niciodata-oameni-mici",
@@ -24455,298 +23452,6 @@
     ]
   },
   {
-    "id": "frigiderul-poznas",
-    "title": "Frigiderul poznaș",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "umor",
-      "copilarie"
-    ],
-    "characters": [
-      "Frigiderul",
-      "Motanul"
-    ],
-    "summary": {
-      "ro": "Un frigider poznaș și motanul casei sunt prieteni la cataramă: frigiderul își deschide ușa ca motanul să guste din mâncare. Într-o zi motanul rămâne închis în frigider și îngheață, dar se dezgheață teafăr, iar cei doi rămân prieteni.",
-      "en": "A mischievous refrigerator and the house cat are the best of friends: the fridge opens its door so the cat can nibble at the food. One day the cat gets locked inside and freezes, but he thaws out safe and the two remain friends."
-    }
-  },
-  {
-    "id": "cocostarcul-si-pescarul",
-    "title": "Cocostârcul și pescarul",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "umor",
-      "istetime"
-    ],
-    "characters": [
-      "Cocostârcul",
-      "Pescarul"
-    ],
-    "summary": {
-      "ro": "Un cocostârc și un pescar se ceartă la baltă: pasărea clămpăne din cioc toată ziua și nu prinde nimic, iar pescarul o mustră că are cioc, dar nu are cap și o îndeamnă să pună ciocul la treabă. Cocostârcul ia sfatul în literă și, pe tăcute, își bagă ciocul în coșul cu pește al pescarului.",
-      "en": "A stork and a fisherman quarrel at the pond: the bird clacks its beak all day and catches nothing, and the fisherman scolds it for having a beak but no head and tells it to put its beak to work. The stork takes the advice literally and quietly dips its beak into the fisherman's basket of fish."
-    }
-  },
-  {
-    "id": "gat-gol",
-    "title": "Gât gol",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "umor"
-    ],
-    "characters": [
-      "Gât-Gol"
-    ],
-    "summary": {
-      "ro": "Un pui cu gâtul gol apare într-o dimineață, cu un picior șchiop și fără poftă de mâncare. Încălzit și adăpat, prinde puteri și, într-o zi, scoate primul lui cântat de cocoșel.",
-      "en": "A bare-necked chick appears one morning, limping and refusing food. Warmed and given water, it regains its strength and one day crows for the first time."
-    }
-  },
-  {
-    "id": "calul-visator",
-    "title": "Calul visător",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "vis"
-    ],
-    "characters": [
-      "Calul"
-    ],
-    "summary": {
-      "ro": "Trei gâze cu venin coboară în picaj ca niște avioane și aterizează pe nara unui cal roib. Calul nu se sperie, dă din coadă, strănută o dată de le trimite departe și își vede liniștit mai departe de visat.",
-      "en": "Three stinging insects dive like warplanes and land on a chestnut horse's nostril. Unbothered, the horse swishes his tail, sneezes them away and calmly goes back to dreaming."
-    }
-  },
-  {
-    "id": "stii-tu",
-    "title": "Știi tu?",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "curiozitate",
-      "copilarie"
-    ],
-    "summary": {
-      "ro": "O poveste în versuri din lumea ogrăzii: cum își învață și își apără cloșca puii, ce vestește cocoșul în crucea nopții și cum amuțește curtea când lovește o răpitoare, care până la urmă ajunge prinsă în cușcă.",
-      "en": "A story in verse from the farmyard: how the mother hen teaches and protects her chicks, what the rooster crows in the dead of night, and how the yard falls silent when a predator strikes before ending up trapped in a cage."
-    },
-    "characters": [
-      "Cloșca",
-      "Cocoșul",
-      "Puiul",
-      "Răpitoarea"
-    ]
-  },
-  {
-    "id": "marele-gim",
-    "title": "Marele Gim",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "umor"
-    ],
-    "characters": [
-      "Gim",
-      "Brosca",
-      "Broscuța",
-      "Peștele"
-    ],
-    "summary": {
-      "ro": "Broscanul Gim se crede un împărat și stă tolănit pe piatră, mândru că prinde muște și libelule. Broscuțele din baltă îl păcălesc legând o ață de coada unui pește, iar peștele îl târăște prin apă până îi taie tot elanul.",
-      "en": "The frog Gim believes he is an emperor and lounges on a stone, proud of catching flies and dragonflies. The other frogs trick him by tying a string to a fish's tail, and the fish drags him through the water until his pride deflates."
-    }
-  },
-  {
-    "id": "vis-implinit",
-    "title": "Vis împlinit",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "vis",
-      "bunatate"
-    ],
-    "summary": {
-      "ro": "Un mic locuitor al pădurii, căruia lupul flămând nu-i dă voie, îi fură schiurile și pornește la vale. Cursa se termină cu o bufnă într-un copac, dar visul de a schia i s-a împlinit.",
-      "en": "A small forest dweller, denied permission by the hungry wolf, steals his skis and sets off down the slope. The ride ends with a bump into a tree, but the dream of skiing has come true."
-    }
-  },
-  {
-    "id": "racul-doctor",
-    "title": "Racul doctor",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "umor",
-      "bunatate"
-    ],
-    "characters": [
-      "Racul",
-      "Broscuța",
-      "Peștele",
-      "Vidra"
-    ],
-    "summary": {
-      "ro": "Racul doctor își deschide un cabinet modern în fundul bălții și primește la consultații broscuțe, pești și păsări cu cele mai felurite beteșuguri. Cu foarfeca lui mereu ascuțită, taie, coase și drege pe toată lumea, cu o încredere de sine care stârnește zâmbete.",
-      "en": "Doctor Crayfish opens a modern practice at the bottom of the pond and sees frogs, fish and birds with every kind of ailment. With his ever-sharp scissors he cuts, stitches and patches everyone up, with a self-confidence that raises smiles."
-    }
-  },
-  {
-    "id": "iepurasul-groza",
-    "title": "Iepurașul",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "padure"
-    ],
-    "characters": [
-      "Iepurașul"
-    ],
-    "summary": {
-      "ro": "Iepurașul se privește în oglindă și se miră de felul cum arată, cu urechile când lungi, când scurte și cu buza despicată. Ca să scape de privirile curioase, o ia la fugă prin pădure.",
-      "en": "The little rabbit looks at himself in the mirror and wonders at his long-then-short ears and split lip. To escape curious eyes, he runs off into the woods."
-    }
-  },
-  {
-    "id": "alarma-groza",
-    "title": "Alarma",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "umor"
-    ],
-    "summary": {
-      "ro": "La marginea bălții, un țânțar, o broscuță, o vrăbiuță, o libelulă, un șarpe, un pește și o țestoasă se adună în taină: un pescar avar a agățat șarpele cu un cârlig. Micile vietăți îl atacă pe pescar din toate părțile până când acesta își strânge coșul și fuge.",
-      "en": "At the edge of the pond, a mosquito, a frog, a sparrow, a dragonfly, a snake, a fish and a turtle gather in secret: a greedy fisherman has hooked the snake. The little creatures attack the fisherman from every side until he grabs his basket and runs."
-    },
-    "characters": [
-      "Țânțarul",
-      "Broscuța",
-      "Vrăbiuța",
-      "Libelula",
-      "Șarpele",
-      "Peștele",
-      "Țestoasa",
-      "Pescarul"
-    ]
-  },
-  {
-    "id": "tinda-cu-soricei",
-    "title": "Tinda cu șoricei",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "umor"
-    ],
-    "characters": [
-      "Mama",
-      "Motanul",
-      "Șoriceii"
-    ],
-    "summary": {
-      "ro": "Mama se plânge că are șoricei în tindă, iar motanul casei pare să fi surzit și orbit. Când prinde în sfârșit un șoricel, în loc să-l mănânce se apucă să joace box cu el.",
-      "en": "A mother complains that mice have taken over the pantry, while the house cat seems to have gone deaf and blind. When he finally catches a mouse, he boxes with it instead of eating it."
-    }
-  },
-  {
-    "id": "barfa-groza",
-    "title": "Bârfa",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "umor",
-      "adevar"
-    ],
-    "summary": {
-      "ro": "Găina și cocoșul pornesc o bârfă prin curte pe seama porcului, spunând că nu e bun de nimic. Când porcul își vede liniștit de treabă și sapă grădina, un pui le arată tuturor cât de greșită le-a fost vorba.",
-      "en": "The hen and the rooster start spreading gossip around the yard about the pig, claiming he is good for nothing. When the pig quietly digs up the garden, a chick points out how wrong their gossip was."
-    },
-    "characters": [
-      "Cocoșul",
-      "Găina",
-      "Porcul",
-      "Puii"
-    ]
-  },
-  {
-    "id": "iarna-groza",
-    "title": "Iarna",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "iarna",
-      "natura"
-    ],
-    "summary": {
-      "ro": "O schiță de iarnă în versuri: licuricii, broscuțele, ciocârliile, bondarii, fluturii și gărgărițele s-au ascuns în mici căsuțe, iar pădurea și lacul sunt acoperite de zăpadă, ger și vânt.",
-      "en": "A winter sketch in verse: fireflies, frogs, larks, bumblebees, butterflies and ladybugs have tucked themselves into little houses while snow, frost and cold wind blanket the woods and the pond."
-    }
-  },
-  {
-    "id": "nou-sosite",
-    "title": "Nou sosite",
-    "author": "Vasile Groza",
-    "genre": "poveste",
-    "origin": "romanian",
-    "year": 2005,
-    "themes": [
-      "animale",
-      "prietenie",
-      "umor"
-    ],
-    "summary": {
-      "ro": "O zarvă mare cuprinde pădurea: ursul, vulpea, ciocănitoarea, bursucul, cocoșul și celelalte vietăți își schimbă locurile, speriate de un lup nou sosit. Micile animale se adună și îl înfruntă împreună, iar lupul, înfruntat de ei, pleacă din pădure.",
-      "en": "A great commotion takes over the forest: the bear, the fox, the woodpecker, the badger, the rooster and the other creatures move aside, frightened by a newly arrived wolf. The small animals gather and face him together, and the wolf, challenged by them, leaves the forest."
-    },
-    "characters": [
-      "Lupul",
-      "Ursul",
-      "Vulpea",
-      "Ciocănitoarea",
-      "Bursucul",
-      "Cocoșul"
-    ]
-  },
-  {
     "id": "pippin-zboara-la-tara",
     "title": "Pippin zboară la țară",
     "author": "Laura Hangiu",
@@ -25049,101 +23754,6 @@
     },
     "addedAt": "2026-11-23",
     "age": 7
-  },
-  {
-    "id": "un-singur-fiu-tolstoi",
-    "title": "Un singur fiu",
-    "author": "Valentina Oseeva",
-    "origin": "russian",
-    "genre": "poveste",
-    "themes": [
-      "familie",
-      "bunatate",
-      "intelepciune"
-    ],
-    "characters": [
-      "Moșneagul",
-      "Cele trei mame",
-      "Cei trei fii"
-    ],
-    "summary": {
-      "ro": "Trei mame își laudă băieții la fântână, dar un moșneag recunoaște un singur fiu adevărat: pe cel care își ajută mama să ducă gălețile cu apă.",
-      "en": "Three mothers boast about their sons at a well, yet an old man sees only one true son: the boy who steps up to carry his mother’s heavy water buckets."
-    },
-    "addedAt": "2026-11-23",
-    "year": 1946,
-    "age": 4
-  },
-  {
-    "id": "ceasca-sparta-tolstoi",
-    "title": "Ceașca spartă",
-    "author": "Lev Tolstoi",
-    "origin": "russian",
-    "genre": "poveste",
-    "themes": [
-      "adevar",
-      "curaj",
-      "familie"
-    ],
-    "characters": [
-      "Băiețelul",
-      "Tatăl"
-    ],
-    "summary": {
-      "ro": "Un băiețel sparge din nebăgare de seamă o ceașcă scumpă fără să-l vadă nimeni, dar își face curaj și îi spune tatălui adevărul.",
-      "en": "A little boy accidentally breaks an expensive cup when no one is watching, yet finds the courage to tell his father the truth."
-    },
-    "addedAt": "2026-11-23",
-    "year": 1872,
-    "age": 4
-  },
-  {
-    "id": "bunicul-si-nepotul-tolstoi",
-    "title": "Bunicul și nepotul",
-    "author": "Lev Tolstoi",
-    "origin": "russian",
-    "genre": "poveste",
-    "themes": [
-      "familie",
-      "bunatate",
-      "intelepciune"
-    ],
-    "characters": [
-      "Bunicul",
-      "Mișa",
-      "Tatăl",
-      "Mama"
-    ],
-    "summary": {
-      "ro": "Văzând cum părinții îl dau pe bunicul bătrân la o parte de la masă cu o strachină de lemn, micul Mișa meșterește și el o strachină pentru când vor îmbătrâni ei.",
-      "en": "Seeing his parents push his frail grandfather from the table to eat from a wooden bowl, little Misha begins carving one for when they grow old."
-    },
-    "addedAt": "2026-11-23",
-    "year": 1875,
-    "age": 4
-  },
-  {
-    "id": "mosneagul-si-merii-tolstoi",
-    "title": "Moșneagul și merii",
-    "author": "Lev Tolstoi",
-    "origin": "russian",
-    "genre": "poveste",
-    "themes": [
-      "bunatate",
-      "harnicie",
-      "natura",
-      "intelepciune"
-    ],
-    "characters": [
-      "Moșneagul"
-    ],
-    "summary": {
-      "ro": "Un moșneag sădește meri deși știe că nu va mai apuca să mănânce din ei, bucuros că alții vor gusta merele și îi vor mulțumi.",
-      "en": "An old man plants apple trees even though he knows he will not live to eat their fruit, content that others will enjoy them and thank him."
-    },
-    "addedAt": "2026-11-23",
-    "year": 1872,
-    "age": 4
   },
   {
     "id": "capitanul-oceanului-stelar",
@@ -28235,32 +26845,6 @@
     "addedAt": "2026-11-23"
   },
   {
-    "id": "noni-elefantelul",
-    "title": "Noni elefănțelul",
-    "author": "Maria Mănescu",
-    "genre": "poveste",
-    "themes": [
-      "curiozitate",
-      "siguranta",
-      "ascultare",
-      "familie"
-    ],
-    "characters": [
-      "Noni",
-      "Mama lui Noni",
-      "Sora lui Noni",
-      "Tucanul Oco",
-      "Animalele din junglă"
-    ],
-    "summary": {
-      "ro": "Noni pleacă singur în junglă, deși mama i-a interzis. După ce tucanul Oco îl avertizează și întâlnește primejdiile pădurii, se întoarce acasă și învață să asculte.",
-      "en": "Noni goes into the jungle alone despite his mother’s warning. After toucan Oco alerts him and he encounters the dangers of the forest, he returns home and learns to listen."
-    },
-    "year": 2024,
-    "origin": "romanian",
-    "addedAt": "2026-11-23"
-  },
-  {
     "id": "zapsnack",
     "title": "Zapsnack",
     "author": "Mihai Mănescu",
@@ -28309,27 +26893,6 @@
     },
     "year": 2024,
     "origin": "romanian",
-    "addedAt": "2026-11-23"
-  },
-  {
-    "id": "vulpea-si-corbul",
-    "title": "Vulpea și corbul",
-    "author": "Esop",
-    "genre": "poveste",
-    "origin": "greek",
-    "themes": [
-      "animale",
-      "istetime",
-      "vanitate"
-    ],
-    "characters": [
-      "Vulpea",
-      "Corbul"
-    ],
-    "summary": {
-      "ro": "Un corb găsește o bucată de brânză și se așază cu ea într-un copac. O vulpe îl laudă până când acesta deschide ciocul să cânte, iar brânza cade în gura ei.",
-      "en": "A crow finds a piece of cheese and settles in a tree with it. A fox flatters the bird until it opens its beak to sing, and the cheese falls into her mouth."
-    },
     "addedAt": "2026-11-23"
   },
   {
@@ -31122,29 +29685,6 @@
     "addedAt": "2026-11-26"
   },
   {
-    "id": "gainusa-cocosul-si-soarecele",
-    "title": "Găinușa, cocoșul și șoarecele",
-    "author": "poveste populară europeană",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "harnicie",
-      "cooperare",
-      "munca"
-    ],
-    "characters": [
-      "Găinușa",
-      "Cocoșul",
-      "Șoarecele"
-    ],
-    "summary": {
-      "ro": "O găinușă găsește un bob de grâu și, pentru că prietenii ei refuză să o ajute, ea face singură toată treaba. La final, ea decide să mănânce singură pâinea proaspăt coaptă, învățându-i pe ceilalți o lecție despre importanța muncii.",
-      "en": "A little hen finds a grain of wheat and, because her friends refuse to help her, she does all the work herself. In the end, she decides to eat the freshly baked bread alone, teaching the others a lesson about the importance of hard work."
-    },
-    "origin": "european",
-    "addedAt": "2026-11-26"
-  },
-  {
     "id": "norul-vinovatie",
     "title": "Norul Vinovăție",
     "author": "Andreea Mihaela Stan",
@@ -31577,49 +30117,6 @@
     "addedAt": "2026-11-26"
   },
   {
-    "id": "broasca-testoasa-si-iepurele",
-    "title": "Broasca țestoasă și iepurele",
-    "author": "Esop",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "perseverenta",
-      "mandrie"
-    ],
-    "characters": [
-      "Broasca țestoasă",
-      "Iepurele"
-    ],
-    "summary": {
-      "ro": "Broasca țestoasă și iepurele se întrec într-o cursă, iar răbdarea și perseverența broaștei înving graba și îngâmfarea iepurelui.",
-      "en": "The tortoise and the hare race each other, and the tortoise’s patience and persistence overcome the hare’s arrogance."
-    },
-    "origin": "greek",
-    "addedAt": "2026-11-26"
-  },
-  {
-    "id": "greierele-si-furnica",
-    "title": "Greierele și furnica",
-    "author": "Jean de La Fontaine",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "harnicie",
-      "munca",
-      "iarna"
-    ],
-    "characters": [
-      "Greierele",
-      "Furnica"
-    ],
-    "summary": {
-      "ro": "După ce cântă toată vara fără grijă, greierele rămâne flămând la venirea iernii și îi cere ajutor furnicii harnice.",
-      "en": "After singing all summer without preparing, the grasshopper goes hungry in winter and asks the hardworking ant for help."
-    },
-    "origin": "french",
-    "addedAt": "2026-11-26"
-  },
-  {
     "id": "dumbo",
     "title": "Dumbo, elefantul zburător",
     "author": "Helen Aberson",
@@ -31662,75 +30159,6 @@
     "summary": {
       "ro": "Puiul de căprioară învață să fie curajos și să exploreze pădurea singur. El își găsește un prieten și înțelege că părinții se întorc mereu la el.",
       "en": "The fawn learns to be brave and explore the forest on its own. It finds a friend and understands that its parents always return."
-    },
-    "origin": "romanian",
-    "addedAt": "2026-11-26"
-  },
-  {
-    "id": "povestea-renului-rudolph",
-    "title": "Povestea renului Rudolph",
-    "author": "Robert L. May",
-    "genre": "poveste",
-    "themes": [
-      "craciun",
-      "iarna",
-      "curaj",
-      "identitate"
-    ],
-    "characters": [
-      "Rudolph",
-      "Moș Crăciun"
-    ],
-    "summary": {
-      "ro": "Povestea prezintă viața renului Rudolph, care este batjocorit de ceilalți din cauza nasului său roșu și strălucitor. În cele din urmă, el devine eroul lui Moș Crăciun, ajutându-l să livreze cadourile în siguranță în timpul unei nopți întunecate.",
-      "en": "The story presents the life of Rudolph the reindeer, who is mocked by others because of his bright red nose. Eventually, he becomes Santa's hero, helping him deliver gifts safely during a dark night."
-    },
-    "origin": "american",
-    "addedAt": "2026-11-26"
-  },
-  {
-    "id": "legenda-bradului-de-craciun",
-    "title": "Legenda bradului de Crăciun",
-    "author": "Autor necunoscut",
-    "genre": "poveste",
-    "themes": [
-      "iarna",
-      "craciun",
-      "bunatate",
-      "natura"
-    ],
-    "characters": [
-      "Pasărea",
-      "Bradul"
-    ],
-    "summary": {
-      "ro": "O pasăre rănită caută adăpost în timpul iernii și este refuzată de mai mulți copaci, până când un brad o primește cu bunătate. Drept răsplată pentru compasiunea sa, bradul primește darul de a rămâne mereu verde, devenind simbolul Crăciunului.",
-      "en": "A wounded bird seeks shelter during winter and is rejected by several trees until a fir tree kindly takes her in. As a reward for its compassion, the fir tree is granted the gift of remaining evergreen, becoming the symbol of Christmas."
-    },
-    "origin": "universal",
-    "addedAt": "2026-11-26"
-  },
-  {
-    "id": "legenda-omului-de-zapada",
-    "title": "Legenda omului de zăpadă",
-    "author": "Autor necunoscut",
-    "genre": "poveste",
-    "themes": [
-      "iarna",
-      "bunatate",
-      "magie",
-      "generozitate"
-    ],
-    "characters": [
-      "copil",
-      "om de zăpadă",
-      "Zâna Iarna",
-      "păsări",
-      "căprioare"
-    ],
-    "summary": {
-      "ro": "Un copil construiește un om de zăpadă, care prinde viață și împarte daruri păsărilor. Zâna Iarna îi oferă acestuia darul iubirii, transformându-l într-un simbol al bucuriei pentru toți copiii.",
-      "en": "A child builds a snowman that comes to life and shares gifts with the birds. The Winter Fairy grants him the gift of love, turning him into a symbol of joy for all children."
     },
     "origin": "romanian",
     "addedAt": "2026-11-26"
@@ -32466,29 +30894,6 @@
     "addedAt": "2026-11-26"
   },
   {
-    "id": "elefantica-nino-si-ceasca-de-cafea",
-    "title": "Elefănțica Nino și ceașca de cafea",
-    "author": "Maria Mănescu",
-    "genre": "poveste",
-    "themes": [
-      "familie",
-      "frati",
-      "adevar",
-      "responsabilitate"
-    ],
-    "characters": [
-      "Nino",
-      "Noni",
-      "Mama elefant"
-    ],
-    "summary": {
-      "ro": "Elefănțica Nino sparge din greșeală tabloul preferat al mamei sale după ce bea cafea. Cu ajutorul fratelui ei, Noni, ea învață să fie curajoasă și să își recunoască greșeala, primind iertarea mamei.",
-      "en": "Nino the elephant accidentally breaks her mother's favorite painting after drinking coffee. With her brother Noni's help, she learns to be brave and admit her mistake, receiving her mother's forgiveness."
-    },
-    "origin": "romanian",
-    "addedAt": "2026-11-26"
-  },
-  {
     "id": "florile-gemene",
     "title": "Florile gemene",
     "author": "Mihai Mănescu",
@@ -32528,30 +30933,6 @@
     "summary": {
       "ro": "Matias, un băiețel bolnav, pornește într-o aventură imaginară fascinantă alături de o rază de soare. El explorează lumi microscopice ascunse sub plantele din camera sa, descoperind creaturi ciudate și învățând despre ordinea lucrurilor.",
       "en": "Matias, a sick little boy, embarks on a fascinating imaginary adventure alongside a sunbeam. He explores microscopic worlds hidden beneath the plants in his room, discovering strange creatures and learning about the order of things."
-    },
-    "origin": "romanian",
-    "addedAt": "2026-11-26"
-  },
-  {
-    "id": "rausorul-captiv",
-    "title": "Râușorul captiv",
-    "author": "Cristina Beatrice Preda",
-    "genre": "poveste",
-    "themes": [
-      "familie",
-      "curaj",
-      "empatie",
-      "dragoste"
-    ],
-    "characters": [
-      "Râușor",
-      "Malul-Mamă",
-      "Malul-Tată",
-      "Luminița"
-    ],
-    "summary": {
-      "ro": "Un pui de râu suferă din cauza certurilor dintre părinții săi, malurile care îl înconjoară. El găsește curajul de a-și exprima durerea, reușind să îi facă pe aceștia să conștientizeze importanța iubirii și a armoniei.",
-      "en": "A little river suffers due to the arguments between its parents, the banks that surround it. It finds the courage to express its pain, successfully making them realize the importance of love and harmony."
     },
     "origin": "romanian",
     "addedAt": "2026-11-26"
@@ -32642,67 +31023,6 @@
       "en": "A magpie spends all summer trying to imitate a quail's graceful walk, only to fail and forget how to walk in her own natural way."
     },
     "year": 1841,
-    "origin": "romanian"
-  },
-  {
-    "id": "lupul-pocait",
-    "title": "Lupul pocăit",
-    "author": "Anton Pann",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "adevar",
-      "inselaciune"
-    ],
-    "characters": [
-      "Lupul",
-      "Ciobanul"
-    ],
-    "summary": {
-      "ro": "Un lup bătrân se preface că s-a pocăit și se angajează paznic la o stână, dar își arată curând firea adevărată și este prins de cioban.",
-      "en": "An aging wolf pretends to repent and hires himself out as a sheepdog, but his true nature soon shows and the shepherd catches him."
-    },
-    "year": 1841,
-    "origin": "romanian"
-  },
-  {
-    "id": "leul-deghizat",
-    "title": "Leul deghizat",
-    "author": "George Topîrceanu",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "istetime",
-      "umor"
-    ],
-    "characters": [
-      "Leul",
-      "Lupii"
-    ],
-    "summary": {
-      "ro": "Leul se deghizează în piele de măgar ca să vadă cum se poartă lupii cu supușii pașnici, iar când aceștia îl încolțesc, cel mai șiret lup se scapă cu o vorbă isteață.",
-      "en": "The lion disguises himself in a donkey skin to test how the wolves treat his gentle subjects; when cornered, the craftiest wolf talks his way out with a clever compliment."
-    },
-    "origin": "romanian"
-  },
-  {
-    "id": "balada-unui-greier-mic",
-    "title": "Balada unui greier mic",
-    "author": "George Topîrceanu",
-    "genre": "poveste",
-    "themes": [
-      "animale",
-      "natura",
-      "munca"
-    ],
-    "characters": [
-      "Greierele",
-      "Furnica"
-    ],
-    "summary": {
-      "ro": "Odată cu venirea toamnei reci, un greier mic rămâne fără provizii și se plânge că va trebui să ceară împrumut de la furnică.",
-      "en": "As cold autumn sweeps over the hills, a tiny cricket realizes he has gathered no grain and laments having to borrow from the ant."
-    },
     "origin": "romanian"
   },
   {

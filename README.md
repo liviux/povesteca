@@ -2,7 +2,7 @@
 
 **Ascultă pe [povesteca.top](https://povesteca.top/)**
 
-**1368 de povești și 1773 de înregistrări**
+**1294 de povești și 1685 de înregistrări**
 
 Povesteca e o bibliotecă de povești audio de calitate în limba română: teatru radiofonic și alte povești jucate de actori, cu regie, muzică sau efecte sonore. Le adună de pe Internet Archive, YouTube și alte surse publice și le poți asculta direct în pagină.
 
@@ -10,9 +10,9 @@ Nu are conturi, reclame sau AI și nu găzduiește fișiere audio.
 
 ## Ce fel de povești găsești
 
-Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
+Doar producții făcute ca să fie ascultate: teatru radiofonic, discuri de povești cu actori, muzică și efecte, povești spuse de un actor. Lecturile cu voce sintetică și canalele care urcă în masă înregistrări de proveniență neclară nu intră în catalog. Toate poveștile sunt în limba română, au cel puțin 3 minute, sunt potrivite pentru copii de până la 10 ani și fără povești cu subiect religios.
 
-Acum sunt 1368 de povești și 1773 de înregistrări, din 36 de surse gratuite:
+Acum sunt 1294 de povești și 1685 de înregistrări, din 36 de surse gratuite:
 
 - [Discuri Electrecord digitizate](https://archive.org/details/romanianvinyl) (Internet Archive). Pentru fiecare disc, regia, distribuția, muzica și anul sunt luate de pe disc.
 - [Biblioteca Maia Martin](https://archive.org/details/bibliotecamaiamartin) (Internet Archive)
@@ -28,7 +28,7 @@ Acum sunt 1368 de povești și 1773 de înregistrări, din 36 de surse gratuite:
 - [Teatrul de Păpuși „Puck” Cluj-Napoca](https://teatrulpuck.ro/audiopuck-2/) (audio direct MP3, AudioPuck)
 - [Teatrul pentru Copii și Tineret „Gong” Sibiu](https://teatrulgong.ro/podcast) (audio direct MP3 și YouTube oficial)
 - [Somnoroși Povești Audio](https://somnorosi.ro) (audio direct MP3, episoadele gratuite cu Mihaela Tatu)
-- [Cutiuța cu povești & Povești ascultătoare](https://www.youtube.com/@CutiutaMuzicalaOficial) (audio direct și YouTube oficial, cu Florin Piersic, Daniela Nane, Florin Piersic Jr., Iurie Darie, Anca Pandrea și Damian Victor Oancea)
+- [Cutiuța cu povești & Povești ascultătoare](https://www.youtube.com/@CutiutaMuzicalaOficial) (audio direct și YouTube oficial, cu Florin Piersic, Daniela Nane, Florin Piersic Jr. și Damian Victor Oancea)
 - [Pippin cel Curios („De vorbă cu patrimoniul”)](https://pippincelcurios.ro/) (audio direct MP3, povești dramatizate pe roluri)
 - [Teatru Radiofonic](https://www.youtube.com/@teatruradiofonic6362) (YouTube)
 - [Teatru pe Vinil](https://www.youtube.com/@TeatruPeVinil) (YouTube)

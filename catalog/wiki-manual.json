@@ -1377,11 +1377,6 @@
     }
   },
   "stories": {
-    "101-dalmatieni": {
-      "wikidata": "Q8563",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Hundred_and_One_Dalmatians",
-      "goodreads": "https://www.goodreads.com/work/editions/1703703"
-    },
     "abeille": {
       "goodreads": "https://www.goodreads.com/book/show/142003406"
     },
@@ -1498,11 +1493,6 @@
     "ber-caciula": {
       "goodreads": "https://www.goodreads.com/book/show/259497682"
     },
-    "broasca-testoasa-si-iepurele": {
-      "wikidata": "Q1067484",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Tortoise_and_the_Hare",
-      "goodreads": "https://www.goodreads.com/work/editions/1705522"
-    },
     "bucle-aurii": {
       "wikipedia": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears"
     },
@@ -1515,11 +1505,6 @@
     },
     "bunicul": {
       "goodreads": "https://www.goodreads.com/book/show/23490868"
-    },
-    "bunicul-si-nepotul": {
-      "wikidata": "Q469781",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Old_Man_and_his_Grandson",
-      "goodreads": "https://www.goodreads.com/work/editions/25072074"
     },
     "ca-soarele": {
       "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
@@ -1595,13 +1580,7 @@
     "cartea-cu-jucarii": {
       "goodreads": "https://www.goodreads.com/book/show/6454584"
     },
-    "cartea-cu-jucarii-partea-1": {
-      "goodreads": "https://www.goodreads.com/book/show/6454584"
-    },
     "cartea-cu-jucarii-partea-10": {
-      "goodreads": "https://www.goodreads.com/book/show/6454584"
-    },
-    "cartea-cu-jucarii-partea-11": {
       "goodreads": "https://www.goodreads.com/book/show/6454584"
     },
     "cartea-cu-jucarii-partea-12": {
@@ -1626,15 +1605,6 @@
       "goodreads": "https://www.goodreads.com/book/show/6454584"
     },
     "cartea-cu-jucarii-partea-5": {
-      "goodreads": "https://www.goodreads.com/book/show/6454584"
-    },
-    "cartea-cu-jucarii-partea-6": {
-      "goodreads": "https://www.goodreads.com/book/show/6454584"
-    },
-    "cartea-cu-jucarii-partea-7": {
-      "goodreads": "https://www.goodreads.com/book/show/6454584"
-    },
-    "cartea-cu-jucarii-partea-8": {
       "goodreads": "https://www.goodreads.com/book/show/6454584"
     },
     "cartea-cu-jucarii-partea-9": {
@@ -1722,10 +1692,6 @@
     },
     "cocosul": {
       "goodreads": "https://www.goodreads.com/book/show/20889519-din-lumea-celor-care-nu-cuvanta"
-    },
-    "cocosul-si-vulpea": {
-      "wikidata": "Q54308763",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Cock%2C_the_Dog_and_the_Fox"
     },
     "copiii-capitanului-grant": {
       "goodreads": "https://www.goodreads.com/book/show/17661787"
@@ -1999,11 +1965,6 @@
       "wikidata": "Q589197",
       "wikipedia": "https://en.wikipedia.org/wiki/Tales_from_Shakespeare"
     },
-    "gainusa-cocosul-si-soarecele": {
-      "wikidata": "Q3211550",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Little_Red_Hen",
-      "goodreads": "https://www.goodreads.com/work/editions/835962"
-    },
     "gandacelul-garleanu": {
       "goodreads": "https://www.goodreads.com/book/show/32807873-g-ndacelul"
     },
@@ -2017,11 +1978,6 @@
     },
     "ghiocelul": {
       "goodreads": "https://www.goodreads.com/book/show/212797595"
-    },
-    "greierele-si-furnica": {
-      "wikidata": "Q3207418",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Ant_and_the_Grasshopper",
-      "goodreads": "https://www.goodreads.com/work/editions/570904"
     },
     "greuceanu": {
       "wikidata": "Q5607819",
@@ -2207,11 +2163,6 @@
       "wikipedia": "https://ro.wikipedia.org/wiki/Amintiri_din_copil%C4%83rie",
       "goodreads": "https://www.goodreads.com/work/editions/70209528"
     },
-    "la-cirese": {
-      "wikidata": "Q3817660",
-      "wikipedia": "https://ro.wikipedia.org/wiki/Amintiri_din_copil%C4%83rie",
-      "goodreads": "https://www.goodreads.com/work/editions/70209528"
-    },
     "la-scaldat": {
       "wikidata": "Q3817660",
       "wikipedia": "https://ro.wikipedia.org/wiki/Amintiri_din_copil%C4%83rie",
@@ -2254,10 +2205,6 @@
     "legenda-martisorului": {
       "wikidata": "Q1212214",
       "wikipedia": "https://ro.wikipedia.org/wiki/M%C4%83r%C8%9Bi%C8%99or"
-    },
-    "legenda-regelui-laurin-si-gradina-de-trandafiri": {
-      "wikidata": "Q55616629",
-      "wikipedia": "https://en.wikipedia.org/wiki/King_Laurin"
     },
     "legendele-olimpului": {
       "wikidata": "Q15910026",
@@ -2575,9 +2522,6 @@
     "povestea-furnicii-druta": {
       "goodreads": "https://www.goodreads.com/book/show/42857029"
     },
-    "povestea-gastelor": {
-      "goodreads": "https://www.goodreads.com/book/show/106391670"
-    },
     "povestea-lui-mos-ene": {
       "wikidata": "Q258749",
       "wikipedia": "https://en.wikipedia.org/wiki/Ole_Luk%C3%B8je",
@@ -2598,11 +2542,6 @@
     "povestea-primei-scrisori": {
       "wikidata": "Q104523182",
       "goodreads": "https://www.goodreads.com/work/editions/1540550"
-    },
-    "povestea-renului-rudolph": {
-      "wikidata": "Q965003",
-      "wikipedia": "https://en.wikipedia.org/wiki/Rudolph_the_Red-Nosed_Reindeer",
-      "goodreads": "https://www.goodreads.com/work/editions/1203733"
     },
     "povestea-rinocerului": {
       "wikidata": "Q1247723",
@@ -2685,9 +2624,6 @@
       "wikipedia": "https://ro.wikipedia.org/wiki/Amintiri_din_copil%C4%83rie",
       "goodreads": "https://www.goodreads.com/book/show/26789963"
     },
-    "pupici-pupici": {
-      "goodreads": "https://www.goodreads.com/book/show/36178883"
-    },
     "quentin-durward": {
       "wikidata": "Q2469230",
       "wikipedia": "https://en.wikipedia.org/wiki/Quentin_Durward",
@@ -2763,9 +2699,6 @@
       "wikidata": "Q11872",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Steadfast_Tin_Soldier",
       "goodreads": "https://www.goodreads.com/book/show/576565"
-    },
-    "somnoroase-pasarele": {
-      "goodreads": "https://www.goodreads.com/book/show/146608914"
     },
     "spaima-zmeilor": {
       "goodreads": "https://www.goodreads.com/book/show/34169823"
@@ -2938,10 +2871,6 @@
       "wikidata": "Q2914800",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Stork"
     },
-    "vulpea-si-corbul": {
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Crow",
-      "goodreads": "https://www.goodreads.com/work/editions/44191220-the-fox-and-the-crow"
-    },
     "vulpea-si-gastele-grimm": {
       "wikidata": "Q872422",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Geese",
@@ -2951,11 +2880,6 @@
       "wikidata": "Q2412941",
       "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Cat",
       "goodreads": "https://www.goodreads.com/book/show/17904953"
-    },
-    "vulpea-si-strugurii": {
-      "wikidata": "Q1193645",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Grapes",
-      "goodreads": "https://www.goodreads.com/book/show/33131659"
     },
     "wilhelm-tell": {
       "goodreads": "https://www.goodreads.com/book/show/14450928"
@@ -2973,9 +2897,6 @@
     },
     "zana-zorilor": {
       "goodreads": "https://www.goodreads.com/book/show/13027467"
-    },
-    "zdreanta": {
-      "goodreads": "https://www.goodreads.com/book/show/26790899"
     },
     "ziua-de-nastere-a-infantei": {
       "wikidata": "Q734607",

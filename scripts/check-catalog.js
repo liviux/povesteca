@@ -71,7 +71,7 @@ for (const v of versions) {
   if (!S.has(v.storyId)) err(`${at}: unknown storyId "${v.storyId}"`);
   if (!SRC.has(v.sourceId)) err(`${at}: unknown sourceId "${v.sourceId}"`);
   if (!v.title) err(`${at}: title is required`);
-  if (!Number.isInteger(v.duration) || v.duration <= 0) err(`${at}: duration must be seconds (integer > 0)`);
+  if (!Number.isInteger(v.duration) || v.duration < 180) err(`${at}: duration must be at least 180 seconds (3 minutes)`);
   if (v.year != null && (!Number.isInteger(v.year) || v.year < 1900 || v.year > 2100)) err(`${at}: bad year "${v.year}"`);
   if (v.addedAt != null && !/^\d{4}-\d{2}-\d{2}$/.test(v.addedAt)) err(`${at}: bad addedAt "${v.addedAt}"`);
   if (v.audioVerified != null && !/^\d{4}-\d{2}-\d{2}$/.test(v.audioVerified)) err(`${at}: bad audioVerified "${v.audioVerified}"`);
