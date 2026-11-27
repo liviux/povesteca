@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.5] - 2026-11-27
+
+### Changed
+- Regulile proiectului din `AGENTS.md` au fost actualizate cu regula pentru copertele generate automat când cel puțin 5 înregistrări împart aceeași imagine și cu publicarea implicită direct pe `main`.
+
 ## [1.41.4] - 2026-11-27
 
 ### Changed

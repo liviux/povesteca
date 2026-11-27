@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.5] - 2026-11-27
+
+### Changed
+- Updated the project guidelines in `AGENTS.md` to require automatically generated covers when at least 5 recordings share the same image, and to commit and push directly to `main` by default.
+
 ## [1.41.4] - 2026-11-27
 
 ### Changed
