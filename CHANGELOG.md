@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.1] - 2026-11-27
+
+### Changed
+- Textele de pe pagina „Despre proiect” au fost rescrise mai curat, fără linii de pauză și etichete îngroșate în listă.
+
 ## [1.41.0] - 2026-11-27
 
 ### Added

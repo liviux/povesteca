@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.1] - 2026-11-27
+
+### Changed
+- Cleaned up the wording on the “About the project” page, removing dashes and bold list labels.
+
 ## [1.41.0] - 2026-11-27
 
 ### Added

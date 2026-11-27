@@ -721,8 +721,8 @@ export function AboutPage() {
           <h2 id="about-catalog">{t.aboutCatalogH}</h2>
           <p>{t.aboutCatalogIntro}</p>
           <ul class="about-list">
-            {t.aboutRules.map(([head, body]) => (
-              <li key={head}><strong>{head}:</strong> {body}</li>
+            {t.aboutRules.map((rule) => (
+              <li key={rule}>{rule}</li>
             ))}
           </ul>
         </section>
