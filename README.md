@@ -1,6 +1,6 @@
 # Povesteca
 
-**Ascultă pe [povesteca.vercel.app](https://povesteca.vercel.app/)**
+**Ascultă pe [povesteca.top](https://povesteca.top/)**
 
 **1368 de povești și 1773 de înregistrări**
 

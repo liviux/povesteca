@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const base = process.env.SITE_URL || 'https://povesteca.vercel.app';
+const base = process.env.SITE_URL || 'https://povesteca.top';
 const load = (n) => JSON.parse(readFileSync(new URL(`../catalog/${n}.json`, import.meta.url), 'utf8'));
 const [stories, versions, sources, collections, wiki] = ['stories', 'versions', 'sources', 'collections', 'wiki'].map(load);
 

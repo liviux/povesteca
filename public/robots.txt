@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://povesteca.vercel.app/sitemap.xml
+Sitemap: https://povesteca.top/sitemap.xml

@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.2] - 2026-11-27
+
+### Changed
+- Domeniul oficial al aplicației a fost actualizat la povesteca.top.
+
 ## [1.41.1] - 2026-11-27
 
 ### Changed
