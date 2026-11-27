@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'preact/hooks';
 import {
   stories, versions, sources, collections, storyById, versionById, sourceById, collectionById, versionsByStory, versionsBySource,
-  allVersions, allVersionsByStory, allVersionsBySource, fits, storyFits, hiddenCount, limited,
+  allStories, allVersions, allVersionsByStory, allVersionsBySource, fits, storyFits, hiddenCount, limited,
   storiesByAuthor, authorsOf, collectionOf, peopleByVersion, catalogFilters, loadBrowse, norm, compareRo, cover, storyCover, portrait, linkUrl, linkLabel, duplicateMap, search, applyFilters, sortVersions, shuffle, bestVersion, FILTER_KEYS, DURATIONS, splitNames, REPO, personInfo, storyLinks, personUrl, rolesIn,
 } from './data.js';
 import { label, ENUMS, fmtDur, fmtTime } from './i18n.js';
@@ -699,11 +699,65 @@ export function SourcesPage() {
           );
         })}
       </ul>
-      <section class="rules" aria-labelledby="rules-h">
-        <h2 id="rules-h">{t.rulesH}</h2>
-        <p>{t.rules}</p>
-        <p>{t.suggest} <a href={`${REPO}/issues`} target="_blank" rel="noopener">{t.suggestLink}</a>.</p>
-      </section>
+    </main>
+  );
+}
+
+// ---------- About ----------
+export function AboutPage() {
+  useStore();
+  const [t] = useT();
+  useEffect(() => title(t.aboutProject), []);
+  const changes = typeof __COMMITS__ === 'number' && __COMMITS__ > 0 ? t.nChanges(__COMMITS__) : null;
+  return (
+    <main id="main" tabindex="-1" class="wrap page about-page">
+      <header class="page-head">
+        <h1>{t.aboutProject}</h1>
+        <p class="lead muted">{stats(t.nStories(allStories.length), t.nRec(allVersions.length), t.nSources(sources.length))}</p>
+        <p class="lead">{t.aboutLead}</p>
+      </header>
+      <div class="about-sections">
+        <section class="about-card" aria-labelledby="about-catalog">
+          <h2 id="about-catalog">{t.aboutCatalogH}</h2>
+          <p>{t.aboutCatalogIntro}</p>
+          <ul class="about-list">
+            {t.aboutRules.map(([head, body]) => (
+              <li key={head}><strong>{head}:</strong> {body}</li>
+            ))}
+          </ul>
+        </section>
+        <section class="about-card" aria-labelledby="about-built">
+          <h2 id="about-built">{t.aboutBuiltH}</h2>
+          <p>{t.aboutBuiltP1(changes)}</p>
+          <p>{t.aboutBuiltP2}</p>
+          <p>{t.aboutBuiltP3}</p>
+        </section>
+        <section class="about-card" aria-labelledby="about-features">
+          <h2 id="about-features">{t.aboutFeaturesH}</h2>
+          <ul class="about-features">
+            {t.aboutFeatures.map(([head, body]) => (
+              <li key={head}><h3>{head}</h3><p>{body}</p></li>
+            ))}
+          </ul>
+        </section>
+        <section class="about-card" aria-labelledby="about-privacy">
+          <h2 id="about-privacy">{t.aboutPrivacyH}</h2>
+          <p>{t.aboutPrivacyP1}</p>
+          <p>{t.aboutPrivacyP2}</p>
+          <div class="actions">
+            <a class="btn ghost" href="/surse">{t.aboutSeeSources}</a>
+          </div>
+        </section>
+        <section class="about-card about-contact" aria-labelledby="about-contact">
+          <h2 id="about-contact">{t.aboutContactH}</h2>
+          <p>{t.aboutContactP}</p>
+          <div class="actions">
+            <a class="btn primary" href="https://liviu.ovh" target="_blank" rel="noopener">liviu.ovh<Icon n="ext" size={16} /></a>
+            <a class="btn ghost" href={`${REPO}/issues`} target="_blank" rel="noopener">{t.aboutIssues}<Icon n="ext" size={16} /></a>
+            <a class="btn ghost" href={REPO} target="_blank" rel="noopener">{t.code}<Icon n="ext" size={16} /></a>
+          </div>
+        </section>
+      </div>
     </main>
   );
 }

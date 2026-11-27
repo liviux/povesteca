@@ -16,6 +16,7 @@ const entries = [
   ['/', null],
   ['/explorare', null],
   ['/surse', null],
+  ['/despre', null],
   ...stories.map((s) => [`/poveste/${encodeURIComponent(s.id)}`, s.addedAt || null]),
   ...versions.map((v) => [`/inregistrare/${encodeURIComponent(v.id)}`, v.addedAt || storyDate.get(v.storyId) || null]),
   ...Object.keys(wiki.people).map((n) => [`/persoana/${encodeURIComponent(n)}`, null]),

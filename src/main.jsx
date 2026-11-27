@@ -1,7 +1,7 @@
 import { render } from 'preact';
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { useRoute, useStore, useT, set, setPlayer, loadRatings, state } from './store.js';
-import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourcePage, CollectionPage, Mine, NotFound } from './pages.jsx';
+import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourcePage, CollectionPage, Mine, AboutPage, NotFound } from './pages.jsx';
 import { Dock, Night, surprise } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
@@ -164,7 +164,7 @@ function Header({ path }) {
   );
 }
 
-function Footer() {
+function Footer({ path }) {
   const [t] = useT();
   const [log, setLog] = useState(false);
   return (
@@ -174,7 +174,7 @@ function Footer() {
         <p class="foot-links">
           <button type="button" class="link-btn" title={t.version(version)} onClick={() => setLog(true)}>v{version} · {t.news}</button>
           <a href={REPO} target="_blank" rel="noopener">{t.code}<Icon n="ext" size={14} /></a>
-          <span class="foot-contact">{t.contact} - <a href="https://liviu.ovh" target="_blank" rel="noopener">liviu.ovh</a></span>
+          <a class="foot-about" href="/despre" aria-current={path === '/despre' ? 'page' : null}>{t.aboutProject}</a>
         </p>
       </div>
       {log && <Changelog onClose={() => setLog(false)} />}
@@ -213,13 +213,14 @@ function App() {
     : seg[0] === 'sursa' && seg[1] ? <SourcePage id={seg[1]} />
     : seg[0] === 'colectie' && seg[1] ? <CollectionPage id={seg[1]} />
     : seg[0] === 'ale-mele' ? <Mine />
+    : seg[0] === 'despre' && !seg[1] ? <AboutPage />
     : <NotFound />;
   return (
     <>
       <a class="skip-link" href="#main">{t.skip}</a>
       <Header path={path} />
       {page}
-      <Footer />
+      <Footer path={path} />
       <Dock />
       {s.player.night && <Night />}
       {!s.ageAsked && <AgeGate />}

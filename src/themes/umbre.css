@@ -28,7 +28,7 @@
 }
 /* black text with a halo of lamp light, so a shadow passing behind it never hides it */
 [data-theme='umbre'] main { text-shadow: 0 0 2px var(--screen), 0 0 6px var(--screen), 0 0 12px var(--screen); }
-[data-theme='umbre'] :is(.card, .vrow, .facts, .src-card, .filters, .hero-box, .search, .cast li, .col-list, .disc-nav, .combo-list, .btn, .chip, .tag,
+[data-theme='umbre'] :is(.card, .vrow, .facts, .src-card, .about-card, .filters, .hero-box, .search, .cast li, .col-list, .disc-nav, .combo-list, .btn, .chip, .tag,
   .badge, .mirror-btn, .fav-btn, .pick-btn, .combo-field, .skeleton-card, .removable .remove, .traits, .rate .stars button, .page-head .actions) { text-shadow: none; }
 [data-theme='umbre'] :is(h1, h2, h3) { font-weight: 700; letter-spacing: -0.005em; }
 [data-theme='umbre'] .lead, [data-theme='umbre'] .hero .lead { opacity: 1; color: var(--muted); }
@@ -110,7 +110,7 @@
 [data-theme='umbre'] .traits li { background: var(--surface-2); color: var(--ink); }
 
 /* ---- pages: lit paper panels with a black edge ---- */
-[data-theme='umbre'] :is(.facts, .vrow, .src-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, dialog.log, dialog.age-gate) { background: var(--surface); box-shadow: var(--shadow); }
+[data-theme='umbre'] :is(.facts, .vrow, .src-card, .about-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, dialog.log, dialog.age-gate) { background: var(--surface); box-shadow: var(--shadow); }
 [data-theme='umbre'] .col-list .fav-row a { box-shadow: none; }
 [data-theme='umbre'] .vrow.best { border-color: var(--accent); }
 [data-theme='umbre'] .detail-hero > .cover { box-shadow: 0 0 0 3px var(--ink), 0 0 0 9px rgb(255 228 170 / 60%), 0 0 60px rgb(255 214 140 / 90%); }

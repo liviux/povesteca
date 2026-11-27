@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.0] - 2026-11-27
+
+### Added
+- Pagină nouă „Despre proiect”, cu regulile catalogului, cum e construit și verificat proiectul, ce poți face în aplicație, ce date se păstrează și secțiunea de contact/feedback la final.
+
+### Changed
+- În subsolul paginii, linkul de contact a fost înlocuit cu „Despre proiect”, iar rezumatul regulilor de la finalul paginii Surse a fost scos.
+
 ## [1.40.2] - 2026-11-27
 
 ### Fixed

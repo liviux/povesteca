@@ -137,7 +137,7 @@
 [data-theme='radio'] .vrow.best { border-color: #c99a45; }
 [data-theme='radio'] .detail-hero > .cover { box-shadow: 0 0 0 4px #3b2112, 0 0 0 7px #c99a45, var(--shadow); }
 [data-theme='radio'] .person-photo { box-shadow: 0 0 0 4px #3b2112, 0 0 0 7px #c99a45; }
-[data-theme='radio'] .facts { border: 1px solid var(--line); }
+[data-theme='radio'] :is(.facts, .about-card) { border: 1px solid var(--line); }
 [data-theme='radio'] :is(dialog.log, dialog.age-gate) { border: 1px solid var(--line); }
 
 /* ---- the footer: walnut again ---- */

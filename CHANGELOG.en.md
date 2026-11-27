@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.0] - 2026-11-27
+
+### Added
+- New “About the project” page covering the catalogue rules, how the project is built and checked, what you can do in the app, what data is kept, and contact/feedback at the end.
+
+### Changed
+- Replaced the contact link in the footer with “About the project”, and removed the short rules section at the bottom of the Sources page.
+
 ## [1.40.2] - 2026-11-27
 
 ### Fixed

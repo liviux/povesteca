@@ -38,12 +38,12 @@
   background: repeating-linear-gradient(0deg, var(--weave) 0 1px, transparent 1px 4px), repeating-linear-gradient(90deg, var(--weave) 0 1px, transparent 1px 4px), var(--bg);
 }
 /* text set straight on the cloth gets a linen halo, so a motif behind it never gets in the way */
-[data-theme='ie'] :is(main h1, main h2, .lead, .eyebrow, .byline, .page-head, .detail-text, .results-head .count, .shelf-head, .site-foot, .empty, .rules, .tags, .photo-credit, .active-filters, .more, .detail-cols, .compare > li) {
+[data-theme='ie'] :is(main h1, main h2, .lead, .eyebrow, .byline, .page-head, .detail-text, .results-head .count, .shelf-head, .site-foot, .empty, .tags, .photo-credit, .active-filters, .more, .detail-cols, .compare > li) {
   text-shadow: 0 0 2px var(--halo), 0 0 4px var(--halo), 0 0 8px var(--halo), 0 0 14px var(--halo);
 }
-[data-theme='ie'] :is(.btn, .chip, .tag, .fav-btn, .card, .facts, .vrow, .stars, .rate, .src-card, .cast li, .mirror-btn, .pick-btn, .search, .badge) { text-shadow: none; }
+[data-theme='ie'] :is(.btn, .chip, .tag, .fav-btn, .card, .facts, .vrow, .stars, .rate, .src-card, .about-card, .cast li, .mirror-btn, .pick-btn, .search, .badge) { text-shadow: none; }
 /* and blocks of text sit on a patch of cloth ironed smooth: the motifs fade around them */
-[data-theme='ie'] :is(.page-head, .detail-text, .detail-cols > section > h2, main > section > .shelf-head, .results-head, .active-filters, .rules, .empty-page, .photo-credit, .site-foot .wrap) {
+[data-theme='ie'] :is(.page-head, .detail-text, .detail-cols > section > h2, main > section > .shelf-head, .results-head, .active-filters, .empty-page, .photo-credit, .site-foot .wrap) {
   --scrim: color-mix(in srgb, var(--bg) 88%, transparent);
   background: var(--scrim); box-shadow: 0 0 16px 12px var(--scrim); border-radius: 12px;
 }
@@ -63,7 +63,7 @@
 [data-theme='ie'] :is(.chip[aria-pressed='true'], .chip.on) { border-style: solid; background: var(--primary); border-color: var(--primary); color: var(--primary-ink); }
 [data-theme='ie'] .tag { border-radius: 3px; background: var(--surface); border: 1.5px dashed color-mix(in srgb, var(--ink) 30%, transparent); }
 [data-theme='ie'] .tag:hover { border-color: var(--primary); background: var(--surface-2); }
-[data-theme='ie'] :is(.vrow, .facts, .src-card, .filters, .cast li, .disc-nav, .theme-pop, dialog.log, dialog.age-gate, .col-list .fav-row, .combo-list) {
+[data-theme='ie'] :is(.vrow, .facts, .src-card, .about-card, .filters, .cast li, .disc-nav, .theme-pop, dialog.log, dialog.age-gate, .col-list .fav-row, .combo-list) {
   border-radius: 4px; outline: 1.5px dashed var(--stitch); outline-offset: -6px;
 }
 [data-theme='ie'] .col-list .fav-row a { border: 0; }

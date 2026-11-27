@@ -101,7 +101,7 @@
 /* pages */
 [data-theme='plastilina'] .detail-hero { background: var(--surface); border-radius: 40px; padding: 20px; box-shadow: var(--shadow); }
 [data-theme='plastilina'] .detail-hero > .cover { border: 6px solid var(--surface); box-shadow: var(--shadow); rotate: -2deg; }
-[data-theme='plastilina'] .vrow, [data-theme='plastilina'] .src-card { border-radius: 30px; }
+[data-theme='plastilina'] .vrow, [data-theme='plastilina'] .src-card, [data-theme='plastilina'] .about-card { border-radius: 30px; }
 [data-theme='plastilina'] .dock-bar { margin: 0 8px 8px; border: 0; border-radius: 28px; box-shadow: 0 -2px 30px rgb(0 0 0 / 16%), var(--clay); }
 .sw-plastilina i { background: radial-gradient(circle at 34% 28%, #fffc 0 16%, transparent 18%), conic-gradient(#c63d31 0 34%, #ffc94d 0 67%, #6aa3f2 0); box-shadow: inset 0 -3px 4px #0003; }
 
@@ -142,7 +142,7 @@
 [data-theme='caiet'] :is(.btn, .fav-btn):active { translate: 2px 3px; box-shadow: none; }
 [data-theme='caiet'] .tag { background: var(--surface); }
 [data-theme='caiet'] .tag:hover { background: var(--accent); color: var(--accent-ink); }
-[data-theme='caiet'] :is(.search, .facts, .vrow, .src-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, .combo-field input, .theme-pop, dialog.log, dialog.age-gate) { border: 2px solid var(--ink); border-radius: var(--wobble-box); }
+[data-theme='caiet'] :is(.search, .facts, .vrow, .src-card, .about-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, .combo-field input, .theme-pop, dialog.log, dialog.age-gate) { border: 2px solid var(--ink); border-radius: var(--wobble-box); }
 [data-theme='caiet'] .col-list .fav-row a { border: 0; }
 [data-theme='caiet'] .vrow.best { box-shadow: var(--shadow), inset 0 0 0 3px var(--accent); }
 /* the welcome: a highlighted title, the search on a sticky note */
@@ -736,6 +736,6 @@
 [data-theme='abtibild'] .vrow.best { box-shadow: var(--shadow), 0 0 0 5px var(--accent); }
 /* pages: the cover is a crooked sticker */
 [data-theme='abtibild'] .detail-hero > .cover { box-shadow: var(--shadow); rotate: -3deg; margin: 8px; }
-[data-theme='abtibild'] :is(.facts, .src-card, .vrow, .filters, .cast li, .col-list a, .col-list .fav-row) { margin: 5px; }
+[data-theme='abtibild'] :is(.facts, .src-card, .about-card, .vrow, .filters, .cast li, .col-list a, .col-list .fav-row) { margin: 5px; }
 [data-theme='abtibild'] :is(.cast, .col-list) { gap: 18px 20px; }
 .sw-abtibild i { background: oklch(52% .215 2); box-shadow: 0 0 0 3px #fff, 2px 3px 0 3px #222; rotate: -8deg; scale: .8; }
