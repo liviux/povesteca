@@ -18,7 +18,7 @@ import { label } from './src/i18n.js';
 const FILES = ['stories', 'versions', 'sources', 'collections', 'wiki'];
 const REMOVE = {
   stories: ['summary', 'characters', 'themes', 'age', 'addedAt'],
-  versions: ['estimated', 'credits', 'disc'],
+  versions: ['estimated', 'credits', 'disc', 'audioVerified'],
 };
 const COMMON = {
   stories: ['characters', 'themes'],

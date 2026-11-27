@@ -32809,5 +32809,122 @@
     },
     "year": 2021,
     "origin": "romanian"
+  },
+  {
+    "id": "pomul-cu-merele-de-aur",
+    "title": "Pomul cu merele de aur",
+    "author": "Frații Grimm",
+    "genre": "basm",
+    "themes": [
+      "familie",
+      "magie",
+      "bunatate",
+      "animale"
+    ],
+    "characters": [
+      "Doi-Ochi",
+      "Un-Ochi",
+      "Trei-Ochi",
+      "Căprița",
+      "Cavalerul"
+    ],
+    "summary": {
+      "ro": "Prigonită de mama și surorile ei pentru că are doi ochi ca toți oamenii, o fată blândă primește ajutorul unei căprițe și al unui pom fermecat cu frunze de argint și mere de aur care se pleacă doar în fața bunătății.",
+      "en": "Mistreated by her mother and sisters for having two eyes like everyone else, a kind girl is helped by a magical goat and a silver-and-gold apple tree that bends its branches only for her gentle heart."
+    },
+    "year": 1815,
+    "origin": "german"
+  },
+  {
+    "id": "pazitoarea-de-gaste-de-la-fantana",
+    "title": "Păzitoarea de gâște de la fântână",
+    "author": "Frații Grimm",
+    "genre": "basm",
+    "themes": [
+      "bunatate",
+      "dreptate",
+      "familie",
+      "magie"
+    ],
+    "characters": [
+      "Bătrâna",
+      "Păzitoarea de gâște",
+      "Contele",
+      "Regele"
+    ],
+    "summary": {
+      "ro": "Alungată de tatăl ei după ce i-a spus că îl iubește ca pe sare, o prințesă găsește adăpost în munți la o bătrână înțeleaptă și păzește gâștele până când adevărul și lacrimile ei prefăcute în perle o reunesc cu familia.",
+      "en": "Banished by her father after comparing her love to salt, a princess lives humbly herding geese in the mountains for a wise old woman until the truth and her pearl-tears reunite her family."
+    },
+    "year": 1843,
+    "origin": "german"
+  },
+  {
+    "id": "croitorasul-cel-istet",
+    "title": "Croitorașul cel isteț",
+    "author": "Frații Grimm",
+    "genre": "basm",
+    "themes": [
+      "istetime",
+      "curaj",
+      "umor",
+      "animale"
+    ],
+    "characters": [
+      "Croitorașul",
+      "Prințesa",
+      "Ursul"
+    ],
+    "summary": {
+      "ro": "Un croitoraș isteț îi dezleagă ghicitoarea unei prințese mândre și o păcălește apoi prin prezență de spirit și muzică pe încercarea nopții petrecute în grajd cu un urs fioros.",
+      "en": "A clever young tailor solves a proud princess’s riddle and uses quick wits and his fiddle to outsmart the final test of spending a night locked in a stable with a bear."
+    },
+    "year": 1815,
+    "origin": "german"
+  },
+  {
+    "id": "prietenia-dintre-pisica-si-soarece",
+    "title": "Prietenia dintre pisică și șoarece",
+    "author": "Frații Grimm",
+    "genre": "basm",
+    "themes": [
+      "animale",
+      "inselaciune",
+      "prietenie"
+    ],
+    "characters": [
+      "Pisica",
+      "Șoarecele"
+    ],
+    "summary": {
+      "ro": "O pisică și un șoarece pun deoparte un borcan cu untură pentru iarnă, dar pisica îl golește pe furiș inventând nume năstrușnice de botez la fiecare drum.",
+      "en": "A cat and a mouse store away a pot of fat for winter, but the cat sneaks back to eat it all while inventing playful excuses each time she returns."
+    },
+    "year": 1812,
+    "origin": "german"
+  },
+  {
+    "id": "cei-trei-omuleti-din-padure",
+    "title": "Cei trei omuleți din pădure",
+    "author": "Frații Grimm",
+    "genre": "basm",
+    "themes": [
+      "iarna",
+      "bunatate",
+      "magie",
+      "familie"
+    ],
+    "characters": [
+      "Fata cea bună",
+      "Mama vitregă",
+      "Cei trei omuleți",
+      "Regele"
+    ],
+    "summary": {
+      "ro": "Trimisă în miez de iarnă cu o rochiță de hârtie să culeagă fragi, o fată bună la suflet împarte pâinea cu trei omuleți din pădure și este răsplătită cu daruri minunate.",
+      "en": "Sent into the winter snow in a paper dress to pick strawberries, a kind girl shares her bread with three little men in the woods and is rewarded with wonderful gifts."
+    },
+    "year": 1812,
+    "origin": "german"
   }
 ]

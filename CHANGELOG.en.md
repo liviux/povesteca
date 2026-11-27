@@ -2,6 +2,14 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.39.0] - 2026-11-27
+
+### Added
+- **New stories:** 20 additional classic fairy tales from the “Ora Magică” podcast (Brothers Grimm, Hans Christian Andersen, and Ion Creangă), with direct audio playback and YouTube backup links.
+
+### Fixed
+- Filled in and corrected audio-verified metadata (sound effects, music, production quality, cast credits, and playback boundaries) across YouTube recordings in the catalog.
+
 ## [1.38.0] - 2026-11-26
 
 ### Added

@@ -26,6 +26,7 @@ Rules for every AI agent working in this repository (Claude, Codex, Copilot, Cur
 - Fill in the metadata of every story and recording you add, not only the required fields: summary (Romanian and English), genre, themes, characters, origin and year for the story; kind, voices, sound effects, music, moods, age, credits and year for the recording. Work from the source's description, the recording itself and reliable references.
 - `duration`, `start` and `end` are in seconds. `quality` (1–5) says how rich the production is (cast, music, direction), not how popular it is; it only feeds the “Recomandate” order. `"cover": false` marks a recording with no cover at the source, so the app draws the story's initial instead of archive.org's black waveform. The allowed values of `kind`, `voices`, `sfx`, `music`, `moods` and `genre` are in `scripts/check-catalog.js`. An archive.org file name and duration are at `https://archive.org/metadata/IDENTIFIER` (field `length`).
 - Never invent data. Facts (duration, years, director, cast, other credits) come only from the source or a reliable reference; what you can't find stays empty. Judgements you make from listening or from the description (kind, voices, sound effects, music, moods, age) go in `estimated`, so the page marks them with “≈”.
+- Every recording carries two internal `YYYY-MM-DD` dates (stripped from the browser build by `vite.config.js`): `addedAt` (when it joined the catalog) and `audioVerified` (when its real audio was last verified for eligibility and extra metadata).
 
 ## People and books
 

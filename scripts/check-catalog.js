@@ -71,6 +71,8 @@ for (const v of versions) {
   if (!v.title) err(`${at}: title is required`);
   if (!Number.isInteger(v.duration) || v.duration <= 0) err(`${at}: duration must be seconds (integer > 0)`);
   if (v.year != null && (!Number.isInteger(v.year) || v.year < 1900 || v.year > 2100)) err(`${at}: bad year "${v.year}"`);
+  if (v.addedAt != null && !/^\d{4}-\d{2}-\d{2}$/.test(v.addedAt)) err(`${at}: bad addedAt "${v.addedAt}"`);
+  if (v.audioVerified != null && !/^\d{4}-\d{2}-\d{2}$/.test(v.audioVerified)) err(`${at}: bad audioVerified "${v.audioVerified}"`);
   for (const k of ['kind', 'voices', 'sfx', 'music']) if (v[k] != null && !ENUM[k].includes(v[k])) err(`${at}: ${k} "${v[k]}"`);
   const moods = Array.isArray(v.moods) ? v.moods : [];
   if (!Array.isArray(v.moods)) err(`${at}: moods must be an array (use [] when unknown)`);

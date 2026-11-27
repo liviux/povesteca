@@ -2,6 +2,14 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.39.0] - 2026-11-27
+
+### Added
+- **Povești noi:** 20 de basme clasice noi din podcastul „Ora Magică” (Frații Grimm, Hans Christian Andersen și Ion Creangă), cu redare audio directă și sursă de rezervă YouTube.
+
+### Fixed
+- Completarea și corectarea informațiilor verificate audio (efecte sonore, muzică, calitate, distribuții și limite de redare) pentru înregistrările YouTube din catalog.
+
 ## [1.38.0] - 2026-11-26
 
 ### Added
