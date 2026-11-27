@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Rules for every AI agent working in this repository (Claude, Codex, Copilot, Cursor and others). Read this file before making changes and follow it for the whole session.
+Rules for every AI agent working in this repository. Read this file before making changes and follow it for the whole session.
 
 ## Guides
 
