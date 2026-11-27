@@ -46427,8 +46427,8 @@
     "year": 2023,
     "kind": "narata",
     "voices": "narator",
-    "sfx": "fara",
-    "music": "fara",
+    "sfx": "discrete",
+    "music": "ambientala",
     "moods": [
       "somn",
       "magica"
@@ -92173,7 +92173,7 @@
     "year": 2020,
     "kind": "narata",
     "voices": "narator",
-    "sfx": "fara",
+    "sfx": "discrete",
     "music": "fara",
     "moods": [
       "aventuroasa",
@@ -92453,7 +92453,7 @@
     "year": 2023,
     "kind": "narata",
     "voices": "narator",
-    "sfx": "fara",
+    "sfx": "discrete",
     "music": "ambientala",
     "moods": [
       "aventuroasa",
@@ -93506,8 +93506,8 @@
   },
   {
     "id": "spargatorul-de-nuci-cavalerul-jucariilor-culturalia-2003",
-    "storyId": "cavalerul-jucariilor",
-    "title": "Cavalerul jucăriilor",
+    "storyId": "spargatorul-de-nuci",
+    "title": "Cavalerul jucăriilor (adaptare după Spărgătorul de nuci)",
     "sourceId": "culturalia-pe-unde",
     "links": [
       {

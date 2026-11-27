@@ -30820,27 +30820,6 @@
     "addedAt": "2026-11-26"
   },
   {
-    "id": "cavalerul-jucariilor",
-    "title": "Cavalerul jucăriilor",
-    "author": "Cristian Mitescu",
-    "genre": "poveste",
-    "themes": [
-      "jucarii",
-      "magie",
-      "aventura"
-    ],
-    "characters": [
-      "Hans",
-      "Zâna"
-    ],
-    "summary": {
-      "ro": "O poveste radiofonică scrisă de Cristian Mitescu în care jucăriile prind viață într-o aventură magică alături de Hans și Zâna.",
-      "en": "A radio story written by Cristian Mitescu in which toys come to life in a magical adventure alongside Hans and the Fairy."
-    },
-    "origin": "romanian",
-    "addedAt": "2026-11-26"
-  },
-  {
     "id": "lupul-alb-si-ciubotelele-rosii",
     "title": "Lupul alb și ciuboțelele roșii",
     "author": "Charles Perrault",

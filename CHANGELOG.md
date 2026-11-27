@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.40.2] - 2026-11-27
+
+### Fixed
+- Refacerea legăturii pentru „Cavalerul jucăriilor” sub povestea „Spărgătorul de nuci” și corectarea datelor despre muzică, efecte sonore și legăturilor Wikipedia și Goodreads pentru câteva înregistrări și autori.
+
 ## [1.40.1] - 2026-11-27
 
 ### Fixed

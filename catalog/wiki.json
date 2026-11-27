@@ -1825,8 +1825,8 @@
     },
     "François-Guillaume Ducray-Duminil": {
       "wikidata": "Q2072208",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Guillaume_Ducray-Duminil",
-      "goodreads": "https://www.goodreads.com/author/show/30478472",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Guillaume_Ducray-Duminil",
+      "goodreads": "https://www.goodreads.com/author/show/3158209",
       "photo": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg/330px-Ducray-Duminil%2C_Fran%C3%A7ois-Guillaume%2C_d%27apr%C3%A8s_Romagnesi.jpg",
         "page": "https://commons.wikimedia.org/wiki/File:Ducray-Duminil,_Fran%C3%A7ois-Guillaume,_d%27apr%C3%A8s_Romagnesi.jpg",
@@ -3640,7 +3640,8 @@
         "page": "https://commons.wikimedia.org/wiki/File:Mihai_Manescu_-_Writer.jpg",
         "license": "CC BY-SA 4.0",
         "by": "TaminoM"
-      }
+      },
+      "wikidata": "Q117303924"
     },
     "Mihai Popescu": {
       "wikidata": "Q20817004",
