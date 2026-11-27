@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.3] - 2026-11-27
+
+### Changed
+- Înregistrările din Arhiva Radio România, Radio Moldova și eTeatru care împărțeau aceeași imagine între mai mult de 5 povești folosesc acum coperte generate automat pentru fiecare titlu.
+
 ## [1.41.2] - 2026-11-27
 
 ### Changed
