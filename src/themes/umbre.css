@@ -54,7 +54,7 @@
 [data-theme='umbre'] .nav-link[aria-current='page'] { color: #ffd48a; box-shadow: inset 0 -3px 0 var(--gold); }
 [data-theme='umbre'] .site-head :focus-visible, [data-theme='umbre'] .site-foot :focus-visible { outline-color: #ffd48a; }
 [data-theme='umbre'] .theme-pop { color: var(--ink); background: var(--surface); box-shadow: 0 0 0 2px var(--ink), 0 18px 40px -10px rgb(30 10 0 / 70%); }
-[data-theme='umbre'] .theme-pop :focus-visible { outline-color: var(--ink); }
+[data-theme='umbre'] :is(.theme-pop, dialog) :focus-visible { outline-color: var(--ink); }
 [data-theme='umbre'] .age-badge { background: var(--gold); color: var(--ink); }
 
 /* red curtains at the sides, where a wide screen leaves room outside the page */
@@ -110,7 +110,7 @@
 [data-theme='umbre'] .traits li { background: var(--surface-2); color: var(--ink); }
 
 /* ---- pages: lit paper panels with a black edge ---- */
-[data-theme='umbre'] :is(.facts, .vrow, .src-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, dialog.log) { background: var(--surface); box-shadow: var(--shadow); }
+[data-theme='umbre'] :is(.facts, .vrow, .src-card, .filters, .cast li, .col-list a, .col-list .fav-row, .disc-nav, .combo-list, dialog.log, dialog.age-gate) { background: var(--surface); box-shadow: var(--shadow); }
 [data-theme='umbre'] .col-list .fav-row a { box-shadow: none; }
 [data-theme='umbre'] .vrow.best { border-color: var(--accent); }
 [data-theme='umbre'] .detail-hero > .cover { box-shadow: 0 0 0 3px var(--ink), 0 0 0 9px rgb(255 228 170 / 60%), 0 0 60px rgb(255 214 140 / 90%); }

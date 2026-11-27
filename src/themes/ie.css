@@ -63,7 +63,7 @@
 [data-theme='ie'] :is(.chip[aria-pressed='true'], .chip.on) { border-style: solid; background: var(--primary); border-color: var(--primary); color: var(--primary-ink); }
 [data-theme='ie'] .tag { border-radius: 3px; background: var(--surface); border: 1.5px dashed color-mix(in srgb, var(--ink) 30%, transparent); }
 [data-theme='ie'] .tag:hover { border-color: var(--primary); background: var(--surface-2); }
-[data-theme='ie'] :is(.vrow, .facts, .src-card, .filters, .cast li, .disc-nav, .theme-pop, dialog.log, .col-list .fav-row, .combo-list) {
+[data-theme='ie'] :is(.vrow, .facts, .src-card, .filters, .cast li, .disc-nav, .theme-pop, dialog.log, dialog.age-gate, .col-list .fav-row, .combo-list) {
   border-radius: 4px; outline: 1.5px dashed var(--stitch); outline-offset: -6px;
 }
 [data-theme='ie'] .col-list .fav-row a { border: 0; }

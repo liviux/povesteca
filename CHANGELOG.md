@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.40.0] - 2026-11-27
+
+### Added
+- La prima vizită apare o fereastră în care alegi vârsta maximă a copilului, cu o scurtă explicație și numărul de povești și înregistrări ascunse pentru vârsta aleasă.
+
 ## [1.39.0] - 2026-11-27
 
 ### Added

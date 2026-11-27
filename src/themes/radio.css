@@ -138,6 +138,7 @@
 [data-theme='radio'] .detail-hero > .cover { box-shadow: 0 0 0 4px #3b2112, 0 0 0 7px #c99a45, var(--shadow); }
 [data-theme='radio'] .person-photo { box-shadow: 0 0 0 4px #3b2112, 0 0 0 7px #c99a45; }
 [data-theme='radio'] .facts { border: 1px solid var(--line); }
+[data-theme='radio'] :is(dialog.log, dialog.age-gate) { border: 1px solid var(--line); }
 
 /* ---- the footer: walnut again ---- */
 [data-theme='radio'] .site-foot { background: var(--walnut); color: #ecd9b6; border-top: 0; box-shadow: 0 -4px 0 #d8ad55, 0 -7px 0 #6e4a1c; margin-top: 7px; }

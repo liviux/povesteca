@@ -5,7 +5,7 @@ import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourceP
 import { Dock, Night, surprise } from './player.jsx';
 import { Icon } from './ui.jsx';
 import { Changelog } from './changelog.jsx';
-import { REPO, loadDetails, loadError, setMaxAge, stories, versions, allStories, allVersions } from './data.js';
+import { REPO, loadDetails, loadError, setMaxAge, stories, versions, allStories, allVersions, allVersionsByStory } from './data.js';
 import { version } from '../package.json';
 import './styles.css';
 import './themes.css';
@@ -80,6 +80,60 @@ function Settings() {
         </div>
       )}
     </div>
+  );
+}
+
+// First-visit dialog: explains the maximum age filter and requires the parent to pick one before continuing.
+function AgeGate() {
+  const [t] = useT();
+  const ref = useRef();
+  const done = useRef(false);
+  const [picked, setPicked] = useState(null);
+  useEffect(() => {
+    if (ref.current && !ref.current.open) ref.current.showModal();
+  }, []);
+  const fitsPick = (v) => (v.age || 0) <= picked;
+  const hidV = picked == null ? 0 : allVersions.filter((v) => !fitsPick(v)).length;
+  const hidS = picked == null ? 0 : allStories.filter((st) => !(allVersionsByStory.get(st.id) || []).some(fitsPick)).length;
+  const confirm = () => {
+    if (picked == null) return;
+    done.current = true;
+    ref.current?.close();
+    setMaxAge(picked);
+    set({ ageAsked: true });
+  };
+  return (
+    <dialog
+      ref={ref}
+      class="age-gate"
+      closedby="none"
+      aria-labelledby="age-gate-h"
+      aria-describedby="age-gate-desc"
+      onCancel={(e) => e.preventDefault()}
+      onKeyDown={(e) => e.key === 'Escape' && e.preventDefault()}
+      onClose={() => { if (!done.current && ref.current && !ref.current.open) ref.current.showModal(); }}
+    >
+      <div class="age-gate-inner">
+        <h2 id="age-gate-h" class="age-gate-title">{t.ageGateH}</h2>
+        <p class="age-gate-desc" id="age-gate-desc">{t.ageGateDesc}</p>
+        <div class="age-gate-grid" role="group" aria-label={t.maxAge} aria-describedby="age-gate-status">
+          {[3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
+            <button type="button" class="chip" aria-pressed={picked === n} aria-label={t.ageOpt(n)} onClick={() => setPicked(n)}>{n}</button>
+          ))}
+        </div>
+        <p class="age-gate-status" id="age-gate-status" aria-live="polite">
+          {picked == null
+            ? t.ageGatePick
+            : hidV > 0
+              ? t.ageGateHides(picked, t.nStories(hidS), t.nRec(hidV))
+              : t.ageGateAll(picked, t.nStories(allStories.length), t.nRec(allVersions.length))}
+        </p>
+        <div class="age-gate-foot">
+          <p class="age-gate-note">{t.ageGateLater}</p>
+          <button type="button" class="btn primary" disabled={picked == null} onClick={confirm}>{t.ageGateOk}</button>
+        </div>
+      </div>
+    </dialog>
   );
 }
 
@@ -168,6 +222,7 @@ function App() {
       <Footer />
       <Dock />
       {s.player.night && <Night />}
+      {!s.ageAsked && <AgeGate />}
     </>
   );
 }
