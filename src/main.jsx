@@ -1,4 +1,5 @@
 import { render } from 'preact';
+import { inject } from '@vercel/analytics';
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { useRoute, useStore, useT, set, setPlayer, loadRatings, state } from './store.js';
 import { Home, Explore, StoryPage, VersionPage, PersonPage, SourcesPage, SourcePage, CollectionPage, Mine, AboutPage, NotFound } from './pages.jsx';
@@ -12,6 +13,9 @@ import './themes.css';
 import './themes/ie.css';
 import './themes/umbre.css';
 import './themes/radio.css';
+
+// Anonymous, cookieless traffic counts; Vercel's script also counts in-app page changes.
+inject();
 
 // in pairs, each pair built on one design guide (see themes.css)
 const THEMES = ['clasic', 'plastilina', 'caiet', 'galerie', 'afis', 'harta', 'cosmos', 'jeleu', 'vinil', 'hartie', 'abtibild', 'ie', 'umbre', 'radio'];

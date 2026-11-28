@@ -1,7 +1,7 @@
 {
   "name": "povesteca",
   "private": true,
-  "version": "1.41.9",
+  "version": "1.41.10",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +11,7 @@
     "fonts": "python3 scripts/subset-fonts.py"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "hls.js": "^1.7.4",
     "preact": "^11.2.0",
     "three": "^0.187.0"

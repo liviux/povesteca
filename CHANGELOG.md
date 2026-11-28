@@ -2,6 +2,11 @@
 
 Toate schimbările din Povesteca, cele mai noi primele. Aceeași listă apare în aplicație, la „Noutăți”, în subsolul paginii. Versiunea în engleză e în [CHANGELOG.en.md](CHANGELOG.en.md).
 
+## [1.41.10] - 2026-11-28
+
+### Changed
+- Site-ul numără vizitele în mod anonim, fără cookie-uri, ca să știm câte persoane ascultă poveștile.
+
 ## [1.41.9] - 2026-11-27
 
 ### Changed

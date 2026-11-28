@@ -86,7 +86,7 @@ Când o înregistrare are mai multe linkuri, alegi din player pe care îl ascul�
 
 - Favoritele, istoricul, poziția din fiecare poveste, viteza de redare, tema, limba și vârsta maximă stau doar în browserul tău. Nu sunt trimise nicăieri și dispar dacă ștergi datele site-ului.
 - Pentru voturi se păstrează doar suma și numărul lor pentru fiecare înregistrare. Ca să limiteze voturile repetate, serverul ține un hash al IP-ului, care se șterge singur după cel mult 24 de ore.
-- Nu există conturi, cookie-uri proprii sau statistici de trafic.
+- Nu există conturi sau cookie-uri proprii.
 - Fonturile vin chiar de pe site-ul Povesteca, nu de la Google. Copertele mari (Discogs, Libsyn, CloudFront, eteatru, SRR, Radio Moldova, Radio Târgu Mureș, MiniPovești, Poveștile Cristinei) sunt redimensionate de `wsrv.nl` înainte să ajungă în pagină; cererea către acel serviciu conține adresa imaginii și IP-ul tău, ca orice cerere web, iar Povesteca nu le stochează. Copertele de pe YouTube și Internet Archive și fotografiile oamenilor se încarcă direct de la sursă; Wikimedia își servește propriile miniaturi. Sunetul și playerul video se încarcă de la Internet Archive, YouTube și sursele audio directe din catalog.
 
 ## Voturi

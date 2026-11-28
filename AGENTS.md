@@ -43,7 +43,7 @@ Rules for every AI agent working in this repository. Read this file before makin
 
 - Nothing is downloaded or stored from any source. Recordings and videos stay where they are published and play through the platforms' own players. Large covers (Discogs, Libsyn, CloudFront, eteatru, SRR, Radio Moldova, Radio Târgu Mureș, MiniPovești, Poveștile Cristinei) pass through `wsrv.nl` only to be resized; YouTube and Internet Archive covers and people's portraits come directly from their source. Povesteca stores no copy, and the README says what that request contains.
 - The YouTube player stays visible on the page, and the app doesn't get around YouTube stopping playback when the phone screen locks.
-- No accounts, cookies, analytics or ads. Ask before any change that touches this, and update “Ce date se păstrează” in `README.md` when it lands.
+- No accounts, cookies or ads. Analytics are limited to Vercel Web Analytics (cookieless, aggregated, no personal identifiers). Ask before any change that touches this, and update “Ce date se păstrează” in `README.md` when it lands.
 
 ## Interface
 

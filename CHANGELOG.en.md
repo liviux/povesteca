@@ -2,6 +2,11 @@
 
 Every change to Povesteca, newest first. The app shows the same list under “What's new” in the page footer. The Romanian version is [CHANGELOG.md](CHANGELOG.md).
 
+## [1.41.10] - 2026-11-28
+
+### Changed
+- The site now counts visits anonymously, without cookies, so we know how many people listen to the stories.
+
 ## [1.41.9] - 2026-11-27
 
 ### Changed
